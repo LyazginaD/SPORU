@@ -6,7 +6,11 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>d2fb5fc4-6d56-44ac-b4a4-5eac46fb0d17</dataFileGUID>
+<<<<<<< HEAD
+   <dataSourceUrl>D:\Тестирование\СПОРУ\Test Suites\СПОРУ 02.10 Лязгина\Data Files\ПланФакт.xls</dataSourceUrl>
+=======
    <dataSourceUrl>D:\Тестирование\git\SPORU\Data Files\ПланФакт1.xls</dataSourceUrl>
+>>>>>>> refs/heads/master
    <driver>ExcelFile</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>

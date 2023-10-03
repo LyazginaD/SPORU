@@ -29,7 +29,13 @@ WebUI.click(findTestObject('Страница авторизации/button_'))
 
 WebUI.delay(10)
 
+<<<<<<< HEAD
+String dZO = WebUI.getText(findTestObject('Факторный анализ/Фильтр ДЗО'))
+
+println(dZO)
+=======
 String dZO = WebUI.getText(findTestObject('Планорный анализ/Фильтр ДЗО'))
 
 println(dZO)
 
+>>>>>>> refs/heads/master

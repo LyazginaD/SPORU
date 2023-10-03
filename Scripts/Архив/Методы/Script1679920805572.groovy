@@ -56,6 +56,19 @@ b = a.replace('[A]', '')
 
 println(b)
 
+<<<<<<< HEAD
+//length()
+
+c = a.length()
+
+println(c)
+
+//Дата
+
+Date date = new Date()
+String todaysDate = date.format("dd.MM.yyyy")
+println(todaysDate)
+=======
 'удаление переносов'
 String percents1
 
@@ -96,3 +109,4 @@ a = a.replaceAll('\\d+','')//удалить все цифры
 c = a.count(' ')//посчитать количество пробелов
 
 a = a.replace('.','')//удалить все точки
+>>>>>>> refs/heads/master
