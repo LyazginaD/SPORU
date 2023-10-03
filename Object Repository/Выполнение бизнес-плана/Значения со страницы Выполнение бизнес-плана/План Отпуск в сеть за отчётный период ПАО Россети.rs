@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>План Отпуск в сеть за отчётный период ПАО Россети</name>
+   <tag></tag>
+   <elementGuidId>f65aa304-b4a0-4a2b-8223-f9f63e950a5c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#grid-87b4b20d97974fcf8029a07242ba1c4f</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Итого – План'])[1]/following::td[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>ca85cf7a-9b01-4ef9-b7ab-5abdeade504b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>grid-87b4b20d97974fcf8029a07242ba1c4f</value>
+      <webElementGuid>4e4281c6-40c5-465d-a2d3-a754eb59007d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Отпуск в сеть	234 450 252Отпуск из сети	211 523 207Потери	22 927 044</value>
+      <webElementGuid>263eee2a-bc6e-4879-8768-f30721ca752b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;grid-87b4b20d97974fcf8029a07242ba1c4f&quot;)</value>
+      <webElementGuid>ac0aaf38-fc23-4189-a80e-982e99d315d9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@id='grid-87b4b20d97974fcf8029a07242ba1c4f']</value>
+      <webElementGuid>74c852e4-4a6e-4868-9176-08a1fae6dcf0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='87b4b20d97974fcf8029a07242ba1c4f']/div</value>
+      <webElementGuid>d6d5b5bc-2aed-4d17-819d-ff9fde6f0652</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Итого – План'])[1]/following::div[3]</value>
+      <webElementGuid>1133424d-7b8d-4700-b612-89c41c3ea002</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='В начало'])[76]/following::div[9]</value>
+      <webElementGuid>324206b0-7c53-40dd-96ed-c8c4cf9a03dc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[152]/div[2]/div/div</value>
+      <webElementGuid>874203dc-2987-42ca-b66b-8e8f006d2240</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'grid-87b4b20d97974fcf8029a07242ba1c4f' and (text() = 'Отпуск в сеть	234 450 252Отпуск из сети	211 523 207Потери	22 927 044' or . = 'Отпуск в сеть	234 450 252Отпуск из сети	211 523 207Потери	22 927 044')]</value>
+      <webElementGuid>056080fd-a431-46ff-9e67-eeae076841ea</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

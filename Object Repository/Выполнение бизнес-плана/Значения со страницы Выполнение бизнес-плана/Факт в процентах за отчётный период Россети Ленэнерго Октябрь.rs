@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Факт в процентах за отчётный период Россети Ленэнерго Октябрь</name>
+   <tag></tag>
+   <elementGuidId>546d12da-b379-454d-a42a-63d4ce6ca646</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='9.55']/parent::*</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#highcharts-f70z3h8-1190 > svg.highcharts-root > g.highcharts-data-labels.highcharts-series-1.highcharts-column-series.highcharts-tracker > g.highcharts-label.highcharts-data-label.highcharts-data-label-color-undefined > text</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>7ffa4279-5add-4d91-8db0-764cc5d205b2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>x</name>
+      <type>Main</type>
+      <value>5</value>
+      <webElementGuid>5b94525b-59d3-431e-a1c9-4a3ddc65124d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-z-index</name>
+      <type>Main</type>
+      <value>1</value>
+      <webElementGuid>c248a7f1-766c-461a-9e44-3970df5b2de7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>y</name>
+      <type>Main</type>
+      <value>19</value>
+      <webElementGuid>e878f529-4fd3-445f-9276-f057b9c6b955</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>9.55 ​9.55 </value>
+      <webElementGuid>0fd88931-6e07-4ba2-9833-cad776756ead</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;highcharts-f70z3h8-1190&quot;)/svg[@class=&quot;highcharts-root&quot;]/g[@class=&quot;highcharts-data-labels highcharts-series-1 highcharts-column-series highcharts-tracker&quot;]/g[@class=&quot;highcharts-label highcharts-data-label highcharts-data-label-color-undefined&quot;]/text[1]</value>
+      <webElementGuid>a32f8dd6-f77a-4fad-8cdc-31138e9e11ce</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='9.55']/parent::*</value>
+      <webElementGuid>3b21d4f1-6bc3-400d-95ce-4fb8bd5135a2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//text[(text() = '9.55 ​9.55 ' or . = '9.55 ​9.55 ')]</value>
+      <webElementGuid>de2e47dc-a002-4842-b329-7cc306a82625</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

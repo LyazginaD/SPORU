@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Фильтр ДЗО</name>
+   <tag></tag>
+   <elementGuidId>3d41e051-22f8-4071-9d07-cd293eb472b7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='959773e4600240298089e9f58816afcc']/div/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.rb-filter-header-text</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>ebac4a40-070e-4afe-add5-ff8e7a8ced22</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>rb-filter-header-text</value>
+      <webElementGuid>5f17969f-b341-4af8-899e-1918a9f6d9c6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Все</value>
+      <webElementGuid>a2bdd429-6d37-4929-8aed-0a1146001453</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;959773e4600240298089e9f58816afcc&quot;)/div[@class=&quot;rb-filter-container not-selectable rb-filter-multi-selection&quot;]/div[@class=&quot;rb-filter-header-container&quot;]/div[@class=&quot;rb-filter-header-text&quot;]</value>
+      <webElementGuid>959aad79-602d-4f99-8153-e4eb56a077f7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='959773e4600240298089e9f58816afcc']/div/div/div</value>
+      <webElementGuid>bd12b66e-5ae7-425f-965f-ae8a75592262</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ДЗО'])[1]/following::div[5]</value>
+      <webElementGuid>d4640308-0c63-4f4b-aacb-6f02ba3937f9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='В начало'])[1]/following::div[11]</value>
+      <webElementGuid>75e9635e-547e-4b49-b8fa-4f62402aa07d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Выбранные значения'])[1]/preceding::div[1]</value>
+      <webElementGuid>e7e1ad90-e41a-44bf-906f-ad9f3226fc8f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Выбрать отображаемые'])[1]/preceding::div[2]</value>
+      <webElementGuid>b719c1b0-e355-41d8-b615-e13a4d281e60</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Все']/parent::*</value>
+      <webElementGuid>f27ef619-69df-4cbf-9cdc-8c9512e1d646</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div[2]/div/div/div/div</value>
+      <webElementGuid>d0b9f839-f807-4f8c-baee-e88d4522a45a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Все' or . = 'Все')]</value>
+      <webElementGuid>4da9abd8-51fd-4897-bee1-140956e8a624</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

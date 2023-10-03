@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Факт в процентах за отчётный период Чеченэнерго Декабрь</name>
+   <tag></tag>
+   <elementGuidId>c6bee206-a180-4244-bb71-4fa3222ad47e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='32.49']/parent::*</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>g.highcharts-data-labels.highcharts-series-1.highcharts-column-series.highcharts-tracker.highcharts-series-hover > g.highcharts-label.highcharts-data-label.highcharts-data-label-color-undefined > text</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>5e4aef5a-ce1f-4f45-bb4f-7e3086605829</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>x</name>
+      <type>Main</type>
+      <value>5</value>
+      <webElementGuid>8f55d932-f766-41dc-80a3-fe68f60d7a64</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-z-index</name>
+      <type>Main</type>
+      <value>1</value>
+      <webElementGuid>beb4085c-8e1d-4cda-8f72-c0b3c03b0011</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>y</name>
+      <type>Main</type>
+      <value>19</value>
+      <webElementGuid>ab1d5dfa-324d-4c12-a8aa-9a9c111fe96f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>32.29 ​32.29 </value>
+      <webElementGuid>26798a2b-03b2-4ab4-a4d0-80e838b9becf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;highcharts-zayjcun-803&quot;)/svg[@class=&quot;highcharts-root&quot;]/g[@class=&quot;highcharts-data-labels highcharts-series-1 highcharts-column-series highcharts-tracker highcharts-series-hover&quot;]/g[@class=&quot;highcharts-label highcharts-data-label highcharts-data-label-color-undefined&quot;]/text[1]</value>
+      <webElementGuid>0b95def8-f0ef-4bb4-abbb-a3a1f11782b1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//text[(text() = '32.29 ​32.29 ' or . = '32.29 ​32.29 ')]</value>
+      <webElementGuid>f16ad274-683c-4751-b506-a2b4f75e2517</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

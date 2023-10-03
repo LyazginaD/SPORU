@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Заголовок дашборда</name>
+   <tag></tag>
+   <elementGuidId>da376be9-0386-4038-b055-241cc37b6375</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#fa33a3ace3074bfd81820f66aa0388af > div</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Текст 1 - копия'])[1]/following::div[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>5a463110-4bd3-401b-82c8-ea180df7e5bf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Выручка</value>
+      <webElementGuid>36329927-a268-4dcc-8530-c38d6f27c2fc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;fa33a3ace3074bfd81820f66aa0388af&quot;)/div[1]</value>
+      <webElementGuid>be1e373a-0b1a-44c6-84c3-c29107601777</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='fa33a3ace3074bfd81820f66aa0388af']/div</value>
+      <webElementGuid>8964d50d-eaac-4928-b1b8-abdec7c0949a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Текст 1 - копия'])[1]/following::div[3]</value>
+      <webElementGuid>c43b3bdf-b645-49f6-8950-478fce96ecee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='В начало'])[18]/following::div[9]</value>
+      <webElementGuid>f38e34ff-80c9-412b-9d3c-fa25a7b8c1d2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='В начало'])[19]/preceding::div[16]</value>
+      <webElementGuid>954e2644-fb0b-4bc1-b9f4-ed98dda78b4b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Изображение - копия 1 - копия 1'])[1]/preceding::div[24]</value>
+      <webElementGuid>638df4c4-c535-4b4b-9bec-d7e600adef74</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[37]/div[2]/div/div</value>
+      <webElementGuid>ec2905a3-9ce8-4f7e-bc1d-708ddc06fe17</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Выручка' or . = 'Выручка')]</value>
+      <webElementGuid>2b20989c-7867-4fb8-91ff-cd4805ec348c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

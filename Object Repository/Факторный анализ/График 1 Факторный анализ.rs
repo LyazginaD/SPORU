@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>График 1 Факторный анализ</name>
+   <tag></tag>
+   <elementGuidId>e19ce4ce-12df-418a-ad59-dab19f6f724d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>g.highcharts-axis-labels.highcharts-yaxis-labels > text</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='0 млн.руб.']/parent::*</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>42cd0b11-776f-422b-827d-82e8a5e9b269</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>x</name>
+      <type>Main</type>
+      <value>103</value>
+      <webElementGuid>381b5b44-ccf6-4ebf-8f1e-06227c22e222</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text-anchor</name>
+      <type>Main</type>
+      <value>end</value>
+      <webElementGuid>408c1222-ac5c-4bf9-a194-ae6c6e177233</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>transform</name>
+      <type>Main</type>
+      <value>translate(0,0)</value>
+      <webElementGuid>5eadda8e-6e3b-4812-8772-25e945f2bd17</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>y</name>
+      <type>Main</type>
+      <value>786</value>
+      <webElementGuid>2b70d3b6-5559-4cff-9f61-53f5dabb444d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>opacity</name>
+      <type>Main</type>
+      <value>1</value>
+      <webElementGuid>14891e7a-0ab2-4536-a9ba-fa3ec649c520</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>0 млн.руб.</value>
+      <webElementGuid>5cde19e4-a186-4f27-9cd8-6103cfe07f8a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;highcharts-9jg8cv6-19&quot;)/svg[@class=&quot;highcharts-root&quot;]/g[@class=&quot;highcharts-axis-labels highcharts-yaxis-labels&quot;]/text[1]</value>
+      <webElementGuid>04758c2d-3879-4d69-bba6-04c3278ef54b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='0 млн.руб.']/parent::*</value>
+      <webElementGuid>deebe990-0b5b-48d4-903d-3f7ea6db99cd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//text[(text() = '0 млн.руб.' or . = '0 млн.руб.')]</value>
+      <webElementGuid>b80c6124-d7db-4a0a-be2b-8466d59ab363</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

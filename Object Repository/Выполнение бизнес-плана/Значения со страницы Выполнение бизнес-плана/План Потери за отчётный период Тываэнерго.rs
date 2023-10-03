@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>План Потери за отчётный период Тываэнерго</name>
+   <tag></tag>
+   <elementGuidId>8ac20552-500c-4dc8-aa48-0e1438650f65</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[134]/div[2]/div/div/table/tbody/tr[3]/td[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>a943d065-e4b9-4b5d-b767-e83dde425e92</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>57 821</value>
+      <webElementGuid>9960cb47-2189-411a-95cc-14e462496f05</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;table-527334a03eb24a5283f6fe29682b1485&quot;)/tbody[1]/tr[3]/td[2]</value>
+      <webElementGuid>099e757a-6e1d-4271-9e8e-f951c592c76a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='table-527334a03eb24a5283f6fe29682b1485']/tbody/tr[3]/td[2]</value>
+      <webElementGuid>282a8f96-b373-4500-9280-b6ed849201d1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Показатели баланса электроэнергии по ДЗО – План'])[1]/following::td[36]</value>
+      <webElementGuid>8a153a30-bad9-4bf2-8ad8-edbfa6b7513a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='В начало'])[67]/following::td[36]</value>
+      <webElementGuid>7b222788-2d29-4aac-a38b-16316e9e979f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='В начало'])[68]/preceding::td[16]</value>
+      <webElementGuid>426408ac-93dc-49be-8e89-8d645ff50569</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ТЕСТ: Итого по ДЗО – План'])[1]/preceding::td[16]</value>
+      <webElementGuid>895f7e85-398a-496c-8eca-593db082ef0a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='57 821']/parent::*</value>
+      <webElementGuid>bc8095ab-5d08-4424-a7a8-7f9bee3a4873</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[134]/div[2]/div/div/table/tbody/tr[3]/td[2]</value>
+      <webElementGuid>5094a347-523a-4a44-834a-882041f86477</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = '57 821' or . = '57 821')]</value>
+      <webElementGuid>fcc23b82-6eab-4dd5-ade8-f6789a316c6d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

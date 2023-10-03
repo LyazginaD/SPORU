@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Подпись ПАО Россети график 1</name>
+   <tag></tag>
+   <elementGuidId>8dbc45a8-f3de-4946-b9a6-13d76b97e334</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>g.highcharts-axis-labels.highcharts-xaxis-labels > text</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[contains(@class, 'highcharts-xaxis-labels')]/text[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>29fe7680-99b1-4a35-b8cd-85de244a74a2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>x</name>
+      <type>Main</type>
+      <value>457</value>
+      <webElementGuid>94da9f43-bf44-461d-a9f4-77190d13eed4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text-anchor</name>
+      <type>Main</type>
+      <value>middle</value>
+      <webElementGuid>68e79dc2-2da8-4aa8-a474-d8e3c6a617b5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>transform</name>
+      <type>Main</type>
+      <value>translate(0,0)</value>
+      <webElementGuid>b05cdb1c-5fa8-4b82-89ca-e1033c819538</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>y</name>
+      <type>Main</type>
+      <value>803</value>
+      <webElementGuid>b10f2d5d-b52d-4959-ae47-e6d00a9859b6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>opacity</name>
+      <type>Main</type>
+      <value>1</value>
+      <webElementGuid>85fe7e77-018d-424a-a515-7618566d8fd5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>ПАО Россети</value>
+      <webElementGuid>76577e33-35c4-4295-8c8e-ec28b52bad7d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[contains(@class, 'highcharts-xaxis-labels')]</value>
+      <webElementGuid>b11a5d94-8015-42a2-b5a6-0185fcd6bf4c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//*[contains(@class, 'highcharts-xaxis-labels')]/text[1]</value>
+      <webElementGuid>a9279a98-37cf-4d58-a9df-e81a596cb2f9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

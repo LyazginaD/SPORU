@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ПАО Россети в фильтре ДЗО КПО</name>
+   <tag></tag>
+   <elementGuidId>d0eae57c-242c-4362-917a-076180026c0f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[11]/div[2]/div/div/div[2]/div[3]/ul/li/div/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.rb-filter-body-container.opened > div.rb-filter-list-container > ul.rb-filter-list.rb-filter-root-list > li.rb-filter-list-item.rb-filter-list-item-parent > div.rb-filter-list-item-container > i.fa.fa-square-o.rb-filter-list-item-icon</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>b231cc36-582e-457b-a383-80cfe2c22ca9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fa fa-square-o rb-filter-list-item-icon</value>
+      <webElementGuid>fe435882-cc2e-4098-a522-00afdeff4e24</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;562268823f3e4bada54d4b03d810b308&quot;)/div[@class=&quot;rb-filter-container not-selectable rb-filter-multi-selection&quot;]/div[@class=&quot;rb-filter-body-container opened&quot;]/div[@class=&quot;rb-filter-list-container&quot;]/ul[@class=&quot;rb-filter-list rb-filter-root-list&quot;]/li[@class=&quot;rb-filter-list-item rb-filter-list-item-parent&quot;]/div[@class=&quot;rb-filter-list-item-container&quot;]/i[@class=&quot;fa fa-square-o rb-filter-list-item-icon&quot;]</value>
+      <webElementGuid>14bf6219-dd81-4424-8903-37706589157c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='562268823f3e4bada54d4b03d810b308']/div/div[2]/div[3]/ul/li/div/i</value>
+      <webElementGuid>877e105d-8339-4bf3-bd0c-f28b30e139cf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[11]/div[2]/div/div/div[2]/div[3]/ul/li/div/i</value>
+      <webElementGuid>14e5d5d2-ee13-4de4-97c0-31b800d5411a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

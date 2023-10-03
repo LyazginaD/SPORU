@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Итого по ФСК ЕЭС Выручка по ДЗО</name>
+   <tag></tag>
+   <elementGuidId>2cb2d894-1104-4ac7-a3ae-60d71a6565a2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>li.rb-filter-list-item.rb-filter-list-item-parent > ul.rb-filter-list > li.rb-filter-list-item.rb-filter-list-item-parent > ul.rb-filter-list > li.rb-filter-list-item.rb-filter-list-item-parent > ul.rb-filter-list > li.rb-filter-list-item > div.rb-filter-list-item-container > i.fa.fa-square-o.rb-filter-list-item-icon</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//li/ul/li/ul/li/ul/li/div/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>19d14dc9-7b91-42eb-9fd6-3f8545fec9d5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fa fa-square-o rb-filter-list-item-icon</value>
+      <webElementGuid>2d288c61-5fc7-4b00-a4e0-c6911e9b65d5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;45aeec3dee644a2e9fd56419a3ccaec7&quot;)/div[@class=&quot;rb-filter-container not-selectable rb-filter-multi-selection&quot;]/div[@class=&quot;rb-filter-body-container opened&quot;]/div[@class=&quot;rb-filter-list-container&quot;]/ul[@class=&quot;rb-filter-list rb-filter-root-list&quot;]/li[@class=&quot;rb-filter-list-item rb-filter-list-item-parent&quot;]/ul[@class=&quot;rb-filter-list&quot;]/li[@class=&quot;rb-filter-list-item rb-filter-list-item-parent&quot;]/ul[@class=&quot;rb-filter-list&quot;]/li[@class=&quot;rb-filter-list-item rb-filter-list-item-parent&quot;]/ul[@class=&quot;rb-filter-list&quot;]/li[@class=&quot;rb-filter-list-item&quot;]/div[@class=&quot;rb-filter-list-item-container&quot;]/i[@class=&quot;fa fa-square-o rb-filter-list-item-icon&quot;]</value>
+      <webElementGuid>86b9c1e9-561d-4f7a-a0bd-a226d89a2963</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='45aeec3dee644a2e9fd56419a3ccaec7']/div/div[2]/div[3]/ul/li/ul/li/ul/li/ul/li/div/i</value>
+      <webElementGuid>920bb123-826a-47b3-be12-a1a621a8cbce</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li/ul/li/ul/li/ul/li/div/i</value>
+      <webElementGuid>2122f4fa-ffda-4759-96b5-72d4fe188641</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

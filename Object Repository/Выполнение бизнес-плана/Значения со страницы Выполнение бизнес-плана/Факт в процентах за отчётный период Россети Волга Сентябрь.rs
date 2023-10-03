@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Факт в процентах за отчётный период Россети Волга Сентябрь</name>
+   <tag></tag>
+   <elementGuidId>8e8bf188-d5cf-4b7f-8053-4fd6fc55461e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#highcharts-q2n84ns-758 > svg.highcharts-root > g.highcharts-data-labels.highcharts-series-1.highcharts-column-series.highcharts-tracker > g.highcharts-label.highcharts-data-label.highcharts-data-label-color-undefined > text</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='5.41']/parent::*</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[contains(@class, 'highcharts-label highcharts-data-label highcharts-data-label-color-undefined')][count(. | //*[(contains(text(), '5.49') or contains(., '5.49'))]) = count(//*[(contains(text(), '5.49') or contains(., '5.49'))])]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>bf1d2f95-1bf2-410c-9451-f5563cfc28eb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>x</name>
+      <type>Main</type>
+      <value>5</value>
+      <webElementGuid>83ef32d0-a3bc-4a00-a50d-25799102e27d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-z-index</name>
+      <type>Main</type>
+      <value>1</value>
+      <webElementGuid>10bce7da-27ee-4dc1-863a-ee3b7a704136</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>y</name>
+      <type>Main</type>
+      <value>19</value>
+      <webElementGuid>6b5f99fe-8c5f-49ac-b365-f94d1d99110f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>5.49</value>
+      <webElementGuid>d2f6076e-235b-429a-be53-7ed10b58a328</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[contains(@class, 'highcharts-label highcharts-data-label highcharts-data-label-color-undefined')]</value>
+      <webElementGuid>85565652-f4c3-417e-8d5b-60a44513290b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='5.57']/parent::*</value>
+      <webElementGuid>57197ba8-54f5-4f8a-aac2-b37f1e3f3948</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//text[(text() = '5.57 5.57 ' or . = '5.57 5.57 ')]</value>
+      <webElementGuid>c7db8a6b-c371-46ce-8ee0-252ed1eab1c5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

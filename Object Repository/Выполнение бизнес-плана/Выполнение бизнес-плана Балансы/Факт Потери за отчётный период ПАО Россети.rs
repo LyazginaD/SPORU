@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Факт Потери за отчётный период ПАО Россети</name>
+   <tag></tag>
+   <elementGuidId>3fbe063f-5f4c-49f7-8712-7d755c21451b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='table-11abc4ff22af405ca883177d7bd6d732']/tbody/tr[3]/td[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>42764a6f-e3c2-453b-b4c6-2aa1dba7d0f6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>15 522 504</value>
+      <webElementGuid>1bb7514f-28ff-462b-b5e9-20fd357e1721</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;table-11abc4ff22af405ca883177d7bd6d732&quot;)/tbody[1]/tr[3]/td[2]</value>
+      <webElementGuid>df83046a-2b24-4ad7-9842-cc99f2b8ea6e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='table-11abc4ff22af405ca883177d7bd6d732']/tbody/tr[3]/td[2]</value>
+      <webElementGuid>624d938a-8174-4a42-b1f5-eaa3b3b2fc6f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Потери'])[3]/following::td[1]</value>
+      <webElementGuid>7006cd62-5785-49f5-aeec-1e084bf76798</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Отпуск из сети'])[3]/following::td[3]</value>
+      <webElementGuid>1f0a87f3-293b-41fb-b689-9514242ae137</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='В начало'])[68]/preceding::td[1]</value>
+      <webElementGuid>8c68bd01-bb49-4230-a9fb-42b8ac58aae6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Текст 3 - копия 1 - копия 1 - копия 3'])[1]/preceding::td[1]</value>
+      <webElementGuid>bfa28a69-e684-434f-be28-507d35ea3feb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='15 522 504']/parent::*</value>
+      <webElementGuid>27a6e836-86b2-42d3-bc50-c0fdb1459f64</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[134]/div[2]/div/div/table/tbody/tr[3]/td[2]</value>
+      <webElementGuid>c00dabfe-95f3-4ec1-88ab-20cca1cf483c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = '15 522 504' or . = '15 522 504')]</value>
+      <webElementGuid>18131ed4-4586-44c9-bb54-1f9ccad1e823</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

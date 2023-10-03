@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Переключить отображение с процентов на абс Блок руководителя</name>
+   <tag></tag>
+   <elementGuidId>2fa8f413-957d-4363-971e-069a18add358</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[9]/div[2]/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#08098a64e5164f0caf8dfa797f7c467d > div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>5bd053ec-1759-4d8a-b668-ea95b473da6c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;08098a64e5164f0caf8dfa797f7c467d&quot;)/div[1]</value>
+      <webElementGuid>d4551e0c-b15e-490d-9509-308101e48a9a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='08098a64e5164f0caf8dfa797f7c467d']/div</value>
+      <webElementGuid>c522528e-39c5-43bb-ad2b-07ad3b9215bc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[9]/div[2]/div/div</value>
+      <webElementGuid>331beab7-1032-46ef-9032-27a51ff1ee5f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

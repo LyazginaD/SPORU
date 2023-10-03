@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>График Отклонение выручки по факторам Выручка</name>
+   <tag></tag>
+   <elementGuidId>b0c64522-9ff3-4a5a-8a95-185989d90a3b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#highcharts-l4rakky-5 > svg.highcharts-root</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='В начало'])[14]/following::*[name()='svg'][1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>svg</value>
+      <webElementGuid>ee1a45a0-e66a-4e73-9159-f4f9e5b6882e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>version</name>
+      <type>Main</type>
+      <value>1.1</value>
+      <webElementGuid>95900efb-e717-476b-a58c-edfcb761b957</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>highcharts-root</value>
+      <webElementGuid>fc996acf-389f-4f06-bd3d-d45bb5da117e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xmlns</name>
+      <type>Main</type>
+      <value>http://www.w3.org/2000/svg</value>
+      <webElementGuid>c40dbb2d-cfea-44e0-95e8-e5cb44dd3665</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>width</name>
+      <type>Main</type>
+      <value>945</value>
+      <webElementGuid>a9a3c0f5-6940-4d72-bd6e-47199873ddea</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>height</name>
+      <type>Main</type>
+      <value>790</value>
+      <webElementGuid>c4458234-2131-4aef-9c36-7662cfc8d11f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>viewBox</name>
+      <type>Main</type>
+      <value>0 0 945 790</value>
+      <webElementGuid>8a85bdcd-e38b-4c49-bf48-b8e5015dd679</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Created with Highcharts 9.0.1Отклонение (объём услуг)Отклонение (средний тариф)ПАО Россети0 млн.руб.200 млн.руб.400 млн.руб.600 млн.руб.800 млн.руб.1 000 млн.руб.1 200 млн.руб.1 400 млн.руб.1 600 млн.руб.1 800 млн.руб.2 000 млн.руб.</value>
+      <webElementGuid>0b1b0f76-170d-41a5-83fc-7d3e85444500</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;highcharts-l4rakky-5&quot;)/svg[@class=&quot;highcharts-root&quot;]</value>
+      <webElementGuid>618c0d3c-dd2a-4052-bffd-813f8dc07005</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Отклонения выручки по факторам по ПАО Россети за Январь 2023 года'])[2]/following::*[name()='svg'][1]</value>
+      <webElementGuid>aa3e0703-62de-4c35-882a-0f1858f520df</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='В начало'])[14]/following::*[name()='svg'][1]</value>
+      <webElementGuid>286ace2a-e134-4795-875c-073d0ee8bdba</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//svg[(text() = 'Created with Highcharts 9.0.1Отклонение (объём услуг)Отклонение (средний тариф)ПАО Россети0 млн.руб.200 млн.руб.400 млн.руб.600 млн.руб.800 млн.руб.1 000 млн.руб.1 200 млн.руб.1 400 млн.руб.1 600 млн.руб.1 800 млн.руб.2 000 млн.руб.' or . = 'Created with Highcharts 9.0.1Отклонение (объём услуг)Отклонение (средний тариф)ПАО Россети0 млн.руб.200 млн.руб.400 млн.руб.600 млн.руб.800 млн.руб.1 000 млн.руб.1 200 млн.руб.1 400 млн.руб.1 600 млн.руб.1 800 млн.руб.2 000 млн.руб.')]</value>
+      <webElementGuid>89f3c1c0-a597-4b72-ba62-a1cfb012b369</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

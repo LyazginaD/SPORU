@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_filtSrav</name>
+   <tag></tag>
+   <elementGuidId>749b8185-1cc0-4b65-9cfd-6036af9c7ec1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='1f19b8895ef74f02b1a69b8782b7c53f']/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#1f19b8895ef74f02b1a69b8782b7c53f > div.rb-filter-container.not-selectable > div.rb-filter-header-container</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>9e8e9206-708b-4101-a016-c903c17fa388</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>rb-filter-header-container</value>
+      <webElementGuid>cae4112a-b106-45df-8460-cab59723ca0d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>План</value>
+      <webElementGuid>3ab93add-1d9b-4c23-ace9-6e9bfd9e9ff5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;1f19b8895ef74f02b1a69b8782b7c53f&quot;)/div[@class=&quot;rb-filter-container not-selectable&quot;]/div[@class=&quot;rb-filter-header-container&quot;]</value>
+      <webElementGuid>98cf5585-4605-4417-9e31-e2371a31d990</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='1f19b8895ef74f02b1a69b8782b7c53f']/div/div</value>
+      <webElementGuid>19bc15b2-2ee3-443e-8915-d141e9bf59f9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Сравнение с'])[1]/following::div[4]</value>
+      <webElementGuid>b4e16e84-e499-4a9b-ba50-283e729f7b60</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='В начало'])[2]/following::div[10]</value>
+      <webElementGuid>afe703c3-3027-4379-ae73-e1eb8ba453cc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Факт прошлого года'])[1]/preceding::div[2]</value>
+      <webElementGuid>8eaa9ab6-41fc-499d-9bf9-10be7390dc72</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div[2]/div/div/div</value>
+      <webElementGuid>9b7b75b9-b316-4f94-ae19-ed009f30a0f2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'План' or . = 'План')]</value>
+      <webElementGuid>3bd4e0da-11c8-4594-a332-c26b9217bb92</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

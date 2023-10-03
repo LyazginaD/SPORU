@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Заголовок фильтра ДЗО</name>
+   <tag></tag>
+   <elementGuidId>3ab9efab-40ea-4e5a-947f-fc7664148c5c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='ДЗО']/parent::*</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#widget-header-562268823f3e4bada54d4b03d810b308 > a.va-widget-header</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>30593b0b-5c68-40ab-9a7c-c9c98a410ccc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>va-widget-header</value>
+      <webElementGuid>bc3ac105-de59-4435-b92b-90d381c36126</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-bind</name>
+      <type>Main</type>
+      <value>text: title.text(), attr: title.linkEnabled() &amp;&amp; title.link().trim() ? { href: title.link().indexOf('http') == 0 ? title.link().trim() : '//' + title.link().trim() } : { href: false }, style: { 'text-align': title.textStyle.alignString(), color: title.textStyle.color(), 'font-size': title.textStyle.fontSize() + 'px', 'font-family': title.textStyle.fontFamily(), 'font-weight': title.textStyle.isBold() ? 'bold' : 'normal', 'font-style': title.textStyle.isItalic() ? 'italic' : 'normal', 'line-height': title.textStyle.lineHeight(), cursor: title.linkEnabled() ? 'pointer' : 'default' }</value>
+      <webElementGuid>261ed8c5-b9de-4cec-9430-c877c2d34b73</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>ДЗО </value>
+      <webElementGuid>493f4e2b-0561-4c00-a02a-ae69eae6e9b1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;widget-header-562268823f3e4bada54d4b03d810b308&quot;)/a[@class=&quot;va-widget-header&quot;]</value>
+      <webElementGuid>0d25682e-593e-45f5-bfdd-e07253c69801</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='widget-header-562268823f3e4bada54d4b03d810b308']/a</value>
+      <webElementGuid>1740c806-9d63-4a39-af37-3e81c691ba75</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'ДЗО')]</value>
+      <webElementGuid>01806d7a-85cc-41bf-86b0-58a4f4449bcd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='В начало'])[5]/following::a[1]</value>
+      <webElementGuid>19ac7cc5-85b8-45aa-a959-a28618a33326</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Текст - копия'])[1]/following::a[1]</value>
+      <webElementGuid>1aa9dd3c-3cdc-41cc-b2fe-567c599c9a3f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ПАО Россети'])[1]/preceding::a[1]</value>
+      <webElementGuid>2bf41fe4-c0b1-4de6-adcd-02b20b87aa19</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Выбранные значения'])[3]/preceding::a[1]</value>
+      <webElementGuid>ba2641e6-70d2-4805-99f9-a55c317635ec</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='ДЗО']/parent::*</value>
+      <webElementGuid>32acf2ed-bd77-4ba9-af0c-c80918621c62</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[11]/div/a</value>
+      <webElementGuid>83732479-2654-494a-ac76-0020430ccb54</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[(text() = 'ДЗО ' or . = 'ДЗО ')]</value>
+      <webElementGuid>0cfc95ed-4a79-4051-be37-8ad61cbb62ab</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

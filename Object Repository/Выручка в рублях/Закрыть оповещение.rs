@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Закрыть оповещение</name>
+   <tag></tag>
+   <elementGuidId>fdc81291-c168-42f7-8660-517c6d6966a9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.alertCloseButton</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Статус данных - ALERT'])[1]/following::span[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>6c8a9ddb-112b-4176-8297-52891b029def</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>alertCloseButton</value>
+      <webElementGuid>50ba7e7a-850c-4b9f-8232-1dfcd562abd6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>×</value>
+      <webElementGuid>9fc56be8-4c0a-4beb-9f66-9bebb9b325ad</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;74cf3f144552412ead002ee0fe30cb5c&quot;)/div[@class=&quot;alertModal alertShowModal&quot;]/div[@class=&quot;alertModalContent&quot;]/span[@class=&quot;alertCloseButton&quot;]</value>
+      <webElementGuid>87425471-bb2f-4ced-87e0-644bc7f8aefe</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='74cf3f144552412ead002ee0fe30cb5c']/div/div/span</value>
+      <webElementGuid>eedc4b55-fe75-4f88-a674-a1a5a5eecb71</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Статус данных - ALERT'])[1]/following::span[1]</value>
+      <webElementGuid>0e6f37d4-9886-4d84-aada-6e355625e72a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='В начало'])[29]/following::span[1]</value>
+      <webElementGuid>ba3b886a-bbd9-45e3-997b-40555faaee50</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Просьба обратить внимание'])[1]/preceding::span[1]</value>
+      <webElementGuid>e6b0fb4c-c30d-4f36-9fcd-58313c281d97</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='В начало'])[30]/preceding::span[1]</value>
+      <webElementGuid>fe1e43ea-a8c4-4737-8392-ab5755812e74</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/span</value>
+      <webElementGuid>b145f835-bb67-45a1-9df4-9d28970c0155</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '×' or . = '×')]</value>
+      <webElementGuid>837c8151-f740-49d3-a021-c092f480609b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

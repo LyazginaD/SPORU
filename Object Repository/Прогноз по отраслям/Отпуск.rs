@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Отпуск</name>
+   <tag></tag>
+   <elementGuidId>d635c7e7-b767-4e97-8be1-9373f3096815</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[33]/div[2]/div/div/div[2]/div[2]/ul/li[2]/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.rb-filter-body-container.opened > div.rb-filter-list-container > ul.rb-filter-list.rb-filter-root-list > li.rb-filter-list-item.selected > div.rb-filter-list-item-container</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>1ee211b7-91fb-415e-b198-2633997001d0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>rb-filter-list-item-container</value>
+      <webElementGuid>93593563-dad6-4917-b380-8c015bec8037</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Отпуск из сети, млн. кВт.ч</value>
+      <webElementGuid>83c37279-11d6-4568-b465-13702701ad8f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;7783c5bd5708424196437d0c77fc6316&quot;)/div[@class=&quot;rb-filter-container not-selectable&quot;]/div[@class=&quot;rb-filter-body-container opened&quot;]/div[@class=&quot;rb-filter-list-container&quot;]/ul[@class=&quot;rb-filter-list rb-filter-root-list&quot;]/li[@class=&quot;rb-filter-list-item selected&quot;]/div[@class=&quot;rb-filter-list-item-container&quot;]</value>
+      <webElementGuid>d08f09d0-9555-40df-9660-efe6dcd526d6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='7783c5bd5708424196437d0c77fc6316']/div/div[2]/div[2]/ul/li[2]/div</value>
+      <webElementGuid>314313d6-44f3-4594-ae0b-0af3be9852aa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Котловой полезный отпуск, млн. кВт.ч'])[1]/following::div[1]</value>
+      <webElementGuid>6358d71e-4b2f-4a13-8b2d-dc79363d7f81</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Исключить'])[3]/following::div[4]</value>
+      <webElementGuid>93800fd4-6302-4315-886d-05cc11d42826</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='В начало'])[17]/preceding::div[17]</value>
+      <webElementGuid>107269c7-0dcb-477f-a5a3-3e193832a4a8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[33]/div[2]/div/div/div[2]/div[2]/ul/li[2]/div</value>
+      <webElementGuid>f64a28ab-8fc5-4d54-9fbb-d7156ba310c7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Отпуск из сети, млн. кВт.ч' or . = 'Отпуск из сети, млн. кВт.ч')]</value>
+      <webElementGuid>6d20616e-92f7-47fa-9079-e25799a3a125</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

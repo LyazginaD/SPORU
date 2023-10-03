@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Ноябрь</name>
+   <tag></tag>
+   <elementGuidId>b0c3ac53-0609-4313-82d2-83ab8ce56ad4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='0020ae3008814ccfa5435a22343f2a5f']/div/div[2]/div[2]/ul/li[10]/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.rb-filter-body-container.opened > div.rb-filter-list-container > ul.rb-filter-list.rb-filter-root-list > li.rb-filter-list-item.selected > div.rb-filter-list-item-container > div.rb-filter-list-item-text</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>54b10737-6c34-46f9-9de2-582da1c84e36</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>rb-filter-list-item-text</value>
+      <webElementGuid>57e1d1fe-0902-438d-858a-7b7d9daf5bd7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Ноябрь</value>
+      <webElementGuid>897acd94-d40a-41b6-9a6a-54e49fb19f7a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;0020ae3008814ccfa5435a22343f2a5f&quot;)/div[@class=&quot;rb-filter-container not-selectable&quot;]/div[@class=&quot;rb-filter-body-container opened&quot;]/div[@class=&quot;rb-filter-list-container&quot;]/ul[@class=&quot;rb-filter-list rb-filter-root-list&quot;]/li[@class=&quot;rb-filter-list-item selected&quot;]/div[@class=&quot;rb-filter-list-item-container&quot;]/div[@class=&quot;rb-filter-list-item-text&quot;]</value>
+      <webElementGuid>762468bd-4107-498e-ac77-fa443630543c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='0020ae3008814ccfa5435a22343f2a5f']/div/div[2]/div[2]/ul/li[10]/div/div</value>
+      <webElementGuid>839c749c-d20e-4c03-a335-38d83ea0057c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Октябрь'])[1]/following::div[2]</value>
+      <webElementGuid>9fb4e15b-450b-4753-bee1-14b962384450</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Сентябрь'])[1]/following::div[4]</value>
+      <webElementGuid>f324944c-dfb1-4729-bec2-5f98c8ba5001</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Декабрь'])[1]/preceding::div[1]</value>
+      <webElementGuid>5d2ba507-cd25-4526-8081-c7bb8568b8a7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Август'])[1]/preceding::div[3]</value>
+      <webElementGuid>c7e056fc-b91b-41a3-bf6e-321ec07419c8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[10]/div/div</value>
+      <webElementGuid>88b25651-35c7-4e0d-b825-3bdceef55c96</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Ноябрь' or . = 'Ноябрь')]</value>
+      <webElementGuid>1dc51c34-758a-49cf-b5aa-7f0425f616d8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

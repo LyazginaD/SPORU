@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Заголовок дашборда</name>
+   <tag></tag>
+   <elementGuidId>d786731a-70c0-4893-9356-8bbbc53b4e0a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='597b46a47c114b15b3a179465ac07513']/div/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#597b46a47c114b15b3a179465ac07513 > div > span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>fc8c5cc5-140b-487c-98ed-4e9afaa14b09</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Фактические данные по объему и уровню потерь электроэнергии</value>
+      <webElementGuid>f59b47a6-551d-485b-9c9e-f444a05e909c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;597b46a47c114b15b3a179465ac07513&quot;)/div[1]/span[1]</value>
+      <webElementGuid>220e2404-5114-4b5b-933b-f50d3178642e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='597b46a47c114b15b3a179465ac07513']/div/span</value>
+      <webElementGuid>ad62882c-e723-4c2f-b1ee-594b335d70c5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Текст 1 - копия'])[1]/following::span[1]</value>
+      <webElementGuid>4b286b2c-e066-45a9-b79c-60de9f95b4a0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='В начало'])[29]/following::span[1]</value>
+      <webElementGuid>28d3e04c-f732-4c5d-a1ca-d4b5445605a7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Экспорт данных'])[1]/preceding::span[1]</value>
+      <webElementGuid>9369f512-3699-4ddc-b088-883cd858a386</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Отменить загрузку'])[1]/preceding::span[1]</value>
+      <webElementGuid>a89c4e1a-e4a2-4b5e-ab4e-c8efd94583e3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[58]/div[2]/div/div/span</value>
+      <webElementGuid>9ac81b7d-c1d4-4f21-91bd-13e0eea61456</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Фактические данные по объему и уровню потерь электроэнергии' or . = 'Фактические данные по объему и уровню потерь электроэнергии')]</value>
+      <webElementGuid>c6f2b4af-34d1-4700-ab30-3a4a180aecaa</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

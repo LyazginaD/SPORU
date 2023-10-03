@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>План</name>
+   <tag></tag>
+   <elementGuidId>e8cd4172-d11b-44db-97dd-045f843fc71a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.rb-filter-body-container.opened > div.rb-filter-list-container > ul.rb-filter-list.rb-filter-root-list > li.rb-filter-list-item.selected > div.rb-filter-list-item-container > div.rb-filter-list-item-text</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[5]/div[2]/div/div/div[2]/div/ul/li[2]/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>d451980a-9efc-4c5d-91fa-e2466d37c839</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>rb-filter-list-item-text</value>
+      <webElementGuid>05f3291f-5fbf-46b4-8ac5-2493d8934153</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>План</value>
+      <webElementGuid>c091ad47-57f0-46ec-81e9-efe939539a39</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;1f19b8895ef74f02b1a69b8782b7c53f&quot;)/div[@class=&quot;rb-filter-container not-selectable&quot;]/div[@class=&quot;rb-filter-body-container opened&quot;]/div[@class=&quot;rb-filter-list-container&quot;]/ul[@class=&quot;rb-filter-list rb-filter-root-list&quot;]/li[@class=&quot;rb-filter-list-item selected&quot;]/div[@class=&quot;rb-filter-list-item-container&quot;]/div[@class=&quot;rb-filter-list-item-text&quot;]</value>
+      <webElementGuid>b7fc733c-e44b-486f-b48e-0959a20d1edd</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='1f19b8895ef74f02b1a69b8782b7c53f']/div/div[2]/div/ul/li[2]/div/div</value>
+      <webElementGuid>37e40c31-d772-409f-b694-bb78b9e8e469</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Факт прошлого года'])[1]/following::div[2]</value>
+      <webElementGuid>0c38177a-387a-4cb9-bd4e-66317123f96a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='План'])[1]/following::div[6]</value>
+      <webElementGuid>2856953a-b975-4a8b-8be1-7eba7769a8b3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='План/СУ'])[1]/preceding::div[1]</value>
+      <webElementGuid>f966c58a-46ab-48af-8c53-f9ee4ab0e3e0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='В начало'])[3]/preceding::div[18]</value>
+      <webElementGuid>5062d679-96ae-4526-b844-43bff7b2dead</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div[2]/div/div/div[2]/div/ul/li[2]/div/div</value>
+      <webElementGuid>0e5b6193-b19d-4a87-8d98-0b3fd40396dc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'План' or . = 'План')]</value>
+      <webElementGuid>ac05cbfc-ba05-4b50-bbd7-0b0d7b39c863</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

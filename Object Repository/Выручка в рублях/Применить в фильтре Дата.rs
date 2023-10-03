@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Применить в фильтре Дата</name>
+   <tag></tag>
+   <elementGuidId>2b4556fa-81bf-4b97-ac1d-469dc904cc46</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.rb-filter-apply-button.button</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='Применить']/parent::*</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>60a9e04c-3b10-4eed-8b60-07261c4bcff3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>rb-filter-apply-button button</value>
+      <webElementGuid>4329927b-1ee3-4578-84ee-1c67d01e5d3e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Применить</value>
+      <webElementGuid>a37f2928-1e1b-4551-b0e9-3fa44fb841f4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;a3c898a815454a4bbec76dd1a79d008c&quot;)/div[@class=&quot;rb-filter-container not-selectable rb-filter-multi-selection&quot;]/div[@class=&quot;rb-filter-body-container opened&quot;]/div[@class=&quot;rb-actions-buttons-container&quot;]/div[@class=&quot;rb-filter-apply-button button&quot;]</value>
+      <webElementGuid>7d61b1da-0a5f-4dbb-b45b-ce47958718c3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='a3c898a815454a4bbec76dd1a79d008c']/div/div[2]/div[4]/div[2]</value>
+      <webElementGuid>469bcb32-3ad0-4e8d-b924-3c8591a31835</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Отмена'])[1]/following::div[1]</value>
+      <webElementGuid>ae4a0858-7976-4663-9dce-de0f94a0ee59</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Декабрь'])[9]/following::div[3]</value>
+      <webElementGuid>cebeada0-1d33-4434-8805-a9a6e8f5af1e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='В начало'])[2]/preceding::div[16]</value>
+      <webElementGuid>fc5e9fe2-06aa-43e6-9acf-b7c7c7e16f12</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Выручка'])[1]/preceding::div[24]</value>
+      <webElementGuid>ecdd323d-dd15-45e4-aa8f-9b15d1d91c75</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Применить']/parent::*</value>
+      <webElementGuid>007621f2-b362-4d4e-9d6e-c87e9f61cb44</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div[2]</value>
+      <webElementGuid>6456087f-f53f-4b1a-8bbb-226f61066358</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Применить' or . = 'Применить')]</value>
+      <webElementGuid>6712342c-d815-4650-878f-82a97d373b3a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

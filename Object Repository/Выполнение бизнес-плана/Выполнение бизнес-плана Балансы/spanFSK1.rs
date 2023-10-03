@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>spanFSK1</name>
+   <tag></tag>
+   <elementGuidId>f870104b-0a80-4bb0-896c-c612db822340</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.highcharts-label.highcharts-data-label.highcharts-data-label-color-undefined.highcharts-tracker.highcharts-drilldown-data-label > span</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[156]/div[2]/div/div/div/div/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>2265a0f9-a1e1-4065-b53e-345e75031bef</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-z-index</name>
+      <type>Main</type>
+      <value>1</value>
+      <webElementGuid>e124e229-8281-4229-9f4d-4d54253197d1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>4.33</value>
+      <webElementGuid>c19015c5-99e1-4536-8935-4ddb9229894c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;highcharts-85khx4m-253&quot;)/div[@class=&quot;highcharts-data-labels highcharts-series-0 highcharts-column-series highcharts-tracker&quot;]/div[@class=&quot;highcharts-label highcharts-data-label highcharts-data-label-color-undefined highcharts-tracker highcharts-drilldown-data-label&quot;]/span[1]</value>
+      <webElementGuid>6ca837bb-ba08-4e02-9988-7a19656157a8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='highcharts-85khx4m-253']/div/div/span</value>
+      <webElementGuid>32587997-28fe-4f44-ba63-60b47b644b5f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Россети ФСК ЕЭС'])[3]/following::span[1]</value>
+      <webElementGuid>7ed0c360-07f6-449f-8352-e6134875d377</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='|'])[1]/preceding::span[3]</value>
+      <webElementGuid>126a2b31-9390-4cb3-a5ca-4f69f29fba73</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='|'])[2]/preceding::span[4]</value>
+      <webElementGuid>431a420b-3024-4175-ac75-4d4414bbbf40</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='4.33']/parent::*</value>
+      <webElementGuid>e258d4eb-c99a-4c52-b314-4a8459add48b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[156]/div[2]/div/div/div/div/span</value>
+      <webElementGuid>245d7331-f2cb-450d-beb7-35f8b29ccdcd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '4.33' or . = '4.33')]</value>
+      <webElementGuid>6d305c3d-7184-44c5-873f-539cf875f9f4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

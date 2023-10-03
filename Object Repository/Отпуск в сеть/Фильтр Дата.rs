@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Фильтр Дата</name>
+   <tag></tag>
+   <elementGuidId>413d87e5-3f23-494a-b6aa-fbe3257d00c8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='fafa4cbc65434c04b8ebb4e926fc9108']/div/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#fafa4cbc65434c04b8ebb4e926fc9108 > div.rb-filter-container.not-selectable.rb-filter-multi-selection > div.rb-filter-header-container > div.rb-filter-header-text</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>85560aa2-b4a0-4c6e-8681-77383166eda8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>rb-filter-header-text</value>
+      <webElementGuid>12939efe-4ce2-486b-ab6d-b209fb8a45ba</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Выбрано: 3</value>
+      <webElementGuid>5c030a17-e996-4648-b028-41113051352c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;fafa4cbc65434c04b8ebb4e926fc9108&quot;)/div[@class=&quot;rb-filter-container not-selectable rb-filter-multi-selection&quot;]/div[@class=&quot;rb-filter-header-container&quot;]/div[@class=&quot;rb-filter-header-text&quot;]</value>
+      <webElementGuid>655098bd-16f3-4b63-827f-4db7be98e031</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='fafa4cbc65434c04b8ebb4e926fc9108']/div/div/div</value>
+      <webElementGuid>905a72b5-bcbf-4d72-9840-a16926819bea</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Дата'])[1]/following::div[5]</value>
+      <webElementGuid>3c17d4e4-9d68-404b-a545-39439c2ea8a4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='В начало'])[6]/following::div[11]</value>
+      <webElementGuid>b999e92e-2fb1-43ef-9b7c-19d205bd138d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Выбранные значения'])[5]/preceding::div[1]</value>
+      <webElementGuid>142d0f70-3c9f-4143-b2c8-7264825042db</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[12]/div[2]/div/div/div/div</value>
+      <webElementGuid>60937528-24ff-4f8e-8418-bf98ae3c31ed</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Выбрано: 3' or . = 'Выбрано: 3')]</value>
+      <webElementGuid>c25ac27b-fa1a-4740-837c-146ca3a8523c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

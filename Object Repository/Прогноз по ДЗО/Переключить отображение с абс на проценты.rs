@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Переключить отображение с абс на проценты</name>
+   <tag></tag>
+   <elementGuidId>82e54173-317a-44b5-a0f2-a568128997f1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[11]/div[2]/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#e3ebafc4507c494aa57704ec41356f7b > div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>3bf18325-351c-479c-81e3-e2ec6f054c8b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;e3ebafc4507c494aa57704ec41356f7b&quot;)/div[1]</value>
+      <webElementGuid>c03bbf39-55b3-4615-841f-293e389cb86d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='e3ebafc4507c494aa57704ec41356f7b']/div</value>
+      <webElementGuid>d46f9351-af2c-42a7-83e0-bb0cd8780d24</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[11]/div[2]/div/div</value>
+      <webElementGuid>4256ae40-9713-4d24-8059-d61473b3a3a8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
