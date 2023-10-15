@@ -4,21 +4,4 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
-   <GlobalVariableEntity>
-      <description>Путь к файлу для записи</description>
-      <initValue>'D:\\Тестирование\\СПОРУ\\Test Suites\\СПОРУ 02.10 Лязгина\\Data Files\\ПланФакт.xls'</initValue>
-      <name>excelFilePath</name>
-   </GlobalVariableEntity>
-</GlobalVariableEntities>
-<?xml version="1.0" encoding="UTF-8"?>
-<GlobalVariableEntities>
-   <description></description>
-   <name>default</name>
-   <tag></tag>
-   <defaultProfile>true</defaultProfile>
-   <GlobalVariableEntity>
-      <description>Путь к файлу для записи</description>
-      <initValue>'D:\\Тестирование\\git\\SPORU\\Data Files\\ПланФакт1.xls'</initValue>
-      <name>excelFilePath</name>
-   </GlobalVariableEntity>
 </GlobalVariableEntities>
