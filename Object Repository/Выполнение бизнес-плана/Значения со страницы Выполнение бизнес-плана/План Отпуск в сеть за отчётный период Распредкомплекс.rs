@@ -7,11 +7,11 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#grid-87b4b20d97974fcf8029a07242ba1c4f</value>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Итого – План'])[1]/following::td[2]</value>
+         <value>//div[150]/div[2]/div/div/table/tbody/tr/td[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,79 +21,87 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
-      <webElementGuid>876285f5-ac70-4ff8-88a0-40976c4381da</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>grid-87b4b20d97974fcf8029a07242ba1c4f</value>
-      <webElementGuid>4e2c0e14-e9ce-4e3a-952b-9010ea28ccaf</webElementGuid>
+      <value>td</value>
+      <webElementGuid>28780d05-678e-4751-883c-3be985d65cec</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Отпуск в сеть	234 450 252Отпуск из сети	211 523 207Потери	22 927 044</value>
-      <webElementGuid>37bf7a66-1265-41a5-8e31-a595d4e95d74</webElementGuid>
+      <value>400 893 413</value>
+      <webElementGuid>4b9a6ffd-2b3f-41ae-afc8-015180620b62</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;grid-87b4b20d97974fcf8029a07242ba1c4f&quot;)</value>
-      <webElementGuid>b6dd6322-b045-45a3-969f-b7baaf0e3dc3</webElementGuid>
+      <value>id(&quot;table-87b4b20d97974fcf8029a07242ba1c4f&quot;)/tbody[1]/tr[1]/td[2]</value>
+      <webElementGuid>ada68637-97c4-457d-bdbb-9769bdf88814</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//div[@id='grid-87b4b20d97974fcf8029a07242ba1c4f']</value>
-      <webElementGuid>03708e49-9557-4e9f-9a8c-8f0fbfe2668b</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='87b4b20d97974fcf8029a07242ba1c4f']/div</value>
-      <webElementGuid>b103b0fa-f0b6-4320-a14a-fe63e39e5b85</webElementGuid>
+      <value>//table[@id='table-87b4b20d97974fcf8029a07242ba1c4f']/tbody/tr/td[2]</value>
+      <webElementGuid>6619db56-d277-4e7d-a113-47abd195b319</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Итого – План'])[1]/following::div[3]</value>
-      <webElementGuid>80a8d759-1877-43b5-a71c-fe85d1adc417</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Отпуск в сеть'])[5]/following::td[1]</value>
+      <webElementGuid>e3e71bab-098b-4f1a-a5b4-240e2d1bd7df</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='В начало'])[76]/following::div[9]</value>
-      <webElementGuid>e542c8a8-9d42-4e34-aaba-ee759546e9fd</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Итого – План'])[1]/following::td[2]</value>
+      <webElementGuid>31fea1af-adb1-4662-847c-a4283e25ef57</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Отпуск из сети'])[5]/preceding::td[1]</value>
+      <webElementGuid>7afea890-202f-4ee8-a99b-f5c0017a7950</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Потери'])[5]/preceding::td[3]</value>
+      <webElementGuid>1bcd2a7f-d8cf-4057-a00f-d27e3819f84a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='400 893 413']/parent::*</value>
+      <webElementGuid>fd18b9ab-2b41-4ec2-aaf2-1ffc6551fcb0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[152]/div[2]/div/div</value>
-      <webElementGuid>d4240c5b-fc13-4e56-b08a-e6ce5c1be90a</webElementGuid>
+      <value>//div[150]/div[2]/div/div/table/tbody/tr/td[2]</value>
+      <webElementGuid>c7dd1f16-26fc-49b8-87b9-8941d7950145</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//div[@id = 'grid-87b4b20d97974fcf8029a07242ba1c4f' and (text() = 'Отпуск в сеть	234 450 252Отпуск из сети	211 523 207Потери	22 927 044' or . = 'Отпуск в сеть	234 450 252Отпуск из сети	211 523 207Потери	22 927 044')]</value>
-      <webElementGuid>0ea86766-5862-49ce-8b8b-f8295d308d25</webElementGuid>
+      <value>//td[(text() = '400 893 413' or . = '400 893 413')]</value>
+      <webElementGuid>ef5038f7-a255-4d32-a04d-11fb02751c65</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

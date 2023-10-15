@@ -29,6 +29,7 @@ WebUI.click(findTestObject('Страница авторизации/button_'))
 
 WebUI.delay(10)
 
-String dZO = WebUI.getText(findTestObject('Факторный анализ/Фильтр ДЗО'))
+String dZO = WebUI.getText(findTestObject('Планорный анализ/Фильтр ДЗО'))
 
 println(dZO)
+

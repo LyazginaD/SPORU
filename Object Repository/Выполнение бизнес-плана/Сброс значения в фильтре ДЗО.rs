@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Сброс значения в фильтре ДЗО</name>
+   <tag></tag>
+   <elementGuidId>e522045e-0f98-409f-a48d-307d434cb6b4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>i.fa.fa-caret-down.rb-filter-header-arrow</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>01a21578-4405-4447-8991-bb0291a63744</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fa fa-caret-down rb-filter-header-arrow</value>
+      <webElementGuid>bbf23324-bbe1-4cde-af2b-fc7889351a5c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;f47c104a0f45488298250ccf67f9c62f&quot;)/div[@class=&quot;rb-filter-container not-selectable rb-filter-multi-selection&quot;]/div[@class=&quot;rb-filter-header-container&quot;]/i[@class=&quot;fa fa-caret-down rb-filter-header-arrow&quot;]</value>
+      <webElementGuid>55277b25-b740-4060-acb7-7c5094cd5123</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='f47c104a0f45488298250ccf67f9c62f']/div/div/i</value>
+      <webElementGuid>7c415672-3e74-419f-9a80-60482ed47003</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//i</value>
+      <webElementGuid>38b30522-683f-49cc-a274-3167a49b2953</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

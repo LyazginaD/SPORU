@@ -56,7 +56,28 @@ b = a.replace('[A]', '')
 
 println(b)
 
+'удаление переносов'
+String percents1
+
+String percents = WebUI.getText(findTestObject('Object Repository/Выполнение бизнес-плана/Filials'))
+
+println(percents)
+
+percents1 = percents.replaceAll('[\\r?\n|\r]','')
+
+println(percents1)
+
+percents1 = percents.replaceAll('\\n','')
+
+println(percents1)
+
+percents1 = percents.replaceAll('\\v','')
+
+println(percents1)
+
 //length()
+
+
 
 c = a.length()
 
@@ -67,3 +88,11 @@ println(c)
 Date date = new Date()
 String todaysDate = date.format("dd.MM.yyyy")
 println(todaysDate)
+
+a = a.replaceAll('[а-яА-Я]', '')//удалить все буквы
+
+a = a.replaceAll('\\d+','')//удалить все цифры
+
+c = a.count(' ')//посчитать количество пробелов
+
+a = a.replace('.','')//удалить все точки

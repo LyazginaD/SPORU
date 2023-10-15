@@ -6,15 +6,16 @@
    <elementGuidId>daeacf9f-48d4-4426-b9a3-56ce64e6a7d2</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Отпуск в сеть'])[4]/following::td[1]</value>
+         <value>//div[144]/div[2]/div/div/table/tbody/tr/td[2]</value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>//tbody[1]/tr[1]/td[2]</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -25,15 +26,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>td</value>
-      <webElementGuid>1cf36eb8-bc50-4a77-a93f-8bd36b5c89c3</webElementGuid>
+      <webElementGuid>7a7dbef7-6977-443e-a29b-064ee8c1e91a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>156 748 519</value>
-      <webElementGuid>cdc4a5ae-ea48-4ef3-b52e-9613d6438d0a</webElementGuid>
+      <value>569 582 438</value>
+      <webElementGuid>0e045140-059c-4316-bec1-1ff1ddedf003</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -41,7 +42,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;table-d666b45405154eb2b183036cee818b60&quot;)/tbody[1]/tr[1]/td[2]</value>
-      <webElementGuid>e54b4708-978d-4a19-974b-d882213c5c46</webElementGuid>
+      <webElementGuid>bb4b8fb2-9af1-43d0-ac84-ffc03be109a5</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -49,7 +50,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='table-d666b45405154eb2b183036cee818b60']/tbody/tr/td[2]</value>
-      <webElementGuid>64d4e3e6-c324-46f3-a86f-8786cbcfa3c0</webElementGuid>
+      <webElementGuid>2aeb9673-8581-4bbb-a7b8-e6dfe17f2bad</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -57,7 +58,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Отпуск в сеть'])[4]/following::td[1]</value>
-      <webElementGuid>d438b60f-aa65-4091-882b-0afef0282126</webElementGuid>
+      <webElementGuid>17016a16-3603-43c8-8f72-e373df23ab36</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -65,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Итого – Факт'])[1]/following::td[2]</value>
-      <webElementGuid>013464b0-c113-4cda-9a2a-b41e1d723b21</webElementGuid>
+      <webElementGuid>9d4b54ec-8058-4d8f-b04b-e98cfa7a68d8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -73,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Отпуск из сети'])[4]/preceding::td[1]</value>
-      <webElementGuid>1d49cb3b-ff1e-49ca-bcc5-f71b6b7dbfa8</webElementGuid>
+      <webElementGuid>eb90b7a8-7e0e-411f-bc4b-b09119a63593</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,22 +82,30 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Потери'])[4]/preceding::td[3]</value>
-      <webElementGuid>7406a8bc-14e0-4bb5-810f-7df69c2d72af</webElementGuid>
+      <webElementGuid>d522c89e-cb0f-43aa-b933-80c364670324</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='569 582 438']/parent::*</value>
+      <webElementGuid>0448106a-8564-4aeb-8186-c7de27676058</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[150]/div[2]/div/div/table/tbody/tr/td[2]</value>
-      <webElementGuid>b0774fb2-2e24-4b2e-9709-28f1e4be9c03</webElementGuid>
+      <value>//div[144]/div[2]/div/div/table/tbody/tr/td[2]</value>
+      <webElementGuid>ad4240aa-2aed-48b1-8f96-3bfd3009794a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//td[(text() = '156 748 519' or . = '156 748 519')]</value>
-      <webElementGuid>48c5dd6b-7ccf-4ae6-8ad7-7db087370d28</webElementGuid>
+      <value>//td[(text() = '569 582 438' or . = '569 582 438')]</value>
+      <webElementGuid>a3e32457-f158-433b-a981-24c121f6d06f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -15,7 +15,7 @@
       <guid>c5b0afc9-18ad-48a0-ad42-730f82cae887</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Выполнение бизнес-плана/Выполнение бизнес-плана Сверка ПАО Россети 2023</testCaseId>
+      <testCaseId>Test Cases/Архив/Выполнение бизнес-плана Сверка ПАО Россети 2023</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
