@@ -42,6 +42,14 @@ WebUI.click(findTestObject('Страница авторизации/button_'))
 
 WebUI.delay(15)
 
+WebUI.click(findTestObject('Прогноз по отраслям/Фильтр Месяц'))
+
+WebUI.scrollToElement(findTestObject('Прогноз по отраслям/Август'), 30)
+
+WebUI.click(findTestObject('Прогноз по отраслям/Август'))
+
+WebUI.scrollToElement(findTestObject('Прогноз по отраслям/Заголовок дашборда'), 30)
+
 WebUI.click(findTestObject('Прогноз по отраслям/Фильтр Сравнение с'))
 
 WebUI.click(findTestObject('Прогноз по отраслям/Факт прошлого года'))
@@ -183,6 +191,14 @@ println('a12:' + a12)
 WebUI.navigateToUrl(findTestData('PlanFact').getValue(10, 12))
 
 WebUI.delay(15)
+
+WebUI.click(findTestObject('Прогноз по отраслям/Фильтр месяц Стресс'))
+
+WebUI.scrollToElement(findTestObject('Прогноз по отраслям/Август Стресс'), 30)
+
+WebUI.click(findTestObject('Прогноз по отраслям/Август Стресс'))
+
+WebUI.scrollToElement(findTestObject('Прогноз по отраслям/Заголовок дашборда Стресс'), 30)
 
 WebUI.click(findTestObject('Прогноз по отраслям/Фильтр Сравнение с Стресс'))
 

@@ -436,11 +436,14 @@ static void Autorization(def block, def nameOfBlock) {
         WebUI.click(findTestObject('Страница авторизации/button_'))
     }
     
-    WebUI.delay(40)
+    WebUI.delay(30)
 
-    if (WebUI.verifyTextPresent('Просьба обратить внимание', false) == true) {
-        WebUI.click(findTestObject('Выручка в рублях/Закрыть оповещение'))
-    }
+    if (block == 2) {
+		String opoveshenie = WebUI.getText(findTestObject('Выручка в рублях/Просьба обратить внимание'))
+	    if (opoveshenie == 'Просьба обратить внимание') {
+	        WebUI.click(findTestObject('Выручка в рублях/Закрыть оповещение'))
+	    }
+	}
 }
 
 static def Tumbler(def run, def vir, def block, def nameOfBlock) {

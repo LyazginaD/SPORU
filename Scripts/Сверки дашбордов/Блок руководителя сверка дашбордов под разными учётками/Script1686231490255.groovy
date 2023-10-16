@@ -115,10 +115,7 @@ def VipolnenieBiznesPlana(def user, def dashboardName, def n, def data, def run,
 
     WebUI.delay(40)
 
-    '!'
-    if (WebUI.verifyTextPresent('Просьба обратить внимание', false) == true) {
-        WebUI.click(findTestObject('Выполнение бизнес-плана/Закрыть оповещение'))
-    }
+    ZakrytOpoveshenie()
     
     'Раскрыть фильтр "Дата"'
     WebUI.click(findTestObject('Object Repository/Выполнение бизнес-плана/Фильтр Дата'))
@@ -131,10 +128,7 @@ def VipolnenieBiznesPlana(def user, def dashboardName, def n, def data, def run,
 
     WebUI.delay(20)
 
-    '!'
-    if (WebUI.verifyTextPresent('Просьба обратить внимание', false) == true) {
-        WebUI.click(findTestObject('Выполнение бизнес-плана/Закрыть оповещение'))
-    }
+    ZakrytOpoveshenie()
     
     'Раскрыть фильтр "Дата"'
     WebUI.click(findTestObject('Object Repository/Выполнение бизнес-плана/Фильтр Дата'))
@@ -172,9 +166,7 @@ def VipolnenieBiznesPlana(def user, def dashboardName, def n, def data, def run,
     WebUI.delay(20)
 
     '!'
-    if (WebUI.verifyTextPresent('Просьба обратить внимание', false) == true) {
-        WebUI.click(findTestObject('Выполнение бизнес-плана/Закрыть оповещение'))
-    }
+    ZakrytOpoveshenie()
     
     'Открыть фильтр "ДЗО"'
     WebUI.click(findTestObject('Object Repository/Выполнение бизнес-плана/Фильтр ДЗО'))
@@ -1739,6 +1731,17 @@ def PrognozPoOtraslyam(def user, def dashboardName, def n, def data, def run, de
     }
     
     WebUI.closeBrowser()
+}
+
+
+static void ZakrytOpoveshenie() {
+	String opoveshenie = WebUI.getText(findTestObject('Выполнение бизнес-плана/Просьба обратить внимание'))
+
+	println(opoveshenie)
+
+	if (opoveshenie == 'Просьба обратить внимание') {
+		WebUI.click(findTestObject('Выполнение бизнес-плана/Закрыть оповещение'))
+	}
 }
 
 static def WriteToExcel(def user, def dashboardName, def n, def data, def run, def a1, def a2, def a3, def a4, def a5, def a6, def a7, def a8, def a9) {
