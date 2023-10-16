@@ -451,31 +451,31 @@ static def Numbers(def a, def typeOfData, def todaysDate, def pageInt, def fileI
         page2 = page2.substring(0, page.indexOf(' '))
 
     } else {
-        if ((((a == 29) || (a == 83)) || (a == 71)) || (a == 15)) {
+        if (((((a == 29) || (a == 83)) || (a == 71)) || (a == 15)) || (a == 19)) {
             filialNumberInRow = 1
-        } else if ((((((a == 30) || (a == 52)) || (a == 79)) || (a == 76)) || (a == 70)) || (a == 14)) {
+        } else if (((((((a == 30) || (a == 52)) || (a == 79)) || (a == 76)) || (a == 70)) || (a == 14)) || (a == 20)) {
             filialNumberInRow = 2
-        } else if ((((((a == 31) || (a == 72)) || (a == 78)) || (a == 75)) || (a == 66)) || (a == 16)) {
+        } else if (((((((a == 31) || (a == 72)) || (a == 78)) || (a == 75)) || (a == 66)) || (a == 16)) || (a == 21)) {
             filialNumberInRow = 3
-        } else if ((((a == 28) || (a == 32)) || (a == 67)) || (a == 17)) {
+        } else if (((((a == 28) || (a == 32)) || (a == 67)) || (a == 17)) || (a == 22)) {
             filialNumberInRow = 4
-        } else if ((((a == 33) || (a == 73)) || (a == 68)) || (a == 2)) {
+        } else if (((((a == 33) || (a == 73)) || (a == 68)) || (a == 2)) || (a == 23)) {
             filialNumberInRow = 5
-        } else if ((((a == 34) || (a == 77)) || (a == 69)) || (a == 3)) {
+        } else if (((((a == 34) || (a == 77)) || (a == 69)) || (a == 3)) || (a == 24)) {
             filialNumberInRow = 6
-        } else if ((((a == 35) || (a == 74)) || (a == 3)) || (a == 4)) {
+        } else if (((((a == 35) || (a == 74)) || (a == 3)) || (a == 4)) || (a == 25)) {
             filialNumberInRow = 7
-        } else if ((a == 65) || (a == 5)) {
+        } else if (((a == 65) || (a == 5)) || (a == 26)) {
             filialNumberInRow = 8
-        } else if ((a == 36) || (a == 6)) {
+        } else if (((a == 36) || (a == 6)) || (a == 27)) {
             filialNumberInRow = 9
         } else if ((a == 44) || (a == 7)) {
             filialNumberInRow = 10
-        } else if ((a == 53) || (a == 13)) {
+        } else if ((a == 53) || (a == 13)){
             filialNumberInRow = 11
-        } else if ((a == 80) || (a == 8)) {
+        } else if ((a == 80) || (a == 8)){
             filialNumberInRow = 12
-        } else if ((a == 54) || (a == 9)) {
+        } else if ((a == 54) || (a == 9)){
             filialNumberInRow = 13
         } else if ((a == 1) || (a == 10)) {
             filialNumberInRow = 14
@@ -812,31 +812,35 @@ static def Filials(def a, def typeOfData, def todaysDate, def pageInt, def fileI
     }
     
     if (a == 77) {
+		
+		dZO = 'Ленинградская область'
+
+		a = 79
+
+		Numbers(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO)
+		
         dZO = 'г. Санкт-Петербург'
 
         a = 78
 
         Numbers(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO)
 
-        dZO = 'Ленинградская область'
-
-        a = 79
-
-        Numbers(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO)
     }
     
     if (a == 74) {
+		
+        dZO = 'г. Москва'
+
+        a = 75
+
+        Numbers(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO)
+		
         dZO = 'Московская область'
 
         a = 76
 
         Numbers(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO)
 
-        dZO = 'г. Москва'
-
-        a = 75
-
-        Numbers(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO)
     }
     
     if (a == 65) {
@@ -977,7 +981,63 @@ static def Filials(def a, def typeOfData, def todaysDate, def pageInt, def fileI
 		
 	}
 	
-    
+	if (a == 18) {
+		dZO = 'Владимирэнерго'
+
+		a = 19
+
+		Numbers(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO)
+
+		dZO = 'Ивэнерго'
+
+		a = 20
+
+		Numbers(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO)
+
+		dZO = 'Калугаэнерго'
+
+		a = 21
+
+		Numbers(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO)
+
+		dZO = 'Кировэнерго'
+
+		a = 22
+
+		Numbers(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO)
+
+		dZO = 'Мариэнерго'
+
+		a = 23
+
+		Numbers(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO)
+
+		dZO = 'Нижновэнерго'
+
+		a = 24
+
+		Numbers(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO)
+
+		dZO = 'Рязаньэнерго'
+
+		a = 25
+
+		Numbers(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO)
+		
+		dZO = 'Тулэнерго'
+		
+		a = 26
+		
+		Numbers(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO)
+		
+		dZO = 'Удмуртэнерго'
+		
+		a = 27
+		
+		Numbers(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO)
+		
+	}
+	
     OpenFilter()
 
     CloseFilter()
