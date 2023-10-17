@@ -104,9 +104,6 @@ WebUI.click(findTestObject('Object Repository/Выполнение бизнес-
 
 WebUI.delay(30)
 
-'!'
-WebUI.delay(30)
-
 ZakrytOpoveshenie()
 
 WebUI.delay(30)
@@ -244,6 +241,18 @@ static def Numbers(def a, def typeOfData, def todaysDate, def pageInt, def fileI
 
     String page
 
+    String page1
+
+    String page2
+
+    int filialNumberInRow
+
+    String filialsDzoNames
+
+    int numberOfFilials
+
+    int numberOfSpaces
+
     String file
 
     String otpusk
@@ -266,17 +275,11 @@ static def Numbers(def a, def typeOfData, def todaysDate, def pageInt, def fileI
 
     int compare
 
-    double filePlan
-
-    double fileFact
-
-    double pagePlan
-
-    double pageFact
-
     String b
 
     int i
+
+    int ii
 
     String c
 
@@ -430,131 +433,197 @@ static def Numbers(def a, def typeOfData, def todaysDate, def pageInt, def fileI
         }
     }
     
-    if (((((((((((((((((((a == 52) || (a == 72)) || (a == 28)) || (a == 73)) || (a == 77)) || (a == 74)) || (a == 65)) || 
-    (a == 36)) || (a == 44)) || (a == 53)) || (a == 80)) || (a == 54)) || (a == 1)) || (a == 18)) || (a == 59)) || (a == 
-    81)) || (a == 82)) || (a == 83)) || (a == 84)) {
-        if (a != 84) {
-            if (a != 82) {
-                OpenFilter()
-
-                if (a == 83) {
-                    WebUI.click(findTestObject('Выполнение бизнес-плана/Россети ФСК ЕЭС'))
-                } else {
-                    DZO(a)
-                }
-                
-                CloseFilter()
-
-                WebUI.delay(5)
-            }
-        }
-        
+    if ((a == 84) || (a == 82)) {
         page = WebUI.getText(findTestObject('Выполнение бизнес-плана/textPlanFact'))
 
-        page = page.replace('%', '')
+        page = page.replaceAll('\\n', '_')
 
-        page = page.replaceAll('\\s+', '')
+        page = page.substring(page.indexOf('_') + 1, page.length())
 
-        page = (page.split('План')[0])
+        page1 = page.substring(0, page.indexOf('_'))
 
-        i = page.indexOf('.')
+        page1 = page.substring(0, page.indexOf(' '))
 
-        if (i > -1) {
-            i = (i + 3)
+        page2 = page.substring(page.indexOf('_') + 1, page.length())
 
-            c = page.substring(0, i)
+        page2 = page2.substring(0, page.indexOf('_'))
+
+        page2 = page2.substring(0, page.indexOf(' '))
+
+    } else {
+        if ((a==83)||(a==29)||(a==79)||(a==75)||(a==71)||(a==15)||(a==19)||(a==37)||(a==45)||(a==58)||(a==64)) {
+            filialNumberInRow = 1
+        } else if ((a==52)||(a==30)|| (a==78)||(a==76)||(a==70)||(a==14)||(a==20)||(a==38)||(a==46)||(a==55)||(a==60)) {
+            filialNumberInRow = 2
+        } else if ((a==72)||(a==31)||(a==66)||(a==16)||(a==21)||(a==39)||(a==47)||(a==56)||(a==61)) {
+            filialNumberInRow = 3
+        } else if ((a==28)||(a==32)||(a==67)||(a==17)||(a==22)||(a==40)||(a==48)||(a==57)||(a==62)) {
+            filialNumberInRow = 4
+        } else if ((a==73)||(a==33)||(a==68)||(a==2)||(a==23)||(a==42)||(a==49)||(a==63)) {
+            filialNumberInRow = 5
+        } else if ((a==77)||(a==34)||(a==69)||(a==3)||(a==24)||(a==43)||(a==50)) {
+            filialNumberInRow = 6
+        } else if ((a==74)||(a==35)|| (a==4)||(a==25)||(a==41)||(a==51)) {
+            filialNumberInRow = 7
+        } else if (((a == 65) || (a == 5)) || (a == 26)) {
+            filialNumberInRow = 8
+        } else if (((a == 36) || (a == 6)) || (a == 27)) {
+            filialNumberInRow = 9
+        } else if ((a == 44) || (a == 7)) {
+            filialNumberInRow = 10
+        } else if ((a == 53) || (a == 13)){
+            filialNumberInRow = 11
+        } else if ((a == 80) || (a == 8)){
+            filialNumberInRow = 12
+        } else if ((a == 54) || (a == 9)){
+            filialNumberInRow = 13
+        } else if ((a == 1) || (a == 10)) {
+            filialNumberInRow = 14
+        } else if ((a == 18) || (a == 11)) {
+            filialNumberInRow = 15
+        } else if ((a == 59) || (a == 12)) {
+            filialNumberInRow = 16
+        } else if (a == 81) {
+            filialNumberInRow = 17
         }
         
-        pagePlan = c.toDouble()
+        println('filialNumberInRow: ' + filialNumberInRow)
 
-        file = findTestData('PlanFact').getValue(4, a)
+        page = WebUI.getText(findTestObject('Object Repository/Выполнение бизнес-плана/Filials'))
 
-        file = file.replace(',', '.')
+        page = page.replaceAll('\\n', '_').trim()
 
-        filePlan = file.toDouble()
+        filialsDzoNames = page.replace('.', '')
 
-        file = findTestData('PlanFact').getValue(7, a)
+        filialsDzoNames = filialsDzoNames.replaceAll('\\d+', '')
 
-        file = file.replace(',', '.')
+        filialsDzoNames = filialsDzoNames.replaceAll('_', '').trim()
 
-        i = page.indexOf('.')
+        filialsDzoNames = filialsDzoNames.substring(0, 3)
+
+        i = page.indexOf(filialsDzoNames)
+
+        page = page.substring(0, i).trim()
+
+        numberOfSpaces = page.count('_')
+
+        numberOfFilials = (numberOfSpaces / 2)
+
+        println('numberOfFilials: ' + numberOfFilials)
+
+        page = page.replaceAll('_', ' ').trim()
+
+        i = page.indexOf(' ')
+
+        page1 = page.substring(0, i)
+
+        page2 = page.substring(i, page.length()).trim()
+
+        for (ii = 1; ii < (numberOfFilials + 1); ii++) {
+            i = page2.indexOf(' ')
+
+            page1 = ((page1 + ' ') + page2.substring(0, i))
+
+            i = page1.length()
+
+            page2 = page.substring(i, page.length())
+
+        }
+
+        i = page1.indexOf(' ')
 
         if (i > -1) {
-            i = (i + 3)
-
-            page = page.substring(i)
-
-            i = page.indexOf('.')
-
-            if (i > -1) {
-                i = (i + 3)
-
-                page = page.substring(i)
-
-                i = page.indexOf('.')
+            for (ii = 1; ii < filialNumberInRow; ii++) {
+                i = page1.indexOf(' ')
 
                 if (i > -1) {
-                    i = (i + 3)
-
-                    page = page.substring(i)
+                    page1 = page1.substring(i, page1.length()).trim()
                 }
             }
         }
         
-        fileFact = file.toDouble()
+        i = page1.indexOf(' ')
 
-        pageFact = page.toDouble()
-
-        if (pageFact == fileFact) {
-        } else {
-            numberOfErrors = (numberOfErrors + 1)
-
-            pageDouble = pagePlan
-
-            fileDouble = filePlan
-
-            typeOfData = 'План в процентах'
-
-            WriteToExcel(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO)
+        if (i > -1) {
+            page1 = page1.substring(0, i).trim()
         }
         
-        if (pageFact == fileFact) {
-        } else {
-            numberOfErrors = (numberOfErrors + 1)
+        i = page2.indexOf(' ')
 
-            pageDouble = pageFact
+        if (i > -1) {
+            for (ii = 1; ii < filialNumberInRow; ii++) {
+                i = page2.indexOf(' ')
 
-            fileDouble = fileFact
-
-            typeOfData = 'Факт в процентах'
-
-            WriteToExcel(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO)
+                if (i > -1) {
+                    page2 = page2.substring(i, page2.length()).trim()
+                }
+            }
         }
+        
+        i = page2.indexOf(' ')
+
+        if (i > -1) {
+            page2 = page2.substring(0, i).trim()
+        }
+    }
+    
+    println('page1: ' + page1)
+
+    println('page2: ' + page2)
+
+    file = findTestData('PlanFact').getValue(4, a)
+
+    file = file.replace(',', '.')
+
+    println('file Plan: ' + file)
+
+    typeOfData = 'План в процентах'
+
+    fileDouble = file.toDouble()
+
+    pageDouble = page1.toDouble()
+
+    if (fileDouble != pageDouble) {
+        numberOfErrors = (numberOfErrors + 1)
+
+        WriteToExcel(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO)
+    }
+    
+    file = findTestData('PlanFact').getValue(7, a)
+
+    file = file.replace(',', '.')
+
+    println('file Fact: ' + file)
+
+    fileDouble = file.toDouble()
+
+    typeOfData = 'Факт в процентах'
+
+    fileDouble = file.toDouble()
+
+    pageDouble = page2.toDouble()
+
+    if (fileDouble != pageDouble) {
+        numberOfErrors = (numberOfErrors + 1)
+
+        WriteToExcel(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO)
     }
     
     if (WebUI.verifyEqual(numberOfErrors, 0) == false) {
         println(numberOfErrors)
 
-        CheckFilials(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO)
+        if ((((((((((a == 28) || (a == 77)) || (a == 74)) || (a == 65)) || (a == 36)) || (a == 44)) || (a == 54)) || (a == 
+        1)) || (a == 18)) || (a == 59)) {
+            Filials(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO)
+        }
     }
     
-    if (a < 83) {
+    if (a == 82) {
         OpenFilter()
 
         CloseFilter()
-    }
-}
 
-static def CheckFilials(def a, def typeOfData, def todaysDate, def pageInt, def fileInt, def pageDouble, def fileDouble, def dZO) {
-    if ((((((((((a == 28) || (a == 77)) || (a == 74)) || (a == 65)) || (a == 36)) || (a == 44)) || (a == 54)) || (a == 1)) || 
-    (a == 18)) || (a == 59)) {
-        WebUI.delay(30)
-
-        String percents = WebUI.getText(findTestObject('Object Repository/Выполнение бизнес-плана/Filials'))
-
-        println('percents: ' + percents)
-
-        Filials(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO)
+        WebUI.delay(20)
     }
 }
 
@@ -569,30 +638,14 @@ static void ZakrytOpoveshenie() {
 }
 
 static void DZO(def a) {
+    OpenFilter()
+
     OpenRSK()
 
-    if (a == 52) {
-        WebUI.scrollToElement(findTestObject('Выполнение бизнес-плана/Раскрыть список Тываэнерго'), 30)
-
-        WebUI.click(findTestObject('Выполнение бизнес-плана/Тываэнерго'))
-    }
-    
-    if (a == 72) {
-        WebUI.scrollToElement(findTestObject('Выполнение бизнес-плана/Раскрыть список Чеченэнерго'), 30)
-
-        WebUI.click(findTestObject('Выполнение бизнес-плана/Чеченэнерго'))
-    }
-    
     if (a == 28) {
         WebUI.scrollToElement(findTestObject('Общие объекты/Раскрыть список Россети Волга'), 30)
 
         WebUI.click(findTestObject('Выполнение бизнес-плана/Россети Волга'))
-    }
-    
-    if (a == 73) {
-        WebUI.scrollToElement(findTestObject('Общие объекты/Раскрыть список Россети Кубань'), 30)
-
-        WebUI.click(findTestObject('Выполнение бизнес-плана/Россети Кубань'))
     }
     
     if (a == 77) {
@@ -625,18 +678,6 @@ static void DZO(def a) {
         WebUI.click(findTestObject('Выполнение бизнес-плана/Россети Сибирь'))
     }
     
-    if (a == 53) {
-        WebUI.scrollToElement(findTestObject('Общие объекты/Раскрыть список Россети Томск'), 30)
-
-        WebUI.click(findTestObject('Выполнение бизнес-плана/Россети Томск'))
-    }
-    
-    if (a == 80) {
-        WebUI.scrollToElement(findTestObject('Общие объекты/Раскрыть список Россети Тюмень'), 30)
-
-        WebUI.click(findTestObject('Выполнение бизнес-плана/Россети Тюмень'))
-    }
-    
     if (a == 54) {
         WebUI.scrollToElement(findTestObject('Общие объекты/Раскрыть список Россети Урал'), 30)
 
@@ -661,11 +702,7 @@ static void DZO(def a) {
         WebUI.click(findTestObject('Выполнение бизнес-плана/Россети Юг'))
     }
     
-    if (a == 81) {
-        WebUI.scrollToElement(findTestObject('Общие объекты/Раскрыть список Россети Янтарь'), 30)
-
-        WebUI.click(findTestObject('Выполнение бизнес-плана/Россети Янтарь'))
-    }
+    CloseFilter()
 }
 
 static void OpenRSK() {
@@ -687,13 +724,474 @@ static void CloseFilter() {
 }
 
 static def Filials(def a, def typeOfData, def todaysDate, def pageInt, def fileInt, def pageDouble, def fileDouble, def dZO) {
+	
+	int i
+	
+    int c
+
+    String page
+	
+	println(dZO)
+	
+	String reducedDZO = dZO.substring(0,13)
+	
+	println(reducedDZO)
+
+    DZO(a)
+
+    page = WebUI.getText(findTestObject('Object Repository/Выполнение бизнес-плана/Filials'))
+	
+	println(page)
+	
+    c = page.indexOf(reducedDZO)
+
+    while(c>-1) {
+		        
+		OpenFilter()
+
+		CloseFilter()
+
+		DZO(a)
+				
+		WebUI.delay(10)
+		
+		page = WebUI.getText(findTestObject('Object Repository/Выполнение бизнес-плана/Filials'))
+		
+		println(page)
+		
+		c = page.indexOf(reducedDZO)
+		
+		println('c indexOf(reducedDZO): ' + c)
+
+		WebUI.delay(5)
+		
+    }
+    
     if (a == 28) {
+        dZO = 'Мордовэнерго'
+
+        a = 29
+
+        Numbers(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO)
+
+        dZO = 'Оренбургэнерго'
+
+        a = 30
+
+        Numbers(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO)
+
+        dZO = 'Пензаэнерго'
+
+        a = 31
+
+        Numbers(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO)
+
+        dZO = 'Самарские РС'
+
+        a = 32
+
+        Numbers(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO)
+
+        dZO = 'Саратовские РС'
+
+        a = 33
+
+        Numbers(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO)
+
+        dZO = 'Ульяновские РС'
+
+        a = 34
+
+        Numbers(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO)
+
         dZO = 'Чувашэнерго'
 
         a = 35
 
         Numbers(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO)
     }
+    
+    if (a == 77) {
+		
+		dZO = 'Ленинградская область'
+
+		a = 79
+
+		Numbers(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO)
+		
+        dZO = 'г. Санкт-Петербург'
+
+        a = 78
+
+        Numbers(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO)
+
+    }
+    
+    if (a == 74) {
+		
+        dZO = 'г. Москва'
+
+        a = 75
+
+        Numbers(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO)
+		
+        dZO = 'Московская область'
+
+        a = 76
+
+        Numbers(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO)
+
+    }
+    
+    if (a == 65) {
+        dZO = 'Дагэнерго'
+
+        a = 71
+
+        Numbers(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO)
+
+        dZO = 'Ингушэнерго'
+
+        a = 70
+
+        Numbers(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO)
+
+        dZO = 'Каббалкэнерго'
+
+        a = 66
+
+        Numbers(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO)
+
+        dZO = 'Карачаево-Черкесскэнерго'
+
+        a = 67
+
+        Numbers(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO)
+
+        dZO = 'Севкавказэнерго'
+
+        a = 68
+
+        Numbers(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO)
+
+        dZO = 'Ставропольэнерго'
+
+        a = 69
+
+        Numbers(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO)
+    }
+	
+	if (a == 1) {
+		dZO = 'АО «Кинешемская электросеть»'
+
+		a = 15
+
+		Numbers(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO)
+
+		dZO = 'АО «Воронежская горэлектросеть»'
+
+		a = 14
+
+		Numbers(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO)
+
+		dZO = 'АО «Тульские городские электрические сети»'
+
+		a = 16
+
+		Numbers(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO)
+
+		dZO = 'АО «Ярославская электросетевая компания»'
+
+		a = 17
+
+		Numbers(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO)
+
+		dZO = 'Белгородэнерго'
+
+		a = 2
+
+		Numbers(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO)
+
+		dZO = 'Брянскэнерго'
+
+		a = 3
+
+		Numbers(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO)
+
+		dZO = 'Воронежэнерго'
+
+		a = 4
+
+		Numbers(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO)
+		
+		dZO = 'Костромаэнерго'
+		
+		a = 5
+		
+		Numbers(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO)
+		
+		dZO = 'Курскэнерго'
+		
+		a = 6
+		
+		Numbers(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO)
+		
+		dZO = 'Липецкэнерго'
+		
+		a = 7
+		
+		Numbers(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO)
+		
+		dZO = 'ООО «БрянскЭлектро»'
+		
+		a = 13
+		
+		Numbers(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO)
+		
+		dZO = 'Орелэнерго'
+		
+		a = 8
+		
+		Numbers(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO)
+		
+		dZO = 'Смоленскэнерго'
+		
+		a = 9
+		
+		Numbers(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO)
+		
+		dZO = 'Тамбовэнерго'
+		
+		a = 10
+		
+		Numbers(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO)
+		
+		
+		dZO = 'Тверьэнерго'
+		
+		a = 11
+		
+		Numbers(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO)
+		
+		dZO = 'Ярэнерго'
+		
+		a = 12
+		
+		Numbers(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO)
+		
+	}
+	
+	if (a == 18) {
+		dZO = 'Владимирэнерго'
+
+		a = 19
+
+		Numbers(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO)
+
+		dZO = 'Ивэнерго'
+
+		a = 20
+
+		Numbers(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO)
+
+		dZO = 'Калугаэнерго'
+
+		a = 21
+
+		Numbers(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO)
+
+		dZO = 'Кировэнерго'
+
+		a = 22
+
+		Numbers(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO)
+
+		dZO = 'Мариэнерго'
+
+		a = 23
+
+		Numbers(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO)
+
+		dZO = 'Нижновэнерго'
+
+		a = 24
+
+		Numbers(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO)
+
+		dZO = 'Рязаньэнерго'
+
+		a = 25
+
+		Numbers(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO)
+		
+		dZO = 'Тулэнерго'
+		
+		a = 26
+		
+		Numbers(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO)
+		
+		dZO = 'Удмуртэнерго'
+		
+		a = 27
+		
+		Numbers(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO)
+		
+	}
+	
+	if (a == 36) {
+		dZO = 'Архангельский филиал'
+
+		a = 37
+
+		Numbers(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO)
+
+		dZO = 'Вологодский филиал'
+
+		a = 38
+
+		Numbers(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO)
+
+		dZO = 'Карельский филиал'
+
+		a = 39
+
+		Numbers(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO)
+
+		dZO = 'Мурманский филиал'
+
+		a = 40
+
+		Numbers(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO)
+
+		dZO = 'Новгородский филиал'
+
+		a = 42
+
+		Numbers(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO)
+
+		dZO = 'Псковский филиал'
+
+		a = 43
+
+		Numbers(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO)
+
+		dZO = 'филиал в Республике Коми'
+
+		a = 41
+		
+		Numbers(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO)
+				
+	}
+	
+	
+	if (a == 44) {
+		dZO = 'Алтайэнерго'
+
+		a = 45
+
+		Numbers(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO)
+
+		dZO = 'Бурятэнерго'
+
+		a = 46
+
+		Numbers(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO)
+
+		dZO = 'Красноярскэнерго'
+
+		a = 47
+
+		Numbers(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO)
+
+		dZO = 'Кузбассэнерго-РЭС'
+
+		a = 48
+
+		Numbers(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO)
+
+		dZO = 'Омскэнерго'
+
+		a = 49
+
+		Numbers(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO)
+
+		dZO = 'Хакасэнерго'
+
+		a = 50
+
+		Numbers(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO)
+
+		dZO = 'Читаэнерго'
+
+		a = 51
+		
+		Numbers(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO)
+		
+	}
+	
+	
+	if (a == 54) {
+		dZO = 'АО ЕЭСК'
+
+		a = 58
+
+		Numbers(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO)
+
+		dZO = 'Пермэнерго'
+
+		a = 55
+
+		Numbers(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO)
+
+		dZO = 'Свердловэнерго'
+
+		a = 56
+
+		Numbers(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO)
+
+		dZO = 'Челябэнерго'
+
+		a = 57
+
+		Numbers(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO)
+
+	}
+	
+	if (a == 59) {
+		dZO = 'АО "ВМЭС"'
+
+		a = 64
+
+		Numbers(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO)
+
+		dZO = 'Астраханьэнерго'
+
+		a = 60
+
+		Numbers(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO)
+
+		dZO = 'Волгоградэнерго'
+
+		a = 61
+
+		Numbers(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO)
+
+		dZO = 'Калмэнерго'
+
+		a = 62
+
+		Numbers(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO)
+
+		dZO = 'Ростовэнерго'
+		
+		a = 63
+		
+		Numbers(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO)
+						
+	}
+    OpenFilter()
+
+    CloseFilter()
 }
 
 static def WriteToExcel(def a, def typeOfData, def todaysDate, def pageInt, def fileInt, def pageDouble, def fileDouble, def dZO) {
