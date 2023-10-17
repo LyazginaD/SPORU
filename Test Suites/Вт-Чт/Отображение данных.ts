@@ -12,7 +12,7 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>1e0a1f3d-779a-4dc6-bb5f-1d2a40e031e9</testSuiteGuid>
    <testCaseLink>
-      <guid>2c854692-566f-42b7-8607-150246d2cb3a</guid>
+      <guid>d981e2f0-e151-42c0-9f3b-4615ba168578</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Выполнение бизнес-плана/Выполнение бизнес-плана отображение данных все филиалы</testCaseId>
