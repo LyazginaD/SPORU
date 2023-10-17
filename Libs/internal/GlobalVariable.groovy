@@ -19,7 +19,7 @@ public class GlobalVariable {
         try {
             def selectedVariables = TestCaseMain.getGlobalVariables("default")
 			selectedVariables += TestCaseMain.getGlobalVariables(RunConfiguration.getExecutionProfile())
-            selectedVariables += TestCaseMain.getParsedValues(RunConfiguration.getOverridingParameters(), selectedVariables)
+            selectedVariables += TestCaseMain.getParsedValues(RunConfiguration.getOverridingParameters())
     
             excelFilePath = selectedVariables['excelFilePath']
             
