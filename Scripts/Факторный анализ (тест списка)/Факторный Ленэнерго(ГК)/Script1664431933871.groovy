@@ -90,9 +90,9 @@ WebUI.closeBrowser()
 
 
 /*
- WebUI.getText(findTestObject(''))
+ WebUI.getText(findTestObject('null'))
 
-String liText = WebUI.getText(findTestObject(''))
+String liText = WebUI.getText(findTestObject('null'))
 
 println(liText)
 
