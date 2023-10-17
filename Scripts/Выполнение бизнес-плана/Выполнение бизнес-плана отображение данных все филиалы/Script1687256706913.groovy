@@ -37,9 +37,7 @@ WebUI.click(findTestObject('Страница авторизации/button_'))
 WebUI.delay(30)
 
 '!'
-if (WebUI.verifyTextPresent('Просьба обратить внимание', false) == true) {
-    WebUI.click(findTestObject('Выполнение бизнес-плана/Закрыть оповещение'))
-}
+ZakrytOpoveshenie()
 
 'Раскрыть фильтр "Дата"'
 WebUI.click(findTestObject('Object Repository/Выполнение бизнес-плана/Фильтр Дата'))
@@ -52,9 +50,7 @@ WebUI.click(findTestObject('Object Repository/Выполнение бизнес-
 
 WebUI.delay(10)
 
-if (WebUI.verifyTextPresent('Просьба обратить внимание', false) == true) {
-    WebUI.click(findTestObject('Выполнение бизнес-плана/Закрыть оповещение'))
-}
+ZakrytOpoveshenie()
 
 'Раскрыть фильтр "Дата"'
 WebUI.click(findTestObject('Object Repository/Выполнение бизнес-плана/Фильтр Дата'))
@@ -92,9 +88,7 @@ WebUI.click(findTestObject('Object Repository/Выполнение бизнес-
 WebUI.delay(10)
 
 '!'
-if (WebUI.verifyTextPresent('Просьба обратить внимание', false) == true) {
-    WebUI.click(findTestObject('Выполнение бизнес-плана/Закрыть оповещение'))
-}
+ZakrytOpoveshenie()
 
 'Открыть фильтр "ДЗО"'
 WebUI.click(findTestObject('Object Repository/Выполнение бизнес-плана/Фильтр ДЗО'))
@@ -112,19 +106,13 @@ def DzoTest(def todaysDate, def typeOfData) {
 
     Change(todaysDate, typeOfData)
 
-    WebUI.click(findTestObject('Выполнение бизнес-плана/Раскрыть список ПАО Россети в фильтре ДЗО'))
-
     WebUI.click(findTestObject('Выполнение бизнес-плана/Магистральные сети'))
 
     Change(todaysDate, typeOfData)
 
-    WebUI.click(findTestObject('Выполнение бизнес-плана/Раскрыть список Магистральные сети'))
-
     WebUI.click(findTestObject('Выполнение бизнес-плана/Россети ФСК ЕЭС'))
 
     Change(todaysDate, typeOfData)
-
-    WebUI.click(findTestObject('Выполнение бизнес-плана/Раскрыть список Россети ФСК ЕЭС'))
 
     WebUI.click(findTestObject('Общие объекты/Итого по ФСК ЕЭС'))
 
@@ -817,6 +805,16 @@ static def Test(def todaysDate, def typeOfData) {
         }
     } else {
         WriteToExcel(todaysDate, typeOfData)
+    }
+}
+
+static void ZakrytOpoveshenie() {
+    String opoveshenie = WebUI.getText(findTestObject('Выполнение бизнес-плана/Просьба обратить внимание'))
+
+    println(opoveshenie)
+
+    if (opoveshenie == 'Просьба обратить внимание') {
+        WebUI.click(findTestObject('Выполнение бизнес-плана/Закрыть оповещение'))
     }
 }
 
