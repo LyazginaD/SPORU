@@ -168,9 +168,19 @@ a8 = a8.substring(i, a8.length())
 
 i = a8.indexOf('Россети ФСКЕЭС')
 
-a8 = a8.substring(0, i)
+if (i>-1) {
+	a8 = a8.substring(0, i).trim()
+}
 
-a8 = a8.trim()
+i = a8.indexOf('п.п.')
+
+if (i>-1) {
+	
+	i = i + 5
+	a8 = a8.substring(i, a8.length()).trim()
+}
+
+a8 = a8
 
 println('a8:' + a8)
 
