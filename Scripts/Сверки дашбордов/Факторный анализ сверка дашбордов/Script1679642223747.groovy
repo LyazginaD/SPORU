@@ -72,16 +72,7 @@ static def Test(def run, def todaysDate, def typeOfData, def otobrajeniyeDannyh)
     WebUI.click(findTestObject('Факторный анализ/2 квартал 2023'), FailureHandling.CONTINUE_ON_FAILURE)
 
     'Проскроллить до элемента 2022'
-    WebUI.click(findTestObject('Факторный анализ/3 квартал 2023 список'), FailureHandling.CONTINUE_ON_FAILURE)
-
-    'Проскроллить до элемента 2022'
-    WebUI.scrollToElement(findTestObject('Факторный анализ/Август'), 30)
-
-    'Проскроллить до элемента 2022'
-    WebUI.click(findTestObject('Факторный анализ/Июль'), FailureHandling.CONTINUE_ON_FAILURE)
-
-    'Проскроллить до элемента 2022'
-    WebUI.click(findTestObject('Факторный анализ/Август'), FailureHandling.CONTINUE_ON_FAILURE)
+    WebUI.click(findTestObject('Факторный анализ/3 квартал 2023'), FailureHandling.CONTINUE_ON_FAILURE)
 
     'Проскроллить до заголовка фильтра "Дата"'
     WebUI.scrollToElement(findTestObject('Факторный анализ/Заголовок дашборда'), 30)
@@ -136,13 +127,7 @@ static def Test(def run, def todaysDate, def typeOfData, def otobrajeniyeDannyh)
 
     WebUI.click(findTestObject('Факторный анализ/2 квартал 2023 Выручка'))
 
-    WebUI.click(findTestObject('Факторный анализ/3 квартал 2023 список Выручка'))
-
-    WebUI.scrollToElement(findTestObject('Факторный анализ/Август Выручка'), 30)
-
-    WebUI.click(findTestObject('Факторный анализ/Июль Выручка'))
-
-    WebUI.click(findTestObject('Факторный анализ/Август Выручка'), FailureHandling.CONTINUE_ON_FAILURE)
+    WebUI.click(findTestObject('Факторный анализ/3 квартал 2023 Выручка'))
 
     'Проскроллить до заголовка фильтра "Дата"'
     WebUI.scrollToElement(findTestObject('Факторный анализ/Заголовок дашборда Выручка'), 30)
@@ -182,7 +167,7 @@ static def Test(def run, def todaysDate, def typeOfData, def otobrajeniyeDannyh)
             WriteToExcel(todaysDate, typeOfData, otobrajeniyeDannyh)
         }
     }
-
+    
     if (WebUI.verifyEqual(a2, b2) == true) {
     } else {
         typeOfData = 'Отклонение (средний тариф)'
@@ -197,7 +182,7 @@ static def Test(def run, def todaysDate, def typeOfData, def otobrajeniyeDannyh)
             WriteToExcel(todaysDate, typeOfData, otobrajeniyeDannyh)
         }
     }
-
+    
     if (WebUI.verifyEqual(a3, b3) == true) {
     } else {
         typeOfData = 'Всего отклонения по факторам'
@@ -244,12 +229,11 @@ static def WriteToExcel(def todaysDate, def typeOfData, def otobrajeniyeDannyh) 
     int n = data.getRowNumbers() + 1
 
     String dZO = WebUI.getText(findTestObject('Факторный анализ/Фильтр ДЗО Выручка'))
-	
-	if(dZO == 'Все') {
-		
-		dZO ='ПАО Россети'
-	}
 
+    if (dZO == 'Все') {
+        dZO = 'ПАО Россети'
+    }
+    
     String period = WebUI.getText(findTestObject('Факторный анализ/Фильтр Период'))
 
     println(period)

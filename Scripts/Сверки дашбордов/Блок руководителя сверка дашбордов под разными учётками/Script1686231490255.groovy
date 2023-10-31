@@ -91,10 +91,11 @@ for (run = 1; run < 4; run++) {
 for (run = 1; run < 4; run++) {
     PrognozPoOtraslyam(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9 //if (WebUI.verifyTextPresent('Просьба обратить внимание', false) == true) {
         //    WebUI.click(findTestObject('Выполнение бизнес-плана/Закрыть оповещение'))
+        //}
+        //if (WebUI.verifyTextPresent('Просьба обратить внимание', false) == true) {
+        //    WebUI.click(findTestObject('Выполнение бизнес-плана/Закрыть оповещение'))
         ) //}
-} //if (WebUI.verifyTextPresent('Просьба обратить внимание', false) == true) {
-//    WebUI.click(findTestObject('Выполнение бизнес-плана/Закрыть оповещение'))
-//}
+}
 
 def VipolnenieBiznesPlana(def user, def dashboardName, def n, def data, def run, def a1, def a2, def a3, def a4, def a5, def a6, def a7, def a8, def a9) {
     n = (data.getRowNumbers() + 1)
@@ -116,7 +117,7 @@ def VipolnenieBiznesPlana(def user, def dashboardName, def n, def data, def run,
     WebUI.delay(40)
 
     ZakrytOpoveshenie()
-    
+
     'Раскрыть фильтр "Дата"'
     WebUI.click(findTestObject('Object Repository/Выполнение бизнес-плана/Фильтр Дата'))
 
@@ -129,7 +130,7 @@ def VipolnenieBiznesPlana(def user, def dashboardName, def n, def data, def run,
     WebUI.delay(20)
 
     ZakrytOpoveshenie()
-    
+
     'Раскрыть фильтр "Дата"'
     WebUI.click(findTestObject('Object Repository/Выполнение бизнес-плана/Фильтр Дата'))
 
@@ -141,21 +142,16 @@ def VipolnenieBiznesPlana(def user, def dashboardName, def n, def data, def run,
     'Выбрать 1 квартал 2022'
     WebUI.click(findTestObject('Выполнение бизнес-плана/2023 список'))
 
-    WebUI.scrollToElement(findTestObject('Выполнение бизнес-плана/1 квартал 2023 список'), 30)
+    WebUI.scrollToElement(findTestObject('Выполнение бизнес-плана/1 квартал 2023'), 30)
 
     WebUI.click(findTestObject('Выполнение бизнес-плана/1 квартал 2023'))
 
     WebUI.click(findTestObject('Выполнение бизнес-плана/2 квартал 2023'))
 
-    WebUI.click(findTestObject('Выполнение бизнес-плана/3 квартал 2023 список'))
+    WebUI.click(findTestObject('Выполнение бизнес-плана/3 квартал 2023'))
 
-    WebUI.scrollToElement(findTestObject('Выполнение бизнес-плана/Июль'), 30)
-
-    WebUI.click(findTestObject('Выполнение бизнес-плана/Июль'))
-
-    WebUI.scrollToElement(findTestObject('Выполнение бизнес-плана/Август'), 30)
-
-    WebUI.click(findTestObject('Выполнение бизнес-плана/Август'), FailureHandling.CONTINUE_ON_FAILURE)
+    '!'
+    ZakrytOpoveshenie()
 
     'Проскроллить до заголовка фильтра "Дата"'
     WebUI.scrollToElement(findTestObject('Выполнение бизнес-плана/Заголовок фильтра ДЗО'), 30)
@@ -167,7 +163,7 @@ def VipolnenieBiznesPlana(def user, def dashboardName, def n, def data, def run,
 
     '!'
     ZakrytOpoveshenie()
-    
+
     'Открыть фильтр "ДЗО"'
     WebUI.click(findTestObject('Object Repository/Выполнение бизнес-плана/Фильтр ДЗО'))
 
@@ -345,13 +341,7 @@ def ViruchkaVRublyah(def user, def dashboardName, def n, def data, def run, def 
 
     WebUI.click(findTestObject('Выручка в рублях/выбрать 2 квартал 2023'))
 
-    WebUI.click(findTestObject('Выручка в рублях/3 квартал 2023 список'))
-
-    WebUI.scrollToElement(findTestObject('Выручка в рублях/Август'), 30)
-
-    WebUI.click(findTestObject('Выручка в рублях/Июль'))
-
-    WebUI.click(findTestObject('Выручка в рублях/Август'), FailureHandling.CONTINUE_ON_FAILURE)
+    WebUI.click(findTestObject('Выручка в рублях/3 квартал 2023'), FailureHandling.CONTINUE_ON_FAILURE)
 
     'Проскроллить до заголовка фильтра "Дата"'
     WebUI.scrollToElement(findTestObject('Выручка в рублях/Заголовок дашборда'), 30)
@@ -1112,13 +1102,8 @@ def FaktorniyAnaliz(def user, def dashboardName, def n, def data, def run, def a
 
     WebUI.click(findTestObject('Факторный анализ/2 квартал 2023'), FailureHandling.CONTINUE_ON_FAILURE)
 
-    WebUI.click(findTestObject('Факторный анализ/3 квартал 2023 список'), FailureHandling.CONTINUE_ON_FAILURE)
-
-    WebUI.scrollToElement(findTestObject('Факторный анализ/Август'), 30)
-
-    WebUI.click(findTestObject('Факторный анализ/Июль'), FailureHandling.CONTINUE_ON_FAILURE)
-
-    WebUI.click(findTestObject('Факторный анализ/Август'), FailureHandling.CONTINUE_ON_FAILURE)
+    'Проскроллить до элемента 2022'
+    WebUI.click(findTestObject('Факторный анализ/3 квартал 2023'), FailureHandling.CONTINUE_ON_FAILURE)
 
     'Проскроллить до заголовка фильтра "Дата"'
     WebUI.scrollToElement(findTestObject('Факторный анализ/Заголовок дашборда'), 30)
@@ -1258,13 +1243,7 @@ def ViruchkaPoDZO(def user, def dashboardName, def n, def data, def run, def a1,
 
     WebUI.click(findTestObject('Выручка по ДЗО/2 квартал 2023 выбрать'))
 
-    WebUI.click(findTestObject('Выручка по ДЗО/3 квартал 2023 список'))
-
-    WebUI.scrollToElement(findTestObject('Выручка по ДЗО/Август'), 30)
-
-    WebUI.click(findTestObject('Выручка по ДЗО/Июль'))
-
-    WebUI.click(findTestObject('Выручка по ДЗО/Август'), FailureHandling.CONTINUE_ON_FAILURE)
+    WebUI.click(findTestObject('Выручка по ДЗО/3 квартал 2023'))
 
     'Проскроллить до заголовка фильтра "Дата"'
     WebUI.scrollToElement(findTestObject('Выручка по ДЗО/Заголовок дашборда'), 30)
@@ -1733,15 +1712,14 @@ def PrognozPoOtraslyam(def user, def dashboardName, def n, def data, def run, de
     WebUI.closeBrowser()
 }
 
-
 static void ZakrytOpoveshenie() {
-	String opoveshenie = WebUI.getText(findTestObject('Выполнение бизнес-плана/Просьба обратить внимание'))
+    String opoveshenie = WebUI.getText(findTestObject('Выполнение бизнес-плана/Просьба обратить внимание'))
 
-	println(opoveshenie)
+    println(opoveshenie)
 
-	if (opoveshenie == 'Просьба обратить внимание') {
-		WebUI.click(findTestObject('Выполнение бизнес-плана/Закрыть оповещение'))
-	}
+    if (opoveshenie == 'Просьба обратить внимание') {
+        WebUI.click(findTestObject('Выполнение бизнес-плана/Закрыть оповещение'))
+    }
 }
 
 static def WriteToExcel(def user, def dashboardName, def n, def data, def run, def a1, def a2, def a3, def a4, def a5, def a6, def a7, def a8, def a9) {

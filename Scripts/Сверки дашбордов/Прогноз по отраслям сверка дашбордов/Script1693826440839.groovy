@@ -44,9 +44,9 @@ WebUI.delay(15)
 
 WebUI.click(findTestObject('Прогноз по отраслям/Фильтр Месяц'))
 
-WebUI.scrollToElement(findTestObject('Прогноз по отраслям/Август'), 30)
+WebUI.scrollToElement(findTestObject('Прогноз по отраслям/Сентябрь'), 30)
 
-WebUI.click(findTestObject('Прогноз по отраслям/Август'))
+WebUI.click(findTestObject('Прогноз по отраслям/Сентябрь'))
 
 WebUI.scrollToElement(findTestObject('Прогноз по отраслям/Заголовок дашборда'), 30)
 
@@ -194,9 +194,9 @@ WebUI.delay(15)
 
 WebUI.click(findTestObject('Прогноз по отраслям/Фильтр месяц Стресс'))
 
-WebUI.scrollToElement(findTestObject('Прогноз по отраслям/Август Стресс'), 30)
+WebUI.scrollToElement(findTestObject('Прогноз по отраслям/Сентябрь Стресс'), 30)
 
-WebUI.click(findTestObject('Прогноз по отраслям/Август Стресс'))
+WebUI.click(findTestObject('Прогноз по отраслям/Сентябрь Стресс'))
 
 WebUI.scrollToElement(findTestObject('Прогноз по отраслям/Заголовок дашборда Стресс'), 30)
 

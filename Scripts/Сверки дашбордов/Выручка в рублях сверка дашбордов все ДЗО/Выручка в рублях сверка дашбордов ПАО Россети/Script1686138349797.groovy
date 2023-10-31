@@ -380,15 +380,7 @@ static def PreSettings(def run, def vir, def block, def nameOfBlock, def typeOfD
 
     WebUI.click(findTestObject('Выручка в рублях/выбрать 2 квартал 2023' + nameOfBlock))
 
-    WebUI.click(findTestObject('Выручка в рублях/3 квартал 2023 список' + nameOfBlock))
-
-    WebUI.scrollToElement(findTestObject('Выручка в рублях/Август' + nameOfBlock), 30)
-
-    WebUI.click(findTestObject('Выручка в рублях/Август' + nameOfBlock))
-
-    WebUI.scrollToElement(findTestObject('Выручка в рублях/Июль' + nameOfBlock), 30)
-
-    WebUI.click(findTestObject('Выручка в рублях/Июль' + nameOfBlock))
+    WebUI.click(findTestObject('Выручка в рублях/3 квартал 2023' + nameOfBlock))
 
     'Проскроллить до заголовка дашборда'
     WebUI.scrollToElement(findTestObject('Выручка в рублях/Заголовок дашборда' + nameOfBlock), 30)
@@ -439,11 +431,12 @@ static void Autorization(def block, def nameOfBlock) {
     WebUI.delay(30)
 
     if (block == 2) {
-		String opoveshenie = WebUI.getText(findTestObject('Выручка в рублях/Просьба обратить внимание'))
-	    if (opoveshenie == 'Просьба обратить внимание') {
-	        WebUI.click(findTestObject('Выручка в рублях/Закрыть оповещение'))
-	    }
-	}
+        String opoveshenie = WebUI.getText(findTestObject('Выручка в рублях/Просьба обратить внимание'))
+
+        if (opoveshenie == 'Просьба обратить внимание') {
+            WebUI.click(findTestObject('Выручка в рублях/Закрыть оповещение'))
+        }
+    }
 }
 
 static def Tumbler(def run, def vir, def block, def nameOfBlock) {
