@@ -78,23 +78,16 @@ WebUI.scrollToElement(findTestObject('Выполнение бизнес-план
 'Выбрать 1 квартал 2022'
 WebUI.click(findTestObject('Выполнение бизнес-плана/2023 список'))
 
-WebUI.scrollToElement(findTestObject('Выполнение бизнес-плана/1 квартал 2023 список'), 30)
+WebUI.scrollToElement(findTestObject('Выполнение бизнес-плана/1 квартал 2023'), 30)
 
 WebUI.click(findTestObject('Выполнение бизнес-плана/1 квартал 2023'))
 
-WebUI.scrollToElement(findTestObject('Выполнение бизнес-плана/2 квартал 2023 список'), 30)
-
 WebUI.click(findTestObject('Выполнение бизнес-плана/2 квартал 2023'))
 
-WebUI.click(findTestObject('Выполнение бизнес-плана/3 квартал 2023 список'))
+WebUI.click(findTestObject('Выполнение бизнес-плана/3 квартал 2023'))
 
-WebUI.scrollToElement(findTestObject('Выполнение бизнес-плана/Июль'), 30)
-
-WebUI.click(findTestObject('Выполнение бизнес-плана/Июль'))
-
-WebUI.scrollToElement(findTestObject('Выполнение бизнес-плана/Август'), 30)
-
-WebUI.click(findTestObject('Выполнение бизнес-плана/Август'))
+'!'
+ZakrytOpoveshenie()
 
 'Проскроллить до заголовка фильтра "Дата"'
 WebUI.scrollToElement(findTestObject('Выполнение бизнес-плана/Заголовок дашборда'), 30)
@@ -493,81 +486,13 @@ static def Numbers(def a, def typeOfData, def todaysDate, def pageInt, def fileI
         
         println('filialNumberInRow: ' + filialNumberInRow)
 
-        page = WebUI.getText(findTestObject('Object Repository/Выполнение бизнес-плана/Filials'))
+        page1 = WebUI.getText(findTestObject('Object Repository/Выполнение бизнес-плана/spanPlan' + filialNumberInRow))
 
-        page = page.replaceAll('\\n', '_').trim()
+        page2 = WebUI.getText(findTestObject('Object Repository/Выполнение бизнес-плана/spanFact' + filialNumberInRow))
 
-        filialsDzoNames = page.replace('.', '')
+        page1 = page1.replace('|', '').trim()
 
-        filialsDzoNames = filialsDzoNames.replaceAll('\\d+', '')
-
-        filialsDzoNames = filialsDzoNames.replaceAll('_', '').trim()
-
-        filialsDzoNames = filialsDzoNames.substring(0, 3)
-
-        i = page.indexOf(filialsDzoNames)
-
-        page = page.substring(0, i).trim()
-
-        numberOfSpaces = page.count('_')
-
-        numberOfFilials = (numberOfSpaces / 2)
-
-        println('numberOfFilials: ' + numberOfFilials)
-
-        page = page.replaceAll('_', ' ').trim()
-
-        i = page.indexOf(' ')
-
-        page1 = page.substring(0, i)
-
-        page2 = page.substring(i, page.length()).trim()
-
-        for (ii = 1; ii < (numberOfFilials + 1); ii++) {
-            i = page2.indexOf(' ')
-
-            page1 = ((page1 + ' ') + page2.substring(0, i))
-
-            i = page1.length()
-
-            page2 = page.substring(i, page.length())
-        }
-        
-        i = page1.indexOf(' ')
-
-        if (i > -1) {
-            for (ii = 1; ii < filialNumberInRow; ii++) {
-                i = page1.indexOf(' ')
-
-                if (i > -1) {
-                    page1 = page1.substring(i, page1.length()).trim()
-                }
-            }
-        }
-        
-        i = page1.indexOf(' ')
-
-        if (i > -1) {
-            page1 = page1.substring(0, i).trim()
-        }
-        
-        i = page2.indexOf(' ')
-
-        if (i > -1) {
-            for (ii = 1; ii < filialNumberInRow; ii++) {
-                i = page2.indexOf(' ')
-
-                if (i > -1) {
-                    page2 = page2.substring(i, page2.length()).trim()
-                }
-            }
-        }
-        
-        i = page2.indexOf(' ')
-
-        if (i > -1) {
-            page2 = page2.substring(0, i).trim()
-        }
+        page2 = page2.replace('|', '').trim()
     }
     
     println('page1: ' + page1)
@@ -706,6 +631,8 @@ static void DZO(def a) {
     }
     
     CloseFilter()
+
+    ZakrytOpoveshenie()
 }
 
 static void OpenRSK() {

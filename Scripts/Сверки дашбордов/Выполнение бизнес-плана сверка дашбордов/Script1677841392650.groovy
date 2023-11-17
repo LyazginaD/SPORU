@@ -36,7 +36,7 @@ WebUI.setText(findTestObject('Страница авторизации/input__pas
 
 WebUI.click(findTestObject('Страница авторизации/button_'))
 
-WebUI.delay(30)
+WebUI.delay(40)
 
 ZakrytOpoveshenie()
 

@@ -1,0 +1,202 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Сверка с ПБЭ,Chrome 119.0.0.0,,,2023-11-10 10:16:14,2023-11-10 10:19:19,"3m - 5,499s",FAILED
+,,,,,,,
+Test Cases/Выполнение бизнес-плана/Выполнение бизнес-плана Сверка ПАО Россети все филиалы,Chrome 119.0.0.0,,,2023-11-10 10:16:14,2023-11-10 10:19:19,"3m - 5,186s",FAILED
+"openBrowser("""")",Chrome 119.0.0.0,,,2023-11-10 10:16:15,2023-11-10 10:16:17,"2,291s",PASSED
+date = new java.util.Date(),Chrome 119.0.0.0,,,2023-11-10 10:16:17,2023-11-10 10:16:17,"0,000s",PASSED
+"todaysDate = date.format(""dd.MM.yyyy"")",Chrome 119.0.0.0,,,2023-11-10 10:16:17,2023-11-10 10:16:17,"0,000s",PASSED
+dZO = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 119.0.0.0,,,2023-11-10 10:16:17,2023-11-10 10:16:17,"0,000s",PASSED
+a = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 119.0.0.0,,,2023-11-10 10:16:17,2023-11-10 10:16:17,"0,000s",PASSED
+fileperc = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 119.0.0.0,,,2023-11-10 10:16:17,2023-11-10 10:16:17,"0,016s",PASSED
+pageperc = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 119.0.0.0,,,2023-11-10 10:16:17,2023-11-10 10:16:17,"0,000s",PASSED
+pageInt = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 119.0.0.0,,,2023-11-10 10:16:17,2023-11-10 10:16:17,"0,000s",PASSED
+fileInt = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 119.0.0.0,,,2023-11-10 10:16:17,2023-11-10 10:16:17,"0,000s",PASSED
+pageDouble = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 119.0.0.0,,,2023-11-10 10:16:17,2023-11-10 10:16:17,"0,000s",PASSED
+fileDouble = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 119.0.0.0,,,2023-11-10 10:16:17,2023-11-10 10:16:17,"0,000s",PASSED
+typeOfData = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 119.0.0.0,,,2023-11-10 10:16:17,2023-11-10 10:16:17,"0,000s",PASSED
+"navigateToUrl(findTestData(""PlanFact"").getValue(10, 1))",Chrome 119.0.0.0,,,2023-11-10 10:16:17,2023-11-10 10:16:24,"6,914s",PASSED
+"setText(findTestObject(""Страница авторизации/input__username""), findTestData(""PlanFact"").getValue(8, 1))",Chrome 119.0.0.0,,,2023-11-10 10:16:24,2023-11-10 10:16:26,"1,768s",PASSED
+"setText(findTestObject(""Страница авторизации/input__password""), findTestData(""PlanFact"").getValue(9, 1))",Chrome 119.0.0.0,,,2023-11-10 10:16:26,2023-11-10 10:16:27,"0,780s",PASSED
+"click(findTestObject(""Страница авторизации/button_""))",Chrome 119.0.0.0,,,2023-11-10 10:16:27,2023-11-10 10:16:28,"1,332s",PASSED
+delay(30),Chrome 119.0.0.0,,,2023-11-10 10:16:28,2023-11-10 10:16:58,"30,032s",PASSED
+Script1697465685113.ZakrytOpoveshenie(),Chrome 119.0.0.0,,,2023-11-10 10:16:58,2023-11-10 10:16:58,"0,001s",PASSED
+"opoveshenie = getText(findTestObject(""Выполнение бизнес-плана/Просьба обратить внимание""))",Chrome 119.0.0.0,,,2023-11-10 10:16:58,2023-11-10 10:16:58,"0,370s",PASSED
+println(opoveshenie),Chrome 119.0.0.0,,,2023-11-10 10:16:58,2023-11-10 10:16:59,"0,003s",PASSED
+"if (opoveshenie == ""Просьба обратить внимание"")",Chrome 119.0.0.0,,,2023-11-10 10:16:59,2023-11-10 10:16:59,"0,383s",PASSED
+"click(findTestObject(""Object Repository/Выполнение бизнес-плана/Фильтр Дата""))",Chrome 119.0.0.0,"Раскрыть фильтр ""Дата""",,2023-11-10 10:16:59,2023-11-10 10:16:59,"0,422s",PASSED
+"click(findTestObject(""Выполнение бизнес-плана/Снять выделение в фильтре Дата""))",Chrome 119.0.0.0,"Нажать ""Снять выделение""",,2023-11-10 10:16:59,2023-11-10 10:17:00,"0,526s",PASSED
+"click(findTestObject(""Object Repository/Выполнение бизнес-плана/Применить в фильтре Дата""))",Chrome 119.0.0.0,"Нажать ""Применить""",,2023-11-10 10:17:00,2023-11-10 10:17:01,"0,927s",PASSED
+delay(30),Chrome 119.0.0.0,,,2023-11-10 10:17:01,2023-11-10 10:17:31,"30,009s",PASSED
+Script1697465685113.ZakrytOpoveshenie(),Chrome 119.0.0.0,,,2023-11-10 10:17:31,2023-11-10 10:17:31,"0,000s",PASSED
+"opoveshenie = getText(findTestObject(""Выполнение бизнес-плана/Просьба обратить внимание""))",Chrome 119.0.0.0,,,2023-11-10 10:17:31,2023-11-10 10:17:31,"0,378s",PASSED
+println(opoveshenie),Chrome 119.0.0.0,,,2023-11-10 10:17:31,2023-11-10 10:17:31,"0,000s",PASSED
+"if (opoveshenie == ""Просьба обратить внимание"")",Chrome 119.0.0.0,,,2023-11-10 10:17:31,2023-11-10 10:17:32,"0,385s",PASSED
+"click(findTestObject(""Object Repository/Выполнение бизнес-плана/Фильтр Дата""))",Chrome 119.0.0.0,"Раскрыть фильтр ""Дата""",,2023-11-10 10:17:32,2023-11-10 10:17:32,"0,421s",PASSED
+"click(findTestObject(""Выполнение бизнес-плана/Снять выделение в фильтре Дата""))",Chrome 119.0.0.0,"Нажать ""Снять выделение""",,2023-11-10 10:17:32,2023-11-10 10:17:33,"0,554s",PASSED
+"scrollToElement(findTestObject(""Выполнение бизнес-плана/2023 список""), 30)",Chrome 119.0.0.0,,,2023-11-10 10:17:33,2023-11-10 10:17:33,"0,941s",PASSED
+"click(findTestObject(""Выполнение бизнес-плана/2023 список""))",Chrome 119.0.0.0,Выбрать 1 квартал 2022,,2023-11-10 10:17:33,2023-11-10 10:17:34,"0,376s",PASSED
+"scrollToElement(findTestObject(""Выполнение бизнес-плана/1 квартал 2023 список""), 30)",Chrome 119.0.0.0,,,2023-11-10 10:17:34,2023-11-10 10:17:34,"0,473s",PASSED
+"click(findTestObject(""Выполнение бизнес-плана/1 квартал 2023""))",Chrome 119.0.0.0,,,2023-11-10 10:17:34,2023-11-10 10:17:35,"0,387s",PASSED
+"scrollToElement(findTestObject(""Выполнение бизнес-плана/2 квартал 2023 список""), 30)",Chrome 119.0.0.0,,,2023-11-10 10:17:35,2023-11-10 10:17:35,"0,456s",PASSED
+"click(findTestObject(""Выполнение бизнес-плана/2 квартал 2023""))",Chrome 119.0.0.0,,,2023-11-10 10:17:35,2023-11-10 10:17:36,"0,363s",PASSED
+"click(findTestObject(""Выполнение бизнес-плана/3 квартал 2023 список""))",Chrome 119.0.0.0,,,2023-11-10 10:17:36,2023-11-10 10:17:36,"0,481s",PASSED
+"scrollToElement(findTestObject(""Выполнение бизнес-плана/Июль""), 30)",Chrome 119.0.0.0,,,2023-11-10 10:17:36,2023-11-10 10:17:36,"0,452s",PASSED
+"click(findTestObject(""Выполнение бизнес-плана/Июль""))",Chrome 119.0.0.0,,,2023-11-10 10:17:36,2023-11-10 10:17:37,"0,412s",PASSED
+"scrollToElement(findTestObject(""Выполнение бизнес-плана/Август""), 30)",Chrome 119.0.0.0,,,2023-11-10 10:17:37,2023-11-10 10:17:37,"0,455s",PASSED
+"click(findTestObject(""Выполнение бизнес-плана/Август""))",Chrome 119.0.0.0,,,2023-11-10 10:17:37,2023-11-10 10:17:38,"0,362s",PASSED
+"scrollToElement(findTestObject(""Выполнение бизнес-плана/Заголовок дашборда""), 30)",Chrome 119.0.0.0,"Проскроллить до заголовка фильтра ""Дата""",,2023-11-10 10:17:38,2023-11-10 10:17:38,"0,462s",PASSED
+"click(findTestObject(""Object Repository/Выполнение бизнес-плана/Применить в фильтре Дата""))",Chrome 119.0.0.0,"Нажать ""Применить""",,2023-11-10 10:17:38,2023-11-10 10:17:39,"0,863s",PASSED
+delay(30),Chrome 119.0.0.0,,,2023-11-10 10:17:39,2023-11-10 10:18:09,"30,014s",PASSED
+Script1697465685113.ZakrytOpoveshenie(),Chrome 119.0.0.0,,,2023-11-10 10:18:09,2023-11-10 10:18:09,"0,000s",PASSED
+"opoveshenie = getText(findTestObject(""Выполнение бизнес-плана/Просьба обратить внимание""))",Chrome 119.0.0.0,,,2023-11-10 10:18:09,2023-11-10 10:18:09,"0,350s",PASSED
+println(opoveshenie),Chrome 119.0.0.0,,,2023-11-10 10:18:09,2023-11-10 10:18:09,"0,000s",PASSED
+"if (opoveshenie == ""Просьба обратить внимание"")",Chrome 119.0.0.0,,,2023-11-10 10:18:09,2023-11-10 10:18:09,"0,000s",PASSED
+delay(30),Chrome 119.0.0.0,,,2023-11-10 10:18:09,2023-11-10 10:18:39,"30,016s",PASSED
+Script1697465685113.OpenFilter(),Chrome 119.0.0.0,!,,2023-11-10 10:18:39,2023-11-10 10:18:39,"0,001s",PASSED
+"click(findTestObject(""Object Repository/Выполнение бизнес-плана/Фильтр ДЗО""))",Chrome 119.0.0.0,,,2023-11-10 10:18:39,2023-11-10 10:18:40,"0,401s",PASSED
+"click(findTestObject(""Выполнение бизнес-плана/Снять выделение в фильтре ДЗО""))",Chrome 119.0.0.0,,,2023-11-10 10:18:40,2023-11-10 10:18:40,"0,496s",PASSED
+"click(findTestObject(""Выполнение бизнес-плана/ПАО Россети""))",Chrome 119.0.0.0,Выбрать ПАО Россети,,2023-11-10 10:18:40,2023-11-10 10:18:41,"0,532s",PASSED
+"click(findTestObject(""Object Repository/Выполнение бизнес-плана/Применить в фильтре ДЗО""))",Chrome 119.0.0.0,"Нажать ""Применить""",,2023-11-10 10:18:41,2023-11-10 10:18:42,"0,971s",PASSED
+delay(30),Chrome 119.0.0.0,,,2023-11-10 10:18:42,2023-11-10 10:19:12,"30,004s",PASSED
+"dZO = ""ПАО Россети""",Chrome 119.0.0.0,___________________________________________________________________________________________________,,2023-11-10 10:19:12,2023-11-10 10:19:12,"0,000s",PASSED
+a = 84,Chrome 119.0.0.0,,,2023-11-10 10:19:12,2023-11-10 10:19:12,"0,000s",PASSED
+"Script1697465685113.Numbers(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO)",Chrome 119.0.0.0,,,2023-11-10 10:19:12,2023-11-10 10:19:12,"0,001s",PASSED
+planFact = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 119.0.0.0,,,2023-11-10 10:19:12,2023-11-10 10:19:12,"0,001s",PASSED
+page = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 119.0.0.0,,,2023-11-10 10:19:12,2023-11-10 10:19:12,"0,000s",PASSED
+page1 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 119.0.0.0,,,2023-11-10 10:19:12,2023-11-10 10:19:12,"0,000s",PASSED
+page2 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 119.0.0.0,,,2023-11-10 10:19:12,2023-11-10 10:19:12,"0,000s",PASSED
+filialNumberInRow = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 119.0.0.0,,,2023-11-10 10:19:12,2023-11-10 10:19:12,"0,000s",PASSED
+filialsDzoNames = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 119.0.0.0,,,2023-11-10 10:19:12,2023-11-10 10:19:12,"0,000s",PASSED
+numberOfFilials = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 119.0.0.0,,,2023-11-10 10:19:12,2023-11-10 10:19:12,"0,000s",PASSED
+numberOfSpaces = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 119.0.0.0,,,2023-11-10 10:19:12,2023-11-10 10:19:12,"0,000s",PASSED
+file = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 119.0.0.0,,,2023-11-10 10:19:12,2023-11-10 10:19:12,"0,000s",PASSED
+otpusk = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 119.0.0.0,,,2023-11-10 10:19:12,2023-11-10 10:19:12,"0,000s",PASSED
+poteri = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 119.0.0.0,,,2023-11-10 10:19:12,2023-11-10 10:19:12,"0,000s",PASSED
+"dataFolder = ""Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/""",Chrome 119.0.0.0,,,2023-11-10 10:19:12,2023-11-10 10:19:12,"0,000s",PASSED
+path = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 119.0.0.0,,,2023-11-10 10:19:12,2023-11-10 10:19:12,"0,001s",PASSED
+typeOfDataMain = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 119.0.0.0,,,2023-11-10 10:19:12,2023-11-10 10:19:12,"0,000s",PASSED
+fileOtpuskVSet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 119.0.0.0,,,2023-11-10 10:19:12,2023-11-10 10:19:12,"0,000s",PASSED
+pageOtpuskVSet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 119.0.0.0,,,2023-11-10 10:19:12,2023-11-10 10:19:12,"0,000s",PASSED
+filePoteri = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 119.0.0.0,,,2023-11-10 10:19:12,2023-11-10 10:19:12,"0,001s",PASSED
+pagePoteri = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 119.0.0.0,,,2023-11-10 10:19:12,2023-11-10 10:19:12,"0,000s",PASSED
+compare = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 119.0.0.0,,,2023-11-10 10:19:12,2023-11-10 10:19:12,"0,000s",PASSED
+b = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 119.0.0.0,,,2023-11-10 10:19:12,2023-11-10 10:19:12,"0,000s",PASSED
+i = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 119.0.0.0,,,2023-11-10 10:19:12,2023-11-10 10:19:12,"0,000s",PASSED
+ii = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 119.0.0.0,,,2023-11-10 10:19:12,2023-11-10 10:19:12,"0,000s",PASSED
+c = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 119.0.0.0,,,2023-11-10 10:19:12,2023-11-10 10:19:12,"0,000s",PASSED
+numberOfErrors = 0,Chrome 119.0.0.0,,,2023-11-10 10:19:12,2023-11-10 10:19:12,"0,000s",PASSED
+if (a == 82),Chrome 119.0.0.0,,,2023-11-10 10:19:12,2023-11-10 10:19:12,"0,000s",PASSED
+"b = findTestData(""PlanFact"").getValue(1, a)",Chrome 119.0.0.0,,,2023-11-10 10:19:12,2023-11-10 10:19:12,"0,068s",PASSED
+"i = b.indexOf("" (ГК)"")",Chrome 119.0.0.0,,,2023-11-10 10:19:12,2023-11-10 10:19:12,"0,000s",PASSED
+if (i > -1),Chrome 119.0.0.0,,,2023-11-10 10:19:12,2023-11-10 10:19:12,"0,000s",PASSED
+"i = b.indexOf(""О """")",Chrome 119.0.0.0,,,2023-11-10 10:19:12,2023-11-10 10:19:12,"0,000s",PASSED
+if (i > -1),Chrome 119.0.0.0,,,2023-11-10 10:19:12,2023-11-10 10:19:12,"0,000s",PASSED
+"i = b.indexOf(""О «"")",Chrome 119.0.0.0,,,2023-11-10 10:19:12,2023-11-10 10:19:12,"0,001s",PASSED
+if (i > -1),Chrome 119.0.0.0,,,2023-11-10 10:19:12,2023-11-10 10:19:12,"0,000s",PASSED
+"i = b.indexOf(""г. "")",Chrome 119.0.0.0,,,2023-11-10 10:19:12,2023-11-10 10:19:12,"0,000s",PASSED
+if (i > -1),Chrome 119.0.0.0,,,2023-11-10 10:19:12,2023-11-10 10:19:12,"0,000s",PASSED
+println(b),Chrome 119.0.0.0,,,2023-11-10 10:19:12,2023-11-10 10:19:12,"0,004s",PASSED
+"for ([planFact = 1, planFact < 3, (planFact++)])",Chrome 119.0.0.0,,,2023-11-10 10:19:12,2023-11-10 10:19:14,"2,219s",PASSED
+"sheetName = ""Sheet1""",Chrome 119.0.0.0,,,2023-11-10 10:19:14,2023-11-10 10:19:14,"0,000s",PASSED
+"data = findTestData(""PlanFact"")",Chrome 119.0.0.0,,,2023-11-10 10:19:14,2023-11-10 10:19:14,"0,045s",PASSED
+n = data.getRowNumbers() + 1,Chrome 119.0.0.0,,,2023-11-10 10:19:14,2023-11-10 10:19:14,"0,000s",PASSED
+"year = todaysDate.substring(todaysDate.length() - 4, todaysDate.length())",Chrome 119.0.0.0,,,2023-11-10 10:19:14,2023-11-10 10:19:14,"0,004s",PASSED
+y = year.toInteger(),Chrome 119.0.0.0,,,2023-11-10 10:19:14,2023-11-10 10:19:14,"0,000s",PASSED
+"m = getText(findTestObject(""Выполнение бизнес-плана/Период""))",Chrome 119.0.0.0,,,2023-11-10 10:19:14,2023-11-10 10:19:15,"0,360s",PASSED
+"m = m.substring(0, m.indexOf(year))",Chrome 119.0.0.0,,,2023-11-10 10:19:15,2023-11-10 10:19:15,"0,000s",PASSED
+m = m.trim(),Chrome 119.0.0.0,,,2023-11-10 10:19:15,2023-11-10 10:19:15,"0,000s",PASSED
+"dashboardName = ""Выполнение бизнес-плана""",Chrome 119.0.0.0,,,2023-11-10 10:19:15,2023-11-10 10:19:15,"0,000s",PASSED
+workbook01 = getWorkbook(excelFilePath),Chrome 119.0.0.0,,,2023-11-10 10:19:15,2023-11-10 10:19:15,"0,193s",PASSED
+"sheet01 = getExcelSheet(workbook01, sheetName)",Chrome 119.0.0.0,,,2023-11-10 10:19:15,2023-11-10 10:19:15,"0,001s",PASSED
+"setValueToCellByIndex(sheet01, n, 0, dashboardName)",Chrome 119.0.0.0,,,2023-11-10 10:19:15,2023-11-10 10:19:15,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 1, dZO)",Chrome 119.0.0.0,,,2023-11-10 10:19:15,2023-11-10 10:19:15,"0,002s",PASSED
+"setValueToCellByIndex(sheet01, n, 2, typeOfData)",Chrome 119.0.0.0,,,2023-11-10 10:19:15,2023-11-10 10:19:15,"0,000s",PASSED
+"if (typeOfData == ""Факт в процентах"" || typeOfData == ""План в процентах"")",Chrome 119.0.0.0,,,2023-11-10 10:19:15,2023-11-10 10:19:15,"0,000s",PASSED
+else,Chrome 119.0.0.0,,,2023-11-10 10:19:15,2023-11-10 10:19:15,"0,002s",PASSED
+"setValueToCellByIndex(sheet01, n, 5, m)",Chrome 119.0.0.0,,,2023-11-10 10:19:15,2023-11-10 10:19:15,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 6, y)",Chrome 119.0.0.0,,,2023-11-10 10:19:15,2023-11-10 10:19:15,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 7, todaysDate)",Chrome 119.0.0.0,,,2023-11-10 10:19:15,2023-11-10 10:19:15,"0,000s",PASSED
+n = n + 1,Chrome 119.0.0.0,,,2023-11-10 10:19:15,2023-11-10 10:19:15,"0,000s",PASSED
+"saveWorkbook(excelFilePath, workbook01)",Chrome 119.0.0.0,,,2023-11-10 10:19:15,2023-11-10 10:19:15,"0,279s",PASSED
+"sheetName = ""Sheet1""",Chrome 119.0.0.0,,,2023-11-10 10:19:15,2023-11-10 10:19:15,"0,000s",PASSED
+"data = findTestData(""PlanFact"")",Chrome 119.0.0.0,,,2023-11-10 10:19:15,2023-11-10 10:19:15,"0,063s",PASSED
+n = data.getRowNumbers() + 1,Chrome 119.0.0.0,,,2023-11-10 10:19:15,2023-11-10 10:19:15,"0,000s",PASSED
+"year = todaysDate.substring(todaysDate.length() - 4, todaysDate.length())",Chrome 119.0.0.0,,,2023-11-10 10:19:15,2023-11-10 10:19:15,"0,000s",PASSED
+y = year.toInteger(),Chrome 119.0.0.0,,,2023-11-10 10:19:15,2023-11-10 10:19:15,"0,000s",PASSED
+"m = getText(findTestObject(""Выполнение бизнес-плана/Период""))",Chrome 119.0.0.0,,,2023-11-10 10:19:15,2023-11-10 10:19:15,"0,367s",PASSED
+"m = m.substring(0, m.indexOf(year))",Chrome 119.0.0.0,,,2023-11-10 10:19:15,2023-11-10 10:19:15,"0,001s",PASSED
+m = m.trim(),Chrome 119.0.0.0,,,2023-11-10 10:19:15,2023-11-10 10:19:15,"0,000s",PASSED
+"dashboardName = ""Выполнение бизнес-плана""",Chrome 119.0.0.0,,,2023-11-10 10:19:15,2023-11-10 10:19:15,"0,000s",PASSED
+workbook01 = getWorkbook(excelFilePath),Chrome 119.0.0.0,,,2023-11-10 10:19:15,2023-11-10 10:19:15,"0,054s",PASSED
+"sheet01 = getExcelSheet(workbook01, sheetName)",Chrome 119.0.0.0,,,2023-11-10 10:19:15,2023-11-10 10:19:15,"0,001s",PASSED
+"setValueToCellByIndex(sheet01, n, 0, dashboardName)",Chrome 119.0.0.0,,,2023-11-10 10:19:15,2023-11-10 10:19:15,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 1, dZO)",Chrome 119.0.0.0,,,2023-11-10 10:19:15,2023-11-10 10:19:15,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 2, typeOfData)",Chrome 119.0.0.0,,,2023-11-10 10:19:15,2023-11-10 10:19:15,"0,000s",PASSED
+"if (typeOfData == ""Факт в процентах"" || typeOfData == ""План в процентах"")",Chrome 119.0.0.0,,,2023-11-10 10:19:15,2023-11-10 10:19:15,"0,000s",PASSED
+else,Chrome 119.0.0.0,,,2023-11-10 10:19:15,2023-11-10 10:19:15,"0,002s",PASSED
+"setValueToCellByIndex(sheet01, n, 5, m)",Chrome 119.0.0.0,,,2023-11-10 10:19:15,2023-11-10 10:19:15,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 6, y)",Chrome 119.0.0.0,,,2023-11-10 10:19:15,2023-11-10 10:19:15,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 7, todaysDate)",Chrome 119.0.0.0,,,2023-11-10 10:19:15,2023-11-10 10:19:15,"0,000s",PASSED
+n = n + 1,Chrome 119.0.0.0,,,2023-11-10 10:19:15,2023-11-10 10:19:15,"0,001s",PASSED
+"saveWorkbook(excelFilePath, workbook01)",Chrome 119.0.0.0,,,2023-11-10 10:19:15,2023-11-10 10:19:16,"0,508s",PASSED
+if (a == 84 || a == 82),Chrome 119.0.0.0,,,2023-11-10 10:19:16,2023-11-10 10:19:16,"0,363s",PASSED
+"println(""page1: "" + page1)",Chrome 119.0.0.0,,,2023-11-10 10:19:16,2023-11-10 10:19:16,"0,000s",PASSED
+"println(""page2: "" + page2)",Chrome 119.0.0.0,,,2023-11-10 10:19:16,2023-11-10 10:19:16,"0,000s",PASSED
+"file = findTestData(""PlanFact"").getValue(4, a)",Chrome 119.0.0.0,,,2023-11-10 10:19:16,2023-11-10 10:19:16,"0,054s",PASSED
+"file = file.replace("","", ""."")",Chrome 119.0.0.0,,,2023-11-10 10:19:16,2023-11-10 10:19:16,"0,000s",PASSED
+"println(""file Plan: "" + file)",Chrome 119.0.0.0,,,2023-11-10 10:19:16,2023-11-10 10:19:16,"0,000s",PASSED
+"typeOfData = ""План в процентах""",Chrome 119.0.0.0,,,2023-11-10 10:19:16,2023-11-10 10:19:16,"0,000s",PASSED
+fileDouble = file.toDouble(),Chrome 119.0.0.0,,,2023-11-10 10:19:16,2023-11-10 10:19:16,"0,005s",PASSED
+pageDouble = page1.toDouble(),Chrome 119.0.0.0,,,2023-11-10 10:19:16,2023-11-10 10:19:16,"0,001s",PASSED
+if (fileDouble != pageDouble),Chrome 119.0.0.0,,,2023-11-10 10:19:16,2023-11-10 10:19:16,"0,000s",PASSED
+"file = findTestData(""PlanFact"").getValue(7, a)",Chrome 119.0.0.0,,,2023-11-10 10:19:16,2023-11-10 10:19:16,"0,047s",PASSED
+"file = file.replace("","", ""."")",Chrome 119.0.0.0,,,2023-11-10 10:19:16,2023-11-10 10:19:16,"0,000s",PASSED
+"println(""file Fact: "" + file)",Chrome 119.0.0.0,,,2023-11-10 10:19:16,2023-11-10 10:19:16,"0,000s",PASSED
+fileDouble = file.toDouble(),Chrome 119.0.0.0,,,2023-11-10 10:19:16,2023-11-10 10:19:16,"0,001s",PASSED
+"typeOfData = ""Факт в процентах""",Chrome 119.0.0.0,,,2023-11-10 10:19:16,2023-11-10 10:19:16,"0,000s",PASSED
+fileDouble = file.toDouble(),Chrome 119.0.0.0,,,2023-11-10 10:19:16,2023-11-10 10:19:16,"0,000s",PASSED
+pageDouble = page2.toDouble(),Chrome 119.0.0.0,,,2023-11-10 10:19:16,2023-11-10 10:19:16,"0,000s",PASSED
+if (fileDouble != pageDouble),Chrome 119.0.0.0,,,2023-11-10 10:19:16,2023-11-10 10:19:16,"0,000s",PASSED
+"if (verifyEqual(numberOfErrors, 0) == false)",Chrome 119.0.0.0,,,2023-11-10 10:19:16,2023-11-10 10:19:16,"0,033s",FAILED
+if (a == 82),Chrome 119.0.0.0,,,2023-11-10 10:19:16,2023-11-10 10:19:16,"0,000s",PASSED
+"dZO = ""Россети ФСК ЕЭС""",Chrome 119.0.0.0,,,2023-11-10 10:19:16,2023-11-10 10:19:16,"0,000s",PASSED
+a = 83,Chrome 119.0.0.0,,,2023-11-10 10:19:16,2023-11-10 10:19:16,"0,000s",PASSED
+"Script1697465685113.Numbers(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO)",Chrome 119.0.0.0,,,2023-11-10 10:19:16,2023-11-10 10:19:16,"0,000s",PASSED
+planFact = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 119.0.0.0,,,2023-11-10 10:19:16,2023-11-10 10:19:16,"0,000s",PASSED
+page = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 119.0.0.0,,,2023-11-10 10:19:16,2023-11-10 10:19:16,"0,000s",PASSED
+page1 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 119.0.0.0,,,2023-11-10 10:19:16,2023-11-10 10:19:16,"0,000s",PASSED
+page2 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 119.0.0.0,,,2023-11-10 10:19:16,2023-11-10 10:19:16,"0,000s",PASSED
+filialNumberInRow = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 119.0.0.0,,,2023-11-10 10:19:16,2023-11-10 10:19:16,"0,000s",PASSED
+filialsDzoNames = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 119.0.0.0,,,2023-11-10 10:19:16,2023-11-10 10:19:16,"0,000s",PASSED
+numberOfFilials = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 119.0.0.0,,,2023-11-10 10:19:16,2023-11-10 10:19:16,"0,000s",PASSED
+numberOfSpaces = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 119.0.0.0,,,2023-11-10 10:19:16,2023-11-10 10:19:16,"0,000s",PASSED
+file = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 119.0.0.0,,,2023-11-10 10:19:16,2023-11-10 10:19:16,"0,000s",PASSED
+otpusk = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 119.0.0.0,,,2023-11-10 10:19:16,2023-11-10 10:19:16,"0,000s",PASSED
+poteri = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 119.0.0.0,,,2023-11-10 10:19:16,2023-11-10 10:19:16,"0,000s",PASSED
+"dataFolder = ""Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/""",Chrome 119.0.0.0,,,2023-11-10 10:19:16,2023-11-10 10:19:16,"0,000s",PASSED
+path = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 119.0.0.0,,,2023-11-10 10:19:16,2023-11-10 10:19:16,"0,000s",PASSED
+typeOfDataMain = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 119.0.0.0,,,2023-11-10 10:19:16,2023-11-10 10:19:16,"0,000s",PASSED
+fileOtpuskVSet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 119.0.0.0,,,2023-11-10 10:19:16,2023-11-10 10:19:16,"0,000s",PASSED
+pageOtpuskVSet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 119.0.0.0,,,2023-11-10 10:19:16,2023-11-10 10:19:16,"0,000s",PASSED
+filePoteri = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 119.0.0.0,,,2023-11-10 10:19:16,2023-11-10 10:19:16,"0,000s",PASSED
+pagePoteri = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 119.0.0.0,,,2023-11-10 10:19:16,2023-11-10 10:19:16,"0,000s",PASSED
+compare = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 119.0.0.0,,,2023-11-10 10:19:16,2023-11-10 10:19:16,"0,000s",PASSED
+b = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 119.0.0.0,,,2023-11-10 10:19:16,2023-11-10 10:19:16,"0,000s",PASSED
+i = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 119.0.0.0,,,2023-11-10 10:19:16,2023-11-10 10:19:16,"0,001s",PASSED
+ii = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 119.0.0.0,,,2023-11-10 10:19:16,2023-11-10 10:19:16,"0,000s",PASSED
+c = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 119.0.0.0,,,2023-11-10 10:19:16,2023-11-10 10:19:16,"0,000s",PASSED
+numberOfErrors = 0,Chrome 119.0.0.0,,,2023-11-10 10:19:16,2023-11-10 10:19:16,"0,000s",PASSED
+if (a == 82),Chrome 119.0.0.0,,,2023-11-10 10:19:16,2023-11-10 10:19:16,"0,000s",PASSED
+"b = findTestData(""PlanFact"").getValue(1, a)",Chrome 119.0.0.0,,,2023-11-10 10:19:16,2023-11-10 10:19:17,"0,047s",PASSED
+"i = b.indexOf("" (ГК)"")",Chrome 119.0.0.0,,,2023-11-10 10:19:17,2023-11-10 10:19:17,"0,000s",PASSED
+if (i > -1),Chrome 119.0.0.0,,,2023-11-10 10:19:17,2023-11-10 10:19:17,"0,000s",PASSED
+"i = b.indexOf(""О """")",Chrome 119.0.0.0,,,2023-11-10 10:19:17,2023-11-10 10:19:17,"0,000s",PASSED
+if (i > -1),Chrome 119.0.0.0,,,2023-11-10 10:19:17,2023-11-10 10:19:17,"0,000s",PASSED
+"i = b.indexOf(""О «"")",Chrome 119.0.0.0,,,2023-11-10 10:19:17,2023-11-10 10:19:17,"0,000s",PASSED
+if (i > -1),Chrome 119.0.0.0,,,2023-11-10 10:19:17,2023-11-10 10:19:17,"0,000s",PASSED
+"i = b.indexOf(""г. "")",Chrome 119.0.0.0,,,2023-11-10 10:19:17,2023-11-10 10:19:17,"0,000s",PASSED
+if (i > -1),Chrome 119.0.0.0,,,2023-11-10 10:19:17,2023-11-10 10:19:17,"0,000s",PASSED
+println(b),Chrome 119.0.0.0,,,2023-11-10 10:19:17,2023-11-10 10:19:17,"0,000s",PASSED
+"for ([planFact = 1, planFact < 3, (planFact++)])",Chrome 119.0.0.0,,,2023-11-10 10:19:17,2023-11-10 10:19:19,"2,421s",PASSED
+if (a == 84 || a == 82),Chrome 119.0.0.0,,,2023-11-10 10:19:19,2023-11-10 10:19:19,"0,000s",PASSED
+else,Chrome 119.0.0.0,,,2023-11-10 10:19:19,2023-11-10 10:19:19,"0,408s",ERROR
