@@ -31,73 +31,73 @@ WebUI.delay(30)
 
 ZakrytOpoveshenie()
 
-WebUI.getText(findTestObject('Выполнение бизнес-плана/spanPlan1'))
+String a00 = WebUI.getText(findTestObject('Выполнение бизнес-плана/spanPlan1'))
 
-WebUI.getText(findTestObject('Выполнение бизнес-плана/spanFact1'))
+String a01 = WebUI.getText(findTestObject('Выполнение бизнес-плана/spanFact1'))
 
-WebUI.getText(findTestObject('Выполнение бизнес-плана/spanPlan2'))
+String a02 = WebUI.getText(findTestObject('Выполнение бизнес-плана/spanPlan2'))
 
-WebUI.getText(findTestObject('Выполнение бизнес-плана/spanFact2'))
+String a03 = WebUI.getText(findTestObject('Выполнение бизнес-плана/spanFact2'))
 
-WebUI.getText(findTestObject('Выполнение бизнес-плана/spanPlan3'))
+String a04 = WebUI.getText(findTestObject('Выполнение бизнес-плана/spanPlan3'))
 
-WebUI.getText(findTestObject('Выполнение бизнес-плана/spanFact3'))
+String a05 = WebUI.getText(findTestObject('Выполнение бизнес-плана/spanFact3'))
 
-WebUI.getText(findTestObject('Выполнение бизнес-плана/spanPlan4'))
+String a06 = WebUI.getText(findTestObject('Выполнение бизнес-плана/spanPlan4'))
 
-WebUI.getText(findTestObject('Выполнение бизнес-плана/spanFact4'))
+String a07 = WebUI.getText(findTestObject('Выполнение бизнес-плана/spanFact4'))
 
-WebUI.getText(findTestObject('Выполнение бизнес-плана/spanPlan5'))
+String a08 = WebUI.getText(findTestObject('Выполнение бизнес-плана/spanPlan5'))
 
-WebUI.getText(findTestObject('Выполнение бизнес-плана/spanFact5'))
+String a09 = WebUI.getText(findTestObject('Выполнение бизнес-плана/spanFact5'))
 
-WebUI.getText(findTestObject('Выполнение бизнес-плана/spanPlan6'))
+String a10 = WebUI.getText(findTestObject('Выполнение бизнес-плана/spanPlan6'))
 
-WebUI.getText(findTestObject('Выполнение бизнес-плана/spanFact6'))
+String a11 = WebUI.getText(findTestObject('Выполнение бизнес-плана/spanFact6'))
 
-WebUI.getText(findTestObject('Выполнение бизнес-плана/spanPlan7'))
+String a12 = WebUI.getText(findTestObject('Выполнение бизнес-плана/spanPlan7'))
 
-WebUI.getText(findTestObject('Выполнение бизнес-плана/spanFact7'))
+String a13 = WebUI.getText(findTestObject('Выполнение бизнес-плана/spanFact7'))
 
-WebUI.getText(findTestObject('Выполнение бизнес-плана/spanPlan8'))
+String a14 = WebUI.getText(findTestObject('Выполнение бизнес-плана/spanPlan8'))
 
-WebUI.getText(findTestObject('Выполнение бизнес-плана/spanFact8'))
+String a15 = WebUI.getText(findTestObject('Выполнение бизнес-плана/spanFact8'))
 
-WebUI.getText(findTestObject('Выполнение бизнес-плана/spanPlan9'))
+String a16 = WebUI.getText(findTestObject('Выполнение бизнес-плана/spanPlan9'))
 
-WebUI.getText(findTestObject('Выполнение бизнес-плана/spanFact9'))
+String a17 = WebUI.getText(findTestObject('Выполнение бизнес-плана/spanFact9'))
 
-WebUI.getText(findTestObject('Выполнение бизнес-плана/spanPlan10'))
+String a18 = WebUI.getText(findTestObject('Выполнение бизнес-плана/spanPlan10'))
 
-WebUI.getText(findTestObject('Выполнение бизнес-плана/spanFact10'))
+String a19 = WebUI.getText(findTestObject('Выполнение бизнес-плана/spanFact10'))
 
-WebUI.getText(findTestObject('Выполнение бизнес-плана/spanPlan11'))
+String a20 = WebUI.getText(findTestObject('Выполнение бизнес-плана/spanPlan11'))
 
-WebUI.getText(findTestObject('Выполнение бизнес-плана/spanFact11'))
+String a21 = WebUI.getText(findTestObject('Выполнение бизнес-плана/spanFact11'))
 
-WebUI.getText(findTestObject('Выполнение бизнес-плана/spanPlan12'))
+String a22 = WebUI.getText(findTestObject('Выполнение бизнес-плана/spanPlan12'))
 
-WebUI.getText(findTestObject('Выполнение бизнес-плана/spanFact12'))
+String a23 = WebUI.getText(findTestObject('Выполнение бизнес-плана/spanFact12'))
 
-WebUI.getText(findTestObject('Выполнение бизнес-плана/spanPlan13'))
+String a24 = WebUI.getText(findTestObject('Выполнение бизнес-плана/spanPlan13'))
 
-WebUI.getText(findTestObject('Выполнение бизнес-плана/spanFact13'))
+String a25 = WebUI.getText(findTestObject('Выполнение бизнес-плана/spanFact13'))
 
-WebUI.getText(findTestObject('Выполнение бизнес-плана/spanPlan14'))
+String a26 = WebUI.getText(findTestObject('Выполнение бизнес-плана/spanPlan14'))
 
-WebUI.getText(findTestObject('Выполнение бизнес-плана/spanFact14'))
+String a27 = WebUI.getText(findTestObject('Выполнение бизнес-плана/spanFact14'))
 
-WebUI.getText(findTestObject('Выполнение бизнес-плана/spanPlan15'))
+String a28 = WebUI.getText(findTestObject('Выполнение бизнес-плана/spanPlan15'))
 
-WebUI.getText(findTestObject('Выполнение бизнес-плана/spanFact15'))
+String a29 = WebUI.getText(findTestObject('Выполнение бизнес-плана/spanFact15'))
 
-WebUI.getText(findTestObject('Выполнение бизнес-плана/spanPlan16'))
+String a30 = WebUI.getText(findTestObject('Выполнение бизнес-плана/spanPlan16'))
 
-WebUI.getText(findTestObject('Выполнение бизнес-плана/spanFact16'))
+String a31 = WebUI.getText(findTestObject('Выполнение бизнес-плана/spanFact16'))
 
-WebUI.getText(findTestObject('Выполнение бизнес-плана/spanPlan17'))
+String a32 = WebUI.getText(findTestObject('Выполнение бизнес-плана/spanPlan17'))
 
-WebUI.getText(findTestObject('Выполнение бизнес-плана/spanFact17'))
+String a33 = WebUI.getText(findTestObject('Выполнение бизнес-плана/spanFact17'))
 
 static void ZakrytOpoveshenie() {
 	String opoveshenie = WebUI.getText(findTestObject('Выполнение бизнес-плана/Просьба обратить внимание'))
