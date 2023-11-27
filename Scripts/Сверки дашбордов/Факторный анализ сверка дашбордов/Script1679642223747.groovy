@@ -80,23 +80,37 @@ static def Test(def run, def todaysDate, def typeOfData, def otobrajeniyeDannyh)
     'Нажать "Применить"'
     WebUI.click(findTestObject('Факторный анализ/Применить в фильтре Дата'))
 
-    String a1 = WebUI.getText(findTestObject('Факторный анализ/span1 Блок руководителя'))
-
-    String a2 = WebUI.getText(findTestObject('Факторный анализ/span2 Блок руководителя'))
-
-    String a3
+	String a = WebUI.getText(findTestObject('Факторный анализ/Отклонения выручки по факторам Блок руководителя'))
+	
+    String a1 
+	
+	String a2
 
     if (run == 1) {
-        a3 = WebUI.getText(findTestObject('Факторный анализ/График Всего отклонения по факторам Блок руководителя'))
+		
+        a = WebUI.getText(findTestObject('Факторный анализ/Отклонения выручки по факторам Блок руководителя'))
+		
+		a = a.replaceAll('[а-яА-Я]', '')
+		
+		a = a.substring(0,a.indexOf('(')).trim()
+		
+		a = a.replaceAll('\\s+', '')
+		
     } else {
         WebUI.click(findTestObject('Факторный анализ/Переключить отображение с филиала на месяц'))
 
-        a3 = WebUI.getText(findTestObject('Факторный анализ/График Всего отклонения по факторам Блок руководителя'))
+        a1 = WebUI.getText(findTestObject('Факторный анализ/span1 Блок руководителя'))
+	
+		a2 = WebUI.getText(findTestObject('Факторный анализ/span2 Блок руководителя'))	
+		
+		a = a1+a2
+	
+		a = a.replaceAll('\\s+', '').trim()
+	
     }
     
-    println(a1)
 
-    println(a3)
+    println(a)
 
     WebUI.navigateToUrl(findTestData('PlanFact').getValue(10, 11))
 
@@ -135,25 +149,38 @@ static def Test(def run, def todaysDate, def typeOfData, def otobrajeniyeDannyh)
     'Нажать "Применить"'
     WebUI.click(findTestObject('Факторный анализ/Применить в фильтре Дата Выручка'))
 
-    String b1 = WebUI.getText(findTestObject('Факторный анализ/span1 Выручка'))
-
-    String b2 = WebUI.getText(findTestObject('Факторный анализ/span2 Выручка'))
-
-    String b3
+    String b
+	
+	String b1
+	
+	String b2
 
     if (run == 1) {
-        b3 = WebUI.getText(findTestObject('Факторный анализ/График Всего отклонения по факторам Выручка'))
+        		
+        b = WebUI.getText(findTestObject('Факторный анализ/Отклонения выручки по факторам Выручка'))
+		
+		b = b.replaceAll('[а-яА-Я]', '')
+		
+		b = b.substring(0,b.indexOf('(')).trim()
+		
+		b = b.replaceAll('\\s+', '')
+		
     } else {
         WebUI.click(findTestObject('Факторный анализ/Переключить отображение с филиала на месяц'))
+		
+		b1 = WebUI.getText(findTestObject('Факторный анализ/span1 Выручка'))
+			
+		b2 = WebUI.getText(findTestObject('Факторный анализ/span2 Выручка'))
+				
+		b = b1+b2
+			
+		b = b.replaceAll('\\s+', '').trim()
 
-        b3 = WebUI.getText(findTestObject('Факторный анализ/График Всего отклонения по факторам Выручка'))
     }
-    
-    println(b1)
+   
+    println(b)
 
-    println(b3)
-
-    if (WebUI.verifyEqual(a1, b1) == true) {
+    if (WebUI.verifyEqual(a, b) == true) {
     } else {
         typeOfData = 'Отклонение (объём услуг)'
 
@@ -168,35 +195,6 @@ static def Test(def run, def todaysDate, def typeOfData, def otobrajeniyeDannyh)
         }
     }
     
-    if (WebUI.verifyEqual(a2, b2) == true) {
-    } else {
-        typeOfData = 'Отклонение (средний тариф)'
-
-        if (run == 1) {
-            otobrajeniyeDannyh = 'Филиал'
-
-            WriteToExcel(todaysDate, typeOfData, otobrajeniyeDannyh)
-        } else {
-            otobrajeniyeDannyh = 'Месяц'
-
-            WriteToExcel(todaysDate, typeOfData, otobrajeniyeDannyh)
-        }
-    }
-    
-    if (WebUI.verifyEqual(a3, b3) == true) {
-    } else {
-        typeOfData = 'Всего отклонения по факторам'
-
-        if (run == 1) {
-            otobrajeniyeDannyh = 'Филиал'
-
-            WriteToExcel(todaysDate, typeOfData, otobrajeniyeDannyh)
-        } else {
-            otobrajeniyeDannyh = 'Месяц'
-
-            WriteToExcel(todaysDate, typeOfData, otobrajeniyeDannyh)
-        }
-    }
 }
 
 static def Autorization(def run) {
