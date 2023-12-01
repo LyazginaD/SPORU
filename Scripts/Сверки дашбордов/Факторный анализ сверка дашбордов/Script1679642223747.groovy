@@ -74,42 +74,47 @@ static def Test(def run, def todaysDate, def typeOfData, def otobrajeniyeDannyh)
     'Проскроллить до элемента 2022'
     WebUI.click(findTestObject('Факторный анализ/3 квартал 2023'), FailureHandling.CONTINUE_ON_FAILURE)
 
+    'Проскроллить до элемента 2022'
+    WebUI.click(findTestObject('Факторный анализ/4 квартал 2023 список'), FailureHandling.CONTINUE_ON_FAILURE)
+
+    'Проскроллить до элемента 2022'
+    WebUI.scrollToElement(findTestObject('Факторный анализ/Октябрь'), 30)
+
+    'Проскроллить до элемента 2022'
+    WebUI.click(findTestObject('Факторный анализ/Октябрь'), FailureHandling.CONTINUE_ON_FAILURE)
+
     'Проскроллить до заголовка фильтра "Дата"'
     WebUI.scrollToElement(findTestObject('Факторный анализ/Заголовок дашборда'), 30)
 
     'Нажать "Применить"'
     WebUI.click(findTestObject('Факторный анализ/Применить в фильтре Дата'))
 
-	String a = WebUI.getText(findTestObject('Факторный анализ/Отклонения выручки по факторам Блок руководителя'))
-	
-    String a1 
-	
-	String a2
+    String a = WebUI.getText(findTestObject('Факторный анализ/Отклонения выручки по факторам Блок руководителя'))
+
+    String a1
+
+    String a2
 
     if (run == 1) {
-		
         a = WebUI.getText(findTestObject('Факторный анализ/Отклонения выручки по факторам Блок руководителя'))
-		
-		a = a.replaceAll('[а-яА-Я]', '')
-		
-		a = a.substring(0,a.indexOf('(')).trim()
-		
-		a = a.replaceAll('\\s+', '')
-		
+
+        a = a.replaceAll('[а-яА-Я]', '')
+
+        a = a.substring(0, a.indexOf('(')).trim()
+
+        a = a.replaceAll('\\s+', '')
     } else {
         WebUI.click(findTestObject('Факторный анализ/Переключить отображение с филиала на месяц'))
 
         a1 = WebUI.getText(findTestObject('Факторный анализ/span1 Блок руководителя'))
-	
-		a2 = WebUI.getText(findTestObject('Факторный анализ/span2 Блок руководителя'))	
-		
-		a = a1+a2
-	
-		a = a.replaceAll('\\s+', '').trim()
-	
+
+        a2 = WebUI.getText(findTestObject('Факторный анализ/span2 Блок руководителя'))
+
+        a = (a1 + a2)
+
+        a = a.replaceAll('\\s+', '').trim()
     }
     
-
     println(a)
 
     WebUI.navigateToUrl(findTestData('PlanFact').getValue(10, 11))
@@ -143,6 +148,14 @@ static def Test(def run, def todaysDate, def typeOfData, def otobrajeniyeDannyh)
 
     WebUI.click(findTestObject('Факторный анализ/3 квартал 2023 Выручка'))
 
+    WebUI.click(findTestObject('Факторный анализ/4 квартал 2023 список Выручка'))
+
+    'Проскроллить до элемента 2022'
+    WebUI.scrollToElement(findTestObject('Факторный анализ/Октябрь Выручка'), 30)
+
+    'Проскроллить до элемента 2022'
+    WebUI.click(findTestObject('Факторный анализ/Октябрь Выручка'), FailureHandling.CONTINUE_ON_FAILURE)
+
     'Проскроллить до заголовка фильтра "Дата"'
     WebUI.scrollToElement(findTestObject('Факторный анализ/Заголовок дашборда Выручка'), 30)
 
@@ -150,34 +163,31 @@ static def Test(def run, def todaysDate, def typeOfData, def otobrajeniyeDannyh)
     WebUI.click(findTestObject('Факторный анализ/Применить в фильтре Дата Выручка'))
 
     String b
-	
-	String b1
-	
-	String b2
+
+    String b1
+
+    String b2
 
     if (run == 1) {
-        		
         b = WebUI.getText(findTestObject('Факторный анализ/Отклонения выручки по факторам Выручка'))
-		
-		b = b.replaceAll('[а-яА-Я]', '')
-		
-		b = b.substring(0,b.indexOf('(')).trim()
-		
-		b = b.replaceAll('\\s+', '')
-		
+
+        b = b.replaceAll('[а-яА-Я]', '')
+
+        b = b.substring(0, b.indexOf('(')).trim()
+
+        b = b.replaceAll('\\s+', '')
     } else {
         WebUI.click(findTestObject('Факторный анализ/Переключить отображение с филиала на месяц'))
-		
-		b1 = WebUI.getText(findTestObject('Факторный анализ/span1 Выручка'))
-			
-		b2 = WebUI.getText(findTestObject('Факторный анализ/span2 Выручка'))
-				
-		b = b1+b2
-			
-		b = b.replaceAll('\\s+', '').trim()
 
+        b1 = WebUI.getText(findTestObject('Факторный анализ/span1 Выручка'))
+
+        b2 = WebUI.getText(findTestObject('Факторный анализ/span2 Выручка'))
+
+        b = (b1 + b2)
+
+        b = b.replaceAll('\\s+', '').trim()
     }
-   
+    
     println(b)
 
     if (WebUI.verifyEqual(a, b) == true) {
@@ -194,7 +204,6 @@ static def Test(def run, def todaysDate, def typeOfData, def otobrajeniyeDannyh)
             WriteToExcel(todaysDate, typeOfData, otobrajeniyeDannyh)
         }
     }
-    
 }
 
 static def Autorization(def run) {
