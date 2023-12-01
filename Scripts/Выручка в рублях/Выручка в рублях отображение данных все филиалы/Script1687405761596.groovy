@@ -800,6 +800,12 @@ def PreSettings(def typeOfData, def todaysDate) {
 
     WebUI.click(findTestObject('Выручка в рублях/3 квартал 2023'), FailureHandling.CONTINUE_ON_FAILURE)
 
+    WebUI.click(findTestObject('Выручка в рублях/4 квартал 2023 список'), FailureHandling.CONTINUE_ON_FAILURE)
+
+    WebUI.scrollToElement(findTestObject('Выручка в рублях/Октябрь'), 30)
+
+    WebUI.click(findTestObject('Выручка в рублях/Октябрь'), FailureHandling.CONTINUE_ON_FAILURE)
+
     'Проскроллить до заголовка фильтра "ДЗО"'
     WebUI.scrollToElement(findTestObject('Выручка в рублях/Заголовок дашборда'), 30)
 

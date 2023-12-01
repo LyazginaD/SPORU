@@ -94,7 +94,8 @@ for (run = 1; run < 4; run++) {
         //}
         //if (WebUI.verifyTextPresent('Просьба обратить внимание', false) == true) {
         //    WebUI.click(findTestObject('Выполнение бизнес-плана/Закрыть оповещение'))
-        ) //}
+        //}
+        )
 }
 
 def VipolnenieBiznesPlana(def user, def dashboardName, def n, def data, def run, def a1, def a2, def a3, def a4, def a5, def a6, def a7, def a8, def a9) {
@@ -149,6 +150,12 @@ def VipolnenieBiznesPlana(def user, def dashboardName, def n, def data, def run,
     WebUI.click(findTestObject('Выполнение бизнес-плана/2 квартал 2023'))
 
     WebUI.click(findTestObject('Выполнение бизнес-плана/3 квартал 2023'))
+
+    WebUI.click(findTestObject('Выполнение бизнес-плана/4 квартал 2023 список'))
+
+    WebUI.scrollToElement(findTestObject('Выполнение бизнес-плана/Октябрь 2023'), 30)
+
+    WebUI.click(findTestObject('Выполнение бизнес-плана/Октябрь 2023'))
 
     '!'
     ZakrytOpoveshenie()
@@ -342,6 +349,12 @@ def ViruchkaVRublyah(def user, def dashboardName, def n, def data, def run, def 
     WebUI.click(findTestObject('Выручка в рублях/выбрать 2 квартал 2023'))
 
     WebUI.click(findTestObject('Выручка в рублях/3 квартал 2023'), FailureHandling.CONTINUE_ON_FAILURE)
+
+    WebUI.click(findTestObject('Выручка в рублях/4 квартал 2023 список'), FailureHandling.CONTINUE_ON_FAILURE)
+
+    WebUI.scrollToElement(findTestObject('Выручка в рублях/Октябрь'), 30)
+
+    WebUI.click(findTestObject('Выручка в рублях/Октябрь'), FailureHandling.CONTINUE_ON_FAILURE)
 
     'Проскроллить до заголовка фильтра "Дата"'
     WebUI.scrollToElement(findTestObject('Выручка в рублях/Заголовок дашборда'), 30)

@@ -1,0 +1,1279 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Блок руководителя под разными учётками,Chrome 119.0.0.0,,,2023-11-29 12:34:48,2023-11-29 13:02:47,"27m - 59,211s",FAILED
+,,,,,,,
+Test Cases/Сверки дашбордов/Блок руководителя сверка дашбордов под разными учётками,Chrome 119.0.0.0,,,2023-11-29 12:34:48,2023-11-29 13:02:47,"27m - 58,863s",FAILED
+run = 1,Chrome 119.0.0.0,,,2023-11-29 12:34:49,2023-11-29 12:34:49,"0,001s",PASSED
+"data = findTestData(""PlanFact"")",Chrome 119.0.0.0,,,2023-11-29 12:34:49,2023-11-29 12:34:50,"0,446s",PASSED
+n = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 119.0.0.0,,,2023-11-29 12:34:50,2023-11-29 12:34:50,"0,000s",PASSED
+dashboardName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 119.0.0.0,,,2023-11-29 12:34:50,2023-11-29 12:34:50,"0,000s",PASSED
+a1 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 119.0.0.0,,,2023-11-29 12:34:50,2023-11-29 12:34:50,"0,002s",PASSED
+a2 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 119.0.0.0,,,2023-11-29 12:34:50,2023-11-29 12:34:50,"0,001s",PASSED
+a3 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 119.0.0.0,,,2023-11-29 12:34:50,2023-11-29 12:34:50,"0,000s",PASSED
+a4 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 119.0.0.0,,,2023-11-29 12:34:50,2023-11-29 12:34:50,"0,000s",PASSED
+a5 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 119.0.0.0,,,2023-11-29 12:34:50,2023-11-29 12:34:50,"0,000s",PASSED
+a6 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 119.0.0.0,,,2023-11-29 12:34:50,2023-11-29 12:34:50,"0,000s",PASSED
+a7 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 119.0.0.0,,,2023-11-29 12:34:50,2023-11-29 12:34:50,"0,000s",PASSED
+a8 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 119.0.0.0,,,2023-11-29 12:34:50,2023-11-29 12:34:50,"0,000s",PASSED
+a9 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 119.0.0.0,,,2023-11-29 12:34:50,2023-11-29 12:34:50,"0,000s",PASSED
+user = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 119.0.0.0,,,2023-11-29 12:34:50,2023-11-29 12:34:50,"0,000s",PASSED
+"for ([run = 1, run < 4, (run++)])",Chrome 119.0.0.0,,,2023-11-29 12:34:50,2023-11-29 12:34:50,"0,005s",PASSED
+n = data.getRowNumbers() + 1,Chrome 119.0.0.0,,,2023-11-29 12:34:50,2023-11-29 12:34:50,"0,021s",PASSED
+println(n),Chrome 119.0.0.0,,,2023-11-29 12:34:50,2023-11-29 12:34:50,"0,005s",PASSED
+"dashboardName = ""Выполнение бизнес-плана""",Chrome 119.0.0.0,,,2023-11-29 12:34:50,2023-11-29 12:34:50,"0,000s",PASSED
+"openBrowser("""")",Chrome 119.0.0.0,,,2023-11-29 12:34:50,2023-11-29 12:34:52,"2,354s",PASSED
+"navigateToUrl(findTestData(""PlanFact"").getValue(10, 1))",Chrome 119.0.0.0,,,2023-11-29 12:34:52,2023-11-29 12:34:57,"4,658s",PASSED
+"setText(findTestObject(""Страница авторизации/input__username""), findTestData(""PlanFact"").getValue(8, run))",Chrome 119.0.0.0,,,2023-11-29 12:34:57,2023-11-29 12:34:59,"1,993s",PASSED
+"setText(findTestObject(""Страница авторизации/input__password""), findTestData(""PlanFact"").getValue(9, run))",Chrome 119.0.0.0,,,2023-11-29 12:34:59,2023-11-29 12:34:59,"0,737s",PASSED
+"click(findTestObject(""Страница авторизации/button_""))",Chrome 119.0.0.0,,,2023-11-29 12:34:59,2023-11-29 12:35:01,"1,371s",PASSED
+delay(40),Chrome 119.0.0.0,,,2023-11-29 12:35:01,2023-11-29 12:35:41,"40,027s",PASSED
+Script1686231490255.ZakrytOpoveshenie(),Chrome 119.0.0.0,,,2023-11-29 12:35:41,2023-11-29 12:35:41,"0,001s",PASSED
+"opoveshenie = getText(findTestObject(""Выполнение бизнес-плана/Просьба обратить внимание""))",Chrome 119.0.0.0,,,2023-11-29 12:35:41,2023-11-29 12:35:41,"0,360s",PASSED
+println(opoveshenie),Chrome 119.0.0.0,,,2023-11-29 12:35:41,2023-11-29 12:35:41,"0,001s",PASSED
+"if (opoveshenie == ""Просьба обратить внимание"")",Chrome 119.0.0.0,,,2023-11-29 12:35:41,2023-11-29 12:35:41,"0,385s",PASSED
+"click(findTestObject(""Object Repository/Выполнение бизнес-плана/Фильтр Дата""))",Chrome 119.0.0.0,"Раскрыть фильтр ""Дата""",,2023-11-29 12:35:41,2023-11-29 12:35:42,"0,439s",PASSED
+"click(findTestObject(""Выполнение бизнес-плана/Снять выделение в фильтре Дата""))",Chrome 119.0.0.0,"Нажать ""Снять выделение""",,2023-11-29 12:35:42,2023-11-29 12:35:42,"0,513s",PASSED
+"click(findTestObject(""Object Repository/Выполнение бизнес-плана/Применить в фильтре Дата""))",Chrome 119.0.0.0,"Нажать ""Применить""",,2023-11-29 12:35:42,2023-11-29 12:35:43,"0,939s",PASSED
+delay(20),Chrome 119.0.0.0,,,2023-11-29 12:35:43,2023-11-29 12:36:03,"20,013s",PASSED
+Script1686231490255.ZakrytOpoveshenie(),Chrome 119.0.0.0,,,2023-11-29 12:36:03,2023-11-29 12:36:03,"0,000s",PASSED
+"opoveshenie = getText(findTestObject(""Выполнение бизнес-плана/Просьба обратить внимание""))",Chrome 119.0.0.0,,,2023-11-29 12:36:03,2023-11-29 12:36:06,"2,697s",PASSED
+println(opoveshenie),Chrome 119.0.0.0,,,2023-11-29 12:36:06,2023-11-29 12:36:06,"0,000s",PASSED
+"if (opoveshenie == ""Просьба обратить внимание"")",Chrome 119.0.0.0,,,2023-11-29 12:36:06,2023-11-29 12:36:06,"0,398s",PASSED
+"click(findTestObject(""Object Repository/Выполнение бизнес-плана/Фильтр Дата""))",Chrome 119.0.0.0,"Раскрыть фильтр ""Дата""",,2023-11-29 12:36:06,2023-11-29 12:36:07,"0,637s",PASSED
+"click(findTestObject(""Выполнение бизнес-плана/Снять выделение в фильтре Дата""))",Chrome 119.0.0.0,"Нажать ""Снять выделение""",,2023-11-29 12:36:07,2023-11-29 12:36:08,"0,479s",PASSED
+"scrollToElement(findTestObject(""Выполнение бизнес-плана/2023 список""), 30)",Chrome 119.0.0.0,,,2023-11-29 12:36:08,2023-11-29 12:36:08,"0,463s",PASSED
+"click(findTestObject(""Выполнение бизнес-плана/2023 список""))",Chrome 119.0.0.0,Выбрать 1 квартал 2022,,2023-11-29 12:36:08,2023-11-29 12:36:08,"0,365s",PASSED
+"scrollToElement(findTestObject(""Выполнение бизнес-плана/1 квартал 2023""), 30)",Chrome 119.0.0.0,,,2023-11-29 12:36:08,2023-11-29 12:36:09,"0,467s",PASSED
+"click(findTestObject(""Выполнение бизнес-плана/1 квартал 2023""))",Chrome 119.0.0.0,,,2023-11-29 12:36:09,2023-11-29 12:36:09,"0,355s",PASSED
+"click(findTestObject(""Выполнение бизнес-плана/2 квартал 2023""))",Chrome 119.0.0.0,,,2023-11-29 12:36:09,2023-11-29 12:36:10,"0,484s",PASSED
+"click(findTestObject(""Выполнение бизнес-плана/3 квартал 2023""))",Chrome 119.0.0.0,,,2023-11-29 12:36:10,2023-11-29 12:36:10,"0,485s",PASSED
+Script1686231490255.ZakrytOpoveshenie(),Chrome 119.0.0.0,!,,2023-11-29 12:36:10,2023-11-29 12:36:10,"0,000s",PASSED
+"opoveshenie = getText(findTestObject(""Выполнение бизнес-плана/Просьба обратить внимание""))",Chrome 119.0.0.0,,,2023-11-29 12:36:10,2023-11-29 12:36:11,"0,442s",PASSED
+println(opoveshenie),Chrome 119.0.0.0,,,2023-11-29 12:36:11,2023-11-29 12:36:11,"0,000s",PASSED
+"if (opoveshenie == ""Просьба обратить внимание"")",Chrome 119.0.0.0,,,2023-11-29 12:36:11,2023-11-29 12:36:11,"0,000s",PASSED
+"scrollToElement(findTestObject(""Выполнение бизнес-плана/Заголовок фильтра ДЗО""), 30)",Chrome 119.0.0.0,"Проскроллить до заголовка фильтра ""Дата""",,2023-11-29 12:36:11,2023-11-29 12:36:11,"0,342s",PASSED
+"click(findTestObject(""Object Repository/Выполнение бизнес-плана/Применить в фильтре Дата""))",Chrome 119.0.0.0,"Нажать ""Применить""",,2023-11-29 12:36:11,2023-11-29 12:36:12,"0,833s",PASSED
+delay(20),Chrome 119.0.0.0,,,2023-11-29 12:36:12,2023-11-29 12:36:32,"20,005s",PASSED
+Script1686231490255.ZakrytOpoveshenie(),Chrome 119.0.0.0,!,,2023-11-29 12:36:32,2023-11-29 12:36:32,"0,000s",PASSED
+"opoveshenie = getText(findTestObject(""Выполнение бизнес-плана/Просьба обратить внимание""))",Chrome 119.0.0.0,,,2023-11-29 12:36:32,2023-11-29 12:36:32,"0,339s",PASSED
+println(opoveshenie),Chrome 119.0.0.0,,,2023-11-29 12:36:32,2023-11-29 12:36:32,"0,000s",PASSED
+"if (opoveshenie == ""Просьба обратить внимание"")",Chrome 119.0.0.0,,,2023-11-29 12:36:32,2023-11-29 12:36:32,"0,000s",PASSED
+"click(findTestObject(""Object Repository/Выполнение бизнес-плана/Фильтр ДЗО""))",Chrome 119.0.0.0,"Открыть фильтр ""ДЗО""",,2023-11-29 12:36:32,2023-11-29 12:36:33,"0,434s",PASSED
+"click(findTestObject(""Выполнение бизнес-плана/Снять выделение в фильтре ДЗО""))",Chrome 119.0.0.0,"Нажать ""Снять выделение""",,2023-11-29 12:36:33,2023-11-29 12:36:33,"0,478s",PASSED
+"click(findTestObject(""Выполнение бизнес-плана/ПАО Россети""))",Chrome 119.0.0.0,Выбрать ПАО Россети,,2023-11-29 12:36:33,2023-11-29 12:36:34,"0,485s",PASSED
+"click(findTestObject(""Object Repository/Выполнение бизнес-плана/Применить в фильтре ДЗО""))",Chrome 119.0.0.0,"Нажать ""Применить""",,2023-11-29 12:36:34,2023-11-29 12:36:35,"1,002s",PASSED
+delay(20),Chrome 119.0.0.0,,,2023-11-29 12:36:35,2023-11-29 12:36:55,"20,012s",PASSED
+if (run == 1),Chrome 119.0.0.0,,,2023-11-29 12:36:55,2023-11-29 12:36:58,"3,273s",PASSED
+"sheetName = ""Sheet1""",Chrome 119.0.0.0,,,2023-11-29 12:36:58,2023-11-29 12:36:58,"0,001s",PASSED
+workbook01 = getWorkbook(excelFilePath),Chrome 119.0.0.0,,,2023-11-29 12:36:58,2023-11-29 12:36:58,"0,189s",PASSED
+"sheet01 = getExcelSheet(workbook01, sheetName)",Chrome 119.0.0.0,,,2023-11-29 12:36:58,2023-11-29 12:36:58,"0,001s",PASSED
+"setValueToCellByIndex(sheet01, n, 0, dashboardName)",Chrome 119.0.0.0,,,2023-11-29 12:36:58,2023-11-29 12:36:58,"0,001s",PASSED
+"setValueToCellByIndex(sheet01, n, 10, user)",Chrome 119.0.0.0,,,2023-11-29 12:36:58,2023-11-29 12:36:58,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 1, a1)",Chrome 119.0.0.0,,,2023-11-29 12:36:58,2023-11-29 12:36:58,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 2, a2)",Chrome 119.0.0.0,,,2023-11-29 12:36:58,2023-11-29 12:36:58,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 3, a3)",Chrome 119.0.0.0,,,2023-11-29 12:36:58,2023-11-29 12:36:58,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 4, a4)",Chrome 119.0.0.0,,,2023-11-29 12:36:58,2023-11-29 12:36:58,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 5, a5)",Chrome 119.0.0.0,,,2023-11-29 12:36:58,2023-11-29 12:36:58,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 6, a6)",Chrome 119.0.0.0,,,2023-11-29 12:36:58,2023-11-29 12:36:58,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 7, a7)",Chrome 119.0.0.0,,,2023-11-29 12:36:58,2023-11-29 12:36:58,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 8, a8)",Chrome 119.0.0.0,,,2023-11-29 12:36:58,2023-11-29 12:36:58,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 9, a9)",Chrome 119.0.0.0,,,2023-11-29 12:36:58,2023-11-29 12:36:58,"0,000s",PASSED
+n = n + 1,Chrome 119.0.0.0,,,2023-11-29 12:36:58,2023-11-29 12:36:58,"0,000s",PASSED
+"saveWorkbook(excelFilePath, workbook01)",Chrome 119.0.0.0,,,2023-11-29 12:36:58,2023-11-29 12:36:58,"0,271s",PASSED
+if (run == 2),Chrome 119.0.0.0,,,2023-11-29 12:36:58,2023-11-29 12:36:58,"0,000s",PASSED
+if (run == 3),Chrome 119.0.0.0,,,2023-11-29 12:36:58,2023-11-29 12:36:58,"0,001s",PASSED
+closeBrowser(),Chrome 119.0.0.0,,,2023-11-29 12:36:58,2023-11-29 12:36:59,"0,691s",PASSED
+n = data.getRowNumbers() + 1,Chrome 119.0.0.0,,,2023-11-29 12:36:59,2023-11-29 12:36:59,"0,000s",PASSED
+println(n),Chrome 119.0.0.0,,,2023-11-29 12:36:59,2023-11-29 12:36:59,"0,000s",PASSED
+"dashboardName = ""Выполнение бизнес-плана""",Chrome 119.0.0.0,,,2023-11-29 12:36:59,2023-11-29 12:36:59,"0,001s",PASSED
+"openBrowser("""")",Chrome 119.0.0.0,,,2023-11-29 12:36:59,2023-11-29 12:37:00,"1,136s",PASSED
+"navigateToUrl(findTestData(""PlanFact"").getValue(10, 1))",Chrome 119.0.0.0,,,2023-11-29 12:37:00,2023-11-29 12:37:09,"8,664s",PASSED
+"setText(findTestObject(""Страница авторизации/input__username""), findTestData(""PlanFact"").getValue(8, run))",Chrome 119.0.0.0,,,2023-11-29 12:37:09,2023-11-29 12:37:11,"2,008s",PASSED
+"setText(findTestObject(""Страница авторизации/input__password""), findTestData(""PlanFact"").getValue(9, run))",Chrome 119.0.0.0,,,2023-11-29 12:37:11,2023-11-29 12:37:12,"0,704s",PASSED
+"click(findTestObject(""Страница авторизации/button_""))",Chrome 119.0.0.0,,,2023-11-29 12:37:12,2023-11-29 12:37:13,"1,298s",PASSED
+delay(40),Chrome 119.0.0.0,,,2023-11-29 12:37:13,2023-11-29 12:37:53,"40,014s",PASSED
+Script1686231490255.ZakrytOpoveshenie(),Chrome 119.0.0.0,,,2023-11-29 12:37:53,2023-11-29 12:37:53,"0,001s",PASSED
+"opoveshenie = getText(findTestObject(""Выполнение бизнес-плана/Просьба обратить внимание""))",Chrome 119.0.0.0,,,2023-11-29 12:37:53,2023-11-29 12:37:53,"0,347s",PASSED
+println(opoveshenie),Chrome 119.0.0.0,,,2023-11-29 12:37:53,2023-11-29 12:37:53,"0,000s",PASSED
+"if (opoveshenie == ""Просьба обратить внимание"")",Chrome 119.0.0.0,,,2023-11-29 12:37:53,2023-11-29 12:37:54,"0,384s",PASSED
+"click(findTestObject(""Object Repository/Выполнение бизнес-плана/Фильтр Дата""))",Chrome 119.0.0.0,"Раскрыть фильтр ""Дата""",,2023-11-29 12:37:54,2023-11-29 12:37:54,"0,422s",PASSED
+"click(findTestObject(""Выполнение бизнес-плана/Снять выделение в фильтре Дата""))",Chrome 119.0.0.0,"Нажать ""Снять выделение""",,2023-11-29 12:37:54,2023-11-29 12:37:54,"0,485s",PASSED
+"click(findTestObject(""Object Repository/Выполнение бизнес-плана/Применить в фильтре Дата""))",Chrome 119.0.0.0,"Нажать ""Применить""",,2023-11-29 12:37:54,2023-11-29 12:37:55,"0,922s",PASSED
+delay(20),Chrome 119.0.0.0,,,2023-11-29 12:37:55,2023-11-29 12:38:15,"20,015s",PASSED
+Script1686231490255.ZakrytOpoveshenie(),Chrome 119.0.0.0,,,2023-11-29 12:38:15,2023-11-29 12:38:15,"0,001s",PASSED
+"opoveshenie = getText(findTestObject(""Выполнение бизнес-плана/Просьба обратить внимание""))",Chrome 119.0.0.0,,,2023-11-29 12:38:15,2023-11-29 12:38:16,"0,346s",PASSED
+println(opoveshenie),Chrome 119.0.0.0,,,2023-11-29 12:38:16,2023-11-29 12:38:16,"0,000s",PASSED
+"if (opoveshenie == ""Просьба обратить внимание"")",Chrome 119.0.0.0,,,2023-11-29 12:38:16,2023-11-29 12:38:16,"0,380s",PASSED
+"click(findTestObject(""Object Repository/Выполнение бизнес-плана/Фильтр Дата""))",Chrome 119.0.0.0,"Раскрыть фильтр ""Дата""",,2023-11-29 12:38:16,2023-11-29 12:38:17,"0,391s",PASSED
+"click(findTestObject(""Выполнение бизнес-плана/Снять выделение в фильтре Дата""))",Chrome 119.0.0.0,"Нажать ""Снять выделение""",,2023-11-29 12:38:17,2023-11-29 12:38:17,"0,524s",PASSED
+"scrollToElement(findTestObject(""Выполнение бизнес-плана/2023 список""), 30)",Chrome 119.0.0.0,,,2023-11-29 12:38:17,2023-11-29 12:38:18,"0,461s",PASSED
+"click(findTestObject(""Выполнение бизнес-плана/2023 список""))",Chrome 119.0.0.0,Выбрать 1 квартал 2022,,2023-11-29 12:38:18,2023-11-29 12:38:18,"0,369s",PASSED
+"scrollToElement(findTestObject(""Выполнение бизнес-плана/1 квартал 2023""), 30)",Chrome 119.0.0.0,,,2023-11-29 12:38:18,2023-11-29 12:38:18,"0,491s",PASSED
+"click(findTestObject(""Выполнение бизнес-плана/1 квартал 2023""))",Chrome 119.0.0.0,,,2023-11-29 12:38:18,2023-11-29 12:38:19,"0,365s",PASSED
+"click(findTestObject(""Выполнение бизнес-плана/2 квартал 2023""))",Chrome 119.0.0.0,,,2023-11-29 12:38:19,2023-11-29 12:38:19,"0,485s",PASSED
+"click(findTestObject(""Выполнение бизнес-плана/3 квартал 2023""))",Chrome 119.0.0.0,,,2023-11-29 12:38:19,2023-11-29 12:38:20,"0,474s",PASSED
+Script1686231490255.ZakrytOpoveshenie(),Chrome 119.0.0.0,!,,2023-11-29 12:38:20,2023-11-29 12:38:20,"0,000s",PASSED
+"opoveshenie = getText(findTestObject(""Выполнение бизнес-плана/Просьба обратить внимание""))",Chrome 119.0.0.0,,,2023-11-29 12:38:20,2023-11-29 12:38:20,"0,487s",PASSED
+println(opoveshenie),Chrome 119.0.0.0,,,2023-11-29 12:38:20,2023-11-29 12:38:20,"0,000s",PASSED
+"if (opoveshenie == ""Просьба обратить внимание"")",Chrome 119.0.0.0,,,2023-11-29 12:38:20,2023-11-29 12:38:20,"0,000s",PASSED
+"scrollToElement(findTestObject(""Выполнение бизнес-плана/Заголовок фильтра ДЗО""), 30)",Chrome 119.0.0.0,"Проскроллить до заголовка фильтра ""Дата""",,2023-11-29 12:38:20,2023-11-29 12:38:21,"0,338s",PASSED
+"click(findTestObject(""Object Repository/Выполнение бизнес-плана/Применить в фильтре Дата""))",Chrome 119.0.0.0,"Нажать ""Применить""",,2023-11-29 12:38:21,2023-11-29 12:38:21,"0,911s",PASSED
+delay(20),Chrome 119.0.0.0,,,2023-11-29 12:38:21,2023-11-29 12:38:41,"20,016s",PASSED
+Script1686231490255.ZakrytOpoveshenie(),Chrome 119.0.0.0,!,,2023-11-29 12:38:41,2023-11-29 12:38:41,"0,001s",PASSED
+"opoveshenie = getText(findTestObject(""Выполнение бизнес-плана/Просьба обратить внимание""))",Chrome 119.0.0.0,,,2023-11-29 12:38:41,2023-11-29 12:38:42,"0,347s",PASSED
+println(opoveshenie),Chrome 119.0.0.0,,,2023-11-29 12:38:42,2023-11-29 12:38:42,"0,000s",PASSED
+"if (opoveshenie == ""Просьба обратить внимание"")",Chrome 119.0.0.0,,,2023-11-29 12:38:42,2023-11-29 12:38:42,"0,000s",PASSED
+"click(findTestObject(""Object Repository/Выполнение бизнес-плана/Фильтр ДЗО""))",Chrome 119.0.0.0,"Открыть фильтр ""ДЗО""",,2023-11-29 12:38:42,2023-11-29 12:38:42,"0,416s",PASSED
+"click(findTestObject(""Выполнение бизнес-плана/Снять выделение в фильтре ДЗО""))",Chrome 119.0.0.0,"Нажать ""Снять выделение""",,2023-11-29 12:38:42,2023-11-29 12:38:43,"0,494s",PASSED
+"click(findTestObject(""Выполнение бизнес-плана/ПАО Россети""))",Chrome 119.0.0.0,Выбрать ПАО Россети,,2023-11-29 12:38:43,2023-11-29 12:38:43,"0,517s",PASSED
+"click(findTestObject(""Object Repository/Выполнение бизнес-плана/Применить в фильтре ДЗО""))",Chrome 119.0.0.0,"Нажать ""Применить""",,2023-11-29 12:38:43,2023-11-29 12:38:44,"0,959s",PASSED
+delay(20),Chrome 119.0.0.0,,,2023-11-29 12:38:44,2023-11-29 12:39:04,"20,006s",PASSED
+if (run == 1),Chrome 119.0.0.0,,,2023-11-29 12:39:04,2023-11-29 12:39:04,"0,001s",PASSED
+if (run == 2),Chrome 119.0.0.0,,,2023-11-29 12:39:04,2023-11-29 12:39:08,"3,640s",PASSED
+"sheetName = ""Sheet1""",Chrome 119.0.0.0,,,2023-11-29 12:39:08,2023-11-29 12:39:08,"0,001s",PASSED
+workbook01 = getWorkbook(excelFilePath),Chrome 119.0.0.0,,,2023-11-29 12:39:08,2023-11-29 12:39:08,"0,038s",PASSED
+"sheet01 = getExcelSheet(workbook01, sheetName)",Chrome 119.0.0.0,,,2023-11-29 12:39:08,2023-11-29 12:39:08,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 0, dashboardName)",Chrome 119.0.0.0,,,2023-11-29 12:39:08,2023-11-29 12:39:08,"0,001s",PASSED
+"setValueToCellByIndex(sheet01, n, 10, user)",Chrome 119.0.0.0,,,2023-11-29 12:39:08,2023-11-29 12:39:08,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 1, a1)",Chrome 119.0.0.0,,,2023-11-29 12:39:08,2023-11-29 12:39:08,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 2, a2)",Chrome 119.0.0.0,,,2023-11-29 12:39:08,2023-11-29 12:39:08,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 3, a3)",Chrome 119.0.0.0,,,2023-11-29 12:39:08,2023-11-29 12:39:08,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 4, a4)",Chrome 119.0.0.0,,,2023-11-29 12:39:08,2023-11-29 12:39:08,"0,001s",PASSED
+"setValueToCellByIndex(sheet01, n, 5, a5)",Chrome 119.0.0.0,,,2023-11-29 12:39:08,2023-11-29 12:39:08,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 6, a6)",Chrome 119.0.0.0,,,2023-11-29 12:39:08,2023-11-29 12:39:08,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 7, a7)",Chrome 119.0.0.0,,,2023-11-29 12:39:08,2023-11-29 12:39:08,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 8, a8)",Chrome 119.0.0.0,,,2023-11-29 12:39:08,2023-11-29 12:39:08,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 9, a9)",Chrome 119.0.0.0,,,2023-11-29 12:39:08,2023-11-29 12:39:08,"0,000s",PASSED
+n = n + 1,Chrome 119.0.0.0,,,2023-11-29 12:39:08,2023-11-29 12:39:08,"0,000s",PASSED
+"saveWorkbook(excelFilePath, workbook01)",Chrome 119.0.0.0,,,2023-11-29 12:39:08,2023-11-29 12:39:08,"0,149s",PASSED
+if (run == 3),Chrome 119.0.0.0,,,2023-11-29 12:39:08,2023-11-29 12:39:08,"0,000s",PASSED
+closeBrowser(),Chrome 119.0.0.0,,,2023-11-29 12:39:08,2023-11-29 12:39:09,"0,671s",PASSED
+n = data.getRowNumbers() + 1,Chrome 119.0.0.0,,,2023-11-29 12:39:09,2023-11-29 12:39:09,"0,000s",PASSED
+println(n),Chrome 119.0.0.0,,,2023-11-29 12:39:09,2023-11-29 12:39:09,"0,000s",PASSED
+"dashboardName = ""Выполнение бизнес-плана""",Chrome 119.0.0.0,,,2023-11-29 12:39:09,2023-11-29 12:39:09,"0,000s",PASSED
+"openBrowser("""")",Chrome 119.0.0.0,,,2023-11-29 12:39:09,2023-11-29 12:39:10,"1,116s",PASSED
+"navigateToUrl(findTestData(""PlanFact"").getValue(10, 1))",Chrome 119.0.0.0,,,2023-11-29 12:39:10,2023-11-29 12:39:13,"3,361s",PASSED
+"setText(findTestObject(""Страница авторизации/input__username""), findTestData(""PlanFact"").getValue(8, run))",Chrome 119.0.0.0,,,2023-11-29 12:39:13,2023-11-29 12:39:22,"9,019s",PASSED
+"setText(findTestObject(""Страница авторизации/input__password""), findTestData(""PlanFact"").getValue(9, run))",Chrome 119.0.0.0,,,2023-11-29 12:39:22,2023-11-29 12:39:23,"0,695s",PASSED
+"click(findTestObject(""Страница авторизации/button_""))",Chrome 119.0.0.0,,,2023-11-29 12:39:23,2023-11-29 12:39:25,"1,693s",PASSED
+delay(40),Chrome 119.0.0.0,,,2023-11-29 12:39:25,2023-11-29 12:40:05,"40,014s",PASSED
+Script1686231490255.ZakrytOpoveshenie(),Chrome 119.0.0.0,,,2023-11-29 12:40:05,2023-11-29 12:40:05,"0,001s",PASSED
+"opoveshenie = getText(findTestObject(""Выполнение бизнес-плана/Просьба обратить внимание""))",Chrome 119.0.0.0,,,2023-11-29 12:40:05,2023-11-29 12:40:05,"0,346s",PASSED
+println(opoveshenie),Chrome 119.0.0.0,,,2023-11-29 12:40:05,2023-11-29 12:40:05,"0,000s",PASSED
+"if (opoveshenie == ""Просьба обратить внимание"")",Chrome 119.0.0.0,,,2023-11-29 12:40:05,2023-11-29 12:40:05,"0,365s",PASSED
+"click(findTestObject(""Object Repository/Выполнение бизнес-плана/Фильтр Дата""))",Chrome 119.0.0.0,"Раскрыть фильтр ""Дата""",,2023-11-29 12:40:05,2023-11-29 12:40:06,"0,396s",PASSED
+"click(findTestObject(""Выполнение бизнес-плана/Снять выделение в фильтре Дата""))",Chrome 119.0.0.0,"Нажать ""Снять выделение""",,2023-11-29 12:40:06,2023-11-29 12:40:06,"0,548s",PASSED
+"click(findTestObject(""Object Repository/Выполнение бизнес-плана/Применить в фильтре Дата""))",Chrome 119.0.0.0,"Нажать ""Применить""",,2023-11-29 12:40:06,2023-11-29 12:40:07,"0,929s",PASSED
+delay(20),Chrome 119.0.0.0,,,2023-11-29 12:40:07,2023-11-29 12:40:27,"20,016s",PASSED
+Script1686231490255.ZakrytOpoveshenie(),Chrome 119.0.0.0,,,2023-11-29 12:40:27,2023-11-29 12:40:27,"0,001s",PASSED
+"opoveshenie = getText(findTestObject(""Выполнение бизнес-плана/Просьба обратить внимание""))",Chrome 119.0.0.0,,,2023-11-29 12:40:27,2023-11-29 12:40:28,"0,337s",PASSED
+println(opoveshenie),Chrome 119.0.0.0,,,2023-11-29 12:40:28,2023-11-29 12:40:28,"0,000s",PASSED
+"if (opoveshenie == ""Просьба обратить внимание"")",Chrome 119.0.0.0,,,2023-11-29 12:40:28,2023-11-29 12:40:28,"0,346s",PASSED
+"click(findTestObject(""Object Repository/Выполнение бизнес-плана/Фильтр Дата""))",Chrome 119.0.0.0,"Раскрыть фильтр ""Дата""",,2023-11-29 12:40:28,2023-11-29 12:40:28,"0,385s",PASSED
+"click(findTestObject(""Выполнение бизнес-плана/Снять выделение в фильтре Дата""))",Chrome 119.0.0.0,"Нажать ""Снять выделение""",,2023-11-29 12:40:28,2023-11-29 12:40:29,"0,473s",PASSED
+"scrollToElement(findTestObject(""Выполнение бизнес-плана/2023 список""), 30)",Chrome 119.0.0.0,,,2023-11-29 12:40:29,2023-11-29 12:40:29,"0,439s",PASSED
+"click(findTestObject(""Выполнение бизнес-плана/2023 список""))",Chrome 119.0.0.0,Выбрать 1 квартал 2022,,2023-11-29 12:40:29,2023-11-29 12:40:30,"0,351s",PASSED
+"scrollToElement(findTestObject(""Выполнение бизнес-плана/1 квартал 2023""), 30)",Chrome 119.0.0.0,,,2023-11-29 12:40:30,2023-11-29 12:40:30,"0,465s",PASSED
+"click(findTestObject(""Выполнение бизнес-плана/1 квартал 2023""))",Chrome 119.0.0.0,,,2023-11-29 12:40:30,2023-11-29 12:40:30,"0,363s",PASSED
+"click(findTestObject(""Выполнение бизнес-плана/2 квартал 2023""))",Chrome 119.0.0.0,,,2023-11-29 12:40:30,2023-11-29 12:40:31,"0,484s",PASSED
+"click(findTestObject(""Выполнение бизнес-плана/3 квартал 2023""))",Chrome 119.0.0.0,,,2023-11-29 12:40:31,2023-11-29 12:40:31,"0,488s",PASSED
+Script1686231490255.ZakrytOpoveshenie(),Chrome 119.0.0.0,!,,2023-11-29 12:40:31,2023-11-29 12:40:31,"0,000s",PASSED
+"opoveshenie = getText(findTestObject(""Выполнение бизнес-плана/Просьба обратить внимание""))",Chrome 119.0.0.0,,,2023-11-29 12:40:31,2023-11-29 12:40:32,"0,498s",PASSED
+println(opoveshenie),Chrome 119.0.0.0,,,2023-11-29 12:40:32,2023-11-29 12:40:32,"0,000s",PASSED
+"if (opoveshenie == ""Просьба обратить внимание"")",Chrome 119.0.0.0,,,2023-11-29 12:40:32,2023-11-29 12:40:32,"0,000s",PASSED
+"scrollToElement(findTestObject(""Выполнение бизнес-плана/Заголовок фильтра ДЗО""), 30)",Chrome 119.0.0.0,"Проскроллить до заголовка фильтра ""Дата""",,2023-11-29 12:40:32,2023-11-29 12:40:32,"0,333s",PASSED
+"click(findTestObject(""Object Repository/Выполнение бизнес-плана/Применить в фильтре Дата""))",Chrome 119.0.0.0,"Нажать ""Применить""",,2023-11-29 12:40:32,2023-11-29 12:40:33,"0,887s",PASSED
+delay(20),Chrome 119.0.0.0,,,2023-11-29 12:40:33,2023-11-29 12:40:53,"20,009s",PASSED
+Script1686231490255.ZakrytOpoveshenie(),Chrome 119.0.0.0,!,,2023-11-29 12:40:53,2023-11-29 12:40:53,"0,000s",PASSED
+"opoveshenie = getText(findTestObject(""Выполнение бизнес-плана/Просьба обратить внимание""))",Chrome 119.0.0.0,,,2023-11-29 12:40:53,2023-11-29 12:40:53,"0,349s",PASSED
+println(opoveshenie),Chrome 119.0.0.0,,,2023-11-29 12:40:53,2023-11-29 12:40:53,"0,000s",PASSED
+"if (opoveshenie == ""Просьба обратить внимание"")",Chrome 119.0.0.0,,,2023-11-29 12:40:53,2023-11-29 12:40:53,"0,001s",PASSED
+"click(findTestObject(""Object Repository/Выполнение бизнес-плана/Фильтр ДЗО""))",Chrome 119.0.0.0,"Открыть фильтр ""ДЗО""",,2023-11-29 12:40:53,2023-11-29 12:40:54,"0,399s",PASSED
+"click(findTestObject(""Выполнение бизнес-плана/Снять выделение в фильтре ДЗО""))",Chrome 119.0.0.0,"Нажать ""Снять выделение""",,2023-11-29 12:40:54,2023-11-29 12:40:54,"0,480s",PASSED
+"click(findTestObject(""Выполнение бизнес-плана/ПАО Россети""))",Chrome 119.0.0.0,Выбрать ПАО Россети,,2023-11-29 12:40:54,2023-11-29 12:40:55,"0,522s",PASSED
+"click(findTestObject(""Object Repository/Выполнение бизнес-плана/Применить в фильтре ДЗО""))",Chrome 119.0.0.0,"Нажать ""Применить""",,2023-11-29 12:40:55,2023-11-29 12:40:56,"0,958s",PASSED
+delay(20),Chrome 119.0.0.0,,,2023-11-29 12:40:56,2023-11-29 12:41:16,"20,013s",PASSED
+if (run == 1),Chrome 119.0.0.0,,,2023-11-29 12:41:16,2023-11-29 12:41:16,"0,000s",PASSED
+if (run == 2),Chrome 119.0.0.0,,,2023-11-29 12:41:16,2023-11-29 12:41:16,"0,000s",PASSED
+if (run == 3),Chrome 119.0.0.0,,,2023-11-29 12:41:16,2023-11-29 12:41:19,"3,643s",PASSED
+"sheetName = ""Sheet1""",Chrome 119.0.0.0,,,2023-11-29 12:41:19,2023-11-29 12:41:19,"0,000s",PASSED
+workbook01 = getWorkbook(excelFilePath),Chrome 119.0.0.0,,,2023-11-29 12:41:19,2023-11-29 12:41:19,"0,039s",PASSED
+"sheet01 = getExcelSheet(workbook01, sheetName)",Chrome 119.0.0.0,,,2023-11-29 12:41:19,2023-11-29 12:41:19,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 0, dashboardName)",Chrome 119.0.0.0,,,2023-11-29 12:41:19,2023-11-29 12:41:19,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 10, user)",Chrome 119.0.0.0,,,2023-11-29 12:41:19,2023-11-29 12:41:19,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 1, a1)",Chrome 119.0.0.0,,,2023-11-29 12:41:19,2023-11-29 12:41:19,"0,001s",PASSED
+"setValueToCellByIndex(sheet01, n, 2, a2)",Chrome 119.0.0.0,,,2023-11-29 12:41:19,2023-11-29 12:41:19,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 3, a3)",Chrome 119.0.0.0,,,2023-11-29 12:41:19,2023-11-29 12:41:19,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 4, a4)",Chrome 119.0.0.0,,,2023-11-29 12:41:19,2023-11-29 12:41:19,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 5, a5)",Chrome 119.0.0.0,,,2023-11-29 12:41:19,2023-11-29 12:41:19,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 6, a6)",Chrome 119.0.0.0,,,2023-11-29 12:41:19,2023-11-29 12:41:19,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 7, a7)",Chrome 119.0.0.0,,,2023-11-29 12:41:19,2023-11-29 12:41:19,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 8, a8)",Chrome 119.0.0.0,,,2023-11-29 12:41:19,2023-11-29 12:41:19,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 9, a9)",Chrome 119.0.0.0,,,2023-11-29 12:41:19,2023-11-29 12:41:19,"0,000s",PASSED
+n = n + 1,Chrome 119.0.0.0,,,2023-11-29 12:41:19,2023-11-29 12:41:19,"0,000s",PASSED
+"saveWorkbook(excelFilePath, workbook01)",Chrome 119.0.0.0,,,2023-11-29 12:41:19,2023-11-29 12:41:20,"0,127s",PASSED
+closeBrowser(),Chrome 119.0.0.0,,,2023-11-29 12:41:20,2023-11-29 12:41:20,"0,665s",PASSED
+"for ([run = 1, run < 4, (run++)])",Chrome 119.0.0.0,,,2023-11-29 12:41:20,2023-11-29 12:41:20,"0,000s",PASSED
+n = data.getRowNumbers() + 1,Chrome 119.0.0.0,,,2023-11-29 12:41:20,2023-11-29 12:41:20,"0,000s",PASSED
+println(n),Chrome 119.0.0.0,,,2023-11-29 12:41:20,2023-11-29 12:41:20,"0,000s",PASSED
+"dashboardName = ""Вырука в рублях""",Chrome 119.0.0.0,,,2023-11-29 12:41:20,2023-11-29 12:41:20,"0,000s",PASSED
+"openBrowser("""")",Chrome 119.0.0.0,,,2023-11-29 12:41:20,2023-11-29 12:41:21,"1,122s",PASSED
+"navigateToUrl(findTestData(""PlanFact"").getValue(10, 2))",Chrome 119.0.0.0,,,2023-11-29 12:41:21,2023-11-29 12:41:31,"9,126s",PASSED
+"setText(findTestObject(""Страница авторизации/input__username""), findTestData(""PlanFact"").getValue(8, run))",Chrome 119.0.0.0,,,2023-11-29 12:41:31,2023-11-29 12:41:32,"1,757s",PASSED
+"setText(findTestObject(""Страница авторизации/input__password""), findTestData(""PlanFact"").getValue(9, run))",Chrome 119.0.0.0,,,2023-11-29 12:41:32,2023-11-29 12:41:33,"0,700s",PASSED
+"click(findTestObject(""Страница авторизации/button_""))",Chrome 119.0.0.0,,,2023-11-29 12:41:33,2023-11-29 12:41:34,"1,323s",PASSED
+delay(20),Chrome 119.0.0.0,,,2023-11-29 12:41:34,2023-11-29 12:41:54,"20,005s",PASSED
+"click(findTestObject(""Выручка в рублях/Фильтр Период""))",Chrome 119.0.0.0,"Раскрыть фильтр ""Дата""",,2023-11-29 12:41:54,2023-11-29 12:41:55,"0,407s",PASSED
+"click(findTestObject(""Выручка в рублях/Снять выделение в фильтре Дата""))",Chrome 119.0.0.0,"Нажать ""Снять выделение""",,2023-11-29 12:41:55,2023-11-29 12:41:55,"0,488s",PASSED
+"click(findTestObject(""Выручка в рублях/Применить в фильтре Дата""))",Chrome 119.0.0.0,"Нажать ""Применить""",,2023-11-29 12:41:55,2023-11-29 12:41:56,"0,636s",PASSED
+"click(findTestObject(""Выручка в рублях/Фильтр Период""))",Chrome 119.0.0.0,"Раскрыть фильтр ""Дата""",,2023-11-29 12:41:56,2023-11-29 12:41:57,"0,842s",PASSED
+"click(findTestObject(""Выручка в рублях/Снять выделение в фильтре Дата""))",Chrome 119.0.0.0,"Нажать ""Снять выделение""",,2023-11-29 12:41:57,2023-11-29 12:41:57,"0,464s",PASSED
+"scrollToElement(findTestObject(""Выручка в рублях/2023 список""), 30)",Chrome 119.0.0.0,,,2023-11-29 12:41:57,2023-11-29 12:41:58,"0,457s",PASSED
+"click(findTestObject(""Выручка в рублях/2023 список""))",Chrome 119.0.0.0,,,2023-11-29 12:41:58,2023-11-29 12:41:58,"0,362s",PASSED
+"scrollToElement(findTestObject(""Выручка в рублях/1 квартал 2023 список""), 30)",Chrome 119.0.0.0,,,2023-11-29 12:41:58,2023-11-29 12:41:59,"0,541s",PASSED
+"click(findTestObject(""Выручка в рублях/1 квартал 2023 выбрать""))",Chrome 119.0.0.0,,,2023-11-29 12:41:59,2023-11-29 12:41:59,"0,356s",PASSED
+"click(findTestObject(""Выручка в рублях/выбрать 2 квартал 2023""))",Chrome 119.0.0.0,,,2023-11-29 12:41:59,2023-11-29 12:41:59,"0,469s",PASSED
+"click(findTestObject(""Выручка в рублях/3 квартал 2023""), CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:41:59,2023-11-29 12:42:00,"0,491s",PASSED
+"scrollToElement(findTestObject(""Выручка в рублях/Заголовок дашборда""), 30)",Chrome 119.0.0.0,"Проскроллить до заголовка фильтра ""Дата""",,2023-11-29 12:42:00,2023-11-29 12:42:00,"0,460s",PASSED
+"click(findTestObject(""Выручка в рублях/Применить в фильтре Дата""))",Chrome 119.0.0.0,"Нажать ""Применить""",,2023-11-29 12:42:00,2023-11-29 12:42:01,"0,486s",PASSED
+"a5 = """"",Chrome 119.0.0.0,,,2023-11-29 12:42:01,2023-11-29 12:42:01,"0,000s",PASSED
+"a6 = """"",Chrome 119.0.0.0,,,2023-11-29 12:42:01,2023-11-29 12:42:01,"0,001s",PASSED
+"a7 = """"",Chrome 119.0.0.0,,,2023-11-29 12:42:01,2023-11-29 12:42:01,"0,000s",PASSED
+"a8 = """"",Chrome 119.0.0.0,,,2023-11-29 12:42:01,2023-11-29 12:42:01,"0,000s",PASSED
+"a9 = """"",Chrome 119.0.0.0,,,2023-11-29 12:42:01,2023-11-29 12:42:01,"0,000s",PASSED
+if (run == 1),Chrome 119.0.0.0,,,2023-11-29 12:42:01,2023-11-29 12:42:04,"3,299s",PASSED
+"sheetName = ""Sheet1""",Chrome 119.0.0.0,,,2023-11-29 12:42:04,2023-11-29 12:42:04,"0,000s",PASSED
+workbook01 = getWorkbook(excelFilePath),Chrome 119.0.0.0,,,2023-11-29 12:42:04,2023-11-29 12:42:04,"0,039s",PASSED
+"sheet01 = getExcelSheet(workbook01, sheetName)",Chrome 119.0.0.0,,,2023-11-29 12:42:04,2023-11-29 12:42:04,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 0, dashboardName)",Chrome 119.0.0.0,,,2023-11-29 12:42:04,2023-11-29 12:42:04,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 10, user)",Chrome 119.0.0.0,,,2023-11-29 12:42:04,2023-11-29 12:42:04,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 1, a1)",Chrome 119.0.0.0,,,2023-11-29 12:42:04,2023-11-29 12:42:04,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 2, a2)",Chrome 119.0.0.0,,,2023-11-29 12:42:04,2023-11-29 12:42:04,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 3, a3)",Chrome 119.0.0.0,,,2023-11-29 12:42:04,2023-11-29 12:42:04,"0,003s",PASSED
+"setValueToCellByIndex(sheet01, n, 4, a4)",Chrome 119.0.0.0,,,2023-11-29 12:42:04,2023-11-29 12:42:04,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 5, a5)",Chrome 119.0.0.0,,,2023-11-29 12:42:04,2023-11-29 12:42:04,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 6, a6)",Chrome 119.0.0.0,,,2023-11-29 12:42:04,2023-11-29 12:42:04,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 7, a7)",Chrome 119.0.0.0,,,2023-11-29 12:42:04,2023-11-29 12:42:04,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 8, a8)",Chrome 119.0.0.0,,,2023-11-29 12:42:04,2023-11-29 12:42:04,"0,001s",PASSED
+"setValueToCellByIndex(sheet01, n, 9, a9)",Chrome 119.0.0.0,,,2023-11-29 12:42:04,2023-11-29 12:42:04,"0,000s",PASSED
+n = n + 1,Chrome 119.0.0.0,,,2023-11-29 12:42:04,2023-11-29 12:42:04,"0,000s",PASSED
+"saveWorkbook(excelFilePath, workbook01)",Chrome 119.0.0.0,,,2023-11-29 12:42:04,2023-11-29 12:42:04,"0,137s",PASSED
+if (run == 2),Chrome 119.0.0.0,,,2023-11-29 12:42:04,2023-11-29 12:42:04,"0,003s",PASSED
+if (run == 3),Chrome 119.0.0.0,,,2023-11-29 12:42:04,2023-11-29 12:42:04,"0,000s",PASSED
+closeBrowser(),Chrome 119.0.0.0,,,2023-11-29 12:42:04,2023-11-29 12:42:05,"0,621s",PASSED
+n = data.getRowNumbers() + 1,Chrome 119.0.0.0,,,2023-11-29 12:42:05,2023-11-29 12:42:05,"0,000s",PASSED
+println(n),Chrome 119.0.0.0,,,2023-11-29 12:42:05,2023-11-29 12:42:05,"0,000s",PASSED
+"dashboardName = ""Вырука в рублях""",Chrome 119.0.0.0,,,2023-11-29 12:42:05,2023-11-29 12:42:05,"0,000s",PASSED
+"openBrowser("""")",Chrome 119.0.0.0,,,2023-11-29 12:42:05,2023-11-29 12:42:06,"1,121s",PASSED
+"navigateToUrl(findTestData(""PlanFact"").getValue(10, 2))",Chrome 119.0.0.0,,,2023-11-29 12:42:06,2023-11-29 12:42:12,"6,429s",PASSED
+"setText(findTestObject(""Страница авторизации/input__username""), findTestData(""PlanFact"").getValue(8, run))",Chrome 119.0.0.0,,,2023-11-29 12:42:12,2023-11-29 12:42:14,"2,021s",PASSED
+"setText(findTestObject(""Страница авторизации/input__password""), findTestData(""PlanFact"").getValue(9, run))",Chrome 119.0.0.0,,,2023-11-29 12:42:14,2023-11-29 12:42:15,"0,686s",PASSED
+"click(findTestObject(""Страница авторизации/button_""))",Chrome 119.0.0.0,,,2023-11-29 12:42:15,2023-11-29 12:42:17,"1,536s",PASSED
+delay(20),Chrome 119.0.0.0,,,2023-11-29 12:42:17,2023-11-29 12:42:37,"20,004s",PASSED
+"click(findTestObject(""Выручка в рублях/Фильтр Период""))",Chrome 119.0.0.0,"Раскрыть фильтр ""Дата""",,2023-11-29 12:42:37,2023-11-29 12:42:47,"10,130s",FAILED
+"click(findTestObject(""Выручка в рублях/Снять выделение в фильтре Дата""))",Chrome 119.0.0.0,"Нажать ""Снять выделение""",,2023-11-29 12:42:47,2023-11-29 12:42:48,"0,933s",FAILED
+"click(findTestObject(""Выручка в рублях/Применить в фильтре Дата""))",Chrome 119.0.0.0,"Нажать ""Применить""",,2023-11-29 12:42:48,2023-11-29 12:42:48,"0,437s",FAILED
+"click(findTestObject(""Выручка в рублях/Фильтр Период""))",Chrome 119.0.0.0,"Раскрыть фильтр ""Дата""",,2023-11-29 12:42:48,2023-11-29 12:42:49,"0,413s",PASSED
+"click(findTestObject(""Выручка в рублях/Снять выделение в фильтре Дата""))",Chrome 119.0.0.0,"Нажать ""Снять выделение""",,2023-11-29 12:42:49,2023-11-29 12:42:49,"0,488s",PASSED
+"scrollToElement(findTestObject(""Выручка в рублях/2023 список""), 30)",Chrome 119.0.0.0,,,2023-11-29 12:42:49,2023-11-29 12:42:50,"0,463s",PASSED
+"click(findTestObject(""Выручка в рублях/2023 список""))",Chrome 119.0.0.0,,,2023-11-29 12:42:50,2023-11-29 12:42:50,"0,363s",PASSED
+"scrollToElement(findTestObject(""Выручка в рублях/1 квартал 2023 список""), 30)",Chrome 119.0.0.0,,,2023-11-29 12:42:50,2023-11-29 12:42:50,"0,447s",PASSED
+"click(findTestObject(""Выручка в рублях/1 квартал 2023 выбрать""))",Chrome 119.0.0.0,,,2023-11-29 12:42:50,2023-11-29 12:42:51,"0,427s",FAILED
+"click(findTestObject(""Выручка в рублях/выбрать 2 квартал 2023""))",Chrome 119.0.0.0,,,2023-11-29 12:42:51,2023-11-29 12:42:51,"0,423s",FAILED
+"click(findTestObject(""Выручка в рублях/3 квартал 2023""), CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:42:51,2023-11-29 12:42:52,"0,434s",FAILED
+"scrollToElement(findTestObject(""Выручка в рублях/Заголовок дашборда""), 30)",Chrome 119.0.0.0,"Проскроллить до заголовка фильтра ""Дата""",,2023-11-29 12:42:52,2023-11-29 12:42:52,"0,355s",PASSED
+"click(findTestObject(""Выручка в рублях/Применить в фильтре Дата""))",Chrome 119.0.0.0,"Нажать ""Применить""",,2023-11-29 12:42:52,2023-11-29 12:42:52,"0,507s",PASSED
+"a5 = """"",Chrome 119.0.0.0,,,2023-11-29 12:42:52,2023-11-29 12:42:52,"0,000s",PASSED
+"a6 = """"",Chrome 119.0.0.0,,,2023-11-29 12:42:52,2023-11-29 12:42:52,"0,000s",PASSED
+"a7 = """"",Chrome 119.0.0.0,,,2023-11-29 12:42:52,2023-11-29 12:42:52,"0,002s",PASSED
+"a8 = """"",Chrome 119.0.0.0,,,2023-11-29 12:42:52,2023-11-29 12:42:52,"0,000s",PASSED
+"a9 = """"",Chrome 119.0.0.0,,,2023-11-29 12:42:52,2023-11-29 12:42:52,"0,000s",PASSED
+if (run == 1),Chrome 119.0.0.0,,,2023-11-29 12:42:52,2023-11-29 12:42:52,"0,000s",PASSED
+if (run == 2),Chrome 119.0.0.0,,,2023-11-29 12:42:52,2023-11-29 12:42:59,"6,905s",FAILED
+"sheetName = ""Sheet1""",Chrome 119.0.0.0,,,2023-11-29 12:42:59,2023-11-29 12:42:59,"0,000s",PASSED
+workbook01 = getWorkbook(excelFilePath),Chrome 119.0.0.0,,,2023-11-29 12:42:59,2023-11-29 12:42:59,"0,033s",PASSED
+"sheet01 = getExcelSheet(workbook01, sheetName)",Chrome 119.0.0.0,,,2023-11-29 12:42:59,2023-11-29 12:42:59,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 0, dashboardName)",Chrome 119.0.0.0,,,2023-11-29 12:42:59,2023-11-29 12:42:59,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 10, user)",Chrome 119.0.0.0,,,2023-11-29 12:42:59,2023-11-29 12:42:59,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 1, a1)",Chrome 119.0.0.0,,,2023-11-29 12:42:59,2023-11-29 12:42:59,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 2, a2)",Chrome 119.0.0.0,,,2023-11-29 12:42:59,2023-11-29 12:42:59,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 3, a3)",Chrome 119.0.0.0,,,2023-11-29 12:42:59,2023-11-29 12:42:59,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 4, a4)",Chrome 119.0.0.0,,,2023-11-29 12:42:59,2023-11-29 12:42:59,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 5, a5)",Chrome 119.0.0.0,,,2023-11-29 12:42:59,2023-11-29 12:42:59,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 6, a6)",Chrome 119.0.0.0,,,2023-11-29 12:42:59,2023-11-29 12:42:59,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 7, a7)",Chrome 119.0.0.0,,,2023-11-29 12:42:59,2023-11-29 12:42:59,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 8, a8)",Chrome 119.0.0.0,,,2023-11-29 12:42:59,2023-11-29 12:42:59,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 9, a9)",Chrome 119.0.0.0,,,2023-11-29 12:42:59,2023-11-29 12:42:59,"0,000s",PASSED
+n = n + 1,Chrome 119.0.0.0,,,2023-11-29 12:42:59,2023-11-29 12:42:59,"0,000s",PASSED
+"saveWorkbook(excelFilePath, workbook01)",Chrome 119.0.0.0,,,2023-11-29 12:42:59,2023-11-29 12:43:00,"0,127s",PASSED
+if (run == 3),Chrome 119.0.0.0,,,2023-11-29 12:43:00,2023-11-29 12:43:00,"0,000s",PASSED
+closeBrowser(),Chrome 119.0.0.0,,,2023-11-29 12:43:00,2023-11-29 12:43:00,"0,615s",PASSED
+n = data.getRowNumbers() + 1,Chrome 119.0.0.0,,,2023-11-29 12:43:00,2023-11-29 12:43:00,"0,000s",PASSED
+println(n),Chrome 119.0.0.0,,,2023-11-29 12:43:00,2023-11-29 12:43:00,"0,000s",PASSED
+"dashboardName = ""Вырука в рублях""",Chrome 119.0.0.0,,,2023-11-29 12:43:00,2023-11-29 12:43:00,"0,000s",PASSED
+"openBrowser("""")",Chrome 119.0.0.0,,,2023-11-29 12:43:00,2023-11-29 12:43:01,"1,121s",PASSED
+"navigateToUrl(findTestData(""PlanFact"").getValue(10, 2))",Chrome 119.0.0.0,,,2023-11-29 12:43:01,2023-11-29 12:43:10,"8,865s",PASSED
+"setText(findTestObject(""Страница авторизации/input__username""), findTestData(""PlanFact"").getValue(8, run))",Chrome 119.0.0.0,,,2023-11-29 12:43:10,2023-11-29 12:43:12,"2,083s",PASSED
+"setText(findTestObject(""Страница авторизации/input__password""), findTestData(""PlanFact"").getValue(9, run))",Chrome 119.0.0.0,,,2023-11-29 12:43:12,2023-11-29 12:43:13,"0,719s",PASSED
+"click(findTestObject(""Страница авторизации/button_""))",Chrome 119.0.0.0,,,2023-11-29 12:43:13,2023-11-29 12:43:19,"6,309s",PASSED
+delay(20),Chrome 119.0.0.0,,,2023-11-29 12:43:19,2023-11-29 12:43:39,"20,005s",PASSED
+"click(findTestObject(""Выручка в рублях/Фильтр Период""))",Chrome 119.0.0.0,"Раскрыть фильтр ""Дата""",,2023-11-29 12:43:39,2023-11-29 12:43:40,"0,398s",PASSED
+"click(findTestObject(""Выручка в рублях/Снять выделение в фильтре Дата""))",Chrome 119.0.0.0,"Нажать ""Снять выделение""",,2023-11-29 12:43:40,2023-11-29 12:43:40,"0,467s",PASSED
+"click(findTestObject(""Выручка в рублях/Применить в фильтре Дата""))",Chrome 119.0.0.0,"Нажать ""Применить""",,2023-11-29 12:43:40,2023-11-29 12:43:41,"0,725s",PASSED
+"click(findTestObject(""Выручка в рублях/Фильтр Период""))",Chrome 119.0.0.0,"Раскрыть фильтр ""Дата""",,2023-11-29 12:43:41,2023-11-29 12:43:42,"1,182s",PASSED
+"click(findTestObject(""Выручка в рублях/Снять выделение в фильтре Дата""))",Chrome 119.0.0.0,"Нажать ""Снять выделение""",,2023-11-29 12:43:42,2023-11-29 12:43:43,"0,463s",PASSED
+"scrollToElement(findTestObject(""Выручка в рублях/2023 список""), 30)",Chrome 119.0.0.0,,,2023-11-29 12:43:43,2023-11-29 12:43:43,"0,459s",PASSED
+"click(findTestObject(""Выручка в рублях/2023 список""))",Chrome 119.0.0.0,,,2023-11-29 12:43:43,2023-11-29 12:43:43,"0,416s",PASSED
+"scrollToElement(findTestObject(""Выручка в рублях/1 квартал 2023 список""), 30)",Chrome 119.0.0.0,,,2023-11-29 12:43:43,2023-11-29 12:43:44,"0,441s",PASSED
+"click(findTestObject(""Выручка в рублях/1 квартал 2023 выбрать""))",Chrome 119.0.0.0,,,2023-11-29 12:43:44,2023-11-29 12:43:44,"0,359s",PASSED
+"click(findTestObject(""Выручка в рублях/выбрать 2 квартал 2023""))",Chrome 119.0.0.0,,,2023-11-29 12:43:44,2023-11-29 12:43:45,"0,469s",PASSED
+"click(findTestObject(""Выручка в рублях/3 квартал 2023""), CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:43:45,2023-11-29 12:43:45,"0,472s",PASSED
+"scrollToElement(findTestObject(""Выручка в рублях/Заголовок дашборда""), 30)",Chrome 119.0.0.0,"Проскроллить до заголовка фильтра ""Дата""",,2023-11-29 12:43:45,2023-11-29 12:43:46,"0,455s",PASSED
+"click(findTestObject(""Выручка в рублях/Применить в фильтре Дата""))",Chrome 119.0.0.0,"Нажать ""Применить""",,2023-11-29 12:43:46,2023-11-29 12:43:46,"0,511s",PASSED
+"a5 = """"",Chrome 119.0.0.0,,,2023-11-29 12:43:46,2023-11-29 12:43:46,"0,001s",PASSED
+"a6 = """"",Chrome 119.0.0.0,,,2023-11-29 12:43:46,2023-11-29 12:43:46,"0,000s",PASSED
+"a7 = """"",Chrome 119.0.0.0,,,2023-11-29 12:43:46,2023-11-29 12:43:46,"0,000s",PASSED
+"a8 = """"",Chrome 119.0.0.0,,,2023-11-29 12:43:46,2023-11-29 12:43:46,"0,000s",PASSED
+"a9 = """"",Chrome 119.0.0.0,,,2023-11-29 12:43:46,2023-11-29 12:43:46,"0,000s",PASSED
+if (run == 1),Chrome 119.0.0.0,,,2023-11-29 12:43:46,2023-11-29 12:43:46,"0,001s",PASSED
+if (run == 2),Chrome 119.0.0.0,,,2023-11-29 12:43:46,2023-11-29 12:43:46,"0,000s",PASSED
+if (run == 3),Chrome 119.0.0.0,,,2023-11-29 12:43:46,2023-11-29 12:43:52,"5,760s",PASSED
+"sheetName = ""Sheet1""",Chrome 119.0.0.0,,,2023-11-29 12:43:52,2023-11-29 12:43:52,"0,000s",PASSED
+workbook01 = getWorkbook(excelFilePath),Chrome 119.0.0.0,,,2023-11-29 12:43:52,2023-11-29 12:43:52,"0,033s",PASSED
+"sheet01 = getExcelSheet(workbook01, sheetName)",Chrome 119.0.0.0,,,2023-11-29 12:43:52,2023-11-29 12:43:52,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 0, dashboardName)",Chrome 119.0.0.0,,,2023-11-29 12:43:52,2023-11-29 12:43:52,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 10, user)",Chrome 119.0.0.0,,,2023-11-29 12:43:52,2023-11-29 12:43:52,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 1, a1)",Chrome 119.0.0.0,,,2023-11-29 12:43:52,2023-11-29 12:43:52,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 2, a2)",Chrome 119.0.0.0,,,2023-11-29 12:43:52,2023-11-29 12:43:52,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 3, a3)",Chrome 119.0.0.0,,,2023-11-29 12:43:52,2023-11-29 12:43:52,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 4, a4)",Chrome 119.0.0.0,,,2023-11-29 12:43:52,2023-11-29 12:43:52,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 5, a5)",Chrome 119.0.0.0,,,2023-11-29 12:43:52,2023-11-29 12:43:52,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 6, a6)",Chrome 119.0.0.0,,,2023-11-29 12:43:52,2023-11-29 12:43:52,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 7, a7)",Chrome 119.0.0.0,,,2023-11-29 12:43:52,2023-11-29 12:43:52,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 8, a8)",Chrome 119.0.0.0,,,2023-11-29 12:43:52,2023-11-29 12:43:52,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 9, a9)",Chrome 119.0.0.0,,,2023-11-29 12:43:52,2023-11-29 12:43:52,"0,000s",PASSED
+n = n + 1,Chrome 119.0.0.0,,,2023-11-29 12:43:52,2023-11-29 12:43:52,"0,000s",PASSED
+"saveWorkbook(excelFilePath, workbook01)",Chrome 119.0.0.0,,,2023-11-29 12:43:52,2023-11-29 12:43:52,"0,131s",PASSED
+closeBrowser(),Chrome 119.0.0.0,,,2023-11-29 12:43:52,2023-11-29 12:43:53,"0,613s",PASSED
+"for ([run = 1, run < 4, (run++)])",Chrome 119.0.0.0,,,2023-11-29 12:43:53,2023-11-29 12:43:53,"0,002s",PASSED
+n = data.getRowNumbers() + 1,Chrome 119.0.0.0,,,2023-11-29 12:43:53,2023-11-29 12:43:53,"0,000s",PASSED
+println(n),Chrome 119.0.0.0,,,2023-11-29 12:43:53,2023-11-29 12:43:53,"0,000s",PASSED
+"dashboardName = ""Объём потерь""",Chrome 119.0.0.0,,,2023-11-29 12:43:53,2023-11-29 12:43:53,"0,000s",PASSED
+"openBrowser("""")",Chrome 119.0.0.0,,,2023-11-29 12:43:53,2023-11-29 12:43:54,"1,131s",PASSED
+"navigateToUrl(findTestData(""PlanFact"").getValue(10, 14))",Chrome 119.0.0.0,,,2023-11-29 12:43:54,2023-11-29 12:44:13,"19,342s",PASSED
+"setText(findTestObject(""Страница авторизации/input__username""), findTestData(""PlanFact"").getValue(8, run))",Chrome 119.0.0.0,,,2023-11-29 12:44:13,2023-11-29 12:44:15,"2,230s",PASSED
+"setText(findTestObject(""Страница авторизации/input__password""), findTestData(""PlanFact"").getValue(9, run))",Chrome 119.0.0.0,,,2023-11-29 12:44:15,2023-11-29 12:44:16,"0,699s",PASSED
+"click(findTestObject(""Страница авторизации/button_""))",Chrome 119.0.0.0,,,2023-11-29 12:44:16,2023-11-29 12:44:18,"1,821s",PASSED
+delay(20),Chrome 119.0.0.0,,,2023-11-29 12:44:18,2023-11-29 12:44:38,"20,009s",PASSED
+"a9 = """"",Chrome 119.0.0.0,,,2023-11-29 12:44:38,2023-11-29 12:44:38,"0,000s",PASSED
+"a3 = """"",Chrome 119.0.0.0,,,2023-11-29 12:44:38,2023-11-29 12:44:38,"0,000s",PASSED
+"a6 = """"",Chrome 119.0.0.0,,,2023-11-29 12:44:38,2023-11-29 12:44:38,"0,000s",PASSED
+if (run == 1),Chrome 119.0.0.0,,,2023-11-29 12:44:38,2023-11-29 12:46:19,"1m - 40,787s",FAILED
+"sheetName = ""Sheet1""",Chrome 119.0.0.0,,,2023-11-29 12:46:19,2023-11-29 12:46:19,"0,000s",PASSED
+workbook01 = getWorkbook(excelFilePath),Chrome 119.0.0.0,,,2023-11-29 12:46:19,2023-11-29 12:46:19,"0,049s",PASSED
+"sheet01 = getExcelSheet(workbook01, sheetName)",Chrome 119.0.0.0,,,2023-11-29 12:46:19,2023-11-29 12:46:19,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 0, dashboardName)",Chrome 119.0.0.0,,,2023-11-29 12:46:19,2023-11-29 12:46:19,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 10, user)",Chrome 119.0.0.0,,,2023-11-29 12:46:19,2023-11-29 12:46:19,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 1, a1)",Chrome 119.0.0.0,,,2023-11-29 12:46:19,2023-11-29 12:46:19,"0,001s",PASSED
+"setValueToCellByIndex(sheet01, n, 2, a2)",Chrome 119.0.0.0,,,2023-11-29 12:46:19,2023-11-29 12:46:19,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 3, a3)",Chrome 119.0.0.0,,,2023-11-29 12:46:19,2023-11-29 12:46:19,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 4, a4)",Chrome 119.0.0.0,,,2023-11-29 12:46:19,2023-11-29 12:46:19,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 5, a5)",Chrome 119.0.0.0,,,2023-11-29 12:46:19,2023-11-29 12:46:19,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 6, a6)",Chrome 119.0.0.0,,,2023-11-29 12:46:19,2023-11-29 12:46:19,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 7, a7)",Chrome 119.0.0.0,,,2023-11-29 12:46:19,2023-11-29 12:46:19,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 8, a8)",Chrome 119.0.0.0,,,2023-11-29 12:46:19,2023-11-29 12:46:19,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 9, a9)",Chrome 119.0.0.0,,,2023-11-29 12:46:19,2023-11-29 12:46:19,"0,000s",PASSED
+n = n + 1,Chrome 119.0.0.0,,,2023-11-29 12:46:19,2023-11-29 12:46:19,"0,000s",PASSED
+"saveWorkbook(excelFilePath, workbook01)",Chrome 119.0.0.0,,,2023-11-29 12:46:19,2023-11-29 12:46:19,"0,097s",PASSED
+if (run == 2),Chrome 119.0.0.0,,,2023-11-29 12:46:19,2023-11-29 12:46:19,"0,000s",PASSED
+if (run == 3),Chrome 119.0.0.0,,,2023-11-29 12:46:19,2023-11-29 12:46:19,"0,000s",PASSED
+closeBrowser(),Chrome 119.0.0.0,,,2023-11-29 12:46:19,2023-11-29 12:46:19,"0,642s",PASSED
+n = data.getRowNumbers() + 1,Chrome 119.0.0.0,,,2023-11-29 12:46:19,2023-11-29 12:46:19,"0,000s",PASSED
+println(n),Chrome 119.0.0.0,,,2023-11-29 12:46:19,2023-11-29 12:46:19,"0,000s",PASSED
+"dashboardName = ""Объём потерь""",Chrome 119.0.0.0,,,2023-11-29 12:46:19,2023-11-29 12:46:19,"0,000s",PASSED
+"openBrowser("""")",Chrome 119.0.0.0,,,2023-11-29 12:46:19,2023-11-29 12:46:21,"1,122s",PASSED
+"navigateToUrl(findTestData(""PlanFact"").getValue(10, 14))",Chrome 119.0.0.0,,,2023-11-29 12:46:21,2023-11-29 12:46:30,"9,540s",PASSED
+"setText(findTestObject(""Страница авторизации/input__username""), findTestData(""PlanFact"").getValue(8, run))",Chrome 119.0.0.0,,,2023-11-29 12:46:30,2023-11-29 12:46:32,"2,228s",PASSED
+"setText(findTestObject(""Страница авторизации/input__password""), findTestData(""PlanFact"").getValue(9, run))",Chrome 119.0.0.0,,,2023-11-29 12:46:32,2023-11-29 12:46:33,"0,705s",PASSED
+"click(findTestObject(""Страница авторизации/button_""))",Chrome 119.0.0.0,,,2023-11-29 12:46:33,2023-11-29 12:46:35,"1,845s",PASSED
+delay(20),Chrome 119.0.0.0,,,2023-11-29 12:46:35,2023-11-29 12:46:55,"20,017s",PASSED
+"a9 = """"",Chrome 119.0.0.0,,,2023-11-29 12:46:55,2023-11-29 12:46:55,"0,000s",PASSED
+"a3 = """"",Chrome 119.0.0.0,,,2023-11-29 12:46:55,2023-11-29 12:46:55,"0,000s",PASSED
+"a6 = """"",Chrome 119.0.0.0,,,2023-11-29 12:46:55,2023-11-29 12:46:55,"0,000s",PASSED
+if (run == 1),Chrome 119.0.0.0,,,2023-11-29 12:46:55,2023-11-29 12:46:55,"0,000s",PASSED
+if (run == 2),Chrome 119.0.0.0,,,2023-11-29 12:46:55,2023-11-29 12:46:57,"2,359s",FAILED
+"sheetName = ""Sheet1""",Chrome 119.0.0.0,,,2023-11-29 12:46:57,2023-11-29 12:46:57,"0,000s",PASSED
+workbook01 = getWorkbook(excelFilePath),Chrome 119.0.0.0,,,2023-11-29 12:46:57,2023-11-29 12:46:57,"0,027s",PASSED
+"sheet01 = getExcelSheet(workbook01, sheetName)",Chrome 119.0.0.0,,,2023-11-29 12:46:57,2023-11-29 12:46:57,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 0, dashboardName)",Chrome 119.0.0.0,,,2023-11-29 12:46:57,2023-11-29 12:46:57,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 10, user)",Chrome 119.0.0.0,,,2023-11-29 12:46:57,2023-11-29 12:46:57,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 1, a1)",Chrome 119.0.0.0,,,2023-11-29 12:46:57,2023-11-29 12:46:57,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 2, a2)",Chrome 119.0.0.0,,,2023-11-29 12:46:57,2023-11-29 12:46:57,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 3, a3)",Chrome 119.0.0.0,,,2023-11-29 12:46:57,2023-11-29 12:46:57,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 4, a4)",Chrome 119.0.0.0,,,2023-11-29 12:46:57,2023-11-29 12:46:57,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 5, a5)",Chrome 119.0.0.0,,,2023-11-29 12:46:57,2023-11-29 12:46:57,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 6, a6)",Chrome 119.0.0.0,,,2023-11-29 12:46:57,2023-11-29 12:46:57,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 7, a7)",Chrome 119.0.0.0,,,2023-11-29 12:46:57,2023-11-29 12:46:57,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 8, a8)",Chrome 119.0.0.0,,,2023-11-29 12:46:57,2023-11-29 12:46:57,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 9, a9)",Chrome 119.0.0.0,,,2023-11-29 12:46:57,2023-11-29 12:46:57,"0,000s",PASSED
+n = n + 1,Chrome 119.0.0.0,,,2023-11-29 12:46:57,2023-11-29 12:46:57,"0,000s",PASSED
+"saveWorkbook(excelFilePath, workbook01)",Chrome 119.0.0.0,,,2023-11-29 12:46:57,2023-11-29 12:46:57,"0,119s",PASSED
+if (run == 3),Chrome 119.0.0.0,,,2023-11-29 12:46:57,2023-11-29 12:46:57,"0,000s",PASSED
+closeBrowser(),Chrome 119.0.0.0,,,2023-11-29 12:46:57,2023-11-29 12:46:58,"0,637s",PASSED
+n = data.getRowNumbers() + 1,Chrome 119.0.0.0,,,2023-11-29 12:46:58,2023-11-29 12:46:58,"0,000s",PASSED
+println(n),Chrome 119.0.0.0,,,2023-11-29 12:46:58,2023-11-29 12:46:58,"0,000s",PASSED
+"dashboardName = ""Объём потерь""",Chrome 119.0.0.0,,,2023-11-29 12:46:58,2023-11-29 12:46:58,"0,000s",PASSED
+"openBrowser("""")",Chrome 119.0.0.0,,,2023-11-29 12:46:58,2023-11-29 12:46:59,"1,123s",PASSED
+"navigateToUrl(findTestData(""PlanFact"").getValue(10, 14))",Chrome 119.0.0.0,,,2023-11-29 12:46:59,2023-11-29 12:47:05,"6,275s",PASSED
+"setText(findTestObject(""Страница авторизации/input__username""), findTestData(""PlanFact"").getValue(8, run))",Chrome 119.0.0.0,,,2023-11-29 12:47:05,2023-11-29 12:47:07,"2,052s",PASSED
+"setText(findTestObject(""Страница авторизации/input__password""), findTestData(""PlanFact"").getValue(9, run))",Chrome 119.0.0.0,,,2023-11-29 12:47:07,2023-11-29 12:47:08,"0,705s",PASSED
+"click(findTestObject(""Страница авторизации/button_""))",Chrome 119.0.0.0,,,2023-11-29 12:47:08,2023-11-29 12:47:13,"4,735s",PASSED
+delay(20),Chrome 119.0.0.0,,,2023-11-29 12:47:13,2023-11-29 12:47:33,"20,006s",PASSED
+"a9 = """"",Chrome 119.0.0.0,,,2023-11-29 12:47:33,2023-11-29 12:47:33,"0,000s",PASSED
+"a3 = """"",Chrome 119.0.0.0,,,2023-11-29 12:47:33,2023-11-29 12:47:33,"0,000s",PASSED
+"a6 = """"",Chrome 119.0.0.0,,,2023-11-29 12:47:33,2023-11-29 12:47:33,"0,000s",PASSED
+if (run == 1),Chrome 119.0.0.0,,,2023-11-29 12:47:33,2023-11-29 12:47:33,"0,000s",PASSED
+if (run == 2),Chrome 119.0.0.0,,,2023-11-29 12:47:33,2023-11-29 12:47:33,"0,000s",PASSED
+if (run == 3),Chrome 119.0.0.0,,,2023-11-29 12:47:33,2023-11-29 12:47:37,"4,224s",FAILED
+"sheetName = ""Sheet1""",Chrome 119.0.0.0,,,2023-11-29 12:47:37,2023-11-29 12:47:37,"0,000s",PASSED
+workbook01 = getWorkbook(excelFilePath),Chrome 119.0.0.0,,,2023-11-29 12:47:37,2023-11-29 12:47:37,"0,030s",PASSED
+"sheet01 = getExcelSheet(workbook01, sheetName)",Chrome 119.0.0.0,,,2023-11-29 12:47:37,2023-11-29 12:47:37,"0,015s",PASSED
+"setValueToCellByIndex(sheet01, n, 0, dashboardName)",Chrome 119.0.0.0,,,2023-11-29 12:47:37,2023-11-29 12:47:37,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 10, user)",Chrome 119.0.0.0,,,2023-11-29 12:47:37,2023-11-29 12:47:37,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 1, a1)",Chrome 119.0.0.0,,,2023-11-29 12:47:37,2023-11-29 12:47:37,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 2, a2)",Chrome 119.0.0.0,,,2023-11-29 12:47:37,2023-11-29 12:47:37,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 3, a3)",Chrome 119.0.0.0,,,2023-11-29 12:47:37,2023-11-29 12:47:37,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 4, a4)",Chrome 119.0.0.0,,,2023-11-29 12:47:37,2023-11-29 12:47:37,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 5, a5)",Chrome 119.0.0.0,,,2023-11-29 12:47:37,2023-11-29 12:47:37,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 6, a6)",Chrome 119.0.0.0,,,2023-11-29 12:47:37,2023-11-29 12:47:37,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 7, a7)",Chrome 119.0.0.0,,,2023-11-29 12:47:37,2023-11-29 12:47:37,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 8, a8)",Chrome 119.0.0.0,,,2023-11-29 12:47:37,2023-11-29 12:47:37,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 9, a9)",Chrome 119.0.0.0,,,2023-11-29 12:47:37,2023-11-29 12:47:37,"0,000s",PASSED
+n = n + 1,Chrome 119.0.0.0,,,2023-11-29 12:47:37,2023-11-29 12:47:37,"0,000s",PASSED
+"saveWorkbook(excelFilePath, workbook01)",Chrome 119.0.0.0,,,2023-11-29 12:47:37,2023-11-29 12:47:37,"0,113s",PASSED
+closeBrowser(),Chrome 119.0.0.0,,,2023-11-29 12:47:37,2023-11-29 12:47:38,"0,613s",PASSED
+"for ([run = 1, run < 4, (run++)])",Chrome 119.0.0.0,,,2023-11-29 12:47:38,2023-11-29 12:47:38,"0,002s",PASSED
+n = data.getRowNumbers() + 1,Chrome 119.0.0.0,,,2023-11-29 12:47:38,2023-11-29 12:47:38,"0,000s",PASSED
+println(n),Chrome 119.0.0.0,,,2023-11-29 12:47:38,2023-11-29 12:47:38,"0,000s",PASSED
+"dashboardName = ""Отпуск из сети""",Chrome 119.0.0.0,,,2023-11-29 12:47:38,2023-11-29 12:47:38,"0,000s",PASSED
+"openBrowser("""")",Chrome 119.0.0.0,,,2023-11-29 12:47:38,2023-11-29 12:47:39,"1,135s",PASSED
+"navigateToUrl(findTestData(""PlanFact"").getValue(10, 15))",Chrome 119.0.0.0,,,2023-11-29 12:47:39,2023-11-29 12:47:45,"6,090s",PASSED
+"setText(findTestObject(""Страница авторизации/input__username""), findTestData(""PlanFact"").getValue(8, run))",Chrome 119.0.0.0,,,2023-11-29 12:47:45,2023-11-29 12:47:47,"2,011s",PASSED
+"setText(findTestObject(""Страница авторизации/input__password""), findTestData(""PlanFact"").getValue(9, run))",Chrome 119.0.0.0,,,2023-11-29 12:47:47,2023-11-29 12:47:48,"0,704s",PASSED
+"click(findTestObject(""Страница авторизации/button_""))",Chrome 119.0.0.0,,,2023-11-29 12:47:48,2023-11-29 12:47:49,"1,483s",PASSED
+delay(20),Chrome 119.0.0.0,,,2023-11-29 12:47:49,2023-11-29 12:48:09,"20,010s",PASSED
+"a6 = """"",Chrome 119.0.0.0,,,2023-11-29 12:48:09,2023-11-29 12:48:09,"0,000s",PASSED
+"a7 = """"",Chrome 119.0.0.0,,,2023-11-29 12:48:09,2023-11-29 12:48:09,"0,000s",PASSED
+"a8 = """"",Chrome 119.0.0.0,,,2023-11-29 12:48:09,2023-11-29 12:48:09,"0,000s",PASSED
+"a9 = """"",Chrome 119.0.0.0,,,2023-11-29 12:48:09,2023-11-29 12:48:09,"0,000s",PASSED
+if (run == 1),Chrome 119.0.0.0,,,2023-11-29 12:48:09,2023-11-29 12:48:53,"43,130s",PASSED
+"sheetName = ""Sheet1""",Chrome 119.0.0.0,,,2023-11-29 12:48:53,2023-11-29 12:48:53,"0,000s",PASSED
+workbook01 = getWorkbook(excelFilePath),Chrome 119.0.0.0,,,2023-11-29 12:48:53,2023-11-29 12:48:53,"0,036s",PASSED
+"sheet01 = getExcelSheet(workbook01, sheetName)",Chrome 119.0.0.0,,,2023-11-29 12:48:53,2023-11-29 12:48:53,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 0, dashboardName)",Chrome 119.0.0.0,,,2023-11-29 12:48:53,2023-11-29 12:48:53,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 10, user)",Chrome 119.0.0.0,,,2023-11-29 12:48:53,2023-11-29 12:48:53,"0,001s",PASSED
+"setValueToCellByIndex(sheet01, n, 1, a1)",Chrome 119.0.0.0,,,2023-11-29 12:48:53,2023-11-29 12:48:53,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 2, a2)",Chrome 119.0.0.0,,,2023-11-29 12:48:53,2023-11-29 12:48:53,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 3, a3)",Chrome 119.0.0.0,,,2023-11-29 12:48:53,2023-11-29 12:48:53,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 4, a4)",Chrome 119.0.0.0,,,2023-11-29 12:48:53,2023-11-29 12:48:53,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 5, a5)",Chrome 119.0.0.0,,,2023-11-29 12:48:53,2023-11-29 12:48:53,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 6, a6)",Chrome 119.0.0.0,,,2023-11-29 12:48:53,2023-11-29 12:48:53,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 7, a7)",Chrome 119.0.0.0,,,2023-11-29 12:48:53,2023-11-29 12:48:53,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 8, a8)",Chrome 119.0.0.0,,,2023-11-29 12:48:53,2023-11-29 12:48:53,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 9, a9)",Chrome 119.0.0.0,,,2023-11-29 12:48:53,2023-11-29 12:48:53,"0,000s",PASSED
+n = n + 1,Chrome 119.0.0.0,,,2023-11-29 12:48:53,2023-11-29 12:48:53,"0,000s",PASSED
+"saveWorkbook(excelFilePath, workbook01)",Chrome 119.0.0.0,,,2023-11-29 12:48:53,2023-11-29 12:48:53,"0,120s",PASSED
+if (run == 2),Chrome 119.0.0.0,,,2023-11-29 12:48:53,2023-11-29 12:48:53,"0,000s",PASSED
+if (run == 3),Chrome 119.0.0.0,,,2023-11-29 12:48:53,2023-11-29 12:48:53,"0,000s",PASSED
+closeBrowser(),Chrome 119.0.0.0,,,2023-11-29 12:48:53,2023-11-29 12:48:53,"0,624s",PASSED
+n = data.getRowNumbers() + 1,Chrome 119.0.0.0,,,2023-11-29 12:48:53,2023-11-29 12:48:53,"0,000s",PASSED
+println(n),Chrome 119.0.0.0,,,2023-11-29 12:48:53,2023-11-29 12:48:53,"0,000s",PASSED
+"dashboardName = ""Отпуск из сети""",Chrome 119.0.0.0,,,2023-11-29 12:48:53,2023-11-29 12:48:53,"0,000s",PASSED
+"openBrowser("""")",Chrome 119.0.0.0,,,2023-11-29 12:48:53,2023-11-29 12:48:54,"1,138s",PASSED
+"navigateToUrl(findTestData(""PlanFact"").getValue(10, 15))",Chrome 119.0.0.0,,,2023-11-29 12:48:54,2023-11-29 12:48:58,"3,513s",PASSED
+"setText(findTestObject(""Страница авторизации/input__username""), findTestData(""PlanFact"").getValue(8, run))",Chrome 119.0.0.0,,,2023-11-29 12:48:58,2023-11-29 12:49:01,"2,575s",PASSED
+"setText(findTestObject(""Страница авторизации/input__password""), findTestData(""PlanFact"").getValue(9, run))",Chrome 119.0.0.0,,,2023-11-29 12:49:01,2023-11-29 12:49:01,"0,698s",PASSED
+"click(findTestObject(""Страница авторизации/button_""))",Chrome 119.0.0.0,,,2023-11-29 12:49:01,2023-11-29 12:49:02,"1,206s",PASSED
+delay(20),Chrome 119.0.0.0,,,2023-11-29 12:49:02,2023-11-29 12:49:22,"20,012s",PASSED
+"a6 = """"",Chrome 119.0.0.0,,,2023-11-29 12:49:22,2023-11-29 12:49:22,"0,000s",PASSED
+"a7 = """"",Chrome 119.0.0.0,,,2023-11-29 12:49:22,2023-11-29 12:49:22,"0,000s",PASSED
+"a8 = """"",Chrome 119.0.0.0,,,2023-11-29 12:49:22,2023-11-29 12:49:22,"0,000s",PASSED
+"a9 = """"",Chrome 119.0.0.0,,,2023-11-29 12:49:22,2023-11-29 12:49:22,"0,000s",PASSED
+if (run == 1),Chrome 119.0.0.0,,,2023-11-29 12:49:22,2023-11-29 12:49:22,"0,000s",PASSED
+if (run == 2),Chrome 119.0.0.0,,,2023-11-29 12:49:22,2023-11-29 12:49:34,"11,308s",FAILED
+"sheetName = ""Sheet1""",Chrome 119.0.0.0,,,2023-11-29 12:49:34,2023-11-29 12:49:34,"0,000s",PASSED
+workbook01 = getWorkbook(excelFilePath),Chrome 119.0.0.0,,,2023-11-29 12:49:34,2023-11-29 12:49:34,"0,026s",PASSED
+"sheet01 = getExcelSheet(workbook01, sheetName)",Chrome 119.0.0.0,,,2023-11-29 12:49:34,2023-11-29 12:49:34,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 0, dashboardName)",Chrome 119.0.0.0,,,2023-11-29 12:49:34,2023-11-29 12:49:34,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 10, user)",Chrome 119.0.0.0,,,2023-11-29 12:49:34,2023-11-29 12:49:34,"0,015s",PASSED
+"setValueToCellByIndex(sheet01, n, 1, a1)",Chrome 119.0.0.0,,,2023-11-29 12:49:34,2023-11-29 12:49:34,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 2, a2)",Chrome 119.0.0.0,,,2023-11-29 12:49:34,2023-11-29 12:49:34,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 3, a3)",Chrome 119.0.0.0,,,2023-11-29 12:49:34,2023-11-29 12:49:34,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 4, a4)",Chrome 119.0.0.0,,,2023-11-29 12:49:34,2023-11-29 12:49:34,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 5, a5)",Chrome 119.0.0.0,,,2023-11-29 12:49:34,2023-11-29 12:49:34,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 6, a6)",Chrome 119.0.0.0,,,2023-11-29 12:49:34,2023-11-29 12:49:34,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 7, a7)",Chrome 119.0.0.0,,,2023-11-29 12:49:34,2023-11-29 12:49:34,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 8, a8)",Chrome 119.0.0.0,,,2023-11-29 12:49:34,2023-11-29 12:49:34,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 9, a9)",Chrome 119.0.0.0,,,2023-11-29 12:49:34,2023-11-29 12:49:34,"0,002s",PASSED
+n = n + 1,Chrome 119.0.0.0,,,2023-11-29 12:49:34,2023-11-29 12:49:34,"0,000s",PASSED
+"saveWorkbook(excelFilePath, workbook01)",Chrome 119.0.0.0,,,2023-11-29 12:49:34,2023-11-29 12:49:34,"0,107s",PASSED
+if (run == 3),Chrome 119.0.0.0,,,2023-11-29 12:49:34,2023-11-29 12:49:34,"0,000s",PASSED
+closeBrowser(),Chrome 119.0.0.0,,,2023-11-29 12:49:34,2023-11-29 12:49:35,"0,613s",PASSED
+n = data.getRowNumbers() + 1,Chrome 119.0.0.0,,,2023-11-29 12:49:35,2023-11-29 12:49:35,"0,001s",PASSED
+println(n),Chrome 119.0.0.0,,,2023-11-29 12:49:35,2023-11-29 12:49:35,"0,000s",PASSED
+"dashboardName = ""Отпуск из сети""",Chrome 119.0.0.0,,,2023-11-29 12:49:35,2023-11-29 12:49:35,"0,000s",PASSED
+"openBrowser("""")",Chrome 119.0.0.0,,,2023-11-29 12:49:35,2023-11-29 12:49:36,"1,111s",PASSED
+"navigateToUrl(findTestData(""PlanFact"").getValue(10, 15))",Chrome 119.0.0.0,,,2023-11-29 12:49:36,2023-11-29 12:49:44,"8,476s",PASSED
+"setText(findTestObject(""Страница авторизации/input__username""), findTestData(""PlanFact"").getValue(8, run))",Chrome 119.0.0.0,,,2023-11-29 12:49:44,2023-11-29 12:49:46,"1,972s",PASSED
+"setText(findTestObject(""Страница авторизации/input__password""), findTestData(""PlanFact"").getValue(9, run))",Chrome 119.0.0.0,,,2023-11-29 12:49:46,2023-11-29 12:49:47,"0,699s",PASSED
+"click(findTestObject(""Страница авторизации/button_""))",Chrome 119.0.0.0,,,2023-11-29 12:49:47,2023-11-29 12:49:48,"1,400s",PASSED
+delay(20),Chrome 119.0.0.0,,,2023-11-29 12:49:48,2023-11-29 12:50:08,"20,013s",PASSED
+"a6 = """"",Chrome 119.0.0.0,,,2023-11-29 12:50:08,2023-11-29 12:50:08,"0,000s",PASSED
+"a7 = """"",Chrome 119.0.0.0,,,2023-11-29 12:50:08,2023-11-29 12:50:08,"0,001s",PASSED
+"a8 = """"",Chrome 119.0.0.0,,,2023-11-29 12:50:08,2023-11-29 12:50:08,"0,000s",PASSED
+"a9 = """"",Chrome 119.0.0.0,,,2023-11-29 12:50:08,2023-11-29 12:50:08,"0,000s",PASSED
+if (run == 1),Chrome 119.0.0.0,,,2023-11-29 12:50:08,2023-11-29 12:50:08,"0,000s",PASSED
+if (run == 2),Chrome 119.0.0.0,,,2023-11-29 12:50:08,2023-11-29 12:50:08,"0,000s",PASSED
+if (run == 3),Chrome 119.0.0.0,,,2023-11-29 12:50:08,2023-11-29 12:50:11,"3,194s",FAILED
+"sheetName = ""Sheet1""",Chrome 119.0.0.0,,,2023-11-29 12:50:11,2023-11-29 12:50:11,"0,000s",PASSED
+workbook01 = getWorkbook(excelFilePath),Chrome 119.0.0.0,,,2023-11-29 12:50:11,2023-11-29 12:50:11,"0,027s",PASSED
+"sheet01 = getExcelSheet(workbook01, sheetName)",Chrome 119.0.0.0,,,2023-11-29 12:50:11,2023-11-29 12:50:11,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 0, dashboardName)",Chrome 119.0.0.0,,,2023-11-29 12:50:11,2023-11-29 12:50:11,"0,014s",PASSED
+"setValueToCellByIndex(sheet01, n, 10, user)",Chrome 119.0.0.0,,,2023-11-29 12:50:11,2023-11-29 12:50:11,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 1, a1)",Chrome 119.0.0.0,,,2023-11-29 12:50:11,2023-11-29 12:50:11,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 2, a2)",Chrome 119.0.0.0,,,2023-11-29 12:50:11,2023-11-29 12:50:11,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 3, a3)",Chrome 119.0.0.0,,,2023-11-29 12:50:11,2023-11-29 12:50:11,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 4, a4)",Chrome 119.0.0.0,,,2023-11-29 12:50:11,2023-11-29 12:50:11,"0,001s",PASSED
+"setValueToCellByIndex(sheet01, n, 5, a5)",Chrome 119.0.0.0,,,2023-11-29 12:50:11,2023-11-29 12:50:11,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 6, a6)",Chrome 119.0.0.0,,,2023-11-29 12:50:11,2023-11-29 12:50:11,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 7, a7)",Chrome 119.0.0.0,,,2023-11-29 12:50:11,2023-11-29 12:50:11,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 8, a8)",Chrome 119.0.0.0,,,2023-11-29 12:50:11,2023-11-29 12:50:11,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 9, a9)",Chrome 119.0.0.0,,,2023-11-29 12:50:11,2023-11-29 12:50:11,"0,000s",PASSED
+n = n + 1,Chrome 119.0.0.0,,,2023-11-29 12:50:11,2023-11-29 12:50:11,"0,000s",PASSED
+"saveWorkbook(excelFilePath, workbook01)",Chrome 119.0.0.0,,,2023-11-29 12:50:11,2023-11-29 12:50:12,"0,105s",PASSED
+closeBrowser(),Chrome 119.0.0.0,,,2023-11-29 12:50:12,2023-11-29 12:50:12,"0,645s",PASSED
+"for ([run = 1, run < 4, (run++)])",Chrome 119.0.0.0,,,2023-11-29 12:50:12,2023-11-29 12:50:12,"0,000s",PASSED
+n = data.getRowNumbers() + 1,Chrome 119.0.0.0,,,2023-11-29 12:50:12,2023-11-29 12:50:12,"0,001s",PASSED
+println(n),Chrome 119.0.0.0,,,2023-11-29 12:50:12,2023-11-29 12:50:12,"0,000s",PASSED
+"dashboardName = ""Отпуск в сеть""",Chrome 119.0.0.0,,,2023-11-29 12:50:12,2023-11-29 12:50:12,"0,000s",PASSED
+"openBrowser("""")",Chrome 119.0.0.0,,,2023-11-29 12:50:12,2023-11-29 12:50:13,"1,130s",PASSED
+"navigateToUrl(findTestData(""PlanFact"").getValue(10, 16))",Chrome 119.0.0.0,,,2023-11-29 12:50:13,2023-11-29 12:50:19,"5,396s",PASSED
+"setText(findTestObject(""Страница авторизации/input__username""), findTestData(""PlanFact"").getValue(8, run))",Chrome 119.0.0.0,,,2023-11-29 12:50:19,2023-11-29 12:50:21,"1,868s",PASSED
+"setText(findTestObject(""Страница авторизации/input__password""), findTestData(""PlanFact"").getValue(9, run))",Chrome 119.0.0.0,,,2023-11-29 12:50:21,2023-11-29 12:50:21,"0,699s",PASSED
+"click(findTestObject(""Страница авторизации/button_""))",Chrome 119.0.0.0,,,2023-11-29 12:50:21,2023-11-29 12:50:23,"1,354s",PASSED
+delay(20),Chrome 119.0.0.0,,,2023-11-29 12:50:23,2023-11-29 12:50:43,"20,010s",PASSED
+"a5 = """"",Chrome 119.0.0.0,,,2023-11-29 12:50:43,2023-11-29 12:50:43,"0,001s",PASSED
+"a6 = """"",Chrome 119.0.0.0,,,2023-11-29 12:50:43,2023-11-29 12:50:43,"0,000s",PASSED
+"a7 = """"",Chrome 119.0.0.0,,,2023-11-29 12:50:43,2023-11-29 12:50:43,"0,000s",PASSED
+"a8 = """"",Chrome 119.0.0.0,,,2023-11-29 12:50:43,2023-11-29 12:50:43,"0,000s",PASSED
+"a9 = """"",Chrome 119.0.0.0,,,2023-11-29 12:50:43,2023-11-29 12:50:43,"0,000s",PASSED
+if (run == 1),Chrome 119.0.0.0,,,2023-11-29 12:50:43,2023-11-29 12:51:27,"44,596s",PASSED
+"sheetName = ""Sheet1""",Chrome 119.0.0.0,,,2023-11-29 12:51:27,2023-11-29 12:51:27,"0,000s",PASSED
+workbook01 = getWorkbook(excelFilePath),Chrome 119.0.0.0,,,2023-11-29 12:51:27,2023-11-29 12:51:27,"0,044s",PASSED
+"sheet01 = getExcelSheet(workbook01, sheetName)",Chrome 119.0.0.0,,,2023-11-29 12:51:27,2023-11-29 12:51:27,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 0, dashboardName)",Chrome 119.0.0.0,,,2023-11-29 12:51:27,2023-11-29 12:51:27,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 10, user)",Chrome 119.0.0.0,,,2023-11-29 12:51:27,2023-11-29 12:51:27,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 1, a1)",Chrome 119.0.0.0,,,2023-11-29 12:51:27,2023-11-29 12:51:27,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 2, a2)",Chrome 119.0.0.0,,,2023-11-29 12:51:27,2023-11-29 12:51:27,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 3, a3)",Chrome 119.0.0.0,,,2023-11-29 12:51:27,2023-11-29 12:51:27,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 4, a4)",Chrome 119.0.0.0,,,2023-11-29 12:51:27,2023-11-29 12:51:27,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 5, a5)",Chrome 119.0.0.0,,,2023-11-29 12:51:27,2023-11-29 12:51:27,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 6, a6)",Chrome 119.0.0.0,,,2023-11-29 12:51:27,2023-11-29 12:51:27,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 7, a7)",Chrome 119.0.0.0,,,2023-11-29 12:51:27,2023-11-29 12:51:27,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 8, a8)",Chrome 119.0.0.0,,,2023-11-29 12:51:27,2023-11-29 12:51:27,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 9, a9)",Chrome 119.0.0.0,,,2023-11-29 12:51:27,2023-11-29 12:51:27,"0,000s",PASSED
+n = n + 1,Chrome 119.0.0.0,,,2023-11-29 12:51:27,2023-11-29 12:51:27,"0,000s",PASSED
+"saveWorkbook(excelFilePath, workbook01)",Chrome 119.0.0.0,,,2023-11-29 12:51:27,2023-11-29 12:51:27,"0,113s",PASSED
+if (run == 2),Chrome 119.0.0.0,,,2023-11-29 12:51:27,2023-11-29 12:51:27,"0,001s",PASSED
+if (run == 3),Chrome 119.0.0.0,,,2023-11-29 12:51:27,2023-11-29 12:51:27,"0,000s",PASSED
+closeBrowser(),Chrome 119.0.0.0,,,2023-11-29 12:51:27,2023-11-29 12:51:28,"0,644s",PASSED
+n = data.getRowNumbers() + 1,Chrome 119.0.0.0,,,2023-11-29 12:51:28,2023-11-29 12:51:28,"0,000s",PASSED
+println(n),Chrome 119.0.0.0,,,2023-11-29 12:51:28,2023-11-29 12:51:28,"0,000s",PASSED
+"dashboardName = ""Отпуск в сеть""",Chrome 119.0.0.0,,,2023-11-29 12:51:28,2023-11-29 12:51:28,"0,000s",PASSED
+"openBrowser("""")",Chrome 119.0.0.0,,,2023-11-29 12:51:28,2023-11-29 12:51:29,"1,128s",PASSED
+"navigateToUrl(findTestData(""PlanFact"").getValue(10, 16))",Chrome 119.0.0.0,,,2023-11-29 12:51:29,2023-11-29 12:51:37,"7,383s",PASSED
+"setText(findTestObject(""Страница авторизации/input__username""), findTestData(""PlanFact"").getValue(8, run))",Chrome 119.0.0.0,,,2023-11-29 12:51:37,2023-11-29 12:51:39,"2,088s",PASSED
+"setText(findTestObject(""Страница авторизации/input__password""), findTestData(""PlanFact"").getValue(9, run))",Chrome 119.0.0.0,,,2023-11-29 12:51:39,2023-11-29 12:51:39,"0,709s",PASSED
+"click(findTestObject(""Страница авторизации/button_""))",Chrome 119.0.0.0,,,2023-11-29 12:51:39,2023-11-29 12:51:41,"1,467s",PASSED
+delay(20),Chrome 119.0.0.0,,,2023-11-29 12:51:41,2023-11-29 12:52:01,"20,004s",PASSED
+"a5 = """"",Chrome 119.0.0.0,,,2023-11-29 12:52:01,2023-11-29 12:52:01,"0,000s",PASSED
+"a6 = """"",Chrome 119.0.0.0,,,2023-11-29 12:52:01,2023-11-29 12:52:01,"0,000s",PASSED
+"a7 = """"",Chrome 119.0.0.0,,,2023-11-29 12:52:01,2023-11-29 12:52:01,"0,001s",PASSED
+"a8 = """"",Chrome 119.0.0.0,,,2023-11-29 12:52:01,2023-11-29 12:52:01,"0,000s",PASSED
+"a9 = """"",Chrome 119.0.0.0,,,2023-11-29 12:52:01,2023-11-29 12:52:01,"0,000s",PASSED
+if (run == 1),Chrome 119.0.0.0,,,2023-11-29 12:52:01,2023-11-29 12:52:01,"0,000s",PASSED
+if (run == 2),Chrome 119.0.0.0,,,2023-11-29 12:52:01,2023-11-29 12:52:02,"1,510s",PASSED
+"sheetName = ""Sheet1""",Chrome 119.0.0.0,,,2023-11-29 12:52:02,2023-11-29 12:52:02,"0,000s",PASSED
+workbook01 = getWorkbook(excelFilePath),Chrome 119.0.0.0,,,2023-11-29 12:52:02,2023-11-29 12:52:02,"0,038s",PASSED
+"sheet01 = getExcelSheet(workbook01, sheetName)",Chrome 119.0.0.0,,,2023-11-29 12:52:02,2023-11-29 12:52:02,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 0, dashboardName)",Chrome 119.0.0.0,,,2023-11-29 12:52:02,2023-11-29 12:52:02,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 10, user)",Chrome 119.0.0.0,,,2023-11-29 12:52:02,2023-11-29 12:52:02,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 1, a1)",Chrome 119.0.0.0,,,2023-11-29 12:52:02,2023-11-29 12:52:02,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 2, a2)",Chrome 119.0.0.0,,,2023-11-29 12:52:02,2023-11-29 12:52:02,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 3, a3)",Chrome 119.0.0.0,,,2023-11-29 12:52:02,2023-11-29 12:52:02,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 4, a4)",Chrome 119.0.0.0,,,2023-11-29 12:52:02,2023-11-29 12:52:02,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 5, a5)",Chrome 119.0.0.0,,,2023-11-29 12:52:02,2023-11-29 12:52:02,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 6, a6)",Chrome 119.0.0.0,,,2023-11-29 12:52:02,2023-11-29 12:52:02,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 7, a7)",Chrome 119.0.0.0,,,2023-11-29 12:52:02,2023-11-29 12:52:02,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 8, a8)",Chrome 119.0.0.0,,,2023-11-29 12:52:02,2023-11-29 12:52:02,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 9, a9)",Chrome 119.0.0.0,,,2023-11-29 12:52:02,2023-11-29 12:52:02,"0,000s",PASSED
+n = n + 1,Chrome 119.0.0.0,,,2023-11-29 12:52:02,2023-11-29 12:52:02,"0,000s",PASSED
+"saveWorkbook(excelFilePath, workbook01)",Chrome 119.0.0.0,,,2023-11-29 12:52:02,2023-11-29 12:52:02,"0,115s",PASSED
+if (run == 3),Chrome 119.0.0.0,,,2023-11-29 12:52:02,2023-11-29 12:52:02,"0,000s",PASSED
+closeBrowser(),Chrome 119.0.0.0,,,2023-11-29 12:52:02,2023-11-29 12:52:03,"0,637s",PASSED
+n = data.getRowNumbers() + 1,Chrome 119.0.0.0,,,2023-11-29 12:52:03,2023-11-29 12:52:03,"0,000s",PASSED
+println(n),Chrome 119.0.0.0,,,2023-11-29 12:52:03,2023-11-29 12:52:03,"0,000s",PASSED
+"dashboardName = ""Отпуск в сеть""",Chrome 119.0.0.0,,,2023-11-29 12:52:03,2023-11-29 12:52:03,"0,000s",PASSED
+"openBrowser("""")",Chrome 119.0.0.0,,,2023-11-29 12:52:03,2023-11-29 12:52:04,"1,126s",PASSED
+"navigateToUrl(findTestData(""PlanFact"").getValue(10, 16))",Chrome 119.0.0.0,,,2023-11-29 12:52:04,2023-11-29 12:52:10,"6,006s",PASSED
+"setText(findTestObject(""Страница авторизации/input__username""), findTestData(""PlanFact"").getValue(8, run))",Chrome 119.0.0.0,,,2023-11-29 12:52:10,2023-11-29 12:52:12,"2,041s",PASSED
+"setText(findTestObject(""Страница авторизации/input__password""), findTestData(""PlanFact"").getValue(9, run))",Chrome 119.0.0.0,,,2023-11-29 12:52:12,2023-11-29 12:52:13,"0,701s",PASSED
+"click(findTestObject(""Страница авторизации/button_""))",Chrome 119.0.0.0,,,2023-11-29 12:52:13,2023-11-29 12:52:14,"1,410s",PASSED
+delay(20),Chrome 119.0.0.0,,,2023-11-29 12:52:14,2023-11-29 12:52:34,"20,003s",PASSED
+"a5 = """"",Chrome 119.0.0.0,,,2023-11-29 12:52:34,2023-11-29 12:52:34,"0,000s",PASSED
+"a6 = """"",Chrome 119.0.0.0,,,2023-11-29 12:52:34,2023-11-29 12:52:34,"0,000s",PASSED
+"a7 = """"",Chrome 119.0.0.0,,,2023-11-29 12:52:34,2023-11-29 12:52:34,"0,001s",PASSED
+"a8 = """"",Chrome 119.0.0.0,,,2023-11-29 12:52:34,2023-11-29 12:52:34,"0,000s",PASSED
+"a9 = """"",Chrome 119.0.0.0,,,2023-11-29 12:52:34,2023-11-29 12:52:34,"0,000s",PASSED
+if (run == 1),Chrome 119.0.0.0,,,2023-11-29 12:52:34,2023-11-29 12:52:34,"0,000s",PASSED
+if (run == 2),Chrome 119.0.0.0,,,2023-11-29 12:52:34,2023-11-29 12:52:34,"0,001s",PASSED
+if (run == 3),Chrome 119.0.0.0,,,2023-11-29 12:52:34,2023-11-29 12:52:36,"1,507s",PASSED
+"sheetName = ""Sheet1""",Chrome 119.0.0.0,,,2023-11-29 12:52:36,2023-11-29 12:52:36,"0,000s",PASSED
+workbook01 = getWorkbook(excelFilePath),Chrome 119.0.0.0,,,2023-11-29 12:52:36,2023-11-29 12:52:36,"0,038s",PASSED
+"sheet01 = getExcelSheet(workbook01, sheetName)",Chrome 119.0.0.0,,,2023-11-29 12:52:36,2023-11-29 12:52:36,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 0, dashboardName)",Chrome 119.0.0.0,,,2023-11-29 12:52:36,2023-11-29 12:52:36,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 10, user)",Chrome 119.0.0.0,,,2023-11-29 12:52:36,2023-11-29 12:52:36,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 1, a1)",Chrome 119.0.0.0,,,2023-11-29 12:52:36,2023-11-29 12:52:36,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 2, a2)",Chrome 119.0.0.0,,,2023-11-29 12:52:36,2023-11-29 12:52:36,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 3, a3)",Chrome 119.0.0.0,,,2023-11-29 12:52:36,2023-11-29 12:52:36,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 4, a4)",Chrome 119.0.0.0,,,2023-11-29 12:52:36,2023-11-29 12:52:36,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 5, a5)",Chrome 119.0.0.0,,,2023-11-29 12:52:36,2023-11-29 12:52:36,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 6, a6)",Chrome 119.0.0.0,,,2023-11-29 12:52:36,2023-11-29 12:52:36,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 7, a7)",Chrome 119.0.0.0,,,2023-11-29 12:52:36,2023-11-29 12:52:36,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 8, a8)",Chrome 119.0.0.0,,,2023-11-29 12:52:36,2023-11-29 12:52:36,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 9, a9)",Chrome 119.0.0.0,,,2023-11-29 12:52:36,2023-11-29 12:52:36,"0,000s",PASSED
+n = n + 1,Chrome 119.0.0.0,,,2023-11-29 12:52:36,2023-11-29 12:52:36,"0,000s",PASSED
+"saveWorkbook(excelFilePath, workbook01)",Chrome 119.0.0.0,,,2023-11-29 12:52:36,2023-11-29 12:52:36,"0,099s",PASSED
+closeBrowser(),Chrome 119.0.0.0,,,2023-11-29 12:52:36,2023-11-29 12:52:37,"0,639s",PASSED
+"for ([run = 1, run < 4, (run++)])",Chrome 119.0.0.0,,,2023-11-29 12:52:37,2023-11-29 12:52:37,"0,001s",PASSED
+n = data.getRowNumbers() + 1,Chrome 119.0.0.0,,,2023-11-29 12:52:37,2023-11-29 12:52:37,"0,001s",PASSED
+println(n),Chrome 119.0.0.0,,,2023-11-29 12:52:37,2023-11-29 12:52:37,"0,000s",PASSED
+"dashboardName = ""Котловой полезный отпуск""",Chrome 119.0.0.0,,,2023-11-29 12:52:37,2023-11-29 12:52:37,"0,000s",PASSED
+"openBrowser("""")",Chrome 119.0.0.0,,,2023-11-29 12:52:37,2023-11-29 12:52:38,"1,124s",PASSED
+"navigateToUrl(findTestData(""PlanFact"").getValue(10, 18))",Chrome 119.0.0.0,,,2023-11-29 12:52:38,2023-11-29 12:52:43,"5,233s",PASSED
+"setText(findTestObject(""Страница авторизации/input__username""), findTestData(""PlanFact"").getValue(8, run))",Chrome 119.0.0.0,,,2023-11-29 12:52:43,2023-11-29 12:52:45,"1,913s",PASSED
+"setText(findTestObject(""Страница авторизации/input__password""), findTestData(""PlanFact"").getValue(9, run))",Chrome 119.0.0.0,,,2023-11-29 12:52:45,2023-11-29 12:52:46,"0,702s",PASSED
+"click(findTestObject(""Страница авторизации/button_""))",Chrome 119.0.0.0,,,2023-11-29 12:52:46,2023-11-29 12:52:47,"1,356s",PASSED
+delay(20),Chrome 119.0.0.0,,,2023-11-29 12:52:47,2023-11-29 12:53:07,"20,011s",PASSED
+"a2 = """"",Chrome 119.0.0.0,,,2023-11-29 12:53:07,2023-11-29 12:53:07,"0,000s",PASSED
+"a3 = """"",Chrome 119.0.0.0,,,2023-11-29 12:53:07,2023-11-29 12:53:07,"0,001s",PASSED
+"a4 = """"",Chrome 119.0.0.0,,,2023-11-29 12:53:07,2023-11-29 12:53:07,"0,000s",PASSED
+"a5 = """"",Chrome 119.0.0.0,,,2023-11-29 12:53:07,2023-11-29 12:53:07,"0,000s",PASSED
+"a6 = """"",Chrome 119.0.0.0,,,2023-11-29 12:53:07,2023-11-29 12:53:07,"0,000s",PASSED
+"a7 = """"",Chrome 119.0.0.0,,,2023-11-29 12:53:07,2023-11-29 12:53:07,"0,000s",PASSED
+"a8 = """"",Chrome 119.0.0.0,,,2023-11-29 12:53:07,2023-11-29 12:53:07,"0,000s",PASSED
+"a9 = """"",Chrome 119.0.0.0,,,2023-11-29 12:53:07,2023-11-29 12:53:07,"0,000s",PASSED
+if (run == 1),Chrome 119.0.0.0,,,2023-11-29 12:53:07,2023-11-29 12:53:08,"0,772s",PASSED
+"sheetName = ""Sheet1""",Chrome 119.0.0.0,,,2023-11-29 12:53:08,2023-11-29 12:53:08,"0,000s",PASSED
+workbook01 = getWorkbook(excelFilePath),Chrome 119.0.0.0,,,2023-11-29 12:53:08,2023-11-29 12:53:08,"0,037s",PASSED
+"sheet01 = getExcelSheet(workbook01, sheetName)",Chrome 119.0.0.0,,,2023-11-29 12:53:08,2023-11-29 12:53:08,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 0, dashboardName)",Chrome 119.0.0.0,,,2023-11-29 12:53:08,2023-11-29 12:53:08,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 10, user)",Chrome 119.0.0.0,,,2023-11-29 12:53:08,2023-11-29 12:53:08,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 1, a1)",Chrome 119.0.0.0,,,2023-11-29 12:53:08,2023-11-29 12:53:08,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 2, a2)",Chrome 119.0.0.0,,,2023-11-29 12:53:08,2023-11-29 12:53:08,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 3, a3)",Chrome 119.0.0.0,,,2023-11-29 12:53:08,2023-11-29 12:53:08,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 4, a4)",Chrome 119.0.0.0,,,2023-11-29 12:53:08,2023-11-29 12:53:08,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 5, a5)",Chrome 119.0.0.0,,,2023-11-29 12:53:08,2023-11-29 12:53:08,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 6, a6)",Chrome 119.0.0.0,,,2023-11-29 12:53:08,2023-11-29 12:53:08,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 7, a7)",Chrome 119.0.0.0,,,2023-11-29 12:53:08,2023-11-29 12:53:08,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 8, a8)",Chrome 119.0.0.0,,,2023-11-29 12:53:08,2023-11-29 12:53:08,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 9, a9)",Chrome 119.0.0.0,,,2023-11-29 12:53:08,2023-11-29 12:53:08,"0,000s",PASSED
+n = n + 1,Chrome 119.0.0.0,,,2023-11-29 12:53:08,2023-11-29 12:53:08,"0,000s",PASSED
+"saveWorkbook(excelFilePath, workbook01)",Chrome 119.0.0.0,,,2023-11-29 12:53:08,2023-11-29 12:53:08,"0,125s",PASSED
+if (run == 2),Chrome 119.0.0.0,,,2023-11-29 12:53:08,2023-11-29 12:53:08,"0,000s",PASSED
+if (run == 3),Chrome 119.0.0.0,,,2023-11-29 12:53:08,2023-11-29 12:53:08,"0,000s",PASSED
+closeBrowser(),Chrome 119.0.0.0,,,2023-11-29 12:53:08,2023-11-29 12:53:09,"0,652s",PASSED
+n = data.getRowNumbers() + 1,Chrome 119.0.0.0,,,2023-11-29 12:53:09,2023-11-29 12:53:09,"0,000s",PASSED
+println(n),Chrome 119.0.0.0,,,2023-11-29 12:53:09,2023-11-29 12:53:09,"0,000s",PASSED
+"dashboardName = ""Котловой полезный отпуск""",Chrome 119.0.0.0,,,2023-11-29 12:53:09,2023-11-29 12:53:09,"0,000s",PASSED
+"openBrowser("""")",Chrome 119.0.0.0,,,2023-11-29 12:53:09,2023-11-29 12:53:10,"1,115s",PASSED
+"navigateToUrl(findTestData(""PlanFact"").getValue(10, 18))",Chrome 119.0.0.0,,,2023-11-29 12:53:10,2023-11-29 12:53:29,"19,465s",PASSED
+"setText(findTestObject(""Страница авторизации/input__username""), findTestData(""PlanFact"").getValue(8, run))",Chrome 119.0.0.0,,,2023-11-29 12:53:29,2023-11-29 12:53:37,"7,651s",PASSED
+"setText(findTestObject(""Страница авторизации/input__password""), findTestData(""PlanFact"").getValue(9, run))",Chrome 119.0.0.0,,,2023-11-29 12:53:37,2023-11-29 12:53:38,"0,696s",PASSED
+"click(findTestObject(""Страница авторизации/button_""))",Chrome 119.0.0.0,,,2023-11-29 12:53:38,2023-11-29 12:53:42,"4,830s",PASSED
+delay(20),Chrome 119.0.0.0,,,2023-11-29 12:53:42,2023-11-29 12:54:02,"20,006s",PASSED
+"a2 = """"",Chrome 119.0.0.0,,,2023-11-29 12:54:02,2023-11-29 12:54:02,"0,000s",PASSED
+"a3 = """"",Chrome 119.0.0.0,,,2023-11-29 12:54:02,2023-11-29 12:54:02,"0,000s",PASSED
+"a4 = """"",Chrome 119.0.0.0,,,2023-11-29 12:54:02,2023-11-29 12:54:02,"0,001s",PASSED
+"a5 = """"",Chrome 119.0.0.0,,,2023-11-29 12:54:02,2023-11-29 12:54:02,"0,000s",PASSED
+"a6 = """"",Chrome 119.0.0.0,,,2023-11-29 12:54:02,2023-11-29 12:54:02,"0,000s",PASSED
+"a7 = """"",Chrome 119.0.0.0,,,2023-11-29 12:54:02,2023-11-29 12:54:02,"0,000s",PASSED
+"a8 = """"",Chrome 119.0.0.0,,,2023-11-29 12:54:02,2023-11-29 12:54:02,"0,000s",PASSED
+"a9 = """"",Chrome 119.0.0.0,,,2023-11-29 12:54:02,2023-11-29 12:54:02,"0,000s",PASSED
+if (run == 1),Chrome 119.0.0.0,,,2023-11-29 12:54:02,2023-11-29 12:54:02,"0,000s",PASSED
+if (run == 2),Chrome 119.0.0.0,,,2023-11-29 12:54:02,2023-11-29 12:54:03,"0,808s",PASSED
+"sheetName = ""Sheet1""",Chrome 119.0.0.0,,,2023-11-29 12:54:03,2023-11-29 12:54:03,"0,000s",PASSED
+workbook01 = getWorkbook(excelFilePath),Chrome 119.0.0.0,,,2023-11-29 12:54:03,2023-11-29 12:54:03,"0,045s",PASSED
+"sheet01 = getExcelSheet(workbook01, sheetName)",Chrome 119.0.0.0,,,2023-11-29 12:54:03,2023-11-29 12:54:03,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 0, dashboardName)",Chrome 119.0.0.0,,,2023-11-29 12:54:03,2023-11-29 12:54:03,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 10, user)",Chrome 119.0.0.0,,,2023-11-29 12:54:03,2023-11-29 12:54:03,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 1, a1)",Chrome 119.0.0.0,,,2023-11-29 12:54:03,2023-11-29 12:54:03,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 2, a2)",Chrome 119.0.0.0,,,2023-11-29 12:54:03,2023-11-29 12:54:03,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 3, a3)",Chrome 119.0.0.0,,,2023-11-29 12:54:03,2023-11-29 12:54:03,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 4, a4)",Chrome 119.0.0.0,,,2023-11-29 12:54:03,2023-11-29 12:54:03,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 5, a5)",Chrome 119.0.0.0,,,2023-11-29 12:54:03,2023-11-29 12:54:03,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 6, a6)",Chrome 119.0.0.0,,,2023-11-29 12:54:03,2023-11-29 12:54:03,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 7, a7)",Chrome 119.0.0.0,,,2023-11-29 12:54:03,2023-11-29 12:54:03,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 8, a8)",Chrome 119.0.0.0,,,2023-11-29 12:54:03,2023-11-29 12:54:03,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 9, a9)",Chrome 119.0.0.0,,,2023-11-29 12:54:03,2023-11-29 12:54:03,"0,000s",PASSED
+n = n + 1,Chrome 119.0.0.0,,,2023-11-29 12:54:03,2023-11-29 12:54:03,"0,000s",PASSED
+"saveWorkbook(excelFilePath, workbook01)",Chrome 119.0.0.0,,,2023-11-29 12:54:03,2023-11-29 12:54:03,"0,123s",PASSED
+if (run == 3),Chrome 119.0.0.0,,,2023-11-29 12:54:03,2023-11-29 12:54:03,"0,000s",PASSED
+closeBrowser(),Chrome 119.0.0.0,,,2023-11-29 12:54:03,2023-11-29 12:54:04,"0,617s",PASSED
+n = data.getRowNumbers() + 1,Chrome 119.0.0.0,,,2023-11-29 12:54:04,2023-11-29 12:54:04,"0,000s",PASSED
+println(n),Chrome 119.0.0.0,,,2023-11-29 12:54:04,2023-11-29 12:54:04,"0,000s",PASSED
+"dashboardName = ""Котловой полезный отпуск""",Chrome 119.0.0.0,,,2023-11-29 12:54:04,2023-11-29 12:54:04,"0,000s",PASSED
+"openBrowser("""")",Chrome 119.0.0.0,,,2023-11-29 12:54:04,2023-11-29 12:54:05,"1,138s",PASSED
+"navigateToUrl(findTestData(""PlanFact"").getValue(10, 18))",Chrome 119.0.0.0,,,2023-11-29 12:54:05,2023-11-29 12:54:10,"4,419s",PASSED
+"setText(findTestObject(""Страница авторизации/input__username""), findTestData(""PlanFact"").getValue(8, run))",Chrome 119.0.0.0,,,2023-11-29 12:54:10,2023-11-29 12:54:11,"1,741s",PASSED
+"setText(findTestObject(""Страница авторизации/input__password""), findTestData(""PlanFact"").getValue(9, run))",Chrome 119.0.0.0,,,2023-11-29 12:54:11,2023-11-29 12:54:12,"0,688s",PASSED
+"click(findTestObject(""Страница авторизации/button_""))",Chrome 119.0.0.0,,,2023-11-29 12:54:12,2023-11-29 12:54:13,"1,205s",PASSED
+delay(20),Chrome 119.0.0.0,,,2023-11-29 12:54:13,2023-11-29 12:54:33,"20,005s",PASSED
+"a2 = """"",Chrome 119.0.0.0,,,2023-11-29 12:54:33,2023-11-29 12:54:33,"0,000s",PASSED
+"a3 = """"",Chrome 119.0.0.0,,,2023-11-29 12:54:33,2023-11-29 12:54:33,"0,000s",PASSED
+"a4 = """"",Chrome 119.0.0.0,,,2023-11-29 12:54:33,2023-11-29 12:54:33,"0,001s",PASSED
+"a5 = """"",Chrome 119.0.0.0,,,2023-11-29 12:54:33,2023-11-29 12:54:33,"0,000s",PASSED
+"a6 = """"",Chrome 119.0.0.0,,,2023-11-29 12:54:33,2023-11-29 12:54:33,"0,000s",PASSED
+"a7 = """"",Chrome 119.0.0.0,,,2023-11-29 12:54:33,2023-11-29 12:54:33,"0,000s",PASSED
+"a8 = """"",Chrome 119.0.0.0,,,2023-11-29 12:54:33,2023-11-29 12:54:33,"0,000s",PASSED
+"a9 = """"",Chrome 119.0.0.0,,,2023-11-29 12:54:33,2023-11-29 12:54:33,"0,001s",PASSED
+if (run == 1),Chrome 119.0.0.0,,,2023-11-29 12:54:33,2023-11-29 12:54:33,"0,000s",PASSED
+if (run == 2),Chrome 119.0.0.0,,,2023-11-29 12:54:33,2023-11-29 12:54:33,"0,000s",PASSED
+if (run == 3),Chrome 119.0.0.0,,,2023-11-29 12:54:33,2023-11-29 12:54:34,"0,825s",PASSED
+"sheetName = ""Sheet1""",Chrome 119.0.0.0,,,2023-11-29 12:54:34,2023-11-29 12:54:34,"0,000s",PASSED
+workbook01 = getWorkbook(excelFilePath),Chrome 119.0.0.0,,,2023-11-29 12:54:34,2023-11-29 12:54:34,"0,041s",PASSED
+"sheet01 = getExcelSheet(workbook01, sheetName)",Chrome 119.0.0.0,,,2023-11-29 12:54:34,2023-11-29 12:54:34,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 0, dashboardName)",Chrome 119.0.0.0,,,2023-11-29 12:54:34,2023-11-29 12:54:34,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 10, user)",Chrome 119.0.0.0,,,2023-11-29 12:54:34,2023-11-29 12:54:34,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 1, a1)",Chrome 119.0.0.0,,,2023-11-29 12:54:34,2023-11-29 12:54:34,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 2, a2)",Chrome 119.0.0.0,,,2023-11-29 12:54:34,2023-11-29 12:54:34,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 3, a3)",Chrome 119.0.0.0,,,2023-11-29 12:54:34,2023-11-29 12:54:34,"0,001s",PASSED
+"setValueToCellByIndex(sheet01, n, 4, a4)",Chrome 119.0.0.0,,,2023-11-29 12:54:34,2023-11-29 12:54:34,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 5, a5)",Chrome 119.0.0.0,,,2023-11-29 12:54:34,2023-11-29 12:54:34,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 6, a6)",Chrome 119.0.0.0,,,2023-11-29 12:54:34,2023-11-29 12:54:34,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 7, a7)",Chrome 119.0.0.0,,,2023-11-29 12:54:34,2023-11-29 12:54:34,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 8, a8)",Chrome 119.0.0.0,,,2023-11-29 12:54:34,2023-11-29 12:54:34,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 9, a9)",Chrome 119.0.0.0,,,2023-11-29 12:54:34,2023-11-29 12:54:34,"0,000s",PASSED
+n = n + 1,Chrome 119.0.0.0,,,2023-11-29 12:54:34,2023-11-29 12:54:34,"0,000s",PASSED
+"saveWorkbook(excelFilePath, workbook01)",Chrome 119.0.0.0,,,2023-11-29 12:54:34,2023-11-29 12:54:34,"0,119s",PASSED
+closeBrowser(),Chrome 119.0.0.0,,,2023-11-29 12:54:34,2023-11-29 12:54:35,"0,626s",PASSED
+"for ([run = 1, run < 4, (run++)])",Chrome 119.0.0.0,,,2023-11-29 12:54:35,2023-11-29 12:54:35,"0,001s",PASSED
+n = data.getRowNumbers() + 1,Chrome 119.0.0.0,,,2023-11-29 12:54:35,2023-11-29 12:54:35,"0,002s",PASSED
+println(n),Chrome 119.0.0.0,,,2023-11-29 12:54:35,2023-11-29 12:54:35,"0,000s",PASSED
+"dashboardName = ""Факторный анализ""",Chrome 119.0.0.0,,,2023-11-29 12:54:35,2023-11-29 12:54:35,"0,000s",PASSED
+"openBrowser("""")",Chrome 119.0.0.0,,,2023-11-29 12:54:35,2023-11-29 12:54:36,"1,121s",PASSED
+"navigateToUrl(findTestData(""PlanFact"").getValue(10, 3))",Chrome 119.0.0.0,,,2023-11-29 12:54:36,2023-11-29 12:54:39,"3,196s",PASSED
+"setText(findTestObject(""Страница авторизации/input__username""), findTestData(""PlanFact"").getValue(8, run))",Chrome 119.0.0.0,,,2023-11-29 12:54:39,2023-11-29 12:54:41,"1,872s",PASSED
+"setText(findTestObject(""Страница авторизации/input__password""), findTestData(""PlanFact"").getValue(9, run))",Chrome 119.0.0.0,,,2023-11-29 12:54:41,2023-11-29 12:54:42,"0,720s",PASSED
+"click(findTestObject(""Страница авторизации/button_""))",Chrome 119.0.0.0,,,2023-11-29 12:54:42,2023-11-29 12:54:43,"1,216s",PASSED
+delay(20),Chrome 119.0.0.0,,,2023-11-29 12:54:43,2023-11-29 12:55:03,"20,002s",PASSED
+"click(findTestObject(""Факторный анализ/Фильтр Период""))",Chrome 119.0.0.0,"Раскрыть фильтр ""Дата""",,2023-11-29 12:55:03,2023-11-29 12:55:03,"0,396s",PASSED
+"click(findTestObject(""Факторный анализ/Снять выделение в фильтре Дата""))",Chrome 119.0.0.0,"Нажать ""Снять выделение""",,2023-11-29 12:55:03,2023-11-29 12:55:04,"0,501s",PASSED
+"click(findTestObject(""Факторный анализ/Применить в фильтре Дата""))",Chrome 119.0.0.0,"Нажать ""Применить""",,2023-11-29 12:55:04,2023-11-29 12:55:04,"0,652s",PASSED
+"click(findTestObject(""Факторный анализ/Фильтр Период""))",Chrome 119.0.0.0,"Раскрыть фильтр ""Дата""",,2023-11-29 12:55:04,2023-11-29 12:55:08,"3,158s",PASSED
+"click(findTestObject(""Факторный анализ/Снять выделение в фильтре Дата""))",Chrome 119.0.0.0,"Нажать ""Снять выделение""",,2023-11-29 12:55:08,2023-11-29 12:55:08,"0,464s",PASSED
+"scrollToElement(findTestObject(""Факторный анализ/2023 список""), 30)",Chrome 119.0.0.0,,,2023-11-29 12:55:08,2023-11-29 12:55:09,"0,543s",PASSED
+"click(findTestObject(""Факторный анализ/2023 список""))",Chrome 119.0.0.0,,,2023-11-29 12:55:09,2023-11-29 12:55:09,"0,346s",PASSED
+"scrollToElement(findTestObject(""Факторный анализ/1 квартал 2023 список""), 30)",Chrome 119.0.0.0,,,2023-11-29 12:55:09,2023-11-29 12:55:09,"0,435s",PASSED
+"click(findTestObject(""Факторный анализ/1 квартал 2023 выбрать""))",Chrome 119.0.0.0,,,2023-11-29 12:55:09,2023-11-29 12:55:10,"0,363s",PASSED
+"scrollToElement(findTestObject(""Факторный анализ/2 квартал 2023""), 30)",Chrome 119.0.0.0,,,2023-11-29 12:55:10,2023-11-29 12:55:10,"0,445s",PASSED
+"click(findTestObject(""Факторный анализ/2 квартал 2023""), CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:55:10,2023-11-29 12:55:11,"0,345s",PASSED
+"click(findTestObject(""Факторный анализ/3 квартал 2023""), CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,Проскроллить до элемента 2022,,2023-11-29 12:55:11,2023-11-29 12:55:11,"0,563s",PASSED
+"scrollToElement(findTestObject(""Факторный анализ/Заголовок дашборда""), 30)",Chrome 119.0.0.0,"Проскроллить до заголовка фильтра ""Дата""",,2023-11-29 12:55:11,2023-11-29 12:55:12,"0,466s",PASSED
+"click(findTestObject(""Факторный анализ/Применить в фильтре Дата""))",Chrome 119.0.0.0,"Нажать ""Применить""",,2023-11-29 12:55:12,2023-11-29 12:55:12,"0,493s",PASSED
+"a5 = """"",Chrome 119.0.0.0,,,2023-11-29 12:55:12,2023-11-29 12:55:12,"0,001s",PASSED
+"a6 = """"",Chrome 119.0.0.0,,,2023-11-29 12:55:12,2023-11-29 12:55:12,"0,000s",PASSED
+"a7 = """"",Chrome 119.0.0.0,,,2023-11-29 12:55:12,2023-11-29 12:55:12,"0,000s",PASSED
+"a8 = """"",Chrome 119.0.0.0,,,2023-11-29 12:55:12,2023-11-29 12:55:12,"0,000s",PASSED
+"a9 = """"",Chrome 119.0.0.0,,,2023-11-29 12:55:12,2023-11-29 12:55:12,"0,001s",PASSED
+if (run == 1),Chrome 119.0.0.0,,,2023-11-29 12:55:12,2023-11-29 12:55:16,"3,535s",PASSED
+"sheetName = ""Sheet1""",Chrome 119.0.0.0,,,2023-11-29 12:55:16,2023-11-29 12:55:16,"0,000s",PASSED
+workbook01 = getWorkbook(excelFilePath),Chrome 119.0.0.0,,,2023-11-29 12:55:16,2023-11-29 12:55:16,"0,036s",PASSED
+"sheet01 = getExcelSheet(workbook01, sheetName)",Chrome 119.0.0.0,,,2023-11-29 12:55:16,2023-11-29 12:55:16,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 0, dashboardName)",Chrome 119.0.0.0,,,2023-11-29 12:55:16,2023-11-29 12:55:16,"0,001s",PASSED
+"setValueToCellByIndex(sheet01, n, 10, user)",Chrome 119.0.0.0,,,2023-11-29 12:55:16,2023-11-29 12:55:16,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 1, a1)",Chrome 119.0.0.0,,,2023-11-29 12:55:16,2023-11-29 12:55:16,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 2, a2)",Chrome 119.0.0.0,,,2023-11-29 12:55:16,2023-11-29 12:55:16,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 3, a3)",Chrome 119.0.0.0,,,2023-11-29 12:55:16,2023-11-29 12:55:16,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 4, a4)",Chrome 119.0.0.0,,,2023-11-29 12:55:16,2023-11-29 12:55:16,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 5, a5)",Chrome 119.0.0.0,,,2023-11-29 12:55:16,2023-11-29 12:55:16,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 6, a6)",Chrome 119.0.0.0,,,2023-11-29 12:55:16,2023-11-29 12:55:16,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 7, a7)",Chrome 119.0.0.0,,,2023-11-29 12:55:16,2023-11-29 12:55:16,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 8, a8)",Chrome 119.0.0.0,,,2023-11-29 12:55:16,2023-11-29 12:55:16,"0,001s",PASSED
+"setValueToCellByIndex(sheet01, n, 9, a9)",Chrome 119.0.0.0,,,2023-11-29 12:55:16,2023-11-29 12:55:16,"0,000s",PASSED
+n = n + 1,Chrome 119.0.0.0,,,2023-11-29 12:55:16,2023-11-29 12:55:16,"0,000s",PASSED
+"saveWorkbook(excelFilePath, workbook01)",Chrome 119.0.0.0,,,2023-11-29 12:55:16,2023-11-29 12:55:16,"0,121s",PASSED
+if (run == 2),Chrome 119.0.0.0,,,2023-11-29 12:55:16,2023-11-29 12:55:16,"0,000s",PASSED
+if (run == 3),Chrome 119.0.0.0,,,2023-11-29 12:55:16,2023-11-29 12:55:16,"0,000s",PASSED
+closeBrowser(),Chrome 119.0.0.0,,,2023-11-29 12:55:16,2023-11-29 12:55:16,"0,633s",PASSED
+n = data.getRowNumbers() + 1,Chrome 119.0.0.0,,,2023-11-29 12:55:16,2023-11-29 12:55:16,"0,000s",PASSED
+println(n),Chrome 119.0.0.0,,,2023-11-29 12:55:16,2023-11-29 12:55:16,"0,000s",PASSED
+"dashboardName = ""Факторный анализ""",Chrome 119.0.0.0,,,2023-11-29 12:55:16,2023-11-29 12:55:16,"0,000s",PASSED
+"openBrowser("""")",Chrome 119.0.0.0,,,2023-11-29 12:55:16,2023-11-29 12:55:18,"1,108s",PASSED
+"navigateToUrl(findTestData(""PlanFact"").getValue(10, 3))",Chrome 119.0.0.0,,,2023-11-29 12:55:18,2023-11-29 12:55:29,"11,754s",PASSED
+"setText(findTestObject(""Страница авторизации/input__username""), findTestData(""PlanFact"").getValue(8, run))",Chrome 119.0.0.0,,,2023-11-29 12:55:29,2023-11-29 12:55:31,"1,861s",PASSED
+"setText(findTestObject(""Страница авторизации/input__password""), findTestData(""PlanFact"").getValue(9, run))",Chrome 119.0.0.0,,,2023-11-29 12:55:31,2023-11-29 12:55:32,"0,695s",PASSED
+"click(findTestObject(""Страница авторизации/button_""))",Chrome 119.0.0.0,,,2023-11-29 12:55:32,2023-11-29 12:55:33,"1,387s",PASSED
+delay(20),Chrome 119.0.0.0,,,2023-11-29 12:55:33,2023-11-29 12:55:53,"20,012s",PASSED
+"click(findTestObject(""Факторный анализ/Фильтр Период""))",Chrome 119.0.0.0,"Раскрыть фильтр ""Дата""",,2023-11-29 12:55:53,2023-11-29 12:55:54,"0,398s",PASSED
+"click(findTestObject(""Факторный анализ/Снять выделение в фильтре Дата""))",Chrome 119.0.0.0,"Нажать ""Снять выделение""",,2023-11-29 12:55:54,2023-11-29 12:55:54,"0,504s",PASSED
+"click(findTestObject(""Факторный анализ/Применить в фильтре Дата""))",Chrome 119.0.0.0,"Нажать ""Применить""",,2023-11-29 12:55:54,2023-11-29 12:55:55,"0,608s",PASSED
+"click(findTestObject(""Факторный анализ/Фильтр Период""))",Chrome 119.0.0.0,"Раскрыть фильтр ""Дата""",,2023-11-29 12:55:55,2023-11-29 12:55:56,"1,723s",PASSED
+"click(findTestObject(""Факторный анализ/Снять выделение в фильтре Дата""))",Chrome 119.0.0.0,"Нажать ""Снять выделение""",,2023-11-29 12:55:56,2023-11-29 12:55:57,"0,460s",PASSED
+"scrollToElement(findTestObject(""Факторный анализ/2023 список""), 30)",Chrome 119.0.0.0,,,2023-11-29 12:55:57,2023-11-29 12:55:57,"0,441s",PASSED
+"click(findTestObject(""Факторный анализ/2023 список""))",Chrome 119.0.0.0,,,2023-11-29 12:55:57,2023-11-29 12:55:58,"0,348s",PASSED
+"scrollToElement(findTestObject(""Факторный анализ/1 квартал 2023 список""), 30)",Chrome 119.0.0.0,,,2023-11-29 12:55:58,2023-11-29 12:55:58,"0,441s",PASSED
+"click(findTestObject(""Факторный анализ/1 квартал 2023 выбрать""))",Chrome 119.0.0.0,,,2023-11-29 12:55:58,2023-11-29 12:55:58,"0,350s",PASSED
+"scrollToElement(findTestObject(""Факторный анализ/2 квартал 2023""), 30)",Chrome 119.0.0.0,,,2023-11-29 12:55:58,2023-11-29 12:55:59,"0,543s",PASSED
+"click(findTestObject(""Факторный анализ/2 квартал 2023""), CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:55:59,2023-11-29 12:55:59,"0,345s",PASSED
+"click(findTestObject(""Факторный анализ/3 квартал 2023""), CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,Проскроллить до элемента 2022,,2023-11-29 12:55:59,2023-11-29 12:56:00,"0,566s",PASSED
+"scrollToElement(findTestObject(""Факторный анализ/Заголовок дашборда""), 30)",Chrome 119.0.0.0,"Проскроллить до заголовка фильтра ""Дата""",,2023-11-29 12:56:00,2023-11-29 12:56:00,"0,463s",PASSED
+"click(findTestObject(""Факторный анализ/Применить в фильтре Дата""))",Chrome 119.0.0.0,"Нажать ""Применить""",,2023-11-29 12:56:00,2023-11-29 12:56:01,"0,493s",PASSED
+"a5 = """"",Chrome 119.0.0.0,,,2023-11-29 12:56:01,2023-11-29 12:56:01,"0,000s",PASSED
+"a6 = """"",Chrome 119.0.0.0,,,2023-11-29 12:56:01,2023-11-29 12:56:01,"0,000s",PASSED
+"a7 = """"",Chrome 119.0.0.0,,,2023-11-29 12:56:01,2023-11-29 12:56:01,"0,000s",PASSED
+"a8 = """"",Chrome 119.0.0.0,,,2023-11-29 12:56:01,2023-11-29 12:56:01,"0,000s",PASSED
+"a9 = """"",Chrome 119.0.0.0,,,2023-11-29 12:56:01,2023-11-29 12:56:01,"0,000s",PASSED
+if (run == 1),Chrome 119.0.0.0,,,2023-11-29 12:56:01,2023-11-29 12:56:01,"0,000s",PASSED
+if (run == 2),Chrome 119.0.0.0,,,2023-11-29 12:56:01,2023-11-29 12:56:04,"2,734s",PASSED
+"sheetName = ""Sheet1""",Chrome 119.0.0.0,,,2023-11-29 12:56:04,2023-11-29 12:56:04,"0,000s",PASSED
+workbook01 = getWorkbook(excelFilePath),Chrome 119.0.0.0,,,2023-11-29 12:56:04,2023-11-29 12:56:04,"0,033s",PASSED
+"sheet01 = getExcelSheet(workbook01, sheetName)",Chrome 119.0.0.0,,,2023-11-29 12:56:04,2023-11-29 12:56:04,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 0, dashboardName)",Chrome 119.0.0.0,,,2023-11-29 12:56:04,2023-11-29 12:56:04,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 10, user)",Chrome 119.0.0.0,,,2023-11-29 12:56:04,2023-11-29 12:56:04,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 1, a1)",Chrome 119.0.0.0,,,2023-11-29 12:56:04,2023-11-29 12:56:04,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 2, a2)",Chrome 119.0.0.0,,,2023-11-29 12:56:04,2023-11-29 12:56:04,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 3, a3)",Chrome 119.0.0.0,,,2023-11-29 12:56:04,2023-11-29 12:56:04,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 4, a4)",Chrome 119.0.0.0,,,2023-11-29 12:56:04,2023-11-29 12:56:04,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 5, a5)",Chrome 119.0.0.0,,,2023-11-29 12:56:04,2023-11-29 12:56:04,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 6, a6)",Chrome 119.0.0.0,,,2023-11-29 12:56:04,2023-11-29 12:56:04,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 7, a7)",Chrome 119.0.0.0,,,2023-11-29 12:56:04,2023-11-29 12:56:04,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 8, a8)",Chrome 119.0.0.0,,,2023-11-29 12:56:04,2023-11-29 12:56:04,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 9, a9)",Chrome 119.0.0.0,,,2023-11-29 12:56:04,2023-11-29 12:56:04,"0,000s",PASSED
+n = n + 1,Chrome 119.0.0.0,,,2023-11-29 12:56:04,2023-11-29 12:56:04,"0,000s",PASSED
+"saveWorkbook(excelFilePath, workbook01)",Chrome 119.0.0.0,,,2023-11-29 12:56:04,2023-11-29 12:56:04,"0,127s",PASSED
+if (run == 3),Chrome 119.0.0.0,,,2023-11-29 12:56:04,2023-11-29 12:56:04,"0,000s",PASSED
+closeBrowser(),Chrome 119.0.0.0,,,2023-11-29 12:56:04,2023-11-29 12:56:04,"0,623s",PASSED
+n = data.getRowNumbers() + 1,Chrome 119.0.0.0,,,2023-11-29 12:56:04,2023-11-29 12:56:04,"0,000s",PASSED
+println(n),Chrome 119.0.0.0,,,2023-11-29 12:56:04,2023-11-29 12:56:04,"0,000s",PASSED
+"dashboardName = ""Факторный анализ""",Chrome 119.0.0.0,,,2023-11-29 12:56:04,2023-11-29 12:56:04,"0,000s",PASSED
+"openBrowser("""")",Chrome 119.0.0.0,,,2023-11-29 12:56:04,2023-11-29 12:56:06,"1,104s",PASSED
+"navigateToUrl(findTestData(""PlanFact"").getValue(10, 3))",Chrome 119.0.0.0,,,2023-11-29 12:56:06,2023-11-29 12:56:09,"3,722s",PASSED
+"setText(findTestObject(""Страница авторизации/input__username""), findTestData(""PlanFact"").getValue(8, run))",Chrome 119.0.0.0,,,2023-11-29 12:56:09,2023-11-29 12:56:11,"2,118s",PASSED
+"setText(findTestObject(""Страница авторизации/input__password""), findTestData(""PlanFact"").getValue(9, run))",Chrome 119.0.0.0,,,2023-11-29 12:56:11,2023-11-29 12:56:12,"0,705s",PASSED
+"click(findTestObject(""Страница авторизации/button_""))",Chrome 119.0.0.0,,,2023-11-29 12:56:12,2023-11-29 12:56:13,"1,264s",PASSED
+delay(20),Chrome 119.0.0.0,,,2023-11-29 12:56:13,2023-11-29 12:56:33,"20,012s",PASSED
+"click(findTestObject(""Факторный анализ/Фильтр Период""))",Chrome 119.0.0.0,"Раскрыть фильтр ""Дата""",,2023-11-29 12:56:33,2023-11-29 12:56:34,"0,397s",PASSED
+"click(findTestObject(""Факторный анализ/Снять выделение в фильтре Дата""))",Chrome 119.0.0.0,"Нажать ""Снять выделение""",,2023-11-29 12:56:34,2023-11-29 12:56:34,"0,500s",PASSED
+"click(findTestObject(""Факторный анализ/Применить в фильтре Дата""))",Chrome 119.0.0.0,"Нажать ""Применить""",,2023-11-29 12:56:34,2023-11-29 12:56:35,"0,656s",PASSED
+"click(findTestObject(""Факторный анализ/Фильтр Период""))",Chrome 119.0.0.0,"Раскрыть фильтр ""Дата""",,2023-11-29 12:56:35,2023-11-29 12:56:36,"0,913s",PASSED
+"click(findTestObject(""Факторный анализ/Снять выделение в фильтре Дата""))",Chrome 119.0.0.0,"Нажать ""Снять выделение""",,2023-11-29 12:56:36,2023-11-29 12:56:36,"0,468s",PASSED
+"scrollToElement(findTestObject(""Факторный анализ/2023 список""), 30)",Chrome 119.0.0.0,,,2023-11-29 12:56:36,2023-11-29 12:56:37,"0,442s",PASSED
+"click(findTestObject(""Факторный анализ/2023 список""))",Chrome 119.0.0.0,,,2023-11-29 12:56:37,2023-11-29 12:56:37,"0,353s",PASSED
+"scrollToElement(findTestObject(""Факторный анализ/1 квартал 2023 список""), 30)",Chrome 119.0.0.0,,,2023-11-29 12:56:37,2023-11-29 12:56:38,"0,442s",PASSED
+"click(findTestObject(""Факторный анализ/1 квартал 2023 выбрать""))",Chrome 119.0.0.0,,,2023-11-29 12:56:38,2023-11-29 12:56:38,"0,345s",PASSED
+"scrollToElement(findTestObject(""Факторный анализ/2 квартал 2023""), 30)",Chrome 119.0.0.0,,,2023-11-29 12:56:38,2023-11-29 12:56:38,"0,436s",PASSED
+"click(findTestObject(""Факторный анализ/2 квартал 2023""), CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-29 12:56:38,2023-11-29 12:56:39,"0,354s",PASSED
+"click(findTestObject(""Факторный анализ/3 квартал 2023""), CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,Проскроллить до элемента 2022,,2023-11-29 12:56:39,2023-11-29 12:56:39,"0,462s",PASSED
+"scrollToElement(findTestObject(""Факторный анализ/Заголовок дашборда""), 30)",Chrome 119.0.0.0,"Проскроллить до заголовка фильтра ""Дата""",,2023-11-29 12:56:39,2023-11-29 12:56:40,"0,453s",PASSED
+"click(findTestObject(""Факторный анализ/Применить в фильтре Дата""))",Chrome 119.0.0.0,"Нажать ""Применить""",,2023-11-29 12:56:40,2023-11-29 12:56:40,"0,488s",PASSED
+"a5 = """"",Chrome 119.0.0.0,,,2023-11-29 12:56:40,2023-11-29 12:56:40,"0,001s",PASSED
+"a6 = """"",Chrome 119.0.0.0,,,2023-11-29 12:56:40,2023-11-29 12:56:40,"0,000s",PASSED
+"a7 = """"",Chrome 119.0.0.0,,,2023-11-29 12:56:40,2023-11-29 12:56:40,"0,000s",PASSED
+"a8 = """"",Chrome 119.0.0.0,,,2023-11-29 12:56:40,2023-11-29 12:56:40,"0,000s",PASSED
+"a9 = """"",Chrome 119.0.0.0,,,2023-11-29 12:56:40,2023-11-29 12:56:40,"0,000s",PASSED
+if (run == 1),Chrome 119.0.0.0,,,2023-11-29 12:56:40,2023-11-29 12:56:40,"0,000s",PASSED
+if (run == 2),Chrome 119.0.0.0,,,2023-11-29 12:56:40,2023-11-29 12:56:40,"0,001s",PASSED
+if (run == 3),Chrome 119.0.0.0,,,2023-11-29 12:56:40,2023-11-29 12:56:44,"3,470s",PASSED
+"sheetName = ""Sheet1""",Chrome 119.0.0.0,,,2023-11-29 12:56:44,2023-11-29 12:56:44,"0,000s",PASSED
+workbook01 = getWorkbook(excelFilePath),Chrome 119.0.0.0,,,2023-11-29 12:56:44,2023-11-29 12:56:44,"0,036s",PASSED
+"sheet01 = getExcelSheet(workbook01, sheetName)",Chrome 119.0.0.0,,,2023-11-29 12:56:44,2023-11-29 12:56:44,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 0, dashboardName)",Chrome 119.0.0.0,,,2023-11-29 12:56:44,2023-11-29 12:56:44,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 10, user)",Chrome 119.0.0.0,,,2023-11-29 12:56:44,2023-11-29 12:56:44,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 1, a1)",Chrome 119.0.0.0,,,2023-11-29 12:56:44,2023-11-29 12:56:44,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 2, a2)",Chrome 119.0.0.0,,,2023-11-29 12:56:44,2023-11-29 12:56:44,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 3, a3)",Chrome 119.0.0.0,,,2023-11-29 12:56:44,2023-11-29 12:56:44,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 4, a4)",Chrome 119.0.0.0,,,2023-11-29 12:56:44,2023-11-29 12:56:44,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 5, a5)",Chrome 119.0.0.0,,,2023-11-29 12:56:44,2023-11-29 12:56:44,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 6, a6)",Chrome 119.0.0.0,,,2023-11-29 12:56:44,2023-11-29 12:56:44,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 7, a7)",Chrome 119.0.0.0,,,2023-11-29 12:56:44,2023-11-29 12:56:44,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 8, a8)",Chrome 119.0.0.0,,,2023-11-29 12:56:44,2023-11-29 12:56:44,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 9, a9)",Chrome 119.0.0.0,,,2023-11-29 12:56:44,2023-11-29 12:56:44,"0,000s",PASSED
+n = n + 1,Chrome 119.0.0.0,,,2023-11-29 12:56:44,2023-11-29 12:56:44,"0,000s",PASSED
+"saveWorkbook(excelFilePath, workbook01)",Chrome 119.0.0.0,,,2023-11-29 12:56:44,2023-11-29 12:56:44,"0,125s",PASSED
+closeBrowser(),Chrome 119.0.0.0,,,2023-11-29 12:56:44,2023-11-29 12:56:44,"0,632s",PASSED
+"for ([run = 1, run < 4, (run++)])",Chrome 119.0.0.0,,,2023-11-29 12:56:44,2023-11-29 12:56:44,"0,001s",PASSED
+n = data.getRowNumbers() + 1,Chrome 119.0.0.0,,,2023-11-29 12:56:44,2023-11-29 12:56:44,"0,000s",PASSED
+println(n),Chrome 119.0.0.0,,,2023-11-29 12:56:44,2023-11-29 12:56:44,"0,000s",PASSED
+"dashboardName = ""Выручка по ДЗО""",Chrome 119.0.0.0,,,2023-11-29 12:56:44,2023-11-29 12:56:44,"0,000s",PASSED
+"openBrowser("""")",Chrome 119.0.0.0,,,2023-11-29 12:56:44,2023-11-29 12:56:45,"1,124s",PASSED
+"navigateToUrl(findTestData(""PlanFact"").getValue(10, 5))",Chrome 119.0.0.0,,,2023-11-29 12:56:45,2023-11-29 12:56:49,"3,480s",PASSED
+"setText(findTestObject(""Страница авторизации/input__username""), findTestData(""PlanFact"").getValue(8, run))",Chrome 119.0.0.0,,,2023-11-29 12:56:49,2023-11-29 12:56:51,"2,071s",PASSED
+"setText(findTestObject(""Страница авторизации/input__password""), findTestData(""PlanFact"").getValue(9, run))",Chrome 119.0.0.0,,,2023-11-29 12:56:51,2023-11-29 12:56:52,"0,697s",PASSED
+"click(findTestObject(""Страница авторизации/button_""))",Chrome 119.0.0.0,,,2023-11-29 12:56:52,2023-11-29 12:56:53,"1,460s",PASSED
+delay(20),Chrome 119.0.0.0,,,2023-11-29 12:56:53,2023-11-29 12:57:13,"20,007s",PASSED
+"click(findTestObject(""Выручка по ДЗО/Фильтр Дата""))",Chrome 119.0.0.0,"Раскрыть фильтр ""Дата""",,2023-11-29 12:57:13,2023-11-29 12:57:14,"0,400s",PASSED
+"click(findTestObject(""Выручка по ДЗО/Снять выделение в фильтре Дата""))",Chrome 119.0.0.0,"Нажать ""Снять выделение""",,2023-11-29 12:57:14,2023-11-29 12:57:14,"0,505s",PASSED
+"click(findTestObject(""Выручка по ДЗО/Применить в фильтре Дата""))",Chrome 119.0.0.0,"Нажать ""Применить""",,2023-11-29 12:57:14,2023-11-29 12:57:15,"0,637s",PASSED
+"click(findTestObject(""Выручка по ДЗО/Фильтр Дата""))",Chrome 119.0.0.0,"Раскрыть фильтр ""Дата""",,2023-11-29 12:57:15,2023-11-29 12:57:17,"2,544s",PASSED
+"click(findTestObject(""Выручка по ДЗО/Снять выделение в фильтре Дата""))",Chrome 119.0.0.0,"Нажать ""Снять выделение""",,2023-11-29 12:57:17,2023-11-29 12:57:18,"0,479s",PASSED
+"scrollToElement(findTestObject(""Выручка по ДЗО/2023 список""), 30)",Chrome 119.0.0.0,,,2023-11-29 12:57:18,2023-11-29 12:57:18,"0,455s",PASSED
+"click(findTestObject(""Выручка по ДЗО/2023 список""))",Chrome 119.0.0.0,,,2023-11-29 12:57:18,2023-11-29 12:57:19,"0,357s",PASSED
+"scrollToElement(findTestObject(""Выручка по ДЗО/1 квартал 2023 список""), 30)",Chrome 119.0.0.0,,,2023-11-29 12:57:19,2023-11-29 12:57:19,"0,452s",PASSED
+"click(findTestObject(""Выручка по ДЗО/1 квартал 2023 выбрать""))",Chrome 119.0.0.0,Выбрать 1 квартал 2022,,2023-11-29 12:57:19,2023-11-29 12:57:19,"0,360s",PASSED
+"click(findTestObject(""Выручка по ДЗО/2 квартал 2023 выбрать""))",Chrome 119.0.0.0,,,2023-11-29 12:57:19,2023-11-29 12:57:20,"0,464s",PASSED
+"click(findTestObject(""Выручка по ДЗО/3 квартал 2023""))",Chrome 119.0.0.0,,,2023-11-29 12:57:20,2023-11-29 12:57:20,"0,470s",PASSED
+"scrollToElement(findTestObject(""Выручка по ДЗО/Заголовок дашборда""), 30)",Chrome 119.0.0.0,"Проскроллить до заголовка фильтра ""Дата""",,2023-11-29 12:57:20,2023-11-29 12:57:21,"0,543s",PASSED
+"click(findTestObject(""Выручка по ДЗО/Применить в фильтре Дата""))",Chrome 119.0.0.0,"Нажать ""Применить""",,2023-11-29 12:57:21,2023-11-29 12:57:21,"0,478s",PASSED
+"a3 = """"",Chrome 119.0.0.0,,,2023-11-29 12:57:21,2023-11-29 12:57:21,"0,000s",PASSED
+"a4 = """"",Chrome 119.0.0.0,,,2023-11-29 12:57:21,2023-11-29 12:57:21,"0,000s",PASSED
+"a5 = """"",Chrome 119.0.0.0,,,2023-11-29 12:57:21,2023-11-29 12:57:21,"0,000s",PASSED
+"a6 = """"",Chrome 119.0.0.0,,,2023-11-29 12:57:21,2023-11-29 12:57:21,"0,000s",PASSED
+"a7 = """"",Chrome 119.0.0.0,,,2023-11-29 12:57:21,2023-11-29 12:57:21,"0,000s",PASSED
+"a8 = """"",Chrome 119.0.0.0,,,2023-11-29 12:57:21,2023-11-29 12:57:21,"0,000s",PASSED
+"a9 = """"",Chrome 119.0.0.0,,,2023-11-29 12:57:21,2023-11-29 12:57:21,"0,000s",PASSED
+if (run == 1),Chrome 119.0.0.0,,,2023-11-29 12:57:21,2023-11-29 12:57:23,"1,893s",PASSED
+"sheetName = ""Sheet1""",Chrome 119.0.0.0,,,2023-11-29 12:57:23,2023-11-29 12:57:23,"0,000s",PASSED
+workbook01 = getWorkbook(excelFilePath),Chrome 119.0.0.0,,,2023-11-29 12:57:23,2023-11-29 12:57:23,"0,045s",PASSED
+"sheet01 = getExcelSheet(workbook01, sheetName)",Chrome 119.0.0.0,,,2023-11-29 12:57:23,2023-11-29 12:57:23,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 0, dashboardName)",Chrome 119.0.0.0,,,2023-11-29 12:57:23,2023-11-29 12:57:23,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 10, user)",Chrome 119.0.0.0,,,2023-11-29 12:57:23,2023-11-29 12:57:23,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 1, a1)",Chrome 119.0.0.0,,,2023-11-29 12:57:23,2023-11-29 12:57:23,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 2, a2)",Chrome 119.0.0.0,,,2023-11-29 12:57:23,2023-11-29 12:57:23,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 3, a3)",Chrome 119.0.0.0,,,2023-11-29 12:57:23,2023-11-29 12:57:23,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 4, a4)",Chrome 119.0.0.0,,,2023-11-29 12:57:23,2023-11-29 12:57:23,"0,001s",PASSED
+"setValueToCellByIndex(sheet01, n, 5, a5)",Chrome 119.0.0.0,,,2023-11-29 12:57:23,2023-11-29 12:57:23,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 6, a6)",Chrome 119.0.0.0,,,2023-11-29 12:57:23,2023-11-29 12:57:23,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 7, a7)",Chrome 119.0.0.0,,,2023-11-29 12:57:23,2023-11-29 12:57:23,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 8, a8)",Chrome 119.0.0.0,,,2023-11-29 12:57:23,2023-11-29 12:57:23,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 9, a9)",Chrome 119.0.0.0,,,2023-11-29 12:57:23,2023-11-29 12:57:23,"0,000s",PASSED
+n = n + 1,Chrome 119.0.0.0,,,2023-11-29 12:57:23,2023-11-29 12:57:23,"0,000s",PASSED
+"saveWorkbook(excelFilePath, workbook01)",Chrome 119.0.0.0,,,2023-11-29 12:57:23,2023-11-29 12:57:23,"0,117s",PASSED
+if (run == 2),Chrome 119.0.0.0,,,2023-11-29 12:57:23,2023-11-29 12:57:23,"0,000s",PASSED
+if (run == 3),Chrome 119.0.0.0,,,2023-11-29 12:57:23,2023-11-29 12:57:23,"0,000s",PASSED
+closeBrowser(),Chrome 119.0.0.0,,,2023-11-29 12:57:23,2023-11-29 12:57:24,"0,623s",PASSED
+n = data.getRowNumbers() + 1,Chrome 119.0.0.0,,,2023-11-29 12:57:24,2023-11-29 12:57:24,"0,000s",PASSED
+println(n),Chrome 119.0.0.0,,,2023-11-29 12:57:24,2023-11-29 12:57:24,"0,000s",PASSED
+"dashboardName = ""Выручка по ДЗО""",Chrome 119.0.0.0,,,2023-11-29 12:57:24,2023-11-29 12:57:24,"0,000s",PASSED
+"openBrowser("""")",Chrome 119.0.0.0,,,2023-11-29 12:57:24,2023-11-29 12:57:25,"1,111s",PASSED
+"navigateToUrl(findTestData(""PlanFact"").getValue(10, 5))",Chrome 119.0.0.0,,,2023-11-29 12:57:25,2023-11-29 12:57:29,"3,899s",PASSED
+"setText(findTestObject(""Страница авторизации/input__username""), findTestData(""PlanFact"").getValue(8, run))",Chrome 119.0.0.0,,,2023-11-29 12:57:29,2023-11-29 12:57:31,"2,040s",PASSED
+"setText(findTestObject(""Страница авторизации/input__password""), findTestData(""PlanFact"").getValue(9, run))",Chrome 119.0.0.0,,,2023-11-29 12:57:31,2023-11-29 12:57:32,"0,702s",PASSED
+"click(findTestObject(""Страница авторизации/button_""))",Chrome 119.0.0.0,,,2023-11-29 12:57:32,2023-11-29 12:57:33,"1,282s",PASSED
+delay(20),Chrome 119.0.0.0,,,2023-11-29 12:57:33,2023-11-29 12:57:53,"20,008s",PASSED
+"click(findTestObject(""Выручка по ДЗО/Фильтр Дата""))",Chrome 119.0.0.0,"Раскрыть фильтр ""Дата""",,2023-11-29 12:57:53,2023-11-29 12:57:53,"0,394s",PASSED
+"click(findTestObject(""Выручка по ДЗО/Снять выделение в фильтре Дата""))",Chrome 119.0.0.0,"Нажать ""Снять выделение""",,2023-11-29 12:57:53,2023-11-29 12:57:54,"0,493s",PASSED
+"click(findTestObject(""Выручка по ДЗО/Применить в фильтре Дата""))",Chrome 119.0.0.0,"Нажать ""Применить""",,2023-11-29 12:57:54,2023-11-29 12:57:55,"0,626s",PASSED
+"click(findTestObject(""Выручка по ДЗО/Фильтр Дата""))",Chrome 119.0.0.0,"Раскрыть фильтр ""Дата""",,2023-11-29 12:57:55,2023-11-29 12:57:55,"0,861s",PASSED
+"click(findTestObject(""Выручка по ДЗО/Снять выделение в фильтре Дата""))",Chrome 119.0.0.0,"Нажать ""Снять выделение""",,2023-11-29 12:57:55,2023-11-29 12:57:56,"0,482s",PASSED
+"scrollToElement(findTestObject(""Выручка по ДЗО/2023 список""), 30)",Chrome 119.0.0.0,,,2023-11-29 12:57:56,2023-11-29 12:57:56,"0,461s",PASSED
+"click(findTestObject(""Выручка по ДЗО/2023 список""))",Chrome 119.0.0.0,,,2023-11-29 12:57:56,2023-11-29 12:57:57,"0,348s",PASSED
+"scrollToElement(findTestObject(""Выручка по ДЗО/1 квартал 2023 список""), 30)",Chrome 119.0.0.0,,,2023-11-29 12:57:57,2023-11-29 12:57:57,"0,441s",PASSED
+"click(findTestObject(""Выручка по ДЗО/1 квартал 2023 выбрать""))",Chrome 119.0.0.0,Выбрать 1 квартал 2022,,2023-11-29 12:57:57,2023-11-29 12:57:58,"0,357s",PASSED
+"click(findTestObject(""Выручка по ДЗО/2 квартал 2023 выбрать""))",Chrome 119.0.0.0,,,2023-11-29 12:57:58,2023-11-29 12:57:58,"0,465s",PASSED
+"click(findTestObject(""Выручка по ДЗО/3 квартал 2023""))",Chrome 119.0.0.0,,,2023-11-29 12:57:58,2023-11-29 12:57:58,"0,469s",PASSED
+"scrollToElement(findTestObject(""Выручка по ДЗО/Заголовок дашборда""), 30)",Chrome 119.0.0.0,"Проскроллить до заголовка фильтра ""Дата""",,2023-11-29 12:57:58,2023-11-29 12:57:59,"0,545s",PASSED
+"click(findTestObject(""Выручка по ДЗО/Применить в фильтре Дата""))",Chrome 119.0.0.0,"Нажать ""Применить""",,2023-11-29 12:57:59,2023-11-29 12:57:59,"0,479s",PASSED
+"a3 = """"",Chrome 119.0.0.0,,,2023-11-29 12:57:59,2023-11-29 12:57:59,"0,001s",PASSED
+"a4 = """"",Chrome 119.0.0.0,,,2023-11-29 12:57:59,2023-11-29 12:57:59,"0,000s",PASSED
+"a5 = """"",Chrome 119.0.0.0,,,2023-11-29 12:57:59,2023-11-29 12:57:59,"0,000s",PASSED
+"a6 = """"",Chrome 119.0.0.0,,,2023-11-29 12:57:59,2023-11-29 12:57:59,"0,000s",PASSED
+"a7 = """"",Chrome 119.0.0.0,,,2023-11-29 12:57:59,2023-11-29 12:57:59,"0,000s",PASSED
+"a8 = """"",Chrome 119.0.0.0,,,2023-11-29 12:57:59,2023-11-29 12:57:59,"0,000s",PASSED
+"a9 = """"",Chrome 119.0.0.0,,,2023-11-29 12:57:59,2023-11-29 12:57:59,"0,000s",PASSED
+if (run == 1),Chrome 119.0.0.0,,,2023-11-29 12:57:59,2023-11-29 12:57:59,"0,001s",PASSED
+if (run == 2),Chrome 119.0.0.0,,,2023-11-29 12:57:59,2023-11-29 12:58:02,"2,619s",PASSED
+"sheetName = ""Sheet1""",Chrome 119.0.0.0,,,2023-11-29 12:58:02,2023-11-29 12:58:02,"0,000s",PASSED
+workbook01 = getWorkbook(excelFilePath),Chrome 119.0.0.0,,,2023-11-29 12:58:02,2023-11-29 12:58:02,"0,035s",PASSED
+"sheet01 = getExcelSheet(workbook01, sheetName)",Chrome 119.0.0.0,,,2023-11-29 12:58:02,2023-11-29 12:58:02,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 0, dashboardName)",Chrome 119.0.0.0,,,2023-11-29 12:58:02,2023-11-29 12:58:02,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 10, user)",Chrome 119.0.0.0,,,2023-11-29 12:58:02,2023-11-29 12:58:02,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 1, a1)",Chrome 119.0.0.0,,,2023-11-29 12:58:02,2023-11-29 12:58:02,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 2, a2)",Chrome 119.0.0.0,,,2023-11-29 12:58:02,2023-11-29 12:58:02,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 3, a3)",Chrome 119.0.0.0,,,2023-11-29 12:58:02,2023-11-29 12:58:02,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 4, a4)",Chrome 119.0.0.0,,,2023-11-29 12:58:02,2023-11-29 12:58:02,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 5, a5)",Chrome 119.0.0.0,,,2023-11-29 12:58:02,2023-11-29 12:58:02,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 6, a6)",Chrome 119.0.0.0,,,2023-11-29 12:58:02,2023-11-29 12:58:02,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 7, a7)",Chrome 119.0.0.0,,,2023-11-29 12:58:02,2023-11-29 12:58:02,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 8, a8)",Chrome 119.0.0.0,,,2023-11-29 12:58:02,2023-11-29 12:58:02,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 9, a9)",Chrome 119.0.0.0,,,2023-11-29 12:58:02,2023-11-29 12:58:02,"0,000s",PASSED
+n = n + 1,Chrome 119.0.0.0,,,2023-11-29 12:58:02,2023-11-29 12:58:02,"0,000s",PASSED
+"saveWorkbook(excelFilePath, workbook01)",Chrome 119.0.0.0,,,2023-11-29 12:58:02,2023-11-29 12:58:02,"0,103s",PASSED
+if (run == 3),Chrome 119.0.0.0,,,2023-11-29 12:58:02,2023-11-29 12:58:02,"0,000s",PASSED
+closeBrowser(),Chrome 119.0.0.0,,,2023-11-29 12:58:02,2023-11-29 12:58:03,"0,647s",PASSED
+n = data.getRowNumbers() + 1,Chrome 119.0.0.0,,,2023-11-29 12:58:03,2023-11-29 12:58:03,"0,000s",PASSED
+println(n),Chrome 119.0.0.0,,,2023-11-29 12:58:03,2023-11-29 12:58:03,"0,000s",PASSED
+"dashboardName = ""Выручка по ДЗО""",Chrome 119.0.0.0,,,2023-11-29 12:58:03,2023-11-29 12:58:03,"0,000s",PASSED
+"openBrowser("""")",Chrome 119.0.0.0,,,2023-11-29 12:58:03,2023-11-29 12:58:04,"1,117s",PASSED
+"navigateToUrl(findTestData(""PlanFact"").getValue(10, 5))",Chrome 119.0.0.0,,,2023-11-29 12:58:04,2023-11-29 12:58:15,"10,607s",PASSED
+"setText(findTestObject(""Страница авторизации/input__username""), findTestData(""PlanFact"").getValue(8, run))",Chrome 119.0.0.0,,,2023-11-29 12:58:15,2023-11-29 12:58:17,"2,055s",PASSED
+"setText(findTestObject(""Страница авторизации/input__password""), findTestData(""PlanFact"").getValue(9, run))",Chrome 119.0.0.0,,,2023-11-29 12:58:17,2023-11-29 12:58:17,"0,725s",PASSED
+"click(findTestObject(""Страница авторизации/button_""))",Chrome 119.0.0.0,,,2023-11-29 12:58:17,2023-11-29 12:58:19,"1,699s",PASSED
+delay(20),Chrome 119.0.0.0,,,2023-11-29 12:58:19,2023-11-29 12:58:39,"20,001s",PASSED
+"click(findTestObject(""Выручка по ДЗО/Фильтр Дата""))",Chrome 119.0.0.0,"Раскрыть фильтр ""Дата""",,2023-11-29 12:58:39,2023-11-29 12:58:39,"0,401s",PASSED
+"click(findTestObject(""Выручка по ДЗО/Снять выделение в фильтре Дата""))",Chrome 119.0.0.0,"Нажать ""Снять выделение""",,2023-11-29 12:58:39,2023-11-29 12:58:40,"0,488s",PASSED
+"click(findTestObject(""Выручка по ДЗО/Применить в фильтре Дата""))",Chrome 119.0.0.0,"Нажать ""Применить""",,2023-11-29 12:58:40,2023-11-29 12:58:41,"0,599s",PASSED
+"click(findTestObject(""Выручка по ДЗО/Фильтр Дата""))",Chrome 119.0.0.0,"Раскрыть фильтр ""Дата""",,2023-11-29 12:58:41,2023-11-29 12:58:41,"0,767s",PASSED
+"click(findTestObject(""Выручка по ДЗО/Снять выделение в фильтре Дата""))",Chrome 119.0.0.0,"Нажать ""Снять выделение""",,2023-11-29 12:58:41,2023-11-29 12:58:42,"0,469s",PASSED
+"scrollToElement(findTestObject(""Выручка по ДЗО/2023 список""), 30)",Chrome 119.0.0.0,,,2023-11-29 12:58:42,2023-11-29 12:58:42,"0,456s",PASSED
+"click(findTestObject(""Выручка по ДЗО/2023 список""))",Chrome 119.0.0.0,,,2023-11-29 12:58:42,2023-11-29 12:58:43,"0,354s",PASSED
+"scrollToElement(findTestObject(""Выручка по ДЗО/1 квартал 2023 список""), 30)",Chrome 119.0.0.0,,,2023-11-29 12:58:43,2023-11-29 12:58:43,"0,439s",PASSED
+"click(findTestObject(""Выручка по ДЗО/1 квартал 2023 выбрать""))",Chrome 119.0.0.0,Выбрать 1 квартал 2022,,2023-11-29 12:58:43,2023-11-29 12:58:43,"0,351s",PASSED
+"click(findTestObject(""Выручка по ДЗО/2 квартал 2023 выбрать""))",Chrome 119.0.0.0,,,2023-11-29 12:58:43,2023-11-29 12:58:44,"0,469s",PASSED
+"click(findTestObject(""Выручка по ДЗО/3 квартал 2023""))",Chrome 119.0.0.0,,,2023-11-29 12:58:44,2023-11-29 12:58:44,"0,469s",PASSED
+"scrollToElement(findTestObject(""Выручка по ДЗО/Заголовок дашборда""), 30)",Chrome 119.0.0.0,"Проскроллить до заголовка фильтра ""Дата""",,2023-11-29 12:58:44,2023-11-29 12:58:45,"0,543s",PASSED
+"click(findTestObject(""Выручка по ДЗО/Применить в фильтре Дата""))",Chrome 119.0.0.0,"Нажать ""Применить""",,2023-11-29 12:58:45,2023-11-29 12:58:45,"0,472s",PASSED
+"a3 = """"",Chrome 119.0.0.0,,,2023-11-29 12:58:45,2023-11-29 12:58:45,"0,000s",PASSED
+"a4 = """"",Chrome 119.0.0.0,,,2023-11-29 12:58:45,2023-11-29 12:58:45,"0,000s",PASSED
+"a5 = """"",Chrome 119.0.0.0,,,2023-11-29 12:58:45,2023-11-29 12:58:45,"0,000s",PASSED
+"a6 = """"",Chrome 119.0.0.0,,,2023-11-29 12:58:45,2023-11-29 12:58:45,"0,000s",PASSED
+"a7 = """"",Chrome 119.0.0.0,,,2023-11-29 12:58:45,2023-11-29 12:58:45,"0,000s",PASSED
+"a8 = """"",Chrome 119.0.0.0,,,2023-11-29 12:58:45,2023-11-29 12:58:45,"0,000s",PASSED
+"a9 = """"",Chrome 119.0.0.0,,,2023-11-29 12:58:45,2023-11-29 12:58:45,"0,000s",PASSED
+if (run == 1),Chrome 119.0.0.0,,,2023-11-29 12:58:45,2023-11-29 12:58:45,"0,000s",PASSED
+if (run == 2),Chrome 119.0.0.0,,,2023-11-29 12:58:45,2023-11-29 12:58:45,"0,000s",PASSED
+if (run == 3),Chrome 119.0.0.0,,,2023-11-29 12:58:45,2023-11-29 12:58:49,"3,556s",PASSED
+"sheetName = ""Sheet1""",Chrome 119.0.0.0,,,2023-11-29 12:58:49,2023-11-29 12:58:49,"0,000s",PASSED
+workbook01 = getWorkbook(excelFilePath),Chrome 119.0.0.0,,,2023-11-29 12:58:49,2023-11-29 12:58:49,"0,039s",PASSED
+"sheet01 = getExcelSheet(workbook01, sheetName)",Chrome 119.0.0.0,,,2023-11-29 12:58:49,2023-11-29 12:58:49,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 0, dashboardName)",Chrome 119.0.0.0,,,2023-11-29 12:58:49,2023-11-29 12:58:49,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 10, user)",Chrome 119.0.0.0,,,2023-11-29 12:58:49,2023-11-29 12:58:49,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 1, a1)",Chrome 119.0.0.0,,,2023-11-29 12:58:49,2023-11-29 12:58:49,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 2, a2)",Chrome 119.0.0.0,,,2023-11-29 12:58:49,2023-11-29 12:58:49,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 3, a3)",Chrome 119.0.0.0,,,2023-11-29 12:58:49,2023-11-29 12:58:49,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 4, a4)",Chrome 119.0.0.0,,,2023-11-29 12:58:49,2023-11-29 12:58:49,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 5, a5)",Chrome 119.0.0.0,,,2023-11-29 12:58:49,2023-11-29 12:58:49,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 6, a6)",Chrome 119.0.0.0,,,2023-11-29 12:58:49,2023-11-29 12:58:49,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 7, a7)",Chrome 119.0.0.0,,,2023-11-29 12:58:49,2023-11-29 12:58:49,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 8, a8)",Chrome 119.0.0.0,,,2023-11-29 12:58:49,2023-11-29 12:58:49,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 9, a9)",Chrome 119.0.0.0,,,2023-11-29 12:58:49,2023-11-29 12:58:49,"0,000s",PASSED
+n = n + 1,Chrome 119.0.0.0,,,2023-11-29 12:58:49,2023-11-29 12:58:49,"0,000s",PASSED
+"saveWorkbook(excelFilePath, workbook01)",Chrome 119.0.0.0,,,2023-11-29 12:58:49,2023-11-29 12:58:49,"0,128s",PASSED
+closeBrowser(),Chrome 119.0.0.0,,,2023-11-29 12:58:49,2023-11-29 12:58:50,"0,655s",PASSED
+"for ([run = 1, run < 4, (run++)])",Chrome 119.0.0.0,,,2023-11-29 12:58:50,2023-11-29 12:58:50,"0,000s",PASSED
+n = data.getRowNumbers() + 1,Chrome 119.0.0.0,,,2023-11-29 12:58:50,2023-11-29 12:58:50,"0,001s",PASSED
+println(n),Chrome 119.0.0.0,,,2023-11-29 12:58:50,2023-11-29 12:58:50,"0,000s",PASSED
+"dashboardName = ""Прогноз по ДЗО""",Chrome 119.0.0.0,,,2023-11-29 12:58:50,2023-11-29 12:58:50,"0,000s",PASSED
+"openBrowser("""")",Chrome 119.0.0.0,,,2023-11-29 12:58:50,2023-11-29 12:58:51,"1,121s",PASSED
+"navigateToUrl(findTestData(""PlanFact"").getValue(10, 19))",Chrome 119.0.0.0,,,2023-11-29 12:58:51,2023-11-29 12:58:55,"3,740s",PASSED
+"setText(findTestObject(""Страница авторизации/input__username""), findTestData(""PlanFact"").getValue(8, run))",Chrome 119.0.0.0,,,2023-11-29 12:58:55,2023-11-29 12:58:56,"1,899s",PASSED
+"setText(findTestObject(""Страница авторизации/input__password""), findTestData(""PlanFact"").getValue(9, run))",Chrome 119.0.0.0,,,2023-11-29 12:58:56,2023-11-29 12:58:57,"0,707s",PASSED
+"click(findTestObject(""Страница авторизации/button_""))",Chrome 119.0.0.0,,,2023-11-29 12:58:57,2023-11-29 12:58:58,"1,218s",PASSED
+delay(20),Chrome 119.0.0.0,,,2023-11-29 12:58:58,2023-11-29 12:59:18,"20,002s",PASSED
+"a3 = """"",Chrome 119.0.0.0,,,2023-11-29 12:59:18,2023-11-29 12:59:18,"0,000s",PASSED
+"a4 = """"",Chrome 119.0.0.0,,,2023-11-29 12:59:18,2023-11-29 12:59:18,"0,001s",PASSED
+"a5 = """"",Chrome 119.0.0.0,,,2023-11-29 12:59:18,2023-11-29 12:59:18,"0,000s",PASSED
+"a6 = """"",Chrome 119.0.0.0,,,2023-11-29 12:59:18,2023-11-29 12:59:18,"0,000s",PASSED
+"a7 = """"",Chrome 119.0.0.0,,,2023-11-29 12:59:18,2023-11-29 12:59:18,"0,000s",PASSED
+"a8 = """"",Chrome 119.0.0.0,,,2023-11-29 12:59:18,2023-11-29 12:59:18,"0,000s",PASSED
+"a9 = """"",Chrome 119.0.0.0,,,2023-11-29 12:59:18,2023-11-29 12:59:18,"0,000s",PASSED
+if (run == 1),Chrome 119.0.0.0,,,2023-11-29 12:59:18,2023-11-29 12:59:21,"2,744s",PASSED
+"sheetName = ""Sheet1""",Chrome 119.0.0.0,,,2023-11-29 12:59:21,2023-11-29 12:59:21,"0,000s",PASSED
+workbook01 = getWorkbook(excelFilePath),Chrome 119.0.0.0,,,2023-11-29 12:59:21,2023-11-29 12:59:21,"0,036s",PASSED
+"sheet01 = getExcelSheet(workbook01, sheetName)",Chrome 119.0.0.0,,,2023-11-29 12:59:21,2023-11-29 12:59:21,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 0, dashboardName)",Chrome 119.0.0.0,,,2023-11-29 12:59:21,2023-11-29 12:59:21,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 10, user)",Chrome 119.0.0.0,,,2023-11-29 12:59:21,2023-11-29 12:59:21,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 1, a1)",Chrome 119.0.0.0,,,2023-11-29 12:59:21,2023-11-29 12:59:21,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 2, a2)",Chrome 119.0.0.0,,,2023-11-29 12:59:21,2023-11-29 12:59:21,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 3, a3)",Chrome 119.0.0.0,,,2023-11-29 12:59:21,2023-11-29 12:59:21,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 4, a4)",Chrome 119.0.0.0,,,2023-11-29 12:59:21,2023-11-29 12:59:21,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 5, a5)",Chrome 119.0.0.0,,,2023-11-29 12:59:21,2023-11-29 12:59:21,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 6, a6)",Chrome 119.0.0.0,,,2023-11-29 12:59:21,2023-11-29 12:59:21,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 7, a7)",Chrome 119.0.0.0,,,2023-11-29 12:59:21,2023-11-29 12:59:21,"0,003s",PASSED
+"setValueToCellByIndex(sheet01, n, 8, a8)",Chrome 119.0.0.0,,,2023-11-29 12:59:21,2023-11-29 12:59:21,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 9, a9)",Chrome 119.0.0.0,,,2023-11-29 12:59:21,2023-11-29 12:59:21,"0,000s",PASSED
+n = n + 1,Chrome 119.0.0.0,,,2023-11-29 12:59:21,2023-11-29 12:59:21,"0,000s",PASSED
+"saveWorkbook(excelFilePath, workbook01)",Chrome 119.0.0.0,,,2023-11-29 12:59:21,2023-11-29 12:59:21,"0,134s",PASSED
+if (run == 2),Chrome 119.0.0.0,,,2023-11-29 12:59:21,2023-11-29 12:59:21,"0,000s",PASSED
+if (run == 3),Chrome 119.0.0.0,,,2023-11-29 12:59:21,2023-11-29 12:59:21,"0,000s",PASSED
+closeBrowser(),Chrome 119.0.0.0,,,2023-11-29 12:59:21,2023-11-29 12:59:22,"0,618s",PASSED
+n = data.getRowNumbers() + 1,Chrome 119.0.0.0,,,2023-11-29 12:59:22,2023-11-29 12:59:22,"0,000s",PASSED
+println(n),Chrome 119.0.0.0,,,2023-11-29 12:59:22,2023-11-29 12:59:22,"0,000s",PASSED
+"dashboardName = ""Прогноз по ДЗО""",Chrome 119.0.0.0,,,2023-11-29 12:59:22,2023-11-29 12:59:22,"0,000s",PASSED
+"openBrowser("""")",Chrome 119.0.0.0,,,2023-11-29 12:59:22,2023-11-29 12:59:23,"1,106s",PASSED
+"navigateToUrl(findTestData(""PlanFact"").getValue(10, 19))",Chrome 119.0.0.0,,,2023-11-29 12:59:23,2023-11-29 12:59:26,"3,229s",PASSED
+"setText(findTestObject(""Страница авторизации/input__username""), findTestData(""PlanFact"").getValue(8, run))",Chrome 119.0.0.0,,,2023-11-29 12:59:26,2023-11-29 12:59:28,"1,722s",PASSED
+"setText(findTestObject(""Страница авторизации/input__password""), findTestData(""PlanFact"").getValue(9, run))",Chrome 119.0.0.0,,,2023-11-29 12:59:28,2023-11-29 12:59:29,"0,697s",PASSED
+"click(findTestObject(""Страница авторизации/button_""))",Chrome 119.0.0.0,,,2023-11-29 12:59:29,2023-11-29 12:59:30,"1,431s",PASSED
+delay(20),Chrome 119.0.0.0,,,2023-11-29 12:59:30,2023-11-29 12:59:50,"20,009s",PASSED
+"a3 = """"",Chrome 119.0.0.0,,,2023-11-29 12:59:50,2023-11-29 12:59:50,"0,000s",PASSED
+"a4 = """"",Chrome 119.0.0.0,,,2023-11-29 12:59:50,2023-11-29 12:59:50,"0,000s",PASSED
+"a5 = """"",Chrome 119.0.0.0,,,2023-11-29 12:59:50,2023-11-29 12:59:50,"0,001s",PASSED
+"a6 = """"",Chrome 119.0.0.0,,,2023-11-29 12:59:50,2023-11-29 12:59:50,"0,000s",PASSED
+"a7 = """"",Chrome 119.0.0.0,,,2023-11-29 12:59:50,2023-11-29 12:59:50,"0,000s",PASSED
+"a8 = """"",Chrome 119.0.0.0,,,2023-11-29 12:59:50,2023-11-29 12:59:50,"0,000s",PASSED
+"a9 = """"",Chrome 119.0.0.0,,,2023-11-29 12:59:50,2023-11-29 12:59:50,"0,000s",PASSED
+if (run == 1),Chrome 119.0.0.0,,,2023-11-29 12:59:50,2023-11-29 12:59:50,"0,000s",PASSED
+if (run == 2),Chrome 119.0.0.0,,,2023-11-29 12:59:50,2023-11-29 12:59:53,"3,016s",PASSED
+"sheetName = ""Sheet1""",Chrome 119.0.0.0,,,2023-11-29 12:59:53,2023-11-29 12:59:53,"0,000s",PASSED
+workbook01 = getWorkbook(excelFilePath),Chrome 119.0.0.0,,,2023-11-29 12:59:53,2023-11-29 12:59:53,"0,035s",PASSED
+"sheet01 = getExcelSheet(workbook01, sheetName)",Chrome 119.0.0.0,,,2023-11-29 12:59:53,2023-11-29 12:59:53,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 0, dashboardName)",Chrome 119.0.0.0,,,2023-11-29 12:59:53,2023-11-29 12:59:53,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 10, user)",Chrome 119.0.0.0,,,2023-11-29 12:59:53,2023-11-29 12:59:53,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 1, a1)",Chrome 119.0.0.0,,,2023-11-29 12:59:53,2023-11-29 12:59:53,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 2, a2)",Chrome 119.0.0.0,,,2023-11-29 12:59:53,2023-11-29 12:59:53,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 3, a3)",Chrome 119.0.0.0,,,2023-11-29 12:59:53,2023-11-29 12:59:53,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 4, a4)",Chrome 119.0.0.0,,,2023-11-29 12:59:53,2023-11-29 12:59:53,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 5, a5)",Chrome 119.0.0.0,,,2023-11-29 12:59:53,2023-11-29 12:59:53,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 6, a6)",Chrome 119.0.0.0,,,2023-11-29 12:59:53,2023-11-29 12:59:53,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 7, a7)",Chrome 119.0.0.0,,,2023-11-29 12:59:53,2023-11-29 12:59:53,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 8, a8)",Chrome 119.0.0.0,,,2023-11-29 12:59:53,2023-11-29 12:59:53,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 9, a9)",Chrome 119.0.0.0,,,2023-11-29 12:59:53,2023-11-29 12:59:53,"0,000s",PASSED
+n = n + 1,Chrome 119.0.0.0,,,2023-11-29 12:59:53,2023-11-29 12:59:53,"0,000s",PASSED
+"saveWorkbook(excelFilePath, workbook01)",Chrome 119.0.0.0,,,2023-11-29 12:59:53,2023-11-29 12:59:53,"0,113s",PASSED
+if (run == 3),Chrome 119.0.0.0,,,2023-11-29 12:59:53,2023-11-29 12:59:53,"0,000s",PASSED
+closeBrowser(),Chrome 119.0.0.0,,,2023-11-29 12:59:53,2023-11-29 12:59:54,"0,636s",PASSED
+n = data.getRowNumbers() + 1,Chrome 119.0.0.0,,,2023-11-29 12:59:54,2023-11-29 12:59:54,"0,000s",PASSED
+println(n),Chrome 119.0.0.0,,,2023-11-29 12:59:54,2023-11-29 12:59:54,"0,000s",PASSED
+"dashboardName = ""Прогноз по ДЗО""",Chrome 119.0.0.0,,,2023-11-29 12:59:54,2023-11-29 12:59:54,"0,000s",PASSED
+"openBrowser("""")",Chrome 119.0.0.0,,,2023-11-29 12:59:54,2023-11-29 12:59:55,"1,111s",PASSED
+"navigateToUrl(findTestData(""PlanFact"").getValue(10, 19))",Chrome 119.0.0.0,,,2023-11-29 12:59:55,2023-11-29 13:00:07,"11,478s",PASSED
+"setText(findTestObject(""Страница авторизации/input__username""), findTestData(""PlanFact"").getValue(8, run))",Chrome 119.0.0.0,,,2023-11-29 13:00:07,2023-11-29 13:00:08,"1,806s",PASSED
+"setText(findTestObject(""Страница авторизации/input__password""), findTestData(""PlanFact"").getValue(9, run))",Chrome 119.0.0.0,,,2023-11-29 13:00:08,2023-11-29 13:00:09,"0,704s",PASSED
+"click(findTestObject(""Страница авторизации/button_""))",Chrome 119.0.0.0,,,2023-11-29 13:00:09,2023-11-29 13:00:10,"1,363s",PASSED
+delay(20),Chrome 119.0.0.0,,,2023-11-29 13:00:10,2023-11-29 13:00:30,"20,003s",PASSED
+"a3 = """"",Chrome 119.0.0.0,,,2023-11-29 13:00:30,2023-11-29 13:00:30,"0,000s",PASSED
+"a4 = """"",Chrome 119.0.0.0,,,2023-11-29 13:00:30,2023-11-29 13:00:30,"0,000s",PASSED
+"a5 = """"",Chrome 119.0.0.0,,,2023-11-29 13:00:30,2023-11-29 13:00:30,"0,001s",PASSED
+"a6 = """"",Chrome 119.0.0.0,,,2023-11-29 13:00:30,2023-11-29 13:00:30,"0,000s",PASSED
+"a7 = """"",Chrome 119.0.0.0,,,2023-11-29 13:00:30,2023-11-29 13:00:30,"0,000s",PASSED
+"a8 = """"",Chrome 119.0.0.0,,,2023-11-29 13:00:30,2023-11-29 13:00:30,"0,000s",PASSED
+"a9 = """"",Chrome 119.0.0.0,,,2023-11-29 13:00:30,2023-11-29 13:00:30,"0,000s",PASSED
+if (run == 1),Chrome 119.0.0.0,,,2023-11-29 13:00:30,2023-11-29 13:00:30,"0,000s",PASSED
+if (run == 2),Chrome 119.0.0.0,,,2023-11-29 13:00:30,2023-11-29 13:00:30,"0,000s",PASSED
+if (run == 3),Chrome 119.0.0.0,,,2023-11-29 13:00:30,2023-11-29 13:00:33,"2,993s",PASSED
+"sheetName = ""Sheet1""",Chrome 119.0.0.0,,,2023-11-29 13:00:33,2023-11-29 13:00:33,"0,000s",PASSED
+workbook01 = getWorkbook(excelFilePath),Chrome 119.0.0.0,,,2023-11-29 13:00:33,2023-11-29 13:00:33,"0,035s",PASSED
+"sheet01 = getExcelSheet(workbook01, sheetName)",Chrome 119.0.0.0,,,2023-11-29 13:00:33,2023-11-29 13:00:33,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 0, dashboardName)",Chrome 119.0.0.0,,,2023-11-29 13:00:33,2023-11-29 13:00:33,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 10, user)",Chrome 119.0.0.0,,,2023-11-29 13:00:33,2023-11-29 13:00:33,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 1, a1)",Chrome 119.0.0.0,,,2023-11-29 13:00:33,2023-11-29 13:00:33,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 2, a2)",Chrome 119.0.0.0,,,2023-11-29 13:00:33,2023-11-29 13:00:33,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 3, a3)",Chrome 119.0.0.0,,,2023-11-29 13:00:33,2023-11-29 13:00:33,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 4, a4)",Chrome 119.0.0.0,,,2023-11-29 13:00:33,2023-11-29 13:00:33,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 5, a5)",Chrome 119.0.0.0,,,2023-11-29 13:00:33,2023-11-29 13:00:33,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 6, a6)",Chrome 119.0.0.0,,,2023-11-29 13:00:33,2023-11-29 13:00:33,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 7, a7)",Chrome 119.0.0.0,,,2023-11-29 13:00:33,2023-11-29 13:00:33,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 8, a8)",Chrome 119.0.0.0,,,2023-11-29 13:00:33,2023-11-29 13:00:33,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 9, a9)",Chrome 119.0.0.0,,,2023-11-29 13:00:33,2023-11-29 13:00:33,"0,000s",PASSED
+n = n + 1,Chrome 119.0.0.0,,,2023-11-29 13:00:33,2023-11-29 13:00:33,"0,000s",PASSED
+"saveWorkbook(excelFilePath, workbook01)",Chrome 119.0.0.0,,,2023-11-29 13:00:33,2023-11-29 13:00:34,"0,108s",PASSED
+closeBrowser(),Chrome 119.0.0.0,,,2023-11-29 13:00:34,2023-11-29 13:00:34,"0,622s",PASSED
+"for ([run = 1, run < 4, (run++)])",Chrome 119.0.0.0,,,2023-11-29 13:00:34,2023-11-29 13:00:34,"0,001s",PASSED
+n = data.getRowNumbers() + 1,Chrome 119.0.0.0,,,2023-11-29 13:00:34,2023-11-29 13:00:34,"0,000s",PASSED
+println(n),Chrome 119.0.0.0,,,2023-11-29 13:00:34,2023-11-29 13:00:34,"0,000s",PASSED
+"dashboardName = ""Прогноз по отраслям""",Chrome 119.0.0.0,,,2023-11-29 13:00:34,2023-11-29 13:00:34,"0,001s",PASSED
+"openBrowser("""")",Chrome 119.0.0.0,,,2023-11-29 13:00:34,2023-11-29 13:00:35,"1,136s",PASSED
+"navigateToUrl(findTestData(""PlanFact"").getValue(10, 6))",Chrome 119.0.0.0,,,2023-11-29 13:00:35,2023-11-29 13:00:49,"14,023s",PASSED
+"setText(findTestObject(""Страница авторизации/input__username""), findTestData(""PlanFact"").getValue(8, run))",Chrome 119.0.0.0,,,2023-11-29 13:00:49,2023-11-29 13:00:50,"0,693s",PASSED
+"setText(findTestObject(""Страница авторизации/input__password""), findTestData(""PlanFact"").getValue(9, run))",Chrome 119.0.0.0,,,2023-11-29 13:00:50,2023-11-29 13:00:51,"0,704s",PASSED
+"click(findTestObject(""Страница авторизации/button_""))",Chrome 119.0.0.0,,,2023-11-29 13:00:51,2023-11-29 13:00:52,"1,226s",PASSED
+delay(20),Chrome 119.0.0.0,,,2023-11-29 13:00:52,2023-11-29 13:01:12,"20,005s",PASSED
+"a3 = """"",Chrome 119.0.0.0,,,2023-11-29 13:01:12,2023-11-29 13:01:12,"0,000s",PASSED
+"a4 = """"",Chrome 119.0.0.0,,,2023-11-29 13:01:12,2023-11-29 13:01:12,"0,001s",PASSED
+"a5 = """"",Chrome 119.0.0.0,,,2023-11-29 13:01:12,2023-11-29 13:01:12,"0,000s",PASSED
+"a6 = """"",Chrome 119.0.0.0,,,2023-11-29 13:01:12,2023-11-29 13:01:12,"0,000s",PASSED
+"a7 = """"",Chrome 119.0.0.0,,,2023-11-29 13:01:12,2023-11-29 13:01:12,"0,000s",PASSED
+"a8 = """"",Chrome 119.0.0.0,,,2023-11-29 13:01:12,2023-11-29 13:01:12,"0,000s",PASSED
+"a9 = """"",Chrome 119.0.0.0,,,2023-11-29 13:01:12,2023-11-29 13:01:12,"0,000s",PASSED
+if (run == 1),Chrome 119.0.0.0,,,2023-11-29 13:01:12,2023-11-29 13:01:14,"1,840s",PASSED
+"sheetName = ""Sheet1""",Chrome 119.0.0.0,,,2023-11-29 13:01:14,2023-11-29 13:01:14,"0,000s",PASSED
+workbook01 = getWorkbook(excelFilePath),Chrome 119.0.0.0,,,2023-11-29 13:01:14,2023-11-29 13:01:14,"0,034s",PASSED
+"sheet01 = getExcelSheet(workbook01, sheetName)",Chrome 119.0.0.0,,,2023-11-29 13:01:14,2023-11-29 13:01:14,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 0, dashboardName)",Chrome 119.0.0.0,,,2023-11-29 13:01:14,2023-11-29 13:01:14,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 10, user)",Chrome 119.0.0.0,,,2023-11-29 13:01:14,2023-11-29 13:01:14,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 1, a1)",Chrome 119.0.0.0,,,2023-11-29 13:01:14,2023-11-29 13:01:14,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 2, a2)",Chrome 119.0.0.0,,,2023-11-29 13:01:14,2023-11-29 13:01:14,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 3, a3)",Chrome 119.0.0.0,,,2023-11-29 13:01:14,2023-11-29 13:01:14,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 4, a4)",Chrome 119.0.0.0,,,2023-11-29 13:01:14,2023-11-29 13:01:14,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 5, a5)",Chrome 119.0.0.0,,,2023-11-29 13:01:14,2023-11-29 13:01:14,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 6, a6)",Chrome 119.0.0.0,,,2023-11-29 13:01:14,2023-11-29 13:01:14,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 7, a7)",Chrome 119.0.0.0,,,2023-11-29 13:01:14,2023-11-29 13:01:14,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 8, a8)",Chrome 119.0.0.0,,,2023-11-29 13:01:14,2023-11-29 13:01:14,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 9, a9)",Chrome 119.0.0.0,,,2023-11-29 13:01:14,2023-11-29 13:01:14,"0,000s",PASSED
+n = n + 1,Chrome 119.0.0.0,,,2023-11-29 13:01:14,2023-11-29 13:01:14,"0,000s",PASSED
+"saveWorkbook(excelFilePath, workbook01)",Chrome 119.0.0.0,,,2023-11-29 13:01:14,2023-11-29 13:01:14,"0,126s",PASSED
+if (run == 2),Chrome 119.0.0.0,,,2023-11-29 13:01:14,2023-11-29 13:01:14,"0,010s",PASSED
+if (run == 3),Chrome 119.0.0.0,,,2023-11-29 13:01:14,2023-11-29 13:01:14,"0,000s",PASSED
+closeBrowser(),Chrome 119.0.0.0,,,2023-11-29 13:01:14,2023-11-29 13:01:15,"0,624s",PASSED
+n = data.getRowNumbers() + 1,Chrome 119.0.0.0,,,2023-11-29 13:01:15,2023-11-29 13:01:15,"0,000s",PASSED
+println(n),Chrome 119.0.0.0,,,2023-11-29 13:01:15,2023-11-29 13:01:15,"0,000s",PASSED
+"dashboardName = ""Прогноз по отраслям""",Chrome 119.0.0.0,,,2023-11-29 13:01:15,2023-11-29 13:01:15,"0,000s",PASSED
+"openBrowser("""")",Chrome 119.0.0.0,,,2023-11-29 13:01:15,2023-11-29 13:01:16,"1,108s",PASSED
+"navigateToUrl(findTestData(""PlanFact"").getValue(10, 6))",Chrome 119.0.0.0,,,2023-11-29 13:01:16,2023-11-29 13:01:31,"15,262s",PASSED
+"setText(findTestObject(""Страница авторизации/input__username""), findTestData(""PlanFact"").getValue(8, run))",Chrome 119.0.0.0,,,2023-11-29 13:01:31,2023-11-29 13:01:33,"1,811s",PASSED
+"setText(findTestObject(""Страница авторизации/input__password""), findTestData(""PlanFact"").getValue(9, run))",Chrome 119.0.0.0,,,2023-11-29 13:01:33,2023-11-29 13:01:34,"0,703s",PASSED
+"click(findTestObject(""Страница авторизации/button_""))",Chrome 119.0.0.0,,,2023-11-29 13:01:34,2023-11-29 13:01:35,"1,292s",PASSED
+delay(20),Chrome 119.0.0.0,,,2023-11-29 13:01:35,2023-11-29 13:01:55,"20,007s",PASSED
+"a3 = """"",Chrome 119.0.0.0,,,2023-11-29 13:01:55,2023-11-29 13:01:55,"0,000s",PASSED
+"a4 = """"",Chrome 119.0.0.0,,,2023-11-29 13:01:55,2023-11-29 13:01:55,"0,000s",PASSED
+"a5 = """"",Chrome 119.0.0.0,,,2023-11-29 13:01:55,2023-11-29 13:01:55,"0,000s",PASSED
+"a6 = """"",Chrome 119.0.0.0,,,2023-11-29 13:01:55,2023-11-29 13:01:55,"0,000s",PASSED
+"a7 = """"",Chrome 119.0.0.0,,,2023-11-29 13:01:55,2023-11-29 13:01:55,"0,000s",PASSED
+"a8 = """"",Chrome 119.0.0.0,,,2023-11-29 13:01:55,2023-11-29 13:01:55,"0,000s",PASSED
+"a9 = """"",Chrome 119.0.0.0,,,2023-11-29 13:01:55,2023-11-29 13:01:55,"0,000s",PASSED
+if (run == 1),Chrome 119.0.0.0,,,2023-11-29 13:01:55,2023-11-29 13:01:55,"0,000s",PASSED
+if (run == 2),Chrome 119.0.0.0,,,2023-11-29 13:01:55,2023-11-29 13:01:57,"1,969s",PASSED
+"sheetName = ""Sheet1""",Chrome 119.0.0.0,,,2023-11-29 13:01:57,2023-11-29 13:01:57,"0,000s",PASSED
+workbook01 = getWorkbook(excelFilePath),Chrome 119.0.0.0,,,2023-11-29 13:01:57,2023-11-29 13:01:57,"0,037s",PASSED
+"sheet01 = getExcelSheet(workbook01, sheetName)",Chrome 119.0.0.0,,,2023-11-29 13:01:57,2023-11-29 13:01:57,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 0, dashboardName)",Chrome 119.0.0.0,,,2023-11-29 13:01:57,2023-11-29 13:01:57,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 10, user)",Chrome 119.0.0.0,,,2023-11-29 13:01:57,2023-11-29 13:01:57,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 1, a1)",Chrome 119.0.0.0,,,2023-11-29 13:01:57,2023-11-29 13:01:57,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 2, a2)",Chrome 119.0.0.0,,,2023-11-29 13:01:57,2023-11-29 13:01:57,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 3, a3)",Chrome 119.0.0.0,,,2023-11-29 13:01:57,2023-11-29 13:01:57,"0,001s",PASSED
+"setValueToCellByIndex(sheet01, n, 4, a4)",Chrome 119.0.0.0,,,2023-11-29 13:01:57,2023-11-29 13:01:57,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 5, a5)",Chrome 119.0.0.0,,,2023-11-29 13:01:57,2023-11-29 13:01:57,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 6, a6)",Chrome 119.0.0.0,,,2023-11-29 13:01:57,2023-11-29 13:01:57,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 7, a7)",Chrome 119.0.0.0,,,2023-11-29 13:01:57,2023-11-29 13:01:57,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 8, a8)",Chrome 119.0.0.0,,,2023-11-29 13:01:57,2023-11-29 13:01:57,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 9, a9)",Chrome 119.0.0.0,,,2023-11-29 13:01:57,2023-11-29 13:01:57,"0,000s",PASSED
+n = n + 1,Chrome 119.0.0.0,,,2023-11-29 13:01:57,2023-11-29 13:01:57,"0,000s",PASSED
+"saveWorkbook(excelFilePath, workbook01)",Chrome 119.0.0.0,,,2023-11-29 13:01:57,2023-11-29 13:01:57,"0,123s",PASSED
+if (run == 3),Chrome 119.0.0.0,,,2023-11-29 13:01:57,2023-11-29 13:01:57,"0,000s",PASSED
+closeBrowser(),Chrome 119.0.0.0,,,2023-11-29 13:01:57,2023-11-29 13:01:58,"0,629s",PASSED
+n = data.getRowNumbers() + 1,Chrome 119.0.0.0,,,2023-11-29 13:01:58,2023-11-29 13:01:58,"0,000s",PASSED
+println(n),Chrome 119.0.0.0,,,2023-11-29 13:01:58,2023-11-29 13:01:58,"0,000s",PASSED
+"dashboardName = ""Прогноз по отраслям""",Chrome 119.0.0.0,,,2023-11-29 13:01:58,2023-11-29 13:01:58,"0,000s",PASSED
+"openBrowser("""")",Chrome 119.0.0.0,,,2023-11-29 13:01:58,2023-11-29 13:01:59,"1,130s",PASSED
+"navigateToUrl(findTestData(""PlanFact"").getValue(10, 6))",Chrome 119.0.0.0,,,2023-11-29 13:01:59,2023-11-29 13:02:22,"22,890s",PASSED
+"setText(findTestObject(""Страница авторизации/input__username""), findTestData(""PlanFact"").getValue(8, run))",Chrome 119.0.0.0,,,2023-11-29 13:02:22,2023-11-29 13:02:22,"0,688s",PASSED
+"setText(findTestObject(""Страница авторизации/input__password""), findTestData(""PlanFact"").getValue(9, run))",Chrome 119.0.0.0,,,2023-11-29 13:02:22,2023-11-29 13:02:23,"0,702s",PASSED
+"click(findTestObject(""Страница авторизации/button_""))",Chrome 119.0.0.0,,,2023-11-29 13:02:23,2023-11-29 13:02:24,"1,299s",PASSED
+delay(20),Chrome 119.0.0.0,,,2023-11-29 13:02:24,2023-11-29 13:02:44,"20,011s",PASSED
+"a3 = """"",Chrome 119.0.0.0,,,2023-11-29 13:02:44,2023-11-29 13:02:44,"0,000s",PASSED
+"a4 = """"",Chrome 119.0.0.0,,,2023-11-29 13:02:44,2023-11-29 13:02:44,"0,000s",PASSED
+"a5 = """"",Chrome 119.0.0.0,,,2023-11-29 13:02:44,2023-11-29 13:02:44,"0,001s",PASSED
+"a6 = """"",Chrome 119.0.0.0,,,2023-11-29 13:02:44,2023-11-29 13:02:44,"0,000s",PASSED
+"a7 = """"",Chrome 119.0.0.0,,,2023-11-29 13:02:44,2023-11-29 13:02:44,"0,000s",PASSED
+"a8 = """"",Chrome 119.0.0.0,,,2023-11-29 13:02:44,2023-11-29 13:02:44,"0,000s",PASSED
+"a9 = """"",Chrome 119.0.0.0,,,2023-11-29 13:02:44,2023-11-29 13:02:44,"0,000s",PASSED
+if (run == 1),Chrome 119.0.0.0,,,2023-11-29 13:02:44,2023-11-29 13:02:44,"0,000s",PASSED
+if (run == 2),Chrome 119.0.0.0,,,2023-11-29 13:02:44,2023-11-29 13:02:44,"0,000s",PASSED
+if (run == 3),Chrome 119.0.0.0,,,2023-11-29 13:02:44,2023-11-29 13:02:46,"1,940s",PASSED
+"sheetName = ""Sheet1""",Chrome 119.0.0.0,,,2023-11-29 13:02:46,2023-11-29 13:02:46,"0,000s",PASSED
+workbook01 = getWorkbook(excelFilePath),Chrome 119.0.0.0,,,2023-11-29 13:02:46,2023-11-29 13:02:46,"0,033s",PASSED
+"sheet01 = getExcelSheet(workbook01, sheetName)",Chrome 119.0.0.0,,,2023-11-29 13:02:46,2023-11-29 13:02:46,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 0, dashboardName)",Chrome 119.0.0.0,,,2023-11-29 13:02:46,2023-11-29 13:02:46,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 10, user)",Chrome 119.0.0.0,,,2023-11-29 13:02:46,2023-11-29 13:02:46,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 1, a1)",Chrome 119.0.0.0,,,2023-11-29 13:02:46,2023-11-29 13:02:46,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 2, a2)",Chrome 119.0.0.0,,,2023-11-29 13:02:46,2023-11-29 13:02:46,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 3, a3)",Chrome 119.0.0.0,,,2023-11-29 13:02:46,2023-11-29 13:02:46,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 4, a4)",Chrome 119.0.0.0,,,2023-11-29 13:02:46,2023-11-29 13:02:46,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 5, a5)",Chrome 119.0.0.0,,,2023-11-29 13:02:46,2023-11-29 13:02:46,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 6, a6)",Chrome 119.0.0.0,,,2023-11-29 13:02:46,2023-11-29 13:02:46,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 7, a7)",Chrome 119.0.0.0,,,2023-11-29 13:02:46,2023-11-29 13:02:46,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 8, a8)",Chrome 119.0.0.0,,,2023-11-29 13:02:46,2023-11-29 13:02:46,"0,000s",PASSED
+"setValueToCellByIndex(sheet01, n, 9, a9)",Chrome 119.0.0.0,,,2023-11-29 13:02:46,2023-11-29 13:02:46,"0,000s",PASSED
+n = n + 1,Chrome 119.0.0.0,,,2023-11-29 13:02:46,2023-11-29 13:02:46,"0,000s",PASSED
+"saveWorkbook(excelFilePath, workbook01)",Chrome 119.0.0.0,,,2023-11-29 13:02:46,2023-11-29 13:02:46,"0,127s",PASSED
+closeBrowser(),Chrome 119.0.0.0,,,2023-11-29 13:02:46,2023-11-29 13:02:47,"0,627s",PASSED
