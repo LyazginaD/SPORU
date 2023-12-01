@@ -22,7 +22,7 @@
       <guid>f4845144-09fc-4a3c-8d66-a3b716632bd4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Сверки дашбордов/Выручка в рублях сверка дашбордов все ДЗО/Выручка в рублях сверка дашбордов ПАО Россети</testCaseId>
+      <testCaseId>Test Cases/Архив/Выручка в рублях сверка дашбордов все ДЗО/Выручка в рублях сверка дашбордов ПАО Россети</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
