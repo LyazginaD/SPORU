@@ -437,7 +437,7 @@ def DzoTest(def run, def typeOfData, def todaysDate) {
 
     OpenRaspredkompleks()
 
-    WebUI.scrollToElement(findTestObject('Выручка в рублях/Россети Томск'), 30)
+    WebUI.scrollToElement(findTestObject('Выручка в рублях/Россети Тюмень'), 30)
 
     WebUI.click(findTestObject('Выручка в рублях/Россети Томск'))
 

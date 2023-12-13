@@ -41,7 +41,6 @@ if (WebUI.verifyTextPresent('Просьба обратить внимание', 
     WebUI.click(findTestObject('Выполнение бизнес-плана/Закрыть оповещение'))
 }
 
-
 'Открыть фильтр "ДЗО"'
 WebUI.click(findTestObject('Object Repository/Выполнение бизнес-плана/Фильтр ДЗО'))
 
@@ -58,19 +57,13 @@ def DzoTest(def todaysDate, def typeOfData) {
 
     Change(todaysDate, typeOfData)
 
-    WebUI.click(findTestObject('Выполнение бизнес-плана/Раскрыть список ПАО Россети в фильтре ДЗО'))
-
     WebUI.click(findTestObject('Выполнение бизнес-плана/Магистральные сети'))
 
     Change(todaysDate, typeOfData)
 
-    WebUI.click(findTestObject('Выполнение бизнес-плана/Раскрыть список Магистральные сети'))
-
     WebUI.click(findTestObject('Выполнение бизнес-плана/Россети ФСК ЕЭС'))
 
     Change(todaysDate, typeOfData)
-
-    WebUI.click(findTestObject('Выполнение бизнес-плана/Раскрыть список Россети ФСК ЕЭС'))
 
     WebUI.click(findTestObject('Общие объекты/Итого по ФСК ЕЭС'))
 
@@ -718,25 +711,23 @@ def DzoTest(def todaysDate, def typeOfData) {
 }
 
 static def Change(def todaysDate, def typeOfData) {
-	
-	Test(todaysDate, typeOfData)
-	
-	'Открыть фильтр "ДЗО"'
-	WebUI.click(findTestObject('Object Repository/Выполнение бизнес-плана/Фильтр ДЗО'))
-	
-	'Нажать "Снять выделение"'
-	WebUI.click(findTestObject('Выполнение бизнес-плана/Снять выделение в фильтре ДЗО'))
+    Test(todaysDate, typeOfData)
+
+    'Открыть фильтр "ДЗО"'
+    WebUI.click(findTestObject('Object Repository/Выполнение бизнес-плана/Фильтр ДЗО'))
+
+    'Нажать "Снять выделение"'
+    WebUI.click(findTestObject('Выполнение бизнес-плана/Снять выделение в фильтре ДЗО'))
 }
 
 static def Test(def todaysDate, def typeOfData) {
-	'Проскроллить до заголовка фильтра "ДЗО"'
-	WebUI.scrollToElement(findTestObject('Выполнение бизнес-плана/Заголовок фильтра ДЗО'), 30)
+    'Проскроллить до заголовка фильтра "ДЗО"'
+    WebUI.scrollToElement(findTestObject('Выполнение бизнес-плана/Заголовок фильтра ДЗО'), 30)
 
-	'Нажать "Применить"'
-	WebUI.click(findTestObject('Object Repository/Выполнение бизнес-плана/Применить в фильтре ДЗО'))
-	
-	WriteToExcel(todaysDate, typeOfData)
+    'Нажать "Применить"'
+    WebUI.click(findTestObject('Object Repository/Выполнение бизнес-плана/Применить в фильтре ДЗО'))
 
+    WriteToExcel(todaysDate, typeOfData)
 }
 
 static def WriteToExcel(def todaysDate, def typeOfData) {

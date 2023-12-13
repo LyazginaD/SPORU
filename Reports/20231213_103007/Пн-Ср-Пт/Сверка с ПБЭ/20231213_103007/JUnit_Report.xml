@@ -1,0 +1,3202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Сверка с ПБЭ" time="302.585" tests="1" failures="1" errors="0">
+   <testsuite name="Сверка с ПБЭ" tests="1" failures="1" errors="0" time="302.585" skipped="0" timestamp="2023-12-13 10:30:09" hostname="liazgina-di - UVV-WS904-D.ot.ru" id="Test Suites/Пн-Ср-Пт/Сверка с ПБЭ">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\LIAZGINA-DI\\git\\SPORU\\Reports\\20231213_103007\\\u041F\u043D-\u0421\u0440-\u041F\u0442\\\u0421\u0432\u0435\u0440\u043A\u0430 \u0441 \u041F\u0411\u042D\\20231213_103007"/>
+         <property name="logFiles" value="C:\\Users\\LIAZGINA-DI\\git\\SPORU\\Reports\\20231213_103007\\\u041F\u043D-\u0421\u0440-\u041F\u0442\\\u0421\u0432\u0435\u0440\u043A\u0430 \u0441 \u041F\u0411\u042D\\20231213_103007\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="liazgina-di - UVV-WS904-D.ot.ru"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.8.208"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.19"/>
+         <property name="sessionId" value="c15d7596bd41bd6665daaa4a8d801a69"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Выполнение бизнес-плана/Выполнение бизнес-плана Сверка ПАО Россети все филиалы" time="302.276" classname="Test Cases/Выполнение бизнес-плана/Выполнение бизнес-плана Сверка ПАО Россети все филиалы" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Выполнение бизнес-плана/Выполнение бизнес-плана Сверка ПАО Россети все филиалы FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify equal between actual object '5' and expected object '0' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object '5' and expected object '0' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:146)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.Numbers(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:550)
+	at Script1697465685113$Numbers.callStatic(Unknown Source)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.run(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:128)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1702452607096.run(TempTestSuite1702452607096.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:77)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:146)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.Numbers(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:550)
+	at Script1697465685113$Numbers.callStatic(Unknown Source)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.run(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:128)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1702452607096.run(TempTestSuite1702452607096.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual object '5' and expected object '0' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	... 20 more
+"/>
+         <system-out><![CDATA[2023-12-13 10:30:09 - [TEST_CASE][FAILED] - Test Cases/Выполнение бизнес-плана/Выполнение бизнес-плана Сверка ПАО Россети все филиалы: Test Cases/Выполнение бизнес-плана/Выполнение бизнес-плана Сверка ПАО Россети все филиалы FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify equal between actual object '5' and expected object '0' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object '5' and expected object '0' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:146)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.Numbers(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:550)
+	at Script1697465685113$Numbers.callStatic(Unknown Source)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.run(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:128)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1702452607096.run(TempTestSuite1702452607096.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:77)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:146)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.Numbers(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:550)
+	at Script1697465685113$Numbers.callStatic(Unknown Source)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.run(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:128)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1702452607096.run(TempTestSuite1702452607096.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual object '5' and expected object '0' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	... 20 more
+
+
+2023-12-13 10:30:10 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-12-13 10:30:10 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-12-13 10:30:10 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-12-13 10:30:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-12-13 10:30:12 - [TEST_STEP][PASSED] - date = new java.util.Date(): null
+
+2023-12-13 10:30:12 - [TEST_STEP][PASSED] - todaysDate = date.format("dd.MM.yyyy"): null
+
+2023-12-13 10:30:12 - [TEST_STEP][PASSED] - dZO = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:30:12 - [TEST_STEP][PASSED] - a = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:30:12 - [TEST_STEP][PASSED] - fileperc = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:30:12 - [TEST_STEP][PASSED] - pageperc = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:30:12 - [TEST_STEP][PASSED] - pageInt = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:30:12 - [TEST_STEP][PASSED] - fileInt = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:30:12 - [TEST_STEP][PASSED] - pageDouble = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:30:12 - [TEST_STEP][PASSED] - fileDouble = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:30:12 - [TEST_STEP][PASSED] - typeOfData = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:30:12 - [TEST_STEP][PASSED] - navigateToUrl(findTestData("PlanFact").getValue(10, 1)): Navigate to 'https://bi.rosseti.digital/viewer?dashboardGuid=d154a8eaf6824e2b9de1bb04dd061c18&sheetGuid=1305e8ce744049e1abdacea1ea397a26&fit=true' successfully
+
+2023-12-13 10:30:16 - [MESSAGE][PASSED] - Navigate to 'https://bi.rosseti.digital/viewer?dashboardGuid=d154a8eaf6824e2b9de1bb04dd061c18&sheetGuid=1305e8ce744049e1abdacea1ea397a26&fit=true' successfully
+
+2023-12-13 10:30:16 - [TEST_STEP][PASSED] - setText(findTestObject("Страница авторизации/input__username"), findTestData("PlanFact").getValue(8, 1)): Text 'liazgina-di' is set on object 'Object Repository/Страница авторизации/input__username'
+
+2023-12-13 10:30:18 - [MESSAGE][PASSED] - Text 'liazgina-di' is set on object 'Object Repository/Страница авторизации/input__username'
+
+2023-12-13 10:30:18 - [TEST_STEP][PASSED] - setText(findTestObject("Страница авторизации/input__password"), findTestData("PlanFact").getValue(9, 1)): Text 'Vn9AmwC88opu7pTtOO' is set on object 'Object Repository/Страница авторизации/input__password'
+
+2023-12-13 10:30:19 - [MESSAGE][PASSED] - Text 'Vn9AmwC88opu7pTtOO' is set on object 'Object Repository/Страница авторизации/input__password'
+
+2023-12-13 10:30:19 - [TEST_STEP][PASSED] - click(findTestObject("Страница авторизации/button_")): Object: 'Object Repository/Страница авторизации/button_' is clicked on
+
+2023-12-13 10:30:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Страница авторизации/button_' is clicked on
+
+2023-12-13 10:30:20 - [TEST_STEP][PASSED] - delay(40): Delayed 40 second(s)
+
+2023-12-13 10:31:00 - [MESSAGE][PASSED] - Delayed 40 second(s)
+
+2023-12-13 10:31:00 - [TEST_STEP][PASSED] - Script1697465685113.ZakrytOpoveshenie(): null
+
+2023-12-13 10:31:00 - [TEST_STEP][PASSED] - opoveshenie = getText(findTestObject("Выполнение бизнес-плана/Просьба обратить внимание")): Text of object 'Object Repository/Выполнение бизнес-плана/Просьба обратить внимание' is: 'Просьба обратить внимание'
+
+2023-12-13 10:31:01 - [MESSAGE][PASSED] - Text of object 'Object Repository/Выполнение бизнес-плана/Просьба обратить внимание' is: 'Просьба обратить внимание'
+
+2023-12-13 10:31:01 - [TEST_STEP][PASSED] - println(opoveshenie): null
+
+2023-12-13 10:31:01 - [TEST_STEP][PASSED] - if (opoveshenie == "Просьба обратить внимание"): Object: 'Object Repository/Выполнение бизнес-плана/Закрыть оповещение' is clicked on
+
+2023-12-13 10:31:01 - [TEST_STEP][PASSED] - click(findTestObject("Выполнение бизнес-плана/Закрыть оповещение")): Object: 'Object Repository/Выполнение бизнес-плана/Закрыть оповещение' is clicked on
+
+2023-12-13 10:31:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Выполнение бизнес-плана/Закрыть оповещение' is clicked on
+
+2023-12-13 10:31:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Выполнение бизнес-плана/Фильтр Дата")): Object: 'Object Repository/Выполнение бизнес-плана/Фильтр Дата' is clicked on
+
+2023-12-13 10:31:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Выполнение бизнес-плана/Фильтр Дата' is clicked on
+
+2023-12-13 10:31:02 - [TEST_STEP][PASSED] - click(findTestObject("Выполнение бизнес-плана/Снять выделение в фильтре Дата")): Object: 'Object Repository/Выполнение бизнес-плана/Снять выделение в фильтре Дата' is clicked on
+
+2023-12-13 10:31:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Выполнение бизнес-плана/Снять выделение в фильтре Дата' is clicked on
+
+2023-12-13 10:31:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Выполнение бизнес-плана/Применить в фильтре Дата")): Object: 'Object Repository/Выполнение бизнес-плана/Применить в фильтре Дата' is clicked on
+
+2023-12-13 10:31:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Выполнение бизнес-плана/Применить в фильтре Дата' is clicked on
+
+2023-12-13 10:31:03 - [TEST_STEP][PASSED] - delay(40): Delayed 40 second(s)
+
+2023-12-13 10:31:43 - [MESSAGE][PASSED] - Delayed 40 second(s)
+
+2023-12-13 10:31:43 - [TEST_STEP][PASSED] - Script1697465685113.ZakrytOpoveshenie(): null
+
+2023-12-13 10:31:43 - [TEST_STEP][PASSED] - opoveshenie = getText(findTestObject("Выполнение бизнес-плана/Просьба обратить внимание")): Text of object 'Object Repository/Выполнение бизнес-плана/Просьба обратить внимание' is: 'Просьба обратить внимание'
+
+2023-12-13 10:31:43 - [MESSAGE][PASSED] - Text of object 'Object Repository/Выполнение бизнес-плана/Просьба обратить внимание' is: 'Просьба обратить внимание'
+
+2023-12-13 10:31:43 - [TEST_STEP][PASSED] - println(opoveshenie): null
+
+2023-12-13 10:31:43 - [TEST_STEP][PASSED] - if (opoveshenie == "Просьба обратить внимание"): Object: 'Object Repository/Выполнение бизнес-плана/Закрыть оповещение' is clicked on
+
+2023-12-13 10:31:43 - [TEST_STEP][PASSED] - click(findTestObject("Выполнение бизнес-плана/Закрыть оповещение")): Object: 'Object Repository/Выполнение бизнес-плана/Закрыть оповещение' is clicked on
+
+2023-12-13 10:31:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Выполнение бизнес-плана/Закрыть оповещение' is clicked on
+
+2023-12-13 10:31:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Выполнение бизнес-плана/Фильтр Дата")): Object: 'Object Repository/Выполнение бизнес-плана/Фильтр Дата' is clicked on
+
+2023-12-13 10:31:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Выполнение бизнес-плана/Фильтр Дата' is clicked on
+
+2023-12-13 10:31:44 - [TEST_STEP][PASSED] - click(findTestObject("Выполнение бизнес-плана/Снять выделение в фильтре Дата")): Object: 'Object Repository/Выполнение бизнес-плана/Снять выделение в фильтре Дата' is clicked on
+
+2023-12-13 10:31:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Выполнение бизнес-плана/Снять выделение в фильтре Дата' is clicked on
+
+2023-12-13 10:31:45 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Выполнение бизнес-плана/2023 список"), 30): Scroll to object 'Object Repository/Выполнение бизнес-плана/2023 список' successfully
+
+2023-12-13 10:31:45 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Выполнение бизнес-плана/2023 список' successfully
+
+2023-12-13 10:31:45 - [TEST_STEP][PASSED] - click(findTestObject("Выполнение бизнес-плана/2023 список")): Object: 'Object Repository/Выполнение бизнес-плана/2023 список' is clicked on
+
+2023-12-13 10:31:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Выполнение бизнес-плана/2023 список' is clicked on
+
+2023-12-13 10:31:45 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Выполнение бизнес-плана/1 квартал 2023"), 30): Scroll to object 'Object Repository/Выполнение бизнес-плана/1 квартал 2023' successfully
+
+2023-12-13 10:31:46 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Выполнение бизнес-плана/1 квартал 2023' successfully
+
+2023-12-13 10:31:46 - [TEST_STEP][PASSED] - click(findTestObject("Выполнение бизнес-плана/1 квартал 2023")): Object: 'Object Repository/Выполнение бизнес-плана/1 квартал 2023' is clicked on
+
+2023-12-13 10:31:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Выполнение бизнес-плана/1 квартал 2023' is clicked on
+
+2023-12-13 10:31:46 - [TEST_STEP][PASSED] - click(findTestObject("Выполнение бизнес-плана/2 квартал 2023")): Object: 'Object Repository/Выполнение бизнес-плана/2 квартал 2023' is clicked on
+
+2023-12-13 10:31:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Выполнение бизнес-плана/2 квартал 2023' is clicked on
+
+2023-12-13 10:31:47 - [TEST_STEP][PASSED] - click(findTestObject("Выполнение бизнес-плана/3 квартал 2023")): Object: 'Object Repository/Выполнение бизнес-плана/3 квартал 2023' is clicked on
+
+2023-12-13 10:31:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Выполнение бизнес-плана/3 квартал 2023' is clicked on
+
+2023-12-13 10:31:47 - [TEST_STEP][PASSED] - click(findTestObject("Выполнение бизнес-плана/4 квартал 2023 список")): Object: 'Object Repository/Выполнение бизнес-плана/4 квартал 2023 список' is clicked on
+
+2023-12-13 10:31:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Выполнение бизнес-плана/4 квартал 2023 список' is clicked on
+
+2023-12-13 10:31:48 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Выполнение бизнес-плана/Октябрь 2023"), 30): Scroll to object 'Object Repository/Выполнение бизнес-плана/Октябрь 2023' successfully
+
+2023-12-13 10:31:48 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Выполнение бизнес-плана/Октябрь 2023' successfully
+
+2023-12-13 10:31:48 - [TEST_STEP][PASSED] - click(findTestObject("Выполнение бизнес-плана/Октябрь 2023")): Object: 'Object Repository/Выполнение бизнес-плана/Октябрь 2023' is clicked on
+
+2023-12-13 10:31:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Выполнение бизнес-плана/Октябрь 2023' is clicked on
+
+2023-12-13 10:31:49 - [TEST_STEP][PASSED] - delay(40): Delayed 40 second(s)
+
+2023-12-13 10:32:29 - [MESSAGE][PASSED] - Delayed 40 second(s)
+
+2023-12-13 10:32:29 - [TEST_STEP][PASSED] - Script1697465685113.ZakrytOpoveshenie(): null
+
+2023-12-13 10:32:29 - [TEST_STEP][PASSED] - opoveshenie = getText(findTestObject("Выполнение бизнес-плана/Просьба обратить внимание")): Text of object 'Object Repository/Выполнение бизнес-плана/Просьба обратить внимание' is: ''
+
+2023-12-13 10:32:29 - [MESSAGE][PASSED] - Text of object 'Object Repository/Выполнение бизнес-плана/Просьба обратить внимание' is: ''
+
+2023-12-13 10:32:29 - [TEST_STEP][PASSED] - println(opoveshenie): null
+
+2023-12-13 10:32:29 - [TEST_STEP][PASSED] - if (opoveshenie == "Просьба обратить внимание"): null
+
+2023-12-13 10:32:29 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Выполнение бизнес-плана/Заголовок дашборда"), 30): Scroll to object 'Object Repository/Выполнение бизнес-плана/Заголовок дашборда' successfully
+
+2023-12-13 10:32:29 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Выполнение бизнес-плана/Заголовок дашборда' successfully
+
+2023-12-13 10:32:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Выполнение бизнес-плана/Применить в фильтре Дата")): Object: 'Object Repository/Выполнение бизнес-плана/Применить в фильтре Дата' is clicked on
+
+2023-12-13 10:32:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Выполнение бизнес-плана/Применить в фильтре Дата' is clicked on
+
+2023-12-13 10:32:30 - [TEST_STEP][PASSED] - delay(40): Delayed 40 second(s)
+
+2023-12-13 10:33:10 - [MESSAGE][PASSED] - Delayed 40 second(s)
+
+2023-12-13 10:33:10 - [TEST_STEP][PASSED] - Script1697465685113.ZakrytOpoveshenie(): null
+
+2023-12-13 10:33:10 - [TEST_STEP][PASSED] - opoveshenie = getText(findTestObject("Выполнение бизнес-плана/Просьба обратить внимание")): Text of object 'Object Repository/Выполнение бизнес-плана/Просьба обратить внимание' is: 'Просьба обратить внимание'
+
+2023-12-13 10:33:11 - [MESSAGE][PASSED] - Text of object 'Object Repository/Выполнение бизнес-плана/Просьба обратить внимание' is: 'Просьба обратить внимание'
+
+2023-12-13 10:33:11 - [TEST_STEP][PASSED] - println(opoveshenie): null
+
+2023-12-13 10:33:11 - [TEST_STEP][PASSED] - if (opoveshenie == "Просьба обратить внимание"): Object: 'Object Repository/Выполнение бизнес-плана/Закрыть оповещение' is clicked on
+
+2023-12-13 10:33:11 - [TEST_STEP][PASSED] - click(findTestObject("Выполнение бизнес-плана/Закрыть оповещение")): Object: 'Object Repository/Выполнение бизнес-плана/Закрыть оповещение' is clicked on
+
+2023-12-13 10:33:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Выполнение бизнес-плана/Закрыть оповещение' is clicked on
+
+2023-12-13 10:33:11 - [TEST_STEP][PASSED] - delay(30): Delayed 30 second(s)
+
+2023-12-13 10:33:41 - [MESSAGE][PASSED] - Delayed 30 second(s)
+
+2023-12-13 10:33:41 - [TEST_STEP][PASSED] - Script1697465685113.OpenFilter(): null
+
+2023-12-13 10:33:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Выполнение бизнес-плана/Фильтр ДЗО")): Object: 'Object Repository/Выполнение бизнес-плана/Фильтр ДЗО' is clicked on
+
+2023-12-13 10:33:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Выполнение бизнес-плана/Фильтр ДЗО' is clicked on
+
+2023-12-13 10:33:41 - [TEST_STEP][PASSED] - click(findTestObject("Выполнение бизнес-плана/Снять выделение в фильтре ДЗО")): Object: 'Object Repository/Выполнение бизнес-плана/Снять выделение в фильтре ДЗО' is clicked on
+
+2023-12-13 10:33:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Выполнение бизнес-плана/Снять выделение в фильтре ДЗО' is clicked on
+
+2023-12-13 10:33:42 - [TEST_STEP][PASSED] - click(findTestObject("Выполнение бизнес-плана/ПАО Россети")): Object: 'Object Repository/Выполнение бизнес-плана/ПАО Россети' is clicked on
+
+2023-12-13 10:33:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Выполнение бизнес-плана/ПАО Россети' is clicked on
+
+2023-12-13 10:33:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Выполнение бизнес-плана/Применить в фильтре ДЗО")): Object: 'Object Repository/Выполнение бизнес-плана/Применить в фильтре ДЗО' is clicked on
+
+2023-12-13 10:33:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Выполнение бизнес-плана/Применить в фильтре ДЗО' is clicked on
+
+2023-12-13 10:33:43 - [TEST_STEP][PASSED] - delay(30): Delayed 30 second(s)
+
+2023-12-13 10:34:13 - [MESSAGE][PASSED] - Delayed 30 second(s)
+
+2023-12-13 10:34:13 - [TEST_STEP][PASSED] - dZO = "ПАО Россети": null
+
+2023-12-13 10:34:13 - [TEST_STEP][PASSED] - a = 84: null
+
+2023-12-13 10:34:13 - [TEST_STEP][PASSED] - Script1697465685113.Numbers(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO): null
+
+2023-12-13 10:34:13 - [TEST_STEP][PASSED] - planFact = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:34:13 - [TEST_STEP][PASSED] - page = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:34:13 - [TEST_STEP][PASSED] - page1 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:34:13 - [TEST_STEP][PASSED] - page2 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:34:13 - [TEST_STEP][PASSED] - filialNumberInRow = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:34:13 - [TEST_STEP][PASSED] - filialsDzoNames = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:34:13 - [TEST_STEP][PASSED] - numberOfFilials = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:34:13 - [TEST_STEP][PASSED] - numberOfSpaces = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:34:13 - [TEST_STEP][PASSED] - file = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:34:13 - [TEST_STEP][PASSED] - otpusk = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:34:13 - [TEST_STEP][PASSED] - poteri = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:34:13 - [TEST_STEP][PASSED] - dataFolder = "Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/": null
+
+2023-12-13 10:34:13 - [TEST_STEP][PASSED] - path = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:34:13 - [TEST_STEP][PASSED] - typeOfDataMain = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:34:13 - [TEST_STEP][PASSED] - fileOtpuskVSet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:34:13 - [TEST_STEP][PASSED] - pageOtpuskVSet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:34:13 - [TEST_STEP][PASSED] - filePoteri = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:34:13 - [TEST_STEP][PASSED] - pagePoteri = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:34:13 - [TEST_STEP][PASSED] - compare = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:34:13 - [TEST_STEP][PASSED] - b = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:34:13 - [TEST_STEP][PASSED] - i = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:34:13 - [TEST_STEP][PASSED] - ii = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:34:13 - [TEST_STEP][PASSED] - c = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:34:13 - [TEST_STEP][PASSED] - numberOfErrors = 0: null
+
+2023-12-13 10:34:13 - [TEST_STEP][PASSED] - if (a == 82): null
+
+2023-12-13 10:34:13 - [TEST_STEP][PASSED] - b = findTestData("PlanFact").getValue(1, a): null
+
+2023-12-13 10:34:13 - [TEST_STEP][PASSED] - i = b.indexOf(" (ГК)"): null
+
+2023-12-13 10:34:13 - [TEST_STEP][PASSED] - if (i > -1): null
+
+2023-12-13 10:34:13 - [TEST_STEP][PASSED] - i = b.indexOf("О ""): null
+
+2023-12-13 10:34:13 - [TEST_STEP][PASSED] - if (i > -1): null
+
+2023-12-13 10:34:13 - [TEST_STEP][PASSED] - i = b.indexOf("О «"): null
+
+2023-12-13 10:34:13 - [TEST_STEP][PASSED] - if (i > -1): null
+
+2023-12-13 10:34:13 - [TEST_STEP][PASSED] - i = b.indexOf("г. "): null
+
+2023-12-13 10:34:13 - [TEST_STEP][PASSED] - if (i > -1): null
+
+2023-12-13 10:34:13 - [TEST_STEP][PASSED] - println(b): null
+
+2023-12-13 10:34:13 - [TEST_STEP][PASSED] - for ([planFact = 1, planFact < 3, (planFact++)]): null
+
+2023-12-13 10:34:13 - [TEST_STEP][PASSED] - if (planFact == 1): null
+
+2023-12-13 10:34:13 - [TEST_STEP][PASSED] - typeOfDataMain = "Факт": null
+
+2023-12-13 10:34:13 - [TEST_STEP][PASSED] - otpusk = findTestData("PlanFact").getValue(5, a): null
+
+2023-12-13 10:34:14 - [TEST_STEP][PASSED] - poteri = findTestData("PlanFact").getValue(6, a): null
+
+2023-12-13 10:34:14 - [TEST_STEP][PASSED] - otpusk = otpusk.replaceAll("\s+", ""): null
+
+2023-12-13 10:34:14 - [TEST_STEP][PASSED] - poteri = poteri.replaceAll("\s+", ""): null
+
+2023-12-13 10:34:14 - [TEST_STEP][PASSED] - typeOfData = typeOfDataMain + " Отпуск в сеть": null
+
+2023-12-13 10:34:14 - [TEST_STEP][PASSED] - path = dataFolder + typeOfData + " за отчётный период " + b: null
+
+2023-12-13 10:34:14 - [TEST_STEP][PASSED] - println(path): null
+
+2023-12-13 10:34:14 - [TEST_STEP][PASSED] - page = getText(findTestObject(path)): Text of object 'Object Repository/Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Факт Отпуск в сеть за отчётный период ПАО Россети' is: '709 000 699'
+
+2023-12-13 10:34:14 - [MESSAGE][PASSED] - Text of object 'Object Repository/Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Факт Отпуск в сеть за отчётный период ПАО Россети' is: '709 000 699'
+
+2023-12-13 10:34:14 - [TEST_STEP][PASSED] - page = page.replaceAll("\s+", ""): null
+
+2023-12-13 10:34:14 - [TEST_STEP][PASSED] - fileOtpuskVSet = otpusk.toInteger(): null
+
+2023-12-13 10:34:14 - [TEST_STEP][PASSED] - pageOtpuskVSet = page.toInteger(): null
+
+2023-12-13 10:34:14 - [TEST_STEP][PASSED] - typeOfData = typeOfDataMain + " Потери": null
+
+2023-12-13 10:34:14 - [TEST_STEP][PASSED] - path = dataFolder + typeOfData + " за отчётный период " + b: null
+
+2023-12-13 10:34:14 - [TEST_STEP][PASSED] - page = getText(findTestObject(path)): Text of object 'Object Repository/Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Факт Потери за отчётный период ПАО Россети' is: '59 448 612'
+
+2023-12-13 10:34:14 - [MESSAGE][PASSED] - Text of object 'Object Repository/Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Факт Потери за отчётный период ПАО Россети' is: '59 448 612'
+
+2023-12-13 10:34:14 - [TEST_STEP][PASSED] - page = page.replaceAll("\s+", ""): null
+
+2023-12-13 10:34:14 - [TEST_STEP][PASSED] - filePoteri = poteri.toInteger(): null
+
+2023-12-13 10:34:14 - [TEST_STEP][PASSED] - pagePoteri = page.toInteger(): null
+
+2023-12-13 10:34:14 - [TEST_STEP][PASSED] - compare = pageOtpuskVSet: null
+
+2023-12-13 10:34:14 - [TEST_STEP][PASSED] - if (compare == fileOtpuskVSet): null
+
+2023-12-13 10:34:14 - [TEST_STEP][PASSED] - else if (compare > fileOtpuskVSet): null
+
+2023-12-13 10:34:14 - [TEST_STEP][PASSED] - else if (compare < fileOtpuskVSet): null
+
+2023-12-13 10:34:14 - [TEST_STEP][PASSED] - compare = compare + 1: null
+
+2023-12-13 10:34:14 - [TEST_STEP][PASSED] - if (compare == fileOtpuskVSet): null
+
+2023-12-13 10:34:14 - [TEST_STEP][PASSED] - else: null
+
+2023-12-13 10:34:14 - [TEST_STEP][PASSED] - numberOfErrors = numberOfErrors + 1: null
+
+2023-12-13 10:34:14 - [TEST_STEP][PASSED] - pageInt = pageOtpuskVSet: null
+
+2023-12-13 10:34:14 - [TEST_STEP][PASSED] - fileInt = fileOtpuskVSet: null
+
+2023-12-13 10:34:14 - [TEST_STEP][PASSED] - typeOfData = typeOfDataMain + " Отпуск в сеть": null
+
+2023-12-13 10:34:14 - [TEST_STEP][PASSED] - Script1697465685113.WriteToExcel(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO): null
+
+2023-12-13 10:34:14 - [TEST_STEP][PASSED] - sheetName = "Sheet1": null
+
+2023-12-13 10:34:14 - [TEST_STEP][PASSED] - data = findTestData("PlanFact"): null
+
+2023-12-13 10:34:14 - [TEST_STEP][PASSED] - n = data.getRowNumbers() + 1: null
+
+2023-12-13 10:34:14 - [TEST_STEP][PASSED] - year = todaysDate.substring(todaysDate.length() - 4, todaysDate.length()): null
+
+2023-12-13 10:34:14 - [TEST_STEP][PASSED] - y = year.toInteger(): null
+
+2023-12-13 10:34:14 - [TEST_STEP][PASSED] - m = getText(findTestObject("Выполнение бизнес-плана/Период")): Text of object 'Object Repository/Выполнение бизнес-плана/Период' is: '1, 2, 3 кв., Октябрь 2023 года'
+
+2023-12-13 10:34:15 - [MESSAGE][PASSED] - Text of object 'Object Repository/Выполнение бизнес-плана/Период' is: '1, 2, 3 кв., Октябрь 2023 года'
+
+2023-12-13 10:34:15 - [TEST_STEP][PASSED] - m = m.substring(0, m.indexOf(year)): null
+
+2023-12-13 10:34:15 - [TEST_STEP][PASSED] - m = m.trim(): null
+
+2023-12-13 10:34:15 - [TEST_STEP][PASSED] - dashboardName = "Выполнение бизнес-плана": null
+
+2023-12-13 10:34:15 - [TEST_STEP][PASSED] - workbook01 = getWorkbook(excelFilePath): null
+
+2023-12-13 10:34:15 - [TEST_STEP][PASSED] - sheet01 = getExcelSheet(workbook01, sheetName): null
+
+2023-12-13 10:34:15 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 0, dashboardName): null
+
+2023-12-13 10:34:15 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 1, dZO): null
+
+2023-12-13 10:34:15 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 2, typeOfData): null
+
+2023-12-13 10:34:15 - [TEST_STEP][PASSED] - if (typeOfData == "Факт в процентах" || typeOfData == "План в процентах"): null
+
+2023-12-13 10:34:15 - [TEST_STEP][PASSED] - else: null
+
+2023-12-13 10:34:15 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 3, fileInt): null
+
+2023-12-13 10:34:15 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 4, pageInt): null
+
+2023-12-13 10:34:15 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 5, m): null
+
+2023-12-13 10:34:15 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 6, y): null
+
+2023-12-13 10:34:15 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 7, todaysDate): null
+
+2023-12-13 10:34:15 - [TEST_STEP][PASSED] - n = n + 1: null
+
+2023-12-13 10:34:15 - [TEST_STEP][PASSED] - saveWorkbook(excelFilePath, workbook01): null
+
+2023-12-13 10:34:15 - [TEST_STEP][PASSED] - compare = pagePoteri: null
+
+2023-12-13 10:34:15 - [TEST_STEP][PASSED] - if (compare == filePoteri): null
+
+2023-12-13 10:34:15 - [TEST_STEP][PASSED] - else if (compare > filePoteri): null
+
+2023-12-13 10:34:15 - [TEST_STEP][PASSED] - compare = compare - 1: null
+
+2023-12-13 10:34:15 - [TEST_STEP][PASSED] - if (compare == filePoteri): null
+
+2023-12-13 10:34:15 - [TEST_STEP][PASSED] - else: null
+
+2023-12-13 10:34:15 - [TEST_STEP][PASSED] - numberOfErrors = numberOfErrors + 1: null
+
+2023-12-13 10:34:15 - [TEST_STEP][PASSED] - pageInt = pagePoteri: null
+
+2023-12-13 10:34:15 - [TEST_STEP][PASSED] - fileInt = filePoteri: null
+
+2023-12-13 10:34:15 - [TEST_STEP][PASSED] - typeOfData = typeOfDataMain + " Потери": null
+
+2023-12-13 10:34:15 - [TEST_STEP][PASSED] - Script1697465685113.WriteToExcel(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO): null
+
+2023-12-13 10:34:15 - [TEST_STEP][PASSED] - sheetName = "Sheet1": null
+
+2023-12-13 10:34:15 - [TEST_STEP][PASSED] - data = findTestData("PlanFact"): null
+
+2023-12-13 10:34:15 - [TEST_STEP][PASSED] - n = data.getRowNumbers() + 1: null
+
+2023-12-13 10:34:15 - [TEST_STEP][PASSED] - year = todaysDate.substring(todaysDate.length() - 4, todaysDate.length()): null
+
+2023-12-13 10:34:15 - [TEST_STEP][PASSED] - y = year.toInteger(): null
+
+2023-12-13 10:34:15 - [TEST_STEP][PASSED] - m = getText(findTestObject("Выполнение бизнес-плана/Период")): Text of object 'Object Repository/Выполнение бизнес-плана/Период' is: '1, 2, 3 кв., Октябрь 2023 года'
+
+2023-12-13 10:34:16 - [MESSAGE][PASSED] - Text of object 'Object Repository/Выполнение бизнес-плана/Период' is: '1, 2, 3 кв., Октябрь 2023 года'
+
+2023-12-13 10:34:16 - [TEST_STEP][PASSED] - m = m.substring(0, m.indexOf(year)): null
+
+2023-12-13 10:34:16 - [TEST_STEP][PASSED] - m = m.trim(): null
+
+2023-12-13 10:34:16 - [TEST_STEP][PASSED] - dashboardName = "Выполнение бизнес-плана": null
+
+2023-12-13 10:34:16 - [TEST_STEP][PASSED] - workbook01 = getWorkbook(excelFilePath): null
+
+2023-12-13 10:34:16 - [TEST_STEP][PASSED] - sheet01 = getExcelSheet(workbook01, sheetName): null
+
+2023-12-13 10:34:16 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 0, dashboardName): null
+
+2023-12-13 10:34:16 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 1, dZO): null
+
+2023-12-13 10:34:16 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 2, typeOfData): null
+
+2023-12-13 10:34:16 - [TEST_STEP][PASSED] - if (typeOfData == "Факт в процентах" || typeOfData == "План в процентах"): null
+
+2023-12-13 10:34:16 - [TEST_STEP][PASSED] - else: null
+
+2023-12-13 10:34:16 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 3, fileInt): null
+
+2023-12-13 10:34:16 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 4, pageInt): null
+
+2023-12-13 10:34:16 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 5, m): null
+
+2023-12-13 10:34:16 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 6, y): null
+
+2023-12-13 10:34:16 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 7, todaysDate): null
+
+2023-12-13 10:34:16 - [TEST_STEP][PASSED] - n = n + 1: null
+
+2023-12-13 10:34:16 - [TEST_STEP][PASSED] - saveWorkbook(excelFilePath, workbook01): null
+
+2023-12-13 10:34:16 - [TEST_STEP][PASSED] - if (planFact == 2): null
+
+2023-12-13 10:34:16 - [TEST_STEP][PASSED] - if (planFact == 1): null
+
+2023-12-13 10:34:16 - [TEST_STEP][PASSED] - else if (planFact == 2): null
+
+2023-12-13 10:34:16 - [TEST_STEP][PASSED] - click(findTestObject("Выполнение бизнес-плана/Кнопка План")): Object: 'Object Repository/Выполнение бизнес-плана/Кнопка План' is clicked on
+
+2023-12-13 10:34:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Выполнение бизнес-плана/Кнопка План' is clicked on
+
+2023-12-13 10:34:16 - [TEST_STEP][PASSED] - typeOfDataMain = "План": null
+
+2023-12-13 10:34:16 - [TEST_STEP][PASSED] - otpusk = findTestData("PlanFact").getValue(2, a): null
+
+2023-12-13 10:34:16 - [TEST_STEP][PASSED] - poteri = findTestData("PlanFact").getValue(3, a): null
+
+2023-12-13 10:34:17 - [TEST_STEP][PASSED] - otpusk = otpusk.replaceAll("\s+", ""): null
+
+2023-12-13 10:34:17 - [TEST_STEP][PASSED] - poteri = poteri.replaceAll("\s+", ""): null
+
+2023-12-13 10:34:17 - [TEST_STEP][PASSED] - typeOfData = typeOfDataMain + " Отпуск в сеть": null
+
+2023-12-13 10:34:17 - [TEST_STEP][PASSED] - path = dataFolder + typeOfData + " за отчётный период " + b: null
+
+2023-12-13 10:34:17 - [TEST_STEP][PASSED] - println(path): null
+
+2023-12-13 10:34:17 - [TEST_STEP][PASSED] - page = getText(findTestObject(path)): Text of object 'Object Repository/Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/План Отпуск в сеть за отчётный период ПАО Россети' is: '702 391 095'
+
+2023-12-13 10:34:17 - [MESSAGE][PASSED] - Text of object 'Object Repository/Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/План Отпуск в сеть за отчётный период ПАО Россети' is: '702 391 095'
+
+2023-12-13 10:34:17 - [TEST_STEP][PASSED] - page = page.replaceAll("\s+", ""): null
+
+2023-12-13 10:34:17 - [TEST_STEP][PASSED] - fileOtpuskVSet = otpusk.toInteger(): null
+
+2023-12-13 10:34:17 - [TEST_STEP][PASSED] - pageOtpuskVSet = page.toInteger(): null
+
+2023-12-13 10:34:17 - [TEST_STEP][PASSED] - typeOfData = typeOfDataMain + " Потери": null
+
+2023-12-13 10:34:17 - [TEST_STEP][PASSED] - path = dataFolder + typeOfData + " за отчётный период " + b: null
+
+2023-12-13 10:34:17 - [TEST_STEP][PASSED] - page = getText(findTestObject(path)): Text of object 'Object Repository/Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/План Потери за отчётный период ПАО Россети' is: '58 958 835'
+
+2023-12-13 10:34:17 - [MESSAGE][PASSED] - Text of object 'Object Repository/Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/План Потери за отчётный период ПАО Россети' is: '58 958 835'
+
+2023-12-13 10:34:17 - [TEST_STEP][PASSED] - page = page.replaceAll("\s+", ""): null
+
+2023-12-13 10:34:17 - [TEST_STEP][PASSED] - filePoteri = poteri.toInteger(): null
+
+2023-12-13 10:34:17 - [TEST_STEP][PASSED] - pagePoteri = page.toInteger(): null
+
+2023-12-13 10:34:17 - [TEST_STEP][PASSED] - compare = pageOtpuskVSet: null
+
+2023-12-13 10:34:17 - [TEST_STEP][PASSED] - if (compare == fileOtpuskVSet): null
+
+2023-12-13 10:34:17 - [TEST_STEP][PASSED] - else if (compare > fileOtpuskVSet): null
+
+2023-12-13 10:34:17 - [TEST_STEP][PASSED] - else if (compare < fileOtpuskVSet): null
+
+2023-12-13 10:34:17 - [TEST_STEP][PASSED] - compare = compare + 1: null
+
+2023-12-13 10:34:17 - [TEST_STEP][PASSED] - if (compare == fileOtpuskVSet): null
+
+2023-12-13 10:34:17 - [TEST_STEP][PASSED] - else: null
+
+2023-12-13 10:34:17 - [TEST_STEP][PASSED] - numberOfErrors = numberOfErrors + 1: null
+
+2023-12-13 10:34:17 - [TEST_STEP][PASSED] - pageInt = pageOtpuskVSet: null
+
+2023-12-13 10:34:17 - [TEST_STEP][PASSED] - fileInt = fileOtpuskVSet: null
+
+2023-12-13 10:34:17 - [TEST_STEP][PASSED] - typeOfData = typeOfDataMain + " Отпуск в сеть": null
+
+2023-12-13 10:34:17 - [TEST_STEP][PASSED] - Script1697465685113.WriteToExcel(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO): null
+
+2023-12-13 10:34:17 - [TEST_STEP][PASSED] - sheetName = "Sheet1": null
+
+2023-12-13 10:34:17 - [TEST_STEP][PASSED] - data = findTestData("PlanFact"): null
+
+2023-12-13 10:34:17 - [TEST_STEP][PASSED] - n = data.getRowNumbers() + 1: null
+
+2023-12-13 10:34:17 - [TEST_STEP][PASSED] - year = todaysDate.substring(todaysDate.length() - 4, todaysDate.length()): null
+
+2023-12-13 10:34:17 - [TEST_STEP][PASSED] - y = year.toInteger(): null
+
+2023-12-13 10:34:17 - [TEST_STEP][PASSED] - m = getText(findTestObject("Выполнение бизнес-плана/Период")): Text of object 'Object Repository/Выполнение бизнес-плана/Период' is: '1, 2, 3 кв., Октябрь 2023 года'
+
+2023-12-13 10:34:18 - [MESSAGE][PASSED] - Text of object 'Object Repository/Выполнение бизнес-плана/Период' is: '1, 2, 3 кв., Октябрь 2023 года'
+
+2023-12-13 10:34:18 - [TEST_STEP][PASSED] - m = m.substring(0, m.indexOf(year)): null
+
+2023-12-13 10:34:18 - [TEST_STEP][PASSED] - m = m.trim(): null
+
+2023-12-13 10:34:18 - [TEST_STEP][PASSED] - dashboardName = "Выполнение бизнес-плана": null
+
+2023-12-13 10:34:18 - [TEST_STEP][PASSED] - workbook01 = getWorkbook(excelFilePath): null
+
+2023-12-13 10:34:18 - [TEST_STEP][PASSED] - sheet01 = getExcelSheet(workbook01, sheetName): null
+
+2023-12-13 10:34:18 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 0, dashboardName): null
+
+2023-12-13 10:34:18 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 1, dZO): null
+
+2023-12-13 10:34:18 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 2, typeOfData): null
+
+2023-12-13 10:34:18 - [TEST_STEP][PASSED] - if (typeOfData == "Факт в процентах" || typeOfData == "План в процентах"): null
+
+2023-12-13 10:34:18 - [TEST_STEP][PASSED] - else: null
+
+2023-12-13 10:34:18 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 3, fileInt): null
+
+2023-12-13 10:34:18 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 4, pageInt): null
+
+2023-12-13 10:34:18 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 5, m): null
+
+2023-12-13 10:34:18 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 6, y): null
+
+2023-12-13 10:34:18 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 7, todaysDate): null
+
+2023-12-13 10:34:18 - [TEST_STEP][PASSED] - n = n + 1: null
+
+2023-12-13 10:34:18 - [TEST_STEP][PASSED] - saveWorkbook(excelFilePath, workbook01): null
+
+2023-12-13 10:34:18 - [TEST_STEP][PASSED] - compare = pagePoteri: null
+
+2023-12-13 10:34:18 - [TEST_STEP][PASSED] - if (compare == filePoteri): null
+
+2023-12-13 10:34:18 - [TEST_STEP][PASSED] - else if (compare > filePoteri): null
+
+2023-12-13 10:34:18 - [TEST_STEP][PASSED] - compare = compare - 1: null
+
+2023-12-13 10:34:18 - [TEST_STEP][PASSED] - if (compare == filePoteri): null
+
+2023-12-13 10:34:18 - [TEST_STEP][PASSED] - else: null
+
+2023-12-13 10:34:18 - [TEST_STEP][PASSED] - numberOfErrors = numberOfErrors + 1: null
+
+2023-12-13 10:34:18 - [TEST_STEP][PASSED] - pageInt = pagePoteri: null
+
+2023-12-13 10:34:18 - [TEST_STEP][PASSED] - fileInt = filePoteri: null
+
+2023-12-13 10:34:18 - [TEST_STEP][PASSED] - typeOfData = typeOfDataMain + " Потери": null
+
+2023-12-13 10:34:18 - [TEST_STEP][PASSED] - Script1697465685113.WriteToExcel(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO): null
+
+2023-12-13 10:34:18 - [TEST_STEP][PASSED] - sheetName = "Sheet1": null
+
+2023-12-13 10:34:18 - [TEST_STEP][PASSED] - data = findTestData("PlanFact"): null
+
+2023-12-13 10:34:18 - [TEST_STEP][PASSED] - n = data.getRowNumbers() + 1: null
+
+2023-12-13 10:34:18 - [TEST_STEP][PASSED] - year = todaysDate.substring(todaysDate.length() - 4, todaysDate.length()): null
+
+2023-12-13 10:34:18 - [TEST_STEP][PASSED] - y = year.toInteger(): null
+
+2023-12-13 10:34:18 - [TEST_STEP][PASSED] - m = getText(findTestObject("Выполнение бизнес-плана/Период")): Text of object 'Object Repository/Выполнение бизнес-плана/Период' is: '1, 2, 3 кв., Октябрь 2023 года'
+
+2023-12-13 10:34:19 - [MESSAGE][PASSED] - Text of object 'Object Repository/Выполнение бизнес-плана/Период' is: '1, 2, 3 кв., Октябрь 2023 года'
+
+2023-12-13 10:34:19 - [TEST_STEP][PASSED] - m = m.substring(0, m.indexOf(year)): null
+
+2023-12-13 10:34:19 - [TEST_STEP][PASSED] - m = m.trim(): null
+
+2023-12-13 10:34:19 - [TEST_STEP][PASSED] - dashboardName = "Выполнение бизнес-плана": null
+
+2023-12-13 10:34:19 - [TEST_STEP][PASSED] - workbook01 = getWorkbook(excelFilePath): null
+
+2023-12-13 10:34:19 - [TEST_STEP][PASSED] - sheet01 = getExcelSheet(workbook01, sheetName): null
+
+2023-12-13 10:34:19 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 0, dashboardName): null
+
+2023-12-13 10:34:19 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 1, dZO): null
+
+2023-12-13 10:34:19 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 2, typeOfData): null
+
+2023-12-13 10:34:19 - [TEST_STEP][PASSED] - if (typeOfData == "Факт в процентах" || typeOfData == "План в процентах"): null
+
+2023-12-13 10:34:19 - [TEST_STEP][PASSED] - else: null
+
+2023-12-13 10:34:19 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 3, fileInt): null
+
+2023-12-13 10:34:19 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 4, pageInt): null
+
+2023-12-13 10:34:19 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 5, m): null
+
+2023-12-13 10:34:19 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 6, y): null
+
+2023-12-13 10:34:19 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 7, todaysDate): null
+
+2023-12-13 10:34:19 - [TEST_STEP][PASSED] - n = n + 1: null
+
+2023-12-13 10:34:19 - [TEST_STEP][PASSED] - saveWorkbook(excelFilePath, workbook01): Object: 'Object Repository/Выполнение бизнес-плана/Кнопка Факт' is clicked on
+
+2023-12-13 10:34:19 - [TEST_STEP][PASSED] - if (planFact == 2): Object: 'Object Repository/Выполнение бизнес-плана/Кнопка Факт' is clicked on
+
+2023-12-13 10:34:19 - [TEST_STEP][PASSED] - click(findTestObject("Выполнение бизнес-плана/Кнопка Факт")): Object: 'Object Repository/Выполнение бизнес-плана/Кнопка Факт' is clicked on
+
+2023-12-13 10:34:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Выполнение бизнес-плана/Кнопка Факт' is clicked on
+
+2023-12-13 10:34:19 - [TEST_STEP][PASSED] - if (a == 84 || a == 82): null
+
+2023-12-13 10:34:19 - [TEST_STEP][PASSED] - page = getText(findTestObject("Выполнение бизнес-плана/textPlanFact")): Text of object 'Object Repository/Выполнение бизнес-плана/textPlanFact' is: '%
+8.39 8.39
+8.38 8.38
+План
+Факт
+1
+100'
+
+2023-12-13 10:34:20 - [MESSAGE][PASSED] - Text of object 'Object Repository/Выполнение бизнес-плана/textPlanFact' is: '%
+8.39 8.39
+8.38 8.38
+План
+Факт
+1
+100'
+
+2023-12-13 10:34:20 - [TEST_STEP][PASSED] - page = page.replaceAll("\n", "_"): null
+
+2023-12-13 10:34:20 - [TEST_STEP][PASSED] - page = page.substring(page.indexOf("_") + 1, page.length()): null
+
+2023-12-13 10:34:20 - [TEST_STEP][PASSED] - page1 = page.substring(0, page.indexOf("_")): null
+
+2023-12-13 10:34:20 - [TEST_STEP][PASSED] - page1 = page.substring(0, page.indexOf(" ")): null
+
+2023-12-13 10:34:20 - [TEST_STEP][PASSED] - page2 = page.substring(page.indexOf("_") + 1, page.length()): null
+
+2023-12-13 10:34:20 - [TEST_STEP][PASSED] - page2 = page2.substring(0, page.indexOf("_")): null
+
+2023-12-13 10:34:20 - [TEST_STEP][PASSED] - page2 = page2.substring(0, page.indexOf(" ")): null
+
+2023-12-13 10:34:20 - [TEST_STEP][PASSED] - println("page1: " + page1): null
+
+2023-12-13 10:34:20 - [TEST_STEP][PASSED] - println("page2: " + page2): null
+
+2023-12-13 10:34:20 - [TEST_STEP][PASSED] - file = findTestData("PlanFact").getValue(4, a): null
+
+2023-12-13 10:34:20 - [TEST_STEP][PASSED] - file = file.replace(",", "."): null
+
+2023-12-13 10:34:20 - [TEST_STEP][PASSED] - println("file Plan: " + file): null
+
+2023-12-13 10:34:20 - [TEST_STEP][PASSED] - typeOfData = "План в процентах": null
+
+2023-12-13 10:34:20 - [TEST_STEP][PASSED] - fileDouble = file.toDouble(): null
+
+2023-12-13 10:34:20 - [TEST_STEP][PASSED] - pageDouble = page1.toDouble(): null
+
+2023-12-13 10:34:20 - [TEST_STEP][PASSED] - if (fileDouble != pageDouble): null
+
+2023-12-13 10:34:20 - [TEST_STEP][PASSED] - file = findTestData("PlanFact").getValue(7, a): null
+
+2023-12-13 10:34:20 - [TEST_STEP][PASSED] - file = file.replace(",", "."): null
+
+2023-12-13 10:34:20 - [TEST_STEP][PASSED] - println("file Fact: " + file): null
+
+2023-12-13 10:34:20 - [TEST_STEP][PASSED] - fileDouble = file.toDouble(): null
+
+2023-12-13 10:34:20 - [TEST_STEP][PASSED] - typeOfData = "Факт в процентах": null
+
+2023-12-13 10:34:20 - [TEST_STEP][PASSED] - fileDouble = file.toDouble(): null
+
+2023-12-13 10:34:20 - [TEST_STEP][PASSED] - pageDouble = page2.toDouble(): null
+
+2023-12-13 10:34:20 - [TEST_STEP][PASSED] - if (fileDouble != pageDouble): null
+
+2023-12-13 10:34:20 - [TEST_STEP][PASSED] - numberOfErrors = numberOfErrors + 1: null
+
+2023-12-13 10:34:20 - [TEST_STEP][PASSED] - Script1697465685113.WriteToExcel(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO): null
+
+2023-12-13 10:34:20 - [TEST_STEP][PASSED] - sheetName = "Sheet1": null
+
+2023-12-13 10:34:20 - [TEST_STEP][PASSED] - data = findTestData("PlanFact"): null
+
+2023-12-13 10:34:20 - [TEST_STEP][PASSED] - n = data.getRowNumbers() + 1: null
+
+2023-12-13 10:34:20 - [TEST_STEP][PASSED] - year = todaysDate.substring(todaysDate.length() - 4, todaysDate.length()): null
+
+2023-12-13 10:34:20 - [TEST_STEP][PASSED] - y = year.toInteger(): null
+
+2023-12-13 10:34:20 - [TEST_STEP][PASSED] - m = getText(findTestObject("Выполнение бизнес-плана/Период")): Text of object 'Object Repository/Выполнение бизнес-плана/Период' is: '1, 2, 3 кв., Октябрь 2023 года'
+
+2023-12-13 10:34:20 - [MESSAGE][PASSED] - Text of object 'Object Repository/Выполнение бизнес-плана/Период' is: '1, 2, 3 кв., Октябрь 2023 года'
+
+2023-12-13 10:34:20 - [TEST_STEP][PASSED] - m = m.substring(0, m.indexOf(year)): null
+
+2023-12-13 10:34:20 - [TEST_STEP][PASSED] - m = m.trim(): null
+
+2023-12-13 10:34:20 - [TEST_STEP][PASSED] - dashboardName = "Выполнение бизнес-плана": null
+
+2023-12-13 10:34:20 - [TEST_STEP][PASSED] - workbook01 = getWorkbook(excelFilePath): null
+
+2023-12-13 10:34:20 - [TEST_STEP][PASSED] - sheet01 = getExcelSheet(workbook01, sheetName): null
+
+2023-12-13 10:34:20 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 0, dashboardName): null
+
+2023-12-13 10:34:20 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 1, dZO): null
+
+2023-12-13 10:34:20 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 2, typeOfData): null
+
+2023-12-13 10:34:20 - [TEST_STEP][PASSED] - if (typeOfData == "Факт в процентах" || typeOfData == "План в процентах"): null
+
+2023-12-13 10:34:20 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 3, fileDouble): null
+
+2023-12-13 10:34:20 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 4, pageDouble): null
+
+2023-12-13 10:34:20 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 5, m): null
+
+2023-12-13 10:34:20 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 6, y): null
+
+2023-12-13 10:34:20 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 7, todaysDate): null
+
+2023-12-13 10:34:20 - [TEST_STEP][PASSED] - n = n + 1: null
+
+2023-12-13 10:34:20 - [TEST_STEP][PASSED] - saveWorkbook(excelFilePath, workbook01): null
+
+2023-12-13 10:34:20 - [TEST_STEP][FAILED] - if (verifyEqual(numberOfErrors, 0) == false): null
+
+2023-12-13 10:34:20 - [MESSAGE][FAILED] - Unable to verify equal between actual object '5' and expected object '0' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object '5' and expected object '0' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:146)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.Numbers(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:550)
+	at Script1697465685113$Numbers.callStatic(Unknown Source)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.run(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:128)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1702452607096.run(TempTestSuite1702452607096.groovy:36)
+)
+
+2023-12-13 10:34:20 - [TEST_STEP][PASSED] - println(numberOfErrors): null
+
+2023-12-13 10:34:20 - [TEST_STEP][PASSED] - if (a == 28 || a == 77 || a == 74 || a == 65 || a == 36 || a == 44 || a == 54 || a == 1 || a == 18 || a == 59): null
+
+2023-12-13 10:34:20 - [TEST_STEP][PASSED] - if (a == 82): null
+
+2023-12-13 10:34:20 - [TEST_STEP][PASSED] - dZO = "Россети ФСК ЕЭС": null
+
+2023-12-13 10:34:20 - [TEST_STEP][PASSED] - a = 83: null
+
+2023-12-13 10:34:20 - [TEST_STEP][PASSED] - Script1697465685113.Numbers(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO): null
+
+2023-12-13 10:34:20 - [TEST_STEP][PASSED] - planFact = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:34:20 - [TEST_STEP][PASSED] - page = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:34:20 - [TEST_STEP][PASSED] - page1 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:34:20 - [TEST_STEP][PASSED] - page2 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:34:20 - [TEST_STEP][PASSED] - filialNumberInRow = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:34:20 - [TEST_STEP][PASSED] - filialsDzoNames = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:34:20 - [TEST_STEP][PASSED] - numberOfFilials = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:34:20 - [TEST_STEP][PASSED] - numberOfSpaces = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:34:20 - [TEST_STEP][PASSED] - file = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:34:20 - [TEST_STEP][PASSED] - otpusk = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:34:20 - [TEST_STEP][PASSED] - poteri = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:34:20 - [TEST_STEP][PASSED] - dataFolder = "Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/": null
+
+2023-12-13 10:34:20 - [TEST_STEP][PASSED] - path = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:34:20 - [TEST_STEP][PASSED] - typeOfDataMain = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:34:20 - [TEST_STEP][PASSED] - fileOtpuskVSet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:34:20 - [TEST_STEP][PASSED] - pageOtpuskVSet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:34:20 - [TEST_STEP][PASSED] - filePoteri = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:34:20 - [TEST_STEP][PASSED] - pagePoteri = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:34:20 - [TEST_STEP][PASSED] - compare = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:34:20 - [TEST_STEP][PASSED] - b = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:34:20 - [TEST_STEP][PASSED] - i = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:34:20 - [TEST_STEP][PASSED] - ii = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:34:20 - [TEST_STEP][PASSED] - c = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:34:20 - [TEST_STEP][PASSED] - numberOfErrors = 0: null
+
+2023-12-13 10:34:20 - [TEST_STEP][PASSED] - if (a == 82): null
+
+2023-12-13 10:34:20 - [TEST_STEP][PASSED] - b = findTestData("PlanFact").getValue(1, a): null
+
+2023-12-13 10:34:20 - [TEST_STEP][PASSED] - i = b.indexOf(" (ГК)"): null
+
+2023-12-13 10:34:20 - [TEST_STEP][PASSED] - if (i > -1): null
+
+2023-12-13 10:34:20 - [TEST_STEP][PASSED] - i = b.indexOf("О ""): null
+
+2023-12-13 10:34:20 - [TEST_STEP][PASSED] - if (i > -1): null
+
+2023-12-13 10:34:20 - [TEST_STEP][PASSED] - i = b.indexOf("О «"): null
+
+2023-12-13 10:34:20 - [TEST_STEP][PASSED] - if (i > -1): null
+
+2023-12-13 10:34:20 - [TEST_STEP][PASSED] - i = b.indexOf("г. "): null
+
+2023-12-13 10:34:20 - [TEST_STEP][PASSED] - if (i > -1): null
+
+2023-12-13 10:34:20 - [TEST_STEP][PASSED] - println(b): null
+
+2023-12-13 10:34:20 - [TEST_STEP][PASSED] - for ([planFact = 1, planFact < 3, (planFact++)]): Object: 'Object Repository/Выполнение бизнес-плана/Кнопка Факт' is clicked on
+
+2023-12-13 10:34:20 - [TEST_STEP][PASSED] - if (planFact == 1): null
+
+2023-12-13 10:34:20 - [TEST_STEP][PASSED] - typeOfDataMain = "Факт": null
+
+2023-12-13 10:34:20 - [TEST_STEP][PASSED] - otpusk = findTestData("PlanFact").getValue(5, a): null
+
+2023-12-13 10:34:20 - [TEST_STEP][PASSED] - poteri = findTestData("PlanFact").getValue(6, a): null
+
+2023-12-13 10:34:20 - [TEST_STEP][PASSED] - otpusk = otpusk.replaceAll("\s+", ""): null
+
+2023-12-13 10:34:20 - [TEST_STEP][PASSED] - poteri = poteri.replaceAll("\s+", ""): null
+
+2023-12-13 10:34:20 - [TEST_STEP][PASSED] - typeOfData = typeOfDataMain + " Отпуск в сеть": null
+
+2023-12-13 10:34:20 - [TEST_STEP][PASSED] - path = dataFolder + typeOfData + " за отчётный период " + b: null
+
+2023-12-13 10:34:20 - [TEST_STEP][PASSED] - println(path): null
+
+2023-12-13 10:34:20 - [TEST_STEP][PASSED] - page = getText(findTestObject(path)): Text of object 'Object Repository/Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Факт Отпуск в сеть за отчётный период Россети ФСК ЕЭС' is: '494 508 394'
+
+2023-12-13 10:34:21 - [MESSAGE][PASSED] - Text of object 'Object Repository/Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Факт Отпуск в сеть за отчётный период Россети ФСК ЕЭС' is: '494 508 394'
+
+2023-12-13 10:34:21 - [TEST_STEP][PASSED] - page = page.replaceAll("\s+", ""): null
+
+2023-12-13 10:34:21 - [TEST_STEP][PASSED] - fileOtpuskVSet = otpusk.toInteger(): null
+
+2023-12-13 10:34:21 - [TEST_STEP][PASSED] - pageOtpuskVSet = page.toInteger(): null
+
+2023-12-13 10:34:21 - [TEST_STEP][PASSED] - typeOfData = typeOfDataMain + " Потери": null
+
+2023-12-13 10:34:21 - [TEST_STEP][PASSED] - path = dataFolder + typeOfData + " за отчётный период " + b: null
+
+2023-12-13 10:34:21 - [TEST_STEP][PASSED] - page = getText(findTestObject(path)): Text of object 'Object Repository/Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Факт Потери за отчётный период Россети ФСК ЕЭС' is: '20 177 624'
+
+2023-12-13 10:34:21 - [MESSAGE][PASSED] - Text of object 'Object Repository/Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Факт Потери за отчётный период Россети ФСК ЕЭС' is: '20 177 624'
+
+2023-12-13 10:34:21 - [TEST_STEP][PASSED] - page = page.replaceAll("\s+", ""): null
+
+2023-12-13 10:34:21 - [TEST_STEP][PASSED] - filePoteri = poteri.toInteger(): null
+
+2023-12-13 10:34:21 - [TEST_STEP][PASSED] - pagePoteri = page.toInteger(): null
+
+2023-12-13 10:34:21 - [TEST_STEP][PASSED] - compare = pageOtpuskVSet: null
+
+2023-12-13 10:34:21 - [TEST_STEP][PASSED] - if (compare == fileOtpuskVSet): null
+
+2023-12-13 10:34:21 - [TEST_STEP][PASSED] - if (compare == fileOtpuskVSet): null
+
+2023-12-13 10:34:21 - [TEST_STEP][PASSED] - compare = pagePoteri: null
+
+2023-12-13 10:34:21 - [TEST_STEP][PASSED] - if (compare == filePoteri): null
+
+2023-12-13 10:34:21 - [TEST_STEP][PASSED] - if (compare == filePoteri): null
+
+2023-12-13 10:34:21 - [TEST_STEP][PASSED] - if (planFact == 2): null
+
+2023-12-13 10:34:21 - [TEST_STEP][PASSED] - if (planFact == 1): null
+
+2023-12-13 10:34:21 - [TEST_STEP][PASSED] - else if (planFact == 2): null
+
+2023-12-13 10:34:21 - [TEST_STEP][PASSED] - click(findTestObject("Выполнение бизнес-плана/Кнопка План")): Object: 'Object Repository/Выполнение бизнес-плана/Кнопка План' is clicked on
+
+2023-12-13 10:34:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Выполнение бизнес-плана/Кнопка План' is clicked on
+
+2023-12-13 10:34:22 - [TEST_STEP][PASSED] - typeOfDataMain = "План": null
+
+2023-12-13 10:34:22 - [TEST_STEP][PASSED] - otpusk = findTestData("PlanFact").getValue(2, a): null
+
+2023-12-13 10:34:22 - [TEST_STEP][PASSED] - poteri = findTestData("PlanFact").getValue(3, a): null
+
+2023-12-13 10:34:22 - [TEST_STEP][PASSED] - otpusk = otpusk.replaceAll("\s+", ""): null
+
+2023-12-13 10:34:22 - [TEST_STEP][PASSED] - poteri = poteri.replaceAll("\s+", ""): null
+
+2023-12-13 10:34:22 - [TEST_STEP][PASSED] - typeOfData = typeOfDataMain + " Отпуск в сеть": null
+
+2023-12-13 10:34:22 - [TEST_STEP][PASSED] - path = dataFolder + typeOfData + " за отчётный период " + b: null
+
+2023-12-13 10:34:22 - [TEST_STEP][PASSED] - println(path): null
+
+2023-12-13 10:34:22 - [TEST_STEP][PASSED] - page = getText(findTestObject(path)): Text of object 'Object Repository/Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/План Отпуск в сеть за отчётный период Россети ФСК ЕЭС' is: '489 904 519'
+
+2023-12-13 10:34:22 - [MESSAGE][PASSED] - Text of object 'Object Repository/Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/План Отпуск в сеть за отчётный период Россети ФСК ЕЭС' is: '489 904 519'
+
+2023-12-13 10:34:22 - [TEST_STEP][PASSED] - page = page.replaceAll("\s+", ""): null
+
+2023-12-13 10:34:22 - [TEST_STEP][PASSED] - fileOtpuskVSet = otpusk.toInteger(): null
+
+2023-12-13 10:34:22 - [TEST_STEP][PASSED] - pageOtpuskVSet = page.toInteger(): null
+
+2023-12-13 10:34:22 - [TEST_STEP][PASSED] - typeOfData = typeOfDataMain + " Потери": null
+
+2023-12-13 10:34:22 - [TEST_STEP][PASSED] - path = dataFolder + typeOfData + " за отчётный период " + b: null
+
+2023-12-13 10:34:22 - [TEST_STEP][PASSED] - page = getText(findTestObject(path)): Text of object 'Object Repository/Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/План Потери за отчётный период Россети ФСК ЕЭС' is: '20 013 462'
+
+2023-12-13 10:34:22 - [MESSAGE][PASSED] - Text of object 'Object Repository/Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/План Потери за отчётный период Россети ФСК ЕЭС' is: '20 013 462'
+
+2023-12-13 10:34:22 - [TEST_STEP][PASSED] - page = page.replaceAll("\s+", ""): null
+
+2023-12-13 10:34:22 - [TEST_STEP][PASSED] - filePoteri = poteri.toInteger(): null
+
+2023-12-13 10:34:22 - [TEST_STEP][PASSED] - pagePoteri = page.toInteger(): null
+
+2023-12-13 10:34:22 - [TEST_STEP][PASSED] - compare = pageOtpuskVSet: null
+
+2023-12-13 10:34:22 - [TEST_STEP][PASSED] - if (compare == fileOtpuskVSet): null
+
+2023-12-13 10:34:22 - [TEST_STEP][PASSED] - if (compare == fileOtpuskVSet): null
+
+2023-12-13 10:34:22 - [TEST_STEP][PASSED] - compare = pagePoteri: null
+
+2023-12-13 10:34:22 - [TEST_STEP][PASSED] - if (compare == filePoteri): null
+
+2023-12-13 10:34:22 - [TEST_STEP][PASSED] - if (compare == filePoteri): null
+
+2023-12-13 10:34:22 - [TEST_STEP][PASSED] - if (planFact == 2): Object: 'Object Repository/Выполнение бизнес-плана/Кнопка Факт' is clicked on
+
+2023-12-13 10:34:22 - [TEST_STEP][PASSED] - click(findTestObject("Выполнение бизнес-плана/Кнопка Факт")): Object: 'Object Repository/Выполнение бизнес-плана/Кнопка Факт' is clicked on
+
+2023-12-13 10:34:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Выполнение бизнес-плана/Кнопка Факт' is clicked on
+
+2023-12-13 10:34:23 - [TEST_STEP][PASSED] - if (a == 84 || a == 82): null
+
+2023-12-13 10:34:23 - [TEST_STEP][PASSED] - else: null
+
+2023-12-13 10:34:23 - [TEST_STEP][PASSED] - if (a == 83 || a == 29 || a == 79 || a == 75 || a == 71 || a == 15 || a == 19 || a == 37 || a == 45 || a == 58 || a == 64): null
+
+2023-12-13 10:34:23 - [TEST_STEP][PASSED] - filialNumberInRow = 1: null
+
+2023-12-13 10:34:23 - [TEST_STEP][PASSED] - println("filialNumberInRow: " + filialNumberInRow): null
+
+2023-12-13 10:34:23 - [TEST_STEP][PASSED] - page1 = getText(findTestObject("Object Repository/Выполнение бизнес-плана/spanPlan" + filialNumberInRow)): Text of object 'Object Repository/Выполнение бизнес-плана/spanPlan1' is: '4.26
+|'
+
+2023-12-13 10:34:23 - [MESSAGE][PASSED] - Text of object 'Object Repository/Выполнение бизнес-плана/spanPlan1' is: '4.26
+|'
+
+2023-12-13 10:34:23 - [TEST_STEP][PASSED] - page2 = getText(findTestObject("Object Repository/Выполнение бизнес-плана/spanFact" + filialNumberInRow)): Text of object 'Object Repository/Выполнение бизнес-плана/spanFact1' is: '4.25'
+
+2023-12-13 10:34:24 - [MESSAGE][PASSED] - Text of object 'Object Repository/Выполнение бизнес-плана/spanFact1' is: '4.25'
+
+2023-12-13 10:34:24 - [TEST_STEP][PASSED] - page1 = replace("|", "").trim(): null
+
+2023-12-13 10:34:24 - [TEST_STEP][PASSED] - page2 = replace("|", "").trim(): null
+
+2023-12-13 10:34:24 - [TEST_STEP][PASSED] - println("page1: " + page1): null
+
+2023-12-13 10:34:24 - [TEST_STEP][PASSED] - println("page2: " + page2): null
+
+2023-12-13 10:34:24 - [TEST_STEP][PASSED] - file = findTestData("PlanFact").getValue(4, a): null
+
+2023-12-13 10:34:24 - [TEST_STEP][PASSED] - file = file.replace(",", "."): null
+
+2023-12-13 10:34:24 - [TEST_STEP][PASSED] - println("file Plan: " + file): null
+
+2023-12-13 10:34:24 - [TEST_STEP][PASSED] - typeOfData = "План в процентах": null
+
+2023-12-13 10:34:24 - [TEST_STEP][PASSED] - fileDouble = file.toDouble(): null
+
+2023-12-13 10:34:24 - [TEST_STEP][PASSED] - pageDouble = page1.toDouble(): null
+
+2023-12-13 10:34:24 - [TEST_STEP][PASSED] - if (fileDouble != pageDouble): null
+
+2023-12-13 10:34:24 - [TEST_STEP][PASSED] - file = findTestData("PlanFact").getValue(7, a): null
+
+2023-12-13 10:34:24 - [TEST_STEP][PASSED] - file = file.replace(",", "."): null
+
+2023-12-13 10:34:24 - [TEST_STEP][PASSED] - println("file Fact: " + file): null
+
+2023-12-13 10:34:24 - [TEST_STEP][PASSED] - fileDouble = file.toDouble(): null
+
+2023-12-13 10:34:24 - [TEST_STEP][PASSED] - typeOfData = "Факт в процентах": null
+
+2023-12-13 10:34:24 - [TEST_STEP][PASSED] - fileDouble = file.toDouble(): null
+
+2023-12-13 10:34:24 - [TEST_STEP][PASSED] - pageDouble = page2.toDouble(): null
+
+2023-12-13 10:34:24 - [TEST_STEP][PASSED] - if (fileDouble != pageDouble): null
+
+2023-12-13 10:34:24 - [TEST_STEP][PASSED] - if (verifyEqual(numberOfErrors, 0) == false): Actual object '0' and expected object '0' are equal
+
+2023-12-13 10:34:24 - [MESSAGE][PASSED] - Actual object '0' and expected object '0' are equal
+
+2023-12-13 10:34:24 - [TEST_STEP][PASSED] - if (a == 82): null
+
+2023-12-13 10:34:24 - [TEST_STEP][PASSED] - dZO = "РаспредКомплекс": null
+
+2023-12-13 10:34:24 - [TEST_STEP][PASSED] - a = 82: null
+
+2023-12-13 10:34:24 - [TEST_STEP][PASSED] - Script1697465685113.Numbers(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO): null
+
+2023-12-13 10:34:24 - [TEST_STEP][PASSED] - planFact = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:34:24 - [TEST_STEP][PASSED] - page = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:34:24 - [TEST_STEP][PASSED] - page1 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:34:24 - [TEST_STEP][PASSED] - page2 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:34:24 - [TEST_STEP][PASSED] - filialNumberInRow = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:34:24 - [TEST_STEP][PASSED] - filialsDzoNames = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:34:24 - [TEST_STEP][PASSED] - numberOfFilials = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:34:24 - [TEST_STEP][PASSED] - numberOfSpaces = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:34:24 - [TEST_STEP][PASSED] - file = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:34:24 - [TEST_STEP][PASSED] - otpusk = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:34:24 - [TEST_STEP][PASSED] - poteri = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:34:24 - [TEST_STEP][PASSED] - dataFolder = "Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/": null
+
+2023-12-13 10:34:24 - [TEST_STEP][PASSED] - path = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:34:24 - [TEST_STEP][PASSED] - typeOfDataMain = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:34:24 - [TEST_STEP][PASSED] - fileOtpuskVSet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:34:24 - [TEST_STEP][PASSED] - pageOtpuskVSet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:34:24 - [TEST_STEP][PASSED] - filePoteri = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:34:24 - [TEST_STEP][PASSED] - pagePoteri = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:34:24 - [TEST_STEP][PASSED] - compare = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:34:24 - [TEST_STEP][PASSED] - b = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:34:24 - [TEST_STEP][PASSED] - i = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:34:24 - [TEST_STEP][PASSED] - ii = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:34:24 - [TEST_STEP][PASSED] - c = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:34:24 - [TEST_STEP][PASSED] - numberOfErrors = 0: null
+
+2023-12-13 10:34:24 - [TEST_STEP][PASSED] - if (a == 82): null
+
+2023-12-13 10:34:24 - [TEST_STEP][PASSED] - Script1697465685113.OpenFilter(): null
+
+2023-12-13 10:34:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Выполнение бизнес-плана/Фильтр ДЗО")): Object: 'Object Repository/Выполнение бизнес-плана/Фильтр ДЗО' is clicked on
+
+2023-12-13 10:34:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Выполнение бизнес-плана/Фильтр ДЗО' is clicked on
+
+2023-12-13 10:34:24 - [TEST_STEP][PASSED] - click(findTestObject("Выполнение бизнес-плана/Снять выделение в фильтре ДЗО")): null
+
+2023-12-13 10:34:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Выполнение бизнес-плана/Снять выделение в фильтре ДЗО' is clicked on
+
+2023-12-13 10:34:25 - [TEST_STEP][PASSED] - click(findTestObject("Выполнение бизнес-плана/РаспредКомплекс")): Object: 'Object Repository/Выполнение бизнес-плана/РаспредКомплекс' is clicked on
+
+2023-12-13 10:34:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Выполнение бизнес-плана/РаспредКомплекс' is clicked on
+
+2023-12-13 10:34:25 - [TEST_STEP][PASSED] - Script1697465685113.CloseFilter(): null
+
+2023-12-13 10:34:25 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Выполнение бизнес-плана/Заголовок дашборда"), 30): Scroll to object 'Object Repository/Выполнение бизнес-плана/Заголовок дашборда' successfully
+
+2023-12-13 10:34:26 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Выполнение бизнес-плана/Заголовок дашборда' successfully
+
+2023-12-13 10:34:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Выполнение бизнес-плана/Применить в фильтре ДЗО")): null
+
+2023-12-13 10:34:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Выполнение бизнес-плана/Применить в фильтре ДЗО' is clicked on
+
+2023-12-13 10:34:27 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2023-12-13 10:34:32 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-12-13 10:34:32 - [TEST_STEP][PASSED] - b = findTestData("PlanFact").getValue(1, a): null
+
+2023-12-13 10:34:32 - [TEST_STEP][PASSED] - i = b.indexOf(" (ГК)"): null
+
+2023-12-13 10:34:32 - [TEST_STEP][PASSED] - if (i > -1): null
+
+2023-12-13 10:34:32 - [TEST_STEP][PASSED] - i = b.indexOf("О ""): null
+
+2023-12-13 10:34:32 - [TEST_STEP][PASSED] - if (i > -1): null
+
+2023-12-13 10:34:32 - [TEST_STEP][PASSED] - i = b.indexOf("О «"): null
+
+2023-12-13 10:34:32 - [TEST_STEP][PASSED] - if (i > -1): null
+
+2023-12-13 10:34:32 - [TEST_STEP][PASSED] - i = b.indexOf("г. "): null
+
+2023-12-13 10:34:32 - [TEST_STEP][PASSED] - if (i > -1): null
+
+2023-12-13 10:34:32 - [TEST_STEP][PASSED] - println(b): null
+
+2023-12-13 10:34:32 - [TEST_STEP][PASSED] - for ([planFact = 1, planFact < 3, (planFact++)]): null
+
+2023-12-13 10:34:32 - [TEST_STEP][PASSED] - if (planFact == 1): null
+
+2023-12-13 10:34:32 - [TEST_STEP][PASSED] - typeOfDataMain = "Факт": null
+
+2023-12-13 10:34:32 - [TEST_STEP][PASSED] - otpusk = findTestData("PlanFact").getValue(5, a): null
+
+2023-12-13 10:34:32 - [TEST_STEP][PASSED] - poteri = findTestData("PlanFact").getValue(6, a): null
+
+2023-12-13 10:34:32 - [TEST_STEP][PASSED] - otpusk = otpusk.replaceAll("\s+", ""): null
+
+2023-12-13 10:34:32 - [TEST_STEP][PASSED] - poteri = poteri.replaceAll("\s+", ""): null
+
+2023-12-13 10:34:32 - [TEST_STEP][PASSED] - typeOfData = typeOfDataMain + " Отпуск в сеть": null
+
+2023-12-13 10:34:32 - [TEST_STEP][PASSED] - path = dataFolder + typeOfData + " за отчётный период " + b: null
+
+2023-12-13 10:34:32 - [TEST_STEP][PASSED] - println(path): null
+
+2023-12-13 10:34:32 - [TEST_STEP][PASSED] - page = getText(findTestObject(path)): Text of object 'Object Repository/Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Факт Отпуск в сеть за отчётный период РаспредКомплекс' is: '500 610 785'
+
+2023-12-13 10:34:32 - [MESSAGE][PASSED] - Text of object 'Object Repository/Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Факт Отпуск в сеть за отчётный период РаспредКомплекс' is: '500 610 785'
+
+2023-12-13 10:34:32 - [TEST_STEP][PASSED] - page = page.replaceAll("\s+", ""): null
+
+2023-12-13 10:34:32 - [TEST_STEP][PASSED] - fileOtpuskVSet = otpusk.toInteger(): null
+
+2023-12-13 10:34:32 - [TEST_STEP][PASSED] - pageOtpuskVSet = page.toInteger(): null
+
+2023-12-13 10:34:32 - [TEST_STEP][PASSED] - typeOfData = typeOfDataMain + " Потери": null
+
+2023-12-13 10:34:32 - [TEST_STEP][PASSED] - path = dataFolder + typeOfData + " за отчётный период " + b: null
+
+2023-12-13 10:34:32 - [TEST_STEP][PASSED] - page = getText(findTestObject(path)): Text of object 'Object Repository/Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Факт Потери за отчётный период РаспредКомплекс' is: '39 270 988'
+
+2023-12-13 10:34:33 - [MESSAGE][PASSED] - Text of object 'Object Repository/Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Факт Потери за отчётный период РаспредКомплекс' is: '39 270 988'
+
+2023-12-13 10:34:33 - [TEST_STEP][PASSED] - page = page.replaceAll("\s+", ""): null
+
+2023-12-13 10:34:33 - [TEST_STEP][PASSED] - filePoteri = poteri.toInteger(): null
+
+2023-12-13 10:34:33 - [TEST_STEP][PASSED] - pagePoteri = page.toInteger(): null
+
+2023-12-13 10:34:33 - [TEST_STEP][PASSED] - compare = pageOtpuskVSet: null
+
+2023-12-13 10:34:33 - [TEST_STEP][PASSED] - if (compare == fileOtpuskVSet): null
+
+2023-12-13 10:34:33 - [TEST_STEP][PASSED] - else if (compare > fileOtpuskVSet): null
+
+2023-12-13 10:34:33 - [TEST_STEP][PASSED] - else if (compare < fileOtpuskVSet): null
+
+2023-12-13 10:34:33 - [TEST_STEP][PASSED] - compare = compare + 1: null
+
+2023-12-13 10:34:33 - [TEST_STEP][PASSED] - if (compare == fileOtpuskVSet): null
+
+2023-12-13 10:34:33 - [TEST_STEP][PASSED] - else: null
+
+2023-12-13 10:34:33 - [TEST_STEP][PASSED] - numberOfErrors = numberOfErrors + 1: null
+
+2023-12-13 10:34:33 - [TEST_STEP][PASSED] - pageInt = pageOtpuskVSet: null
+
+2023-12-13 10:34:33 - [TEST_STEP][PASSED] - fileInt = fileOtpuskVSet: null
+
+2023-12-13 10:34:33 - [TEST_STEP][PASSED] - typeOfData = typeOfDataMain + " Отпуск в сеть": null
+
+2023-12-13 10:34:33 - [TEST_STEP][PASSED] - Script1697465685113.WriteToExcel(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO): null
+
+2023-12-13 10:34:33 - [TEST_STEP][PASSED] - sheetName = "Sheet1": null
+
+2023-12-13 10:34:33 - [TEST_STEP][PASSED] - data = findTestData("PlanFact"): null
+
+2023-12-13 10:34:33 - [TEST_STEP][PASSED] - n = data.getRowNumbers() + 1: null
+
+2023-12-13 10:34:33 - [TEST_STEP][PASSED] - year = todaysDate.substring(todaysDate.length() - 4, todaysDate.length()): null
+
+2023-12-13 10:34:33 - [TEST_STEP][PASSED] - y = year.toInteger(): null
+
+2023-12-13 10:34:33 - [TEST_STEP][PASSED] - m = getText(findTestObject("Выполнение бизнес-плана/Период")): Text of object 'Object Repository/Выполнение бизнес-плана/Период' is: '1, 2, 3 кв., Октябрь 2023 года'
+
+2023-12-13 10:34:33 - [MESSAGE][PASSED] - Text of object 'Object Repository/Выполнение бизнес-плана/Период' is: '1, 2, 3 кв., Октябрь 2023 года'
+
+2023-12-13 10:34:33 - [TEST_STEP][PASSED] - m = m.substring(0, m.indexOf(year)): null
+
+2023-12-13 10:34:33 - [TEST_STEP][PASSED] - m = m.trim(): null
+
+2023-12-13 10:34:33 - [TEST_STEP][PASSED] - dashboardName = "Выполнение бизнес-плана": null
+
+2023-12-13 10:34:33 - [TEST_STEP][PASSED] - workbook01 = getWorkbook(excelFilePath): null
+
+2023-12-13 10:34:33 - [TEST_STEP][PASSED] - sheet01 = getExcelSheet(workbook01, sheetName): null
+
+2023-12-13 10:34:33 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 0, dashboardName): null
+
+2023-12-13 10:34:33 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 1, dZO): null
+
+2023-12-13 10:34:33 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 2, typeOfData): null
+
+2023-12-13 10:34:33 - [TEST_STEP][PASSED] - if (typeOfData == "Факт в процентах" || typeOfData == "План в процентах"): null
+
+2023-12-13 10:34:33 - [TEST_STEP][PASSED] - else: null
+
+2023-12-13 10:34:33 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 3, fileInt): null
+
+2023-12-13 10:34:33 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 4, pageInt): null
+
+2023-12-13 10:34:33 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 5, m): null
+
+2023-12-13 10:34:33 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 6, y): null
+
+2023-12-13 10:34:33 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 7, todaysDate): null
+
+2023-12-13 10:34:33 - [TEST_STEP][PASSED] - n = n + 1: null
+
+2023-12-13 10:34:33 - [TEST_STEP][PASSED] - saveWorkbook(excelFilePath, workbook01): null
+
+2023-12-13 10:34:33 - [TEST_STEP][PASSED] - compare = pagePoteri: null
+
+2023-12-13 10:34:33 - [TEST_STEP][PASSED] - if (compare == filePoteri): null
+
+2023-12-13 10:34:33 - [TEST_STEP][PASSED] - else if (compare > filePoteri): null
+
+2023-12-13 10:34:33 - [TEST_STEP][PASSED] - compare = compare - 1: null
+
+2023-12-13 10:34:33 - [TEST_STEP][PASSED] - if (compare == filePoteri): null
+
+2023-12-13 10:34:33 - [TEST_STEP][PASSED] - else: null
+
+2023-12-13 10:34:33 - [TEST_STEP][PASSED] - numberOfErrors = numberOfErrors + 1: null
+
+2023-12-13 10:34:33 - [TEST_STEP][PASSED] - pageInt = pagePoteri: null
+
+2023-12-13 10:34:33 - [TEST_STEP][PASSED] - fileInt = filePoteri: null
+
+2023-12-13 10:34:33 - [TEST_STEP][PASSED] - typeOfData = typeOfDataMain + " Потери": null
+
+2023-12-13 10:34:33 - [TEST_STEP][PASSED] - Script1697465685113.WriteToExcel(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO): null
+
+2023-12-13 10:34:33 - [TEST_STEP][PASSED] - sheetName = "Sheet1": null
+
+2023-12-13 10:34:33 - [TEST_STEP][PASSED] - data = findTestData("PlanFact"): null
+
+2023-12-13 10:34:33 - [TEST_STEP][PASSED] - n = data.getRowNumbers() + 1: null
+
+2023-12-13 10:34:33 - [TEST_STEP][PASSED] - year = todaysDate.substring(todaysDate.length() - 4, todaysDate.length()): null
+
+2023-12-13 10:34:33 - [TEST_STEP][PASSED] - y = year.toInteger(): null
+
+2023-12-13 10:34:33 - [TEST_STEP][PASSED] - m = getText(findTestObject("Выполнение бизнес-плана/Период")): Text of object 'Object Repository/Выполнение бизнес-плана/Период' is: '1, 2, 3 кв., Октябрь 2023 года'
+
+2023-12-13 10:34:34 - [MESSAGE][PASSED] - Text of object 'Object Repository/Выполнение бизнес-плана/Период' is: '1, 2, 3 кв., Октябрь 2023 года'
+
+2023-12-13 10:34:34 - [TEST_STEP][PASSED] - m = m.substring(0, m.indexOf(year)): null
+
+2023-12-13 10:34:34 - [TEST_STEP][PASSED] - m = m.trim(): null
+
+2023-12-13 10:34:34 - [TEST_STEP][PASSED] - dashboardName = "Выполнение бизнес-плана": null
+
+2023-12-13 10:34:34 - [TEST_STEP][PASSED] - workbook01 = getWorkbook(excelFilePath): null
+
+2023-12-13 10:34:34 - [TEST_STEP][PASSED] - sheet01 = getExcelSheet(workbook01, sheetName): null
+
+2023-12-13 10:34:34 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 0, dashboardName): null
+
+2023-12-13 10:34:34 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 1, dZO): null
+
+2023-12-13 10:34:34 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 2, typeOfData): null
+
+2023-12-13 10:34:34 - [TEST_STEP][PASSED] - if (typeOfData == "Факт в процентах" || typeOfData == "План в процентах"): null
+
+2023-12-13 10:34:34 - [TEST_STEP][PASSED] - else: null
+
+2023-12-13 10:34:34 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 3, fileInt): null
+
+2023-12-13 10:34:34 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 4, pageInt): null
+
+2023-12-13 10:34:34 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 5, m): null
+
+2023-12-13 10:34:34 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 6, y): null
+
+2023-12-13 10:34:34 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 7, todaysDate): null
+
+2023-12-13 10:34:34 - [TEST_STEP][PASSED] - n = n + 1: null
+
+2023-12-13 10:34:34 - [TEST_STEP][PASSED] - saveWorkbook(excelFilePath, workbook01): null
+
+2023-12-13 10:34:34 - [TEST_STEP][PASSED] - if (planFact == 2): null
+
+2023-12-13 10:34:34 - [TEST_STEP][PASSED] - if (planFact == 1): null
+
+2023-12-13 10:34:34 - [TEST_STEP][PASSED] - else if (planFact == 2): null
+
+2023-12-13 10:34:34 - [TEST_STEP][PASSED] - click(findTestObject("Выполнение бизнес-плана/Кнопка План")): Object: 'Object Repository/Выполнение бизнес-плана/Кнопка План' is clicked on
+
+2023-12-13 10:34:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Выполнение бизнес-плана/Кнопка План' is clicked on
+
+2023-12-13 10:34:34 - [TEST_STEP][PASSED] - typeOfDataMain = "План": null
+
+2023-12-13 10:34:34 - [TEST_STEP][PASSED] - otpusk = findTestData("PlanFact").getValue(2, a): null
+
+2023-12-13 10:34:34 - [TEST_STEP][PASSED] - poteri = findTestData("PlanFact").getValue(3, a): null
+
+2023-12-13 10:34:34 - [TEST_STEP][PASSED] - otpusk = otpusk.replaceAll("\s+", ""): null
+
+2023-12-13 10:34:34 - [TEST_STEP][PASSED] - poteri = poteri.replaceAll("\s+", ""): null
+
+2023-12-13 10:34:34 - [TEST_STEP][PASSED] - typeOfData = typeOfDataMain + " Отпуск в сеть": null
+
+2023-12-13 10:34:34 - [TEST_STEP][PASSED] - path = dataFolder + typeOfData + " за отчётный период " + b: null
+
+2023-12-13 10:34:34 - [TEST_STEP][PASSED] - println(path): null
+
+2023-12-13 10:34:34 - [TEST_STEP][PASSED] - page = getText(findTestObject(path)): Text of object 'Object Repository/Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/План Отпуск в сеть за отчётный период РаспредКомплекс' is: '498 169 558'
+
+2023-12-13 10:34:35 - [MESSAGE][PASSED] - Text of object 'Object Repository/Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/План Отпуск в сеть за отчётный период РаспредКомплекс' is: '498 169 558'
+
+2023-12-13 10:34:35 - [TEST_STEP][PASSED] - page = page.replaceAll("\s+", ""): null
+
+2023-12-13 10:34:35 - [TEST_STEP][PASSED] - fileOtpuskVSet = otpusk.toInteger(): null
+
+2023-12-13 10:34:35 - [TEST_STEP][PASSED] - pageOtpuskVSet = page.toInteger(): null
+
+2023-12-13 10:34:35 - [TEST_STEP][PASSED] - typeOfData = typeOfDataMain + " Потери": null
+
+2023-12-13 10:34:35 - [TEST_STEP][PASSED] - path = dataFolder + typeOfData + " за отчётный период " + b: null
+
+2023-12-13 10:34:35 - [TEST_STEP][PASSED] - page = getText(findTestObject(path)): Text of object 'Object Repository/Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/План Потери за отчётный период РаспредКомплекс' is: '38 945 374'
+
+2023-12-13 10:34:35 - [MESSAGE][PASSED] - Text of object 'Object Repository/Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/План Потери за отчётный период РаспредКомплекс' is: '38 945 374'
+
+2023-12-13 10:34:35 - [TEST_STEP][PASSED] - page = page.replaceAll("\s+", ""): null
+
+2023-12-13 10:34:35 - [TEST_STEP][PASSED] - filePoteri = poteri.toInteger(): null
+
+2023-12-13 10:34:35 - [TEST_STEP][PASSED] - pagePoteri = page.toInteger(): null
+
+2023-12-13 10:34:35 - [TEST_STEP][PASSED] - compare = pageOtpuskVSet: null
+
+2023-12-13 10:34:35 - [TEST_STEP][PASSED] - if (compare == fileOtpuskVSet): null
+
+2023-12-13 10:34:35 - [TEST_STEP][PASSED] - else if (compare > fileOtpuskVSet): null
+
+2023-12-13 10:34:35 - [TEST_STEP][PASSED] - else if (compare < fileOtpuskVSet): null
+
+2023-12-13 10:34:35 - [TEST_STEP][PASSED] - compare = compare + 1: null
+
+2023-12-13 10:34:35 - [TEST_STEP][PASSED] - if (compare == fileOtpuskVSet): null
+
+2023-12-13 10:34:35 - [TEST_STEP][PASSED] - else: null
+
+2023-12-13 10:34:35 - [TEST_STEP][PASSED] - numberOfErrors = numberOfErrors + 1: null
+
+2023-12-13 10:34:35 - [TEST_STEP][PASSED] - pageInt = pageOtpuskVSet: null
+
+2023-12-13 10:34:35 - [TEST_STEP][PASSED] - fileInt = fileOtpuskVSet: null
+
+2023-12-13 10:34:35 - [TEST_STEP][PASSED] - typeOfData = typeOfDataMain + " Отпуск в сеть": null
+
+2023-12-13 10:34:35 - [TEST_STEP][PASSED] - Script1697465685113.WriteToExcel(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO): null
+
+2023-12-13 10:34:35 - [TEST_STEP][PASSED] - sheetName = "Sheet1": null
+
+2023-12-13 10:34:35 - [TEST_STEP][PASSED] - data = findTestData("PlanFact"): null
+
+2023-12-13 10:34:35 - [TEST_STEP][PASSED] - n = data.getRowNumbers() + 1: null
+
+2023-12-13 10:34:35 - [TEST_STEP][PASSED] - year = todaysDate.substring(todaysDate.length() - 4, todaysDate.length()): null
+
+2023-12-13 10:34:35 - [TEST_STEP][PASSED] - y = year.toInteger(): null
+
+2023-12-13 10:34:35 - [TEST_STEP][PASSED] - m = getText(findTestObject("Выполнение бизнес-плана/Период")): Text of object 'Object Repository/Выполнение бизнес-плана/Период' is: '1, 2, 3 кв., Октябрь 2023 года'
+
+2023-12-13 10:34:36 - [MESSAGE][PASSED] - Text of object 'Object Repository/Выполнение бизнес-плана/Период' is: '1, 2, 3 кв., Октябрь 2023 года'
+
+2023-12-13 10:34:36 - [TEST_STEP][PASSED] - m = m.substring(0, m.indexOf(year)): null
+
+2023-12-13 10:34:36 - [TEST_STEP][PASSED] - m = m.trim(): null
+
+2023-12-13 10:34:36 - [TEST_STEP][PASSED] - dashboardName = "Выполнение бизнес-плана": null
+
+2023-12-13 10:34:36 - [TEST_STEP][PASSED] - workbook01 = getWorkbook(excelFilePath): null
+
+2023-12-13 10:34:36 - [TEST_STEP][PASSED] - sheet01 = getExcelSheet(workbook01, sheetName): null
+
+2023-12-13 10:34:36 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 0, dashboardName): null
+
+2023-12-13 10:34:36 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 1, dZO): null
+
+2023-12-13 10:34:36 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 2, typeOfData): null
+
+2023-12-13 10:34:36 - [TEST_STEP][PASSED] - if (typeOfData == "Факт в процентах" || typeOfData == "План в процентах"): null
+
+2023-12-13 10:34:36 - [TEST_STEP][PASSED] - else: null
+
+2023-12-13 10:34:36 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 3, fileInt): null
+
+2023-12-13 10:34:36 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 4, pageInt): null
+
+2023-12-13 10:34:36 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 5, m): null
+
+2023-12-13 10:34:36 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 6, y): null
+
+2023-12-13 10:34:36 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 7, todaysDate): null
+
+2023-12-13 10:34:36 - [TEST_STEP][PASSED] - n = n + 1: null
+
+2023-12-13 10:34:36 - [TEST_STEP][PASSED] - saveWorkbook(excelFilePath, workbook01): null
+
+2023-12-13 10:34:36 - [TEST_STEP][PASSED] - compare = pagePoteri: null
+
+2023-12-13 10:34:36 - [TEST_STEP][PASSED] - if (compare == filePoteri): null
+
+2023-12-13 10:34:36 - [TEST_STEP][PASSED] - else if (compare > filePoteri): null
+
+2023-12-13 10:34:36 - [TEST_STEP][PASSED] - compare = compare - 1: null
+
+2023-12-13 10:34:36 - [TEST_STEP][PASSED] - if (compare == filePoteri): null
+
+2023-12-13 10:34:36 - [TEST_STEP][PASSED] - else: null
+
+2023-12-13 10:34:36 - [TEST_STEP][PASSED] - numberOfErrors = numberOfErrors + 1: null
+
+2023-12-13 10:34:36 - [TEST_STEP][PASSED] - pageInt = pagePoteri: null
+
+2023-12-13 10:34:36 - [TEST_STEP][PASSED] - fileInt = filePoteri: null
+
+2023-12-13 10:34:36 - [TEST_STEP][PASSED] - typeOfData = typeOfDataMain + " Потери": null
+
+2023-12-13 10:34:36 - [TEST_STEP][PASSED] - Script1697465685113.WriteToExcel(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO): null
+
+2023-12-13 10:34:36 - [TEST_STEP][PASSED] - sheetName = "Sheet1": null
+
+2023-12-13 10:34:36 - [TEST_STEP][PASSED] - data = findTestData("PlanFact"): null
+
+2023-12-13 10:34:36 - [TEST_STEP][PASSED] - n = data.getRowNumbers() + 1: null
+
+2023-12-13 10:34:36 - [TEST_STEP][PASSED] - year = todaysDate.substring(todaysDate.length() - 4, todaysDate.length()): null
+
+2023-12-13 10:34:36 - [TEST_STEP][PASSED] - y = year.toInteger(): null
+
+2023-12-13 10:34:36 - [TEST_STEP][PASSED] - m = getText(findTestObject("Выполнение бизнес-плана/Период")): Text of object 'Object Repository/Выполнение бизнес-плана/Период' is: '1, 2, 3 кв., Октябрь 2023 года'
+
+2023-12-13 10:34:36 - [MESSAGE][PASSED] - Text of object 'Object Repository/Выполнение бизнес-плана/Период' is: '1, 2, 3 кв., Октябрь 2023 года'
+
+2023-12-13 10:34:36 - [TEST_STEP][PASSED] - m = m.substring(0, m.indexOf(year)): null
+
+2023-12-13 10:34:36 - [TEST_STEP][PASSED] - m = m.trim(): null
+
+2023-12-13 10:34:36 - [TEST_STEP][PASSED] - dashboardName = "Выполнение бизнес-плана": null
+
+2023-12-13 10:34:36 - [TEST_STEP][PASSED] - workbook01 = getWorkbook(excelFilePath): null
+
+2023-12-13 10:34:36 - [TEST_STEP][PASSED] - sheet01 = getExcelSheet(workbook01, sheetName): null
+
+2023-12-13 10:34:36 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 0, dashboardName): null
+
+2023-12-13 10:34:36 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 1, dZO): null
+
+2023-12-13 10:34:36 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 2, typeOfData): null
+
+2023-12-13 10:34:36 - [TEST_STEP][PASSED] - if (typeOfData == "Факт в процентах" || typeOfData == "План в процентах"): null
+
+2023-12-13 10:34:36 - [TEST_STEP][PASSED] - else: null
+
+2023-12-13 10:34:36 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 3, fileInt): null
+
+2023-12-13 10:34:36 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 4, pageInt): null
+
+2023-12-13 10:34:36 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 5, m): null
+
+2023-12-13 10:34:36 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 6, y): null
+
+2023-12-13 10:34:36 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 7, todaysDate): null
+
+2023-12-13 10:34:36 - [TEST_STEP][PASSED] - n = n + 1: null
+
+2023-12-13 10:34:36 - [TEST_STEP][PASSED] - saveWorkbook(excelFilePath, workbook01): Object: 'Object Repository/Выполнение бизнес-плана/Кнопка Факт' is clicked on
+
+2023-12-13 10:34:36 - [TEST_STEP][PASSED] - if (planFact == 2): Object: 'Object Repository/Выполнение бизнес-плана/Кнопка Факт' is clicked on
+
+2023-12-13 10:34:36 - [TEST_STEP][PASSED] - click(findTestObject("Выполнение бизнес-плана/Кнопка Факт")): Object: 'Object Repository/Выполнение бизнес-плана/Кнопка Факт' is clicked on
+
+2023-12-13 10:34:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Выполнение бизнес-плана/Кнопка Факт' is clicked on
+
+2023-12-13 10:34:37 - [TEST_STEP][PASSED] - if (a == 84 || a == 82): null
+
+2023-12-13 10:34:37 - [TEST_STEP][PASSED] - page = getText(findTestObject("Выполнение бизнес-плана/textPlanFact")): Text of object 'Object Repository/Выполнение бизнес-плана/textPlanFact' is: '%
+7.82 7.82
+7.84 7.84
+План
+Факт
+1
+100'
+
+2023-12-13 10:34:37 - [MESSAGE][PASSED] - Text of object 'Object Repository/Выполнение бизнес-плана/textPlanFact' is: '%
+7.82 7.82
+7.84 7.84
+План
+Факт
+1
+100'
+
+2023-12-13 10:34:37 - [TEST_STEP][PASSED] - page = page.replaceAll("\n", "_"): null
+
+2023-12-13 10:34:37 - [TEST_STEP][PASSED] - page = page.substring(page.indexOf("_") + 1, page.length()): null
+
+2023-12-13 10:34:37 - [TEST_STEP][PASSED] - page1 = page.substring(0, page.indexOf("_")): null
+
+2023-12-13 10:34:37 - [TEST_STEP][PASSED] - page1 = page.substring(0, page.indexOf(" ")): null
+
+2023-12-13 10:34:37 - [TEST_STEP][PASSED] - page2 = page.substring(page.indexOf("_") + 1, page.length()): null
+
+2023-12-13 10:34:37 - [TEST_STEP][PASSED] - page2 = page2.substring(0, page.indexOf("_")): null
+
+2023-12-13 10:34:37 - [TEST_STEP][PASSED] - page2 = page2.substring(0, page.indexOf(" ")): null
+
+2023-12-13 10:34:37 - [TEST_STEP][PASSED] - println("page1: " + page1): null
+
+2023-12-13 10:34:37 - [TEST_STEP][PASSED] - println("page2: " + page2): null
+
+2023-12-13 10:34:37 - [TEST_STEP][PASSED] - file = findTestData("PlanFact").getValue(4, a): null
+
+2023-12-13 10:34:37 - [TEST_STEP][PASSED] - file = file.replace(",", "."): null
+
+2023-12-13 10:34:37 - [TEST_STEP][PASSED] - println("file Plan: " + file): null
+
+2023-12-13 10:34:37 - [TEST_STEP][PASSED] - typeOfData = "План в процентах": null
+
+2023-12-13 10:34:37 - [TEST_STEP][PASSED] - fileDouble = file.toDouble(): null
+
+2023-12-13 10:34:37 - [TEST_STEP][PASSED] - pageDouble = page1.toDouble(): null
+
+2023-12-13 10:34:37 - [TEST_STEP][PASSED] - if (fileDouble != pageDouble): null
+
+2023-12-13 10:34:37 - [TEST_STEP][PASSED] - numberOfErrors = numberOfErrors + 1: null
+
+2023-12-13 10:34:37 - [TEST_STEP][PASSED] - Script1697465685113.WriteToExcel(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO): null
+
+2023-12-13 10:34:37 - [TEST_STEP][PASSED] - sheetName = "Sheet1": null
+
+2023-12-13 10:34:37 - [TEST_STEP][PASSED] - data = findTestData("PlanFact"): null
+
+2023-12-13 10:34:37 - [TEST_STEP][PASSED] - n = data.getRowNumbers() + 1: null
+
+2023-12-13 10:34:37 - [TEST_STEP][PASSED] - year = todaysDate.substring(todaysDate.length() - 4, todaysDate.length()): null
+
+2023-12-13 10:34:37 - [TEST_STEP][PASSED] - y = year.toInteger(): null
+
+2023-12-13 10:34:37 - [TEST_STEP][PASSED] - m = getText(findTestObject("Выполнение бизнес-плана/Период")): Text of object 'Object Repository/Выполнение бизнес-плана/Период' is: '1, 2, 3 кв., Октябрь 2023 года'
+
+2023-12-13 10:34:38 - [MESSAGE][PASSED] - Text of object 'Object Repository/Выполнение бизнес-плана/Период' is: '1, 2, 3 кв., Октябрь 2023 года'
+
+2023-12-13 10:34:38 - [TEST_STEP][PASSED] - m = m.substring(0, m.indexOf(year)): null
+
+2023-12-13 10:34:38 - [TEST_STEP][PASSED] - m = m.trim(): null
+
+2023-12-13 10:34:38 - [TEST_STEP][PASSED] - dashboardName = "Выполнение бизнес-плана": null
+
+2023-12-13 10:34:38 - [TEST_STEP][PASSED] - workbook01 = getWorkbook(excelFilePath): null
+
+2023-12-13 10:34:38 - [TEST_STEP][PASSED] - sheet01 = getExcelSheet(workbook01, sheetName): null
+
+2023-12-13 10:34:38 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 0, dashboardName): null
+
+2023-12-13 10:34:38 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 1, dZO): null
+
+2023-12-13 10:34:38 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 2, typeOfData): null
+
+2023-12-13 10:34:38 - [TEST_STEP][PASSED] - if (typeOfData == "Факт в процентах" || typeOfData == "План в процентах"): null
+
+2023-12-13 10:34:38 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 3, fileDouble): null
+
+2023-12-13 10:34:38 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 4, pageDouble): null
+
+2023-12-13 10:34:38 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 5, m): null
+
+2023-12-13 10:34:38 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 6, y): null
+
+2023-12-13 10:34:38 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 7, todaysDate): null
+
+2023-12-13 10:34:38 - [TEST_STEP][PASSED] - n = n + 1: null
+
+2023-12-13 10:34:38 - [TEST_STEP][PASSED] - saveWorkbook(excelFilePath, workbook01): null
+
+2023-12-13 10:34:38 - [TEST_STEP][PASSED] - file = findTestData("PlanFact").getValue(7, a): null
+
+2023-12-13 10:34:38 - [TEST_STEP][PASSED] - file = file.replace(",", "."): null
+
+2023-12-13 10:34:38 - [TEST_STEP][PASSED] - println("file Fact: " + file): null
+
+2023-12-13 10:34:38 - [TEST_STEP][PASSED] - fileDouble = file.toDouble(): null
+
+2023-12-13 10:34:38 - [TEST_STEP][PASSED] - typeOfData = "Факт в процентах": null
+
+2023-12-13 10:34:38 - [TEST_STEP][PASSED] - fileDouble = file.toDouble(): null
+
+2023-12-13 10:34:38 - [TEST_STEP][PASSED] - pageDouble = page2.toDouble(): null
+
+2023-12-13 10:34:38 - [TEST_STEP][PASSED] - if (fileDouble != pageDouble): null
+
+2023-12-13 10:34:38 - [TEST_STEP][PASSED] - numberOfErrors = numberOfErrors + 1: null
+
+2023-12-13 10:34:38 - [TEST_STEP][PASSED] - Script1697465685113.WriteToExcel(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO): null
+
+2023-12-13 10:34:38 - [TEST_STEP][PASSED] - sheetName = "Sheet1": null
+
+2023-12-13 10:34:38 - [TEST_STEP][PASSED] - data = findTestData("PlanFact"): null
+
+2023-12-13 10:34:38 - [TEST_STEP][PASSED] - n = data.getRowNumbers() + 1: null
+
+2023-12-13 10:34:38 - [TEST_STEP][PASSED] - year = todaysDate.substring(todaysDate.length() - 4, todaysDate.length()): null
+
+2023-12-13 10:34:38 - [TEST_STEP][PASSED] - y = year.toInteger(): null
+
+2023-12-13 10:34:38 - [TEST_STEP][PASSED] - m = getText(findTestObject("Выполнение бизнес-плана/Период")): Text of object 'Object Repository/Выполнение бизнес-плана/Период' is: '1, 2, 3 кв., Октябрь 2023 года'
+
+2023-12-13 10:34:38 - [MESSAGE][PASSED] - Text of object 'Object Repository/Выполнение бизнес-плана/Период' is: '1, 2, 3 кв., Октябрь 2023 года'
+
+2023-12-13 10:34:38 - [TEST_STEP][PASSED] - m = m.substring(0, m.indexOf(year)): null
+
+2023-12-13 10:34:38 - [TEST_STEP][PASSED] - m = m.trim(): null
+
+2023-12-13 10:34:38 - [TEST_STEP][PASSED] - dashboardName = "Выполнение бизнес-плана": null
+
+2023-12-13 10:34:38 - [TEST_STEP][PASSED] - workbook01 = getWorkbook(excelFilePath): null
+
+2023-12-13 10:34:38 - [TEST_STEP][PASSED] - sheet01 = getExcelSheet(workbook01, sheetName): null
+
+2023-12-13 10:34:38 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 0, dashboardName): null
+
+2023-12-13 10:34:38 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 1, dZO): null
+
+2023-12-13 10:34:38 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 2, typeOfData): null
+
+2023-12-13 10:34:38 - [TEST_STEP][PASSED] - if (typeOfData == "Факт в процентах" || typeOfData == "План в процентах"): null
+
+2023-12-13 10:34:38 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 3, fileDouble): null
+
+2023-12-13 10:34:38 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 4, pageDouble): null
+
+2023-12-13 10:34:38 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 5, m): null
+
+2023-12-13 10:34:38 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 6, y): null
+
+2023-12-13 10:34:38 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 7, todaysDate): null
+
+2023-12-13 10:34:38 - [TEST_STEP][PASSED] - n = n + 1: null
+
+2023-12-13 10:34:38 - [TEST_STEP][PASSED] - saveWorkbook(excelFilePath, workbook01): null
+
+2023-12-13 10:34:38 - [TEST_STEP][FAILED] - if (verifyEqual(numberOfErrors, 0) == false): null
+
+2023-12-13 10:34:38 - [MESSAGE][FAILED] - Unable to verify equal between actual object '6' and expected object '0' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object '6' and expected object '0' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:146)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.Numbers(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:550)
+	at Script1697465685113$Numbers.callStatic(Unknown Source)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.run(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:140)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1702452607096.run(TempTestSuite1702452607096.groovy:36)
+)
+
+2023-12-13 10:34:38 - [TEST_STEP][PASSED] - println(numberOfErrors): null
+
+2023-12-13 10:34:38 - [TEST_STEP][PASSED] - if (a == 28 || a == 77 || a == 74 || a == 65 || a == 36 || a == 44 || a == 54 || a == 1 || a == 18 || a == 59): null
+
+2023-12-13 10:34:38 - [TEST_STEP][PASSED] - if (a == 82): null
+
+2023-12-13 10:34:38 - [TEST_STEP][PASSED] - Script1697465685113.OpenFilter(): null
+
+2023-12-13 10:34:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Выполнение бизнес-плана/Фильтр ДЗО")): Object: 'Object Repository/Выполнение бизнес-плана/Фильтр ДЗО' is clicked on
+
+2023-12-13 10:34:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Выполнение бизнес-плана/Фильтр ДЗО' is clicked on
+
+2023-12-13 10:34:39 - [TEST_STEP][PASSED] - click(findTestObject("Выполнение бизнес-плана/Снять выделение в фильтре ДЗО")): null
+
+2023-12-13 10:34:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Выполнение бизнес-плана/Снять выделение в фильтре ДЗО' is clicked on
+
+2023-12-13 10:34:39 - [TEST_STEP][PASSED] - Script1697465685113.CloseFilter(): null
+
+2023-12-13 10:34:39 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Выполнение бизнес-плана/Заголовок дашборда"), 30): Scroll to object 'Object Repository/Выполнение бизнес-плана/Заголовок дашборда' successfully
+
+2023-12-13 10:34:40 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Выполнение бизнес-плана/Заголовок дашборда' successfully
+
+2023-12-13 10:34:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Выполнение бизнес-плана/Применить в фильтре ДЗО")): null
+
+2023-12-13 10:34:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Выполнение бизнес-плана/Применить в фильтре ДЗО' is clicked on
+
+2023-12-13 10:34:41 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2023-12-13 10:35:01 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2023-12-13 10:35:01 - [TEST_STEP][PASSED] - dZO = "АО "Тываэнерго"": null
+
+2023-12-13 10:35:01 - [TEST_STEP][PASSED] - a = 52: null
+
+2023-12-13 10:35:01 - [TEST_STEP][PASSED] - Script1697465685113.Numbers(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO): null
+
+2023-12-13 10:35:01 - [TEST_STEP][PASSED] - planFact = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:35:01 - [TEST_STEP][PASSED] - page = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:35:01 - [TEST_STEP][PASSED] - page1 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:35:01 - [TEST_STEP][PASSED] - page2 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:35:01 - [TEST_STEP][PASSED] - filialNumberInRow = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:35:01 - [TEST_STEP][PASSED] - filialsDzoNames = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:35:01 - [TEST_STEP][PASSED] - numberOfFilials = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:35:01 - [TEST_STEP][PASSED] - numberOfSpaces = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:35:01 - [TEST_STEP][PASSED] - file = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:35:01 - [TEST_STEP][PASSED] - otpusk = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:35:01 - [TEST_STEP][PASSED] - poteri = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:35:01 - [TEST_STEP][PASSED] - dataFolder = "Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/": null
+
+2023-12-13 10:35:01 - [TEST_STEP][PASSED] - path = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:35:01 - [TEST_STEP][PASSED] - typeOfDataMain = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:35:01 - [TEST_STEP][PASSED] - fileOtpuskVSet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:35:01 - [TEST_STEP][PASSED] - pageOtpuskVSet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:35:01 - [TEST_STEP][PASSED] - filePoteri = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:35:01 - [TEST_STEP][PASSED] - pagePoteri = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:35:01 - [TEST_STEP][PASSED] - compare = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:35:01 - [TEST_STEP][PASSED] - b = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:35:01 - [TEST_STEP][PASSED] - i = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:35:01 - [TEST_STEP][PASSED] - ii = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:35:01 - [TEST_STEP][PASSED] - c = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:35:01 - [TEST_STEP][PASSED] - numberOfErrors = 0: null
+
+2023-12-13 10:35:01 - [TEST_STEP][PASSED] - if (a == 82): null
+
+2023-12-13 10:35:01 - [TEST_STEP][PASSED] - b = findTestData("PlanFact").getValue(1, a): null
+
+2023-12-13 10:35:01 - [TEST_STEP][PASSED] - i = b.indexOf(" (ГК)"): null
+
+2023-12-13 10:35:01 - [TEST_STEP][PASSED] - if (i > -1): null
+
+2023-12-13 10:35:01 - [TEST_STEP][PASSED] - i = b.indexOf("О ""): null
+
+2023-12-13 10:35:01 - [TEST_STEP][PASSED] - if (i > -1): null
+
+2023-12-13 10:35:01 - [TEST_STEP][PASSED] - b = b.substring(i + 3, b.length()): null
+
+2023-12-13 10:35:01 - [TEST_STEP][PASSED] - i = b.indexOf("""): null
+
+2023-12-13 10:35:01 - [TEST_STEP][PASSED] - b = b.substring(0, i): null
+
+2023-12-13 10:35:01 - [TEST_STEP][PASSED] - b = b.trim(): null
+
+2023-12-13 10:35:01 - [TEST_STEP][PASSED] - i = b.indexOf("О «"): null
+
+2023-12-13 10:35:01 - [TEST_STEP][PASSED] - if (i > -1): null
+
+2023-12-13 10:35:01 - [TEST_STEP][PASSED] - i = b.indexOf("г. "): null
+
+2023-12-13 10:35:01 - [TEST_STEP][PASSED] - if (i > -1): null
+
+2023-12-13 10:35:01 - [TEST_STEP][PASSED] - println(b): null
+
+2023-12-13 10:35:01 - [TEST_STEP][PASSED] - for ([planFact = 1, planFact < 3, (planFact++)]): Object: 'Object Repository/Выполнение бизнес-плана/Кнопка Факт' is clicked on
+
+2023-12-13 10:35:01 - [TEST_STEP][PASSED] - if (planFact == 1): null
+
+2023-12-13 10:35:01 - [TEST_STEP][PASSED] - typeOfDataMain = "Факт": null
+
+2023-12-13 10:35:01 - [TEST_STEP][PASSED] - otpusk = findTestData("PlanFact").getValue(5, a): null
+
+2023-12-13 10:35:01 - [TEST_STEP][PASSED] - poteri = findTestData("PlanFact").getValue(6, a): null
+
+2023-12-13 10:35:01 - [TEST_STEP][PASSED] - otpusk = otpusk.replaceAll("\s+", ""): null
+
+2023-12-13 10:35:01 - [TEST_STEP][PASSED] - poteri = poteri.replaceAll("\s+", ""): null
+
+2023-12-13 10:35:01 - [TEST_STEP][PASSED] - typeOfData = typeOfDataMain + " Отпуск в сеть": null
+
+2023-12-13 10:35:01 - [TEST_STEP][PASSED] - path = dataFolder + typeOfData + " за отчётный период " + b: null
+
+2023-12-13 10:35:01 - [TEST_STEP][PASSED] - println(path): null
+
+2023-12-13 10:35:01 - [TEST_STEP][PASSED] - page = getText(findTestObject(path)): Text of object 'Object Repository/Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Факт Отпуск в сеть за отчётный период Тываэнерго' is: '604 341'
+
+2023-12-13 10:35:01 - [MESSAGE][PASSED] - Text of object 'Object Repository/Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Факт Отпуск в сеть за отчётный период Тываэнерго' is: '604 341'
+
+2023-12-13 10:35:01 - [TEST_STEP][PASSED] - page = page.replaceAll("\s+", ""): null
+
+2023-12-13 10:35:01 - [TEST_STEP][PASSED] - fileOtpuskVSet = otpusk.toInteger(): null
+
+2023-12-13 10:35:01 - [TEST_STEP][PASSED] - pageOtpuskVSet = page.toInteger(): null
+
+2023-12-13 10:35:01 - [TEST_STEP][PASSED] - typeOfData = typeOfDataMain + " Потери": null
+
+2023-12-13 10:35:01 - [TEST_STEP][PASSED] - path = dataFolder + typeOfData + " за отчётный период " + b: null
+
+2023-12-13 10:35:01 - [TEST_STEP][PASSED] - page = getText(findTestObject(path)): Text of object 'Object Repository/Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Факт Потери за отчётный период Тываэнерго' is: '121 784'
+
+2023-12-13 10:35:02 - [MESSAGE][PASSED] - Text of object 'Object Repository/Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Факт Потери за отчётный период Тываэнерго' is: '121 784'
+
+2023-12-13 10:35:02 - [TEST_STEP][PASSED] - page = page.replaceAll("\s+", ""): null
+
+2023-12-13 10:35:02 - [TEST_STEP][PASSED] - filePoteri = poteri.toInteger(): null
+
+2023-12-13 10:35:02 - [TEST_STEP][PASSED] - pagePoteri = page.toInteger(): null
+
+2023-12-13 10:35:02 - [TEST_STEP][PASSED] - compare = pageOtpuskVSet: null
+
+2023-12-13 10:35:02 - [TEST_STEP][PASSED] - if (compare == fileOtpuskVSet): null
+
+2023-12-13 10:35:02 - [TEST_STEP][PASSED] - if (compare == fileOtpuskVSet): null
+
+2023-12-13 10:35:02 - [TEST_STEP][PASSED] - compare = pagePoteri: null
+
+2023-12-13 10:35:02 - [TEST_STEP][PASSED] - if (compare == filePoteri): null
+
+2023-12-13 10:35:02 - [TEST_STEP][PASSED] - if (compare == filePoteri): null
+
+2023-12-13 10:35:02 - [TEST_STEP][PASSED] - if (planFact == 2): null
+
+2023-12-13 10:35:02 - [TEST_STEP][PASSED] - if (planFact == 1): null
+
+2023-12-13 10:35:02 - [TEST_STEP][PASSED] - else if (planFact == 2): null
+
+2023-12-13 10:35:02 - [TEST_STEP][PASSED] - click(findTestObject("Выполнение бизнес-плана/Кнопка План")): Object: 'Object Repository/Выполнение бизнес-плана/Кнопка План' is clicked on
+
+2023-12-13 10:35:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Выполнение бизнес-плана/Кнопка План' is clicked on
+
+2023-12-13 10:35:02 - [TEST_STEP][PASSED] - typeOfDataMain = "План": null
+
+2023-12-13 10:35:02 - [TEST_STEP][PASSED] - otpusk = findTestData("PlanFact").getValue(2, a): null
+
+2023-12-13 10:35:02 - [TEST_STEP][PASSED] - poteri = findTestData("PlanFact").getValue(3, a): null
+
+2023-12-13 10:35:02 - [TEST_STEP][PASSED] - otpusk = otpusk.replaceAll("\s+", ""): null
+
+2023-12-13 10:35:02 - [TEST_STEP][PASSED] - poteri = poteri.replaceAll("\s+", ""): null
+
+2023-12-13 10:35:02 - [TEST_STEP][PASSED] - typeOfData = typeOfDataMain + " Отпуск в сеть": null
+
+2023-12-13 10:35:02 - [TEST_STEP][PASSED] - path = dataFolder + typeOfData + " за отчётный период " + b: null
+
+2023-12-13 10:35:02 - [TEST_STEP][PASSED] - println(path): null
+
+2023-12-13 10:35:02 - [TEST_STEP][PASSED] - page = getText(findTestObject(path)): Text of object 'Object Repository/Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/План Отпуск в сеть за отчётный период Тываэнерго' is: '585 639'
+
+2023-12-13 10:35:02 - [MESSAGE][PASSED] - Text of object 'Object Repository/Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/План Отпуск в сеть за отчётный период Тываэнерго' is: '585 639'
+
+2023-12-13 10:35:02 - [TEST_STEP][PASSED] - page = page.replaceAll("\s+", ""): null
+
+2023-12-13 10:35:02 - [TEST_STEP][PASSED] - fileOtpuskVSet = otpusk.toInteger(): null
+
+2023-12-13 10:35:02 - [TEST_STEP][PASSED] - pageOtpuskVSet = page.toInteger(): null
+
+2023-12-13 10:35:02 - [TEST_STEP][PASSED] - typeOfData = typeOfDataMain + " Потери": null
+
+2023-12-13 10:35:02 - [TEST_STEP][PASSED] - path = dataFolder + typeOfData + " за отчётный период " + b: null
+
+2023-12-13 10:35:02 - [TEST_STEP][PASSED] - page = getText(findTestObject(path)): Text of object 'Object Repository/Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/План Потери за отчётный период Тываэнерго' is: '113 372'
+
+2023-12-13 10:35:03 - [MESSAGE][PASSED] - Text of object 'Object Repository/Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/План Потери за отчётный период Тываэнерго' is: '113 372'
+
+2023-12-13 10:35:03 - [TEST_STEP][PASSED] - page = page.replaceAll("\s+", ""): null
+
+2023-12-13 10:35:03 - [TEST_STEP][PASSED] - filePoteri = poteri.toInteger(): null
+
+2023-12-13 10:35:03 - [TEST_STEP][PASSED] - pagePoteri = page.toInteger(): null
+
+2023-12-13 10:35:03 - [TEST_STEP][PASSED] - compare = pageOtpuskVSet: null
+
+2023-12-13 10:35:03 - [TEST_STEP][PASSED] - if (compare == fileOtpuskVSet): null
+
+2023-12-13 10:35:03 - [TEST_STEP][PASSED] - if (compare == fileOtpuskVSet): null
+
+2023-12-13 10:35:03 - [TEST_STEP][PASSED] - compare = pagePoteri: null
+
+2023-12-13 10:35:03 - [TEST_STEP][PASSED] - if (compare == filePoteri): null
+
+2023-12-13 10:35:03 - [TEST_STEP][PASSED] - if (compare == filePoteri): null
+
+2023-12-13 10:35:03 - [TEST_STEP][PASSED] - if (planFact == 2): Object: 'Object Repository/Выполнение бизнес-плана/Кнопка Факт' is clicked on
+
+2023-12-13 10:35:03 - [TEST_STEP][PASSED] - click(findTestObject("Выполнение бизнес-плана/Кнопка Факт")): Object: 'Object Repository/Выполнение бизнес-плана/Кнопка Факт' is clicked on
+
+2023-12-13 10:35:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Выполнение бизнес-плана/Кнопка Факт' is clicked on
+
+2023-12-13 10:35:03 - [TEST_STEP][PASSED] - if (a == 84 || a == 82): null
+
+2023-12-13 10:35:03 - [TEST_STEP][PASSED] - else: null
+
+2023-12-13 10:35:03 - [TEST_STEP][PASSED] - if (a == 83 || a == 29 || a == 79 || a == 75 || a == 71 || a == 15 || a == 19 || a == 37 || a == 45 || a == 58 || a == 64): null
+
+2023-12-13 10:35:03 - [TEST_STEP][PASSED] - else if (a == 52 || a == 30 || a == 78 || a == 76 || a == 70 || a == 14 || a == 20 || a == 38 || a == 46 || a == 55 || a == 60): null
+
+2023-12-13 10:35:03 - [TEST_STEP][PASSED] - filialNumberInRow = 2: null
+
+2023-12-13 10:35:03 - [TEST_STEP][PASSED] - println("filialNumberInRow: " + filialNumberInRow): null
+
+2023-12-13 10:35:03 - [TEST_STEP][PASSED] - page1 = getText(findTestObject("Object Repository/Выполнение бизнес-плана/spanPlan" + filialNumberInRow)): Text of object 'Object Repository/Выполнение бизнес-плана/spanPlan2' is: '19.36'
+
+2023-12-13 10:35:04 - [MESSAGE][PASSED] - Text of object 'Object Repository/Выполнение бизнес-плана/spanPlan2' is: '19.36'
+
+2023-12-13 10:35:04 - [TEST_STEP][PASSED] - page2 = getText(findTestObject("Object Repository/Выполнение бизнес-плана/spanFact" + filialNumberInRow)): Text of object 'Object Repository/Выполнение бизнес-плана/spanFact2' is: '20.15
+|'
+
+2023-12-13 10:35:04 - [MESSAGE][PASSED] - Text of object 'Object Repository/Выполнение бизнес-плана/spanFact2' is: '20.15
+|'
+
+2023-12-13 10:35:04 - [TEST_STEP][PASSED] - page1 = replace("|", "").trim(): null
+
+2023-12-13 10:35:04 - [TEST_STEP][PASSED] - page2 = replace("|", "").trim(): null
+
+2023-12-13 10:35:04 - [TEST_STEP][PASSED] - println("page1: " + page1): null
+
+2023-12-13 10:35:04 - [TEST_STEP][PASSED] - println("page2: " + page2): null
+
+2023-12-13 10:35:04 - [TEST_STEP][PASSED] - file = findTestData("PlanFact").getValue(4, a): null
+
+2023-12-13 10:35:04 - [TEST_STEP][PASSED] - file = file.replace(",", "."): null
+
+2023-12-13 10:35:04 - [TEST_STEP][PASSED] - println("file Plan: " + file): null
+
+2023-12-13 10:35:04 - [TEST_STEP][PASSED] - typeOfData = "План в процентах": null
+
+2023-12-13 10:35:04 - [TEST_STEP][PASSED] - fileDouble = file.toDouble(): null
+
+2023-12-13 10:35:04 - [TEST_STEP][PASSED] - pageDouble = page1.toDouble(): null
+
+2023-12-13 10:35:04 - [TEST_STEP][PASSED] - if (fileDouble != pageDouble): null
+
+2023-12-13 10:35:04 - [TEST_STEP][PASSED] - file = findTestData("PlanFact").getValue(7, a): null
+
+2023-12-13 10:35:04 - [TEST_STEP][PASSED] - file = file.replace(",", "."): null
+
+2023-12-13 10:35:04 - [TEST_STEP][PASSED] - println("file Fact: " + file): null
+
+2023-12-13 10:35:04 - [TEST_STEP][PASSED] - fileDouble = file.toDouble(): null
+
+2023-12-13 10:35:04 - [TEST_STEP][PASSED] - typeOfData = "Факт в процентах": null
+
+2023-12-13 10:35:04 - [TEST_STEP][PASSED] - fileDouble = file.toDouble(): null
+
+2023-12-13 10:35:04 - [TEST_STEP][PASSED] - pageDouble = page2.toDouble(): null
+
+2023-12-13 10:35:04 - [TEST_STEP][PASSED] - if (fileDouble != pageDouble): null
+
+2023-12-13 10:35:04 - [TEST_STEP][PASSED] - if (verifyEqual(numberOfErrors, 0) == false): Actual object '0' and expected object '0' are equal
+
+2023-12-13 10:35:04 - [MESSAGE][PASSED] - Actual object '0' and expected object '0' are equal
+
+2023-12-13 10:35:04 - [TEST_STEP][PASSED] - if (a == 82): null
+
+2023-12-13 10:35:04 - [TEST_STEP][PASSED] - dZO = "АО "Чеченэнерго"": null
+
+2023-12-13 10:35:04 - [TEST_STEP][PASSED] - a = 72: null
+
+2023-12-13 10:35:04 - [TEST_STEP][PASSED] - Script1697465685113.Numbers(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO): null
+
+2023-12-13 10:35:04 - [TEST_STEP][PASSED] - planFact = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:35:04 - [TEST_STEP][PASSED] - page = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:35:04 - [TEST_STEP][PASSED] - page1 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:35:04 - [TEST_STEP][PASSED] - page2 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:35:04 - [TEST_STEP][PASSED] - filialNumberInRow = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:35:04 - [TEST_STEP][PASSED] - filialsDzoNames = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:35:04 - [TEST_STEP][PASSED] - numberOfFilials = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:35:04 - [TEST_STEP][PASSED] - numberOfSpaces = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:35:04 - [TEST_STEP][PASSED] - file = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:35:04 - [TEST_STEP][PASSED] - otpusk = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:35:04 - [TEST_STEP][PASSED] - poteri = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:35:04 - [TEST_STEP][PASSED] - dataFolder = "Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/": null
+
+2023-12-13 10:35:04 - [TEST_STEP][PASSED] - path = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:35:04 - [TEST_STEP][PASSED] - typeOfDataMain = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:35:04 - [TEST_STEP][PASSED] - fileOtpuskVSet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:35:04 - [TEST_STEP][PASSED] - pageOtpuskVSet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:35:04 - [TEST_STEP][PASSED] - filePoteri = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:35:04 - [TEST_STEP][PASSED] - pagePoteri = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:35:04 - [TEST_STEP][PASSED] - compare = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:35:04 - [TEST_STEP][PASSED] - b = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:35:04 - [TEST_STEP][PASSED] - i = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:35:04 - [TEST_STEP][PASSED] - ii = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:35:04 - [TEST_STEP][PASSED] - c = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:35:04 - [TEST_STEP][PASSED] - numberOfErrors = 0: null
+
+2023-12-13 10:35:04 - [TEST_STEP][PASSED] - if (a == 82): null
+
+2023-12-13 10:35:04 - [TEST_STEP][PASSED] - b = findTestData("PlanFact").getValue(1, a): null
+
+2023-12-13 10:35:04 - [TEST_STEP][PASSED] - i = b.indexOf(" (ГК)"): null
+
+2023-12-13 10:35:04 - [TEST_STEP][PASSED] - if (i > -1): null
+
+2023-12-13 10:35:04 - [TEST_STEP][PASSED] - i = b.indexOf("О ""): null
+
+2023-12-13 10:35:04 - [TEST_STEP][PASSED] - if (i > -1): null
+
+2023-12-13 10:35:04 - [TEST_STEP][PASSED] - b = b.substring(i + 3, b.length()): null
+
+2023-12-13 10:35:04 - [TEST_STEP][PASSED] - i = b.indexOf("""): null
+
+2023-12-13 10:35:04 - [TEST_STEP][PASSED] - b = b.substring(0, i): null
+
+2023-12-13 10:35:04 - [TEST_STEP][PASSED] - b = b.trim(): null
+
+2023-12-13 10:35:04 - [TEST_STEP][PASSED] - i = b.indexOf("О «"): null
+
+2023-12-13 10:35:04 - [TEST_STEP][PASSED] - if (i > -1): null
+
+2023-12-13 10:35:04 - [TEST_STEP][PASSED] - i = b.indexOf("г. "): null
+
+2023-12-13 10:35:04 - [TEST_STEP][PASSED] - if (i > -1): null
+
+2023-12-13 10:35:04 - [TEST_STEP][PASSED] - println(b): null
+
+2023-12-13 10:35:04 - [TEST_STEP][PASSED] - for ([planFact = 1, planFact < 3, (planFact++)]): null
+
+2023-12-13 10:35:04 - [TEST_STEP][PASSED] - if (planFact == 1): null
+
+2023-12-13 10:35:04 - [TEST_STEP][PASSED] - typeOfDataMain = "Факт": null
+
+2023-12-13 10:35:04 - [TEST_STEP][PASSED] - otpusk = findTestData("PlanFact").getValue(5, a): null
+
+2023-12-13 10:35:04 - [TEST_STEP][PASSED] - poteri = findTestData("PlanFact").getValue(6, a): null
+
+2023-12-13 10:35:04 - [TEST_STEP][PASSED] - otpusk = otpusk.replaceAll("\s+", ""): null
+
+2023-12-13 10:35:04 - [TEST_STEP][PASSED] - poteri = poteri.replaceAll("\s+", ""): null
+
+2023-12-13 10:35:04 - [TEST_STEP][PASSED] - typeOfData = typeOfDataMain + " Отпуск в сеть": null
+
+2023-12-13 10:35:04 - [TEST_STEP][PASSED] - path = dataFolder + typeOfData + " за отчётный период " + b: null
+
+2023-12-13 10:35:04 - [TEST_STEP][PASSED] - println(path): null
+
+2023-12-13 10:35:04 - [TEST_STEP][PASSED] - page = getText(findTestObject(path)): Text of object 'Object Repository/Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Факт Отпуск в сеть за отчётный период Чеченэнерго' is: '3 894 426'
+
+2023-12-13 10:35:04 - [MESSAGE][PASSED] - Text of object 'Object Repository/Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Факт Отпуск в сеть за отчётный период Чеченэнерго' is: '3 894 426'
+
+2023-12-13 10:35:04 - [TEST_STEP][PASSED] - page = page.replaceAll("\s+", ""): null
+
+2023-12-13 10:35:04 - [TEST_STEP][PASSED] - fileOtpuskVSet = otpusk.toInteger(): null
+
+2023-12-13 10:35:04 - [TEST_STEP][PASSED] - pageOtpuskVSet = page.toInteger(): null
+
+2023-12-13 10:35:04 - [TEST_STEP][PASSED] - typeOfData = typeOfDataMain + " Потери": null
+
+2023-12-13 10:35:04 - [TEST_STEP][PASSED] - path = dataFolder + typeOfData + " за отчётный период " + b: null
+
+2023-12-13 10:35:04 - [TEST_STEP][PASSED] - page = getText(findTestObject(path)): Text of object 'Object Repository/Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Факт Потери за отчётный период Чеченэнерго' is: '1 368 468'
+
+2023-12-13 10:35:05 - [MESSAGE][PASSED] - Text of object 'Object Repository/Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Факт Потери за отчётный период Чеченэнерго' is: '1 368 468'
+
+2023-12-13 10:35:05 - [TEST_STEP][PASSED] - page = page.replaceAll("\s+", ""): null
+
+2023-12-13 10:35:05 - [TEST_STEP][PASSED] - filePoteri = poteri.toInteger(): null
+
+2023-12-13 10:35:05 - [TEST_STEP][PASSED] - pagePoteri = page.toInteger(): null
+
+2023-12-13 10:35:05 - [TEST_STEP][PASSED] - compare = pageOtpuskVSet: null
+
+2023-12-13 10:35:05 - [TEST_STEP][PASSED] - if (compare == fileOtpuskVSet): null
+
+2023-12-13 10:35:05 - [TEST_STEP][PASSED] - else if (compare > fileOtpuskVSet): null
+
+2023-12-13 10:35:05 - [TEST_STEP][PASSED] - compare = compare - 1: null
+
+2023-12-13 10:35:05 - [TEST_STEP][PASSED] - if (compare == fileOtpuskVSet): null
+
+2023-12-13 10:35:05 - [TEST_STEP][PASSED] - else: null
+
+2023-12-13 10:35:05 - [TEST_STEP][PASSED] - numberOfErrors = numberOfErrors + 1: null
+
+2023-12-13 10:35:05 - [TEST_STEP][PASSED] - pageInt = pageOtpuskVSet: null
+
+2023-12-13 10:35:05 - [TEST_STEP][PASSED] - fileInt = fileOtpuskVSet: null
+
+2023-12-13 10:35:05 - [TEST_STEP][PASSED] - typeOfData = typeOfDataMain + " Отпуск в сеть": null
+
+2023-12-13 10:35:05 - [TEST_STEP][PASSED] - Script1697465685113.WriteToExcel(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO): null
+
+2023-12-13 10:35:05 - [TEST_STEP][PASSED] - sheetName = "Sheet1": null
+
+2023-12-13 10:35:05 - [TEST_STEP][PASSED] - data = findTestData("PlanFact"): null
+
+2023-12-13 10:35:05 - [TEST_STEP][PASSED] - n = data.getRowNumbers() + 1: null
+
+2023-12-13 10:35:05 - [TEST_STEP][PASSED] - year = todaysDate.substring(todaysDate.length() - 4, todaysDate.length()): null
+
+2023-12-13 10:35:05 - [TEST_STEP][PASSED] - y = year.toInteger(): null
+
+2023-12-13 10:35:05 - [TEST_STEP][PASSED] - m = getText(findTestObject("Выполнение бизнес-плана/Период")): Text of object 'Object Repository/Выполнение бизнес-плана/Период' is: '1, 2, 3 кв., Октябрь 2023 года'
+
+2023-12-13 10:35:05 - [MESSAGE][PASSED] - Text of object 'Object Repository/Выполнение бизнес-плана/Период' is: '1, 2, 3 кв., Октябрь 2023 года'
+
+2023-12-13 10:35:05 - [TEST_STEP][PASSED] - m = m.substring(0, m.indexOf(year)): null
+
+2023-12-13 10:35:05 - [TEST_STEP][PASSED] - m = m.trim(): null
+
+2023-12-13 10:35:05 - [TEST_STEP][PASSED] - dashboardName = "Выполнение бизнес-плана": null
+
+2023-12-13 10:35:05 - [TEST_STEP][PASSED] - workbook01 = getWorkbook(excelFilePath): null
+
+2023-12-13 10:35:05 - [TEST_STEP][PASSED] - sheet01 = getExcelSheet(workbook01, sheetName): null
+
+2023-12-13 10:35:05 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 0, dashboardName): null
+
+2023-12-13 10:35:05 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 1, dZO): null
+
+2023-12-13 10:35:05 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 2, typeOfData): null
+
+2023-12-13 10:35:05 - [TEST_STEP][PASSED] - if (typeOfData == "Факт в процентах" || typeOfData == "План в процентах"): null
+
+2023-12-13 10:35:05 - [TEST_STEP][PASSED] - else: null
+
+2023-12-13 10:35:05 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 3, fileInt): null
+
+2023-12-13 10:35:05 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 4, pageInt): null
+
+2023-12-13 10:35:05 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 5, m): null
+
+2023-12-13 10:35:05 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 6, y): null
+
+2023-12-13 10:35:05 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 7, todaysDate): null
+
+2023-12-13 10:35:05 - [TEST_STEP][PASSED] - n = n + 1: null
+
+2023-12-13 10:35:05 - [TEST_STEP][PASSED] - saveWorkbook(excelFilePath, workbook01): null
+
+2023-12-13 10:35:05 - [TEST_STEP][PASSED] - compare = pagePoteri: null
+
+2023-12-13 10:35:05 - [TEST_STEP][PASSED] - if (compare == filePoteri): null
+
+2023-12-13 10:35:05 - [TEST_STEP][PASSED] - else if (compare > filePoteri): null
+
+2023-12-13 10:35:05 - [TEST_STEP][PASSED] - compare = compare - 1: null
+
+2023-12-13 10:35:05 - [TEST_STEP][PASSED] - if (compare == filePoteri): null
+
+2023-12-13 10:35:05 - [TEST_STEP][PASSED] - else: null
+
+2023-12-13 10:35:05 - [TEST_STEP][PASSED] - numberOfErrors = numberOfErrors + 1: null
+
+2023-12-13 10:35:05 - [TEST_STEP][PASSED] - pageInt = pagePoteri: null
+
+2023-12-13 10:35:05 - [TEST_STEP][PASSED] - fileInt = filePoteri: null
+
+2023-12-13 10:35:05 - [TEST_STEP][PASSED] - typeOfData = typeOfDataMain + " Потери": null
+
+2023-12-13 10:35:05 - [TEST_STEP][PASSED] - Script1697465685113.WriteToExcel(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO): null
+
+2023-12-13 10:35:05 - [TEST_STEP][PASSED] - sheetName = "Sheet1": null
+
+2023-12-13 10:35:05 - [TEST_STEP][PASSED] - data = findTestData("PlanFact"): null
+
+2023-12-13 10:35:06 - [TEST_STEP][PASSED] - n = data.getRowNumbers() + 1: null
+
+2023-12-13 10:35:06 - [TEST_STEP][PASSED] - year = todaysDate.substring(todaysDate.length() - 4, todaysDate.length()): null
+
+2023-12-13 10:35:06 - [TEST_STEP][PASSED] - y = year.toInteger(): null
+
+2023-12-13 10:35:06 - [TEST_STEP][PASSED] - m = getText(findTestObject("Выполнение бизнес-плана/Период")): Text of object 'Object Repository/Выполнение бизнес-плана/Период' is: '1, 2, 3 кв., Октябрь 2023 года'
+
+2023-12-13 10:35:06 - [MESSAGE][PASSED] - Text of object 'Object Repository/Выполнение бизнес-плана/Период' is: '1, 2, 3 кв., Октябрь 2023 года'
+
+2023-12-13 10:35:06 - [TEST_STEP][PASSED] - m = m.substring(0, m.indexOf(year)): null
+
+2023-12-13 10:35:06 - [TEST_STEP][PASSED] - m = m.trim(): null
+
+2023-12-13 10:35:06 - [TEST_STEP][PASSED] - dashboardName = "Выполнение бизнес-плана": null
+
+2023-12-13 10:35:06 - [TEST_STEP][PASSED] - workbook01 = getWorkbook(excelFilePath): null
+
+2023-12-13 10:35:06 - [TEST_STEP][PASSED] - sheet01 = getExcelSheet(workbook01, sheetName): null
+
+2023-12-13 10:35:06 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 0, dashboardName): null
+
+2023-12-13 10:35:06 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 1, dZO): null
+
+2023-12-13 10:35:06 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 2, typeOfData): null
+
+2023-12-13 10:35:06 - [TEST_STEP][PASSED] - if (typeOfData == "Факт в процентах" || typeOfData == "План в процентах"): null
+
+2023-12-13 10:35:06 - [TEST_STEP][PASSED] - else: null
+
+2023-12-13 10:35:06 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 3, fileInt): null
+
+2023-12-13 10:35:06 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 4, pageInt): null
+
+2023-12-13 10:35:06 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 5, m): null
+
+2023-12-13 10:35:06 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 6, y): null
+
+2023-12-13 10:35:06 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 7, todaysDate): null
+
+2023-12-13 10:35:06 - [TEST_STEP][PASSED] - n = n + 1: null
+
+2023-12-13 10:35:06 - [TEST_STEP][PASSED] - saveWorkbook(excelFilePath, workbook01): null
+
+2023-12-13 10:35:06 - [TEST_STEP][PASSED] - if (planFact == 2): null
+
+2023-12-13 10:35:06 - [TEST_STEP][PASSED] - if (planFact == 1): null
+
+2023-12-13 10:35:06 - [TEST_STEP][PASSED] - else if (planFact == 2): null
+
+2023-12-13 10:35:06 - [TEST_STEP][PASSED] - click(findTestObject("Выполнение бизнес-плана/Кнопка План")): Object: 'Object Repository/Выполнение бизнес-плана/Кнопка План' is clicked on
+
+2023-12-13 10:35:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Выполнение бизнес-плана/Кнопка План' is clicked on
+
+2023-12-13 10:35:06 - [TEST_STEP][PASSED] - typeOfDataMain = "План": null
+
+2023-12-13 10:35:06 - [TEST_STEP][PASSED] - otpusk = findTestData("PlanFact").getValue(2, a): null
+
+2023-12-13 10:35:06 - [TEST_STEP][PASSED] - poteri = findTestData("PlanFact").getValue(3, a): null
+
+2023-12-13 10:35:07 - [TEST_STEP][PASSED] - otpusk = otpusk.replaceAll("\s+", ""): null
+
+2023-12-13 10:35:07 - [TEST_STEP][PASSED] - poteri = poteri.replaceAll("\s+", ""): null
+
+2023-12-13 10:35:07 - [TEST_STEP][PASSED] - typeOfData = typeOfDataMain + " Отпуск в сеть": null
+
+2023-12-13 10:35:07 - [TEST_STEP][PASSED] - path = dataFolder + typeOfData + " за отчётный период " + b: null
+
+2023-12-13 10:35:07 - [TEST_STEP][PASSED] - println(path): null
+
+2023-12-13 10:35:07 - [TEST_STEP][PASSED] - page = getText(findTestObject(path)): Text of object 'Object Repository/Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/План Отпуск в сеть за отчётный период Чеченэнерго' is: '3 840 599'
+
+2023-12-13 10:35:07 - [MESSAGE][PASSED] - Text of object 'Object Repository/Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/План Отпуск в сеть за отчётный период Чеченэнерго' is: '3 840 599'
+
+2023-12-13 10:35:07 - [TEST_STEP][PASSED] - page = page.replaceAll("\s+", ""): null
+
+2023-12-13 10:35:07 - [TEST_STEP][PASSED] - fileOtpuskVSet = otpusk.toInteger(): null
+
+2023-12-13 10:35:07 - [TEST_STEP][PASSED] - pageOtpuskVSet = page.toInteger(): null
+
+2023-12-13 10:35:07 - [TEST_STEP][PASSED] - typeOfData = typeOfDataMain + " Потери": null
+
+2023-12-13 10:35:07 - [TEST_STEP][PASSED] - path = dataFolder + typeOfData + " за отчётный период " + b: null
+
+2023-12-13 10:35:07 - [TEST_STEP][PASSED] - page = getText(findTestObject(path)): Text of object 'Object Repository/Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/План Потери за отчётный период Чеченэнерго' is: '1 166 395'
+
+2023-12-13 10:35:07 - [MESSAGE][PASSED] - Text of object 'Object Repository/Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/План Потери за отчётный период Чеченэнерго' is: '1 166 395'
+
+2023-12-13 10:35:07 - [TEST_STEP][PASSED] - page = page.replaceAll("\s+", ""): null
+
+2023-12-13 10:35:07 - [TEST_STEP][PASSED] - filePoteri = poteri.toInteger(): null
+
+2023-12-13 10:35:07 - [TEST_STEP][PASSED] - pagePoteri = page.toInteger(): null
+
+2023-12-13 10:35:07 - [TEST_STEP][PASSED] - compare = pageOtpuskVSet: null
+
+2023-12-13 10:35:07 - [TEST_STEP][PASSED] - if (compare == fileOtpuskVSet): null
+
+2023-12-13 10:35:07 - [TEST_STEP][PASSED] - else if (compare > fileOtpuskVSet): null
+
+2023-12-13 10:35:07 - [TEST_STEP][PASSED] - compare = compare - 1: null
+
+2023-12-13 10:35:07 - [TEST_STEP][PASSED] - if (compare == fileOtpuskVSet): null
+
+2023-12-13 10:35:07 - [TEST_STEP][PASSED] - else: null
+
+2023-12-13 10:35:07 - [TEST_STEP][PASSED] - numberOfErrors = numberOfErrors + 1: null
+
+2023-12-13 10:35:07 - [TEST_STEP][PASSED] - pageInt = pageOtpuskVSet: null
+
+2023-12-13 10:35:07 - [TEST_STEP][PASSED] - fileInt = fileOtpuskVSet: null
+
+2023-12-13 10:35:07 - [TEST_STEP][PASSED] - typeOfData = typeOfDataMain + " Отпуск в сеть": null
+
+2023-12-13 10:35:07 - [TEST_STEP][PASSED] - Script1697465685113.WriteToExcel(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO): null
+
+2023-12-13 10:35:07 - [TEST_STEP][PASSED] - sheetName = "Sheet1": null
+
+2023-12-13 10:35:07 - [TEST_STEP][PASSED] - data = findTestData("PlanFact"): null
+
+2023-12-13 10:35:07 - [TEST_STEP][PASSED] - n = data.getRowNumbers() + 1: null
+
+2023-12-13 10:35:07 - [TEST_STEP][PASSED] - year = todaysDate.substring(todaysDate.length() - 4, todaysDate.length()): null
+
+2023-12-13 10:35:07 - [TEST_STEP][PASSED] - y = year.toInteger(): null
+
+2023-12-13 10:35:07 - [TEST_STEP][PASSED] - m = getText(findTestObject("Выполнение бизнес-плана/Период")): Text of object 'Object Repository/Выполнение бизнес-плана/Период' is: '1, 2, 3 кв., Октябрь 2023 года'
+
+2023-12-13 10:35:08 - [MESSAGE][PASSED] - Text of object 'Object Repository/Выполнение бизнес-плана/Период' is: '1, 2, 3 кв., Октябрь 2023 года'
+
+2023-12-13 10:35:08 - [TEST_STEP][PASSED] - m = m.substring(0, m.indexOf(year)): null
+
+2023-12-13 10:35:08 - [TEST_STEP][PASSED] - m = m.trim(): null
+
+2023-12-13 10:35:08 - [TEST_STEP][PASSED] - dashboardName = "Выполнение бизнес-плана": null
+
+2023-12-13 10:35:08 - [TEST_STEP][PASSED] - workbook01 = getWorkbook(excelFilePath): null
+
+2023-12-13 10:35:08 - [TEST_STEP][PASSED] - sheet01 = getExcelSheet(workbook01, sheetName): null
+
+2023-12-13 10:35:08 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 0, dashboardName): null
+
+2023-12-13 10:35:08 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 1, dZO): null
+
+2023-12-13 10:35:08 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 2, typeOfData): null
+
+2023-12-13 10:35:08 - [TEST_STEP][PASSED] - if (typeOfData == "Факт в процентах" || typeOfData == "План в процентах"): null
+
+2023-12-13 10:35:08 - [TEST_STEP][PASSED] - else: null
+
+2023-12-13 10:35:08 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 3, fileInt): null
+
+2023-12-13 10:35:08 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 4, pageInt): null
+
+2023-12-13 10:35:08 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 5, m): null
+
+2023-12-13 10:35:08 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 6, y): null
+
+2023-12-13 10:35:08 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 7, todaysDate): null
+
+2023-12-13 10:35:08 - [TEST_STEP][PASSED] - n = n + 1: null
+
+2023-12-13 10:35:08 - [TEST_STEP][PASSED] - saveWorkbook(excelFilePath, workbook01): null
+
+2023-12-13 10:35:08 - [TEST_STEP][PASSED] - compare = pagePoteri: null
+
+2023-12-13 10:35:08 - [TEST_STEP][PASSED] - if (compare == filePoteri): null
+
+2023-12-13 10:35:08 - [TEST_STEP][PASSED] - else if (compare > filePoteri): null
+
+2023-12-13 10:35:08 - [TEST_STEP][PASSED] - compare = compare - 1: null
+
+2023-12-13 10:35:08 - [TEST_STEP][PASSED] - if (compare == filePoteri): null
+
+2023-12-13 10:35:08 - [TEST_STEP][PASSED] - else: null
+
+2023-12-13 10:35:08 - [TEST_STEP][PASSED] - numberOfErrors = numberOfErrors + 1: null
+
+2023-12-13 10:35:08 - [TEST_STEP][PASSED] - pageInt = pagePoteri: null
+
+2023-12-13 10:35:08 - [TEST_STEP][PASSED] - fileInt = filePoteri: null
+
+2023-12-13 10:35:08 - [TEST_STEP][PASSED] - typeOfData = typeOfDataMain + " Потери": null
+
+2023-12-13 10:35:08 - [TEST_STEP][PASSED] - Script1697465685113.WriteToExcel(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO): null
+
+2023-12-13 10:35:08 - [TEST_STEP][PASSED] - sheetName = "Sheet1": null
+
+2023-12-13 10:35:08 - [TEST_STEP][PASSED] - data = findTestData("PlanFact"): null
+
+2023-12-13 10:35:08 - [TEST_STEP][PASSED] - n = data.getRowNumbers() + 1: null
+
+2023-12-13 10:35:08 - [TEST_STEP][PASSED] - year = todaysDate.substring(todaysDate.length() - 4, todaysDate.length()): null
+
+2023-12-13 10:35:08 - [TEST_STEP][PASSED] - y = year.toInteger(): null
+
+2023-12-13 10:35:08 - [TEST_STEP][PASSED] - m = getText(findTestObject("Выполнение бизнес-плана/Период")): Text of object 'Object Repository/Выполнение бизнес-плана/Период' is: '1, 2, 3 кв., Октябрь 2023 года'
+
+2023-12-13 10:35:08 - [MESSAGE][PASSED] - Text of object 'Object Repository/Выполнение бизнес-плана/Период' is: '1, 2, 3 кв., Октябрь 2023 года'
+
+2023-12-13 10:35:08 - [TEST_STEP][PASSED] - m = m.substring(0, m.indexOf(year)): null
+
+2023-12-13 10:35:08 - [TEST_STEP][PASSED] - m = m.trim(): null
+
+2023-12-13 10:35:08 - [TEST_STEP][PASSED] - dashboardName = "Выполнение бизнес-плана": null
+
+2023-12-13 10:35:08 - [TEST_STEP][PASSED] - workbook01 = getWorkbook(excelFilePath): null
+
+2023-12-13 10:35:08 - [TEST_STEP][PASSED] - sheet01 = getExcelSheet(workbook01, sheetName): null
+
+2023-12-13 10:35:08 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 0, dashboardName): null
+
+2023-12-13 10:35:08 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 1, dZO): null
+
+2023-12-13 10:35:08 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 2, typeOfData): null
+
+2023-12-13 10:35:08 - [TEST_STEP][PASSED] - if (typeOfData == "Факт в процентах" || typeOfData == "План в процентах"): null
+
+2023-12-13 10:35:08 - [TEST_STEP][PASSED] - else: null
+
+2023-12-13 10:35:08 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 3, fileInt): null
+
+2023-12-13 10:35:08 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 4, pageInt): null
+
+2023-12-13 10:35:08 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 5, m): null
+
+2023-12-13 10:35:08 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 6, y): null
+
+2023-12-13 10:35:08 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 7, todaysDate): null
+
+2023-12-13 10:35:08 - [TEST_STEP][PASSED] - n = n + 1: null
+
+2023-12-13 10:35:08 - [TEST_STEP][PASSED] - saveWorkbook(excelFilePath, workbook01): Object: 'Object Repository/Выполнение бизнес-плана/Кнопка Факт' is clicked on
+
+2023-12-13 10:35:08 - [TEST_STEP][PASSED] - if (planFact == 2): Object: 'Object Repository/Выполнение бизнес-плана/Кнопка Факт' is clicked on
+
+2023-12-13 10:35:08 - [TEST_STEP][PASSED] - click(findTestObject("Выполнение бизнес-плана/Кнопка Факт")): Object: 'Object Repository/Выполнение бизнес-плана/Кнопка Факт' is clicked on
+
+2023-12-13 10:35:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Выполнение бизнес-плана/Кнопка Факт' is clicked on
+
+2023-12-13 10:35:09 - [TEST_STEP][PASSED] - if (a == 84 || a == 82): null
+
+2023-12-13 10:35:09 - [TEST_STEP][PASSED] - else: null
+
+2023-12-13 10:35:09 - [TEST_STEP][PASSED] - if (a == 83 || a == 29 || a == 79 || a == 75 || a == 71 || a == 15 || a == 19 || a == 37 || a == 45 || a == 58 || a == 64): null
+
+2023-12-13 10:35:09 - [TEST_STEP][PASSED] - else if (a == 52 || a == 30 || a == 78 || a == 76 || a == 70 || a == 14 || a == 20 || a == 38 || a == 46 || a == 55 || a == 60): null
+
+2023-12-13 10:35:09 - [TEST_STEP][PASSED] - else if (a == 72 || a == 31 || a == 66 || a == 16 || a == 21 || a == 39 || a == 47 || a == 56 || a == 61): null
+
+2023-12-13 10:35:09 - [TEST_STEP][PASSED] - filialNumberInRow = 3: null
+
+2023-12-13 10:35:09 - [TEST_STEP][PASSED] - println("filialNumberInRow: " + filialNumberInRow): null
+
+2023-12-13 10:35:09 - [TEST_STEP][PASSED] - page1 = getText(findTestObject("Object Repository/Выполнение бизнес-плана/spanPlan" + filialNumberInRow)): Text of object 'Object Repository/Выполнение бизнес-плана/spanPlan3' is: '30.37'
+
+2023-12-13 10:35:09 - [MESSAGE][PASSED] - Text of object 'Object Repository/Выполнение бизнес-плана/spanPlan3' is: '30.37'
+
+2023-12-13 10:35:09 - [TEST_STEP][PASSED] - page2 = getText(findTestObject("Object Repository/Выполнение бизнес-плана/spanFact" + filialNumberInRow)): Text of object 'Object Repository/Выполнение бизнес-плана/spanFact3' is: '35.14
+|'
+
+2023-12-13 10:35:09 - [MESSAGE][PASSED] - Text of object 'Object Repository/Выполнение бизнес-плана/spanFact3' is: '35.14
+|'
+
+2023-12-13 10:35:09 - [TEST_STEP][PASSED] - page1 = replace("|", "").trim(): null
+
+2023-12-13 10:35:09 - [TEST_STEP][PASSED] - page2 = replace("|", "").trim(): null
+
+2023-12-13 10:35:09 - [TEST_STEP][PASSED] - println("page1: " + page1): null
+
+2023-12-13 10:35:09 - [TEST_STEP][PASSED] - println("page2: " + page2): null
+
+2023-12-13 10:35:09 - [TEST_STEP][PASSED] - file = findTestData("PlanFact").getValue(4, a): null
+
+2023-12-13 10:35:09 - [TEST_STEP][PASSED] - file = file.replace(",", "."): null
+
+2023-12-13 10:35:09 - [TEST_STEP][PASSED] - println("file Plan: " + file): null
+
+2023-12-13 10:35:09 - [TEST_STEP][PASSED] - typeOfData = "План в процентах": null
+
+2023-12-13 10:35:09 - [TEST_STEP][PASSED] - fileDouble = file.toDouble(): null
+
+2023-12-13 10:35:09 - [TEST_STEP][PASSED] - pageDouble = page1.toDouble(): null
+
+2023-12-13 10:35:09 - [TEST_STEP][PASSED] - if (fileDouble != pageDouble): null
+
+2023-12-13 10:35:09 - [TEST_STEP][PASSED] - numberOfErrors = numberOfErrors + 1: null
+
+2023-12-13 10:35:09 - [TEST_STEP][PASSED] - Script1697465685113.WriteToExcel(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO): null
+
+2023-12-13 10:35:09 - [TEST_STEP][PASSED] - sheetName = "Sheet1": null
+
+2023-12-13 10:35:09 - [TEST_STEP][PASSED] - data = findTestData("PlanFact"): null
+
+2023-12-13 10:35:10 - [TEST_STEP][PASSED] - n = data.getRowNumbers() + 1: null
+
+2023-12-13 10:35:10 - [TEST_STEP][PASSED] - year = todaysDate.substring(todaysDate.length() - 4, todaysDate.length()): null
+
+2023-12-13 10:35:10 - [TEST_STEP][PASSED] - y = year.toInteger(): null
+
+2023-12-13 10:35:10 - [TEST_STEP][PASSED] - m = getText(findTestObject("Выполнение бизнес-плана/Период")): Text of object 'Object Repository/Выполнение бизнес-плана/Период' is: '1, 2, 3 кв., Октябрь 2023 года'
+
+2023-12-13 10:35:10 - [MESSAGE][PASSED] - Text of object 'Object Repository/Выполнение бизнес-плана/Период' is: '1, 2, 3 кв., Октябрь 2023 года'
+
+2023-12-13 10:35:10 - [TEST_STEP][PASSED] - m = m.substring(0, m.indexOf(year)): null
+
+2023-12-13 10:35:10 - [TEST_STEP][PASSED] - m = m.trim(): null
+
+2023-12-13 10:35:10 - [TEST_STEP][PASSED] - dashboardName = "Выполнение бизнес-плана": null
+
+2023-12-13 10:35:10 - [TEST_STEP][PASSED] - workbook01 = getWorkbook(excelFilePath): null
+
+2023-12-13 10:35:10 - [TEST_STEP][PASSED] - sheet01 = getExcelSheet(workbook01, sheetName): null
+
+2023-12-13 10:35:10 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 0, dashboardName): null
+
+2023-12-13 10:35:10 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 1, dZO): null
+
+2023-12-13 10:35:10 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 2, typeOfData): null
+
+2023-12-13 10:35:10 - [TEST_STEP][PASSED] - if (typeOfData == "Факт в процентах" || typeOfData == "План в процентах"): null
+
+2023-12-13 10:35:10 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 3, fileDouble): null
+
+2023-12-13 10:35:10 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 4, pageDouble): null
+
+2023-12-13 10:35:10 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 5, m): null
+
+2023-12-13 10:35:10 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 6, y): null
+
+2023-12-13 10:35:10 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 7, todaysDate): null
+
+2023-12-13 10:35:10 - [TEST_STEP][PASSED] - n = n + 1: null
+
+2023-12-13 10:35:10 - [TEST_STEP][PASSED] - saveWorkbook(excelFilePath, workbook01): null
+
+2023-12-13 10:35:10 - [TEST_STEP][PASSED] - file = findTestData("PlanFact").getValue(7, a): null
+
+2023-12-13 10:35:10 - [TEST_STEP][PASSED] - file = file.replace(",", "."): null
+
+2023-12-13 10:35:10 - [TEST_STEP][PASSED] - println("file Fact: " + file): null
+
+2023-12-13 10:35:10 - [TEST_STEP][PASSED] - fileDouble = file.toDouble(): null
+
+2023-12-13 10:35:10 - [TEST_STEP][PASSED] - typeOfData = "Факт в процентах": null
+
+2023-12-13 10:35:10 - [TEST_STEP][PASSED] - fileDouble = file.toDouble(): null
+
+2023-12-13 10:35:10 - [TEST_STEP][PASSED] - pageDouble = page2.toDouble(): null
+
+2023-12-13 10:35:10 - [TEST_STEP][PASSED] - if (fileDouble != pageDouble): null
+
+2023-12-13 10:35:10 - [TEST_STEP][PASSED] - numberOfErrors = numberOfErrors + 1: null
+
+2023-12-13 10:35:10 - [TEST_STEP][PASSED] - Script1697465685113.WriteToExcel(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO): null
+
+2023-12-13 10:35:10 - [TEST_STEP][PASSED] - sheetName = "Sheet1": null
+
+2023-12-13 10:35:10 - [TEST_STEP][PASSED] - data = findTestData("PlanFact"): null
+
+2023-12-13 10:35:10 - [TEST_STEP][PASSED] - n = data.getRowNumbers() + 1: null
+
+2023-12-13 10:35:10 - [TEST_STEP][PASSED] - year = todaysDate.substring(todaysDate.length() - 4, todaysDate.length()): null
+
+2023-12-13 10:35:10 - [TEST_STEP][PASSED] - y = year.toInteger(): null
+
+2023-12-13 10:35:10 - [TEST_STEP][PASSED] - m = getText(findTestObject("Выполнение бизнес-плана/Период")): Text of object 'Object Repository/Выполнение бизнес-плана/Период' is: '1, 2, 3 кв., Октябрь 2023 года'
+
+2023-12-13 10:35:11 - [MESSAGE][PASSED] - Text of object 'Object Repository/Выполнение бизнес-плана/Период' is: '1, 2, 3 кв., Октябрь 2023 года'
+
+2023-12-13 10:35:11 - [TEST_STEP][PASSED] - m = m.substring(0, m.indexOf(year)): null
+
+2023-12-13 10:35:11 - [TEST_STEP][PASSED] - m = m.trim(): null
+
+2023-12-13 10:35:11 - [TEST_STEP][PASSED] - dashboardName = "Выполнение бизнес-плана": null
+
+2023-12-13 10:35:11 - [TEST_STEP][PASSED] - workbook01 = getWorkbook(excelFilePath): null
+
+2023-12-13 10:35:11 - [TEST_STEP][PASSED] - sheet01 = getExcelSheet(workbook01, sheetName): null
+
+2023-12-13 10:35:11 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 0, dashboardName): null
+
+2023-12-13 10:35:11 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 1, dZO): null
+
+2023-12-13 10:35:11 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 2, typeOfData): null
+
+2023-12-13 10:35:11 - [TEST_STEP][PASSED] - if (typeOfData == "Факт в процентах" || typeOfData == "План в процентах"): null
+
+2023-12-13 10:35:11 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 3, fileDouble): null
+
+2023-12-13 10:35:11 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 4, pageDouble): null
+
+2023-12-13 10:35:11 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 5, m): null
+
+2023-12-13 10:35:11 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 6, y): null
+
+2023-12-13 10:35:11 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet01, n, 7, todaysDate): null
+
+2023-12-13 10:35:11 - [TEST_STEP][PASSED] - n = n + 1: null
+
+2023-12-13 10:35:11 - [TEST_STEP][PASSED] - saveWorkbook(excelFilePath, workbook01): null
+
+2023-12-13 10:35:11 - [TEST_STEP][FAILED] - if (verifyEqual(numberOfErrors, 0) == false): null
+
+2023-12-13 10:35:11 - [MESSAGE][FAILED] - Unable to verify equal between actual object '6' and expected object '0' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object '6' and expected object '0' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:146)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.Numbers(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:550)
+	at Script1697465685113$Numbers.callStatic(Unknown Source)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.run(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:152)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1702452607096.run(TempTestSuite1702452607096.groovy:36)
+)
+
+2023-12-13 10:35:11 - [TEST_STEP][PASSED] - println(numberOfErrors): null
+
+2023-12-13 10:35:11 - [TEST_STEP][PASSED] - if (a == 28 || a == 77 || a == 74 || a == 65 || a == 36 || a == 44 || a == 54 || a == 1 || a == 18 || a == 59): null
+
+2023-12-13 10:35:11 - [TEST_STEP][PASSED] - if (a == 82): null
+
+2023-12-13 10:35:11 - [TEST_STEP][PASSED] - dZO = "Россети Волга": null
+
+2023-12-13 10:35:11 - [TEST_STEP][PASSED] - a = 28: null
+
+2023-12-13 10:35:11 - [TEST_STEP][PASSED] - Script1697465685113.Numbers(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO): null
+
+2023-12-13 10:35:11 - [TEST_STEP][PASSED] - planFact = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:35:11 - [TEST_STEP][PASSED] - page = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:35:11 - [TEST_STEP][PASSED] - page1 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:35:11 - [TEST_STEP][PASSED] - page2 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:35:11 - [TEST_STEP][PASSED] - filialNumberInRow = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:35:11 - [TEST_STEP][PASSED] - filialsDzoNames = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:35:11 - [TEST_STEP][PASSED] - numberOfFilials = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:35:11 - [TEST_STEP][PASSED] - numberOfSpaces = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:35:11 - [TEST_STEP][PASSED] - file = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:35:11 - [TEST_STEP][PASSED] - otpusk = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:35:11 - [TEST_STEP][PASSED] - poteri = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:35:11 - [TEST_STEP][PASSED] - dataFolder = "Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/": null
+
+2023-12-13 10:35:11 - [TEST_STEP][PASSED] - path = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:35:11 - [TEST_STEP][PASSED] - typeOfDataMain = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:35:11 - [TEST_STEP][PASSED] - fileOtpuskVSet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:35:11 - [TEST_STEP][PASSED] - pageOtpuskVSet = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:35:11 - [TEST_STEP][PASSED] - filePoteri = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:35:11 - [TEST_STEP][PASSED] - pagePoteri = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:35:11 - [TEST_STEP][PASSED] - compare = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:35:11 - [TEST_STEP][PASSED] - b = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:35:11 - [TEST_STEP][PASSED] - i = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:35:11 - [TEST_STEP][PASSED] - ii = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:35:11 - [TEST_STEP][PASSED] - c = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-12-13 10:35:11 - [TEST_STEP][PASSED] - numberOfErrors = 0: null
+
+2023-12-13 10:35:11 - [TEST_STEP][PASSED] - if (a == 82): null
+
+2023-12-13 10:35:11 - [TEST_STEP][PASSED] - b = findTestData("PlanFact").getValue(1, a): null
+
+2023-12-13 10:35:11 - [TEST_STEP][PASSED] - i = b.indexOf(" (ГК)"): null
+
+2023-12-13 10:35:11 - [TEST_STEP][PASSED] - if (i > -1): null
+
+2023-12-13 10:35:11 - [TEST_STEP][PASSED] - i = b.indexOf("О ""): null
+
+2023-12-13 10:35:11 - [TEST_STEP][PASSED] - if (i > -1): null
+
+2023-12-13 10:35:11 - [TEST_STEP][PASSED] - i = b.indexOf("О «"): null
+
+2023-12-13 10:35:11 - [TEST_STEP][PASSED] - if (i > -1): null
+
+2023-12-13 10:35:11 - [TEST_STEP][PASSED] - i = b.indexOf("г. "): null
+
+2023-12-13 10:35:11 - [TEST_STEP][PASSED] - if (i > -1): null
+
+2023-12-13 10:35:11 - [TEST_STEP][PASSED] - println(b): null
+
+2023-12-13 10:35:11 - [TEST_STEP][ERROR] - for ([planFact = 1, planFact < 3, (planFact++)]): Test Cases/Выполнение бизнес-плана/Выполнение бизнес-плана Сверка ПАО Россети все филиалы FAILED.
+Reason:
+java.lang.NumberFormatException: For input string: ""
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.Numbers(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:388)
+	at Script1697465685113$Numbers.callStatic(Unknown Source)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.run(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:158)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1702452607096.run(TempTestSuite1702452607096.groovy:36)
+
+
+2023-12-13 10:35:11 - [TEST_STEP][PASSED] - if (planFact == 1): null
+
+2023-12-13 10:35:11 - [TEST_STEP][PASSED] - typeOfDataMain = "Факт": null
+
+2023-12-13 10:35:11 - [TEST_STEP][PASSED] - otpusk = findTestData("PlanFact").getValue(5, a): null
+
+2023-12-13 10:35:11 - [TEST_STEP][PASSED] - poteri = findTestData("PlanFact").getValue(6, a): null
+
+2023-12-13 10:35:11 - [TEST_STEP][PASSED] - otpusk = otpusk.replaceAll("\s+", ""): null
+
+2023-12-13 10:35:11 - [TEST_STEP][PASSED] - poteri = poteri.replaceAll("\s+", ""): null
+
+2023-12-13 10:35:11 - [TEST_STEP][PASSED] - typeOfData = typeOfDataMain + " Отпуск в сеть": null
+
+2023-12-13 10:35:11 - [TEST_STEP][PASSED] - path = dataFolder + typeOfData + " за отчётный период " + b: null
+
+2023-12-13 10:35:11 - [TEST_STEP][PASSED] - println(path): null
+
+2023-12-13 10:35:11 - [TEST_STEP][PASSED] - page = getText(findTestObject(path)): Text of object 'Object Repository/Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Факт Отпуск в сеть за отчётный период Россети Волга' is: '42 675 389'
+
+2023-12-13 10:35:11 - [MESSAGE][PASSED] - Text of object 'Object Repository/Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Факт Отпуск в сеть за отчётный период Россети Волга' is: '42 675 389'
+
+2023-12-13 10:35:11 - [TEST_STEP][PASSED] - page = page.replaceAll("\s+", ""): null
+
+2023-12-13 10:35:11 - [TEST_STEP][PASSED] - fileOtpuskVSet = otpusk.toInteger(): null
+
+2023-12-13 10:35:11 - [TEST_STEP][PASSED] - pageOtpuskVSet = page.toInteger(): null
+
+2023-12-13 10:35:11 - [TEST_STEP][PASSED] - typeOfData = typeOfDataMain + " Потери": null
+
+2023-12-13 10:35:11 - [TEST_STEP][PASSED] - path = dataFolder + typeOfData + " за отчётный период " + b: null
+
+2023-12-13 10:35:11 - [TEST_STEP][PASSED] - page = getText(findTestObject(path)): Text of object 'Object Repository/Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Факт Потери за отчётный период Россети Волга' is: ''
+
+2023-12-13 10:35:12 - [MESSAGE][PASSED] - Text of object 'Object Repository/Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Факт Потери за отчётный период Россети Волга' is: ''
+
+2023-12-13 10:35:12 - [TEST_STEP][PASSED] - page = page.replaceAll("\s+", ""): null
+
+2023-12-13 10:35:12 - [TEST_STEP][PASSED] - filePoteri = poteri.toInteger(): null
+
+2023-12-13 10:35:12 - [TEST_STEP][ERROR] - pagePoteri = page.toInteger(): Test Cases/Выполнение бизнес-плана/Выполнение бизнес-плана Сверка ПАО Россети все филиалы FAILED.
+Reason:
+java.lang.NumberFormatException: For input string: ""
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.Numbers(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:388)
+	at Script1697465685113$Numbers.callStatic(Unknown Source)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.run(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:158)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1702452607096.run(TempTestSuite1702452607096.groovy:36)
+
+
+2023-12-13 10:35:12 - [MESSAGE][ERROR] - Test Cases/Выполнение бизнес-плана/Выполнение бизнес-плана Сверка ПАО Россети все филиалы FAILED.
+Reason:
+java.lang.NumberFormatException: For input string: ""
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.Numbers(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:388)
+	at Script1697465685113$Numbers.callStatic(Unknown Source)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.run(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:158)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1702452607096.run(TempTestSuite1702452607096.groovy:36)]]></system-out>
+         <system-err><![CDATA[2023-12-13 10:30:09 - [TEST_CASE][FAILED] - Test Cases/Выполнение бизнес-плана/Выполнение бизнес-плана Сверка ПАО Россети все филиалы: Test Cases/Выполнение бизнес-плана/Выполнение бизнес-плана Сверка ПАО Россети все филиалы FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify equal between actual object '5' and expected object '0' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object '5' and expected object '0' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:146)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.Numbers(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:550)
+	at Script1697465685113$Numbers.callStatic(Unknown Source)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.run(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:128)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1702452607096.run(TempTestSuite1702452607096.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:77)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:146)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.Numbers(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:550)
+	at Script1697465685113$Numbers.callStatic(Unknown Source)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.run(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:128)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1702452607096.run(TempTestSuite1702452607096.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual object '5' and expected object '0' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	... 20 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-12-13 10:30:09 - [TEST_SUITE][FAILED] - Сверка с ПБЭ: Test Cases/Выполнение бизнес-плана/Выполнение бизнес-плана Сверка ПАО Россети все филиалы FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify equal between actual object '5' and expected object '0' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object '5' and expected object '0' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:146)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.Numbers(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:550)
+	at Script1697465685113$Numbers.callStatic(Unknown Source)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.run(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:128)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1702452607096.run(TempTestSuite1702452607096.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:77)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:146)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.Numbers(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:550)
+	at Script1697465685113$Numbers.callStatic(Unknown Source)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.run(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:128)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1702452607096.run(TempTestSuite1702452607096.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual object '5' and expected object '0' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[2023-12-13 10:30:09 - [TEST_SUITE][FAILED] - Сверка с ПБЭ: Test Cases/Выполнение бизнес-плана/Выполнение бизнес-плана Сверка ПАО Россети все филиалы FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify equal between actual object '5' and expected object '0' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object '5' and expected object '0' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:146)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.Numbers(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:550)
+	at Script1697465685113$Numbers.callStatic(Unknown Source)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.run(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:128)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1702452607096.run(TempTestSuite1702452607096.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:77)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:146)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.Numbers(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:550)
+	at Script1697465685113$Numbers.callStatic(Unknown Source)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.run(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:128)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1702452607096.run(TempTestSuite1702452607096.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual object '5' and expected object '0' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>
