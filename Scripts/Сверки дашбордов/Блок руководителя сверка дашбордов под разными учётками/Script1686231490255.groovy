@@ -495,17 +495,13 @@ def ObyemPoter(def user, def dashboardName, def n, def data, def run, def a1, de
     if (run == 1) {
         user = 'админ'
 
-        a1 = WebUI.getText(findTestObject('Объем потерь/span1'))
+        a1 = WebUI.getText(findTestObject('Объем потерь/divObemPoter'))
 
-        a2 = WebUI.getText(findTestObject('Объем потерь/span2'))
+        a2 = WebUI.getText(findTestObject('Объем потерь/divUrovenPoter'))
 
-        a4 = WebUI.getText(findTestObject('Объем потерь/span4'))
+        a3 = WebUI.getText(findTestObject('Объем потерь/divOtkloneniyaObemaPoter'))
 
-        a5 = WebUI.getText(findTestObject('Объем потерь/span5'))
-
-        a7 = WebUI.getText(findTestObject('Объем потерь/График2'))
-
-        a8 = WebUI.getText(findTestObject('Объем потерь/График3'))
+        a4 = WebUI.getText(findTestObject('Объем потерь/divOtkloneniyaUrovnyaPoter'))
 
         n = (n + 6)
 
@@ -515,17 +511,13 @@ def ObyemPoter(def user, def dashboardName, def n, def data, def run, def a1, de
     if (run == 2) {
         user = 'Андреева'
 
-        a1 = WebUI.getText(findTestObject('Объем потерь/span1'))
+        a1 = WebUI.getText(findTestObject('Объем потерь/divObemPoter'))
 
-        a2 = WebUI.getText(findTestObject('Объем потерь/span2'))
+        a2 = WebUI.getText(findTestObject('Объем потерь/divUrovenPoter'))
 
-        a4 = WebUI.getText(findTestObject('Объем потерь/span4'))
+        a3 = WebUI.getText(findTestObject('Объем потерь/divOtkloneniyaObemaPoter'))
 
-        a5 = WebUI.getText(findTestObject('Объем потерь/span5'))
-
-        a7 = WebUI.getText(findTestObject('Объем потерь/График2'))
-
-        a8 = WebUI.getText(findTestObject('Объем потерь/График3'))
+        a4 = WebUI.getText(findTestObject('Объем потерь/divOtkloneniyaUrovnyaPoter'))
 
         n = (n + 7)
 
@@ -539,31 +531,19 @@ def ObyemPoter(def user, def dashboardName, def n, def data, def run, def a1, de
 
         WebUI.verifyEqual(findTestData('PlanFact').getValue(5, b), a4)
 
-        WebUI.verifyEqual(findTestData('PlanFact').getValue(6, b), a5)
-
-        WebUI.verifyEqual(findTestData('PlanFact').getValue(7, b), a6)
-
-        WebUI.verifyEqual(findTestData('PlanFact').getValue(8, b), a7)
-
-        WebUI.verifyEqual(findTestData('PlanFact').getValue(9, b), a8)
-
         WriteToExcel(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
     }
     
     if (run == 3) {
         user = 'Попова'
 
-        a1 = WebUI.getText(findTestObject('Объем потерь/span1'))
+        a1 = WebUI.getText(findTestObject('Объем потерь/divObemPoter'))
 
-        a2 = WebUI.getText(findTestObject('Объем потерь/span2'))
+        a2 = WebUI.getText(findTestObject('Объем потерь/divUrovenPoter'))
 
-        a4 = WebUI.getText(findTestObject('Объем потерь/span4'))
+        a3 = WebUI.getText(findTestObject('Объем потерь/divOtkloneniyaObemaPoter'))
 
-        a5 = WebUI.getText(findTestObject('Объем потерь/span5'))
-
-        a7 = WebUI.getText(findTestObject('Объем потерь/График2'))
-
-        a8 = WebUI.getText(findTestObject('Объем потерь/График3'))
+        a4 = WebUI.getText(findTestObject('Объем потерь/divOtkloneniyaUrovnyaPoter'))
 
         n = (n + 8)
 
@@ -576,14 +556,6 @@ def ObyemPoter(def user, def dashboardName, def n, def data, def run, def a1, de
         WebUI.verifyEqual(findTestData('PlanFact').getValue(4, b), a3)
 
         WebUI.verifyEqual(findTestData('PlanFact').getValue(5, b), a4)
-
-        WebUI.verifyEqual(findTestData('PlanFact').getValue(6, b), a5)
-
-        WebUI.verifyEqual(findTestData('PlanFact').getValue(7, b), a6)
-
-        WebUI.verifyEqual(findTestData('PlanFact').getValue(8, b), a7)
-
-        WebUI.verifyEqual(findTestData('PlanFact').getValue(9, b), a8)
 
         WriteToExcel(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
     }

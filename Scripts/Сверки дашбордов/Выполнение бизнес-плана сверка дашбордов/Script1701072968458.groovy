@@ -183,7 +183,7 @@ String a32 = WebUI.getText(findTestObject('Выполнение бизнес-п�
 
 String a33 = WebUI.getText(findTestObject('Выполнение бизнес-плана/spanFact17'))
 
-String a2 = WebUI.getText(findTestObject('Выполнение бизнес-плана/table'))
+String a2 = WebUI.getText(findTestObject('Выполнение бизнес-плана/divTable'))
 
 println(a2)
 
