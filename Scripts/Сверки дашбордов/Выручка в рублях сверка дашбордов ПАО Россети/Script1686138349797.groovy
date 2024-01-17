@@ -388,6 +388,10 @@ static def PreSettings(def run, def vir, def block, def nameOfBlock, def typeOfD
 
     WebUI.click(findTestObject('Выручка в рублях/Октябрь' + nameOfBlock), FailureHandling.CONTINUE_ON_FAILURE)
 
+    WebUI.scrollToElement(findTestObject('Выручка в рублях/Ноябрь' + nameOfBlock), 30)
+
+    WebUI.click(findTestObject('Выручка в рублях/Ноябрь' + nameOfBlock), FailureHandling.CONTINUE_ON_FAILURE)
+
     'Проскроллить до заголовка дашборда'
     WebUI.scrollToElement(findTestObject('Выручка в рублях/Заголовок дашборда' + nameOfBlock), 30)
 

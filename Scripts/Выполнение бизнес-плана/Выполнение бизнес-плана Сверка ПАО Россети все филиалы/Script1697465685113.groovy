@@ -92,6 +92,10 @@ WebUI.scrollToElement(findTestObject('Выполнение бизнес-план
 
 WebUI.click(findTestObject('Выполнение бизнес-плана/Октябрь 2023'))
 
+WebUI.scrollToElement(findTestObject('Выполнение бизнес-плана/Ноябрь 2023'), 30)
+
+WebUI.click(findTestObject('Выполнение бизнес-плана/Ноябрь 2023'))
+
 WebUI.delay(40)
 
 '!'
@@ -1132,7 +1136,7 @@ static def WriteToExcel(def a, def typeOfData, def todaysDate, def pageInt, def 
 
     String m = WebUI.getText(findTestObject('Выполнение бизнес-плана/Период'))
 
-    m = m.substring(0, m.indexOf(year))
+    m = m.substring(0, m.indexOf('2023'))
 
     m = m.trim()
 

@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>d981e2f0-e151-42c0-9f3b-4615ba168578</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Выполнение бизнес-плана/Выполнение бизнес-плана отображение данных все филиалы</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>

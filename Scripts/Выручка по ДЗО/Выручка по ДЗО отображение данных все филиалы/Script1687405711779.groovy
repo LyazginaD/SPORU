@@ -71,6 +71,10 @@ WebUI.scrollToElement(findTestObject('Выручка по ДЗО/Октябрь'
 
 WebUI.click(findTestObject('Выручка по ДЗО/Октябрь'))
 
+WebUI.scrollToElement(findTestObject('Выручка по ДЗО/Ноябрь'), 30)
+
+WebUI.click(findTestObject('Выручка по ДЗО/Ноябрь'))
+
 'Проскроллить до заголовка фильтра "Дата"'
 WebUI.scrollToElement(findTestObject('Выручка по ДЗО/Заголовок Фильтра Дата'), 30)
 

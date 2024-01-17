@@ -6,7 +6,7 @@
    <connectionProperties/>
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
-   <dataFileGUID>91d848db-43c1-40fe-818a-91d362cbf9b4</dataFileGUID>
+   <dataFileGUID>cb26efdf-e3ff-43ea-87d1-4e42e2fe1b75</dataFileGUID>
    <dataSourceUrl>C:\Users\LIAZGINA-DI\git\SPORU\Data Files\ПланФакт1.xls</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>false</isInternalPath>

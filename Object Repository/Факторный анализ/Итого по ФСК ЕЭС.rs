@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*/text()[normalize-space(.)='ИА ФСК ЕЭС']/parent::*</value>
+         <value>//*/text()[normalize-space(.)='Итого по ФСК ЕЭС']/parent::*</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>80f68a73-ea20-49d0-8683-68b9a4b25e1a</webElementGuid>
+      <webElementGuid>90362dce-507f-4a11-b6dd-e4862346af88</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,15 +30,15 @@
       <name>class</name>
       <type>Main</type>
       <value>rb-filter-list-item-text</value>
-      <webElementGuid>eaf763c9-9e1d-48cf-b32c-698828c8fa7c</webElementGuid>
+      <webElementGuid>c424a4cc-fc9f-4eb8-a252-e7b214a1db5a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>ИА ФСК ЕЭС</value>
-      <webElementGuid>c3690c5c-c3cf-47a2-8e48-e1cb2ddf449f</webElementGuid>
+      <value>Итого по ФСК ЕЭС</value>
+      <webElementGuid>8755ab28-5b24-430e-b5da-c3ce713f139b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,23 +46,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;bb03a55c88b6487cb00176a96ee44d84&quot;)/div[@class=&quot;rb-filter-container not-selectable rb-filter-multi-selection&quot;]/div[@class=&quot;rb-filter-body-container opened&quot;]/div[@class=&quot;rb-filter-list-container&quot;]/ul[@class=&quot;rb-filter-list rb-filter-root-list&quot;]/li[@class=&quot;rb-filter-list-item rb-filter-list-item-parent&quot;]/ul[@class=&quot;rb-filter-list&quot;]/li[@class=&quot;rb-filter-list-item rb-filter-list-item-parent&quot;]/ul[@class=&quot;rb-filter-list&quot;]/li[@class=&quot;rb-filter-list-item rb-filter-list-item-parent&quot;]/ul[@class=&quot;rb-filter-list&quot;]/li[@class=&quot;rb-filter-list-item&quot;]/div[@class=&quot;rb-filter-list-item-container&quot;]/div[@class=&quot;rb-filter-list-item-text&quot;]</value>
-      <webElementGuid>58a45ef6-6785-4777-9523-2e71374a708e</webElementGuid>
+      <webElementGuid>b60ff3f3-05ab-49e7-8185-74534470ffbb</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='bb03a55c88b6487cb00176a96ee44d84']/div/div[2]/div[3]/ul/li/ul/li/ul/li/ul/li/div/div</value>
-      <webElementGuid>a42fbf47-e324-460d-9ab4-3a7aee73e256</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Россети ФСК ЕЭС'])[1]/following::div[2]</value>
-      <webElementGuid>66aa2bf1-2358-465d-9611-fada694ad0c2</webElementGuid>
+      <webElementGuid>a39a727f-bcad-4e4c-9913-1361325f40df</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Магистральные сети'])[1]/following::div[4]</value>
-      <webElementGuid>1f29392f-daed-407c-9545-c34f0641eefc</webElementGuid>
+      <webElementGuid>1cbacea9-f224-469e-8e06-35d4561510fc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='РаспредКомплекс'])[1]/preceding::div[1]</value>
-      <webElementGuid>32f41114-82ba-4cad-9e7c-5a27bbf9af65</webElementGuid>
+      <webElementGuid>b8c283ef-9ecd-49b7-8d13-2fa0e7e09591</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,15 +78,15 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Отмена'])[2]/preceding::div[3]</value>
-      <webElementGuid>70fa9a3a-e6b3-4f19-80a3-41a6b6150086</webElementGuid>
+      <webElementGuid>608ccaf1-492f-45a8-b696-770d77097f18</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='ИА ФСК ЕЭС']/parent::*</value>
-      <webElementGuid>6a364a24-8606-4578-bfef-882c2436488d</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Итого по ФСК ЕЭС']/parent::*</value>
+      <webElementGuid>510d9614-24e7-46a9-9013-45124c40d6f9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,14 +94,22 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li/ul/li/ul/li/ul/li/div/div</value>
-      <webElementGuid>a33386c5-1fcc-46a1-8cc1-afb3bf2b3fa6</webElementGuid>
+      <webElementGuid>0bc414f6-7abf-4067-850f-5da863629a31</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='bb03a55c88b6487cb00176a96ee44d84']/div/div[2]/div[3]/ul/li/ul/li/ul/li/ul/li/div/div</value>
+      <webElementGuid>749f9118-8ea6-4940-b45e-f0f44a210c39</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//div[(text() = 'ИА ФСК ЕЭС' or . = 'ИА ФСК ЕЭС')]</value>
-      <webElementGuid>4129337a-339e-49fd-a3c2-e3e8798902d2</webElementGuid>
+      <value>//div[(text() = 'Итого по ФСК ЕЭС' or . = 'Итого по ФСК ЕЭС')]</value>
+      <webElementGuid>36a3d490-397b-4b6a-8177-4af9a672369c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

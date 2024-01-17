@@ -157,6 +157,10 @@ def VipolnenieBiznesPlana(def user, def dashboardName, def n, def data, def run,
 
     WebUI.click(findTestObject('Выполнение бизнес-плана/Октябрь 2023'))
 
+    WebUI.scrollToElement(findTestObject('Выполнение бизнес-плана/Ноябрь 2023'), 30)
+
+    WebUI.click(findTestObject('Выполнение бизнес-плана/Ноябрь 2023'))
+
     '!'
     ZakrytOpoveshenie()
 
@@ -355,6 +359,10 @@ def ViruchkaVRublyah(def user, def dashboardName, def n, def data, def run, def 
     WebUI.scrollToElement(findTestObject('Выручка в рублях/Октябрь'), 30)
 
     WebUI.click(findTestObject('Выручка в рублях/Октябрь'), FailureHandling.CONTINUE_ON_FAILURE)
+
+    WebUI.scrollToElement(findTestObject('Выручка в рублях/Ноябрь'), 30)
+
+    WebUI.click(findTestObject('Выручка в рублях/Ноябрь'), FailureHandling.CONTINUE_ON_FAILURE)
 
     'Проскроллить до заголовка фильтра "Дата"'
     WebUI.scrollToElement(findTestObject('Выручка в рублях/Заголовок дашборда'), 30)
@@ -1099,6 +1107,12 @@ def FaktorniyAnaliz(def user, def dashboardName, def n, def data, def run, def a
     'Проскроллить до элемента 2022'
     WebUI.click(findTestObject('Факторный анализ/Октябрь'), FailureHandling.CONTINUE_ON_FAILURE)
 
+    'Проскроллить до элемента 2022'
+    WebUI.scrollToElement(findTestObject('Факторный анализ/Ноябрь'), 30)
+
+    'Проскроллить до элемента 2022'
+    WebUI.click(findTestObject('Факторный анализ/Ноябрь'), FailureHandling.CONTINUE_ON_FAILURE)
+
     'Проскроллить до заголовка фильтра "Дата"'
     WebUI.scrollToElement(findTestObject('Факторный анализ/Заголовок дашборда'), 30)
 
@@ -1244,6 +1258,10 @@ def ViruchkaPoDZO(def user, def dashboardName, def n, def data, def run, def a1,
     WebUI.scrollToElement(findTestObject('Выручка по ДЗО/Октябрь'), 30)
 
     WebUI.click(findTestObject('Выручка по ДЗО/Октябрь'))
+
+    WebUI.scrollToElement(findTestObject('Выручка по ДЗО/Ноябрь'), 30)
+
+    WebUI.click(findTestObject('Выручка по ДЗО/Ноябрь'))
 
     'Проскроллить до заголовка фильтра "Дата"'
     WebUI.scrollToElement(findTestObject('Выручка по ДЗО/Заголовок дашборда'), 30)
