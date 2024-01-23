@@ -96,8 +96,6 @@ WebUI.scrollToElement(findTestObject('Выполнение бизнес-план
 
 WebUI.click(findTestObject('Выполнение бизнес-плана/Ноябрь 2023'))
 
-WebUI.delay(40)
-
 '!'
 ZakrytOpoveshenie()
 
@@ -292,6 +290,8 @@ static def Numbers(def a, def typeOfData, def todaysDate, def pageInt, def fileI
 
     if (a == 82) {
         OpenFilter()
+
+        WebUI.click(findTestObject('Выполнение бизнес-плана/Раскрыть список ПАО Россети в фильтре ДЗО'))
 
         WebUI.click(findTestObject('Выполнение бизнес-плана/РаспредКомплекс'))
 

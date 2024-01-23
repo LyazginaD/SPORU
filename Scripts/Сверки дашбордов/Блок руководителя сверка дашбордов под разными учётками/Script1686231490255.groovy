@@ -50,22 +50,31 @@ for (run = 1; run < 4; run++) {
     VipolnenieBiznesPlana(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
 }
 
+WebUI.delay(20)
+
 for (run = 1; run < 4; run++) {
     ViruchkaVRublyah(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
 }
+
+WebUI.delay(20)
 
 for (run = 1; run < 4; run++) {
     ObyemPoter(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
 }
 
+WebUI.delay(20)
+
 for (run = 1; run < 4; run++) {
     OtpuskIzSeti(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
 }
+
+WebUI.delay(20)
 
 for (run = 1; run < 4; run++) {
     OtpuskVSet(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
 }
 
+WebUI.delay(20)
 //for (run = 1; run < 4; run++) {
 //    PokazateliBalansa(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
 //}
@@ -76,17 +85,25 @@ for (run = 1; run < 4; run++) {
     KotlovoyPolezniyOtpusk(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
 }
 
+WebUI.delay(20)
+
 for (run = 1; run < 4; run++) {
     FaktorniyAnaliz(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
 }
+
+WebUI.delay(20)
 
 for (run = 1; run < 4; run++) {
     ViruchkaPoDZO(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
 }
 
+WebUI.delay(20)
+
 for (run = 1; run < 4; run++) {
     PrognozPoDZO(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
 }
+
+WebUI.delay(20)
 
 for (run = 1; run < 4; run++) {
     PrognozPoOtraslyam(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9 //if (WebUI.verifyTextPresent('Просьба обратить внимание', false) == true) {
