@@ -6,16 +6,16 @@
    <elementGuidId>99d74287-c010-4864-a1a5-75d34e1b1d61</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[2]/div/div/div/div[4]/div/a</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//*[@id = 'thirdX88ed08ee570a46acafd2a12909231105']</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>#thirdX88ed08ee570a46acafd2a12909231105</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[2]/div/div/div/div[4]/div/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>e4df902a-650f-4da7-b720-9179fd2e61b0</webElementGuid>
+      <webElementGuid>98283561-d625-4cfb-ab36-f6f4f1c44a76</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +34,7 @@
       <name>id</name>
       <type>Main</type>
       <value>thirdX88ed08ee570a46acafd2a12909231105</value>
-      <webElementGuid>c90d6e8e-00d6-4133-8522-e98aa5066a5f</webElementGuid>
+      <webElementGuid>2bc48c4e-efdb-4f35-9ec1-d36139a373eb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>buttonX88ed08ee570a46acafd2a12909231105 alertButton88ed08ee570a46acafd2a12909231105</value>
-      <webElementGuid>450dc519-b27a-42bd-91e8-0e9763aa2888</webElementGuid>
+      <webElementGuid>80e60ed0-96e9-45fa-8654-7611e4c55280</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,15 +50,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;thirdX88ed08ee570a46acafd2a12909231105&quot;)</value>
-      <webElementGuid>7831ec07-e98b-4df0-ae1b-55ec56b30d8e</webElementGuid>
+      <webElementGuid>4b7fdfe0-c682-462e-82fa-0fe84a516672</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
+      <name>xpath:position</name>
       <type>Main</type>
-      <value>//a[@id='thirdX88ed08ee570a46acafd2a12909231105']</value>
-      <webElementGuid>e1cb7041-3ca7-41e3-adc0-29d77117bdb1</webElementGuid>
+      <value>//div[2]/div/div/div/div[4]/div/a</value>
+      <webElementGuid>6964a8ad-45b3-48ef-aff6-804f033a0a48</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -66,15 +66,15 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='alertModalContainer88ed08ee570a46acafd2a12909231105']/div/a</value>
-      <webElementGuid>06f6730a-e805-4194-a0f9-c2358ca282f0</webElementGuid>
+      <webElementGuid>11ed9e85-2130-4307-9736-088ed5a4db4d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
+      <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//div[2]/div/div/div/div[4]/div/a</value>
-      <webElementGuid>9303160e-e392-4a3f-8a53-67cb20eaa49a</webElementGuid>
+      <value>//a[@id='thirdX88ed08ee570a46acafd2a12909231105']</value>
+      <webElementGuid>4d5f691e-2b39-4dd3-8a4c-6c1c33b89c5a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,6 +82,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@id = 'thirdX88ed08ee570a46acafd2a12909231105']</value>
-      <webElementGuid>c327b588-ee00-4484-8efa-e81cd948f9c1</webElementGuid>
+      <webElementGuid>1415af50-5f61-4165-a13b-0d57722b6bff</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

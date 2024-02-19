@@ -53,26 +53,7 @@ WebUI.click(findTestObject('Выручка по ДЗО/Снять выделен
 
 WebUI.scrollToElement(findTestObject('Выручка по ДЗО/2023 список'), 30)
 
-WebUI.click(findTestObject('Выручка по ДЗО/2023 список'))
-
-WebUI.scrollToElement(findTestObject('Выручка по ДЗО/1 квартал 2023 список'), 30)
-
-'Выбрать 1 квартал 2022'
-WebUI.click(findTestObject('Выручка по ДЗО/1 квартал 2023 выбрать'))
-
-WebUI.click(findTestObject('Выручка по ДЗО/2 квартал 2023 выбрать'))
-
-WebUI.click(findTestObject('Выручка по ДЗО/3 квартал 2023'))
-
-WebUI.click(findTestObject('Выручка по ДЗО/4 квартал 2023 список'))
-
-WebUI.scrollToElement(findTestObject('Выручка по ДЗО/Октябрь'), 30)
-
-WebUI.click(findTestObject('Выручка по ДЗО/Октябрь'))
-
-WebUI.scrollToElement(findTestObject('Выручка по ДЗО/Ноябрь'), 30)
-
-WebUI.click(findTestObject('Выручка по ДЗО/Ноябрь'))
+WebUI.click(findTestObject('Выручка по ДЗО/2023 год'))
 
 'Проскроллить до заголовка фильтра "Дата"'
 WebUI.scrollToElement(findTestObject('Выручка по ДЗО/Заголовок дашборда'), 30)
@@ -119,25 +100,7 @@ WebUI.click(findTestObject('Выручка по ДЗО/Снять выделен
 
 WebUI.scrollToElement(findTestObject('Выручка по ДЗО/2023 список Выручка'), 30)
 
-WebUI.click(findTestObject('Выручка по ДЗО/2023 список Выручка'))
-
-WebUI.scrollToElement(findTestObject('Выручка по ДЗО/1 квартал 2023 список Выручка'), 30)
-
-WebUI.click(findTestObject('Выручка по ДЗО/1 квартал 2023 выбрать Выручка'))
-
-WebUI.click(findTestObject('Выручка по ДЗО/2 квартал 2023 выбрать Выручка'))
-
-WebUI.click(findTestObject('Выручка по ДЗО/3 квартал 2023 Выручка'))
-
-WebUI.click(findTestObject('Выручка по ДЗО/4 квартал 2023 список Выручка'))
-
-WebUI.scrollToElement(findTestObject('Выручка по ДЗО/Октябрь Выручка'), 30)
-
-WebUI.click(findTestObject('Выручка по ДЗО/Октябрь Выручка'))
-
-WebUI.scrollToElement(findTestObject('Выручка по ДЗО/Ноябрь Выручка'), 30)
-
-WebUI.click(findTestObject('Выручка по ДЗО/Ноябрь Выручка'))
+WebUI.click(findTestObject('Выручка по ДЗО/2023 год Выручка'))
 
 'Проскроллить до заголовка фильтра "Дата"'
 WebUI.scrollToElement(findTestObject('Выручка по ДЗО/Заголовок дашборда Выручка'), 30)

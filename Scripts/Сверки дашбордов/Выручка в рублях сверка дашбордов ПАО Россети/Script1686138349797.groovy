@@ -373,27 +373,7 @@ static def PreSettings(def run, def vir, def block, def nameOfBlock, def typeOfD
 
     WebUI.scrollToElement(findTestObject('Выручка в рублях/2023 список' + nameOfBlock), 30)
 
-    WebUI.click(findTestObject('Выручка в рублях/2023 список' + nameOfBlock))
-
-    WebUI.scrollToElement(findTestObject('Выручка в рублях/1 квартал 2023 список' + nameOfBlock), 30)
-
-    WebUI.click(findTestObject('Выручка в рублях/1 квартал 2023 выбрать' + nameOfBlock))
-
-    WebUI.scrollToElement(findTestObject('Выручка в рублях/2 квартал 2023 список' + nameOfBlock), 30)
-
-    WebUI.click(findTestObject('Выручка в рублях/выбрать 2 квартал 2023' + nameOfBlock))
-
-    WebUI.click(findTestObject('Выручка в рублях/3 квартал 2023' + nameOfBlock))
-
-    WebUI.click(findTestObject('Выручка в рублях/4 квартал 2023 список' + nameOfBlock), FailureHandling.CONTINUE_ON_FAILURE)
-
-    WebUI.scrollToElement(findTestObject('Выручка в рублях/Октябрь' + nameOfBlock), 30)
-
-    WebUI.click(findTestObject('Выручка в рублях/Октябрь' + nameOfBlock), FailureHandling.CONTINUE_ON_FAILURE)
-
-    WebUI.scrollToElement(findTestObject('Выручка в рублях/Ноябрь' + nameOfBlock), 30)
-
-    WebUI.click(findTestObject('Выручка в рублях/Ноябрь' + nameOfBlock), FailureHandling.CONTINUE_ON_FAILURE)
+    WebUI.click(findTestObject('Выручка в рублях/2023 год' + nameOfBlock))
 
     'Проскроллить до заголовка дашборда'
     WebUI.scrollToElement(findTestObject('Выручка в рублях/Заголовок дашборда' + nameOfBlock), 30)

@@ -75,6 +75,7 @@ for (run = 1; run < 4; run++) {
 }
 
 WebUI.delay(20)
+
 //for (run = 1; run < 4; run++) {
 //    PokazateliBalansa(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
 //}
@@ -158,25 +159,7 @@ def VipolnenieBiznesPlana(def user, def dashboardName, def n, def data, def run,
     WebUI.scrollToElement(findTestObject('Выполнение бизнес-плана/2023 список'), 30)
 
     'Выбрать 1 квартал 2022'
-    WebUI.click(findTestObject('Выполнение бизнес-плана/2023 список'))
-
-    WebUI.scrollToElement(findTestObject('Выполнение бизнес-плана/1 квартал 2023'), 30)
-
-    WebUI.click(findTestObject('Выполнение бизнес-плана/1 квартал 2023'))
-
-    WebUI.click(findTestObject('Выполнение бизнес-плана/2 квартал 2023'))
-
-    WebUI.click(findTestObject('Выполнение бизнес-плана/3 квартал 2023'))
-
-    WebUI.click(findTestObject('Выполнение бизнес-плана/4 квартал 2023 список'))
-
-    WebUI.scrollToElement(findTestObject('Выполнение бизнес-плана/Октябрь 2023'), 30)
-
-    WebUI.click(findTestObject('Выполнение бизнес-плана/Октябрь 2023'))
-
-    WebUI.scrollToElement(findTestObject('Выполнение бизнес-плана/Ноябрь 2023'), 30)
-
-    WebUI.click(findTestObject('Выполнение бизнес-плана/Ноябрь 2023'))
+    WebUI.click(findTestObject('Выполнение бизнес-плана/2023 год'))
 
     '!'
     ZakrytOpoveshenie()
@@ -361,25 +344,7 @@ def ViruchkaVRublyah(def user, def dashboardName, def n, def data, def run, def 
 
     WebUI.scrollToElement(findTestObject('Выручка в рублях/2023 список'), 30)
 
-    WebUI.click(findTestObject('Выручка в рублях/2023 список'))
-
-    WebUI.scrollToElement(findTestObject('Выручка в рублях/1 квартал 2023 список'), 30)
-
-    WebUI.click(findTestObject('Выручка в рублях/1 квартал 2023 выбрать'))
-
-    WebUI.click(findTestObject('Выручка в рублях/выбрать 2 квартал 2023'))
-
-    WebUI.click(findTestObject('Выручка в рублях/3 квартал 2023'), FailureHandling.CONTINUE_ON_FAILURE)
-
-    WebUI.click(findTestObject('Выручка в рублях/4 квартал 2023 список'), FailureHandling.CONTINUE_ON_FAILURE)
-
-    WebUI.scrollToElement(findTestObject('Выручка в рублях/Октябрь'), 30)
-
-    WebUI.click(findTestObject('Выручка в рублях/Октябрь'), FailureHandling.CONTINUE_ON_FAILURE)
-
-    WebUI.scrollToElement(findTestObject('Выручка в рублях/Ноябрь'), 30)
-
-    WebUI.click(findTestObject('Выручка в рублях/Ноябрь'), FailureHandling.CONTINUE_ON_FAILURE)
+    WebUI.click(findTestObject('Выручка в рублях/2023 год'))
 
     'Проскроллить до заголовка фильтра "Дата"'
     WebUI.scrollToElement(findTestObject('Выручка в рублях/Заголовок дашборда'), 30)
@@ -1102,33 +1067,7 @@ def FaktorniyAnaliz(def user, def dashboardName, def n, def data, def run, def a
 
     WebUI.scrollToElement(findTestObject('Факторный анализ/2023 список'), 30)
 
-    WebUI.click(findTestObject('Факторный анализ/2023 список'))
-
-    WebUI.scrollToElement(findTestObject('Факторный анализ/1 квартал 2023 список'), 30)
-
-    WebUI.click(findTestObject('Факторный анализ/1 квартал 2023 выбрать'))
-
-    WebUI.scrollToElement(findTestObject('Факторный анализ/2 квартал 2023'), 30)
-
-    WebUI.click(findTestObject('Факторный анализ/2 квартал 2023'), FailureHandling.CONTINUE_ON_FAILURE)
-
-    'Проскроллить до элемента 2022'
-    WebUI.click(findTestObject('Факторный анализ/3 квартал 2023'), FailureHandling.CONTINUE_ON_FAILURE)
-
-    'Проскроллить до элемента 2022'
-    WebUI.click(findTestObject('Факторный анализ/4 квартал 2023 список'), FailureHandling.CONTINUE_ON_FAILURE)
-
-    'Проскроллить до элемента 2022'
-    WebUI.scrollToElement(findTestObject('Факторный анализ/Октябрь'), 30)
-
-    'Проскроллить до элемента 2022'
-    WebUI.click(findTestObject('Факторный анализ/Октябрь'), FailureHandling.CONTINUE_ON_FAILURE)
-
-    'Проскроллить до элемента 2022'
-    WebUI.scrollToElement(findTestObject('Факторный анализ/Ноябрь'), 30)
-
-    'Проскроллить до элемента 2022'
-    WebUI.click(findTestObject('Факторный анализ/Ноябрь'), FailureHandling.CONTINUE_ON_FAILURE)
+    WebUI.click(findTestObject('Факторный анализ/2023 год'))
 
     'Проскроллить до заголовка фильтра "Дата"'
     WebUI.scrollToElement(findTestObject('Факторный анализ/Заголовок дашборда'), 30)
@@ -1259,26 +1198,7 @@ def ViruchkaPoDZO(def user, def dashboardName, def n, def data, def run, def a1,
 
     WebUI.scrollToElement(findTestObject('Выручка по ДЗО/2023 список'), 30)
 
-    WebUI.click(findTestObject('Выручка по ДЗО/2023 список'))
-
-    WebUI.scrollToElement(findTestObject('Выручка по ДЗО/1 квартал 2023 список'), 30)
-
-    'Выбрать 1 квартал 2022'
-    WebUI.click(findTestObject('Выручка по ДЗО/1 квартал 2023 выбрать'))
-
-    WebUI.click(findTestObject('Выручка по ДЗО/2 квартал 2023 выбрать'))
-
-    WebUI.click(findTestObject('Выручка по ДЗО/3 квартал 2023'))
-
-    WebUI.click(findTestObject('Выручка по ДЗО/4 квартал 2023 список'))
-
-    WebUI.scrollToElement(findTestObject('Выручка по ДЗО/Октябрь'), 30)
-
-    WebUI.click(findTestObject('Выручка по ДЗО/Октябрь'))
-
-    WebUI.scrollToElement(findTestObject('Выручка по ДЗО/Ноябрь'), 30)
-
-    WebUI.click(findTestObject('Выручка по ДЗО/Ноябрь'))
+    WebUI.click(findTestObject('Выручка по ДЗО/2023 год'))
 
     'Проскроллить до заголовка фильтра "Дата"'
     WebUI.scrollToElement(findTestObject('Выручка по ДЗО/Заголовок дашборда'), 30)
