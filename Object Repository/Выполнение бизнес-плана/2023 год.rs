@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>2023 год</name>
+   <tag></tag>
+   <elementGuidId>df4d410f-ce6f-4fed-83a3-3ed72a2d734b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>i.fa.fa-square-o.rb-filter-list-item-icon.semi-selected</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[3]/ul/li[7]/div/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>0e3516f0-e5d4-459e-b997-8f5f79481f6f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fa fa-square-o rb-filter-list-item-icon semi-selected</value>
+      <webElementGuid>6dca9296-dadd-4533-8b84-141eee626198</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;a00621ff83234bcfb1fc761f616f1c3e&quot;)/div[@class=&quot;rb-filter-container not-selectable rb-filter-multi-selection&quot;]/div[@class=&quot;rb-filter-body-container opened&quot;]/div[@class=&quot;rb-filter-list-container&quot;]/ul[@class=&quot;rb-filter-list rb-filter-root-list&quot;]/li[@class=&quot;rb-filter-list-item rb-filter-list-item-parent&quot;]/div[@class=&quot;rb-filter-list-item-container&quot;]/i[@class=&quot;fa fa-square-o rb-filter-list-item-icon semi-selected&quot;]</value>
+      <webElementGuid>af2ad3f4-bba1-4b3d-b690-f51bfd0c49ae</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/ul/li[7]/div/i</value>
+      <webElementGuid>bcd460e3-5c0f-4e92-a669-a09af462a376</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='a00621ff83234bcfb1fc761f616f1c3e']/div/div[2]/div[3]/ul/li[7]/div/i</value>
+      <webElementGuid>fe2c3fa3-6e61-4b35-b3df-3c6d519af29d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
