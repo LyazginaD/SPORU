@@ -788,11 +788,17 @@ def PreSettings(def typeOfData, def todaysDate) {
     'Нажать "Снять выделение"'
     WebUI.click(findTestObject('Выручка в рублях/Снять выделение в фильтре Дата'))
 
-    WebUI.scrollToElement(findTestObject('Выручка в рублях/2023 список'), 30)
+    WebUI.scrollToElement(findTestObject('Выручка в рублях/2024 список'), 30)
 
-    WebUI.click(findTestObject('Выручка в рублях/2023 год'))
+    WebUI.click(findTestObject('Выручка в рублях/2024 список'))
 
-    'Проскроллить до заголовка фильтра "ДЗО"'
+    WebUI.scrollToElement(findTestObject('Выручка в рублях/4 квартал 2024 список'), 30)
+
+    WebUI.click(findTestObject('Выручка в рублях/1 квартал 2024 список'))
+
+    WebUI.click(findTestObject('Выручка в рублях/Январь 2024'))
+
+    'Проскроллить до заголовка фильтра "Дата"'
     WebUI.scrollToElement(findTestObject('Выручка в рублях/Заголовок дашборда'), 30)
 
     'Нажать "Применить"'

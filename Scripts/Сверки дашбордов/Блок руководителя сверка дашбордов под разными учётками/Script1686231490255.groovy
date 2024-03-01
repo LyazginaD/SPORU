@@ -153,19 +153,22 @@ def VipolnenieBiznesPlana(def user, def dashboardName, def n, def data, def run,
     'Раскрыть фильтр "Дата"'
     WebUI.click(findTestObject('Object Repository/Выполнение бизнес-плана/Фильтр Дата'))
 
-    'Нажать "Снять выделение"'
-    WebUI.click(findTestObject('Выполнение бизнес-плана/Снять выделение в фильтре Дата'))
-
-    WebUI.scrollToElement(findTestObject('Выполнение бизнес-плана/2023 список'), 30)
+    WebUI.scrollToElement(findTestObject('Выполнение бизнес-плана/2024 список'), 30)
 
     'Выбрать 1 квартал 2022'
-    WebUI.click(findTestObject('Выполнение бизнес-плана/2023 год'))
+    WebUI.click(findTestObject('Выполнение бизнес-плана/2024 список'))
 
-    '!'
-    ZakrytOpoveshenie()
+    'Выбрать 1 квартал 2022'
+    WebUI.scrollToElement(findTestObject('Выполнение бизнес-плана/4 квартал 2024 список'), 30)
 
     'Проскроллить до заголовка фильтра "Дата"'
-    WebUI.scrollToElement(findTestObject('Выполнение бизнес-плана/Заголовок фильтра ДЗО'), 30)
+    WebUI.scrollToElement(findTestObject('Выполнение бизнес-плана/Заголовок дашборда'), 30)
+
+    'Выбрать 1 квартал 2022'
+    WebUI.click(findTestObject('Выполнение бизнес-плана/1 квартал 2024 список'))
+
+    'Выбрать 1 квартал 2022'
+    WebUI.click(findTestObject('Выполнение бизнес-плана/Январь 2024'))
 
     'Нажать "Применить"'
     WebUI.click(findTestObject('Object Repository/Выполнение бизнес-плана/Применить в фильтре Дата'))
@@ -342,9 +345,15 @@ def ViruchkaVRublyah(def user, def dashboardName, def n, def data, def run, def 
     'Нажать "Снять выделение"'
     WebUI.click(findTestObject('Выручка в рублях/Снять выделение в фильтре Дата'))
 
-    WebUI.scrollToElement(findTestObject('Выручка в рублях/2023 список'), 30)
+    WebUI.scrollToElement(findTestObject('Выручка в рублях/2024 список'), 30)
 
-    WebUI.click(findTestObject('Выручка в рублях/2023 год'))
+    WebUI.click(findTestObject('Выручка в рублях/2024 список'))
+
+    WebUI.scrollToElement(findTestObject('Выручка в рублях/4 квартал 2024 список'), 30)
+
+    WebUI.click(findTestObject('Выручка в рублях/1 квартал 2024 список'))
+
+    WebUI.click(findTestObject('Выручка в рублях/Январь 2024'))
 
     'Проскроллить до заголовка фильтра "Дата"'
     WebUI.scrollToElement(findTestObject('Выручка в рублях/Заголовок дашборда'), 30)
@@ -1065,9 +1074,15 @@ def FaktorniyAnaliz(def user, def dashboardName, def n, def data, def run, def a
     'Нажать "Снять выделение"'
     WebUI.click(findTestObject('Факторный анализ/Снять выделение в фильтре Дата'))
 
-    WebUI.scrollToElement(findTestObject('Факторный анализ/2023 список'), 30)
+    WebUI.scrollToElement(findTestObject('Факторный анализ/2024 список'), 30)
 
-    WebUI.click(findTestObject('Факторный анализ/2023 год'))
+    WebUI.click(findTestObject('Факторный анализ/2024 список'))
+
+    WebUI.scrollToElement(findTestObject('Факторный анализ/1 квартал 2024 список'), 30)
+
+    WebUI.click(findTestObject('Факторный анализ/1 квартал 2024 список'))
+
+    WebUI.click(findTestObject('Факторный анализ/Январь 2024'))
 
     'Проскроллить до заголовка фильтра "Дата"'
     WebUI.scrollToElement(findTestObject('Факторный анализ/Заголовок дашборда'), 30)
@@ -1196,9 +1211,15 @@ def ViruchkaPoDZO(def user, def dashboardName, def n, def data, def run, def a1,
     'Нажать "Снять выделение"'
     WebUI.click(findTestObject('Выручка по ДЗО/Снять выделение в фильтре Дата'))
 
-    WebUI.scrollToElement(findTestObject('Выручка по ДЗО/2023 список'), 30)
+    WebUI.scrollToElement(findTestObject('Выручка по ДЗО/2024 список'), 30)
 
-    WebUI.click(findTestObject('Выручка по ДЗО/2023 год'))
+    WebUI.click(findTestObject('Выручка по ДЗО/2024 список'))
+
+    WebUI.scrollToElement(findTestObject('Выручка по ДЗО/1 квартал 2024 список'), 30)
+
+    WebUI.click(findTestObject('Выручка по ДЗО/1 квартал 2024 список'))
+
+    WebUI.click(findTestObject('Выручка по ДЗО/Январь 2024'))
 
     'Проскроллить до заголовка фильтра "Дата"'
     WebUI.scrollToElement(findTestObject('Выручка по ДЗО/Заголовок дашборда'), 30)

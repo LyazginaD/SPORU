@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[116]/div[2]/div/div/span</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Текст 1 - копия'])[1]/following::span[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>c8a63b59-4029-4aea-9c3c-701bf601a6d4</webElementGuid>
+      <webElementGuid>2b278391-5895-4dc3-9217-04175a076eec</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Выполнение бизнес-плана в части показателя «Уровень потерь электроэнергии»</value>
-      <webElementGuid>b14d3a61-4bab-406d-95e3-a0797fe64d09</webElementGuid>
+      <webElementGuid>3baec621-d559-4f41-a9d6-2b30c410a19e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,23 +38,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;8ed0938139204623b7258393b9233572&quot;)/div[1]/span[1]</value>
-      <webElementGuid>e3dcca70-6b02-4749-83fb-c65f56c4659b</webElementGuid>
+      <webElementGuid>c211c1a8-008f-4a94-8a65-df6f6bff875c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='8ed0938139204623b7258393b9233572']/div/span</value>
-      <webElementGuid>4e1a848c-38bb-45fc-b5c2-a608d65751f5</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Текст 1 - копия'])[1]/following::span[1]</value>
-      <webElementGuid>d4000965-9d89-4cf0-bd66-16d11f004c1f</webElementGuid>
+      <webElementGuid>fca4a3ca-371e-492c-b96a-2f7efb000725</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +54,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='В начало'])[58]/following::span[1]</value>
-      <webElementGuid>2012cca6-1ad2-41bf-bd41-67d45776862c</webElementGuid>
+      <webElementGuid>d0ecc245-873a-4ad9-9fc9-c79508cfd3ec</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='В начало'])[59]/preceding::span[1]</value>
-      <webElementGuid>d0c65449-9c6e-4257-b99b-7da366e7c0b5</webElementGuid>
+      <webElementGuid>3bee117d-7d05-4a72-aa04-7f2931136295</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Текст 3 - копия 1 - копия 1'])[1]/preceding::span[1]</value>
-      <webElementGuid>aabc9d4f-ca6b-4682-8afa-103051671429</webElementGuid>
+      <webElementGuid>8d7af648-9fac-434f-b2c5-bc77f999644b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Выполнение бизнес-плана в части показателя «Уровень потерь электроэнергии»']/parent::*</value>
-      <webElementGuid>2469c04f-ed13-4ef5-aa2e-8f2382d72f0f</webElementGuid>
+      <webElementGuid>76e46760-c3ed-4f9d-9a90-c100aa8510e7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +86,15 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[116]/div[2]/div/div/span</value>
-      <webElementGuid>09b1d683-77b7-4984-9037-78d457bf4558</webElementGuid>
+      <webElementGuid>a19e4134-6279-4c96-a949-182cd4ca172d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='8ed0938139204623b7258393b9233572']/div/span</value>
+      <webElementGuid>3067dc7c-2d91-4c4a-905a-fda72be23750</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +102,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Выполнение бизнес-плана в части показателя «Уровень потерь электроэнергии»' or . = 'Выполнение бизнес-плана в части показателя «Уровень потерь электроэнергии»')]</value>
-      <webElementGuid>c20f8244-c228-4143-99ed-606ece270282</webElementGuid>
+      <webElementGuid>3b143010-52f2-400c-af3e-32a5423c82c4</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -59,9 +59,15 @@ static def Test(def run, def todaysDate, def typeOfData, def otobrajeniyeDannyh)
     'Нажать "Снять выделение"'
     WebUI.click(findTestObject('Факторный анализ/Снять выделение в фильтре Дата'))
 
-    WebUI.scrollToElement(findTestObject('Факторный анализ/2023 список'), 30)
+    WebUI.scrollToElement(findTestObject('Факторный анализ/2024 список'), 30)
 
-    WebUI.click(findTestObject('Факторный анализ/2023 год'))
+    WebUI.click(findTestObject('Факторный анализ/2024 список'))
+
+    WebUI.scrollToElement(findTestObject('Факторный анализ/1 квартал 2024 список'), 30)
+
+    WebUI.click(findTestObject('Факторный анализ/1 квартал 2024 список'))
+
+    WebUI.click(findTestObject('Факторный анализ/Январь 2024'))
 
     'Проскроллить до заголовка фильтра "Дата"'
     WebUI.scrollToElement(findTestObject('Факторный анализ/Заголовок дашборда'), 30)
@@ -116,9 +122,15 @@ static def Test(def run, def todaysDate, def typeOfData, def otobrajeniyeDannyh)
     'Нажать "Снять выделение"'
     WebUI.click(findTestObject('Факторный анализ/Снять выделение в фильтре Дата Выручка'))
 
-    WebUI.scrollToElement(findTestObject('Факторный анализ/2023 список Выручка'), 30)
+    WebUI.scrollToElement(findTestObject('Факторный анализ/2024 список Выручка'), 30)
 
-    WebUI.click(findTestObject('Факторный анализ/2023 год Выручка'))
+    WebUI.click(findTestObject('Факторный анализ/2024 список Выручка'))
+
+    WebUI.scrollToElement(findTestObject('Факторный анализ/1 квартал 2024 список Выручка'), 30)
+
+    WebUI.click(findTestObject('Факторный анализ/1 квартал 2024 список Выручка'))
+
+    WebUI.click(findTestObject('Факторный анализ/Январь 2024 Выручка'))
 
     'Проскроллить до заголовка фильтра "Дата"'
     WebUI.scrollToElement(findTestObject('Факторный анализ/Заголовок дашборда Выручка'), 30)

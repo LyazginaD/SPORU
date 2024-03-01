@@ -51,13 +51,18 @@ WebUI.click(findTestObject('Выручка по ДЗО/Фильтр Дата'))
 'Нажать "Снять выделение"'
 WebUI.click(findTestObject('Выручка по ДЗО/Снять выделение в фильтре Дата'))
 
-WebUI.scrollToElement(findTestObject('Выручка по ДЗО/2023 список'), 30)
+WebUI.scrollToElement(findTestObject('Выручка по ДЗО/2024 список'), 30)
 
-'Выбрать 1 квартал 2022'
-WebUI.click(findTestObject('Выручка по ДЗО/2023 год'))
+WebUI.click(findTestObject('Выручка по ДЗО/2024 список'))
+
+WebUI.scrollToElement(findTestObject('Выручка по ДЗО/1 квартал 2024 список'), 30)
+
+WebUI.click(findTestObject('Выручка по ДЗО/1 квартал 2024 список'))
+
+WebUI.click(findTestObject('Выручка по ДЗО/Январь 2024'))
 
 'Проскроллить до заголовка фильтра "Дата"'
-WebUI.scrollToElement(findTestObject('Выручка по ДЗО/Заголовок Фильтра Дата'), 30)
+WebUI.scrollToElement(findTestObject('Выручка по ДЗО/Заголовок дашборда'), 30)
 
 'Нажать "Применить"'
 WebUI.click(findTestObject('Выручка по ДЗО/Применить в фильтре Дата'))
