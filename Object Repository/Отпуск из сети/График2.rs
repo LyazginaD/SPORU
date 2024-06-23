@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>График2</name>
+   <tag></tag>
+   <elementGuidId>b690e811-e782-44f1-b7fb-361f0ed65542</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='ce9ab97b80ae4b91abd2553ab7a95051']/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#ce9ab97b80ae4b91abd2553ab7a95051 > div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>f4b9c358-698b-4a53-9585-a2955ebf9e8f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ce9ab97b80ae4b91abd2553ab7a95051&quot;)/div[1]</value>
+      <webElementGuid>d632b663-a664-4f6d-960c-8d822b84f6fe</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='ce9ab97b80ae4b91abd2553ab7a95051']/div</value>
+      <webElementGuid>f05a9780-3ba8-43ab-ab1c-a696b2742880</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[24]/div[2]/div/div</value>
+      <webElementGuid>d33c14cc-7506-40c7-94e3-311c392f050f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

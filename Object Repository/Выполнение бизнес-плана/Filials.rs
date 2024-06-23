@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Filials</name>
+   <tag></tag>
+   <elementGuidId>b8d7fbfd-c77b-470c-8e7b-075eafd697b4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Уровень потерь электроэнергии'])[1]/following::*[name()='svg'][1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#highcharts-vad6f6t-1198 > svg.highcharts-root</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>svg</value>
+      <webElementGuid>711dfde1-8d6e-41af-813e-3afd3652fc73</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>version</name>
+      <type>Main</type>
+      <value>1.1</value>
+      <webElementGuid>c55530d9-559e-4df5-a1a3-2c8b8283247b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>highcharts-root</value>
+      <webElementGuid>b6494513-7523-44ef-9a25-bbcbfed67377</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xmlns</name>
+      <type>Main</type>
+      <value>http://www.w3.org/2000/svg</value>
+      <webElementGuid>a10f496e-a1a1-42e7-b860-d729bc1024d6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>width</name>
+      <type>Main</type>
+      <value>1675</value>
+      <webElementGuid>b9d273ab-1113-4048-ae70-1b21d579a79b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>height</name>
+      <type>Main</type>
+      <value>201</value>
+      <webElementGuid>dbfaba0b-26fc-45fc-866c-01aac5cc9643</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>viewBox</name>
+      <type>Main</type>
+      <value>0 0 1675 201</value>
+      <webElementGuid>52fee6a5-7db8-4798-bd26-859b1928b595</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Created with Highcharts 9.0.16.947.447.523.566.136.505.976.267.187.012.915.705.725.43МордовэнергоОренбургэнергоПензаэнергоСамарские РССаратовские РСУльяновские РСЧувашэнерго0 10 НазадОренбургэнерго: 7.18</value>
+      <webElementGuid>05b49896-1f75-4578-8a32-6bd2cc61ac7e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;highcharts-vad6f6t-1198&quot;)/svg[@class=&quot;highcharts-root&quot;]</value>
+      <webElementGuid>1fed8ce8-869b-4f88-b126-fab01f4e1c6b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Уровень потерь электроэнергии'])[1]/following::*[name()='svg'][1]</value>
+      <webElementGuid>5606910f-ccd0-4322-a7ec-0371f319bc0e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Россети Волга'])[4]/following::*[name()='svg'][1]</value>
+      <webElementGuid>42d743b2-21d2-4b2e-8690-0c710eac3e15</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//svg[(text() = 'Created with Highcharts 9.0.16.947.447.523.566.136.505.976.267.187.012.915.705.725.43МордовэнергоОренбургэнергоПензаэнергоСамарские РССаратовские РСУльяновские РСЧувашэнерго0 10 НазадОренбургэнерго: 7.18' or . = 'Created with Highcharts 9.0.16.947.447.523.566.136.505.976.267.187.012.915.705.725.43МордовэнергоОренбургэнергоПензаэнергоСамарские РССаратовские РСУльяновские РСЧувашэнерго0 10 НазадОренбургэнерго: 7.18')]</value>
+      <webElementGuid>8787b303-3208-4cf1-a646-fee7df3101c4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
