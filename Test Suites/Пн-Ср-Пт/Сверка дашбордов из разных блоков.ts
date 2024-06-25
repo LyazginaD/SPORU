@@ -15,7 +15,7 @@
       <guid>4b974d72-cf92-4b7a-95e2-ede57147d6e9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Сверки дашбордов/Выполнение бизнес-плана сверка дашбордов</testCaseId>
+      <testCaseId>Test Cases/Сверки дашбордов/Выполнение бизнес-плана сверка дашбордов (старая)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
