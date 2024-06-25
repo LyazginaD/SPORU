@@ -123,7 +123,7 @@ String a2 = WebUI.getText(findTestObject('Выполнение бизнес-пл
 
 println(a2)
 
-String a3 = WebUI.getText(findTestObject('Выполнение бизнес-плана/otkloneniya'))
+String a3 = WebUI.getText(findTestObject('Выполнение бизнес-плана/Список ДЗО'))
 
 i = a3.indexOf('Россети ФСКЕЭС')
 
@@ -404,7 +404,7 @@ String b2 = WebUI.getText(findTestObject('Выполнение бизнес-пл
 
 println(b2)
 
-String b3 = WebUI.getText(findTestObject('Выполнение бизнес-плана/Выполнение бизнес-плана Балансы/otkloneniya'))
+String b3 = WebUI.getText(findTestObject('Выполнение бизнес-плана/Выполнение бизнес-плана Балансы/Список ДЗО'))
 
 i = b3.indexOf('Россети ФСКЕЭС')
 

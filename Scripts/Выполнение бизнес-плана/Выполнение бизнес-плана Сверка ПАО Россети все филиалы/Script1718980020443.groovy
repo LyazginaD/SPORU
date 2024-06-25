@@ -126,7 +126,7 @@ WebUI.click(findTestObject('Object Repository/Выполнение бизнес-
 
 WebUI.delay(30)
 
-String x1 = WebUI.getText(findTestObject('Выполнение бизнес-плана/Список ДЗО'))
+String x1 = WebUI.getText(findTestObject('Выполнение бизнес-плана/Список ДЗО старый'))
 
 
 
@@ -866,7 +866,7 @@ static def Filials(def a, def typeOfData, def todaysDate, def pageInt, def fileI
         WebUI.delay(5)
     }
 	
-	String x2 = WebUI.getText(findTestObject('Выполнение бизнес-плана/Список ДЗО'))
+	String x2 = WebUI.getText(findTestObject('Выполнение бизнес-плана/Список ДЗО старый'))
     
     if (a == 28) {
         dZO = 'Мордовэнерго'

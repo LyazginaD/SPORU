@@ -219,7 +219,7 @@ def VipolnenieBiznesPlana(def user, def dashboardName, def n, def data, def run,
 
         a3 = WebUI.getText(findTestObject('Выполнение бизнес-плана/table'))
 
-        a4 = WebUI.getText(findTestObject('Выполнение бизнес-плана/otkloneniya'))
+        a4 = WebUI.getText(findTestObject('Выполнение бизнес-плана/Список ДЗО'))
 
         a5 = WebUI.getText(findTestObject('Выполнение бизнес-плана/svg1'))
 
@@ -243,7 +243,7 @@ def VipolnenieBiznesPlana(def user, def dashboardName, def n, def data, def run,
 
         a3 = WebUI.getText(findTestObject('Выполнение бизнес-плана/table'))
 
-        a4 = WebUI.getText(findTestObject('Выполнение бизнес-плана/otkloneniya'))
+        a4 = WebUI.getText(findTestObject('Выполнение бизнес-плана/Список ДЗО'))
 
         a5 = WebUI.getText(findTestObject('Выполнение бизнес-плана/svg1'))
 
@@ -289,7 +289,7 @@ def VipolnenieBiznesPlana(def user, def dashboardName, def n, def data, def run,
 
         a3 = WebUI.getText(findTestObject('Выполнение бизнес-плана/table'))
 
-        a4 = WebUI.getText(findTestObject('Выполнение бизнес-плана/otkloneniya'))
+        a4 = WebUI.getText(findTestObject('Выполнение бизнес-плана/Список ДЗО'))
 
         a5 = WebUI.getText(findTestObject('Выполнение бизнес-плана/svg1'))
 

@@ -39,6 +39,8 @@ String vidget
 
 	String tabR
 	String tabB
+	String o1R
+	String o1B
 
 	String PercPlanR
 	String PercPlanB
@@ -138,9 +140,9 @@ String vidget
 		
 			def GetDZOData = new GetDZOData()
 		
-			fR = GetDZOData.GetAllData(path, dZONum, y = 'Россети ФСК ЕЭС/')
+			fR = GetDZOData.GetAllData(path, dZONum, VseDZO, y = 'Россети ФСК ЕЭС/')
 		} else {
-			fR = (fR + 'нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных')
+			fR = (fR + 'нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных')
 		}
 		
 		println('fR: ' + fR)
@@ -152,9 +154,9 @@ String vidget
 	
 			def GetDZOData = new GetDZOData()
 	
-			tyR = GetDZOData.GetAllData(path, dZONum, y = 'АО "Тываэнерго"/')
+			tyR = GetDZOData.GetAllData(path, dZONum, VseDZO, y = 'АО "Тываэнерго"/')
 		} else {
-			tyR = (tyR + 'нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных')
+			tyR = (tyR + 'нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных')
 		}
 		
 		println('tyR: ' + tyR)
@@ -166,9 +168,9 @@ String vidget
 	
 			def GetDZOData = new GetDZOData()
 	
-			chR = GetDZOData.GetAllData(path, dZONum, y = 'АО "Чеченэнерго"/')
+			chR = GetDZOData.GetAllData(path, dZONum, VseDZO, y = 'АО "Чеченэнерго"/')
 		} else {
-			chR = (chR + 'нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных')
+			chR = (chR + 'нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных')
 		}
 		
 		println('chR: ' + chR)
@@ -180,9 +182,9 @@ String vidget
 	
 			def GetDZOData = new GetDZOData()
 	
-			vR = GetDZOData.GetAllData(path, dZONum, y = 'Россети Волга/')
+			vR = GetDZOData.GetAllData(path, dZONum, VseDZO, y = 'Россети Волга/')
 		} else {
-			vR = (vR + 'нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных')
+			vR = (vR + 'нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных')
 		}
 		
 		println('vR: ' + vR)
@@ -194,9 +196,9 @@ String vidget
 	
 			def GetDZOData = new GetDZOData()
 	
-			kR = GetDZOData.GetAllData(path, dZONum, y = 'Россети Кубань/')
+			kR = GetDZOData.GetAllData(path, dZONum, VseDZO, y = 'Россети Кубань/')
 		} else {
-			kR = (kR + 'нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных')
+			kR = (kR + 'нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных')
 		}
 		
 		println('kR: ' + kR)
@@ -208,9 +210,9 @@ String vidget
 	
 			def GetDZOData = new GetDZOData()
 	
-			lR = GetDZOData.GetAllData(path, dZONum, y = 'Россети Ленэнерго (ГК)/')
+			lR = GetDZOData.GetAllData(path, dZONum, VseDZO, y = 'Россети Ленэнерго (ГК)/')
 		} else {
-			lR = (lR + 'нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных')
+			lR = (lR + 'нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных')
 		}
 		
 		println('lR: ' + lR)
@@ -222,9 +224,9 @@ String vidget
 	
 			def GetDZOData = new GetDZOData()
 	
-			mR = GetDZOData.GetAllData(path, dZONum, y = 'Россети Московский регион/')
+			mR = GetDZOData.GetAllData(path, dZONum, VseDZO, y = 'Россети Московский регион/')
 		} else {
-			mR = (mR + 'нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных')
+			mR = (mR + 'нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных')
 		}
 		
 		println('mR: ' + mR)
@@ -236,9 +238,9 @@ String vidget
 	
 			def GetDZOData = new GetDZOData()
 	
-			sKR = GetDZOData.GetAllData(path, dZONum, y = 'Россети Северный Кавказ (ГК)/')
+			sKR = GetDZOData.GetAllData(path, dZONum, VseDZO, y = 'Россети Северный Кавказ (ГК)/')
 		} else {
-			sKR = (sKR + 'нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных')
+			sKR = (sKR + 'нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных')
 		}
 		
 		println('sKR: ' + sKR)
@@ -250,9 +252,9 @@ String vidget
 	
 			def GetDZOData = new GetDZOData()
 	
-			sZR = GetDZOData.GetAllData(path, dZONum, y = 'Россети Северо-Запад/')
+			sZR = GetDZOData.GetAllData(path, dZONum, VseDZO, y = 'Россети Северо-Запад/')
 		} else {
-			sZR = (sZR + 'нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных')
+			sZR = (sZR + 'нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных')
 		}
 		
 		println('sZR: ' + sZR)
@@ -264,9 +266,9 @@ String vidget
 	
 			def GetDZOData = new GetDZOData()
 	
-			siR = GetDZOData.GetAllData(path, dZONum, y = 'Россети Сибирь (ГК)/')
+			siR = GetDZOData.GetAllData(path, dZONum, VseDZO, y = 'Россети Сибирь (ГК)/')
 		} else {
-			siR = (siR + 'нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных')
+			siR = (siR + 'нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных')
 		}
 		
 		println('siR: ' + siR)
@@ -278,9 +280,9 @@ String vidget
 	
 			def GetDZOData = new GetDZOData()
 	
-			tomR = GetDZOData.GetAllData(path, dZONum, y = 'Россети Томск/')
+			tomR = GetDZOData.GetAllData(path, dZONum, VseDZO, y = 'Россети Томск/')
 		} else {
-			tomR = (tomR + 'нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных')
+			tomR = (tomR + 'нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных')
 		}
 		
 		println('tomR: ' + tomR)
@@ -292,9 +294,9 @@ String vidget
 	
 			def GetDZOData = new GetDZOData()
 	
-			tyumR = GetDZOData.GetAllData(path, dZONum, y = 'Россети Тюмень/')
+			tyumR = GetDZOData.GetAllData(path, dZONum, VseDZO, y = 'Россети Тюмень/')
 		} else {
-			tyumR = (tyumR + 'нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных')
+			tyumR = (tyumR + 'нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных')
 		}
 		
 		println('tyumR: ' + tyumR)
@@ -306,9 +308,9 @@ String vidget
 	
 			def GetDZOData = new GetDZOData()
 	
-			urR = GetDZOData.GetAllData(path, dZONum, y = 'Россети Урал (ГК)/')
+			urR = GetDZOData.GetAllData(path, dZONum, VseDZO, y = 'Россети Урал (ГК)/')
 		} else {
-			urR = (urR + 'нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных')
+			urR = (urR + 'нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных')
 		}
 		
 		println('urR: ' + urR)
@@ -320,9 +322,9 @@ String vidget
 	
 			def GetDZOData = new GetDZOData()
 	
-			cenR = GetDZOData.GetAllData(path, dZONum, y = 'Россети Центр (ГК)/')
+			cenR = GetDZOData.GetAllData(path, dZONum, VseDZO, y = 'Россети Центр (ГК)/')
 		} else {
-			cenR = (cenR + 'нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных')
+			cenR = (cenR + 'нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных')
 		}
 		
 		println('cenR: ' + cenR)
@@ -334,9 +336,9 @@ String vidget
 	
 			def GetDZOData = new GetDZOData()
 	
-			cIPR = GetDZOData.GetAllData(path, dZONum, y = 'Россети Центр и Приволжье (ГК)/')
+			cIPR = GetDZOData.GetAllData(path, dZONum, VseDZO, y = 'Россети Центр и Приволжье (ГК)/')
 		} else {
-			cIPR = (cIPR + 'нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных')
+			cIPR = (cIPR + 'нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных')
 		}
 		
 		println('cIPR: ' + cIPR)
@@ -348,9 +350,9 @@ String vidget
 	
 			def GetDZOData = new GetDZOData()
 	
-			ugR = GetDZOData.GetAllData(path, dZONum, y = 'Россети Юг (ГК)/')
+			ugR = GetDZOData.GetAllData(path, dZONum, VseDZO, y = 'Россети Юг (ГК)/')
 		} else {
-			ugR = (ugR + 'нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных')
+			ugR = (ugR + 'нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных')
 		}
 		
 		println('ugR: ' + ugR)
@@ -362,9 +364,9 @@ String vidget
 	
 			def GetDZOData = new GetDZOData()
 	
-			yR = GetDZOData.GetAllData(path, dZONum, y = 'Россети Янтарь/')
+			yR = GetDZOData.GetAllData(path, dZONum, VseDZO, y = 'Россети Янтарь/')
 		} else {
-			yR = (yR + 'нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных')
+			yR = (yR + 'нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных')
 		}
 		
 		println('yR: ' + yR)
@@ -387,9 +389,9 @@ String vidget
 	
 	        def GetDZOData = new GetDZOData()
 	
-	        fB = GetDZOData.GetAllData(path, dZONum, y = 'Россети ФСК ЕЭС/')
+	        fB = GetDZOData.GetAllData(path, dZONum, VseDZO, y = 'Россети ФСК ЕЭС/')
 	    } else {
-	        fB = (fB + 'нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных')
+	        fB = (fB + 'нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных')
 	    }
 	    
 	    println('fB: ' + fB)
@@ -401,9 +403,9 @@ String vidget
 	
 	        def GetDZOData = new GetDZOData()
 	
-	        tyB = GetDZOData.GetAllData(path, dZONum, y = 'АО "Тываэнерго"/')
+	        tyB = GetDZOData.GetAllData(path, dZONum, VseDZO, y = 'АО "Тываэнерго"/')
 	    } else {
-	        tyB = (tyB + 'нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных')
+	        tyB = (tyB + 'нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных')
 	    }
 	    
 	    println('tyB: ' + tyB)
@@ -415,9 +417,9 @@ String vidget
 	
 	        def GetDZOData = new GetDZOData()
 	
-	        chB = GetDZOData.GetAllData(path, dZONum, y = 'АО "Чеченэнерго"/')
+	        chB = GetDZOData.GetAllData(path, dZONum, VseDZO, y = 'АО "Чеченэнерго"/')
 	    } else {
-	        chB = (chB + 'нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных')
+	        chB = (chB + 'нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных')
 	    }
 	    
 	    println('chB: ' + chB)
@@ -429,9 +431,9 @@ String vidget
 	
 	        def GetDZOData = new GetDZOData()
 	
-	        vB = GetDZOData.GetAllData(path, dZONum, y = 'Россети Волга/')
+	        vB = GetDZOData.GetAllData(path, dZONum, VseDZO, y = 'Россети Волга/')
 	    } else {
-	        vB = (vB + 'нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных')
+	        vB = (vB + 'нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных')
 	    }
 	    
 	    println('vB: ' + vB)
@@ -443,9 +445,9 @@ String vidget
 	
 	        def GetDZOData = new GetDZOData()
 	
-	        kB = GetDZOData.GetAllData(path, dZONum, y = 'Россети Кубань/')
+	        kB = GetDZOData.GetAllData(path, dZONum, VseDZO, y = 'Россети Кубань/')
 	    } else {
-	        kB = (kB + 'нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных')
+	        kB = (kB + 'нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных')
 	    }
 	    
 	    println('kB: ' + kB)
@@ -457,9 +459,9 @@ String vidget
 	
 	        def GetDZOData = new GetDZOData()
 	
-	        lB = GetDZOData.GetAllData(path, dZONum, y = 'Россети Ленэнерго (ГК)/')
+	        lB = GetDZOData.GetAllData(path, dZONum, VseDZO, y = 'Россети Ленэнерго (ГК)/')
 	    } else {
-	        lB = (lB + 'нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных')
+	        lB = (lB + 'нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных')
 	    }
 	    
 	    println('lB: ' + lB)
@@ -471,9 +473,9 @@ String vidget
 	
 	        def GetDZOData = new GetDZOData()
 	
-	        mB = GetDZOData.GetAllData(path, dZONum, y = 'Россети Московский регион/')
+	        mB = GetDZOData.GetAllData(path, dZONum, VseDZO, y = 'Россети Московский регион/')
 	    } else {
-	        mB = (mB + 'нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных')
+	        mB = (mB + 'нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных')
 	    }
 	    
 	    println('mB: ' + mB)
@@ -485,9 +487,9 @@ String vidget
 	
 	        def GetDZOData = new GetDZOData()
 	
-	        sKB = GetDZOData.GetAllData(path, dZONum, y = 'Россети Северный Кавказ (ГК)/')
+	        sKB = GetDZOData.GetAllData(path, dZONum, VseDZO, y = 'Россети Северный Кавказ (ГК)/')
 	    } else {
-	        sKB = (sKB + 'нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных')
+	        sKB = (sKB + 'нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных')
 	    }
 	    
 	    println('sKB: ' + sKB)
@@ -499,9 +501,9 @@ String vidget
 	
 	        def GetDZOData = new GetDZOData()
 	
-	        sZB = GetDZOData.GetAllData(path, dZONum, y = 'Россети Северо-Запад/')
+	        sZB = GetDZOData.GetAllData(path, dZONum, VseDZO, y = 'Россети Северо-Запад/')
 	    } else {
-	        sZB = (sZB + 'нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных')
+	        sZB = (sZB + 'нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных')
 	    }
 	    
 	    println('sZB: ' + sZB)
@@ -513,9 +515,9 @@ String vidget
 	
 	        def GetDZOData = new GetDZOData()
 	
-	        siB = GetDZOData.GetAllData(path, dZONum, y = 'Россети Сибирь (ГК)/')
+	        siB = GetDZOData.GetAllData(path, dZONum, VseDZO, y = 'Россети Сибирь (ГК)/')
 	    } else {
-	        siB = (siB + 'нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных')
+	        siB = (siB + 'нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных')
 	    }
 	    
 	    println('siB: ' + siB)
@@ -527,9 +529,9 @@ String vidget
 	
 	        def GetDZOData = new GetDZOData()
 	
-	        tomB = GetDZOData.GetAllData(path, dZONum, y = 'Россети Томск/')
+	        tomB = GetDZOData.GetAllData(path, dZONum, VseDZO, y = 'Россети Томск/')
 	    } else {
-	        tomB = (tomB + 'нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных')
+	        tomB = (tomB + 'нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных')
 	    }
 	    
 	    println('tomB: ' + tomB)
@@ -541,9 +543,9 @@ String vidget
 	
 	        def GetDZOData = new GetDZOData()
 	
-	        tyumB = GetDZOData.GetAllData(path, dZONum, y = 'Россети Тюмень/')
+	        tyumB = GetDZOData.GetAllData(path, dZONum, VseDZO, y = 'Россети Тюмень/')
 	    } else {
-	        tyumB = (tyumB + 'нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных')
+	        tyumB = (tyumB + 'нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных')
 	    }
 	    
 	    println('tyumB: ' + tyumB)
@@ -555,9 +557,9 @@ String vidget
 	
 	        def GetDZOData = new GetDZOData()
 	
-	        urB = GetDZOData.GetAllData(path, dZONum, y = 'Россети Урал (ГК)/')
+	        urB = GetDZOData.GetAllData(path, dZONum, VseDZO, y = 'Россети Урал (ГК)/')
 	    } else {
-	        urB = (urB + 'нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных')
+	        urB = (urB + 'нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных')
 	    }
 	    
 	    println('urB: ' + urB)
@@ -569,9 +571,9 @@ String vidget
 	
 	        def GetDZOData = new GetDZOData()
 	
-	        cenB = GetDZOData.GetAllData(path, dZONum, y = 'Россети Центр (ГК)/')
+	        cenB = GetDZOData.GetAllData(path, dZONum, VseDZO, y = 'Россети Центр (ГК)/')
 	    } else {
-	        cenB = (cenB + 'нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных')
+	        cenB = (cenB + 'нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных')
 	    }
 	    
 	    println('cenB: ' + cenB)
@@ -583,9 +585,9 @@ String vidget
 	
 	        def GetDZOData = new GetDZOData()
 	
-	        cIPB = GetDZOData.GetAllData(path, dZONum, y = 'Россети Центр и Приволжье (ГК)/')
+	        cIPB = GetDZOData.GetAllData(path, dZONum, VseDZO, y = 'Россети Центр и Приволжье (ГК)/')
 	    } else {
-	        cIPB = (cIPB + 'нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных')
+	        cIPB = (cIPB + 'нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных')
 	    }
 	    
 	    println('cIPB: ' + cIPB)
@@ -597,9 +599,9 @@ String vidget
 	
 	        def GetDZOData = new GetDZOData()
 	
-	        ugB = GetDZOData.GetAllData(path, dZONum, y = 'Россети Юг (ГК)/')
+	        ugB = GetDZOData.GetAllData(path, dZONum, VseDZO, y = 'Россети Юг (ГК)/')
 	    } else {
-	        ugB = (ugB + 'нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных')
+	        ugB = (ugB + 'нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных')
 	    }
 	    
 	    println('ugB: ' + ugB)
@@ -611,9 +613,9 @@ String vidget
 	
 	        def GetDZOData = new GetDZOData()
 	
-	        yB = GetDZOData.GetAllData(path, dZONum, y = 'Россети Янтарь/')
+	        yB = GetDZOData.GetAllData(path, dZONum, VseDZO, y = 'Россети Янтарь/')
 	    } else {
-	        yB = (yB + 'нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных')
+	        yB = (yB + 'нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных')
 	    }
 	    
 	    println('yB: ' + yB)
@@ -626,87 +628,87 @@ String vidget
 			
 		if(WebUI.verifyEqual(fR, fB)==false) {
 			def Compare = new Compare()
-			def result = Compare.CompareDZOData(a=fR, b=fB, dZO, typeOfData, PercPlanR, PercPlanB, PercFactR, PercFactB, todaysDate, vidget, tabR, tabB)
+			def result = Compare.CompareDZOData(a=fR, b=fB, dZO, typeOfData, PercPlanR, PercPlanB, PercFactR, PercFactB, todaysDate, vidget, tabR, tabB, o1R, o1B)
 		}
 		
 		if(WebUI.verifyEqual(tyR, tyB)==false) {
 			def Compare = new Compare()
-			def result = Compare.CompareDZOData(a=tyR, b=tyB, dZO, typeOfData, PercPlanR, PercPlanB, PercFactR, PercFactB, todaysDate, vidget, tabR, tabB)
+			def result = Compare.CompareDZOData(a=tyR, b=tyB, dZO, typeOfData, PercPlanR, PercPlanB, PercFactR, PercFactB, todaysDate, vidget, tabR, tabB, o1R, o1B)
 		}
 		
 		if(WebUI.verifyEqual(chR, chB)==false) {
 			def Compare = new Compare()
-			def result = Compare.CompareDZOData(a=chR, b=chB, dZO, typeOfData, PercPlanR, PercPlanB, PercFactR, PercFactB, todaysDate, vidget, tabR, tabB)
+			def result = Compare.CompareDZOData(a=chR, b=chB, dZO, typeOfData, PercPlanR, PercPlanB, PercFactR, PercFactB, todaysDate, vidget, tabR, tabB, o1R, o1B)
 		}
 		
 		if(WebUI.verifyEqual(vR, vB)==false) {
 			def Compare = new Compare()
-			def result = Compare.CompareDZOData(a=vR, b=vB, dZO, typeOfData, PercPlanR, PercPlanB, PercFactR, PercFactB, todaysDate, vidget, tabR, tabB)
+			def result = Compare.CompareDZOData(a=vR, b=vB, dZO, typeOfData, PercPlanR, PercPlanB, PercFactR, PercFactB, todaysDate, vidget, tabR, tabB, o1R, o1B)
 		}
 		
 		if(WebUI.verifyEqual(kR, kB)==false) {
 			def Compare = new Compare()
-			def result = Compare.CompareDZOData(a=kR, b=kB, dZO, typeOfData, PercPlanR, PercPlanB, PercFactR, PercFactB, todaysDate, vidget, tabR, tabB)
+			def result = Compare.CompareDZOData(a=kR, b=kB, dZO, typeOfData, PercPlanR, PercPlanB, PercFactR, PercFactB, todaysDate, vidget, tabR, tabB, o1R, o1B)
 		}
 		
 		if(WebUI.verifyEqual(lR, lB)==false) {
 			def Compare = new Compare()
-			def result = Compare.CompareDZOData(a=lR, b=lB, dZO, typeOfData, PercPlanR, PercPlanB, PercFactR, PercFactB, todaysDate, vidget, tabR, tabB)
+			def result = Compare.CompareDZOData(a=lR, b=lB, dZO, typeOfData, PercPlanR, PercPlanB, PercFactR, PercFactB, todaysDate, vidget, tabR, tabB, o1R, o1B)
 		}
 		
 		if(WebUI.verifyEqual(mR, mB)==false) {
 			def Compare = new Compare()
-			def result = Compare.CompareDZOData(a=mR, b=mB, dZO, typeOfData, PercPlanR, PercPlanB, PercFactR, PercFactB, todaysDate, vidget, tabR, tabB)
+			def result = Compare.CompareDZOData(a=mR, b=mB, dZO, typeOfData, PercPlanR, PercPlanB, PercFactR, PercFactB, todaysDate, vidget, tabR, tabB, o1R, o1B)
 		}
 		
 		if(WebUI.verifyEqual(sKR, sKB)==false) {
 			def Compare = new Compare()
-			def result = Compare.CompareDZOData(a=sKR, b=sKB, dZO, typeOfData, PercPlanR, PercPlanB, PercFactR, PercFactB, todaysDate, vidget, tabR, tabB)
+			def result = Compare.CompareDZOData(a=sKR, b=sKB, dZO, typeOfData, PercPlanR, PercPlanB, PercFactR, PercFactB, todaysDate, vidget, tabR, tabB, o1R, o1B)
 		}
 		
 		if(WebUI.verifyEqual(sZR, sZB)==false) {
 			def Compare = new Compare()
-			def result = Compare.CompareDZOData(a=sZR, b=sZB, dZO, typeOfData, PercPlanR, PercPlanB, PercFactR, PercFactB, todaysDate, vidget, tabR, tabB)
+			def result = Compare.CompareDZOData(a=sZR, b=sZB, dZO, typeOfData, PercPlanR, PercPlanB, PercFactR, PercFactB, todaysDate, vidget, tabR, tabB, o1R, o1B)
 		}
 		
 		if(WebUI.verifyEqual(siR, siB)==false) {
 			def Compare = new Compare()
-			def result = Compare.CompareDZOData(a=siR, b=siB, dZO, typeOfData, PercPlanR, PercPlanB, PercFactR, PercFactB, todaysDate, vidget, tabR, tabB)
+			def result = Compare.CompareDZOData(a=siR, b=siB, dZO, typeOfData, PercPlanR, PercPlanB, PercFactR, PercFactB, todaysDate, vidget, tabR, tabB, o1R, o1B)
 		}
 		
 		if(WebUI.verifyEqual(tomR, tomB)==false) {
 			def Compare = new Compare()
-			def result = Compare.CompareDZOData(a=tomR, b=tomB, dZO, typeOfData, PercPlanR, PercPlanB, PercFactR, PercFactB, todaysDate, vidget, tabR, tabB)
+			def result = Compare.CompareDZOData(a=tomR, b=tomB, dZO, typeOfData, PercPlanR, PercPlanB, PercFactR, PercFactB, todaysDate, vidget, tabR, tabB, o1R, o1B)
 		}
 		
 		if(WebUI.verifyEqual(tyumR, tyumB)==false) {
 			def Compare = new Compare()
-			def result = Compare.CompareDZOData(a=tyumR, b=tyumB, dZO, typeOfData, PercPlanR, PercPlanB, PercFactR, PercFactB, todaysDate, vidget, tabR, tabB)
+			def result = Compare.CompareDZOData(a=tyumR, b=tyumB, dZO, typeOfData, PercPlanR, PercPlanB, PercFactR, PercFactB, todaysDate, vidget, tabR, tabB, o1R, o1B)
 		}
 		
 		if(WebUI.verifyEqual(urR, urB)==false) {
 			def Compare = new Compare()
-			def result = Compare.CompareDZOData(a=urR, b=urB, dZO, typeOfData, PercPlanR, PercPlanB, PercFactR, PercFactB, todaysDate, vidget, tabR, tabB)
+			def result = Compare.CompareDZOData(a=urR, b=urB, dZO, typeOfData, PercPlanR, PercPlanB, PercFactR, PercFactB, todaysDate, vidget, tabR, tabB, o1R, o1B)
 		}
 		
 		if(WebUI.verifyEqual(cenR, cenB)==false) {
 			def Compare = new Compare()
-			def result = Compare.CompareDZOData(a=cenR, b=cenB, dZO, typeOfData, PercPlanR, PercPlanB, PercFactR, PercFactB, todaysDate, vidget, tabR, tabB)
+			def result = Compare.CompareDZOData(a=cenR, b=cenB, dZO, typeOfData, PercPlanR, PercPlanB, PercFactR, PercFactB, todaysDate, vidget, tabR, tabB, o1R, o1B)
 		}
 		
 		if(WebUI.verifyEqual(cIPR, cIPB)==false) {
 			def Compare = new Compare()
-			def result = Compare.CompareDZOData(a=cIPR, b=cIPB, dZO, typeOfData, PercPlanR, PercPlanB, PercFactR, PercFactB, todaysDate, vidget, tabR, tabB)
+			def result = Compare.CompareDZOData(a=cIPR, b=cIPB, dZO, typeOfData, PercPlanR, PercPlanB, PercFactR, PercFactB, todaysDate, vidget, tabR, tabB, o1R, o1B)
 		}
 		
 		if(WebUI.verifyEqual(ugR, ugB)==false) {
 			def Compare = new Compare()
-			def result = Compare.CompareDZOData(a=ugR, b=ugB, dZO, typeOfData, PercPlanR, PercPlanB, PercFactR, PercFactB, todaysDate, vidget, tabR, tabB)
+			def result = Compare.CompareDZOData(a=ugR, b=ugB, dZO, typeOfData, PercPlanR, PercPlanB, PercFactR, PercFactB, todaysDate, vidget, tabR, tabB, o1R, o1B)
 		}
 		
 		if(WebUI.verifyEqual(yR, yB)==false) {
 			def Compare = new Compare()
-			def result = Compare.CompareDZOData(a=yR, b=yB, dZO, typeOfData, PercPlanR, PercPlanB, PercFactR, PercFactB, todaysDate, vidget, tabR, tabB)
+			def result = Compare.CompareDZOData(a=yR, b=yB, dZO, typeOfData, PercPlanR, PercPlanB, PercFactR, PercFactB, todaysDate, vidget, tabR, tabB, o1R, o1B)
 		}
     }
 
@@ -809,8 +811,9 @@ static def Presettings(def blockNum, def path) {
 
 class GetDZOData{
 	String path2 = 'Значения со страницы Выполнение бизнес-плана/Table Data/'
-	def GetAllData(def path, def dZONum, def y) {
+	def GetAllData(def path, def dZONum, def VseDZO, def y) {
 		int ii
+		int ii1
 	
 		y = y + WebUI.getText(findTestObject(path + ('spanPlan'+dZONum)))
 	
@@ -841,6 +844,27 @@ class GetDZOData{
 		y = y + '/' + WebUI.getText(findTestObject(path + (path2 +('План Отпуск из сети за отчётный период '+dZONum))))
 		
 		y = y + '/' + WebUI.getText(findTestObject(path + (path2 +('План Потери за отчётный период '+dZONum))))
+		
+		println('dZONum: ' + dZONum)
+		
+		VseDZO = VseDZO.replaceAll('[\\r?\n|\r]','|')
+		
+		println('VseDZO: ' + VseDZO)
+		for(ii1=1;ii1<dZONum;ii1++) {
+			ii = VseDZO.indexOf('|')+1
+			if (ii>-1) {
+				VseDZO = VseDZO.substring(ii,VseDZO.length())
+			}
+		}
+		ii = VseDZO.indexOf('|')
+		if (ii>-1) {
+			VseDZO = VseDZO.substring(0,ii)
+		}
+		
+		y = y + '/' +   VseDZO
+		
+		println(y)
+		
 		println(y)
 	
 		return y
@@ -848,16 +872,11 @@ class GetDZOData{
 
 }
 
-
-def Compare = new Compare()
-def result = Compare.CompareDZOData(a, b, dZO, typeOfData, PercPlanR, PercPlanB, PercFactR, PercFactB, todaysDate, vidget, tabOvSR, tabOvSB)
-
-
 class Compare{
 	
 		String x
 		String z
-		def CompareDZOData(a, b, dZO, typeOfData, PercPlanR, PercPlanB, PercFactR, PercFactB, todaysDate, vidget, tabR, tabB) {
+		def CompareDZOData(a, b, dZO, typeOfData, PercPlanR, PercPlanB, PercFactR, PercFactB, todaysDate, vidget, tabR, tabB, o1R, o1B) {
 			if(WebUI.verifyEqual(a, b)==false) {
 				def DZOData = new DZOData()
 				dZO = DZOData.GetDZO(x = a)
@@ -870,7 +889,7 @@ class Compare{
 				PercPlanB = DZOData.GetPercPlan(x = b)
 				if(WebUI.verifyEqual(PercPlanR, PercPlanB)==false) {
 					def Write = new Write()
-					def result = Write.WriteToExcel(typeOfData, todaysDate, PercPlanR, PercPlanB, PercFactR, PercFactB, dZO, vidget, tabR, tabB)
+					def result = Write.WriteToExcel(typeOfData, todaysDate, PercPlanR, PercPlanB, PercFactR, PercFactB, dZO, vidget, tabR, tabB, o1R, o1B)
 				}
 				
 				vidget = 'Уровень потерь электроэнергии'
@@ -879,7 +898,7 @@ class Compare{
 				PercFactB = DZOData.GetPercFact(x = b)
 				if(WebUI.verifyEqual(PercFactR, PercFactB)==false) {
 					def Write = new Write()
-					def result = Write.WriteToExcel(typeOfData, todaysDate, PercPlanR, PercPlanB, PercFactR, PercFactB, dZO, vidget, tabR, tabB)
+					def result = Write.WriteToExcel(typeOfData, todaysDate, PercPlanR, PercPlanB, PercFactR, PercFactB, dZO, vidget, tabR, tabB, o1R, o1B)
 				}
 			
 				vidget = 'Показатели баланса электроэнергии по ДЗО – Факт'
@@ -888,7 +907,7 @@ class Compare{
 				tabB = DZOData.GetOvSFact(x = b)
 				if(WebUI.verifyEqual(tabR, tabB)==false) {
 					def Write = new Write()
-					def result = Write.WriteToExcel(typeOfData, todaysDate, PercPlanR, PercPlanB, PercFactR, PercFactB, dZO, vidget, tabR, tabB)
+					def result = Write.WriteToExcel(typeOfData, todaysDate, PercPlanR, PercPlanB, PercFactR, PercFactB, dZO, vidget, tabR, tabB, o1R, o1B)
 				}
 				vidget = 'Показатели баланса электроэнергии по ДЗО – Факт'
 				typeOfData = 'Факт Отпуск из сети'
@@ -896,7 +915,7 @@ class Compare{
 				tabB = DZOData.GetOiSFact(x = b)
 				if(WebUI.verifyEqual(tabR, tabB)==false) {
 					def Write = new Write()
-					def result = Write.WriteToExcel(typeOfData, todaysDate, PercPlanR, PercPlanB, PercFactR, PercFactB, dZO, vidget, tabR, tabB)
+					def result = Write.WriteToExcel(typeOfData, todaysDate, PercPlanR, PercPlanB, PercFactR, PercFactB, dZO, vidget, tabR, tabB, o1R, o1B)
 				}
 				vidget = 'Показатели баланса электроэнергии по ДЗО – Факт'
 				typeOfData = 'Факт Потери'
@@ -904,7 +923,7 @@ class Compare{
 				tabB = DZOData.GetPFact(x = b)
 				if(WebUI.verifyEqual(tabR, tabB)==false) {
 					def Write = new Write()
-					def result = Write.WriteToExcel(typeOfData, todaysDate, PercPlanR, PercPlanB, PercFactR, PercFactB, dZO, vidget, tabR, tabB)
+					def result = Write.WriteToExcel(typeOfData, todaysDate, PercPlanR, PercPlanB, PercFactR, PercFactB, dZO, vidget, tabR, tabB, o1R, o1B)
 				}
 				
 				vidget = 'Показатели баланса электроэнергии по ДЗО – План'
@@ -915,7 +934,7 @@ class Compare{
 				println('tabB:' + tabB)
 				if(WebUI.verifyEqual(tabR, tabB)==false) {
 					def Write = new Write()
-					def result = Write.WriteToExcel(typeOfData, todaysDate, PercPlanR, PercPlanB, PercFactR, PercFactB, dZO, vidget, tabR, tabB)
+					def result = Write.WriteToExcel(typeOfData, todaysDate, PercPlanR, PercPlanB, PercFactR, PercFactB, dZO, vidget, tabR, tabB, o1R, o1B)
 				}
 				vidget = 'Показатели баланса электроэнергии по ДЗО – План'
 				typeOfData = 'План Отпуск из сети'
@@ -923,7 +942,7 @@ class Compare{
 				tabB = DZOData.GetOiSPlan(x = b)
 				if(WebUI.verifyEqual(tabR, tabB)==false) {
 					def Write = new Write()
-					def result = Write.WriteToExcel(typeOfData, todaysDate, PercPlanR, PercPlanB, PercFactR, PercFactB, dZO, vidget, tabR, tabB)
+					def result = Write.WriteToExcel(typeOfData, todaysDate, PercPlanR, PercPlanB, PercFactR, PercFactB, dZO, vidget, tabR, tabB, o1R, o1B)
 				}
 				vidget = 'Показатели баланса электроэнергии по ДЗО – План'
 				typeOfData = 'План Потери'
@@ -931,7 +950,15 @@ class Compare{
 				tabB = DZOData.GetPPlan(x = b)
 				if(WebUI.verifyEqual(tabR, tabB)==false) {
 					def Write = new Write()
-					def result = Write.WriteToExcel(typeOfData, todaysDate, PercPlanR, PercPlanB, PercFactR, PercFactB, dZO, vidget, tabR, tabB)
+					def result = Write.WriteToExcel(typeOfData, todaysDate, PercPlanR, PercPlanB, PercFactR, PercFactB, dZO, vidget, tabR, tabB, o1R, o1B)
+				}
+				vidget = 'Отклонения фактического уровня потерь от бизнес-плана'
+				typeOfData = 'Коэффициент'
+				o1R = DZOData.GetOt1(x = a)
+				o1B = DZOData.GetOt1(x = b)
+				if(WebUI.verifyEqual(tabR, tabB)==false) {
+					def Write = new Write()
+					def result = Write.WriteToExcel(typeOfData, todaysDate, PercPlanR, PercPlanB, PercFactR, PercFactB, dZO, vidget, tabR, tabB, o1R, o1B)
 				}
 			}
 		}
@@ -1042,10 +1069,23 @@ class DZOData{
 	
 	}
 	def GetPPlan(x) {
+		for(i2=1;i2<9;i2++) {
+			i1 = x.indexOf('/')+1
+			if(i1>-1) {
+				x=x.substring(i1,x.length())
+			}
+		}
+		i1 = x.indexOf('/')
+		if(i1>-1) {
+			x=x.substring(0, i1)
+		}
+	}
+	def GetOt1(x) {
 		i1 = x.lastIndexOf('/')+1
 		if(i1>-1) {
 			x=x.substring(i1,x.length())
 		}
+		
 	}
 	
 }
@@ -1055,13 +1095,15 @@ WebUI.closeBrowser()
 
 class Write{
 	
-def WriteToExcel(def typeOfData, def todaysDate, def PercPlanR, def PercPlanB, def PercFactR, def PercFactB, def dZO, def vidget, def tabR, def tabB) {
+def WriteToExcel(def typeOfData, def todaysDate, def PercPlanR, def PercPlanB, def PercFactR, def PercFactB, def dZO, def vidget, def tabR, def tabB, def o1R, def o1B) {
 		println(PercPlanR)
 		println(PercPlanB)
 		println(PercFactR)
 		println(PercFactB)
 		println('tabR:' + tabR)
 		println('tabB:' + tabB)
+		println('o1R:' + o1R)
+		println('o1B:' + o1B)
 		
 		Double PR
 		Double PB
@@ -1132,7 +1174,7 @@ def WriteToExcel(def typeOfData, def todaysDate, def PercPlanR, def PercPlanB, d
 				ExcelKeywords.setValueToCellByIndex(sheet01, n, 5, FB)
 			}
 
-		} else {
+		} else if(vidget.contains('Показатели')){
 			if(tabR.contains('данных')) {
 				ExcelKeywords.setValueToCellByIndex(sheet01, n, 4, 'нет данных')
 			}else {
@@ -1150,8 +1192,22 @@ def WriteToExcel(def typeOfData, def todaysDate, def PercPlanR, def PercPlanB, d
 				
 				ExcelKeywords.setValueToCellByIndex(sheet01, n, 5, TB)
 			}
+		} else if(vidget.contains('Отклонения')){
+			if(o1R.contains('нет данных')) {
+				ExcelKeywords.setValueToCellByIndex(sheet01, n, 4, 'нет данных')
+			}else {
+				PR = o1R.toDouble()
+				ExcelKeywords.setValueToCellByIndex(sheet01, n, 4, PR)
+			}
+			
+			if(o1B.contains('нет данных')) {
+				ExcelKeywords.setValueToCellByIndex(sheet01, n, 5, 'нет данных')
+			}else {
+				PB = o1B.toDouble()
+				ExcelKeywords.setValueToCellByIndex(sheet01, n, 5, PB)
+			}
 		}
-
+		
 		
 		ExcelKeywords.setValueToCellByIndex(sheet01, n, 6, m)
 	
