@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>AllText Выручка</name>
+   <tag></tag>
+   <elementGuidId>eb9b4197-baa0-40e4-b9fb-799378a8faa8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#highcharts-gqax7w1-33 > svg.highcharts-root</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='- копия'])[1]/following::*[name()='svg'][1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>svg</value>
+      <webElementGuid>7721754a-d751-495d-ac41-e7e44b9a85cb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>version</name>
+      <type>Main</type>
+      <value>1.1</value>
+      <webElementGuid>380d78e9-ae8b-44c9-8c5c-960c6958952d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>highcharts-root</value>
+      <webElementGuid>b1a2dc5c-1b60-4cf8-9eaf-cfe603ab39e4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xmlns</name>
+      <type>Main</type>
+      <value>http://www.w3.org/2000/svg</value>
+      <webElementGuid>450a4b69-6093-46f6-b22c-dae319cb32eb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>width</name>
+      <type>Main</type>
+      <value>945</value>
+      <webElementGuid>d01abc0f-5e9e-44f0-bca9-b206c5909739</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>height</name>
+      <type>Main</type>
+      <value>700</value>
+      <webElementGuid>924dfdb1-6016-4d3b-b659-b578e9af46b6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>viewBox</name>
+      <type>Main</type>
+      <value>0 0 945 700</value>
+      <webElementGuid>8751b31a-6b34-48a8-a6e8-34803951ded7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Created with Highcharts 9.0.1⬤ОтклонениеАО «Тываэнерго»АО «Чеченэнерго»Россети ВолгаРоссети КубаньРоссети Ленэнерго (ГК)Россети Московский регионРоссети Северный Кавказ (ГК)Россети Северо-ЗападРоссети Сибирь (ГК)Россети ТомскРоссети ТюменьРоссети Урал (ГК)Россети ФСК ЕЭСРоссети ЦентрРоссети Центр и Приволжье (ГК)Россети Юг (ГК)Россети Янтарь-2 000 млн.руб.-1 500 млн.руб.-1 000 млн.руб.- 500 млн.руб.0 млн.руб.500 млн.руб.1 000 млн.руб.1 500 млн.руб.2 000 млн.руб.2 500 млн.руб.3 000 млн.руб.3 500 млн.руб.4 000 млн.руб.4 500 млн.руб.</value>
+      <webElementGuid>8caa1b0b-6c4b-41dd-9708-151ae7cea64a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;highcharts-gqax7w1-33&quot;)/svg[@class=&quot;highcharts-root&quot;]</value>
+      <webElementGuid>7c2182ef-fba4-4b45-a6fa-66fc6625e8a1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='- копия'])[1]/following::*[name()='svg'][1]</value>
+      <webElementGuid>3f9d931f-a38f-484a-8472-d4c3407f1283</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='В начало'])[13]/following::*[name()='svg'][1]</value>
+      <webElementGuid>77ab6321-c126-4b09-94bb-8f7dff631b6b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//svg[(text() = 'Created with Highcharts 9.0.1⬤ОтклонениеАО «Тываэнерго»АО «Чеченэнерго»Россети ВолгаРоссети КубаньРоссети Ленэнерго (ГК)Россети Московский регионРоссети Северный Кавказ (ГК)Россети Северо-ЗападРоссети Сибирь (ГК)Россети ТомскРоссети ТюменьРоссети Урал (ГК)Россети ФСК ЕЭСРоссети ЦентрРоссети Центр и Приволжье (ГК)Россети Юг (ГК)Россети Янтарь-2 000 млн.руб.-1 500 млн.руб.-1 000 млн.руб.- 500 млн.руб.0 млн.руб.500 млн.руб.1 000 млн.руб.1 500 млн.руб.2 000 млн.руб.2 500 млн.руб.3 000 млн.руб.3 500 млн.руб.4 000 млн.руб.4 500 млн.руб.' or . = 'Created with Highcharts 9.0.1⬤ОтклонениеАО «Тываэнерго»АО «Чеченэнерго»Россети ВолгаРоссети КубаньРоссети Ленэнерго (ГК)Россети Московский регионРоссети Северный Кавказ (ГК)Россети Северо-ЗападРоссети Сибирь (ГК)Россети ТомскРоссети ТюменьРоссети Урал (ГК)Россети ФСК ЕЭСРоссети ЦентрРоссети Центр и Приволжье (ГК)Россети Юг (ГК)Россети Янтарь-2 000 млн.руб.-1 500 млн.руб.-1 000 млн.руб.- 500 млн.руб.0 млн.руб.500 млн.руб.1 000 млн.руб.1 500 млн.руб.2 000 млн.руб.2 500 млн.руб.3 000 млн.руб.3 500 млн.руб.4 000 млн.руб.4 500 млн.руб.')]</value>
+      <webElementGuid>2da14d87-078c-46b7-b588-149e432e66c5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
