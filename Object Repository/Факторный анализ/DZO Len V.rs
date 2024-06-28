@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>DZO Len V</name>
+   <tag></tag>
+   <elementGuidId>cdc522fd-a12a-4c32-b3f2-89c73c467b59</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#table-395937e02b574487922e639f6b0457c8 > tbody > tr:nth-of-type(11) > td</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[48]/div[2]/div/div/table/tbody/tr[11]/td</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>a243aaa3-9d42-4ad2-a881-e5f587dda4d1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>rowspan</name>
+      <type>Main</type>
+      <value>2</value>
+      <webElementGuid>7587d238-63cb-499c-9ec8-cf48240174aa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Россети Ленэнерго (ГК)</value>
+      <webElementGuid>565d2255-cac0-41e1-9e87-3fe9b402b857</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;table-395937e02b574487922e639f6b0457c8&quot;)/tbody[1]/tr[11]/td[1]</value>
+      <webElementGuid>fa448123-a7b6-4c14-98d8-224ef0af8cdc</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='table-395937e02b574487922e639f6b0457c8']/tbody/tr[11]/td</value>
+      <webElementGuid>8ad73ad1-e939-4fe6-9aeb-6b3e7d6b1fb5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='- 122'])[2]/following::td[1]</value>
+      <webElementGuid>191994f9-e21f-45c1-a77d-187008feed46</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Кубаньэнерго'])[4]/following::td[3]</value>
+      <webElementGuid>86fdca15-b4b8-404c-acb2-55dc43612843</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ленинградская область'])[4]/preceding::td[1]</value>
+      <webElementGuid>e55ef6ed-3ae7-4122-859f-ad610e0d714b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Россети Ленэнерго (ГК)'])[5]/preceding::td[4]</value>
+      <webElementGuid>e5d7dcd8-b912-4da8-8331-d74629611024</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[48]/div[2]/div/div/table/tbody/tr[11]/td</value>
+      <webElementGuid>5102fc25-96dd-487b-9a39-a49897199c0e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = 'Россети Ленэнерго (ГК)' or . = 'Россети Ленэнерго (ГК)')]</value>
+      <webElementGuid>8f519a28-758c-4d6c-86e4-517071e46430</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

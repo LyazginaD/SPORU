@@ -50,11 +50,15 @@ for (run = 1; run < 4; run++) {
     VipolnenieBiznesPlana(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
 }
 
+
+
 WebUI.delay(20)
 
 for (run = 1; run < 4; run++) {
     ViruchkaVRublyah(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
 }
+
+
 
 WebUI.delay(20)
 
@@ -62,17 +66,23 @@ for (run = 1; run < 4; run++) {
     ObyemPoter(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
 }
 
+
+
 WebUI.delay(20)
 
 for (run = 1; run < 4; run++) {
     OtpuskIzSeti(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
 }
 
+
+
 WebUI.delay(20)
 
 for (run = 1; run < 4; run++) {
     OtpuskVSet(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
 }
+
+
 
 WebUI.delay(20)
 
@@ -88,9 +98,13 @@ for (run = 1; run < 4; run++) {
 
 WebUI.delay(20)
 
+
+
 for (run = 1; run < 4; run++) {
     FaktorniyAnaliz(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
 }
+
+
 
 WebUI.delay(20)
 
@@ -98,11 +112,15 @@ for (run = 1; run < 4; run++) {
     ViruchkaPoDZO(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
 }
 
+
+
 WebUI.delay(20)
 
 for (run = 1; run < 4; run++) {
     PrognozPoDZO(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
 }
+
+
 
 WebUI.delay(20)
 
@@ -382,6 +400,8 @@ def ViruchkaVRublyah(def user, def dashboardName, def n, def data, def run, def 
     WebUI.click(findTestObject('Выручка в рублях/2 квартал 2024 список'))
 
     WebUI.click(findTestObject('Выручка в рублях/Апрель 2024'))
+
+    WebUI.click(findTestObject('Выручка в рублях/Май 2024'))
 
     'Нажать "Применить"'
     WebUI.click(findTestObject('Выручка в рублях/Применить в фильтре Дата'))
@@ -1114,13 +1134,15 @@ def FaktorniyAnaliz(def user, def dashboardName, def n, def data, def run, def a
 
     WebUI.click(findTestObject('Факторный анализ/Февраль 2024'))
 
-    WebUI.click(findTestObject('Выручка в рублях/Март 2024'))
+    WebUI.click(findTestObject('Факторный анализ/Март 2024'))
 
     WebUI.scrollToElement(findTestObject('Факторный анализ/2 квартал 2024 список'), 30)
 
     WebUI.click(findTestObject('Факторный анализ/2 квартал 2024 список'), FailureHandling.CONTINUE_ON_FAILURE)
 
     WebUI.click(findTestObject('Факторный анализ/Апрель 2024'), FailureHandling.CONTINUE_ON_FAILURE)
+
+    WebUI.click(findTestObject('Факторный анализ/Май 2024'), FailureHandling.CONTINUE_ON_FAILURE)
 
     'Проскроллить до заголовка фильтра "Дата"'
     WebUI.scrollToElement(findTestObject('Факторный анализ/Заголовок дашборда'), 30)
@@ -1268,6 +1290,8 @@ def ViruchkaPoDZO(def user, def dashboardName, def n, def data, def run, def a1,
     WebUI.click(findTestObject('Выручка по ДЗО/2 квартал 2024 список'), FailureHandling.CONTINUE_ON_FAILURE)
 
     WebUI.click(findTestObject('Выручка по ДЗО/Апрель 2024'), FailureHandling.CONTINUE_ON_FAILURE)
+
+    WebUI.click(findTestObject('Выручка по ДЗО/Май 2024'))
 
     'Проскроллить до заголовка фильтра "Дата"'
     WebUI.scrollToElement(findTestObject('Выручка по ДЗО/Заголовок дашборда'), 30)

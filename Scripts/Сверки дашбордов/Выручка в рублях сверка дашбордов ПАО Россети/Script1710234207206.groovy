@@ -645,6 +645,8 @@ static def PreSettings(def run, def vir, def block, def nameOfBlock, def typeOfD
 
     WebUI.click(findTestObject('Выручка в рублях/Апрель 2024' + nameOfBlock))
 
+    WebUI.click(findTestObject('Выручка в рублях/Май 2024' + nameOfBlock))
+
     'Проскроллить до заголовка дашборда'
     WebUI.scrollToElement(findTestObject('Выручка в рублях/Заголовок дашборда' + nameOfBlock), 30)
 
@@ -669,23 +671,6 @@ static def PreSettings(def run, def vir, def block, def nameOfBlock, def typeOfD
     'Открыть фильтр "ДЗО"'
     WebUI.click(findTestObject('Выручка в рублях/Фильтр ДЗО' + nameOfBlock))
 }
-
-
-class Calculation{
-	int ii
-	def Calc(x) {
-
-		ii = x.indexOf('%')
-		if(ii>-1) {
-			x = x.substring(0,ii)
-		}
-		
-		x = x.replaceAll('\\s+', '').replace(',', '.').trim()
-		
-		return x
-	}
-}
-
 
 static void Autorization(def block, def nameOfBlock) {
     println('block:' + block)

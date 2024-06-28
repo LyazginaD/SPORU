@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>DZO Yan V</name>
+   <tag></tag>
+   <elementGuidId>f51a10d5-832a-4ecc-98d5-254f550743b8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#table-395937e02b574487922e639f6b0457c8 > tbody > tr:nth-of-type(67) > td</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[48]/div[2]/div/div/table/tbody/tr[67]/td</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>12cfba7d-4e94-46f2-bdb1-bbe2446be9fd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Россети Янтарь</value>
+      <webElementGuid>f0b1335b-9efd-419f-9490-1f306b4e1add</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;table-395937e02b574487922e639f6b0457c8&quot;)/tbody[1]/tr[67]/td[1]</value>
+      <webElementGuid>2f535c27-add0-4b37-a41a-c2876a2ed40a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='table-395937e02b574487922e639f6b0457c8']/tbody/tr[67]/td</value>
+      <webElementGuid>2050cc91-2884-417b-bd97-cd64b4bc38bb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ростовэнерго'])[4]/following::td[3]</value>
+      <webElementGuid>ba74a9d7-49f9-4660-b18b-42b91ea03eae</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Россети Юг (ГК)'])[11]/following::td[4]</value>
+      <webElementGuid>c98e933f-809e-4424-875c-29ff1a526c59</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Россети Янтарь'])[7]/preceding::td[1]</value>
+      <webElementGuid>8fbcd910-3740-4415-9309-603984423c4a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Экспорт данных'])[1]/preceding::td[4]</value>
+      <webElementGuid>872216cd-1064-4e32-991a-9e3a79f168e7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[48]/div[2]/div/div/table/tbody/tr[67]/td</value>
+      <webElementGuid>811c957d-2947-40af-9ca5-3d97a8743c9d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = 'Россети Янтарь' or . = 'Россети Янтарь')]</value>
+      <webElementGuid>fea3fad8-6f4c-456f-85e6-81f069c55d64</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

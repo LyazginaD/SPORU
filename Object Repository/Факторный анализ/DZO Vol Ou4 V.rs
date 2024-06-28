@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>DZO Vol Ou4 V</name>
+   <tag></tag>
+   <elementGuidId>8150f0bd-fdb9-4e8d-a24f-421e9a1982c2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#table-395937e02b574487922e639f6b0457c8 > tbody > tr:nth-of-type(6) > td:nth-of-type(3)</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[48]/div[2]/div/div/table/tbody/tr[6]/td[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>dc449549-1f71-41fb-aa04-61aa073e9ec8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>160</value>
+      <webElementGuid>eb062622-4654-4458-bb7e-aa2c49774d33</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;table-395937e02b574487922e639f6b0457c8&quot;)/tbody[1]/tr[6]/td[3]</value>
+      <webElementGuid>eadc170f-3d75-4191-b029-5ef62c1c8cc7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='table-395937e02b574487922e639f6b0457c8']/tbody/tr[6]/td[3]</value>
+      <webElementGuid>efe857ae-d279-4767-b2d9-b7eeca0f16ab</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Самарские РС'])[4]/following::td[1]</value>
+      <webElementGuid>f5c8c601-7b69-414f-bf35-e76366bd404e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Россети Волга'])[12]/following::td[2]</value>
+      <webElementGuid>610ef1ac-132d-4f35-b62d-b6614e60e684</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='- 512'])[2]/preceding::td[1]</value>
+      <webElementGuid>54b3ec7a-b6d1-4f42-b57b-e05551c983a9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Россети Волга'])[13]/preceding::td[2]</value>
+      <webElementGuid>10cf0f49-c132-4b1a-9930-69eef68f1de0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='160']/parent::*</value>
+      <webElementGuid>876645b5-9bb3-41e8-a0a7-afa28b6d9140</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[48]/div[2]/div/div/table/tbody/tr[6]/td[3]</value>
+      <webElementGuid>35df79ec-1655-4f33-a079-886076ad02c7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = '160' or . = '160')]</value>
+      <webElementGuid>62197778-cdff-4575-843a-b25db155347b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>DZO Kub Ou V</name>
+   <tag></tag>
+   <elementGuidId>381ecc40-7dfe-4506-8d03-5a756e305164</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#table-395937e02b574487922e639f6b0457c8 > tbody > tr:nth-of-type(10) > td:nth-of-type(3)</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[48]/div[2]/div/div/table/tbody/tr[10]/td[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>6c6b06ae-7bd9-420d-be5b-b5cf514154fc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>827</value>
+      <webElementGuid>35f4ad98-b7f5-4f09-b0d6-48f6a1be8d2d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;table-395937e02b574487922e639f6b0457c8&quot;)/tbody[1]/tr[10]/td[3]</value>
+      <webElementGuid>ca863810-4ed9-4093-b0e9-b0f23710f035</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='table-395937e02b574487922e639f6b0457c8']/tbody/tr[10]/td[3]</value>
+      <webElementGuid>53f9c8fa-3be5-4d73-a576-09b95b8d6949</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Кубаньэнерго'])[4]/following::td[1]</value>
+      <webElementGuid>59d9a957-211d-4fb3-b60c-776a4ae933ca</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Россети Кубань'])[3]/following::td[2]</value>
+      <webElementGuid>03974607-b8f6-4647-adb0-1a300729f074</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='- 122'])[2]/preceding::td[1]</value>
+      <webElementGuid>17920e3c-728b-4580-b1b9-3965a20bdaf8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Россети Ленэнерго (ГК)'])[4]/preceding::td[2]</value>
+      <webElementGuid>8acc70bb-f83e-4162-98f9-102d79ec9281</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='827']/parent::*</value>
+      <webElementGuid>f281b867-b56f-407b-b377-05ad40e62a3d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[48]/div[2]/div/div/table/tbody/tr[10]/td[3]</value>
+      <webElementGuid>79ed16cf-2c65-4674-923b-efd7415a6934</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = '827' or . = '827')]</value>
+      <webElementGuid>47b3f24f-1b66-4fd6-9f0f-bdadb373b27a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

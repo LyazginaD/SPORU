@@ -12,7 +12,7 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>f34788d0-270c-4e03-9fcc-bcdef9db0ea8</testSuiteGuid>
    <testCaseLink>
-      <guid>31f1f3ba-72b0-4444-976f-6eba67b18565</guid>
+      <guid>ab966498-c743-4c62-9843-b164f8ea373e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Выполнение бизнес-плана/Выполнение бизнес-плана Сверка ПАО Россети все филиалы</testCaseId>

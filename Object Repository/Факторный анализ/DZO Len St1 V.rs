@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>DZO Len St1 V</name>
+   <tag></tag>
+   <elementGuidId>83933dc0-90c5-4938-9ecb-0587612be91f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#table-395937e02b574487922e639f6b0457c8 > tbody > tr:nth-of-type(11) > td:nth-of-type(4)</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[48]/div[2]/div/div/table/tbody/tr[11]/td[4]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>cb7b2d7e-2da2-40db-8202-38390ca4dda9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>-20</value>
+      <webElementGuid>233c1b16-c343-4170-94d5-9f010f8cc8e2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;table-395937e02b574487922e639f6b0457c8&quot;)/tbody[1]/tr[11]/td[4]</value>
+      <webElementGuid>2cfee6de-d9f4-44db-bffb-ac4fe7a81a29</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='table-395937e02b574487922e639f6b0457c8']/tbody/tr[11]/td[4]</value>
+      <webElementGuid>07230fe6-50f8-454a-a4ea-08208bf5883f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ленинградская область'])[4]/following::td[2]</value>
+      <webElementGuid>c0ae49bd-dfa1-4688-8bf4-0112fe975af3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Россети Ленэнерго (ГК)'])[4]/following::td[3]</value>
+      <webElementGuid>2e50ca82-8cec-4492-a049-cfe212dc8549</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Россети Ленэнерго (ГК)'])[5]/preceding::td[1]</value>
+      <webElementGuid>b00aca04-8745-4da5-b5f8-18b3705e3d33</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='г. Санкт-Петербург'])[4]/preceding::td[2]</value>
+      <webElementGuid>11ed2883-58d1-4e8b-9703-724174c2f358</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[48]/div[2]/div/div/table/tbody/tr[11]/td[4]</value>
+      <webElementGuid>a6339a3f-9c4b-4544-8ca9-473a5daf57fe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = '-20' or . = '-20')]</value>
+      <webElementGuid>2634e544-12b8-432c-82a9-f2b820671487</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -808,6 +808,8 @@ def PreSettings(def typeOfData, def todaysDate) {
 
     WebUI.click(findTestObject('Выручка в рублях/Апрель 2024'))
 
+    WebUI.click(findTestObject('Выручка в рублях/Май 2024'))
+
     'Проскроллить до заголовка фильтра "Дата"'
     WebUI.scrollToElement(findTestObject('Выручка в рублях/Заголовок дашборда'), 30)
 

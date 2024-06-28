@@ -71,6 +71,8 @@ WebUI.click(findTestObject('Факторный анализ/2 квартал 202
 
 WebUI.click(findTestObject('Факторный анализ/Апрель 2024'), FailureHandling.CONTINUE_ON_FAILURE)
 
+WebUI.click(findTestObject('Факторный анализ/Май 2024'))
+
 'Проскроллить до заголовка фильтра "Дата"'
 WebUI.scrollToElement(findTestObject('Факторный анализ/Заголовок фильтра Период'), 30)
 

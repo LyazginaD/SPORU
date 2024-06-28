@@ -12,38 +12,38 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>327ccdc1-3141-4f54-a440-600c18ed0de1</testSuiteGuid>
    <testCaseLink>
-      <guid>4b974d72-cf92-4b7a-95e2-ede57147d6e9</guid>
+      <guid>830960bb-81eb-4f5e-b66d-7f9a28e3442e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Архив/Выполнение бизнес-плана сверка дашбордов (старая)</testCaseId>
+      <testCaseId>Test Cases/Сверки дашбордов/Выполнение бизнес-плана сверка дашбордов</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>8ade049c-158c-422c-938b-e7172c4e8465</guid>
+      <guid>793c8c48-4101-4386-a39e-1b654568570c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Сверки дашбордов/Выручка в рублях сверка дашбордов ПАО Россети</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>c6758cfc-1d30-4451-84fa-a7a78620b577</guid>
+      <guid>985c3955-dbb2-4331-b9fe-6e356f652a57</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Сверки дашбордов/Выручка по ДЗО сверка дашбордов</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>a6e97f06-4388-49bc-a68f-2b0e7351daf7</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Сверки дашбордов/Факторный анализ сверка дашбордов</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>643fdf7e-3799-48f2-8f32-2c7b615d3ad2</guid>
+      <guid>29060bad-f52c-466d-ab3d-eafe0d388f02</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Сверки дашбордов/Прогноз по отраслям сверка дашбордов</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>92dde189-482c-4f76-8bf0-12dd67c97b32</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Сверки дашбордов/Факторный анализ сверка дашбордов</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
