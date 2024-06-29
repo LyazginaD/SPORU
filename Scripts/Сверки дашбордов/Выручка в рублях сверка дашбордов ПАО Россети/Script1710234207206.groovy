@@ -184,58 +184,60 @@ static def Blocks(def run, def vir, def block, def nameOfBlock, def typeOfData, 
         a30 = a30.replaceAll('%', '')
     }
     
+	a30=a30.replace('%','').replace(',','.').trim()
+	
     println('a30: ' + a30)
 
     if ((vir == 1) || (vir == 2)) {
-        a31 = WebUI.getText(findTestObject('Выручка в рублях/span2' + perc))
+        a31 = WebUI.getText(findTestObject('Выручка в рублях/span2' + perc)).replace('%','').replace(',','.').trim()
     } else {
-        a31 = WebUI.getText(findTestObject('Выручка в рублях/span15' + perc))
+        a31 = WebUI.getText(findTestObject('Выручка в рублях/span15' + perc)).replace('%','').replace(',','.').trim()
     }
     
     if ((vir == 1) || (vir == 2)) {
-        a32 = WebUI.getText(findTestObject('Выручка в рублях/span3' + perc))
+        a32 = WebUI.getText(findTestObject('Выручка в рублях/span3' + perc)).replace('%','').replace(',','.').trim()
     } else {
-        a32 = WebUI.getText(findTestObject('Выручка в рублях/span16' + perc))
+        a32 = WebUI.getText(findTestObject('Выручка в рублях/span16' + perc)).replace('%','').replace(',','.').trim()
     }
     
     if ((vir == 1) || (vir == 2)) {
-        a33 = WebUI.getText(findTestObject('Выручка в рублях/span4' + perc))
+        a33 = WebUI.getText(findTestObject('Выручка в рублях/span4' + perc)).replace('%','').replace(',','.').trim()
 
-        a34 = WebUI.getText(findTestObject('Выручка в рублях/span5' + perc))
+        a34 = WebUI.getText(findTestObject('Выручка в рублях/span5' + perc)).replace('%','').replace(',','.').trim()
 
-        a35 = WebUI.getText(findTestObject('Выручка в рублях/span6' + perc))
+        a35 = WebUI.getText(findTestObject('Выручка в рублях/span6' + perc)).replace('%','').replace(',','.').trim()
 
-        a36 = WebUI.getText(findTestObject('Выручка в рублях/span7' + perc))
+        a36 = WebUI.getText(findTestObject('Выручка в рублях/span7' + perc)).replace('%','').replace(',','.').trim()
 
-        a37 = WebUI.getText(findTestObject('Выручка в рублях/span8' + perc))
+        a37 = WebUI.getText(findTestObject('Выручка в рублях/span8' + perc)).replace('%','').replace(',','.').trim()
     } else {
-        a37 = WebUI.getText(findTestObject('Выручка в рублях/span17' + perc))
+        a37 = WebUI.getText(findTestObject('Выручка в рублях/span17' + perc)).replace('%','').replace(',','.').trim()
     }
     
     if ((vir == 1) || (vir == 2)) {
-        a38 = WebUI.getText(findTestObject('Выручка в рублях/span9' + perc))
+        a38 = WebUI.getText(findTestObject('Выручка в рублях/span9' + perc)).replace('%','').replace(',','.').trim()
 
-        a39 = WebUI.getText(findTestObject('Выручка в рублях/span10' + perc))
+        a39 = WebUI.getText(findTestObject('Выручка в рублях/span10' + perc)).replace('%','').replace(',','.').trim()
 
-        a310 = WebUI.getText(findTestObject('Выручка в рублях/span11' + perc))
+        a310 = WebUI.getText(findTestObject('Выручка в рублях/span11' + perc)).replace('%','').replace(',','.').trim()
 
-        a311 = WebUI.getText(findTestObject('Выручка в рублях/span12' + perc))
+        a311 = WebUI.getText(findTestObject('Выручка в рублях/span12' + perc)).replace('%','').replace(',','.').trim()
 
-        a312 = WebUI.getText(findTestObject('Выручка в рублях/span13' + perc))
+        a312 = WebUI.getText(findTestObject('Выручка в рублях/span13' + perc)).replace('%','').replace(',','.').trim()
 
-        a313 = WebUI.getText(findTestObject('Выручка в рублях/span14' + perc))
+        a313 = WebUI.getText(findTestObject('Выручка в рублях/span14' + perc)).replace('%','').replace(',','.').trim()
 
-        a314 = WebUI.getText(findTestObject('Выручка в рублях/span15' + perc))
+        a314 = WebUI.getText(findTestObject('Выручка в рублях/span15' + perc)).replace('%','').replace(',','.').trim()
 
-        a315 = WebUI.getText(findTestObject('Выручка в рублях/span16' + perc))
+        a315 = WebUI.getText(findTestObject('Выручка в рублях/span16' + perc)).replace('%','').replace(',','.').trim()
 
-        a316 = WebUI.getText(findTestObject('Выручка в рублях/span17' + perc))
+        a316 = WebUI.getText(findTestObject('Выручка в рублях/span17' + perc)).replace('%','').replace(',','.').trim()
     } else {
-        a316 = WebUI.getText(findTestObject('Выручка в рублях/span18' + perc))
+        a316 = WebUI.getText(findTestObject('Выручка в рублях/span18' + perc)).replace('%','').replace(',','.').trim()
     }
     
     if ((vir == 1) || (vir == 2)) {
-        a317 = WebUI.getText(findTestObject('Выручка в рублях/span18' + perc))
+        a317 = WebUI.getText(findTestObject('Выручка в рублях/span18' + perc)).replace('%','').replace(',','.').trim()
     }
     
     block = 2
@@ -266,64 +268,67 @@ static def Blocks(def run, def vir, def block, def nameOfBlock, def typeOfData, 
         b30 = b30.substring(0, i)
 
         b30 = b30.replaceAll(' ', '')
+
     }
     
     if (b30.contains('%')) {
         b30 = b30.replaceAll('%', '')
     }
     
+	b30=b30.replace('%','').replace(',','.').trim()
+	
     println('b30: ' + b30)
 
     if ((vir == 1) || (vir == 2)) {
-        b31 = WebUI.getText(findTestObject('Выручка в рублях/span2' + perc))
+        b31 = WebUI.getText(findTestObject('Выручка в рублях/span2' + perc)).replace('%','').replace(',','.').trim()
     } else {
-        b31 = WebUI.getText(findTestObject('Выручка в рублях/span15' + perc))
+        b31 = WebUI.getText(findTestObject('Выручка в рублях/span15' + perc)).replace('%','').replace(',','.').trim()
     }
     
     if ((vir == 1) || (vir == 2)) {
-        b32 = WebUI.getText(findTestObject('Выручка в рублях/span3' + perc))
+        b32 = WebUI.getText(findTestObject('Выручка в рублях/span3' + perc)).replace('%','').replace(',','.').trim()
     } else {
-        b32 = WebUI.getText(findTestObject('Выручка в рублях/span16' + perc))
+        b32 = WebUI.getText(findTestObject('Выручка в рублях/span16' + perc)).replace('%','').replace(',','.').trim()
     }
     
     if ((vir == 1) || (vir == 2)) {
-        b33 = WebUI.getText(findTestObject('Выручка в рублях/span4' + perc))
+        b33 = WebUI.getText(findTestObject('Выручка в рублях/span4' + perc)).replace('%','').replace(',','.').trim()
 
-        b34 = WebUI.getText(findTestObject('Выручка в рублях/span5' + perc))
+        b34 = WebUI.getText(findTestObject('Выручка в рублях/span5' + perc)).replace('%','').replace(',','.').trim()
 
-        b35 = WebUI.getText(findTestObject('Выручка в рублях/span6' + perc))
+        b35 = WebUI.getText(findTestObject('Выручка в рублях/span6' + perc)).replace('%','').replace(',','.').trim()
 
-        b36 = WebUI.getText(findTestObject('Выручка в рублях/span7' + perc))
+        b36 = WebUI.getText(findTestObject('Выручка в рублях/span7' + perc)).replace('%','').replace(',','.').trim()
 
-        b37 = WebUI.getText(findTestObject('Выручка в рублях/span8' + perc))
+        b37 = WebUI.getText(findTestObject('Выручка в рублях/span8' + perc)).replace('%','').replace(',','.').trim()
     } else {
-        b37 = WebUI.getText(findTestObject('Выручка в рублях/span17' + perc))
+        b37 = WebUI.getText(findTestObject('Выручка в рублях/span17' + perc)).replace('%','').replace(',','.').trim()
     }
     
     if ((vir == 1) || (vir == 2)) {
-        b38 = WebUI.getText(findTestObject('Выручка в рублях/span9' + perc))
+        b38 = WebUI.getText(findTestObject('Выручка в рублях/span9' + perc)).replace('%','').replace(',','.').trim()
 
-        b39 = WebUI.getText(findTestObject('Выручка в рублях/span10' + perc))
+        b39 = WebUI.getText(findTestObject('Выручка в рублях/span10' + perc)).replace('%','').replace(',','.').trim()
 
-        b310 = WebUI.getText(findTestObject('Выручка в рублях/span11' + perc))
+        b310 = WebUI.getText(findTestObject('Выручка в рублях/span11' + perc)).replace('%','').replace(',','.').trim()
 
-        b311 = WebUI.getText(findTestObject('Выручка в рублях/span12' + perc))
+        b311 = WebUI.getText(findTestObject('Выручка в рублях/span12' + perc)).replace('%','').replace(',','.').trim()
 
-        b312 = WebUI.getText(findTestObject('Выручка в рублях/span13' + perc))
+        b312 = WebUI.getText(findTestObject('Выручка в рублях/span13' + perc)).replace('%','').replace(',','.').trim()
 
-        b313 = WebUI.getText(findTestObject('Выручка в рублях/span14' + perc))
+        b313 = WebUI.getText(findTestObject('Выручка в рублях/span14' + perc)).replace('%','').replace(',','.').trim()
 
-        b314 = WebUI.getText(findTestObject('Выручка в рублях/span15' + perc))
+        b314 = WebUI.getText(findTestObject('Выручка в рублях/span15' + perc)).replace('%','').replace(',','.').trim()
 
-        b315 = WebUI.getText(findTestObject('Выручка в рублях/span16' + perc))
+        b315 = WebUI.getText(findTestObject('Выручка в рублях/span16' + perc)).replace('%','').replace(',','.').trim()
 
-        b316 = WebUI.getText(findTestObject('Выручка в рублях/span17' + perc))
+        b316 = WebUI.getText(findTestObject('Выручка в рублях/span17' + perc)).replace('%','').replace(',','.').trim()
     } else {
-        b316 = WebUI.getText(findTestObject('Выручка в рублях/span18' + perc))
+        b316 = WebUI.getText(findTestObject('Выручка в рублях/span18' + perc)).replace('%','').replace(',','.').trim()
     }
     
     if ((vir == 1) || (vir == 2)) {
-        b317 = WebUI.getText(findTestObject('Выручка в рублях/span18' + perc))
+        b317 = WebUI.getText(findTestObject('Выручка в рублях/span18' + perc)).replace('%','').replace(',','.').trim()
     }
     
     dZO = 'ПАО Россети'
@@ -331,11 +336,9 @@ static def Blocks(def run, def vir, def block, def nameOfBlock, def typeOfData, 
     if (WebUI.verifyEqual(a1, b1) == false) {
         vidget = 'План'
 
-        def Calculation = new Calculation()
+        a = a1.toDouble()
 
-        a = Calculation.Calc(x = a1).toDouble()
-
-        b = Calculation.Calc(x = b1).toDouble()
+        b = b1.toDouble()
 
         WriteToExcel(todaysDate, run, vir, block, typeOfData, viruchka, vidget, nameOfBlock, a, b, dZO)
     }
@@ -343,11 +346,11 @@ static def Blocks(def run, def vir, def block, def nameOfBlock, def typeOfData, 
     if (WebUI.verifyEqual(a2, b2) == false) {
         vidget = 'Факт'
 
-        def Calculation = new Calculation()
+        
 
-        a = Calculation.Calc(x = a2).toDouble()
+        a = a2.toDouble()
 
-        b = Calculation.Calc(x = b2).toDouble()
+        b = b2.toDouble()
 
         WriteToExcel(todaysDate, run, vir, block, typeOfData, viruchka, vidget, nameOfBlock, a, b, dZO)
     }
@@ -355,11 +358,11 @@ static def Blocks(def run, def vir, def block, def nameOfBlock, def typeOfData, 
     vidget = 'Отклонения'
 
     if (WebUI.verifyEqual(a30, b30) == false) {
-        def Calculation = new Calculation()
+        
 
-        a = Calculation.Calc(x = a30).toDouble()
+        a = a30.toDouble()
 
-        b = Calculation.Calc(x = b30).toDouble()
+        b = b30.toDouble()
 
         WriteToExcel(todaysDate, run, vir, block, typeOfData, viruchka, vidget, nameOfBlock, a, b, dZO)
     }
@@ -367,11 +370,10 @@ static def Blocks(def run, def vir, def block, def nameOfBlock, def typeOfData, 
     dZO = 'АО «Тываэнерго»'
 
     if (WebUI.verifyEqual(a31, b31) == false) {
-        def Calculation = new Calculation()
 
-        a = Calculation.Calc(x = a31).toDouble()
+        a = a31.toDouble()
 
-        b = Calculation.Calc(x = b31).toDouble()
+        b = b31.toDouble()
 
         WriteToExcel(todaysDate, run, vir, block, typeOfData, viruchka, vidget, nameOfBlock, a, b, dZO)
     }
@@ -379,11 +381,11 @@ static def Blocks(def run, def vir, def block, def nameOfBlock, def typeOfData, 
     dZO = 'АО «Чеченэнерго»'
 
     if (WebUI.verifyEqual(a32, b32) == false) {
-        def Calculation = new Calculation()
+        
 
-        a = Calculation.Calc(x = a32).toDouble()
+        a = a32.toDouble()
 
-        b = Calculation.Calc(x = b32).toDouble()
+        b = b32.toDouble()
 
         WriteToExcel(todaysDate, run, vir, block, typeOfData, viruchka, vidget, nameOfBlock, a, b, dZO)
     }
@@ -391,11 +393,11 @@ static def Blocks(def run, def vir, def block, def nameOfBlock, def typeOfData, 
     dZO = 'Россети Волга'
 
     if (WebUI.verifyEqual(a33, b33) == false) {
-        def Calculation = new Calculation()
+        
 
-        a = Calculation.Calc(x = a33).toDouble()
+        a = a33.toDouble()
 
-        b = Calculation.Calc(x = b33).toDouble()
+        b = b33.toDouble()
 
         WriteToExcel(todaysDate, run, vir, block, typeOfData, viruchka, vidget, nameOfBlock, a, b, dZO)
     }
@@ -403,11 +405,11 @@ static def Blocks(def run, def vir, def block, def nameOfBlock, def typeOfData, 
     dZO = 'Россети Кубань'
 
     if (WebUI.verifyEqual(a34, b34) == false) {
-        def Calculation = new Calculation()
+        
 
-        a = Calculation.Calc(x = a34).toDouble()
+        a = a34.toDouble()
 
-        b = Calculation.Calc(x = b34).toDouble()
+        b = b34.toDouble()
 
         WriteToExcel(todaysDate, run, vir, block, typeOfData, viruchka, vidget, nameOfBlock, a, b, dZO)
     }
@@ -415,11 +417,11 @@ static def Blocks(def run, def vir, def block, def nameOfBlock, def typeOfData, 
     dZO = 'Россети Ленэнерго (ГК)'
 
     if (WebUI.verifyEqual(a35, b35) == false) {
-        def Calculation = new Calculation()
+        
 
-        a = Calculation.Calc(x = a35).toDouble()
+        a = a35.toDouble()
 
-        b = Calculation.Calc(x = b35).toDouble()
+        b = b35.toDouble()
 
         WriteToExcel(todaysDate, run, vir, block, typeOfData, viruchka, vidget, nameOfBlock, a, b, dZO)
     }
@@ -427,11 +429,11 @@ static def Blocks(def run, def vir, def block, def nameOfBlock, def typeOfData, 
     dZO = 'Россети Московский регион'
 
     if (WebUI.verifyEqual(a36, b36) == false) {
-        def Calculation = new Calculation()
+        
 
-        a = Calculation.Calc(x = a36).toDouble()
+        a = a36.toDouble()
 
-        b = Calculation.Calc(x = b36).toDouble()
+        b = b36.toDouble()
 
         WriteToExcel(todaysDate, run, vir, block, typeOfData, viruchka, vidget, nameOfBlock, a, b, dZO)
     }
@@ -439,11 +441,11 @@ static def Blocks(def run, def vir, def block, def nameOfBlock, def typeOfData, 
     dZO = 'Россети Северный Кавказ (ГК)'
 
     if (WebUI.verifyEqual(a37, b37) == false) {
-        def Calculation = new Calculation()
+        
 
-        a = Calculation.Calc(x = a37).toDouble()
+        a = a37.toDouble()
 
-        b = Calculation.Calc(x = b37).toDouble()
+        b = b37.toDouble()
 
         WriteToExcel(todaysDate, run, vir, block, typeOfData, viruchka, vidget, nameOfBlock, a, b, dZO)
     }
@@ -451,11 +453,11 @@ static def Blocks(def run, def vir, def block, def nameOfBlock, def typeOfData, 
     dZO = 'Россети Северо-Запад'
 
     if (WebUI.verifyEqual(a38, b38) == false) {
-        def Calculation = new Calculation()
+        
 
-        a = Calculation.Calc(x = a38).toDouble()
+        a = a38.toDouble()
 
-        b = Calculation.Calc(x = b38).toDouble()
+        b = b38.toDouble()
 
         WriteToExcel(todaysDate, run, vir, block, typeOfData, viruchka, vidget, nameOfBlock, a, b, dZO)
     }
@@ -463,11 +465,11 @@ static def Blocks(def run, def vir, def block, def nameOfBlock, def typeOfData, 
     dZO = 'Россети Сибирь (ГК)'
 
     if (WebUI.verifyEqual(a39, b39) == false) {
-        def Calculation = new Calculation()
+        
 
-        a = Calculation.Calc(x = a39).toDouble()
+        a = a39.toDouble()
 
-        b = Calculation.Calc(x = b39).toDouble()
+        b = b39.toDouble()
 
         WriteToExcel(todaysDate, run, vir, block, typeOfData, viruchka, vidget, nameOfBlock, a, b, dZO)
     }
@@ -475,11 +477,11 @@ static def Blocks(def run, def vir, def block, def nameOfBlock, def typeOfData, 
     dZO = 'Россети Томск'
 
     if (WebUI.verifyEqual(a310, b310) == false) {
-        def Calculation = new Calculation()
+        
 
-        a = Calculation.Calc(x = a310).toDouble()
+        a = a310.toDouble()
 
-        b = Calculation.Calc(x = b310).toDouble()
+        b = b310.toDouble()
 
         WriteToExcel(todaysDate, run, vir, block, typeOfData, viruchka, vidget, nameOfBlock, a, b, dZO)
     }
@@ -487,11 +489,11 @@ static def Blocks(def run, def vir, def block, def nameOfBlock, def typeOfData, 
     dZO = 'Россети Тюмень'
 
     if (WebUI.verifyEqual(a311, b311) == false) {
-        def Calculation = new Calculation()
+        
 
-        a = Calculation.Calc(x = a311).toDouble()
+        a = a311.toDouble()
 
-        b = Calculation.Calc(x = b311).toDouble()
+        b = b311.toDouble()
 
         WriteToExcel(todaysDate, run, vir, block, typeOfData, viruchka, vidget, nameOfBlock, a, b, dZO)
     }
@@ -499,11 +501,11 @@ static def Blocks(def run, def vir, def block, def nameOfBlock, def typeOfData, 
     dZO = 'Россети Урал (ГК)'
 
     if (WebUI.verifyEqual(a312, b312) == false) {
-        def Calculation = new Calculation()
+        
 
-        a = Calculation.Calc(x = a312).toDouble()
+        a = a312.toDouble()
 
-        b = Calculation.Calc(x = b312).toDouble()
+        b = b312.toDouble()
 
         WriteToExcel(todaysDate, run, vir, block, typeOfData, viruchka, vidget, nameOfBlock, a, b, dZO)
     }
@@ -511,11 +513,11 @@ static def Blocks(def run, def vir, def block, def nameOfBlock, def typeOfData, 
     dZO = 'Россети ФСК ЕЭС'
 
     if (WebUI.verifyEqual(a313, b313) == false) {
-        def Calculation = new Calculation()
+        
 
-        a = Calculation.Calc(x = a313).toDouble()
+        a = a313.toDouble()
 
-        b = Calculation.Calc(x = b313).toDouble()
+        b = b313.toDouble()
 
         WriteToExcel(todaysDate, run, vir, block, typeOfData, viruchka, vidget, nameOfBlock, a, b, dZO)
     }
@@ -523,11 +525,11 @@ static def Blocks(def run, def vir, def block, def nameOfBlock, def typeOfData, 
     dZO = 'Россети Центр'
 
     if (WebUI.verifyEqual(a314, b314) == false) {
-        def Calculation = new Calculation()
+        
 
-        a = Calculation.Calc(x = a314).toDouble()
+        a = a314.toDouble()
 
-        b = Calculation.Calc(x = b314).toDouble()
+        b = b314.toDouble()
 
         WriteToExcel(todaysDate, run, vir, block, typeOfData, viruchka, vidget, nameOfBlock, a, b, dZO)
     }
@@ -535,11 +537,11 @@ static def Blocks(def run, def vir, def block, def nameOfBlock, def typeOfData, 
     dZO = 'Россети Центр и Приволжье (ГК)'
 
     if (WebUI.verifyEqual(a315, b315) == false) {
-        def Calculation = new Calculation()
+        
 
-        a = Calculation.Calc(x = a315).toDouble()
+        a = a315.toDouble()
 
-        b = Calculation.Calc(x = b315).toDouble()
+        b = b315.toDouble()
 
         WriteToExcel(todaysDate, run, vir, block, typeOfData, viruchka, vidget, nameOfBlock, a, b, dZO)
     }
@@ -547,11 +549,11 @@ static def Blocks(def run, def vir, def block, def nameOfBlock, def typeOfData, 
     dZO = 'Россети Юг (ГК)'
 
     if (WebUI.verifyEqual(a316, b316) == false) {
-        def Calculation = new Calculation()
+        
 
-        a = Calculation.Calc(x = a316).toDouble()
+        a = a316.toDouble()
 
-        b = Calculation.Calc(x = b316).toDouble()
+        b = b316.toDouble()
 
         WriteToExcel(todaysDate, run, vir, block, typeOfData, viruchka, vidget, nameOfBlock, a, b, dZO)
     }
@@ -559,17 +561,18 @@ static def Blocks(def run, def vir, def block, def nameOfBlock, def typeOfData, 
     dZO = 'Россети Янтарь'
 
     if (WebUI.verifyEqual(a317, b317) == false) {
-        def Calculation = new Calculation()
+        
 
-        a = Calculation.Calc(x = a317).toDouble()
+        a = a317.toDouble()
 
-        b = Calculation.Calc(x = b317).toDouble()
+        b = b317.toDouble()
 
         WriteToExcel(todaysDate, run, vir, block, typeOfData, viruchka, vidget, nameOfBlock, a, b, dZO)
     }
     
     WebUI.closeBrowser()
 }
+
 
 static void Rosseti(def nameOfBlock) {
     println('nameOfBlock:' + nameOfBlock)
