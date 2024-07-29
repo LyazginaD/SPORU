@@ -630,25 +630,13 @@ static def PreSettings(def run, def vir, def block, def nameOfBlock, def typeOfD
 
     WebUI.click(findTestObject('Выручка в рублях/2024 список' + nameOfBlock))
 
-    WebUI.scrollToElement(findTestObject('Выручка в рублях/1 квартал 2024 список' + nameOfBlock), 30)
+    WebUI.scrollToElement(findTestObject('Выручка в рублях/1 квартал 2024 выбрать' + nameOfBlock), 30)
 
-    WebUI.click(findTestObject('Выручка в рублях/1 квартал 2024 список' + nameOfBlock))
+    WebUI.click(findTestObject('Выручка в рублях/1 квартал 2024 выбрать' + nameOfBlock))
 
-    WebUI.click(findTestObject('Выручка в рублях/Январь 2024' + nameOfBlock))
+    WebUI.scrollToElement(findTestObject('Выручка в рублях/2 квартал 2024 выбрать' + nameOfBlock), 30)
 
-    WebUI.click(findTestObject('Выручка в рублях/Февраль 2024' + nameOfBlock))
-
-    WebUI.click(findTestObject('Выручка в рублях/Март 2024' + nameOfBlock))
-
-    WebUI.scrollToElement(findTestObject('Выручка в рублях/2 квартал 2024 список' + nameOfBlock), 30)
-
-    WebUI.click(findTestObject('Выручка в рублях/2 квартал 2024 список' + nameOfBlock))
-
-    WebUI.scrollToElement(findTestObject('Выручка в рублях/Апрель 2024' + nameOfBlock), 30)
-
-    WebUI.click(findTestObject('Выручка в рублях/Апрель 2024' + nameOfBlock))
-
-    WebUI.click(findTestObject('Выручка в рублях/Май 2024' + nameOfBlock))
+    WebUI.click(findTestObject('Выручка в рублях/2 квартал 2024 выбрать' + nameOfBlock))
 
     'Проскроллить до заголовка дашборда'
     WebUI.scrollToElement(findTestObject('Выручка в рублях/Заголовок дашборда' + nameOfBlock), 30)

@@ -81,23 +81,13 @@ static def Test(def run, def todaysDate, def typeOfData, def otobrajeniyeDannyh,
 
     WebUI.click(findTestObject('Факторный анализ/2024 список'))
 
-    WebUI.scrollToElement(findTestObject('Факторный анализ/1 квартал 2024 список'), 30)
+    WebUI.scrollToElement(findTestObject('Факторный анализ/1 квартал 2024 выбрать'), 30)
 
-    WebUI.click(findTestObject('Факторный анализ/1 квартал 2024 список'))
+    WebUI.click(findTestObject('Факторный анализ/1 квартал 2024 выбрать'))
 
-    WebUI.click(findTestObject('Факторный анализ/Январь 2024'))
+    WebUI.scrollToElement(findTestObject('Факторный анализ/1 квартал 2024 выбрать'), 30)
 
-    WebUI.click(findTestObject('Факторный анализ/Февраль 2024'))
-
-    WebUI.click(findTestObject('Факторный анализ/Март 2024'))
-
-    WebUI.scrollToElement(findTestObject('Факторный анализ/2 квартал 2024 список'), 30)
-
-    WebUI.click(findTestObject('Факторный анализ/2 квартал 2024 список'), FailureHandling.CONTINUE_ON_FAILURE)
-
-    WebUI.click(findTestObject('Факторный анализ/Апрель 2024'), FailureHandling.CONTINUE_ON_FAILURE)
-
-    WebUI.click(findTestObject('Факторный анализ/Май 2024'), FailureHandling.CONTINUE_ON_FAILURE)
+    WebUI.click(findTestObject('Факторный анализ/2 квартал 2024 выбрать'), FailureHandling.CONTINUE_ON_FAILURE)
 
     'Проскроллить до заголовка фильтра "Дата"'
     WebUI.scrollToElement(findTestObject('Факторный анализ/Заголовок дашборда'), 30)
@@ -347,23 +337,13 @@ static def Test(def run, def todaysDate, def typeOfData, def otobrajeniyeDannyh,
 
     WebUI.click(findTestObject('Факторный анализ/2024 список Выручка'))
 
-    WebUI.scrollToElement(findTestObject('Факторный анализ/1 квартал 2024 список Выручка'), 30)
+    WebUI.scrollToElement(findTestObject('Факторный анализ/1 квартал 2024 выбрать Выручка'), 30)
 
-    WebUI.click(findTestObject('Факторный анализ/1 квартал 2024 список Выручка'))
+    WebUI.click(findTestObject('Факторный анализ/1 квартал 2024 выбрать Выручка'))
 
-    WebUI.click(findTestObject('Факторный анализ/Январь 2024 Выручка'))
+    WebUI.scrollToElement(findTestObject('Факторный анализ/2 квартал 2024 выбрать Выручка'), 30)
 
-    WebUI.click(findTestObject('Факторный анализ/Февраль 2024 Выручка'))
-
-    WebUI.click(findTestObject('Факторный анализ/Март 2024 Выручка'))
-
-    WebUI.scrollToElement(findTestObject('Факторный анализ/2 квартал 2024 список Выручка'), 30)
-
-    WebUI.click(findTestObject('Факторный анализ/2 квартал 2024 список Выручка'), FailureHandling.CONTINUE_ON_FAILURE)
-
-    WebUI.click(findTestObject('Факторный анализ/Апрель 2024 Выручка'), FailureHandling.CONTINUE_ON_FAILURE)
-
-    WebUI.click(findTestObject('Факторный анализ/Май 2024 Выручка'), FailureHandling.CONTINUE_ON_FAILURE)
+    WebUI.click(findTestObject('Факторный анализ/2 квартал 2024 выбрать Выручка'), FailureHandling.CONTINUE_ON_FAILURE)
 
     'Проскроллить до заголовка фильтра "Дата"'
     WebUI.scrollToElement(findTestObject('Факторный анализ/Заголовок дашборда Выручка'), 30)

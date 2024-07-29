@@ -24,6 +24,8 @@ def data = findTestData('PlanFact')
 
 int n
 
+int urlData
+
 String dashboardName
 
 String a1
@@ -47,94 +49,107 @@ String a9
 String user
 
 for (run = 1; run < 4; run++) {
-    VipolnenieBiznesPlana(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
+    VipolnenieBiznesPlana(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9, urlData)
 }
-
-
 
 WebUI.delay(20)
 
 for (run = 1; run < 4; run++) {
-    ViruchkaVRublyah(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
+    ViruchkaVRublyah(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9, urlData)
 }
-
-
 
 WebUI.delay(20)
 
 for (run = 1; run < 4; run++) {
-    ObyemPoter(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
+    ObyemPoter(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9, urlData)
 }
-
-
 
 WebUI.delay(20)
 
 for (run = 1; run < 4; run++) {
-    OtpuskIzSeti(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
+    OtpuskIzSeti(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9, urlData)
 }
-
-
 
 WebUI.delay(20)
 
 for (run = 1; run < 4; run++) {
-    OtpuskVSet(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
+    OtpuskVSet(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9, urlData)
 }
-
-
 
 WebUI.delay(20)
 
 //for (run = 1; run < 4; run++) {
-//    PokazateliBalansa(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
+//    PokazateliBalansa(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9, urlData)
 //}
 //for (run = 1; run < 4; run++) {
-//    OtpuskIzSeti2006(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
+//    OtpuskIzSeti2006(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9, urlData)
 //}
 for (run = 1; run < 4; run++) {
-    KotlovoyPolezniyOtpusk(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
+    KotlovoyPolezniyOtpusk(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9, urlData)
 }
 
 WebUI.delay(20)
 
-
-
 for (run = 1; run < 4; run++) {
-    FaktorniyAnaliz(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
+    FaktorniyAnaliz(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9, urlData)
 }
-
-
 
 WebUI.delay(20)
 
 for (run = 1; run < 4; run++) {
-    ViruchkaPoDZO(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
+    ViruchkaPoDZO(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9, urlData)
 }
-
-
 
 WebUI.delay(20)
 
 for (run = 1; run < 4; run++) {
-    PrognozPoDZO(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
+    PrognozPoDZO(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9, urlData)
 }
-
-
 
 WebUI.delay(20)
 
 for (run = 1; run < 4; run++) {
-    PrognozPoOtraslyam(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9 //if (WebUI.verifyTextPresent('Просьба обратить внимание', false) == true) {
-        //    WebUI.click(findTestObject('Выполнение бизнес-плана/Закрыть оповещение'))
-        //}
-        //if (WebUI.verifyTextPresent('Просьба обратить внимание', false) == true) {
-        //    WebUI.click(findTestObject('Выполнение бизнес-плана/Закрыть оповещение'))
-        //}
-        )
+    PrognozPoOtraslyam(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9, urlData)
 }
 
-def VipolnenieBiznesPlana(def user, def dashboardName, def n, def data, def run, def a1, def a2, def a3, def a4, def a5, def a6, def a7, def a8, def a9) {
+static def CheckPageDownload(def urlData) {
+    println(urlData)
+	
+	WebUI.delay(30)
+	
+	WebUI.navigateToUrl(findTestData('PlanFact').getValue(10, urlData))
+	
+	WebUI.delay(30)
+	
+    if (WebUI.verifyElementPresent(findTestObject('Страница авторизации/button_'), 30) == false) {
+        
+        WebUI.refresh()
+
+        WebUI.delay(30)
+
+		WebUI.navigateToUrl(findTestData('PlanFact').getValue(10, urlData))
+		
+		WebUI.delay(30)
+		
+
+        if (WebUI.verifyElementPresent(findTestObject('Страница авторизации/button_'), 30) == false){
+            WebUI.refresh()
+
+            WebUI.delay(30)
+
+			WebUI.navigateToUrl(findTestData('PlanFact').getValue(10, urlData))
+			
+			WebUI.delay(30)
+            
+        } else {
+            println('ok')
+        }
+    } else {
+        println('ok')
+    }
+}
+
+def VipolnenieBiznesPlana(def user, def dashboardName, def n, def data, def run, def a1, def a2, def a3, def a4, def a5, def a6, def a7, def a8, def a9, def urlData) {
     n = (data.getRowNumbers() + 1)
 
     println(n)
@@ -143,7 +158,11 @@ def VipolnenieBiznesPlana(def user, def dashboardName, def n, def data, def run,
 
     WebUI.openBrowser('')
 
-    WebUI.navigateToUrl(findTestData('PlanFact').getValue(10, 1))
+    urlData = 1
+
+    
+
+    CheckPageDownload(urlData)
 
     WebUI.setText(findTestObject('Страница авторизации/input__username'), findTestData('PlanFact').getValue(8, run))
 
@@ -195,13 +214,10 @@ def VipolnenieBiznesPlana(def user, def dashboardName, def n, def data, def run,
     WebUI.click(findTestObject('Выполнение бизнес-плана/Март 2024'))
 
     'Выбрать 1 квартал 2022'
-    WebUI.scrollToElement(findTestObject('Выполнение бизнес-плана/2 квартал 2024 список'), 30)
+    WebUI.scrollToElement(findTestObject('Выполнение бизнес-плана/2 квартал 2024'), 30)
 
     'Выбрать 1 квартал 2022'
-    WebUI.click(findTestObject('Выполнение бизнес-плана/2 квартал 2024 список'))
-
-    'Выбрать 1 квартал 2022'
-    WebUI.click(findTestObject('Выполнение бизнес-плана/Апрель 2024'))
+    WebUI.click(findTestObject('Выполнение бизнес-плана/2 квартал 2024'))
 
     'Нажать "Применить"'
     WebUI.click(findTestObject('Object Repository/Выполнение бизнес-плана/Применить в фильтре Дата'))
@@ -347,7 +363,7 @@ def VipolnenieBiznesPlana(def user, def dashboardName, def n, def data, def run,
     WebUI.closeBrowser()
 }
 
-def ViruchkaVRublyah(def user, def dashboardName, def n, def data, def run, def a1, def a2, def a3, def a4, def a5, def a6, def a7, def a8, def a9) {
+def ViruchkaVRublyah(def user, def dashboardName, def n, def data, def run, def a1, def a2, def a3, def a4, def a5, def a6, def a7, def a8, def a9, def urlData) {
     n = (data.getRowNumbers() + 1)
 
     println(n)
@@ -356,7 +372,11 @@ def ViruchkaVRublyah(def user, def dashboardName, def n, def data, def run, def 
 
     WebUI.openBrowser('')
 
-    WebUI.navigateToUrl(findTestData('PlanFact').getValue(10, 2))
+    urlData = 2
+
+    
+
+    CheckPageDownload(urlData)
 
     WebUI.setText(findTestObject('Страница авторизации/input__username'), findTestData('PlanFact').getValue(8, run))
 
@@ -385,23 +405,13 @@ def ViruchkaVRublyah(def user, def dashboardName, def n, def data, def run, def 
 
     WebUI.click(findTestObject('Выручка в рублях/2024 список'))
 
-    WebUI.scrollToElement(findTestObject('Выручка в рублях/4 квартал 2024 список'), 30)
+    WebUI.scrollToElement(findTestObject('Выручка в рублях/1 квартал 2024 выбрать'), 30)
 
-    WebUI.click(findTestObject('Выручка в рублях/1 квартал 2024 список'))
+    WebUI.click(findTestObject('Выручка в рублях/1 квартал 2024 выбрать'), FailureHandling.CONTINUE_ON_FAILURE)
 
-    WebUI.click(findTestObject('Выручка в рублях/Январь 2024'))
+    WebUI.scrollToElement(findTestObject('Выручка в рублях/2 квартал 2024 выбрать'), 30)
 
-    WebUI.click(findTestObject('Выручка в рублях/Февраль 2024'))
-
-    WebUI.click(findTestObject('Выручка в рублях/Март 2024'))
-
-    WebUI.scrollToElement(findTestObject('Выручка в рублях/2 квартал 2024 список'), 30)
-
-    WebUI.click(findTestObject('Выручка в рублях/2 квартал 2024 список'))
-
-    WebUI.click(findTestObject('Выручка в рублях/Апрель 2024'))
-
-    WebUI.click(findTestObject('Выручка в рублях/Май 2024'))
+    WebUI.click(findTestObject('Выручка в рублях/2 квартал 2024 выбрать'))
 
     'Нажать "Применить"'
     WebUI.click(findTestObject('Выручка в рублях/Применить в фильтре Дата'))
@@ -514,7 +524,7 @@ def ViruchkaVRublyah(def user, def dashboardName, def n, def data, def run, def 
     WebUI.closeBrowser()
 }
 
-def ObyemPoter(def user, def dashboardName, def n, def data, def run, def a1, def a2, def a3, def a4, def a5, def a6, def a7, def a8, def a9) {
+def ObyemPoter(def user, def dashboardName, def n, def data, def run, def a1, def a2, def a3, def a4, def a5, def a6, def a7, def a8, def a9, def urlData) {
     n = (data.getRowNumbers() + 1)
 
     println(n)
@@ -523,7 +533,11 @@ def ObyemPoter(def user, def dashboardName, def n, def data, def run, def a1, de
 
     WebUI.openBrowser('')
 
-    WebUI.navigateToUrl(findTestData('PlanFact').getValue(10, 14))
+    urlData = 14
+
+    
+
+    CheckPageDownload(urlData)
 
     WebUI.setText(findTestObject('Страница авторизации/input__username'), findTestData('PlanFact').getValue(8, run))
 
@@ -610,7 +624,7 @@ def ObyemPoter(def user, def dashboardName, def n, def data, def run, def a1, de
     WebUI.closeBrowser()
 }
 
-def OtpuskIzSeti(def user, def dashboardName, def n, def data, def run, def a1, def a2, def a3, def a4, def a5, def a6, def a7, def a8, def a9) {
+def OtpuskIzSeti(def user, def dashboardName, def n, def data, def run, def a1, def a2, def a3, def a4, def a5, def a6, def a7, def a8, def a9, def urlData) {
     n = (data.getRowNumbers() + 1)
 
     println(n)
@@ -619,7 +633,11 @@ def OtpuskIzSeti(def user, def dashboardName, def n, def data, def run, def a1, 
 
     WebUI.openBrowser('')
 
-    WebUI.navigateToUrl(findTestData('PlanFact').getValue(10, 15))
+    urlData = 15
+
+    
+
+    CheckPageDownload(urlData)
 
     WebUI.setText(findTestObject('Страница авторизации/input__username'), findTestData('PlanFact').getValue(8, run))
 
@@ -718,7 +736,7 @@ def OtpuskIzSeti(def user, def dashboardName, def n, def data, def run, def a1, 
     WebUI.closeBrowser()
 }
 
-def OtpuskVSet(def user, def dashboardName, def n, def data, def run, def a1, def a2, def a3, def a4, def a5, def a6, def a7, def a8, def a9) {
+def OtpuskVSet(def user, def dashboardName, def n, def data, def run, def a1, def a2, def a3, def a4, def a5, def a6, def a7, def a8, def a9, def urlData) {
     n = (data.getRowNumbers() + 1)
 
     println(n)
@@ -727,7 +745,11 @@ def OtpuskVSet(def user, def dashboardName, def n, def data, def run, def a1, de
 
     WebUI.openBrowser('')
 
-    WebUI.navigateToUrl(findTestData('PlanFact').getValue(10, 16))
+    urlData = 16
+
+    
+
+    CheckPageDownload(urlData)
 
     WebUI.setText(findTestObject('Страница авторизации/input__username'), findTestData('PlanFact').getValue(8, run))
 
@@ -818,7 +840,7 @@ def OtpuskVSet(def user, def dashboardName, def n, def data, def run, def a1, de
     WebUI.closeBrowser()
 }
 
-def PokazateliBalansa(def user, def dashboardName, def n, def data, def run, def a1, def a2, def a3, def a4, def a5, def a6, def a7, def a8, def a9) {
+def PokazateliBalansa(def user, def dashboardName, def n, def data, def run, def a1, def a2, def a3, def a4, def a5, def a6, def a7, def a8, def a9, def urlData) {
     n = (data.getRowNumbers() + 1)
 
     println(n)
@@ -827,7 +849,11 @@ def PokazateliBalansa(def user, def dashboardName, def n, def data, def run, def
 
     WebUI.openBrowser('')
 
-    WebUI.navigateToUrl(findTestData('PlanFact').getValue(10, 8))
+    urlData = 8
+
+    
+
+    CheckPageDownload(urlData)
 
     WebUI.setText(findTestObject('Страница авторизации/input__username'), findTestData('PlanFact').getValue(8, run))
 
@@ -906,7 +932,7 @@ def PokazateliBalansa(def user, def dashboardName, def n, def data, def run, def
     WebUI.closeBrowser()
 }
 
-def OtpuskIzSeti2006(def user, def dashboardName, def n, def data, def run, def a1, def a2, def a3, def a4, def a5, def a6, def a7, def a8, def a9) {
+def OtpuskIzSeti2006(def user, def dashboardName, def n, def data, def run, def a1, def a2, def a3, def a4, def a5, def a6, def a7, def a8, def a9, def urlData) {
     n = (data.getRowNumbers() + 1)
 
     println(n)
@@ -915,7 +941,11 @@ def OtpuskIzSeti2006(def user, def dashboardName, def n, def data, def run, def 
 
     WebUI.openBrowser('')
 
-    WebUI.navigateToUrl(findTestData('PlanFact').getValue(10, 7))
+    urlData = 7
+
+    
+
+    CheckPageDownload(urlData)
 
     WebUI.setText(findTestObject('Страница авторизации/input__username'), findTestData('PlanFact').getValue(8, run))
 
@@ -988,7 +1018,7 @@ def OtpuskIzSeti2006(def user, def dashboardName, def n, def data, def run, def 
     WebUI.closeBrowser()
 }
 
-def KotlovoyPolezniyOtpusk(def user, def dashboardName, def n, def data, def run, def a1, def a2, def a3, def a4, def a5, def a6, def a7, def a8, def a9) {
+def KotlovoyPolezniyOtpusk(def user, def dashboardName, def n, def data, def run, def a1, def a2, def a3, def a4, def a5, def a6, def a7, def a8, def a9, def urlData) {
     n = (data.getRowNumbers() + 1)
 
     println(n)
@@ -997,7 +1027,11 @@ def KotlovoyPolezniyOtpusk(def user, def dashboardName, def n, def data, def run
 
     WebUI.openBrowser('')
 
-    WebUI.navigateToUrl(findTestData('PlanFact').getValue(10, 18))
+    urlData = 18
+
+    
+
+    CheckPageDownload(urlData)
 
     WebUI.setText(findTestObject('Страница авторизации/input__username'), findTestData('PlanFact').getValue(8, run))
 
@@ -1088,7 +1122,7 @@ def KotlovoyPolezniyOtpusk(def user, def dashboardName, def n, def data, def run
     WebUI.closeBrowser()
 }
 
-def FaktorniyAnaliz(def user, def dashboardName, def n, def data, def run, def a1, def a2, def a3, def a4, def a5, def a6, def a7, def a8, def a9) {
+def FaktorniyAnaliz(def user, def dashboardName, def n, def data, def run, def a1, def a2, def a3, def a4, def a5, def a6, def a7, def a8, def a9, def urlData) {
     n = (data.getRowNumbers() + 1)
 
     println(n)
@@ -1097,7 +1131,11 @@ def FaktorniyAnaliz(def user, def dashboardName, def n, def data, def run, def a
 
     WebUI.openBrowser('')
 
-    WebUI.navigateToUrl(findTestData('PlanFact').getValue(10, 3))
+    urlData = 3
+
+    
+
+    CheckPageDownload(urlData)
 
     WebUI.setText(findTestObject('Страница авторизации/input__username'), findTestData('PlanFact').getValue(8, run))
 
@@ -1126,23 +1164,13 @@ def FaktorniyAnaliz(def user, def dashboardName, def n, def data, def run, def a
 
     WebUI.click(findTestObject('Факторный анализ/2024 список'))
 
-    WebUI.scrollToElement(findTestObject('Факторный анализ/1 квартал 2024 список'), 30)
+    WebUI.scrollToElement(findTestObject('Факторный анализ/1 квартал 2024 выбрать'), 30)
 
-    WebUI.click(findTestObject('Факторный анализ/1 квартал 2024 список'))
+    WebUI.click(findTestObject('Факторный анализ/1 квартал 2024 выбрать'))
 
-    WebUI.click(findTestObject('Факторный анализ/Январь 2024'))
+    WebUI.scrollToElement(findTestObject('Факторный анализ/1 квартал 2024 выбрать'), 30)
 
-    WebUI.click(findTestObject('Факторный анализ/Февраль 2024'))
-
-    WebUI.click(findTestObject('Факторный анализ/Март 2024'))
-
-    WebUI.scrollToElement(findTestObject('Факторный анализ/2 квартал 2024 список'), 30)
-
-    WebUI.click(findTestObject('Факторный анализ/2 квартал 2024 список'), FailureHandling.CONTINUE_ON_FAILURE)
-
-    WebUI.click(findTestObject('Факторный анализ/Апрель 2024'), FailureHandling.CONTINUE_ON_FAILURE)
-
-    WebUI.click(findTestObject('Факторный анализ/Май 2024'), FailureHandling.CONTINUE_ON_FAILURE)
+    WebUI.click(findTestObject('Факторный анализ/2 квартал 2024 выбрать'), FailureHandling.CONTINUE_ON_FAILURE)
 
     'Проскроллить до заголовка фильтра "Дата"'
     WebUI.scrollToElement(findTestObject('Факторный анализ/Заголовок дашборда'), 30)
@@ -1237,7 +1265,7 @@ def FaktorniyAnaliz(def user, def dashboardName, def n, def data, def run, def a
     WebUI.closeBrowser()
 }
 
-def ViruchkaPoDZO(def user, def dashboardName, def n, def data, def run, def a1, def a2, def a3, def a4, def a5, def a6, def a7, def a8, def a9) {
+def ViruchkaPoDZO(def user, def dashboardName, def n, def data, def run, def a1, def a2, def a3, def a4, def a5, def a6, def a7, def a8, def a9, def urlData) {
     n = (data.getRowNumbers() + 1)
 
     println(n)
@@ -1246,7 +1274,11 @@ def ViruchkaPoDZO(def user, def dashboardName, def n, def data, def run, def a1,
 
     WebUI.openBrowser('')
 
-    WebUI.navigateToUrl(findTestData('PlanFact').getValue(10, 5))
+    urlData = 5
+
+    
+
+    CheckPageDownload(urlData)
 
     WebUI.setText(findTestObject('Страница авторизации/input__username'), findTestData('PlanFact').getValue(8, run))
 
@@ -1275,23 +1307,13 @@ def ViruchkaPoDZO(def user, def dashboardName, def n, def data, def run, def a1,
 
     WebUI.click(findTestObject('Выручка по ДЗО/2024 список'))
 
-    WebUI.scrollToElement(findTestObject('Выручка по ДЗО/1 квартал 2024 список'), 30)
+    WebUI.scrollToElement(findTestObject('Выручка по ДЗО/1 квартал 2024 выбрать'), 30)
 
-    WebUI.click(findTestObject('Выручка по ДЗО/1 квартал 2024 список'))
+    WebUI.click(findTestObject('Выручка по ДЗО/1 квартал 2024 выбрать'))
 
-    WebUI.click(findTestObject('Выручка по ДЗО/Январь 2024'))
+    WebUI.scrollToElement(findTestObject('Выручка по ДЗО/2 квартал 2024 выбрать'), 30)
 
-    WebUI.click(findTestObject('Выручка по ДЗО/Февраль 2024'))
-
-    WebUI.click(findTestObject('Выручка по ДЗО/Март 2024'))
-
-    WebUI.scrollToElement(findTestObject('Выручка по ДЗО/2 квартал 2024 список'), 30)
-
-    WebUI.click(findTestObject('Выручка по ДЗО/2 квартал 2024 список'), FailureHandling.CONTINUE_ON_FAILURE)
-
-    WebUI.click(findTestObject('Выручка по ДЗО/Апрель 2024'), FailureHandling.CONTINUE_ON_FAILURE)
-
-    WebUI.click(findTestObject('Выручка по ДЗО/Май 2024'))
+    WebUI.click(findTestObject('Выручка по ДЗО/2 квартал 2024 выбрать'), FailureHandling.CONTINUE_ON_FAILURE)
 
     'Проскроллить до заголовка фильтра "Дата"'
     WebUI.scrollToElement(findTestObject('Выручка по ДЗО/Заголовок дашборда'), 30)
@@ -1364,7 +1386,7 @@ def ViruchkaPoDZO(def user, def dashboardName, def n, def data, def run, def a1,
     WebUI.closeBrowser()
 }
 
-def PrognozPoDZO(def user, def dashboardName, def n, def data, def run, def a1, def a2, def a3, def a4, def a5, def a6, def a7, def a8, def a9) {
+def PrognozPoDZO(def user, def dashboardName, def n, def data, def run, def a1, def a2, def a3, def a4, def a5, def a6, def a7, def a8, def a9, def urlData) {
     n = (data.getRowNumbers() + 1)
 
     println(n)
@@ -1373,7 +1395,11 @@ def PrognozPoDZO(def user, def dashboardName, def n, def data, def run, def a1, 
 
     WebUI.openBrowser('')
 
-    WebUI.navigateToUrl(findTestData('PlanFact').getValue(10, 19))
+    urlData = 19
+
+    
+
+    CheckPageDownload(urlData)
 
     WebUI.setText(findTestObject('Страница авторизации/input__username'), findTestData('PlanFact').getValue(8, run))
 
@@ -1542,7 +1568,7 @@ def PrognozPoDZO(def user, def dashboardName, def n, def data, def run, def a1, 
     WebUI.closeBrowser()
 }
 
-def PrognozPoOtraslyam(def user, def dashboardName, def n, def data, def run, def a1, def a2, def a3, def a4, def a5, def a6, def a7, def a8, def a9) {
+def PrognozPoOtraslyam(def user, def dashboardName, def n, def data, def run, def a1, def a2, def a3, def a4, def a5, def a6, def a7, def a8, def a9, def urlData) {
     n = (data.getRowNumbers() + 1)
 
     println(n)
@@ -1551,7 +1577,11 @@ def PrognozPoOtraslyam(def user, def dashboardName, def n, def data, def run, de
 
     WebUI.openBrowser('')
 
-    WebUI.navigateToUrl(findTestData('PlanFact').getValue(10, 6))
+    urlData = 6
+
+    
+
+    CheckPageDownload(urlData)
 
     WebUI.setText(findTestObject('Страница авторизации/input__username'), findTestData('PlanFact').getValue(8, run))
 
