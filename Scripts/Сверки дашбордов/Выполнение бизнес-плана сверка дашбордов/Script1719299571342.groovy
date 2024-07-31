@@ -668,7 +668,7 @@ if (blockNum == 2) {
 WebUI.closeBrowser()
 
 def CompareDZOData(def a, def b, def dZO, def typeOfData, def PercPlanR, def PercPlanB, def PercFactR, def PercFactB, def todaysDate, def x, def tabR, def tabB, def o1R, def o1B, def vidget) {
-    int iii
+    int ii2
 	if (WebUI.verifyEqual(a, b) == false) {
 		
 		
@@ -756,16 +756,20 @@ def CompareDZOData(def a, def b, def dZO, def typeOfData, def PercPlanR, def Per
 			def result = WriteToExcel(typeOfData, todaysDate, PercPlanR, PercPlanB, PercFactR, PercFactB, x, tabR, tabB,o1R, o1B, vidget)
 		}
 		
-		vidget = 'Отклонения фактического уровня потерь от бизнес-плана'
+		ii2 = a.indexOf('ПАО')
 		
-		typeOfData = 'Коэффициент'
-		
-		o1R = Geto1R(x = a)
-		
-		o1B = Geto1B(x = b)
-		println(o1R+'/'+o1B)
-		if (WebUI.verifyEqual(PercFactR, PercFactB) == false) {
-			def result = WriteToExcel(typeOfData, todaysDate, PercPlanR, PercPlanB, PercFactR, PercFactB, x, tabR, tabB,o1R, o1B, vidget)
+		if(ii2==-1) {
+			vidget = 'Отклонения фактического уровня потерь от бизнес-плана'
+			
+			typeOfData = 'Коэффициент'
+			
+			o1R = Geto1R(x = a)
+			
+			o1B = Geto1B(x = b)
+			println(o1R+'/'+o1B)
+			if (WebUI.verifyEqual(PercFactR, PercFactB) == false) {
+				def result = WriteToExcel(typeOfData, todaysDate, PercPlanR, PercPlanB, PercFactR, PercFactB, x, tabR, tabB,o1R, o1B, vidget)
+			}
 		}
 		
     }

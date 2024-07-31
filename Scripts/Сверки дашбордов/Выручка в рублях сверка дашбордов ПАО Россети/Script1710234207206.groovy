@@ -585,9 +585,12 @@ static void Rosseti(def nameOfBlock) {
 }
 
 static def PreSettings(def run, def vir, def block, def nameOfBlock, def typeOfData, def todaysDate) {
-    WebUI.delay(30)
-
+	
     WebUI.openBrowser('')
+
+	WebUI.refresh()
+	
+	WebUI.delay(30)
 
     println('run:' + run)
 

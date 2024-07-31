@@ -17,3 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+String a = '2А%О ).«Тываэнерго»'
+a = a.replaceAll('[а-яА-Я]', '').replaceAll("\\p{P}", '')
+
+println(a)
