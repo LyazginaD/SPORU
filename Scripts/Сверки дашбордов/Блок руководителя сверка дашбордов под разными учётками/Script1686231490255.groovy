@@ -18,6 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.keyword.excel.ExcelKeywords as ExcelKeywords
 
+
 int run = 1
 
 def data = findTestData('PlanFact')
@@ -49,34 +50,34 @@ String a9
 String user
 
 for (run = 1; run < 4; run++) {
-    VipolnenieBiznesPlana(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9, urlData)
+	VipolnenieBiznesPlana(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9, urlData)
 }
 
-WebUI.delay(40)
+WebUI.delay(20)
 
 for (run = 1; run < 4; run++) {
-    ViruchkaVRublyah(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9, urlData)
+	ViruchkaVRublyah(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9, urlData)
 }
 
-WebUI.delay(40)
+WebUI.delay(20)
 
 for (run = 1; run < 4; run++) {
-    ObyemPoter(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9, urlData)
+	ObyemPoter(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9, urlData)
 }
 
-WebUI.delay(40)
+WebUI.delay(20)
 
 for (run = 1; run < 4; run++) {
-    OtpuskIzSeti(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9, urlData)
+	OtpuskIzSeti(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9, urlData)
 }
 
-WebUI.delay(40)
+WebUI.delay(20)
 
 for (run = 1; run < 4; run++) {
-    OtpuskVSet(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9, urlData)
+	OtpuskVSet(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9, urlData)
 }
 
-WebUI.delay(40)
+WebUI.delay(20)
 
 //for (run = 1; run < 4; run++) {
 //    PokazateliBalansa(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9, urlData)
@@ -85,1859 +86,1714 @@ WebUI.delay(40)
 //    OtpuskIzSeti2006(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9, urlData)
 //}
 for (run = 1; run < 4; run++) {
-    KotlovoyPolezniyOtpusk(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9, urlData)
+	KotlovoyPolezniyOtpusk(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9, urlData)
 }
 
-WebUI.delay(40)
+WebUI.delay(20)
 
 for (run = 1; run < 4; run++) {
-    FaktorniyAnaliz(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9, urlData)
+	FaktorniyAnaliz(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9, urlData)
 }
 
-WebUI.delay(40)
+WebUI.delay(20)
 
 for (run = 1; run < 4; run++) {
-    ViruchkaPoDZO(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9, urlData)
+	ViruchkaPoDZO(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9, urlData)
 }
 
-WebUI.delay(40)
+WebUI.delay(20)
 
 for (run = 1; run < 4; run++) {
-    PrognozPoDZO(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9, urlData)
+	PrognozPoDZO(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9, urlData)
 }
 
-WebUI.delay(40)
+WebUI.delay(20)
 
 for (run = 1; run < 4; run++) {
-    PrognozPoOtraslyam(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9, urlData)
+	PrognozPoOtraslyam(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9, urlData)
 }
 
-static def CheckPageDownload(def urlData) {
+static def CheckPageDownload(def urlData, def run) {
+	int i = 1
 	
-	String button = 'Страница авторизации/button_'
+	int ii = 0
 	
-    println(urlData)
+	String urlText
 	
+	boolean pageNotLoaded
+
+	String searchWord
+
 	WebUI.refresh()
-	
-	WebUI.delay(40)
-	
+
+	WebUI.delay(20)
+
 	WebUI.navigateToUrl(findTestData('PlanFact').getValue(10, urlData))
+
+	urlText = WebUI.getText(findTestObject('Страница авторизации/Text'))
 	
-	WebUI.delay(40)
+	WebUI.delay(10)
+
+	searchWord = 'Вход'
 	
+	if (urlText.contains(searchWord) == false) {
+		for(urlText.contains(searchWord)==false;i<4;ii++) {
+	
+			i = i +1
+			WebUI.refresh()
+			
+			WebUI.delay(20)
+			
+			WebUI.navigateToUrl(findTestData('PlanFact').getValue(10, urlData))
+			
+			WebUI.delay(10)
+					
+			urlText = WebUI.getText(findTestObject('Страница авторизации/Text'))
+		}
+	}
+	
+	WebUI.setText(findTestObject('Страница авторизации/input__username'), findTestData('PlanFact').getValue(8, run))
+
+	WebUI.setText(findTestObject('Страница авторизации/input__password'), findTestData('PlanFact').getValue(9, run))
+
+	WebUI.click(findTestObject('Страница авторизации/button_'))
+
+	WebUI.delay(50)
+
+	searchWord = 'а'
+
+	urlText = WebUI.getText(findTestObject('Страница авторизации/Text'))
+	
+	if (urlText.contains(searchWord) == false) {
+		for(urlText.contains(searchWord)==false;i<4;ii++) {
+	
+			i = i +1
+			WebUI.refresh()
+			
+			WebUI.delay(20)
+			
+			WebUI.navigateToUrl(findTestData('PlanFact').getValue(10, urlData))
+			
+			WebUI.delay(10)
+					
+			urlText = WebUI.getText(findTestObject('Страница авторизации/Text'))
+		}
+	}
 }
 
 def VipolnenieBiznesPlana(def user, def dashboardName, def n, def data, def run, def a1, def a2, def a3, def a4, def a5, def a6, def a7, def a8, def a9, def urlData) {
-    n = (data.getRowNumbers() + 1)
+	n = (data.getRowNumbers() + 1)
 
-    println(n)
+	println(n)
 
-    dashboardName = 'Выполнение бизнес-плана'
+	dashboardName = 'Выполнение бизнес-плана'
 
-    WebUI.openBrowser('')
+	WebUI.openBrowser('')
 
-    urlData = 1
+	urlData = 1
 
-    CheckPageDownload(urlData)
+	CheckPageDownload(urlData, run)
 
-    WebUI.setText(findTestObject('Страница авторизации/input__username'), findTestData('PlanFact').getValue(8, run))
+	ZakrytOpoveshenie()
 
-    WebUI.setText(findTestObject('Страница авторизации/input__password'), findTestData('PlanFact').getValue(9, run))
+	'Раскрыть фильтр "Дата"'
+	WebUI.click(findTestObject('Object Repository/Выполнение бизнес-плана/Фильтр Дата'))
 
-    WebUI.click(findTestObject('Страница авторизации/button_'))
+	'Нажать "Снять выделение"'
+	WebUI.click(findTestObject('Выполнение бизнес-плана/Снять выделение в фильтре Дата'))
 
-    WebUI.delay(40)
+	'Нажать "Применить"'
+	WebUI.click(findTestObject('Object Repository/Выполнение бизнес-плана/Применить в фильтре Дата'))
 
-    ZakrytOpoveshenie()
+	WebUI.delay(20)
 
-    'Раскрыть фильтр "Дата"'
-    WebUI.click(findTestObject('Object Repository/Выполнение бизнес-плана/Фильтр Дата'))
+	ZakrytOpoveshenie()
 
-    'Нажать "Снять выделение"'
-    WebUI.click(findTestObject('Выполнение бизнес-плана/Снять выделение в фильтре Дата'))
+	'Раскрыть фильтр "Дата"'
+	WebUI.click(findTestObject('Object Repository/Выполнение бизнес-плана/Фильтр Дата'))
 
-    'Нажать "Применить"'
-    WebUI.click(findTestObject('Object Repository/Выполнение бизнес-плана/Применить в фильтре Дата'))
+	WebUI.scrollToElement(findTestObject('Выполнение бизнес-плана/2024 список'), 30)
 
-    WebUI.delay(40)
+	'Выбрать 1 квартал 2022'
+	WebUI.click(findTestObject('Выполнение бизнес-плана/2024 список'))
 
-    ZakrytOpoveshenie()
+	'Выбрать 1 квартал 2022'
+	WebUI.scrollToElement(findTestObject('Выполнение бизнес-плана/4 квартал 2024 список'), 30)
 
-    'Раскрыть фильтр "Дата"'
-    WebUI.click(findTestObject('Object Repository/Выполнение бизнес-плана/Фильтр Дата'))
+	'Проскроллить до заголовка фильтра "Дата"'
+	WebUI.scrollToElement(findTestObject('Выполнение бизнес-плана/Заголовок дашборда'), 30)
 
-    WebUI.scrollToElement(findTestObject('Выполнение бизнес-плана/2024 список'), 30)
+	'Выбрать 1 квартал 2022'
+	WebUI.click(findTestObject('Выполнение бизнес-плана/1 квартал 2024 список'))
 
-    'Выбрать 1 квартал 2022'
-    WebUI.click(findTestObject('Выполнение бизнес-плана/2024 список'))
+	'Выбрать 1 квартал 2022'
+	WebUI.click(findTestObject('Выполнение бизнес-плана/Январь 2024'))
 
-    'Выбрать 1 квартал 2022'
-    WebUI.scrollToElement(findTestObject('Выполнение бизнес-плана/4 квартал 2024 список'), 30)
+	'Выбрать 1 квартал 2022'
+	WebUI.click(findTestObject('Выполнение бизнес-плана/Февраль 2024'))
 
-    'Проскроллить до заголовка фильтра "Дата"'
-    WebUI.scrollToElement(findTestObject('Выполнение бизнес-плана/Заголовок дашборда'), 30)
+	'Выбрать 1 квартал 2022'
+	WebUI.click(findTestObject('Выполнение бизнес-плана/Март 2024'))
 
-    'Выбрать 1 квартал 2022'
-    WebUI.click(findTestObject('Выполнение бизнес-плана/1 квартал 2024 список'))
+	'Выбрать 1 квартал 2022'
+	WebUI.scrollToElement(findTestObject('Выполнение бизнес-плана/2 квартал 2024'), 30)
 
-    'Выбрать 1 квартал 2022'
-    WebUI.click(findTestObject('Выполнение бизнес-плана/Январь 2024'))
+	'Выбрать 1 квартал 2022'
+	WebUI.click(findTestObject('Выполнение бизнес-плана/2 квартал 2024'))
 
-    'Выбрать 1 квартал 2022'
-    WebUI.click(findTestObject('Выполнение бизнес-плана/Февраль 2024'))
+	'Нажать "Применить"'
+	WebUI.click(findTestObject('Object Repository/Выполнение бизнес-плана/Применить в фильтре Дата'))
 
-    'Выбрать 1 квартал 2022'
-    WebUI.click(findTestObject('Выполнение бизнес-плана/Март 2024'))
+	'Проскроллить до заголовка фильтра "Дата"'
+	WebUI.scrollToElement(findTestObject('Выполнение бизнес-плана/Заголовок дашборда'), 30)
 
-    'Выбрать 1 квартал 2022'
-    WebUI.scrollToElement(findTestObject('Выполнение бизнес-плана/2 квартал 2024'), 30)
+	WebUI.delay(20)
 
-    'Выбрать 1 квартал 2022'
-    WebUI.click(findTestObject('Выполнение бизнес-плана/2 квартал 2024'))
+	'!'
+	ZakrytOpoveshenie()
 
-    'Нажать "Применить"'
-    WebUI.click(findTestObject('Object Repository/Выполнение бизнес-плана/Применить в фильтре Дата'))
+	'Открыть фильтр "ДЗО"'
+	WebUI.click(findTestObject('Object Repository/Выполнение бизнес-плана/Фильтр ДЗО'))
 
-    'Проскроллить до заголовка фильтра "Дата"'
-    WebUI.scrollToElement(findTestObject('Выполнение бизнес-плана/Заголовок дашборда'), 30)
+	'Нажать "Снять выделение"'
+	WebUI.click(findTestObject('Выполнение бизнес-плана/Снять выделение в фильтре ДЗО'))
 
-    WebUI.delay(40)
+	'Выбрать ПАО Россети'
+	WebUI.click(findTestObject('Выполнение бизнес-плана/ПАО Россети'))
 
-    '!'
-    ZakrytOpoveshenie()
+	'Нажать "Применить"'
+	WebUI.click(findTestObject('Object Repository/Выполнение бизнес-плана/Применить в фильтре ДЗО'))
 
-    'Открыть фильтр "ДЗО"'
-    WebUI.click(findTestObject('Object Repository/Выполнение бизнес-плана/Фильтр ДЗО'))
+	WebUI.delay(20)
 
-    'Нажать "Снять выделение"'
-    WebUI.click(findTestObject('Выполнение бизнес-плана/Снять выделение в фильтре ДЗО'))
+	if (run == 1) {
+		user = 'админ'
 
-    'Выбрать ПАО Россети'
-    WebUI.click(findTestObject('Выполнение бизнес-плана/ПАО Россети'))
+		a1 = WebUI.getText(findTestObject('Выполнение бизнес-плана/Проценты'))
 
-    'Нажать "Применить"'
-    WebUI.click(findTestObject('Object Repository/Выполнение бизнес-плана/Применить в фильтре ДЗО'))
+		a2 = WebUI.getText(findTestObject('Выполнение бизнес-плана/vidget 2'))
 
-    WebUI.delay(40)
+		a3 = WebUI.getText(findTestObject('Выполнение бизнес-плана/table'))
 
-    if (run == 1) {
-        user = 'админ'
+		a4 = WebUI.getText(findTestObject('Выполнение бизнес-плана/Список ДЗО'))
 
-        a1 = WebUI.getText(findTestObject('Выполнение бизнес-плана/Проценты'))
+		a5 = WebUI.getText(findTestObject('Выполнение бизнес-плана/svg1'))
 
-        a2 = WebUI.getText(findTestObject('Выполнение бизнес-плана/vidget 2'))
+		a6 = WebUI.getText(findTestObject('Выполнение бизнес-плана/svg2'))
 
-        a3 = WebUI.getText(findTestObject('Выполнение бизнес-плана/table'))
+		a7 = WebUI.getText(findTestObject('Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Факт Отпуск в сеть за отчётный период ПАО Россети'))
 
-        a4 = WebUI.getText(findTestObject('Выполнение бизнес-плана/Список ДЗО'))
+		a8 = WebUI.getText(findTestObject('Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Факт Отпуск из сети за отчётный период ПАО Россети'))
 
-        a5 = WebUI.getText(findTestObject('Выполнение бизнес-плана/svg1'))
+		a9 = WebUI.getText(findTestObject('Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Факт Потери за отчётный период ПАО Россети'))
 
-        a6 = WebUI.getText(findTestObject('Выполнение бизнес-плана/svg2'))
+		WriteToExcel(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
+	}
+	
+	if (run == 2) {
+		user = 'Андреева'
 
-        a7 = WebUI.getText(findTestObject('Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Факт Отпуск в сеть за отчётный период ПАО Россети'))
+		a1 = WebUI.getText(findTestObject('Выполнение бизнес-плана/Проценты'))
 
-        a8 = WebUI.getText(findTestObject('Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Факт Отпуск из сети за отчётный период ПАО Россети'))
+		a2 = WebUI.getText(findTestObject('Выполнение бизнес-плана/vidget 2'))
 
-        a9 = WebUI.getText(findTestObject('Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Факт Потери за отчётный период ПАО Россети'))
+		a3 = WebUI.getText(findTestObject('Выполнение бизнес-плана/table'))
 
-        WriteToExcel(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
-    }
-    
-    if (run == 2) {
-        user = 'Андреева'
-		
-		WebUI.refresh()
-		
-		WebUI.delay(40)
+		a4 = WebUI.getText(findTestObject('Выполнение бизнес-плана/Список ДЗО'))
 
-        a1 = WebUI.getText(findTestObject('Выполнение бизнес-плана/Проценты'))
+		a5 = WebUI.getText(findTestObject('Выполнение бизнес-плана/svg1'))
 
-        a2 = WebUI.getText(findTestObject('Выполнение бизнес-плана/vidget 2'))
+		a6 = WebUI.getText(findTestObject('Выполнение бизнес-плана/svg2'))
 
-        a3 = WebUI.getText(findTestObject('Выполнение бизнес-плана/table'))
+		a7 = WebUI.getText(findTestObject('Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Факт Отпуск в сеть за отчётный период ПАО Россети'))
 
-        a4 = WebUI.getText(findTestObject('Выполнение бизнес-плана/Список ДЗО'))
+		a8 = WebUI.getText(findTestObject('Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Факт Отпуск из сети за отчётный период ПАО Россети'))
 
-        a5 = WebUI.getText(findTestObject('Выполнение бизнес-плана/svg1'))
+		a9 = WebUI.getText(findTestObject('Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Факт Потери за отчётный период ПАО Россети'))
 
-        a6 = WebUI.getText(findTestObject('Выполнение бизнес-плана/svg2'))
+		n = (n + 1)
 
-        a7 = WebUI.getText(findTestObject('Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Факт Отпуск в сеть за отчётный период ПАО Россети'))
+		int b = data.getRowNumbers() + 1
 
-        a8 = WebUI.getText(findTestObject('Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Факт Отпуск из сети за отчётный период ПАО Россети'))
+		WebUI.verifyEqual(findTestData('PlanFact').getValue(2, b), a1)
 
-        a9 = WebUI.getText(findTestObject('Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Факт Потери за отчётный период ПАО Россети'))
+		WebUI.verifyEqual(findTestData('PlanFact').getValue(3, b), a2)
 
-        n = (n + 1)
+		WebUI.verifyEqual(findTestData('PlanFact').getValue(4, b), a3)
 
-        int b = data.getRowNumbers() + 1
+		WebUI.verifyEqual(findTestData('PlanFact').getValue(5, b), a4)
 
-        WebUI.verifyEqual(findTestData('PlanFact').getValue(2, b), a1)
+		WebUI.verifyEqual(findTestData('PlanFact').getValue(6, b), a5)
 
-        WebUI.verifyEqual(findTestData('PlanFact').getValue(3, b), a2)
+		WebUI.verifyEqual(findTestData('PlanFact').getValue(7, b), a6)
 
-        WebUI.verifyEqual(findTestData('PlanFact').getValue(4, b), a3)
+		WebUI.verifyEqual(findTestData('PlanFact').getValue(8, b), a7)
 
-        WebUI.verifyEqual(findTestData('PlanFact').getValue(5, b), a4)
+		WebUI.verifyEqual(findTestData('PlanFact').getValue(9, b), a8)
 
-        WebUI.verifyEqual(findTestData('PlanFact').getValue(6, b), a5)
+		WebUI.verifyEqual(findTestData('PlanFact').getValue(10, b), a9)
 
-        WebUI.verifyEqual(findTestData('PlanFact').getValue(7, b), a6)
+		WriteToExcel(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
+	}
+	
+	if (run == 3) {
+		user = 'Попова'
 
-        WebUI.verifyEqual(findTestData('PlanFact').getValue(8, b), a7)
+		a1 = WebUI.getText(findTestObject('Выполнение бизнес-плана/Проценты'))
 
-        WebUI.verifyEqual(findTestData('PlanFact').getValue(9, b), a8)
+		a2 = WebUI.getText(findTestObject('Выполнение бизнес-плана/vidget 2'))
 
-        WebUI.verifyEqual(findTestData('PlanFact').getValue(10, b), a9)
+		a3 = WebUI.getText(findTestObject('Выполнение бизнес-плана/table'))
 
-        WriteToExcel(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
-    }
-    
-    if (run == 3) {
-        user = 'Попова'
-		
-		WebUI.refresh()
-		
-		WebUI.delay(40)
+		a4 = WebUI.getText(findTestObject('Выполнение бизнес-плана/Список ДЗО'))
 
-        a1 = WebUI.getText(findTestObject('Выполнение бизнес-плана/Проценты'))
+		a5 = WebUI.getText(findTestObject('Выполнение бизнес-плана/svg1'))
 
-        a2 = WebUI.getText(findTestObject('Выполнение бизнес-плана/vidget 2'))
+		a6 = WebUI.getText(findTestObject('Выполнение бизнес-плана/svg2'))
 
-        a3 = WebUI.getText(findTestObject('Выполнение бизнес-плана/table'))
+		a7 = WebUI.getText(findTestObject('Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Факт Отпуск в сеть за отчётный период ПАО Россети'))
 
-        a4 = WebUI.getText(findTestObject('Выполнение бизнес-плана/Список ДЗО'))
+		a8 = WebUI.getText(findTestObject('Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Факт Отпуск из сети за отчётный период ПАО Россети'))
 
-        a5 = WebUI.getText(findTestObject('Выполнение бизнес-плана/svg1'))
+		a9 = WebUI.getText(findTestObject('Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Факт Потери за отчётный период ПАО Россети'))
 
-        a6 = WebUI.getText(findTestObject('Выполнение бизнес-плана/svg2'))
+		n = (n + 2)
 
-        a7 = WebUI.getText(findTestObject('Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Факт Отпуск в сеть за отчётный период ПАО Россети'))
+		int b = data.getRowNumbers() + 1
 
-        a8 = WebUI.getText(findTestObject('Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Факт Отпуск из сети за отчётный период ПАО Россети'))
+		WebUI.verifyEqual(findTestData('PlanFact').getValue(2, b), a1)
 
-        a9 = WebUI.getText(findTestObject('Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Факт Потери за отчётный период ПАО Россети'))
+		WebUI.verifyEqual(findTestData('PlanFact').getValue(3, b), a2)
 
-        n = (n + 2)
+		WebUI.verifyEqual(findTestData('PlanFact').getValue(4, b), a3)
 
-        int b = data.getRowNumbers() + 1
+		WebUI.verifyEqual(findTestData('PlanFact').getValue(5, b), a4)
 
-        WebUI.verifyEqual(findTestData('PlanFact').getValue(2, b), a1)
+		WebUI.verifyEqual(findTestData('PlanFact').getValue(6, b), a5)
 
-        WebUI.verifyEqual(findTestData('PlanFact').getValue(3, b), a2)
+		WebUI.verifyEqual(findTestData('PlanFact').getValue(7, b), a6)
 
-        WebUI.verifyEqual(findTestData('PlanFact').getValue(4, b), a3)
+		WebUI.verifyEqual(findTestData('PlanFact').getValue(8, b), a7)
 
-        WebUI.verifyEqual(findTestData('PlanFact').getValue(5, b), a4)
+		WebUI.verifyEqual(findTestData('PlanFact').getValue(9, b), a8)
 
-        WebUI.verifyEqual(findTestData('PlanFact').getValue(6, b), a5)
+		WebUI.verifyEqual(findTestData('PlanFact').getValue(10, b), a9)
 
-        WebUI.verifyEqual(findTestData('PlanFact').getValue(7, b), a6)
-
-        WebUI.verifyEqual(findTestData('PlanFact').getValue(8, b), a7)
-
-        WebUI.verifyEqual(findTestData('PlanFact').getValue(9, b), a8)
-
-        WebUI.verifyEqual(findTestData('PlanFact').getValue(10, b), a9)
-
-        WriteToExcel(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
-    }
-    
-    WebUI.closeBrowser()
+		WriteToExcel(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
+	}
+	
+	WebUI.closeBrowser()
 }
 
 def ViruchkaVRublyah(def user, def dashboardName, def n, def data, def run, def a1, def a2, def a3, def a4, def a5, def a6, def a7, def a8, def a9, def urlData) {
-    n = (data.getRowNumbers() + 1)
+	n = (data.getRowNumbers() + 1)
 
-    println(n)
+	println(n)
 
-    dashboardName = 'Вырука в рублях'
+	dashboardName = 'Вырука в рублях'
 
-    WebUI.openBrowser('')
+	WebUI.openBrowser('')
 
-    urlData = 2
+	urlData = 2
 
-    CheckPageDownload(urlData)
+	CheckPageDownload(urlData, run)
 
-    WebUI.setText(findTestObject('Страница авторизации/input__username'), findTestData('PlanFact').getValue(8, run))
+	'Раскрыть фильтр "Дата"'
+	WebUI.click(findTestObject('Выручка в рублях/Фильтр Период'))
 
-    WebUI.setText(findTestObject('Страница авторизации/input__password'), findTestData('PlanFact').getValue(9, run))
+	'Нажать "Снять выделение"'
+	WebUI.click(findTestObject('Выручка в рублях/Снять выделение в фильтре Дата'))
 
-    WebUI.click(findTestObject('Страница авторизации/button_'))
+	'Нажать "Применить"'
+	WebUI.click(findTestObject('Выручка в рублях/Применить в фильтре Дата'))
 
-    WebUI.delay(40)
+	'Раскрыть фильтр "Дата"'
+	WebUI.click(findTestObject('Выручка в рублях/Фильтр Период'))
 
-    'Раскрыть фильтр "Дата"'
-    WebUI.click(findTestObject('Выручка в рублях/Фильтр Период'))
+	'Нажать "Снять выделение"'
+	WebUI.click(findTestObject('Выручка в рублях/Снять выделение в фильтре Дата'))
 
-    'Нажать "Снять выделение"'
-    WebUI.click(findTestObject('Выручка в рублях/Снять выделение в фильтре Дата'))
+	WebUI.scrollToElement(findTestObject('Выручка в рублях/2024 список'), 30)
 
-    'Нажать "Применить"'
-    WebUI.click(findTestObject('Выручка в рублях/Применить в фильтре Дата'))
+	WebUI.click(findTestObject('Выручка в рублях/2024 список'))
 
-    'Раскрыть фильтр "Дата"'
-    WebUI.click(findTestObject('Выручка в рублях/Фильтр Период'))
+	WebUI.scrollToElement(findTestObject('Выручка в рублях/1 квартал 2024 выбрать'), 30)
 
-    'Нажать "Снять выделение"'
-    WebUI.click(findTestObject('Выручка в рублях/Снять выделение в фильтре Дата'))
+	WebUI.click(findTestObject('Выручка в рублях/1 квартал 2024 выбрать'), FailureHandling.CONTINUE_ON_FAILURE)
 
-    WebUI.scrollToElement(findTestObject('Выручка в рублях/2024 список'), 30)
+	WebUI.scrollToElement(findTestObject('Выручка в рублях/2 квартал 2024 выбрать'), 30)
 
-    WebUI.click(findTestObject('Выручка в рублях/2024 список'))
+	WebUI.click(findTestObject('Выручка в рублях/2 квартал 2024 выбрать'))
 
-    WebUI.scrollToElement(findTestObject('Выручка в рублях/1 квартал 2024 выбрать'), 30)
+	'Нажать "Применить"'
+	WebUI.click(findTestObject('Выручка в рублях/Применить в фильтре Дата'))
 
-    WebUI.click(findTestObject('Выручка в рублях/1 квартал 2024 выбрать'), FailureHandling.CONTINUE_ON_FAILURE)
+	'Проскроллить до заголовка фильтра "Дата"'
+	WebUI.scrollToElement(findTestObject('Выручка в рублях/Заголовок дашборда'), 30)
 
-    WebUI.scrollToElement(findTestObject('Выручка в рублях/2 квартал 2024 выбрать'), 30)
+	a5 = ''
 
-    WebUI.click(findTestObject('Выручка в рублях/2 квартал 2024 выбрать'))
+	a6 = ''
 
-    'Нажать "Применить"'
-    WebUI.click(findTestObject('Выручка в рублях/Применить в фильтре Дата'))
+	a7 = ''
 
-    'Проскроллить до заголовка фильтра "Дата"'
-    WebUI.scrollToElement(findTestObject('Выручка в рублях/Заголовок дашборда'), 30)
+	a8 = ''
 
-    a5 = ''
+	a9 = ''
 
-    a6 = ''
+	if (run == 1) {
+		user = 'админ'
 
-    a7 = ''
+		a1 = WebUI.getText(findTestObject('Выручка в рублях/График План'))
 
-    a8 = ''
+		a2 = WebUI.getText(findTestObject('Выручка в рублях/График Факт'))
 
-    a9 = ''
+		a3 = WebUI.getText(findTestObject('Выручка в рублях/График Отклонение выручки'))
 
-    if (run == 1) {
-        user = 'админ'
+		a3 = a3.substring(a3.lastIndexOf('Отклонение'))
 
-        a1 = WebUI.getText(findTestObject('Выручка в рублях/График План'))
+		WebUI.click(findTestObject('Выручка в рублях/Переключить отображение с млн на проценты Выручка в рублях'))
 
-        a2 = WebUI.getText(findTestObject('Выручка в рублях/График Факт'))
+		a4 = WebUI.getText(findTestObject('Выручка в рублях/График Отклонение выручки'))
 
-        a3 = WebUI.getText(findTestObject('Выручка в рублях/График Отклонение выручки'))
+		a4 = a4.substring(a4.lastIndexOf('Отклонение'))
 
-        a3 = a3.substring(a3.lastIndexOf('Отклонение'))
+		WebUI.click(findTestObject('Выручка в рублях/Переключить отображение с процентов на млн Выручка в рублях'))
 
-        WebUI.click(findTestObject('Выручка в рублях/Переключить отображение с млн на проценты Выручка в рублях'))
+		n = (n + 3)
 
-        a4 = WebUI.getText(findTestObject('Выручка в рублях/График Отклонение выручки'))
+		WriteToExcel(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
+	}
+	
+	if (run == 2) {
+		user = 'Андреева'
 
-        a4 = a4.substring(a4.lastIndexOf('Отклонение'))
-
-        WebUI.click(findTestObject('Выручка в рублях/Переключить отображение с процентов на млн Выручка в рублях'))
-
-        n = (n + 3)
-
-        WriteToExcel(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
-    }
-    
-    if (run == 2) {
-        user = 'Андреева'
-		
 		WebUI.refresh()
-		
-		WebUI.delay(40)
 
-        a1 = WebUI.getText(findTestObject('Выручка в рублях/График План'))
+		WebUI.delay(20)
 
-        a2 = WebUI.getText(findTestObject('Выручка в рублях/График Факт'))
+		a1 = WebUI.getText(findTestObject('Выручка в рублях/График План'))
 
-        a3 = WebUI.getText(findTestObject('Выручка в рублях/График Отклонение выручки'))
+		a2 = WebUI.getText(findTestObject('Выручка в рублях/График Факт'))
 
-        a3 = a3.substring(a3.lastIndexOf('Отклонение'))
+		a3 = WebUI.getText(findTestObject('Выручка в рублях/График Отклонение выручки'))
 
-        WebUI.click(findTestObject('Выручка в рублях/Переключить отображение с млн на проценты Выручка в рублях'))
+		a3 = a3.substring(a3.lastIndexOf('Отклонение'))
 
-        a4 = WebUI.getText(findTestObject('Выручка в рублях/График Отклонение выручки'))
+		WebUI.click(findTestObject('Выручка в рублях/Переключить отображение с млн на проценты Выручка в рублях'))
 
-        a4 = a4.substring(a4.lastIndexOf('Отклонение'))
+		a4 = WebUI.getText(findTestObject('Выручка в рублях/График Отклонение выручки'))
 
-        WebUI.click(findTestObject('Выручка в рублях/Переключить отображение с процентов на млн Выручка в рублях'))
+		a4 = a4.substring(a4.lastIndexOf('Отклонение'))
 
-        n = (n + 4)
+		WebUI.click(findTestObject('Выручка в рублях/Переключить отображение с процентов на млн Выручка в рублях'))
 
-        int b = (n - run) + 1
+		n = (n + 4)
 
-        WebUI.verifyEqual(findTestData('PlanFact').getValue(2, b), a1)
+		int b = (n - run) + 1
 
-        WebUI.verifyEqual(findTestData('PlanFact').getValue(3, b), a2)
+		WebUI.verifyEqual(findTestData('PlanFact').getValue(2, b), a1)
 
-        WebUI.verifyEqual(findTestData('PlanFact').getValue(4, b), a3)
+		WebUI.verifyEqual(findTestData('PlanFact').getValue(3, b), a2)
 
-        WebUI.verifyEqual(findTestData('PlanFact').getValue(5, b), a4)
+		WebUI.verifyEqual(findTestData('PlanFact').getValue(4, b), a3)
 
-        WriteToExcel(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
-    }
-    
-    if (run == 3) {
-        user = 'Попова'
-		
-		WebUI.refresh()
-		
-		WebUI.delay(40)
+		WebUI.verifyEqual(findTestData('PlanFact').getValue(5, b), a4)
 
-        a1 = WebUI.getText(findTestObject('Выручка в рублях/График План'))
+		WriteToExcel(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
+	}
+	
+	if (run == 3) {
+		user = 'Попова'
 
-        a2 = WebUI.getText(findTestObject('Выручка в рублях/График Факт'))
+		a1 = WebUI.getText(findTestObject('Выручка в рублях/График План'))
 
-        a3 = WebUI.getText(findTestObject('Выручка в рублях/График Отклонение выручки'))
+		a2 = WebUI.getText(findTestObject('Выручка в рублях/График Факт'))
 
-        a3 = a3.substring(a3.lastIndexOf('Отклонение'))
+		a3 = WebUI.getText(findTestObject('Выручка в рублях/График Отклонение выручки'))
 
-        WebUI.click(findTestObject('Выручка в рублях/Переключить отображение с млн на проценты Выручка в рублях'))
+		a3 = a3.substring(a3.lastIndexOf('Отклонение'))
 
-        a4 = WebUI.getText(findTestObject('Выручка в рублях/График Отклонение выручки'))
+		WebUI.click(findTestObject('Выручка в рублях/Переключить отображение с млн на проценты Выручка в рублях'))
 
-        a4 = a4.substring(a4.lastIndexOf('Отклонение'))
+		a4 = WebUI.getText(findTestObject('Выручка в рублях/График Отклонение выручки'))
 
-        WebUI.click(findTestObject('Выручка в рублях/Переключить отображение с процентов на млн Выручка в рублях'))
+		a4 = a4.substring(a4.lastIndexOf('Отклонение'))
 
-        n = (n + 5)
+		WebUI.click(findTestObject('Выручка в рублях/Переключить отображение с процентов на млн Выручка в рублях'))
 
-        int b = (n - run) + 1
+		n = (n + 5)
 
-        WebUI.verifyEqual(findTestData('PlanFact').getValue(2, b), a1)
+		int b = (n - run) + 1
 
-        WebUI.verifyEqual(findTestData('PlanFact').getValue(3, b), a2)
+		WebUI.verifyEqual(findTestData('PlanFact').getValue(2, b), a1)
 
-        WebUI.verifyEqual(findTestData('PlanFact').getValue(4, b), a3)
+		WebUI.verifyEqual(findTestData('PlanFact').getValue(3, b), a2)
 
-        WebUI.verifyEqual(findTestData('PlanFact').getValue(5, b), a4)
+		WebUI.verifyEqual(findTestData('PlanFact').getValue(4, b), a3)
 
-        WriteToExcel(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
-    }
-    
-    WebUI.closeBrowser()
+		WebUI.verifyEqual(findTestData('PlanFact').getValue(5, b), a4)
+
+		WriteToExcel(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
+	}
+	
+	WebUI.closeBrowser()
 }
 
 def ObyemPoter(def user, def dashboardName, def n, def data, def run, def a1, def a2, def a3, def a4, def a5, def a6, def a7, def a8, def a9, def urlData) {
-    n = (data.getRowNumbers() + 1)
+	n = (data.getRowNumbers() + 1)
 
-    println(n)
+	println(n)
 
-    dashboardName = 'Объём потерь'
+	dashboardName = 'Объём потерь'
 
-    WebUI.openBrowser('')
+	WebUI.openBrowser('')
 
-    urlData = 14
+	urlData = 14
 
-    CheckPageDownload(urlData)
+	CheckPageDownload(urlData, run)
 
-    WebUI.setText(findTestObject('Страница авторизации/input__username'), findTestData('PlanFact').getValue(8, run))
+	a9 = ''
 
-    WebUI.setText(findTestObject('Страница авторизации/input__password'), findTestData('PlanFact').getValue(9, run))
+	a3 = ''
 
-    WebUI.click(findTestObject('Страница авторизации/button_'))
+	a6 = ''
 
-    WebUI.delay(40)
+	if (run == 1) {
+		user = 'админ'
 
-    a9 = ''
+		a1 = WebUI.getText(findTestObject('Объем потерь/divObemPoter'))
 
-    a3 = ''
+		a2 = WebUI.getText(findTestObject('Объем потерь/divUrovenPoter'))
 
-    a6 = ''
+		a3 = WebUI.getText(findTestObject('Объем потерь/divOtkloneniyaObemaPoter'))
 
-    if (run == 1) {
-        user = 'админ'
+		a4 = WebUI.getText(findTestObject('Объем потерь/divOtkloneniyaUrovnyaPoter'))
 
-        a1 = WebUI.getText(findTestObject('Объем потерь/divObemPoter'))
+		n = (n + 6)
 
-        a2 = WebUI.getText(findTestObject('Объем потерь/divUrovenPoter'))
+		WriteToExcel(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
+	}
+	
+	if (run == 2) {
+		user = 'Андреева'
 
-        a3 = WebUI.getText(findTestObject('Объем потерь/divOtkloneniyaObemaPoter'))
+		a1 = WebUI.getText(findTestObject('Объем потерь/divObemPoter'))
 
-        a4 = WebUI.getText(findTestObject('Объем потерь/divOtkloneniyaUrovnyaPoter'))
+		a2 = WebUI.getText(findTestObject('Объем потерь/divUrovenPoter'))
 
-        n = (n + 6)
+		a3 = WebUI.getText(findTestObject('Объем потерь/divOtkloneniyaObemaPoter'))
 
-        WriteToExcel(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
-    }
-    
-    if (run == 2) {
-        user = 'Андреева'
-		
-		WebUI.refresh()
-		
-		WebUI.delay(40)
+		a4 = WebUI.getText(findTestObject('Объем потерь/divOtkloneniyaUrovnyaPoter'))
 
-        a1 = WebUI.getText(findTestObject('Объем потерь/divObemPoter'))
+		n = (n + 7)
 
-        a2 = WebUI.getText(findTestObject('Объем потерь/divUrovenPoter'))
+		int b = (n - run) + 1
 
-        a3 = WebUI.getText(findTestObject('Объем потерь/divOtkloneniyaObemaPoter'))
+		WebUI.verifyEqual(findTestData('PlanFact').getValue(2, b), a1)
 
-        a4 = WebUI.getText(findTestObject('Объем потерь/divOtkloneniyaUrovnyaPoter'))
+		WebUI.verifyEqual(findTestData('PlanFact').getValue(3, b), a2)
 
-        n = (n + 7)
+		WebUI.verifyEqual(findTestData('PlanFact').getValue(4, b), a3)
 
-        int b = (n - run) + 1
+		WebUI.verifyEqual(findTestData('PlanFact').getValue(5, b), a4)
 
-        WebUI.verifyEqual(findTestData('PlanFact').getValue(2, b), a1)
+		WriteToExcel(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
+	}
+	
+	if (run == 3) {
+		user = 'Попова'
 
-        WebUI.verifyEqual(findTestData('PlanFact').getValue(3, b), a2)
+		a1 = WebUI.getText(findTestObject('Объем потерь/divObemPoter'))
 
-        WebUI.verifyEqual(findTestData('PlanFact').getValue(4, b), a3)
+		a2 = WebUI.getText(findTestObject('Объем потерь/divUrovenPoter'))
 
-        WebUI.verifyEqual(findTestData('PlanFact').getValue(5, b), a4)
+		a3 = WebUI.getText(findTestObject('Объем потерь/divOtkloneniyaObemaPoter'))
 
-        WriteToExcel(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
-    }
-    
-    if (run == 3) {
-        user = 'Попова'
-		
-		WebUI.refresh()
-		
-		WebUI.delay(40)
+		a4 = WebUI.getText(findTestObject('Объем потерь/divOtkloneniyaUrovnyaPoter'))
 
-        a1 = WebUI.getText(findTestObject('Объем потерь/divObemPoter'))
+		n = (n + 8)
 
-        a2 = WebUI.getText(findTestObject('Объем потерь/divUrovenPoter'))
+		int b = (n - run) + 1
 
-        a3 = WebUI.getText(findTestObject('Объем потерь/divOtkloneniyaObemaPoter'))
+		WebUI.verifyEqual(findTestData('PlanFact').getValue(2, b), a1)
 
-        a4 = WebUI.getText(findTestObject('Объем потерь/divOtkloneniyaUrovnyaPoter'))
+		WebUI.verifyEqual(findTestData('PlanFact').getValue(3, b), a2)
 
-        n = (n + 8)
+		WebUI.verifyEqual(findTestData('PlanFact').getValue(4, b), a3)
 
-        int b = (n - run) + 1
+		WebUI.verifyEqual(findTestData('PlanFact').getValue(5, b), a4)
 
-        WebUI.verifyEqual(findTestData('PlanFact').getValue(2, b), a1)
-
-        WebUI.verifyEqual(findTestData('PlanFact').getValue(3, b), a2)
-
-        WebUI.verifyEqual(findTestData('PlanFact').getValue(4, b), a3)
-
-        WebUI.verifyEqual(findTestData('PlanFact').getValue(5, b), a4)
-
-        WriteToExcel(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
-    }
-    
-    WebUI.closeBrowser()
+		WriteToExcel(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
+	}
+	
+	WebUI.closeBrowser()
 }
 
 def OtpuskIzSeti(def user, def dashboardName, def n, def data, def run, def a1, def a2, def a3, def a4, def a5, def a6, def a7, def a8, def a9, def urlData) {
-    n = (data.getRowNumbers() + 1)
+	n = (data.getRowNumbers() + 1)
 
-    println(n)
+	println(n)
 
-    dashboardName = 'Отпуск из сети'
+	dashboardName = 'Отпуск из сети'
 
-    WebUI.openBrowser('')
+	WebUI.openBrowser('')
 
-    urlData = 15
+	urlData = 15
 
-    CheckPageDownload(urlData)
+	CheckPageDownload(urlData, run)
 
-    WebUI.setText(findTestObject('Страница авторизации/input__username'), findTestData('PlanFact').getValue(8, run))
+	a6 = ''
 
-    WebUI.setText(findTestObject('Страница авторизации/input__password'), findTestData('PlanFact').getValue(9, run))
+	a7 = ''
 
-    WebUI.click(findTestObject('Страница авторизации/button_'))
+	a8 = ''
 
-    WebUI.delay(40)
+	a9 = ''
 
-    a6 = ''
+	if (run == 1) {
+		user = 'админ'
 
-    a7 = ''
+		a1 = WebUI.getText(findTestObject('Отпуск из сети/span1'))
 
-    a8 = ''
+		a2 = WebUI.getText(findTestObject('Отпуск из сети/span2'))
 
-    a9 = ''
+		a3 = WebUI.getText(findTestObject('Отпуск из сети/span3'))
 
-    if (run == 1) {
-        user = 'админ'
+		a4 = WebUI.getText(findTestObject('Отпуск из сети/График1'))
 
-        a1 = WebUI.getText(findTestObject('Отпуск из сети/span1'))
+		a5 = WebUI.getText(findTestObject('Отпуск из сети/График2'))
 
-        a2 = WebUI.getText(findTestObject('Отпуск из сети/span2'))
+		n = (n + 9)
 
-        a3 = WebUI.getText(findTestObject('Отпуск из сети/span3'))
+		WriteToExcel(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
+	}
+	
+	if (run == 2) {
+		user = 'Андреева'
 
-        a4 = WebUI.getText(findTestObject('Отпуск из сети/График1'))
+		a1 = WebUI.getText(findTestObject('Отпуск из сети/span1'))
 
-        a5 = WebUI.getText(findTestObject('Отпуск из сети/График2'))
+		a2 = WebUI.getText(findTestObject('Отпуск из сети/span2'))
 
-        n = (n + 9)
+		a3 = WebUI.getText(findTestObject('Отпуск из сети/span3'))
 
-        WriteToExcel(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
-    }
-    
-    if (run == 2) {
-        user = 'Андреева'
-		
-		WebUI.refresh()
-		
-		WebUI.delay(40)
+		a4 = WebUI.getText(findTestObject('Отпуск из сети/График1'))
 
-        a1 = WebUI.getText(findTestObject('Отпуск из сети/span1'))
+		a5 = WebUI.getText(findTestObject('Отпуск из сети/График2'))
 
-        a2 = WebUI.getText(findTestObject('Отпуск из сети/span2'))
+		n = (n + 10)
 
-        a3 = WebUI.getText(findTestObject('Отпуск из сети/span3'))
+		int b = (n - run) + 1
 
-        a4 = WebUI.getText(findTestObject('Отпуск из сети/График1'))
+		WebUI.verifyEqual(findTestData('PlanFact').getValue(2, b), a1)
 
-        a5 = WebUI.getText(findTestObject('Отпуск из сети/График2'))
+		WebUI.verifyEqual(findTestData('PlanFact').getValue(3, b), a2)
 
-        n = (n + 10)
+		WebUI.verifyEqual(findTestData('PlanFact').getValue(4, b), a3)
 
-        int b = (n - run) + 1
+		WebUI.verifyEqual(findTestData('PlanFact').getValue(5, b), a4)
 
-        WebUI.verifyEqual(findTestData('PlanFact').getValue(2, b), a1)
+		WebUI.verifyEqual(findTestData('PlanFact').getValue(6, b), a5)
 
-        WebUI.verifyEqual(findTestData('PlanFact').getValue(3, b), a2)
+		WriteToExcel(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
+	}
+	
+	if (run == 3) {
+		user = 'Попова'
 
-        WebUI.verifyEqual(findTestData('PlanFact').getValue(4, b), a3)
+		a1 = WebUI.getText(findTestObject('Отпуск из сети/span1'))
 
-        WebUI.verifyEqual(findTestData('PlanFact').getValue(5, b), a4)
+		a2 = WebUI.getText(findTestObject('Отпуск из сети/span2'))
 
-        WebUI.verifyEqual(findTestData('PlanFact').getValue(6, b), a5)
+		a3 = WebUI.getText(findTestObject('Отпуск из сети/span3'))
 
-        WriteToExcel(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
-    }
-    
-    if (run == 3) {
-        user = 'Попова'
-		
-		WebUI.refresh()
-		
-		WebUI.delay(40)
+		a4 = WebUI.getText(findTestObject('Отпуск из сети/График1'))
 
-        a1 = WebUI.getText(findTestObject('Отпуск из сети/span1'))
+		a5 = WebUI.getText(findTestObject('Отпуск из сети/График2'))
 
-        a2 = WebUI.getText(findTestObject('Отпуск из сети/span2'))
+		n = (n + 11)
 
-        a3 = WebUI.getText(findTestObject('Отпуск из сети/span3'))
+		int b = (n - run) + 1
 
-        a4 = WebUI.getText(findTestObject('Отпуск из сети/График1'))
+		WebUI.verifyEqual(findTestData('PlanFact').getValue(2, b), a1)
 
-        a5 = WebUI.getText(findTestObject('Отпуск из сети/График2'))
+		WebUI.verifyEqual(findTestData('PlanFact').getValue(3, b), a2)
 
-        n = (n + 11)
+		WebUI.verifyEqual(findTestData('PlanFact').getValue(4, b), a3)
 
-        int b = (n - run) + 1
+		WebUI.verifyEqual(findTestData('PlanFact').getValue(5, b), a4)
 
-        WebUI.verifyEqual(findTestData('PlanFact').getValue(2, b), a1)
+		WebUI.verifyEqual(findTestData('PlanFact').getValue(6, b), a5)
 
-        WebUI.verifyEqual(findTestData('PlanFact').getValue(3, b), a2)
-
-        WebUI.verifyEqual(findTestData('PlanFact').getValue(4, b), a3)
-
-        WebUI.verifyEqual(findTestData('PlanFact').getValue(5, b), a4)
-
-        WebUI.verifyEqual(findTestData('PlanFact').getValue(6, b), a5)
-
-        WriteToExcel(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
-    }
-    
-    WebUI.closeBrowser()
+		WriteToExcel(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
+	}
+	
+	WebUI.closeBrowser()
 }
 
 def OtpuskVSet(def user, def dashboardName, def n, def data, def run, def a1, def a2, def a3, def a4, def a5, def a6, def a7, def a8, def a9, def urlData) {
-    n = (data.getRowNumbers() + 1)
+	n = (data.getRowNumbers() + 1)
 
-    println(n)
+	println(n)
 
-    dashboardName = 'Отпуск в сеть'
+	dashboardName = 'Отпуск в сеть'
 
-    WebUI.openBrowser('')
+	WebUI.openBrowser('')
 
-    urlData = 16
+	urlData = 16
 
-    CheckPageDownload(urlData)
+	CheckPageDownload(urlData, run)
 
-    WebUI.setText(findTestObject('Страница авторизации/input__username'), findTestData('PlanFact').getValue(8, run))
+	a5 = ''
 
-    WebUI.setText(findTestObject('Страница авторизации/input__password'), findTestData('PlanFact').getValue(9, run))
+	a6 = ''
 
-    WebUI.click(findTestObject('Страница авторизации/button_'))
+	a7 = ''
 
-    WebUI.delay(40)
+	a8 = ''
 
-    a5 = ''
+	a9 = ''
 
-    a6 = ''
+	if (run == 1) {
+		user = 'админ'
 
-    a7 = ''
+		a1 = WebUI.getText(findTestObject('Отпуск в сеть/span1'))
 
-    a8 = ''
+		a2 = WebUI.getText(findTestObject('Отпуск в сеть/span2'))
 
-    a9 = ''
+		a3 = WebUI.getText(findTestObject('Отпуск в сеть/График1'))
 
-    if (run == 1) {
-        user = 'админ'
+		a4 = WebUI.getText(findTestObject('Отпуск в сеть/График2'))
 
-        a1 = WebUI.getText(findTestObject('Отпуск в сеть/span1'))
+		n = (n + 12)
 
-        a2 = WebUI.getText(findTestObject('Отпуск в сеть/span2'))
+		WriteToExcel(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
+	}
+	
+	if (run == 2) {
+		user = 'Андреева'
 
-        a3 = WebUI.getText(findTestObject('Отпуск в сеть/График1'))
+		a1 = WebUI.getText(findTestObject('Отпуск в сеть/span1'))
 
-        a4 = WebUI.getText(findTestObject('Отпуск в сеть/График2'))
+		a2 = WebUI.getText(findTestObject('Отпуск в сеть/span2'))
 
-        n = (n + 12)
+		a3 = WebUI.getText(findTestObject('Отпуск в сеть/График1'))
 
-        WriteToExcel(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
-    }
-    
-    if (run == 2) {
-        user = 'Андреева'
-		
-		WebUI.refresh()
-		
-		WebUI.delay(40)
+		a4 = WebUI.getText(findTestObject('Отпуск в сеть/График2'))
 
-        a1 = WebUI.getText(findTestObject('Отпуск в сеть/span1'))
+		n = (n + 13)
 
-        a2 = WebUI.getText(findTestObject('Отпуск в сеть/span2'))
+		int b = (n - run) + 1
 
-        a3 = WebUI.getText(findTestObject('Отпуск в сеть/График1'))
+		WebUI.verifyEqual(findTestData('PlanFact').getValue(2, b), a1)
 
-        a4 = WebUI.getText(findTestObject('Отпуск в сеть/График2'))
+		WebUI.verifyEqual(findTestData('PlanFact').getValue(3, b), a2)
 
-        n = (n + 13)
+		WebUI.verifyEqual(findTestData('PlanFact').getValue(4, b), a3)
 
-        int b = (n - run) + 1
+		WebUI.verifyEqual(findTestData('PlanFact').getValue(5, b), a4)
 
-        WebUI.verifyEqual(findTestData('PlanFact').getValue(2, b), a1)
+		WriteToExcel(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
+	}
+	
+	if (run == 3) {
+		user = 'Попова'
 
-        WebUI.verifyEqual(findTestData('PlanFact').getValue(3, b), a2)
+		a1 = WebUI.getText(findTestObject('Отпуск в сеть/span1'))
 
-        WebUI.verifyEqual(findTestData('PlanFact').getValue(4, b), a3)
+		a2 = WebUI.getText(findTestObject('Отпуск в сеть/span2'))
 
-        WebUI.verifyEqual(findTestData('PlanFact').getValue(5, b), a4)
+		a3 = WebUI.getText(findTestObject('Отпуск в сеть/График1'))
 
-        WriteToExcel(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
-    }
-    
-    if (run == 3) {
-        user = 'Попова'
-		
-		WebUI.refresh()
-		
-		WebUI.delay(40)
+		a4 = WebUI.getText(findTestObject('Отпуск в сеть/График2'))
 
-        a1 = WebUI.getText(findTestObject('Отпуск в сеть/span1'))
+		n = (n + 14)
 
-        a2 = WebUI.getText(findTestObject('Отпуск в сеть/span2'))
+		int b = (n - run) + 1
 
-        a3 = WebUI.getText(findTestObject('Отпуск в сеть/График1'))
+		WebUI.verifyEqual(findTestData('PlanFact').getValue(2, b), a1)
 
-        a4 = WebUI.getText(findTestObject('Отпуск в сеть/График2'))
+		WebUI.verifyEqual(findTestData('PlanFact').getValue(3, b), a2)
 
-        n = (n + 14)
+		WebUI.verifyEqual(findTestData('PlanFact').getValue(4, b), a3)
 
-        int b = (n - run) + 1
+		WebUI.verifyEqual(findTestData('PlanFact').getValue(5, b), a4)
 
-        WebUI.verifyEqual(findTestData('PlanFact').getValue(2, b), a1)
-
-        WebUI.verifyEqual(findTestData('PlanFact').getValue(3, b), a2)
-
-        WebUI.verifyEqual(findTestData('PlanFact').getValue(4, b), a3)
-
-        WebUI.verifyEqual(findTestData('PlanFact').getValue(5, b), a4)
-
-        WriteToExcel(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
-    }
-    
-    WebUI.closeBrowser()
+		WriteToExcel(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
+	}
+	
+	WebUI.closeBrowser()
 }
 
 def PokazateliBalansa(def user, def dashboardName, def n, def data, def run, def a1, def a2, def a3, def a4, def a5, def a6, def a7, def a8, def a9, def urlData) {
-    n = (data.getRowNumbers() + 1)
+	n = (data.getRowNumbers() + 1)
 
-    println(n)
+	println(n)
 
-    dashboardName = 'Показатели баланса электроэнергии 2006-2021'
+	dashboardName = 'Показатели баланса электроэнергии 2006-2021'
 
-    WebUI.openBrowser('')
+	WebUI.openBrowser('')
 
-    urlData = 8
+	urlData = 8
 
-    CheckPageDownload(urlData)
+	CheckPageDownload(urlData, run)
 
-    WebUI.setText(findTestObject('Страница авторизации/input__username'), findTestData('PlanFact').getValue(8, run))
+	a2 = ''
 
-    WebUI.setText(findTestObject('Страница авторизации/input__password'), findTestData('PlanFact').getValue(9, run))
+	a3 = ''
 
-    WebUI.click(findTestObject('Страница авторизации/button_'))
+	a4 = ''
 
-    WebUI.delay(40)
+	a5 = ''
 
-    a2 = ''
+	a6 = ''
 
-    a3 = ''
+	a7 = ''
 
-    a4 = ''
+	a8 = ''
 
-    a5 = ''
+	a9 = ''
 
-    a6 = ''
+	if (run == 1) {
+		user = 'админ'
 
-    a7 = ''
+		a1 = WebUI.getText(findTestObject('Показатели баланса электроэнергии 2006-2021/График1'))
 
-    a8 = ''
+		int i = 274
 
-    a9 = ''
+		a1 = a1.substring(i, a1.length())
 
-    if (run == 1) {
-        user = 'админ'
-		
-		WebUI.refresh()
-		
-		WebUI.delay(40)
+		n = (n + 15)
 
-        a1 = WebUI.getText(findTestObject('Показатели баланса электроэнергии 2006-2021/График1'))
+		WriteToExcel(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
+	}
+	
+	if (run == 2) {
+		user = 'Андреева'
 
-        int i = 274
+		a1 = WebUI.getText(findTestObject('Показатели баланса электроэнергии 2006-2021/График1'))
 
-        a1 = a1.substring(i, a1.length())
+		int i = 274
 
-        n = (n + 15)
+		a1 = a1.substring(i, a1.length())
 
-        WriteToExcel(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
-    }
-    
-    if (run == 2) {
-        user = 'Андреева'
-		
-		WebUI.refresh()
-		
-		WebUI.delay(40)
+		n = (n + 16)
 
-        a1 = WebUI.getText(findTestObject('Показатели баланса электроэнергии 2006-2021/График1'))
+		int b = (n - run) + 1
 
-        int i = 274
+		WebUI.verifyEqual(findTestData('PlanFact').getValue(2, b), a1)
 
-        a1 = a1.substring(i, a1.length())
+		WriteToExcel(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
+	}
+	
+	if (run == 3) {
+		user = 'Попова'
 
-        n = (n + 16)
+		a1 = WebUI.getText(findTestObject('Показатели баланса электроэнергии 2006-2021/График1'))
 
-        int b = (n - run) + 1
+		int i = 274
 
-        WebUI.verifyEqual(findTestData('PlanFact').getValue(2, b), a1)
+		a1 = a1.substring(i, a1.length())
 
-        WriteToExcel(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
-    }
-    
-    if (run == 3) {
-        user = 'Попова'
+		n = (n + 17)
 
-        a1 = WebUI.getText(findTestObject('Показатели баланса электроэнергии 2006-2021/График1'))
+		int b = (n - run) + 1
 
-        int i = 274
+		WebUI.verifyEqual(findTestData('PlanFact').getValue(2, b), a1)
 
-        a1 = a1.substring(i, a1.length())
-
-        n = (n + 17)
-
-        int b = (n - run) + 1
-
-        WebUI.verifyEqual(findTestData('PlanFact').getValue(2, b), a1)
-
-        WriteToExcel(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
-    }
-    
-    WebUI.closeBrowser()
+		WriteToExcel(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
+	}
+	
+	WebUI.closeBrowser()
 }
 
 def OtpuskIzSeti2006(def user, def dashboardName, def n, def data, def run, def a1, def a2, def a3, def a4, def a5, def a6, def a7, def a8, def a9, def urlData) {
-    n = (data.getRowNumbers() + 1)
+	n = (data.getRowNumbers() + 1)
 
-    println(n)
+	println(n)
 
-    dashboardName = 'Отпуск из сети 2006-2021'
+	dashboardName = 'Отпуск из сети 2006-2021'
 
-    WebUI.openBrowser('')
+	WebUI.openBrowser('')
 
-    urlData = 7
+	urlData = 7
 
-    CheckPageDownload(urlData)
+	CheckPageDownload(urlData, run)
 
-    WebUI.setText(findTestObject('Страница авторизации/input__username'), findTestData('PlanFact').getValue(8, run))
+	a2 = ''
 
-    WebUI.setText(findTestObject('Страница авторизации/input__password'), findTestData('PlanFact').getValue(9, run))
+	a3 = ''
 
-    WebUI.click(findTestObject('Страница авторизации/button_'))
+	a4 = ''
 
-    WebUI.delay(40)
+	a5 = ''
 
-    a2 = ''
+	a6 = ''
 
-    a3 = ''
+	a7 = ''
 
-    a4 = ''
+	a8 = ''
 
-    a5 = ''
+	a9 = ''
 
-    a6 = ''
+	if (run == 1) {
+		user = 'админ'
 
-    a7 = ''
+		a1 = WebUI.getText(findTestObject('Отпуск из сети 2006-2021/График1'))
 
-    a8 = ''
+		a1 = a1.replaceAll('\\s+', '')
 
-    a9 = ''
+		n = (n + 18)
 
-    if (run == 1) {
-        user = 'админ'
+		WriteToExcel(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
+	}
+	
+	if (run == 2) {
+		user = 'Андреева'
 
-        a1 = WebUI.getText(findTestObject('Отпуск из сети 2006-2021/График1'))
+		a1 = WebUI.getText(findTestObject('Отпуск из сети 2006-2021/График1'))
 
-        a1 = a1.replaceAll('\\s+', '')
+		a1 = a1.replaceAll('\\s+', '')
 
-        n = (n + 18)
+		n = (n + 19)
 
-        WriteToExcel(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
-    }
-    
-    if (run == 2) {
-        user = 'Андреева'
-		
+		int b = (n - run) + 1
+
+		WebUI.verifyEqual(findTestData('PlanFact').getValue(2, b), a1)
+
+		WriteToExcel(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
+	}
+	
+	if (run == 3) {
+		user = 'Попова'
+
 		WebUI.refresh()
-		
-		WebUI.delay(40)
 
-        a1 = WebUI.getText(findTestObject('Отпуск из сети 2006-2021/График1'))
+		WebUI.delay(20)
 
-        a1 = a1.replaceAll('\\s+', '')
+		a1 = WebUI.getText(findTestObject('Отпуск из сети 2006-2021/График1'))
 
-        n = (n + 19)
+		a1 = a1.replaceAll('\\s+', '')
 
-        int b = (n - run) + 1
+		n = (n + 20)
 
-        WebUI.verifyEqual(findTestData('PlanFact').getValue(2, b), a1)
+		int b = (n - run) + 1
 
-        WriteToExcel(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
-    }
-    
-    if (run == 3) {
-        user = 'Попова'
-		
-		WebUI.refresh()
-		
-		WebUI.delay(40)
+		WebUI.verifyEqual(findTestData('PlanFact').getValue(2, b), a1)
 
-        a1 = WebUI.getText(findTestObject('Отпуск из сети 2006-2021/График1'))
-
-        a1 = a1.replaceAll('\\s+', '')
-
-        n = (n + 20)
-
-        int b = (n - run) + 1
-
-        WebUI.verifyEqual(findTestData('PlanFact').getValue(2, b), a1)
-
-        WriteToExcel(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
-    }
-    
-    WebUI.closeBrowser()
+		WriteToExcel(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
+	}
+	
+	WebUI.closeBrowser()
 }
 
 def KotlovoyPolezniyOtpusk(def user, def dashboardName, def n, def data, def run, def a1, def a2, def a3, def a4, def a5, def a6, def a7, def a8, def a9, def urlData) {
-    n = (data.getRowNumbers() + 1)
+	n = (data.getRowNumbers() + 1)
 
-    println(n)
+	println(n)
 
-    dashboardName = 'Котловой полезный отпуск'
+	dashboardName = 'Котловой полезный отпуск'
 
-    WebUI.openBrowser('')
+	WebUI.openBrowser('')
 
-    urlData = 18
+	urlData = 18
 
-    CheckPageDownload(urlData)
+	CheckPageDownload(urlData, run)
 
-    WebUI.setText(findTestObject('Страница авторизации/input__username'), findTestData('PlanFact').getValue(8, run))
+	a2 = ''
 
-    WebUI.setText(findTestObject('Страница авторизации/input__password'), findTestData('PlanFact').getValue(9, run))
+	a3 = ''
 
-    WebUI.click(findTestObject('Страница авторизации/button_'))
+	a4 = ''
 
-    WebUI.delay(40)
+	a5 = ''
 
-    a2 = ''
+	a6 = ''
 
-    a3 = ''
+	a7 = ''
 
-    a4 = ''
+	a8 = ''
 
-    a5 = ''
+	a9 = ''
 
-    a6 = ''
+	if (run == 1) {
+		user = 'админ'
 
-    a7 = ''
+		a1 = WebUI.getText(findTestObject('Котловой полезный отпуск/График 1'))
 
-    a8 = ''
+		a1 = a1.replaceAll('[а-яА-Я]', '').replaceAll('\\p{P}', '').replaceAll('[\\r?\n|\r]', '')
 
-    a9 = ''
-
-    if (run == 1) {
-		
-        user = 'админ'
-
-        a1 = WebUI.getText(findTestObject('Котловой полезный отпуск/График 1'))
-
-		a1 = a1.replaceAll('[а-яА-Я]', '').replaceAll("\\p{P}", '').replaceAll('[\\r?\n|\r]','')
-		
 		if (a1 == '') {
-			
 			WebUI.refresh()
-			
-			WebUI.delay(40)
-						
+
+			WebUI.delay(20)
+
 			a1 = WebUI.getText(findTestObject('Котловой полезный отпуск/График 1'))
-						
-			a1 = a1.replaceAll('[а-яА-Я]', '').replaceAll("\\p{P}", '').replaceAll('[\\r?\n|\r]','')
-			
+
+			a1 = a1.replaceAll('[а-яА-Я]', '').replaceAll('\\p{P}', '').replaceAll('[\\r?\n|\r]', '')
+
 			if (a1 == '') {
-				
 				WebUI.refresh()
-				
-				WebUI.delay(40)
-				
+
+				WebUI.delay(20)
+
 				a1 = WebUI.getText(findTestObject('Котловой полезный отпуск/График 1'))
-							
-			}		
+			}
+		}
+		
+		n = (n + 21)
+
+		WriteToExcel(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
+	}
 	
-		}
-		
-        n = (n + 21)
-
-        WriteToExcel(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
-    }
-    
-    if (run == 2) {
-		
-        user = 'Андреева'
-		
-		WebUI.refresh()
-		
-		WebUI.delay(40)
+	if (run == 2) {
+		user = 'Андреева'
 
 		a1 = WebUI.getText(findTestObject('Котловой полезный отпуск/График 1'))
-		
-		a1 = a1.replaceAll('[а-яА-Я]', '').replaceAll("\\p{P}", '').replaceAll('[\\r?\n|\r]','')
-				
+
+		a1 = a1.replaceAll('[а-яА-Я]', '').replaceAll('\\p{P}', '').replaceAll('[\\r?\n|\r]', '')
+
 		if (a1 == '') {
-					
 			WebUI.refresh()
-					
-			WebUI.delay(40)
-								
+
+			WebUI.delay(20)
+
 			a1 = WebUI.getText(findTestObject('Котловой полезный отпуск/График 1'))
-								
-			a1 = a1.replaceAll('[а-яА-Я]', '').replaceAll("\\p{P}", '').replaceAll('[\\r?\n|\r]','')
-					
+
+			a1 = a1.replaceAll('[а-яА-Я]', '').replaceAll('\\p{P}', '').replaceAll('[\\r?\n|\r]', '')
+
 			if (a1 == '') {
-						
 				WebUI.refresh()
-						
-				WebUI.delay(40)
-						
+
+				WebUI.delay(20)
+
 				a1 = WebUI.getText(findTestObject('Котловой полезный отпуск/График 1'))
-									
 			}
-			
 		}
-
-        n = (n + 22)
-
-        int b = (n - run) + 1
-
-        WebUI.verifyEqual(findTestData('PlanFact').getValue(2, b), a1)
-
-        WriteToExcel(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
-    }
-    
-    if (run == 3) {
-        user = 'Попова'
 		
-		WebUI.refresh()
-		
-		WebUI.delay(40)
-		
+		n = (n + 22)
+
+		int b = (n - run) + 1
+
+		WebUI.verifyEqual(findTestData('PlanFact').getValue(2, b), a1)
+
+		WriteToExcel(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
+	}
+	
+	if (run == 3) {
+		user = 'Попова'
+
 		a1 = WebUI.getText(findTestObject('Котловой полезный отпуск/График 1'))
-		
-		a1 = a1.replaceAll('[а-яА-Я]', '').replaceAll("\\p{P}", '').replaceAll('[\\r?\n|\r]','')
-				
+
+		a1 = a1.replaceAll('[а-яА-Я]', '').replaceAll('\\p{P}', '').replaceAll('[\\r?\n|\r]', '')
+
 		if (a1 == '') {
-					
 			WebUI.refresh()
-					
-			WebUI.delay(40)
-								
+
+			WebUI.delay(20)
+
 			a1 = WebUI.getText(findTestObject('Котловой полезный отпуск/График 1'))
-								
-			a1 = a1.replaceAll('[а-яА-Я]', '').replaceAll("\\p{P}", '').replaceAll('[\\r?\n|\r]','')
-					
+
+			a1 = a1.replaceAll('[а-яА-Я]', '').replaceAll('\\p{P}', '').replaceAll('[\\r?\n|\r]', '')
+
 			if (a1 == '') {
-						
 				WebUI.refresh()
-						
-				WebUI.delay(40)
-						
+
+				WebUI.delay(20)
+
 				a1 = WebUI.getText(findTestObject('Котловой полезный отпуск/График 1'))
-									
 			}
-			
 		}
+		
+		n = (n + 23)
 
-        n = (n + 23)
+		int b = (n - run) + 1
 
-        int b = (n - run) + 1
+		WebUI.verifyEqual(findTestData('PlanFact').getValue(2, b), a1)
 
-        WebUI.verifyEqual(findTestData('PlanFact').getValue(2, b), a1)
-
-        WriteToExcel(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
-    }
-    
-    WebUI.closeBrowser()
+		WriteToExcel(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
+	}
+	
+	WebUI.closeBrowser()
 }
 
 def FaktorniyAnaliz(def user, def dashboardName, def n, def data, def run, def a1, def a2, def a3, def a4, def a5, def a6, def a7, def a8, def a9, def urlData) {
-    n = (data.getRowNumbers() + 1)
+	n = (data.getRowNumbers() + 1)
 
-    println(n)
+	println(n)
 
-    dashboardName = 'Факторный анализ'
+	dashboardName = 'Факторный анализ'
 
-    WebUI.openBrowser('')
+	WebUI.openBrowser('')
 
-    urlData = 3
+	urlData = 3
 
-    CheckPageDownload(urlData)
+	CheckPageDownload(urlData, run)
 
-    WebUI.setText(findTestObject('Страница авторизации/input__username'), findTestData('PlanFact').getValue(8, run))
+	'Раскрыть фильтр "Дата"'
+	WebUI.click(findTestObject('Факторный анализ/Фильтр Период'))
 
-    WebUI.setText(findTestObject('Страница авторизации/input__password'), findTestData('PlanFact').getValue(9, run))
+	'Нажать "Снять выделение"'
+	WebUI.click(findTestObject('Факторный анализ/Снять выделение в фильтре Дата'))
 
-    WebUI.click(findTestObject('Страница авторизации/button_'))
+	'Нажать "Применить"'
+	WebUI.click(findTestObject('Факторный анализ/Применить в фильтре Дата'))
 
-    WebUI.delay(40)
+	'Раскрыть фильтр "Дата"'
+	WebUI.click(findTestObject('Факторный анализ/Фильтр Период'))
 
-    'Раскрыть фильтр "Дата"'
-    WebUI.click(findTestObject('Факторный анализ/Фильтр Период'))
+	'Нажать "Снять выделение"'
+	WebUI.click(findTestObject('Факторный анализ/Снять выделение в фильтре Дата'))
 
-    'Нажать "Снять выделение"'
-    WebUI.click(findTestObject('Факторный анализ/Снять выделение в фильтре Дата'))
+	WebUI.scrollToElement(findTestObject('Факторный анализ/2024 список'), 30)
 
-    'Нажать "Применить"'
-    WebUI.click(findTestObject('Факторный анализ/Применить в фильтре Дата'))
+	WebUI.click(findTestObject('Факторный анализ/2024 список'))
 
-    'Раскрыть фильтр "Дата"'
-    WebUI.click(findTestObject('Факторный анализ/Фильтр Период'))
+	WebUI.scrollToElement(findTestObject('Факторный анализ/1 квартал 2024 выбрать'), 30)
 
-    'Нажать "Снять выделение"'
-    WebUI.click(findTestObject('Факторный анализ/Снять выделение в фильтре Дата'))
+	WebUI.click(findTestObject('Факторный анализ/1 квартал 2024 выбрать'))
 
-    WebUI.scrollToElement(findTestObject('Факторный анализ/2024 список'), 30)
+	WebUI.scrollToElement(findTestObject('Факторный анализ/1 квартал 2024 выбрать'), 30)
 
-    WebUI.click(findTestObject('Факторный анализ/2024 список'))
+	WebUI.click(findTestObject('Факторный анализ/2 квартал 2024 выбрать'), FailureHandling.CONTINUE_ON_FAILURE)
 
-    WebUI.scrollToElement(findTestObject('Факторный анализ/1 квартал 2024 выбрать'), 30)
+	'Проскроллить до заголовка фильтра "Дата"'
+	WebUI.scrollToElement(findTestObject('Факторный анализ/Заголовок дашборда'), 30)
 
-    WebUI.click(findTestObject('Факторный анализ/1 квартал 2024 выбрать'))
+	'Нажать "Применить"'
+	WebUI.click(findTestObject('Факторный анализ/Применить в фильтре Дата'))
 
-    WebUI.scrollToElement(findTestObject('Факторный анализ/1 квартал 2024 выбрать'), 30)
+	a5 = ''
 
-    WebUI.click(findTestObject('Факторный анализ/2 квартал 2024 выбрать'), FailureHandling.CONTINUE_ON_FAILURE)
+	a6 = ''
 
-    'Проскроллить до заголовка фильтра "Дата"'
-    WebUI.scrollToElement(findTestObject('Факторный анализ/Заголовок дашборда'), 30)
+	a7 = ''
 
-    'Нажать "Применить"'
-    WebUI.click(findTestObject('Факторный анализ/Применить в фильтре Дата'))
+	a8 = ''
 
-    a5 = ''
+	a9 = ''
 
-    a6 = ''
+	if (run == 1) {
+		user = 'админ'
 
-    a7 = ''
+		a1 = WebUI.getText(findTestObject('Факторный анализ/span1 Блок руководителя'))
 
-    a8 = ''
+		a2 = WebUI.getText(findTestObject('Факторный анализ/span2 Блок руководителя'))
 
-    a9 = ''
+		a3 = WebUI.getText(findTestObject('Факторный анализ/График Всего отклонения по факторам Блок руководителя'))
 
-    if (run == 1) {
-        user = 'админ'
+		WebUI.click(findTestObject('Факторный анализ/Переключить отображение с филиала на месяц'))
 
-        a1 = WebUI.getText(findTestObject('Факторный анализ/span1 Блок руководителя'))
+		a4 = WebUI.getText(findTestObject('Факторный анализ/График Всего отклонения по факторам Блок руководителя'))
 
-        a2 = WebUI.getText(findTestObject('Факторный анализ/span2 Блок руководителя'))
+		n = (n + 24)
 
-        a3 = WebUI.getText(findTestObject('Факторный анализ/График Всего отклонения по факторам Блок руководителя'))
+		WriteToExcel(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
+	}
+	
+	if (run == 2) {
+		user = 'Андреева'
 
-        WebUI.click(findTestObject('Факторный анализ/Переключить отображение с филиала на месяц'))
+		a1 = WebUI.getText(findTestObject('Факторный анализ/span1 Блок руководителя'))
 
-        a4 = WebUI.getText(findTestObject('Факторный анализ/График Всего отклонения по факторам Блок руководителя'))
+		a2 = WebUI.getText(findTestObject('Факторный анализ/span2 Блок руководителя'))
 
-        n = (n + 24)
+		a3 = WebUI.getText(findTestObject('Факторный анализ/График Всего отклонения по факторам Блок руководителя'))
 
-        WriteToExcel(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
-    }
-    
-    if (run == 2) {
-        user = 'Андреева'
-		
-		WebUI.refresh()
-		
-		WebUI.delay(40)
+		WebUI.click(findTestObject('Факторный анализ/Переключить отображение с филиала на месяц'))
 
-        a1 = WebUI.getText(findTestObject('Факторный анализ/span1 Блок руководителя'))
+		a4 = WebUI.getText(findTestObject('Факторный анализ/График Всего отклонения по факторам Блок руководителя'))
 
-        a2 = WebUI.getText(findTestObject('Факторный анализ/span2 Блок руководителя'))
+		n = (n + 25)
 
-        a3 = WebUI.getText(findTestObject('Факторный анализ/График Всего отклонения по факторам Блок руководителя'))
+		int b = (n - run) + 1
 
-        WebUI.click(findTestObject('Факторный анализ/Переключить отображение с филиала на месяц'))
+		WebUI.verifyEqual(findTestData('PlanFact').getValue(2, b), a1)
 
-        a4 = WebUI.getText(findTestObject('Факторный анализ/График Всего отклонения по факторам Блок руководителя'))
+		WebUI.verifyEqual(findTestData('PlanFact').getValue(3, b), a2)
 
-        n = (n + 25)
+		WebUI.verifyEqual(findTestData('PlanFact').getValue(4, b), a3)
 
-        int b = (n - run) + 1
+		WebUI.verifyEqual(findTestData('PlanFact').getValue(5, b), a4)
 
-        WebUI.verifyEqual(findTestData('PlanFact').getValue(2, b), a1)
+		WriteToExcel(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
+	}
+	
+	if (run == 3) {
+		user = 'Попова'
 
-        WebUI.verifyEqual(findTestData('PlanFact').getValue(3, b), a2)
+		a1 = WebUI.getText(findTestObject('Факторный анализ/span1 Блок руководителя'))
 
-        WebUI.verifyEqual(findTestData('PlanFact').getValue(4, b), a3)
+		a2 = WebUI.getText(findTestObject('Факторный анализ/span2 Блок руководителя'))
 
-        WebUI.verifyEqual(findTestData('PlanFact').getValue(5, b), a4)
+		a3 = WebUI.getText(findTestObject('Факторный анализ/График Всего отклонения по факторам Блок руководителя'))
 
-        WriteToExcel(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
-    }
-    
-    if (run == 3) {
-        user = 'Попова'
-		
-		WebUI.refresh()
-		
-		WebUI.delay(40)
+		WebUI.click(findTestObject('Факторный анализ/Переключить отображение с филиала на месяц'))
 
-        a1 = WebUI.getText(findTestObject('Факторный анализ/span1 Блок руководителя'))
+		a4 = WebUI.getText(findTestObject('Факторный анализ/График Всего отклонения по факторам Блок руководителя'))
 
-        a2 = WebUI.getText(findTestObject('Факторный анализ/span2 Блок руководителя'))
+		n = (n + 26)
 
-        a3 = WebUI.getText(findTestObject('Факторный анализ/График Всего отклонения по факторам Блок руководителя'))
+		int b = (n - run) + 1
 
-        WebUI.click(findTestObject('Факторный анализ/Переключить отображение с филиала на месяц'))
+		WebUI.verifyEqual(findTestData('PlanFact').getValue(2, b), a1)
 
-        a4 = WebUI.getText(findTestObject('Факторный анализ/График Всего отклонения по факторам Блок руководителя'))
+		WebUI.verifyEqual(findTestData('PlanFact').getValue(3, b), a2)
 
-        n = (n + 26)
+		WebUI.verifyEqual(findTestData('PlanFact').getValue(4, b), a3)
 
-        int b = (n - run) + 1
+		WebUI.verifyEqual(findTestData('PlanFact').getValue(5, b), a4)
 
-        WebUI.verifyEqual(findTestData('PlanFact').getValue(2, b), a1)
-
-        WebUI.verifyEqual(findTestData('PlanFact').getValue(3, b), a2)
-
-        WebUI.verifyEqual(findTestData('PlanFact').getValue(4, b), a3)
-
-        WebUI.verifyEqual(findTestData('PlanFact').getValue(5, b), a4)
-
-        WriteToExcel(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
-    }
-    
-    WebUI.closeBrowser()
+		WriteToExcel(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
+	}
+	
+	WebUI.closeBrowser()
 }
 
 def ViruchkaPoDZO(def user, def dashboardName, def n, def data, def run, def a1, def a2, def a3, def a4, def a5, def a6, def a7, def a8, def a9, def urlData) {
-    n = (data.getRowNumbers() + 1)
+	n = (data.getRowNumbers() + 1)
 
-    println(n)
+	println(n)
 
-    dashboardName = 'Выручка по ДЗО'
+	dashboardName = 'Выручка по ДЗО'
 
-    WebUI.openBrowser('')
+	WebUI.openBrowser('')
 
-    urlData = 5
+	urlData = 5
 
-    CheckPageDownload(urlData)
+	CheckPageDownload(urlData, run)
 
-    WebUI.setText(findTestObject('Страница авторизации/input__username'), findTestData('PlanFact').getValue(8, run))
+	'Раскрыть фильтр "Дата"'
+	WebUI.click(findTestObject('Выручка по ДЗО/Фильтр Дата'))
 
-    WebUI.setText(findTestObject('Страница авторизации/input__password'), findTestData('PlanFact').getValue(9, run))
+	'Нажать "Снять выделение"'
+	WebUI.click(findTestObject('Выручка по ДЗО/Снять выделение в фильтре Дата'))
 
-    WebUI.click(findTestObject('Страница авторизации/button_'))
+	'Нажать "Применить"'
+	WebUI.click(findTestObject('Выручка по ДЗО/Применить в фильтре Дата'))
 
-    WebUI.delay(40)
+	'Раскрыть фильтр "Дата"'
+	WebUI.click(findTestObject('Выручка по ДЗО/Фильтр Дата'))
 
-    'Раскрыть фильтр "Дата"'
-    WebUI.click(findTestObject('Выручка по ДЗО/Фильтр Дата'))
+	'Нажать "Снять выделение"'
+	WebUI.click(findTestObject('Выручка по ДЗО/Снять выделение в фильтре Дата'))
 
-    'Нажать "Снять выделение"'
-    WebUI.click(findTestObject('Выручка по ДЗО/Снять выделение в фильтре Дата'))
+	WebUI.scrollToElement(findTestObject('Выручка по ДЗО/2024 список'), 30)
 
-    'Нажать "Применить"'
-    WebUI.click(findTestObject('Выручка по ДЗО/Применить в фильтре Дата'))
+	WebUI.click(findTestObject('Выручка по ДЗО/2024 список'))
 
-    'Раскрыть фильтр "Дата"'
-    WebUI.click(findTestObject('Выручка по ДЗО/Фильтр Дата'))
+	WebUI.scrollToElement(findTestObject('Выручка по ДЗО/1 квартал 2024 выбрать'), 30)
 
-    'Нажать "Снять выделение"'
-    WebUI.click(findTestObject('Выручка по ДЗО/Снять выделение в фильтре Дата'))
+	WebUI.click(findTestObject('Выручка по ДЗО/1 квартал 2024 выбрать'))
 
-    WebUI.scrollToElement(findTestObject('Выручка по ДЗО/2024 список'), 30)
+	WebUI.scrollToElement(findTestObject('Выручка по ДЗО/2 квартал 2024 выбрать'), 30)
 
-    WebUI.click(findTestObject('Выручка по ДЗО/2024 список'))
+	WebUI.click(findTestObject('Выручка по ДЗО/2 квартал 2024 выбрать'), FailureHandling.CONTINUE_ON_FAILURE)
 
-    WebUI.scrollToElement(findTestObject('Выручка по ДЗО/1 квартал 2024 выбрать'), 30)
+	'Проскроллить до заголовка фильтра "Дата"'
+	WebUI.scrollToElement(findTestObject('Выручка по ДЗО/Заголовок дашборда'), 30)
 
-    WebUI.click(findTestObject('Выручка по ДЗО/1 квартал 2024 выбрать'))
+	'Нажать "Применить"'
+	WebUI.click(findTestObject('Выручка по ДЗО/Применить в фильтре Дата'))
 
-    WebUI.scrollToElement(findTestObject('Выручка по ДЗО/2 квартал 2024 выбрать'), 30)
+	a3 = ''
 
-    WebUI.click(findTestObject('Выручка по ДЗО/2 квартал 2024 выбрать'), FailureHandling.CONTINUE_ON_FAILURE)
+	a4 = ''
 
-    'Проскроллить до заголовка фильтра "Дата"'
-    WebUI.scrollToElement(findTestObject('Выручка по ДЗО/Заголовок дашборда'), 30)
+	a5 = ''
 
-    'Нажать "Применить"'
-    WebUI.click(findTestObject('Выручка по ДЗО/Применить в фильтре Дата'))
+	a6 = ''
 
-    a3 = ''
+	a7 = ''
 
-    a4 = ''
+	a8 = ''
 
-    a5 = ''
+	a9 = ''
 
-    a6 = ''
+	if (run == 1) {
+		user = 'админ'
 
-    a7 = ''
+		a1 = WebUI.getText(findTestObject('Выручка по ДЗО/График1 Выполнение плановых показателей Блок руководителя'))
 
-    a8 = ''
-
-    a9 = ''
-
-    if (run == 1) {
-        user = 'админ'
-
-        a1 = WebUI.getText(findTestObject('Выручка по ДЗО/График1 Выполнение плановых показателей Блок руководителя'))
-
-        a2 = WebUI.getText(findTestObject('Выручка по ДЗО/График2 Выполнение плановых показателей Блок руководителя'))
+		a2 = WebUI.getText(findTestObject('Выручка по ДЗО/График2 Выполнение плановых показателей Блок руководителя'))
 
 		a2 = a2.substring(0, a2.indexOf('АО «Тываэнерго»')).replaceAll('[а-яА-Я]', '')
-		
-        n = (n + 27)
 
-        WriteToExcel(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
-    }
-    
-    if (run == 2) {
-        user = 'Андреева'
-		
-		WebUI.refresh()
-		
-		WebUI.delay(40)
+		n = (n + 27)
 
-        a1 = WebUI.getText(findTestObject('Выручка по ДЗО/График1 Выполнение плановых показателей Блок руководителя'))
+		WriteToExcel(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
+	}
+	
+	if (run == 2) {
+		user = 'Андреева'
 
-        a2 = WebUI.getText(findTestObject('Выручка по ДЗО/График2 Выполнение плановых показателей Блок руководителя'))
-		
-		a2 = a2.substring(0, a2.indexOf('АО «Тываэнерго»')).replaceAll('[а-яА-Я]', '')
+		a1 = WebUI.getText(findTestObject('Выручка по ДЗО/График1 Выполнение плановых показателей Блок руководителя'))
 
-        n = (n + 28)
-
-        int b = (n - run) + 1
-
-        WebUI.verifyEqual(findTestData('PlanFact').getValue(2, b), a1)
-
-        WebUI.verifyEqual(findTestData('PlanFact').getValue(3, b), a2)
-
-        WriteToExcel(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
-    }
-    
-    if (run == 3) {
-        user = 'Попова'
-		
-		WebUI.refresh()
-		
-		WebUI.delay(40)
-
-        a1 = WebUI.getText(findTestObject('Выручка по ДЗО/График1 Выполнение плановых показателей Блок руководителя'))
-
-        a2 = WebUI.getText(findTestObject('Выручка по ДЗО/График2 Выполнение плановых показателей Блок руководителя'))
+		a2 = WebUI.getText(findTestObject('Выручка по ДЗО/График2 Выполнение плановых показателей Блок руководителя'))
 
 		a2 = a2.substring(0, a2.indexOf('АО «Тываэнерго»')).replaceAll('[а-яА-Я]', '')
-		
-        n = (n + 29)
 
-        int b = (n - run) + 1
+		n = (n + 28)
 
-        WebUI.verifyEqual(findTestData('PlanFact').getValue(2, b), a1)
+		int b = (n - run) + 1
 
-        WebUI.verifyEqual(findTestData('PlanFact').getValue(3, b), a2)
+		WebUI.verifyEqual(findTestData('PlanFact').getValue(2, b), a1)
 
-        WriteToExcel(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
-    }
-    
-    WebUI.closeBrowser()
+		WebUI.verifyEqual(findTestData('PlanFact').getValue(3, b), a2)
+
+		WriteToExcel(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
+	}
+	
+	if (run == 3) {
+		user = 'Попова'
+
+		a1 = WebUI.getText(findTestObject('Выручка по ДЗО/График1 Выполнение плановых показателей Блок руководителя'))
+
+		a2 = WebUI.getText(findTestObject('Выручка по ДЗО/График2 Выполнение плановых показателей Блок руководителя'))
+
+		a2 = a2.substring(0, a2.indexOf('АО «Тываэнерго»')).replaceAll('[а-яА-Я]', '')
+
+		n = (n + 29)
+
+		int b = (n - run) + 1
+
+		WebUI.verifyEqual(findTestData('PlanFact').getValue(2, b), a1)
+
+		WebUI.verifyEqual(findTestData('PlanFact').getValue(3, b), a2)
+
+		WriteToExcel(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
+	}
+	
+	WebUI.closeBrowser()
 }
 
 def PrognozPoDZO(def user, def dashboardName, def n, def data, def run, def a1, def a2, def a3, def a4, def a5, def a6, def a7, def a8, def a9, def urlData) {
-    n = (data.getRowNumbers() + 1)
+	n = (data.getRowNumbers() + 1)
 
-    println(n)
+	println(n)
 
-    dashboardName = 'Прогноз по ДЗО'
+	dashboardName = 'Прогноз по ДЗО'
 
-    WebUI.openBrowser('')
+	WebUI.openBrowser('')
 
-    urlData = 19
+	urlData = 19
 
-    CheckPageDownload(urlData)
+	CheckPageDownload(urlData, run)
 
-    WebUI.setText(findTestObject('Страница авторизации/input__username'), findTestData('PlanFact').getValue(8, run))
+	a3 = ''
 
-    WebUI.setText(findTestObject('Страница авторизации/input__password'), findTestData('PlanFact').getValue(9, run))
+	a4 = ''
 
-    WebUI.click(findTestObject('Страница авторизации/button_'))
+	a5 = ''
 
-    WebUI.delay(40)
+	a6 = ''
 
-    a3 = ''
+	a7 = ''
 
-    a4 = ''
+	a8 = ''
 
-    a5 = ''
+	a9 = ''
 
-    a6 = ''
+	if (run == 1) {
+		user = 'админ'
 
-    a7 = ''
+		a1 = WebUI.getText(findTestObject('Прогноз по ДЗО/График1'))
 
-    a8 = ''
+		int i = a1.indexOf('по ПАО Россети на 2023 год')
 
-    a9 = ''
-
-    if (run == 1) {
-        user = 'админ'
-
-        a1 = WebUI.getText(findTestObject('Прогноз по ДЗО/График1'))
-
-        int i = a1.indexOf('по ПАО Россети на 2023 год')
-
-        if (i > -1) {
-            a1 = (a1.substring(0, i) + a1.substring(i + 26, a1.length()))
-        }
-        
-        i = a1.indexOf('Динамика электропотребления, млн. кВт.ч.')
-
-        if (i > -1) {
-            a1 = (a1.substring(0, i) + a1.substring(i + 40, a1.length()))
-        }
-        
-        a1 = a1.trim()
-
-        a2 = WebUI.getText(findTestObject('Прогноз по ДЗО/График2'))
-
-        a3 = WebUI.getText(findTestObject('Прогноз по ДЗО/График3'))
-
-        a4 = WebUI.getText(findTestObject('Прогноз по ДЗО/График4'))
-
-        WebUI.click(findTestObject('Прогноз по ДЗО/Переключить отображение с процентов на абс Блок руководителя'))
-
-        a5 = WebUI.getText(findTestObject('Прогноз по ДЗО/График5'))
-
-        a6 = WebUI.getText(findTestObject('Прогноз по ДЗО/График6'))
-
-        WebUI.click(findTestObject('Прогноз по ДЗО/Переключить отображение с абс на проценты'))
-
-        n = (n + 30)
-
-        WriteToExcel(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
-    }
-    
-    if (run == 2) {
-        user = 'Андреева'
+		if (i > -1) {
+			a1 = (a1.substring(0, i) + a1.substring(i + 26, a1.length()))
+		}
 		
-		WebUI.refresh()
+		i = a1.indexOf('Динамика электропотребления, млн. кВт.ч.')
+
+		if (i > -1) {
+			a1 = (a1.substring(0, i) + a1.substring(i + 40, a1.length()))
+		}
 		
-		WebUI.delay(40)
+		a1 = a1.trim()
 
-        a1 = WebUI.getText(findTestObject('Прогноз по ДЗО/График1'))
+		a2 = WebUI.getText(findTestObject('Прогноз по ДЗО/График2'))
 
-        int i = a1.indexOf('по ПАО Россети на 2023 год')
+		a3 = WebUI.getText(findTestObject('Прогноз по ДЗО/График3'))
 
-        if (i > -1) {
-            a1 = (a1.substring(0, i) + a1.substring(i + 26, a1.length()))
-        }
-        
-        i = a1.indexOf('Динамика электропотребления, млн. кВт.ч.')
+		a4 = WebUI.getText(findTestObject('Прогноз по ДЗО/График4'))
 
-        if (i > -1) {
-            a1 = (a1.substring(0, i) + a1.substring(i + 40, a1.length()))
-        }
-        
-        a1 = a1.trim()
+		WebUI.click(findTestObject('Прогноз по ДЗО/Переключить отображение с процентов на абс Блок руководителя'))
 
-        a2 = WebUI.getText(findTestObject('Прогноз по ДЗО/График2'))
+		a5 = WebUI.getText(findTestObject('Прогноз по ДЗО/График5'))
 
-        a3 = WebUI.getText(findTestObject('Прогноз по ДЗО/График3'))
+		a6 = WebUI.getText(findTestObject('Прогноз по ДЗО/График6'))
 
-        a4 = WebUI.getText(findTestObject('Прогноз по ДЗО/График4'))
+		WebUI.click(findTestObject('Прогноз по ДЗО/Переключить отображение с абс на проценты'))
 
-        WebUI.click(findTestObject('Прогноз по ДЗО/Переключить отображение с процентов на абс Блок руководителя'))
+		n = (n + 30)
 
-        a5 = WebUI.getText(findTestObject('Прогноз по ДЗО/График5'))
+		WriteToExcel(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
+	}
+	
+	if (run == 2) {
+		user = 'Андреева'
 
-        a6 = WebUI.getText(findTestObject('Прогноз по ДЗО/График6'))
+		a1 = WebUI.getText(findTestObject('Прогноз по ДЗО/График1'))
 
-        WebUI.click(findTestObject('Прогноз по ДЗО/Переключить отображение с абс на проценты'))
+		int i = a1.indexOf('по ПАО Россети на 2023 год')
 
-        n = (n + 31)
-
-        int b = (n - run) + 1
-
-        WebUI.verifyEqual(findTestData('PlanFact').getValue(2, b), a1)
-
-        WebUI.verifyEqual(findTestData('PlanFact').getValue(3, b), a2)
-
-        WebUI.verifyEqual(findTestData('PlanFact').getValue(4, b), a3)
-
-        WebUI.verifyEqual(findTestData('PlanFact').getValue(5, b), a4)
-
-        WebUI.verifyEqual(findTestData('PlanFact').getValue(6, b), a5)
-
-        WebUI.verifyEqual(findTestData('PlanFact').getValue(7, b), a6)
-
-        WriteToExcel(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
-    }
-    
-    if (run == 3) {
-        user = 'Попова'
+		if (i > -1) {
+			a1 = (a1.substring(0, i) + a1.substring(i + 26, a1.length()))
+		}
 		
-		WebUI.refresh()
+		i = a1.indexOf('Динамика электропотребления, млн. кВт.ч.')
+
+		if (i > -1) {
+			a1 = (a1.substring(0, i) + a1.substring(i + 40, a1.length()))
+		}
 		
-		WebUI.delay(40)
+		a1 = a1.trim()
 
-        a1 = WebUI.getText(findTestObject('Прогноз по ДЗО/График1'))
+		a2 = WebUI.getText(findTestObject('Прогноз по ДЗО/График2'))
 
-        int i = a1.indexOf('по ПАО Россети на 2023 год')
+		a3 = WebUI.getText(findTestObject('Прогноз по ДЗО/График3'))
 
-        if (i > -1) {
-            a1 = (a1.substring(0, i) + a1.substring(i + 26, a1.length()))
-        }
-        
-        i = a1.indexOf('Динамика электропотребления, млн. кВт.ч.')
+		a4 = WebUI.getText(findTestObject('Прогноз по ДЗО/График4'))
 
-        if (i > -1) {
-            a1 = (a1.substring(0, i) + a1.substring(i + 40, a1.length()))
-        }
-        
-        a1 = a1.trim()
+		WebUI.click(findTestObject('Прогноз по ДЗО/Переключить отображение с процентов на абс Блок руководителя'))
 
-        a2 = WebUI.getText(findTestObject('Прогноз по ДЗО/График2'))
+		a5 = WebUI.getText(findTestObject('Прогноз по ДЗО/График5'))
 
-        a3 = WebUI.getText(findTestObject('Прогноз по ДЗО/График3'))
+		a6 = WebUI.getText(findTestObject('Прогноз по ДЗО/График6'))
 
-        a4 = WebUI.getText(findTestObject('Прогноз по ДЗО/График4'))
+		WebUI.click(findTestObject('Прогноз по ДЗО/Переключить отображение с абс на проценты'))
 
-        WebUI.click(findTestObject('Прогноз по ДЗО/Переключить отображение с процентов на абс Блок руководителя'))
+		n = (n + 31)
 
-        a5 = WebUI.getText(findTestObject('Прогноз по ДЗО/График5'))
+		int b = (n - run) + 1
 
-        a6 = WebUI.getText(findTestObject('Прогноз по ДЗО/График6'))
+		WebUI.verifyEqual(findTestData('PlanFact').getValue(2, b), a1)
 
-        WebUI.click(findTestObject('Прогноз по ДЗО/Переключить отображение с абс на проценты'))
+		WebUI.verifyEqual(findTestData('PlanFact').getValue(3, b), a2)
 
-        n = (n + 32)
+		WebUI.verifyEqual(findTestData('PlanFact').getValue(4, b), a3)
 
-        int b = (n - run) + 1
+		WebUI.verifyEqual(findTestData('PlanFact').getValue(5, b), a4)
 
-        WebUI.verifyEqual(findTestData('PlanFact').getValue(2, b), a1)
+		WebUI.verifyEqual(findTestData('PlanFact').getValue(6, b), a5)
 
-        WebUI.verifyEqual(findTestData('PlanFact').getValue(3, b), a2)
+		WebUI.verifyEqual(findTestData('PlanFact').getValue(7, b), a6)
 
-        WebUI.verifyEqual(findTestData('PlanFact').getValue(4, b), a3)
+		WriteToExcel(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
+	}
+	
+	if (run == 3) {
+		user = 'Попова'
 
-        WebUI.verifyEqual(findTestData('PlanFact').getValue(5, b), a4)
+		a1 = WebUI.getText(findTestObject('Прогноз по ДЗО/График1'))
 
-        WebUI.verifyEqual(findTestData('PlanFact').getValue(6, b), a5)
+		int i = a1.indexOf('по ПАО Россети на 2023 год')
 
-        WebUI.verifyEqual(findTestData('PlanFact').getValue(7, b), a6)
+		if (i > -1) {
+			a1 = (a1.substring(0, i) + a1.substring(i + 26, a1.length()))
+		}
+		
+		i = a1.indexOf('Динамика электропотребления, млн. кВт.ч.')
 
-        WriteToExcel(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
-    }
-    
-    WebUI.closeBrowser()
+		if (i > -1) {
+			a1 = (a1.substring(0, i) + a1.substring(i + 40, a1.length()))
+		}
+		
+		a1 = a1.trim()
+
+		a2 = WebUI.getText(findTestObject('Прогноз по ДЗО/График2'))
+
+		a3 = WebUI.getText(findTestObject('Прогноз по ДЗО/График3'))
+
+		a4 = WebUI.getText(findTestObject('Прогноз по ДЗО/График4'))
+
+		WebUI.click(findTestObject('Прогноз по ДЗО/Переключить отображение с процентов на абс Блок руководителя'))
+
+		a5 = WebUI.getText(findTestObject('Прогноз по ДЗО/График5'))
+
+		a6 = WebUI.getText(findTestObject('Прогноз по ДЗО/График6'))
+
+		WebUI.click(findTestObject('Прогноз по ДЗО/Переключить отображение с абс на проценты'))
+
+		n = (n + 32)
+
+		int b = (n - run) + 1
+
+		WebUI.verifyEqual(findTestData('PlanFact').getValue(2, b), a1)
+
+		WebUI.verifyEqual(findTestData('PlanFact').getValue(3, b), a2)
+
+		WebUI.verifyEqual(findTestData('PlanFact').getValue(4, b), a3)
+
+		WebUI.verifyEqual(findTestData('PlanFact').getValue(5, b), a4)
+
+		WebUI.verifyEqual(findTestData('PlanFact').getValue(6, b), a5)
+
+		WebUI.verifyEqual(findTestData('PlanFact').getValue(7, b), a6)
+
+		WriteToExcel(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
+	}
+	
+	WebUI.closeBrowser()
 }
 
 def PrognozPoOtraslyam(def user, def dashboardName, def n, def data, def run, def a1, def a2, def a3, def a4, def a5, def a6, def a7, def a8, def a9, def urlData) {
-    n = (data.getRowNumbers() + 1)
+	n = (data.getRowNumbers() + 1)
 
-    println(n)
+	println(n)
 
-    dashboardName = 'Прогноз по отраслям'
+	dashboardName = 'Прогноз по отраслям'
 
-    WebUI.openBrowser('')
+	WebUI.openBrowser('')
 
-    urlData = 6
+	urlData = 6
 
-    CheckPageDownload(urlData)
+	CheckPageDownload(urlData, run)
 
-    WebUI.setText(findTestObject('Страница авторизации/input__username'), findTestData('PlanFact').getValue(8, run))
+	a3 = ''
 
-    WebUI.setText(findTestObject('Страница авторизации/input__password'), findTestData('PlanFact').getValue(9, run))
+	a4 = ''
 
-    WebUI.click(findTestObject('Страница авторизации/button_'))
+	a5 = ''
 
-    WebUI.delay(40)
+	a6 = ''
 
-    a3 = ''
+	a7 = ''
 
-    a4 = ''
+	a8 = ''
 
-    a5 = ''
+	a9 = ''
 
-    a6 = ''
+	if (run == 1) {
+		user = 'админ'
 
-    a7 = ''
+		a1 = WebUI.getText(findTestObject('Прогноз по отраслям/Виджеты дашборда'))
 
-    a8 = ''
+		WebUI.click(findTestObject('Прогноз по отраслям/Переключить отображение с процентов на абс Блок руководителя'))
 
-    a9 = ''
+		a2 = WebUI.getText(findTestObject('Прогноз по отраслям/Виджеты дашборда'))
 
-    if (run == 1) {
-        user = 'админ'
+		WebUI.click(findTestObject('Прогноз по отраслям/Переключить отображение с абс на проценты'))
 
-        a1 = WebUI.getText(findTestObject('Прогноз по отраслям/Виджеты дашборда'))
+		int i = a1.indexOf('млрд. кВт.ч.')
 
-        WebUI.click(findTestObject('Прогноз по отраслям/Переключить отображение с процентов на абс Блок руководителя'))
-
-        a2 = WebUI.getText(findTestObject('Прогноз по отраслям/Виджеты дашборда'))
-
-        WebUI.click(findTestObject('Прогноз по отраслям/Переключить отображение с абс на проценты'))
-
-        int i = a1.indexOf('млрд. кВт.ч.')
-
-        if (i > -1) {
-            a1 = (a1.substring(0, i) + a1.substring(i + 12, a1.length()))
-        }
-        
-        i = a1.indexOf('Выручка')
-
-        if (i > -1) {
-            a1 = (a1.substring(0, i) + a1.substring(i + 8, a1.length()))
-        }
-        
-        i = a1.indexOf('по ПАО Россети на 2023 год')
-
-        if (i > -1) {
-            a1 = (a1.substring(0, i) + a1.substring(i + 27, a1.length()))
-        }
-        
-        i = a1.indexOf('по ПАО Россети на 2023 год')
-
-        if (i > -1) {
-            a1 = (a1.substring(0, i) + a1.substring(i + 27, a1.length()))
-        }
-        
-        i = a1.indexOf('по ПАО Россети на 2023 год')
-
-        if (i > -1) {
-            a1 = (a1.substring(0, i) + a1.substring(i + 27, a1.length()))
-        }
-        
-        i = a1.indexOf('Отклонения')
-
-        if (i > -1) {
-            a1 = (a1.substring(0, i) + a1.substring(i + 11, a1.length()))
-        }
-        
-        n = (n + 33)
-
-        WriteToExcel(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
-    }
-    
-    if (run == 2) {
-        user = 'Андреева'
+		if (i > -1) {
+			a1 = (a1.substring(0, i) + a1.substring(i + 12, a1.length()))
+		}
 		
-		WebUI.refresh()
+		i = a1.indexOf('Выручка')
+
+		if (i > -1) {
+			a1 = (a1.substring(0, i) + a1.substring(i + 8, a1.length()))
+		}
 		
-		WebUI.delay(40)
+		i = a1.indexOf('по ПАО Россети на 2023 год')
 
-        a1 = WebUI.getText(findTestObject('Прогноз по отраслям/Виджеты дашборда'))
-
-        WebUI.click(findTestObject('Прогноз по отраслям/Переключить отображение с процентов на абс Блок руководителя'))
-
-        a2 = WebUI.getText(findTestObject('Прогноз по отраслям/Виджеты дашборда'))
-
-        WebUI.click(findTestObject('Прогноз по отраслям/Переключить отображение с абс на проценты'))
-
-        int i = a1.indexOf('млрд. кВт.ч.')
-
-        if (i > -1) {
-            a1 = (a1.substring(0, i) + a1.substring(i + 12, a1.length()))
-        }
-        
-        i = a1.indexOf('по ПАО Россети на 2023 год')
-
-        if (i > -1) {
-            a1 = (a1.substring(0, i) + a1.substring(i + 27, a1.length()))
-        }
-        
-        i = a1.indexOf('Выручка')
-
-        if (i > -1) {
-            a1 = (a1.substring(0, i) + a1.substring(i + 8, a1.length()))
-        }
-        
-        i = a1.indexOf('по ПАО Россети на 2023 год')
-
-        if (i > -1) {
-            a1 = (a1.substring(0, i) + a1.substring(i + 27, a1.length()))
-        }
-        
-        i = a1.indexOf('по ПАО Россети на 2023 год')
-
-        if (i > -1) {
-            a1 = (a1.substring(0, i) + a1.substring(i + 27, a1.length()))
-        }
-        
-        i = a1.indexOf('Отклонения по ПАО Россети на 2023 год')
-
-        if (i > -1) {
-            a1 = (a1.substring(0, i) + a1.substring(i + 38, a1.length()))
-        }
-        
-        i = a1.indexOf('Отклонения')
-
-        if (i > -1) {
-            a1 = (a1.substring(0, i) + a1.substring(i + 11, a1.length()))
-        }
-        
-        n = (n + 34)
-
-        int b = (n - run) + 1
-
-        WebUI.verifyEqual(findTestData('PlanFact').getValue(2, b), a1)
-
-        WebUI.verifyEqual(findTestData('PlanFact').getValue(3, b), a2)
-
-        WriteToExcel(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
-    }
-    
-    if (run == 3) {
-        user = 'Попова'
+		if (i > -1) {
+			a1 = (a1.substring(0, i) + a1.substring(i + 27, a1.length()))
+		}
 		
-		WebUI.refresh()
+		i = a1.indexOf('по ПАО Россети на 2023 год')
+
+		if (i > -1) {
+			a1 = (a1.substring(0, i) + a1.substring(i + 27, a1.length()))
+		}
 		
-		WebUI.delay(40)
+		i = a1.indexOf('по ПАО Россети на 2023 год')
 
-        a1 = WebUI.getText(findTestObject('Прогноз по отраслям/Виджеты дашборда'))
+		if (i > -1) {
+			a1 = (a1.substring(0, i) + a1.substring(i + 27, a1.length()))
+		}
+		
+		i = a1.indexOf('Отклонения')
 
-        WebUI.click(findTestObject('Прогноз по отраслям/Переключить отображение с процентов на абс Блок руководителя'))
+		if (i > -1) {
+			a1 = (a1.substring(0, i) + a1.substring(i + 11, a1.length()))
+		}
+		
+		n = (n + 33)
 
-        a2 = WebUI.getText(findTestObject('Прогноз по отраслям/Виджеты дашборда'))
+		WriteToExcel(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
+	}
+	
+	if (run == 2) {
+		user = 'Андреева'
 
-        WebUI.click(findTestObject('Прогноз по отраслям/Переключить отображение с абс на проценты'))
+		a1 = WebUI.getText(findTestObject('Прогноз по отраслям/Виджеты дашборда'))
 
-        int i = a1.indexOf('млрд. кВт.ч.')
+		WebUI.click(findTestObject('Прогноз по отраслям/Переключить отображение с процентов на абс Блок руководителя'))
 
-        if (i > -1) {
-            a1 = (a1.substring(0, i) + a1.substring(i + 12, a1.length()))
-        }
-        
-        i = a1.indexOf('Выручка, млрд. руб.')
+		a2 = WebUI.getText(findTestObject('Прогноз по отраслям/Виджеты дашборда'))
 
-        if (i > -1) {
-            a1 = (a1.substring(0, i) + a1.substring(i + 20, a1.length()))
-        }
-        
-        i = a1.indexOf('Выручка')
+		WebUI.click(findTestObject('Прогноз по отраслям/Переключить отображение с абс на проценты'))
 
-        if (i > -1) {
-            a1 = (a1.substring(0, i) + a1.substring(i + 8, a1.length()))
-        }
-        
-        i = a1.indexOf('по ПАО Россети на 2023 год')
+		int i = a1.indexOf('млрд. кВт.ч.')
 
-        if (i > -1) {
-            a1 = (a1.substring(0, i) + a1.substring(i + 27, a1.length()))
-        }
-        
-        i = a1.indexOf('Отклонения')
+		if (i > -1) {
+			a1 = (a1.substring(0, i) + a1.substring(i + 12, a1.length()))
+		}
+		
+		i = a1.indexOf('по ПАО Россети на 2023 год')
 
-        if (i > -1) {
-            a1 = (a1.substring(0, i) + a1.substring(i + 11, a1.length()))
-        }
-        
-        i = a1.indexOf('по ПАО Россети на 2023 год')
+		if (i > -1) {
+			a1 = (a1.substring(0, i) + a1.substring(i + 27, a1.length()))
+		}
+		
+		i = a1.indexOf('Выручка')
 
-        if (i > -1) {
-            a1 = (a1.substring(0, i) + a1.substring(i + 27, a1.length()))
-        }
-        
-        i = a1.indexOf('по ПАО Россети на 2023 год')
+		if (i > -1) {
+			a1 = (a1.substring(0, i) + a1.substring(i + 8, a1.length()))
+		}
+		
+		i = a1.indexOf('по ПАО Россети на 2023 год')
 
-        if (i > -1) {
-            a1 = (a1.substring(0, i) + a1.substring(i + 27, a1.length()))
-        }
-        
-        println(a1)
+		if (i > -1) {
+			a1 = (a1.substring(0, i) + a1.substring(i + 27, a1.length()))
+		}
+		
+		i = a1.indexOf('по ПАО Россети на 2023 год')
 
-        n = (n + 35)
+		if (i > -1) {
+			a1 = (a1.substring(0, i) + a1.substring(i + 27, a1.length()))
+		}
+		
+		i = a1.indexOf('Отклонения по ПАО Россети на 2023 год')
 
-        int b = (n - run) + 1
+		if (i > -1) {
+			a1 = (a1.substring(0, i) + a1.substring(i + 38, a1.length()))
+		}
+		
+		i = a1.indexOf('Отклонения')
 
-        WebUI.verifyEqual(findTestData('PlanFact').getValue(2, b), a1)
+		if (i > -1) {
+			a1 = (a1.substring(0, i) + a1.substring(i + 11, a1.length()))
+		}
+		
+		n = (n + 34)
 
-        WebUI.verifyEqual(findTestData('PlanFact').getValue(3, b), a2)
+		int b = (n - run) + 1
 
-        WriteToExcel(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
-    }
-    
-    WebUI.closeBrowser()
+		WebUI.verifyEqual(findTestData('PlanFact').getValue(2, b), a1)
+
+		WebUI.verifyEqual(findTestData('PlanFact').getValue(3, b), a2)
+
+		WriteToExcel(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
+	}
+	
+	if (run == 3) {
+		user = 'Попова'
+
+		a1 = WebUI.getText(findTestObject('Прогноз по отраслям/Виджеты дашборда'))
+
+		WebUI.click(findTestObject('Прогноз по отраслям/Переключить отображение с процентов на абс Блок руководителя'))
+
+		a2 = WebUI.getText(findTestObject('Прогноз по отраслям/Виджеты дашборда'))
+
+		WebUI.click(findTestObject('Прогноз по отраслям/Переключить отображение с абс на проценты'))
+
+		int i = a1.indexOf('млрд. кВт.ч.')
+
+		if (i > -1) {
+			a1 = (a1.substring(0, i) + a1.substring(i + 12, a1.length()))
+		}
+		
+		i = a1.indexOf('Выручка, млрд. руб.')
+
+		if (i > -1) {
+			a1 = (a1.substring(0, i) + a1.substring(i + 20, a1.length()))
+		}
+		
+		i = a1.indexOf('Выручка')
+
+		if (i > -1) {
+			a1 = (a1.substring(0, i) + a1.substring(i + 8, a1.length()))
+		}
+		
+		i = a1.indexOf('по ПАО Россети на 2023 год')
+
+		if (i > -1) {
+			a1 = (a1.substring(0, i) + a1.substring(i + 27, a1.length()))
+		}
+		
+		i = a1.indexOf('Отклонения')
+
+		if (i > -1) {
+			a1 = (a1.substring(0, i) + a1.substring(i + 11, a1.length()))
+		}
+		
+		i = a1.indexOf('по ПАО Россети на 2023 год')
+
+		if (i > -1) {
+			a1 = (a1.substring(0, i) + a1.substring(i + 27, a1.length()))
+		}
+		
+		i = a1.indexOf('по ПАО Россети на 2023 год')
+
+		if (i > -1) {
+			a1 = (a1.substring(0, i) + a1.substring(i + 27, a1.length()))
+		}
+		
+		println(a1)
+
+		n = (n + 35)
+
+		int b = (n - run) + 1
+
+		WebUI.verifyEqual(findTestData('PlanFact').getValue(2, b), a1)
+
+		WebUI.verifyEqual(findTestData('PlanFact').getValue(3, b), a2)
+
+		WriteToExcel(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
+	}
+	
+	WebUI.closeBrowser()
 }
 
 static void ZakrytOpoveshenie() {
-    String opoveshenie = WebUI.getText(findTestObject('Выполнение бизнес-плана/Просьба обратить внимание'))
+	String opoveshenie = WebUI.getText(findTestObject('Выполнение бизнес-плана/Просьба обратить внимание'))
 
-    println(opoveshenie)
+	println(opoveshenie)
 
-    if (opoveshenie == 'Просьба обратить внимание') {
-        WebUI.click(findTestObject('Выполнение бизнес-плана/Закрыть оповещение'))
-    }
+	if (opoveshenie == 'Просьба обратить внимание') {
+		WebUI.click(findTestObject('Выполнение бизнес-плана/Закрыть оповещение'))
+	}
 }
 
 static def WriteToExcel(def user, def dashboardName, def n, def data, def run, def a1, def a2, def a3, def a4, def a5, def a6, def a7, def a8, def a9) {
-    String sheetName = 'Sheet1'
+	String sheetName = 'Sheet1'
 
-    def workbook01 = ExcelKeywords.getWorkbook(GlobalVariable.excelFilePath)
+	def workbook01 = ExcelKeywords.getWorkbook(GlobalVariable.excelFilePath)
 
-    def sheet01 = ExcelKeywords.getExcelSheet(workbook01, sheetName)
+	def sheet01 = ExcelKeywords.getExcelSheet(workbook01, sheetName)
 
-    ExcelKeywords.setValueToCellByIndex(sheet01, n, 0, dashboardName)
+	ExcelKeywords.setValueToCellByIndex(sheet01, n, 0, dashboardName)
 
-    ExcelKeywords.setValueToCellByIndex(sheet01, n, 10, user)
+	ExcelKeywords.setValueToCellByIndex(sheet01, n, 10, user)
 
-    ExcelKeywords.setValueToCellByIndex(sheet01, n, 1, a1)
+	ExcelKeywords.setValueToCellByIndex(sheet01, n, 1, a1)
 
-    ExcelKeywords.setValueToCellByIndex(sheet01, n, 2, a2)
+	ExcelKeywords.setValueToCellByIndex(sheet01, n, 2, a2)
 
-    ExcelKeywords.setValueToCellByIndex(sheet01, n, 3, a3)
+	ExcelKeywords.setValueToCellByIndex(sheet01, n, 3, a3)
 
-    ExcelKeywords.setValueToCellByIndex(sheet01, n, 4, a4)
+	ExcelKeywords.setValueToCellByIndex(sheet01, n, 4, a4)
 
-    ExcelKeywords.setValueToCellByIndex(sheet01, n, 5, a5)
+	ExcelKeywords.setValueToCellByIndex(sheet01, n, 5, a5)
 
-    ExcelKeywords.setValueToCellByIndex(sheet01, n, 6, a6)
+	ExcelKeywords.setValueToCellByIndex(sheet01, n, 6, a6)
 
-    ExcelKeywords.setValueToCellByIndex(sheet01, n, 7, a7)
+	ExcelKeywords.setValueToCellByIndex(sheet01, n, 7, a7)
 
-    ExcelKeywords.setValueToCellByIndex(sheet01, n, 8, a8)
+	ExcelKeywords.setValueToCellByIndex(sheet01, n, 8, a8)
 
-    ExcelKeywords.setValueToCellByIndex(sheet01, n, 9, a9)
+	ExcelKeywords.setValueToCellByIndex(sheet01, n, 9, a9)
 
-    n = (n + 1)
+	n = (n + 1)
 
-    ExcelKeywords.saveWorkbook(GlobalVariable.excelFilePath, workbook01)
+	ExcelKeywords.saveWorkbook(GlobalVariable.excelFilePath, workbook01)
 }
+
 

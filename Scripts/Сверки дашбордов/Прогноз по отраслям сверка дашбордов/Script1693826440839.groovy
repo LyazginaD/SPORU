@@ -104,6 +104,8 @@ WebUI.click(findTestObject('Прогноз по отраслям/План'))
 
 String a5 = WebUI.getText(findTestObject('Прогноз по отраслям/Виджеты дашборда'))
 
+println('a5:' + a5)
+
 a5 = a5.replaceAll('[^0-9]', '')
 
 println('a5:' + a5)
@@ -173,6 +175,8 @@ WebUI.click(findTestObject('Прогноз по отраслям/Фильтр С
 WebUI.click(findTestObject('Прогноз по отраслям/План'))
 
 String a11 = WebUI.getText(findTestObject('Прогноз по отраслям/Виджеты дашборда'))
+
+println('a11:' + a11)
 
 a11 = a11.replaceAll('[^0-9]', '')
 
@@ -254,6 +258,8 @@ WebUI.click(findTestObject('Прогноз по отраслям/План Стр
 
 String b5 = WebUI.getText(findTestObject('Прогноз по отраслям/Виджеты дашборда'))
 
+println('b5:' + b5)
+
 b5 = b5.replaceAll('[^0-9]', '')
 
 println('b5:' + b5)
@@ -323,6 +329,8 @@ WebUI.click(findTestObject('Прогноз по отраслям/Фильтр С
 WebUI.click(findTestObject('Прогноз по отраслям/План Стресс'))
 
 String b11 = WebUI.getText(findTestObject('Прогноз по отраслям/Виджеты дашборда'))
+
+println('b11:' + b11)
 
 b11 = b11.replaceAll('[^0-9]', '')
 

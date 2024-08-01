@@ -669,9 +669,8 @@ WebUI.closeBrowser()
 
 def CompareDZOData(def a, def b, def dZO, def typeOfData, def PercPlanR, def PercPlanB, def PercFactR, def PercFactB, def todaysDate, def x, def tabR, def tabB, def o1R, def o1B, def vidget) {
     int ii2
-	if (WebUI.verifyEqual(a, b) == false) {
-		
-		
+
+    if (WebUI.verifyEqual(a, b) == false) {
         vidget = 'Уровень потерь электроэнергии'
 
         typeOfData = 'План'
@@ -680,9 +679,9 @@ def CompareDZOData(def a, def b, def dZO, def typeOfData, def PercPlanR, def Per
 
         PercPlanB = GetPercPlanB(x = b)
 
-		
         if (WebUI.verifyEqual(PercPlanR, PercPlanB) == false) {
-            def result = WriteToExcel(typeOfData, todaysDate, PercPlanR, PercPlanB, PercFactR, PercFactB, x, tabR, tabB,o1R, o1B, vidget)
+            def result = WriteToExcel(typeOfData, todaysDate, PercPlanR, PercPlanB, PercFactR, PercFactB, x, tabR, tabB, 
+                o1R, o1B, vidget)
         }
         
         typeOfData = 'Факт'
@@ -692,91 +691,112 @@ def CompareDZOData(def a, def b, def dZO, def typeOfData, def PercPlanR, def Per
         PercFactB = GetPercFactB(x = b)
 
         if (WebUI.verifyEqual(PercFactR, PercFactB) == false) {
-            def result = WriteToExcel(typeOfData, todaysDate, PercPlanR, PercPlanB, PercFactR, PercFactB, x, tabR, tabB,o1R, o1B, vidget)
+            def result = WriteToExcel(typeOfData, todaysDate, PercPlanR, PercPlanB, PercFactR, PercFactB, x, tabR, tabB, 
+                o1R, o1B, vidget)
         }
-		
-		vidget = 'Показатели баланса электроэнергии по ДЗО – Факт'
-		
-		typeOfData = 'Факт Отпуск в сеть'
-		
-		tabR = GetOvSFactR(x = a)
-		
-		tabB = GetOvSFactB(x = b)
-		
-		if (WebUI.verifyEqual(tabR, tabB) == false) {
-			def result = WriteToExcel(typeOfData, todaysDate, PercPlanR, PercPlanB, PercFactR, PercFactB, x, tabR, tabB,o1R, o1B, vidget)
-		}
-		typeOfData = 'Факт Отпуск из сети'
-		
-		tabR = GetOiSFactR(x = a)
-		
-		tabB = GetOiSFactB(x = b)
-		
-		if (WebUI.verifyEqual(tabR, tabB) == false) {
-			def result = WriteToExcel(typeOfData, todaysDate, PercPlanR, PercPlanB, PercFactR, PercFactB, x, tabR, tabB,o1R, o1B, vidget)
-		}
-		typeOfData = 'Факт Потери'
-		
-		tabR = GetPFactR(x = a)
-		
-		tabB = GetPFactB(x = b)
-		println(tabR+'/'+tabB)
-		if (WebUI.verifyEqual(tabR, tabB) == false) {
-			def result = WriteToExcel(typeOfData, todaysDate, PercPlanR, PercPlanB, PercFactR, PercFactB, x, tabR, tabB,o1R, o1B, vidget)
-		}
-		
-		
-		vidget = 'Показатели баланса электроэнергии по ДЗО – План'
-		
-		typeOfData = 'План Отпуск в сеть'
-		
-		tabR = GetOvSPlanR(x = a)
-		
-		tabB = GetOvSPlanB(x = b)
-		println(tabR+'/'+tabB)
-		if (WebUI.verifyEqual(PercFactR, PercFactB) == false) {
-			def result = WriteToExcel(typeOfData, todaysDate, PercPlanR, PercPlanB, PercFactR, PercFactB, x, tabR, tabB,o1R, o1B, vidget)
-		}
-		typeOfData = 'План Отпуск из сети'
-		
-		tabR = GetOiSPlanR(x = a)
-		
-		tabB = GetOiSPlanB(x = b)
-		println(tabR+'/'+tabB)
-		if (WebUI.verifyEqual(PercFactR, PercFactB) == false) {
-			def result = WriteToExcel(typeOfData, todaysDate, PercPlanR, PercPlanB, PercFactR, PercFactB, x, tabR, tabB,o1R, o1B, vidget)
-		}
-		typeOfData = 'План Потери'
-		
-		tabR = GetPPlanR(x = a)
-		
-		tabB = GetPPlanB(x = b)
-		println(tabR+'/'+tabB)
-		if (WebUI.verifyEqual(PercFactR, PercFactB) == false) {
-			def result = WriteToExcel(typeOfData, todaysDate, PercPlanR, PercPlanB, PercFactR, PercFactB, x, tabR, tabB,o1R, o1B, vidget)
-		}
-		
-		ii2 = a.indexOf('ПАО')
-		
-		if(ii2==-1) {
-			vidget = 'Отклонения фактического уровня потерь от бизнес-плана'
-			
-			typeOfData = 'Коэффициент'
-			
-			o1R = Geto1R(x = a)
-			
-			o1B = Geto1B(x = b)
-			println(o1R+'/'+o1B)
-			if (WebUI.verifyEqual(PercFactR, PercFactB) == false) {
-				def result = WriteToExcel(typeOfData, todaysDate, PercPlanR, PercPlanB, PercFactR, PercFactB, x, tabR, tabB,o1R, o1B, vidget)
-			}
-		}
-		
+        
+        vidget = 'Показатели баланса электроэнергии по ДЗО – Факт'
+
+        typeOfData = 'Факт Отпуск в сеть'
+
+        tabR = GetOvSFactR(x = a)
+
+        tabB = GetOvSFactB(x = b)
+
+        if (WebUI.verifyEqual(tabR, tabB) == false) {
+            def result = WriteToExcel(typeOfData, todaysDate, PercPlanR, PercPlanB, PercFactR, PercFactB, x, tabR, tabB, 
+                o1R, o1B, vidget)
+        }
+        
+        typeOfData = 'Факт Отпуск из сети'
+
+        tabR = GetOiSFactR(x = a)
+
+        tabB = GetOiSFactB(x = b)
+
+        if (WebUI.verifyEqual(tabR, tabB) == false) {
+            def result = WriteToExcel(typeOfData, todaysDate, PercPlanR, PercPlanB, PercFactR, PercFactB, x, tabR, tabB, 
+                o1R, o1B, vidget)
+        }
+        
+        typeOfData = 'Факт Потери'
+
+        tabR = GetPFactR(x = a)
+
+        tabB = GetPFactB(x = b)
+
+        println((tabR + '/') + tabB)
+
+        if (WebUI.verifyEqual(tabR, tabB) == false) {
+            def result = WriteToExcel(typeOfData, todaysDate, PercPlanR, PercPlanB, PercFactR, PercFactB, x, tabR, tabB, 
+                o1R, o1B, vidget)
+        }
+        
+        vidget = 'Показатели баланса электроэнергии по ДЗО – План'
+
+        typeOfData = 'План Отпуск в сеть'
+
+        tabR = GetOvSPlanR(x = a)
+
+        tabB = GetOvSPlanB(x = b)
+
+        println((tabR + '/') + tabB)
+
+        if (WebUI.verifyEqual(PercFactR, PercFactB) == false) {
+            def result = WriteToExcel(typeOfData, todaysDate, PercPlanR, PercPlanB, PercFactR, PercFactB, x, tabR, tabB, 
+                o1R, o1B, vidget)
+        }
+        
+        typeOfData = 'План Отпуск из сети'
+
+        tabR = GetOiSPlanR(x = a)
+
+        tabB = GetOiSPlanB(x = b)
+
+        println((tabR + '/') + tabB)
+
+        if (WebUI.verifyEqual(PercFactR, PercFactB) == false) {
+            def result = WriteToExcel(typeOfData, todaysDate, PercPlanR, PercPlanB, PercFactR, PercFactB, x, tabR, tabB, 
+                o1R, o1B, vidget)
+        }
+        
+        typeOfData = 'План Потери'
+
+        tabR = GetPPlanR(x = a)
+
+        tabB = GetPPlanB(x = b)
+
+        println((tabR + '/') + tabB)
+
+        if (WebUI.verifyEqual(PercFactR, PercFactB) == false) {
+            def result = WriteToExcel(typeOfData, todaysDate, PercPlanR, PercPlanB, PercFactR, PercFactB, x, tabR, tabB, 
+                o1R, o1B, vidget)
+        }
+        
+        ii2 = a.indexOf('ПАО')
+
+        if (ii2 == -1) {
+            vidget = 'Отклонения фактического уровня потерь от бизнес-плана'
+
+            typeOfData = 'Коэффициент'
+
+            o1R = Geto1R(x = a)
+
+            o1B = Geto1B(x = b)
+
+            println((o1R + '/') + o1B)
+
+            if (WebUI.verifyEqual(PercFactR, PercFactB) == false) {
+                def result = WriteToExcel(typeOfData, todaysDate, PercPlanR, PercPlanB, PercFactR, PercFactB, x, tabR, tabB, 
+                    o1R, o1B, vidget)
+            }
+        }
     }
 }
 
 def GetAllPAOData(def path, def dZONum, def VseDZO, def x) {
-	String path2 = 'Значения со страницы Выполнение бизнес-плана/Table Data/'
+    String path2 = 'Значения со страницы Выполнение бизнес-плана/Table Data/'
+
     int ii
 
     int i1
@@ -786,101 +806,118 @@ def GetAllPAOData(def path, def dZONum, def VseDZO, def x) {
     String z1
 
     println('path: ' + path)
-	
-	z = WebUI.getText(findTestObject(path + 'Итого')).replaceAll('[\\r?\n|\r]', '/')
-	
-	ii = (z.indexOf('%') + 2)
-		
-	if (ii > -1) {
-		z = z.substring(ii, z.length())
-		println(z)
-	}
-		
-	ii = z.indexOf('/1/100')-1
-		
-	if (ii > -1) {
-		z = z.substring(0, ii)
-		println(z)
-	}
-	
-	ii = z.indexOf('План')
-		
-	if (ii > -1) {
-		z = z.substring(0, ii)
-		println(z)
-	}
-	
-	ii = z.indexOf('/')+1
-	
-	z1 = z.substring(0, ii)
-	
-	println(z1)
-	
-	z = z.substring(ii, z.length())
-	
-	println(z)
-	
-	ii = z1.length()/2
-	
-	z1 = z1.substring(0, ii).replace('/', '').replaceAll('[\\r?\n|\r]', '/').trim()
-	
-	println(z1)
-	
-	ii = z.length()/2
-	
-	z = z.substring(0, ii).replace('/', '').trim()
-	
-	println(z)
-	
-	x = ((x + z1)+'/' + z)
-	
-	println(x)
-	
-	if(WebUI.verifyElementPresent(findTestObject(path + 'Таблица Итого-Факт'), 30)) {
-		
-		z = WebUI.getText(findTestObject(path + 'Таблица Итого-Факт')).replaceAll('[\\r?\n|\r]', '/').replaceAll('\\s+', '').replaceAll('[а-яА-Я]', '')
-		println(z)
-		x = x+'/'+z
-	    println(x)
-	
-	    WebUI.click(findTestObject(path + 'Кнопка План'))
 
-		z = WebUI.getText(findTestObject(path + 'Таблица Итого-План')).replaceAll('[\\r?\n|\r]', '/').replaceAll('\\s+', '').replaceAll('[а-яА-Я]', '')
-		
-		x = x+'/'+z
-		println(x)
-	
-	    WebUI.click(findTestObject(path + 'Кнопка Факт'))
+    z = WebUI.getText(findTestObject(path + 'Итого')).replaceAll('[\\r?\n|\r]', '/')
 
-    }else {
+    ii = (z.indexOf('%') + 2)
 
-		
-		z = WebUI.getText(findTestObject(path + 'Факт Отпуск в сеть за отчётный период ПАО Россети')).replaceAll('\\s+', '')
-		x = x+'/'+z
-		
-		z = WebUI.getText(findTestObject(path + 'Факт Отпуск из сети за отчётный период ПАО Россети')).replaceAll('\\s+', '')
-		x = x+'/'+z
-		
-		z = WebUI.getText(findTestObject(path + 'Факт Потери за отчётный период ПАО Россети')).replaceAll('\\s+', '')
-		x = x+'/'+z
-		
-		z = WebUI.getText(findTestObject(path + 'План Отпуск в сеть за отчётный период ПАО Россети')).replaceAll('\\s+', '')
-		x = x+'/'+z
-		
-		z = WebUI.getText(findTestObject(path + 'План Отпуск из сети за отчётный период ПАО Россети')).replaceAll('\\s+', '')
-		x = x+'/'+z
-		
-		z = WebUI.getText(findTestObject(path + 'План Потери за отчётный период ПАО Россети')).replaceAll('\\s+', '')
-		x = x+'/'+z
-		
-	}
+    if (ii > -1) {
+        z = z.substring(ii, z.length())
+
+        println(z)
+    }
+    
+    ii = (z.indexOf('/1/100') - 1)
+
+    if (ii > -1) {
+        z = z.substring(0, ii)
+
+        println(z)
+    }
+    
+    ii = z.indexOf('План')
+
+    if (ii > -1) {
+        z = z.substring(0, ii)
+
+        println(z)
+    }
+    
+    ii = (z.indexOf('/') + 1)
+
+    z1 = z.substring(0, ii)
+
+    println(z1)
+
+    z = z.substring(ii, z.length())
+
+    println(z)
+
+    ii = (z1.length() / 2)
+
+    z1 = z1.substring(0, ii).replace('/', '').replaceAll('[\\r?\n|\r]', '/').trim()
+
+    println(z1)
+
+    ii = (z.length() / 2)
+
+    z = z.substring(0, ii).replace('/', '').trim()
+
+    println(z)
+
+    x = (((x + z1) + '/') + z)
+
+    println(x)
+
+    if (WebUI.verifyElementPresent(findTestObject(path + 'Таблица Итого-Факт'), 30)) {
+        z = WebUI.getText(findTestObject(path + 'Таблица Итого-Факт')).replaceAll('[\\r?\n|\r]', '/').replaceAll('\\s+', 
+            '').replaceAll('[а-яА-Я]', '')
+
+        println(z)
+
+        x = ((x + '/') + z)
+
+        println(x)
+
+        WebUI.click(findTestObject(path + 'Кнопка План'))
+
+        z = WebUI.getText(findTestObject(path + 'Таблица Итого-План')).replaceAll('[\\r?\n|\r]', '/').replaceAll('\\s+', 
+            '').replaceAll('[а-яА-Я]', '')
+
+        x = ((x + '/') + z)
+
+        println(x)
+
+        WebUI.click(findTestObject(path + 'Кнопка Факт'))
+    } else {
+        z = WebUI.getText(findTestObject(path + 'Факт Отпуск в сеть за отчётный период ПАО Россети')).replaceAll('\\s+', 
+            '')
+
+        x = ((x + '/') + z)
+
+        z = WebUI.getText(findTestObject(path + 'Факт Отпуск из сети за отчётный период ПАО Россети')).replaceAll('\\s+', 
+            '')
+
+        x = ((x + '/') + z)
+
+        z = WebUI.getText(findTestObject(path + 'Факт Потери за отчётный период ПАО Россети')).replaceAll('\\s+', '')
+
+        x = ((x + '/') + z)
+
+        z = WebUI.getText(findTestObject(path + 'План Отпуск в сеть за отчётный период ПАО Россети')).replaceAll('\\s+', 
+            '')
+
+        x = ((x + '/') + z)
+
+        z = WebUI.getText(findTestObject(path + 'План Отпуск из сети за отчётный период ПАО Россети')).replaceAll('\\s+', 
+            '')
+
+        x = ((x + '/') + z)
+
+        z = WebUI.getText(findTestObject(path + 'План Потери за отчётный период ПАО Россети')).replaceAll('\\s+', '')
+
+        x = ((x + '/') + z)
+    }
+    
     return x
 }
 
 def GetAllData(def path, def dZONum, def VseDZO, def x) {
-	int ii
-	int i1
-	String z
+    int ii
+
+    int i1
+
+    String z
 
     String path2 = 'Значения со страницы Выполнение бизнес-плана/Table Data/'
 
@@ -889,77 +926,91 @@ def GetAllData(def path, def dZONum, def VseDZO, def x) {
     println('dZONum: ' + dZONum)
 
     z = WebUI.getText(findTestObject((path + 'spanPlan') + dZONum))
-	println(z)
-	ii = z.indexOf('|')
-	
-	if(ii>-1) {
-		z = z.substring(0,z.length()-1)
-		println(z)
-		
-	}
 
-	z = z.replaceAll('\\s+', '')
-	z = z.replace('[\\r?\n|\r]', '/')
-	println(z)
-	x = x+z
-	
+    println(z)
+
+    ii = z.indexOf('|')
+
+    if (ii > -1) {
+        z = z.substring(0, z.length() - 1)
+
+        println(z)
+    }
+    
+    z = z.replaceAll('\\s+', '')
+
+    z = z.replace('[\\r?\n|\r]', '/')
+
+    println(z)
+
+    x = (x + z)
+
     z = WebUI.getText(findTestObject((path + 'spanFact') + dZONum))
-	
-	ii = z.indexOf('|')
-	
-	if(ii>-1) {
-		z = z.replace('|', '').substring(0,(z.length()-1)).replace('[\\r?\n|\r]', '/')
-	}
-		
-	x = x+'/'+z
-	
-    z = WebUI.getText(findTestObject(((path + path2) + 'Факт Отпуск в сеть за отчётный период ') + dZONum)).replaceAll('\\s+', '')
-	
-	x = x+'/'+z
-	
-    z = WebUI.getText(findTestObject(((path + path2) + 'Факт Отпуск из сети за отчётный период ') + dZONum)).replaceAll('\\s+', '')
-	
-	x = x+'/'+z
-	
-    z = WebUI.getText(findTestObject(((path + path2) + 'Факт Потери за отчётный период ') + dZONum)).replaceAll('\\s+', '')
-	
-	x = x+'/'+z
-	
-    z = WebUI.getText(findTestObject(((path + path2) + 'План Отпуск в сеть за отчётный период ') + dZONum)).replaceAll('\\s+', '')
-	
-	x = x+'/'+z
-	
-    z =  WebUI.getText(findTestObject(((path + path2) + 'План Отпуск из сети за отчётный период ') + dZONum)).replaceAll('\\s+', '')
-	
-	x = x+'/'+z
-	
-    z = WebUI.getText(findTestObject(((path + path2) + 'План Потери за отчётный период ') + dZONum)).replaceAll('\\s+', '')
-	
-	x = x+'/'+z
-		
-	z = WebUI.getText(findTestObject(path + 'Список ДЗО')).replaceAll('[\\r?\n|\r]', '/')
-	
-	for(ii=1;ii<dZONum;ii++) {
-		
-		i1 = z.indexOf('/')+1
-		if (i1>-1) {
-			z = z.substring(i1,z.length())
-			
-			i1 = z.indexOf('/')
-		}
-	}
-	i1 = z.indexOf('/')
-	if (i1>-1) {
-		z = z.substring(0,i1)
-		
-	}
-		
-	z = z.replace(',','.')
-	println(z)
-	
-	x = x+'/'+z
-	
-	x = x.replaceAll('[\\r?\n|\r]', '')
+
+    ii = z.indexOf('|')
+
+    if (ii > -1) {
+        z = z.replace('|', '').substring(0, z.length() - 1).replace('[\\r?\n|\r]', '/')
+    }
+    
+    x = ((x + '/') + z)
+
+    z = WebUI.getText(findTestObject(((path + path2) + 'Факт Отпуск в сеть за отчётный период ') + dZONum)).replaceAll('\\s+', 
+        '')
+
+    x = ((x + '/') + z)
+
+    z = WebUI.getText(findTestObject(((path + path2) + 'Факт Отпуск из сети за отчётный период ') + dZONum)).replaceAll(
+        '\\s+', '')
+
+    x = ((x + '/') + z)
+
+    z = WebUI.getText(findTestObject(((path + path2) + 'Факт Потери за отчётный период ') + dZONum)).replaceAll('\\s+', 
+        '')
+
+    x = ((x + '/') + z)
+
+    z = WebUI.getText(findTestObject(((path + path2) + 'План Отпуск в сеть за отчётный период ') + dZONum)).replaceAll('\\s+', 
+        '')
+
+    x = ((x + '/') + z)
+
+    z = WebUI.getText(findTestObject(((path + path2) + 'План Отпуск из сети за отчётный период ') + dZONum)).replaceAll(
+        '\\s+', '')
+
+    x = ((x + '/') + z)
+
+    z = WebUI.getText(findTestObject(((path + path2) + 'План Потери за отчётный период ') + dZONum)).replaceAll('\\s+', 
+        '')
+
+    x = ((x + '/') + z)
+
+    z = WebUI.getText(findTestObject(path + 'Список ДЗО')).replaceAll('[\\r?\n|\r]', '/')
+
+    for (ii = 1; ii < dZONum; ii++) {
+        i1 = (z.indexOf('/') + 1)
+
+        if (i1 > -1) {
+            z = z.substring(i1, z.length())
+
+            i1 = z.indexOf('/')
+        }
+    }
+    
+    i1 = z.indexOf('/')
+
+    if (i1 > -1) {
+        z = z.substring(0, i1)
+    }
+    
+    z = z.replace(',', '.')
+
+    println(z)
+
+    x = ((x + '/') + z)
+
+    x = x.replaceAll('[\\r?\n|\r]', '')
+
     println(x)
 
     return x
@@ -996,7 +1047,6 @@ def GetPercPlanB(def x) {
 
     if (i1 > -1) {
         x = x.substring(0, i1)
-		
     }
     
     return x
@@ -1007,21 +1057,24 @@ def GetPercFactR(def x) {
 
     int ii
 
-	for (ii = 1; ii < 3; ii++) {
-		i1 = (x.indexOf('/') + 1)
-	
-		if (i1 > -1) {
-			x = x.substring(i1, x.length())
-			println(x)
-		 }
-	}
-	i1 = x.indexOf('/')
-	
-	if (i1 > -1) {
-		x = x.substring(0, i1)
-	
-	}
-	println(x)
+    for (ii = 1; ii < 3; ii++) {
+        i1 = (x.indexOf('/') + 1)
+
+        if (i1 > -1) {
+            x = x.substring(i1, x.length())
+
+            println(x)
+        }
+    }
+    
+    i1 = x.indexOf('/')
+
+    if (i1 > -1) {
+        x = x.substring(0, i1)
+    }
+    
+    println(x)
+
     return x
 }
 
@@ -1030,298 +1083,337 @@ def GetPercFactB(def x) {
 
     int ii
 
-	for (ii = 1; ii < 3; ii++) {
-		i1 = (x.indexOf('/') + 1)
-	
-		if (i1 > -1) {
-			x = x.substring(i1, x.length())
-			println(x)
-		 }
-	}
-	i1 = x.indexOf('/')
-	
-	if (i1 > -1) {
-		x = x.substring(0, i1)
-	
-	}
-	println(x)
+    for (ii = 1; ii < 3; ii++) {
+        i1 = (x.indexOf('/') + 1)
+
+        if (i1 > -1) {
+            x = x.substring(i1, x.length())
+
+            println(x)
+        }
+    }
+    
+    i1 = x.indexOf('/')
+
+    if (i1 > -1) {
+        x = x.substring(0, i1)
+    }
+    
+    println(x)
+
     return x
 }
 
 def GetOvSFactR(def x) {
-	int i1
-	
-	int ii
-	
-	for (ii = 1; ii < 4; ii++) {
-		i1 = (x.indexOf('/') + 1)
-	
-		if (i1 > -1) {
-			x = x.substring(i1, x.length())
-			println(x)
-		 }
-	}
-	i1 = x.indexOf('/')
-	
-	if (i1 > -1) {
-		x = x.substring(0, i1)
-	
-	}
-	println(x)
-	return x
+    int i1
+
+    int ii
+
+    for (ii = 1; ii < 4; ii++) {
+        i1 = (x.indexOf('/') + 1)
+
+        if (i1 > -1) {
+            x = x.substring(i1, x.length())
+
+            println(x)
+        }
+    }
+    
+    i1 = x.indexOf('/')
+
+    if (i1 > -1) {
+        x = x.substring(0, i1)
+    }
+    
+    println(x)
+
+    return x
 }
 
 def GetOvSFactB(def x) {
     int i1
-	
-	int ii
-	
-	for (ii = 1; ii < 4; ii++) {
-		i1 = (x.indexOf('/') + 1)
-	
-		if (i1 > -1) {
-			x = x.substring(i1, x.length())
-			println(x)
-		 }
-	}
-	i1 = x.indexOf('/')
-	
-	if (i1 > -1) {
-		x = x.substring(0, i1)
-	
-	}
-	println(x)
-	return x
+
+    int ii
+
+    for (ii = 1; ii < 4; ii++) {
+        i1 = (x.indexOf('/') + 1)
+
+        if (i1 > -1) {
+            x = x.substring(i1, x.length())
+
+            println(x)
+        }
+    }
+    
+    i1 = x.indexOf('/')
+
+    if (i1 > -1) {
+        x = x.substring(0, i1)
+    }
+    
+    println(x)
+
+    return x
 }
 
 def GetOiSFactR(def x) {
-	int i1
-	
-	int ii
-	
-	for (ii = 1; ii < 5; ii++) {
-		i1 = (x.indexOf('/') + 1)
-	
-		if (i1 > -1) {
-			x = x.substring(i1, x.length())
-			println(x)
-		 }
-	}
-	i1 = x.indexOf('/')
-	
-	if (i1 > -1) {
-		x = x.substring(0, i1)
-	
-	}
-	println(x)
-	return x
+    int i1
+
+    int ii
+
+    for (ii = 1; ii < 5; ii++) {
+        i1 = (x.indexOf('/') + 1)
+
+        if (i1 > -1) {
+            x = x.substring(i1, x.length())
+
+            println(x)
+        }
+    }
+    
+    i1 = x.indexOf('/')
+
+    if (i1 > -1) {
+        x = x.substring(0, i1)
+    }
+    
+    println(x)
+
+    return x
 }
 
 def GetOiSFactB(def x) {
-	int i1
-	
-	int ii
-	
-	for (ii = 1; ii < 5; ii++) {
-		i1 = (x.indexOf('/') + 1)
-	
-		if (i1 > -1) {
-			x = x.substring(i1, x.length())
-			println(x)
-		 }
-	}
-	i1 = x.indexOf('/')
-	
-	if (i1 > -1) {
-		x = x.substring(0, i1)
-	
-	}
-	println(x)
-	return x
+    int i1
+
+    int ii
+
+    for (ii = 1; ii < 5; ii++) {
+        i1 = (x.indexOf('/') + 1)
+
+        if (i1 > -1) {
+            x = x.substring(i1, x.length())
+
+            println(x)
+        }
+    }
+    
+    i1 = x.indexOf('/')
+
+    if (i1 > -1) {
+        x = x.substring(0, i1)
+    }
+    
+    println(x)
+
+    return x
 }
 
 def GetPFactR(def x) {
-	int i1
-	
-	int ii
-	
-	for (ii = 1; ii < 6; ii++) {
-		i1 = (x.indexOf('/') + 1)
-	
-		if (i1 > -1) {
-			x = x.substring(i1, x.length())
-			println(x)
-		 }
-	}
-	i1 = x.indexOf('/')
-	
-	if (i1 > -1) {
-		x = x.substring(0, i1)
-	
-	}
-	println(x)
-	return x
+    int i1
+
+    int ii
+
+    for (ii = 1; ii < 6; ii++) {
+        i1 = (x.indexOf('/') + 1)
+
+        if (i1 > -1) {
+            x = x.substring(i1, x.length())
+
+            println(x)
+        }
+    }
+    
+    i1 = x.indexOf('/')
+
+    if (i1 > -1) {
+        x = x.substring(0, i1)
+    }
+    
+    println(x)
+
+    return x
 }
 
 def GetPFactB(def x) {
-	int i1
-	
-	int ii
-	
-	for (ii = 1; ii < 6; ii++) {
-		i1 = (x.indexOf('/') + 1)
-	
-		if (i1 > -1) {
-			x = x.substring(i1, x.length())
-			println(x)
-		 }
-	}
-	i1 = x.indexOf('/')
-	
-	if (i1 > -1) {
-		x = x.substring(0, i1)
-	
-	}
-	println(x)
-	return x
+    int i1
+
+    int ii
+
+    for (ii = 1; ii < 6; ii++) {
+        i1 = (x.indexOf('/') + 1)
+
+        if (i1 > -1) {
+            x = x.substring(i1, x.length())
+
+            println(x)
+        }
+    }
+    
+    i1 = x.indexOf('/')
+
+    if (i1 > -1) {
+        x = x.substring(0, i1)
+    }
+    
+    println(x)
+
+    return x
 }
 
 def GetOvSPlanR(def x) {
-	int i1
-	
-	int ii
-	
-	for (ii = 1; ii < 7; ii++) {
-		i1 = (x.indexOf('/') + 1)
-	
-		if (i1 > -1) {
-			x = x.substring(i1, x.length())
-			println(x)
-		 }
-	}
-	i1 = x.indexOf('/')
-	
-	if (i1 > -1) {
-		x = x.substring(0, i1)
-	
-	}
-	println(x)
-	return x
+    int i1
+
+    int ii
+
+    for (ii = 1; ii < 7; ii++) {
+        i1 = (x.indexOf('/') + 1)
+
+        if (i1 > -1) {
+            x = x.substring(i1, x.length())
+
+            println(x)
+        }
+    }
+    
+    i1 = x.indexOf('/')
+
+    if (i1 > -1) {
+        x = x.substring(0, i1)
+    }
+    
+    println(x)
+
+    return x
 }
 
 def GetOvSPlanB(def x) {
-	int i1
-	
-	int ii
-	
-	for (ii = 1; ii < 7; ii++) {
-		i1 = (x.indexOf('/') + 1)
-	
-		if (i1 > -1) {
-			x = x.substring(i1, x.length())
-			println(x)
-		 }
-	}
-	i1 = x.indexOf('/')
-	
-	if (i1 > -1) {
-		x = x.substring(0, i1)
-	
-	}
-	println(x)
-	return x
+    int i1
+
+    int ii
+
+    for (ii = 1; ii < 7; ii++) {
+        i1 = (x.indexOf('/') + 1)
+
+        if (i1 > -1) {
+            x = x.substring(i1, x.length())
+
+            println(x)
+        }
+    }
+    
+    i1 = x.indexOf('/')
+
+    if (i1 > -1) {
+        x = x.substring(0, i1)
+    }
+    
+    println(x)
+
+    return x
 }
 
 def GetOiSPlanR(def x) {
-	int i1
-	
-	int ii
-	
-	for (ii = 1; ii < 8; ii++) {
-		i1 = (x.indexOf('/') + 1)
-	
-		if (i1 > -1) {
-			x = x.substring(i1, x.length())
-			println(x)
-		 }
-	}
-	i1 = x.indexOf('/')
-	
-	if (i1 > -1) {
-		x = x.substring(0, i1)
-	
-	}
-	println(x)
-	return x
+    int i1
+
+    int ii
+
+    for (ii = 1; ii < 8; ii++) {
+        i1 = (x.indexOf('/') + 1)
+
+        if (i1 > -1) {
+            x = x.substring(i1, x.length())
+
+            println(x)
+        }
+    }
+    
+    i1 = x.indexOf('/')
+
+    if (i1 > -1) {
+        x = x.substring(0, i1)
+    }
+    
+    println(x)
+
+    return x
 }
 
 def GetOiSPlanB(def x) {
-   int i1
-	
-	int ii
-	
-	for (ii = 1; ii < 8; ii++) {
-		i1 = (x.indexOf('/') + 1)
-	
-		if (i1 > -1) {
-			x = x.substring(i1, x.length())
-			println(x)
-		 }
-	}
-	i1 = x.indexOf('/')
-	
-	if (i1 > -1) {
-		x = x.substring(0, i1)
-	
-	}
-	println(x)
-	return x
+    int i1
+
+    int ii
+
+    for (ii = 1; ii < 8; ii++) {
+        i1 = (x.indexOf('/') + 1)
+
+        if (i1 > -1) {
+            x = x.substring(i1, x.length())
+
+            println(x)
+        }
+    }
+    
+    i1 = x.indexOf('/')
+
+    if (i1 > -1) {
+        x = x.substring(0, i1)
+    }
+    
+    println(x)
+
+    return x
 }
 
 def GetPPlanR(def x) {
-	int i1
-	
-	int ii
-	
-	for (ii = 1; ii < 9; ii++) {
-		i1 = (x.indexOf('/') + 1)
-	
-		if (i1 > -1) {
-			x = x.substring(i1, x.length())
-			println(x)
-		 }
-	}
-	i1 = x.indexOf('/')
-	
-	if (i1 > -1) {
-		x = x.substring(0, i1)
-	
-	}
-	println(x)
-	return x
+    int i1
+
+    int ii
+
+    for (ii = 1; ii < 9; ii++) {
+        i1 = (x.indexOf('/') + 1)
+
+        if (i1 > -1) {
+            x = x.substring(i1, x.length())
+
+            println(x)
+        }
+    }
+    
+    i1 = x.indexOf('/')
+
+    if (i1 > -1) {
+        x = x.substring(0, i1)
+    }
+    
+    println(x)
+
+    return x
 }
 
 def GetPPlanB(def x) {
-	int i1
-	
-	int ii
-	
-	for (ii = 1; ii < 9; ii++) {
-		i1 = (x.indexOf('/') + 1)
-	
-		if (i1 > -1) {
-			x = x.substring(i1, x.length())
-			println(x)
-		 }
-	}
-	i1 = x.indexOf('/')
-	
-	if (i1 > -1) {
-		x = x.substring(0, i1)
-	
-	}
-	println(x)
-	return x
+    int i1
+
+    int ii
+
+    for (ii = 1; ii < 9; ii++) {
+        i1 = (x.indexOf('/') + 1)
+
+        if (i1 > -1) {
+            x = x.substring(i1, x.length())
+
+            println(x)
+        }
+    }
+    
+    i1 = x.indexOf('/')
+
+    if (i1 > -1) {
+        x = x.substring(0, i1)
+    }
+    
+    println(x)
+
+    return x
 }
 
 def Geto1R(def x) {
@@ -1329,66 +1421,65 @@ def Geto1R(def x) {
 
     int ii
 
-	for (ii = 1; ii < 10; ii++) {
-	
-	i1 = (x.indexOf('/') + 1)
-		if (i1 > -1) {
-			x = x.substring(i1, x.length())
-			
-	
-		}
-	}
-	
-	i1 = x.indexOf('/')
-	
-		if (i1 > -1) {
-			x = x.substring(0, i1)
-			
-	}
-	println(x)
+    for (ii = 1; ii < 10; ii++) {
+        i1 = (x.indexOf('/') + 1)
+
+        if (i1 > -1) {
+            x = x.substring(i1, x.length())
+        }
+    }
+    
+    i1 = x.indexOf('/')
+
+    if (i1 > -1) {
+        x = x.substring(0, i1)
+    }
+    
+    println(x)
+
     return x
 }
 
 def Geto1B(def x) {
-	int i1
-	
-	int ii
-	
-	for (ii = 1; ii < 10; ii++) {
-		
-		i1 = (x.indexOf('/') + 1)
-		if (i1 > -1) {
-			x = x.substring(i1, x.length())
-			
-			
-		}
-	}
-		
-	i1 = x.indexOf('/')
-		
-	if (i1 > -1) {
-		x = x.substring(0, i1)
-		
-	}
-	println(x)
-	return x
+    int i1
+
+    int ii
+
+    for (ii = 1; ii < 10; ii++) {
+        i1 = (x.indexOf('/') + 1)
+
+        if (i1 > -1) {
+            x = x.substring(i1, x.length())
+        }
+    }
+    
+    i1 = x.indexOf('/')
+
+    if (i1 > -1) {
+        x = x.substring(0, i1)
+    }
+    
+    println(x)
+
+    return x
 }
 
 def WriteToExcel(def typeOfData, def todaysDate, def PercPlanR, def PercPlanB, def PercFactR, def PercFactB, def dZO, def tabR, def tabB, def o1R, def o1B, def vidget) {
-	
-	int iii = dZO.indexOf('/')
-		println(iii)
-        dZO =  dZO.substring(0,iii)
-		println(dZO)
-	
-	println(PercPlanR)
-	
-	println(PercPlanB)
+    int iii = dZO.indexOf('/')
+
+    println(iii)
+
+    dZO = dZO.substring(0, iii)
+
+    println(dZO)
+
+    println(PercPlanR)
+
+    println(PercPlanB)
 
     println(PercFactR)
-	
-    println(PercFactB)
 
+    println(PercFactB)
 
     println(tabR)
 
@@ -1405,10 +1496,10 @@ def WriteToExcel(def typeOfData, def todaysDate, def PercPlanR, def PercPlanB, d
     Double PB
 
     Double FB
-	
-	int TR
-	
-	int TB
+
+    int TR
+
+    int TB
 
     String sheetName = 'Sheet1'
 
@@ -1435,108 +1526,100 @@ def WriteToExcel(def typeOfData, def todaysDate, def PercPlanR, def PercPlanB, d
     ExcelKeywords.setValueToCellByIndex(sheet01, n, 0, dashboardName)
 
     ExcelKeywords.setValueToCellByIndex(sheet01, n, 1, dZO)
-	
-	ExcelKeywords.setValueToCellByIndex(sheet01, n, 2, typeOfData)
-	
+
+    ExcelKeywords.setValueToCellByIndex(sheet01, n, 2, typeOfData)
+
     ExcelKeywords.setValueToCellByIndex(sheet01, n, 3, typeOfData)
 
     if (typeOfData == 'План') {
-		if(PercPlanR==null) {
-			
-		}else {
-	        if (PercPlanR=='нет данных') {
-	            ExcelKeywords.setValueToCellByIndex(sheet01, n, 4, 'нет данных')
-	        } else {
-	            PR = PercPlanR.toDouble()
-	
-	            ExcelKeywords.setValueToCellByIndex(sheet01, n, 4, PR)
-	        }
-		}
-		if(PercPlanB==null) {
-		
-		}else {
-	        if (PercPlanB=='нет данных') {
-	            ExcelKeywords.setValueToCellByIndex(sheet01, n, 5, 'нет данных')
-	        } else {
-	            PB = PercPlanB.toDouble()
-	
-	            ExcelKeywords.setValueToCellByIndex(sheet01, n, 5, PB)
-	        }
-		}
+        if (PercPlanR == null) {
+        } else {
+            if (PercPlanR == 'нет данных') {
+                ExcelKeywords.setValueToCellByIndex(sheet01, n, 4, 'нет данных')
+            } else {
+                PR = PercPlanR.toDouble()
+
+                ExcelKeywords.setValueToCellByIndex(sheet01, n, 4, PR)
+            }
+        }
+        
+        if (PercPlanB == null) {
+        } else {
+            if (PercPlanB == 'нет данных') {
+                ExcelKeywords.setValueToCellByIndex(sheet01, n, 5, 'нет данных')
+            } else {
+                PB = PercPlanB.toDouble()
+
+                ExcelKeywords.setValueToCellByIndex(sheet01, n, 5, PB)
+            }
+        }
     } else if (typeOfData == 'Факт') {
-		if(PercFactR==null) {
-		
-			}else {
-	        if (PercFactR=='нет данных') {
-	            ExcelKeywords.setValueToCellByIndex(sheet01, n, 4, 'нет данных')
-	        } else {
-	            FR = PercFactR.toDouble()
-	
-	            ExcelKeywords.setValueToCellByIndex(sheet01, n, 4, FR)
-	        }
-		}
-		if(PercFactB==null) {
-		
-		}else {
-	        if (PercFactB=='нет данных') {
-	            ExcelKeywords.setValueToCellByIndex(sheet01, n, 5, 'нет данных')
-	        } else {
-	            FB = PercFactB.toDouble()
-	
-	            ExcelKeywords.setValueToCellByIndex(sheet01, n, 5, FB)
-	        }
-		}
-    } else if (vidget.contains('электроэнергии') == true)  {
-		if(tabR==null) {
-		
-		}else {
-			if (tabR=='нет данных') {
-				ExcelKeywords.setValueToCellByIndex(sheet01, n, 4, 'нет данных')
-			} else {
-				TR = tabR.toInteger()
-	
-				ExcelKeywords.setValueToCellByIndex(sheet01, n, 4, TR)
-			}
-		}
-			
-		if(tabB==null) {
-		
-		}else {
-			
-			if (tabB == 'нет данных') {
-				ExcelKeywords.setValueToCellByIndex(sheet01, n, 5, 'нет данных')
-			} else {
-				TB = tabB.toInteger()
-	
-				ExcelKeywords.setValueToCellByIndex(sheet01, n, 5, TB)
-			}
-		}
-    }else {
-		if(o1R==null) {
-		
-		}else {
-			if (o1R=='нет данных') {
-				ExcelKeywords.setValueToCellByIndex(sheet01, n, 4, 'нет данных')
-			} else {
-				FR = o1R.toDouble()
-	
-				ExcelKeywords.setValueToCellByIndex(sheet01, n, 4, FR)
-			}
-		}
-		if(o1B==null) {
-		
-		}else {
-			
-			if (o1B=='нет данных') {
-				ExcelKeywords.setValueToCellByIndex(sheet01, n, 5, 'нет данных')
-			} else {
-				FB = o1B.toDouble()
-	
-				ExcelKeywords.setValueToCellByIndex(sheet01, n, 5, FB)
-	
-			}
-		}
-	}
+        if (PercFactR == null) {
+        } else {
+            if (PercFactR == 'нет данных') {
+                ExcelKeywords.setValueToCellByIndex(sheet01, n, 4, 'нет данных')
+            } else {
+                FR = PercFactR.toDouble()
+
+                ExcelKeywords.setValueToCellByIndex(sheet01, n, 4, FR)
+            }
+        }
+        
+        if (PercFactB == null) {
+        } else {
+            if (PercFactB == 'нет данных') {
+                ExcelKeywords.setValueToCellByIndex(sheet01, n, 5, 'нет данных')
+            } else {
+                FB = PercFactB.toDouble()
+
+                ExcelKeywords.setValueToCellByIndex(sheet01, n, 5, FB)
+            }
+        }
+    } else if (vidget.contains('электроэнергии') == true) {
+        if (tabR == null) {
+        } else {
+            if (tabR == 'нет данных') {
+                ExcelKeywords.setValueToCellByIndex(sheet01, n, 4, 'нет данных')
+            } else {
+                TR = tabR.toInteger()
+
+                ExcelKeywords.setValueToCellByIndex(sheet01, n, 4, TR)
+            }
+        }
+        
+        if (tabB == null) {
+        } else {
+            if (tabB == 'нет данных') {
+                ExcelKeywords.setValueToCellByIndex(sheet01, n, 5, 'нет данных')
+            } else {
+                TB = tabB.toInteger()
+
+                ExcelKeywords.setValueToCellByIndex(sheet01, n, 5, TB)
+            }
+        }
+    } else {
+        if (o1R == null) {
+        } else {
+            if (o1R == 'нет данных') {
+                ExcelKeywords.setValueToCellByIndex(sheet01, n, 4, 'нет данных')
+            } else {
+                FR = o1R.toDouble()
+
+                ExcelKeywords.setValueToCellByIndex(sheet01, n, 4, FR)
+            }
+        }
+        
+        if (o1B == null) {
+        } else {
+            if (o1B == 'нет данных') {
+                ExcelKeywords.setValueToCellByIndex(sheet01, n, 5, 'нет данных')
+            } else {
+                FB = o1B.toDouble()
+
+                ExcelKeywords.setValueToCellByIndex(sheet01, n, 5, FB)
+            }
+        }
+    }
     
     ExcelKeywords.setValueToCellByIndex(sheet01, n, 6, m)
 
@@ -1550,94 +1633,98 @@ def WriteToExcel(def typeOfData, def todaysDate, def PercPlanR, def PercPlanB, d
 }
 
 static def Presettings(def blockNum, def path) {
-	WebUI.openBrowser('')
-	
-		if (blockNum == 1) {
-			path = 'Object Repository/Выполнение бизнес-плана/'
-	
-			WebUI.navigateToUrl(findTestData('PlanFact').getValue(10, 1))
-		} else {
-			path = 'Object Repository/Выполнение бизнес-плана/Выполнение бизнес-плана Балансы/'
-	
-			WebUI.navigateToUrl(findTestData('PlanFact').getValue(10, 4))
-		}
-		
-		println(path)
-	
-		WebUI.setText(findTestObject('Страница авторизации/input__username'), findTestData('PlanFact').getValue(8, 1))
-	
-		WebUI.setText(findTestObject('Страница авторизации/input__password'), findTestData('PlanFact').getValue(9, 1))
-	
-		WebUI.click(findTestObject('Страница авторизации/button_'))
-	
-		WebUI.delay(30)
-	
-		ZakrytOpoveshenie()
-	
-		'Раскрыть фильтр "Дата"'
-		WebUI.click(findTestObject(path + 'Фильтр Дата'))
-	
-		'Нажать "Снять выделение"'
-		WebUI.click(findTestObject(path + 'Снять выделение в фильтре Дата'))
-	
-		'Нажать "Применить"'
-		WebUI.click(findTestObject(path + 'Применить в фильтре Дата'))
-	
-		WebUI.delay(30)
-	
-		ZakrytOpoveshenie()
-	
-		'Раскрыть фильтр "Дата"'
-		WebUI.click(findTestObject(path + 'Фильтр Дата'))
-	
-		WebUI.scrollToElement(findTestObject(path + '2024 список'), 30)
-	
-		'Выбрать 1 квартал 2022'
-		WebUI.click(findTestObject(path + '2024 список'))
-	
-		'Выбрать 1 квартал 2022'
-		WebUI.scrollToElement(findTestObject(path + '1 квартал 2024 список'), 30)
-	
-		'Выбрать 1 квартал 2022'
-		WebUI.click(findTestObject(path + '1 квартал 2024 список'))
-	
-		'Выбрать 1 квартал 2022'
-		WebUI.click(findTestObject(path + 'Январь 2024'))
-	
-		'Выбрать 1 квартал 2022'
-		WebUI.click(findTestObject(path + 'Февраль 2024'))
-	
-		'Выбрать 1 квартал 2022'
-		WebUI.click(findTestObject(path + 'Март 2024'))
-	
-		'Выбрать 2 квартал 2024'
-		WebUI.scrollToElement(findTestObject(path + '2 квартал 2024'), 30)
-		
-		WebUI.click(findTestObject(path + '2 квартал 2024'))
-	
-		'Проскроллить до заголовка фильтра "Дата"'
-		WebUI.scrollToElement(findTestObject(path + 'Заголовок дашборда'), 30)
-	
-		'Нажать "Применить"'
-		WebUI.click(findTestObject(path + 'Применить в фильтре Дата'))
-	
-		WebUI.delay(30)
-	
-		ZakrytOpoveshenie()
-	
-		'Открыть фильтр "ДЗО"'
-		WebUI.click(findTestObject(path + 'Фильтр ДЗО'))
-	
-		'Нажать "Снять выделение"'
-		WebUI.click(findTestObject(path + 'Снять выделение в фильтре ДЗО'))
-	
-		'Выбрать ПАО Россети'
-		WebUI.click(findTestObject(path + 'ПАО Россети'))
-	
-		'Нажать "Применить"'
-		WebUI.click(findTestObject(path + 'Применить в фильтре ДЗО'))
-	
-		WebUI.delay(30)
+    WebUI.openBrowser('')
+
+    if (blockNum == 1) {
+        path = 'Object Repository/Выполнение бизнес-плана/'
+
+        WebUI.navigateToUrl(findTestData('PlanFact').getValue(10, 1))
+    } else {
+        path = 'Object Repository/Выполнение бизнес-плана/Выполнение бизнес-плана Балансы/'
+
+        WebUI.navigateToUrl(findTestData('PlanFact').getValue(10, 4))
+    }
+    
+    WebUI.refresh()
+
+    WebUI.delay(30)
+
+    println(path)
+
+    WebUI.setText(findTestObject('Страница авторизации/input__username'), findTestData('PlanFact').getValue(8, 1))
+
+    WebUI.setText(findTestObject('Страница авторизации/input__password'), findTestData('PlanFact').getValue(9, 1))
+
+    WebUI.click(findTestObject('Страница авторизации/button_'))
+
+    WebUI.delay(50)
+
+    ZakrytOpoveshenie()
+
+    'Раскрыть фильтр "Дата"'
+    WebUI.click(findTestObject(path + 'Фильтр Дата'))
+
+    'Нажать "Снять выделение"'
+    WebUI.click(findTestObject(path + 'Снять выделение в фильтре Дата'))
+
+    'Нажать "Применить"'
+    WebUI.click(findTestObject(path + 'Применить в фильтре Дата'))
+
+    WebUI.delay(30)
+
+    ZakrytOpoveshenie()
+
+    'Раскрыть фильтр "Дата"'
+    WebUI.click(findTestObject(path + 'Фильтр Дата'))
+
+    WebUI.scrollToElement(findTestObject(path + '2024 список'), 30)
+
+    'Выбрать 1 квартал 2022'
+    WebUI.click(findTestObject(path + '2024 список'))
+
+    'Выбрать 1 квартал 2022'
+    WebUI.scrollToElement(findTestObject(path + '1 квартал 2024 список'), 30)
+
+    'Выбрать 1 квартал 2022'
+    WebUI.click(findTestObject(path + '1 квартал 2024 список'))
+
+    'Выбрать 1 квартал 2022'
+    WebUI.click(findTestObject(path + 'Январь 2024'))
+
+    'Выбрать 1 квартал 2022'
+    WebUI.click(findTestObject(path + 'Февраль 2024'))
+
+    'Выбрать 1 квартал 2022'
+    WebUI.click(findTestObject(path + 'Март 2024'))
+
+    'Выбрать 2 квартал 2024'
+    WebUI.scrollToElement(findTestObject(path + '2 квартал 2024'), 30)
+
+    WebUI.click(findTestObject(path + '2 квартал 2024'))
+
+    'Проскроллить до заголовка фильтра "Дата"'
+    WebUI.scrollToElement(findTestObject(path + 'Заголовок дашборда'), 30)
+
+    'Нажать "Применить"'
+    WebUI.click(findTestObject(path + 'Применить в фильтре Дата'))
+
+    WebUI.delay(30)
+
+    ZakrytOpoveshenie()
+
+    'Открыть фильтр "ДЗО"'
+    WebUI.click(findTestObject(path + 'Фильтр ДЗО'))
+
+    'Нажать "Снять выделение"'
+    WebUI.click(findTestObject(path + 'Снять выделение в фильтре ДЗО'))
+
+    'Выбрать ПАО Россети'
+    WebUI.click(findTestObject(path + 'ПАО Россети'))
+
+    'Нажать "Применить"'
+    WebUI.click(findTestObject(path + 'Применить в фильтре ДЗО'))
+
+    WebUI.delay(30)
 }
 
 static void ZakrytOpoveshenie() {
