@@ -26,7 +26,37 @@ println(todaysDate)
 
 WebUI.openBrowser('')
 
+String urlText
+
+String searchWord
+
+int i
+
+int ii
+
 WebUI.navigateToUrl(findTestData('PlanFact').getValue(10, 5))
+
+urlText = WebUI.getText(findTestObject('Страница авторизации/Text'))
+
+WebUI.delay(10)
+
+searchWord = 'Вход'
+
+if (urlText.contains(searchWord) == false) {
+	for (urlText.contains(searchWord) == false; i < 4; ii++) {
+		i = (i + 1)
+
+		WebUI.refresh()
+
+		WebUI.delay(20)
+
+		WebUI.navigateToUrl(findTestData('PlanFact').getValue(10, 5))
+
+		WebUI.delay(10)
+
+		urlText = WebUI.getText(findTestObject('Страница авторизации/Text'))
+	}
+}
 
 WebUI.setText(findTestObject('Страница авторизации/input__username'), findTestData('PlanFact').getValue(8, 1))
 
@@ -34,7 +64,28 @@ WebUI.setText(findTestObject('Страница авторизации/input__pas
 
 WebUI.click(findTestObject('Страница авторизации/button_'))
 
-WebUI.delay(10)
+WebUI.delay(50)
+
+searchWord = 'ДЗО'
+
+urlText = WebUI.getText(findTestObject('Страница авторизации/Text'))
+
+if ((urlText.contains('ошибка'))||(urlText.contains(searchWord) == false)) {
+	for (urlText.contains(searchWord) == false; i < 4; ii++) {
+		i = (i + 1)
+
+		WebUI.refresh()
+
+		WebUI.delay(20)
+
+		WebUI.navigateToUrl(findTestData('PlanFact').getValue(10, 5))
+
+		WebUI.delay(10)
+
+		urlText = WebUI.getText(findTestObject('Страница авторизации/Text'))
+	}
+}
+
 
 'Раскрыть фильтр "Дата"'
 WebUI.click(findTestObject('Выручка по ДЗО/Фильтр Дата'))
