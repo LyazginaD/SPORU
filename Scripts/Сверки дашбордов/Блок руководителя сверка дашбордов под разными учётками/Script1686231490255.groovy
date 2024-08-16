@@ -52,31 +52,31 @@ for (run = 1; run < 4; run++) {
     VipolnenieBiznesPlana(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9, urlData)
 }
 
-WebUI.delay(20)
+WebUI.delay(40)
 
 for (run = 1; run < 4; run++) {
     ViruchkaVRublyah(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9, urlData)
 }
 
-WebUI.delay(20)
+WebUI.delay(40)
 
 for (run = 1; run < 4; run++) {
     ObyemPoter(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9, urlData)
 }
 
-WebUI.delay(20)
+WebUI.delay(40)
 
 for (run = 1; run < 4; run++) {
     OtpuskIzSeti(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9, urlData)
 }
 
-WebUI.delay(20)
+WebUI.delay(40)
 
 for (run = 1; run < 4; run++) {
     OtpuskVSet(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9, urlData)
 }
 
-WebUI.delay(20)
+WebUI.delay(40)
 
 //for (run = 1; run < 4; run++) {
 //    PokazateliBalansa(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9, urlData)
@@ -88,25 +88,25 @@ for (run = 1; run < 4; run++) {
     KotlovoyPolezniyOtpusk(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9, urlData)
 }
 
-WebUI.delay(20)
+WebUI.delay(40)
 
 for (run = 1; run < 4; run++) {
     FaktorniyAnaliz(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9, urlData)
 }
 
-WebUI.delay(20)
+WebUI.delay(40)
 
 for (run = 1; run < 4; run++) {
     ViruchkaPoDZO(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9, urlData)
 }
 
-WebUI.delay(20)
+WebUI.delay(40)
 
 for (run = 1; run < 4; run++) {
     PrognozPoDZO(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9, urlData)
 }
 
-WebUI.delay(20)
+WebUI.delay(40)
 
 for (run = 1; run < 4; run++) {
     PrognozPoOtraslyam(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9, urlData)
@@ -119,21 +119,30 @@ static def CheckPageDownload(def urlData, def run) {
 
     String urlText
 
-    boolean pageNotLoaded
-
     String searchWord
-
-    WebUI.refresh()
 
     WebUI.deleteAllCookies()
 
-    WebUI.delay(20)
+    WebUI.refresh()
+
+    WebUI.delay(40)
 
     WebUI.navigateToUrl(findTestData('PlanFact').getValue(10, urlData))
 
+	boolean pageLoaded1 = WebUI.verifyElementPresent(findTestObject('Страница авторизации/Text'), 30)
+	
+    if(pageLoaded1==false) {
+		
+		WebUI.refresh()
+	
+		WebUI.delay(40)
+	
+		WebUI.navigateToUrl(findTestData('PlanFact').getValue(10, urlData))
+	}
+
     urlText = WebUI.getText(findTestObject('Страница авторизации/Text'))
 
-    WebUI.delay(20)
+    WebUI.delay(40)
 
     searchWord = 'Вход'
 
@@ -143,11 +152,11 @@ static def CheckPageDownload(def urlData, def run) {
 
             WebUI.refresh()
 
-            WebUI.delay(30)
+            WebUI.delay(40)
 
             WebUI.navigateToUrl(findTestData('PlanFact').getValue(10, urlData))
 
-            WebUI.delay(20)
+            WebUI.delay(40)
 
             urlText = WebUI.getText(findTestObject('Страница авторизации/Text'))
         }
@@ -163,19 +172,29 @@ static def CheckPageDownload(def urlData, def run) {
 
     searchWord = 'а'
 
+	boolean pageLoaded2 = WebUI.verifyElementPresent(findTestObject('Страница авторизации/Text'), 30)
+	
+	if(pageLoaded2==false) {
+		
+		WebUI.refresh()
+	
+		WebUI.delay(40)
+	
+		WebUI.navigateToUrl(findTestData('PlanFact').getValue(10, urlData))
+	}
     urlText = WebUI.getText(findTestObject('Страница авторизации/Text'))
 
-    if ((urlText.contains('ошибка'))||(urlText.contains(searchWord) == false)) {
-        for (urlText.contains(searchWord) == false; i < 4; ii++) {
+    if (urlText.contains('ошибка') || (urlText.contains(searchWord) == false)) {
+        for (urlText.contains(searchWord) == false; i < 8; ii++) {
             i = (i + 1)
 
             WebUI.refresh()
 
-            WebUI.delay(20)
+            WebUI.delay(40)
 
             WebUI.navigateToUrl(findTestData('PlanFact').getValue(10, urlData))
 
-            WebUI.delay(20)
+            WebUI.delay(40)
 
             urlText = WebUI.getText(findTestObject('Страница авторизации/Text'))
         }
@@ -206,7 +225,7 @@ def VipolnenieBiznesPlana(def user, def dashboardName, def n, def data, def run,
     'Нажать "Применить"'
     WebUI.click(findTestObject('Object Repository/Выполнение бизнес-плана/Применить в фильтре Дата'))
 
-    WebUI.delay(20)
+    WebUI.delay(40)
 
     ZakrytOpoveshenie()
 
@@ -248,7 +267,7 @@ def VipolnenieBiznesPlana(def user, def dashboardName, def n, def data, def run,
     'Проскроллить до заголовка фильтра "Дата"'
     WebUI.scrollToElement(findTestObject('Выполнение бизнес-плана/Заголовок дашборда'), 30)
 
-    WebUI.delay(20)
+    WebUI.delay(40)
 
     '!'
     ZakrytOpoveshenie()
@@ -265,7 +284,7 @@ def VipolnenieBiznesPlana(def user, def dashboardName, def n, def data, def run,
     'Нажать "Применить"'
     WebUI.click(findTestObject('Object Repository/Выполнение бизнес-плана/Применить в фильтре ДЗО'))
 
-    WebUI.delay(20)
+    WebUI.delay(40)
 
     if (run == 1) {
         user = 'админ'
@@ -471,7 +490,7 @@ def ViruchkaVRublyah(def user, def dashboardName, def n, def data, def run, def 
 
         WebUI.refresh()
 
-        WebUI.delay(20)
+        WebUI.delay(40)
 
         a1 = WebUI.getText(findTestObject('Выручка в рублях/График План'))
 
@@ -971,7 +990,7 @@ def OtpuskIzSeti2006(def user, def dashboardName, def n, def data, def run, def 
 
         WebUI.refresh()
 
-        WebUI.delay(20)
+        WebUI.delay(40)
 
         a1 = WebUI.getText(findTestObject('Отпуск из сети 2006-2021/График1'))
 
@@ -1023,23 +1042,24 @@ def KotlovoyPolezniyOtpusk(def user, def dashboardName, def n, def data, def run
 
         a1 = WebUI.getText(findTestObject('Котловой полезный отпуск/График 1'))
 
-        a1 = a1.replaceAll('[а-яА-Я]', '').replaceAll('\\p{P}', '').replaceAll('[\\r?\n|\r]', '')
+        a1 = a1.replaceAll('[а-яА-Я]', '').replaceAll('\\p{P}', '').replaceAll('[\\r?\n|\r]', '').replaceAll('\\s+', '')
 
         if (a1 == '') {
             WebUI.refresh()
 
-            WebUI.delay(20)
+            WebUI.delay(40)
 
             a1 = WebUI.getText(findTestObject('Котловой полезный отпуск/График 1'))
 
-            a1 = a1.replaceAll('[а-яА-Я]', '').replaceAll('\\p{P}', '').replaceAll('[\\r?\n|\r]', '')
+            a1 = a1.replaceAll('[а-яА-Я]', '').replaceAll('\\p{P}', '').replaceAll('[\\r?\n|\r]', '').replaceAll('\\s+', 
+                '')
 
             if (a1 == '') {
                 WebUI.refresh()
 
-                WebUI.delay(20)
+                WebUI.delay(40)
 
-                a1 = WebUI.getText(findTestObject('Котловой полезный отпуск/График 1'))
+                a1 = WebUI.getText(findTestObject('Котловой полезный отпуск/График 1')).replaceAll('\\s+', '')
             }
         }
         
@@ -1053,23 +1073,24 @@ def KotlovoyPolezniyOtpusk(def user, def dashboardName, def n, def data, def run
 
         a1 = WebUI.getText(findTestObject('Котловой полезный отпуск/График 1'))
 
-        a1 = a1.replaceAll('[а-яА-Я]', '').replaceAll('\\p{P}', '').replaceAll('[\\r?\n|\r]', '')
+        a1 = a1.replaceAll('[а-яА-Я]', '').replaceAll('\\p{P}', '').replaceAll('[\\r?\n|\r]', '').replaceAll('\\s+', '')
 
         if (a1 == '') {
             WebUI.refresh()
 
-            WebUI.delay(20)
+            WebUI.delay(40)
 
             a1 = WebUI.getText(findTestObject('Котловой полезный отпуск/График 1'))
 
-            a1 = a1.replaceAll('[а-яА-Я]', '').replaceAll('\\p{P}', '').replaceAll('[\\r?\n|\r]', '')
+            a1 = a1.replaceAll('[а-яА-Я]', '').replaceAll('\\p{P}', '').replaceAll('[\\r?\n|\r]', '').replaceAll('\\s+', 
+                '')
 
             if (a1 == '') {
                 WebUI.refresh()
 
-                WebUI.delay(20)
+                WebUI.delay(40)
 
-                a1 = WebUI.getText(findTestObject('Котловой полезный отпуск/График 1'))
+                a1 = WebUI.getText(findTestObject('Котловой полезный отпуск/График 1')).replaceAll('\\s+', '')
             }
         }
         
@@ -1087,23 +1108,24 @@ def KotlovoyPolezniyOtpusk(def user, def dashboardName, def n, def data, def run
 
         a1 = WebUI.getText(findTestObject('Котловой полезный отпуск/График 1'))
 
-        a1 = a1.replaceAll('[а-яА-Я]', '').replaceAll('\\p{P}', '').replaceAll('[\\r?\n|\r]', '')
+        a1 = a1.replaceAll('[а-яА-Я]', '').replaceAll('\\p{P}', '').replaceAll('[\\r?\n|\r]', '').replaceAll('\\s+', '')
 
         if (a1 == '') {
             WebUI.refresh()
 
-            WebUI.delay(20)
+            WebUI.delay(40)
 
             a1 = WebUI.getText(findTestObject('Котловой полезный отпуск/График 1'))
 
-            a1 = a1.replaceAll('[а-яА-Я]', '').replaceAll('\\p{P}', '').replaceAll('[\\r?\n|\r]', '')
+            a1 = a1.replaceAll('[а-яА-Я]', '').replaceAll('\\p{P}', '').replaceAll('[\\r?\n|\r]', '').replaceAll('\\s+', 
+                '')
 
             if (a1 == '') {
                 WebUI.refresh()
 
-                WebUI.delay(20)
+                WebUI.delay(40)
 
-                a1 = WebUI.getText(findTestObject('Котловой полезный отпуск/График 1'))
+                a1 = WebUI.getText(findTestObject('Котловой полезный отпуск/График 1')).replaceAll('\\s+', '')
             }
         }
         
