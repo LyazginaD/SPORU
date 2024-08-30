@@ -1633,83 +1633,80 @@ def WriteToExcel(def typeOfData, def todaysDate, def PercPlanR, def PercPlanB, d
 }
 
 static def Presettings(def blockNum, def path) {
-	
-	int blockNumber
-	
-	String urlText
-	
-	String searchWord
-	
-	int i
-	
-	int ii
-	
-	WebUI.openBrowser('')
-	
+    int blockNumber
+
+    String urlText
+
+    String searchWord
+
+    int i
+
+    int ii
+
+    WebUI.openBrowser('')
+
     if (blockNum == 1) {
         path = 'Object Repository/Выполнение бизнес-плана/'
-		
-		blockNumber = 1
 
+        blockNumber = 1
     } else {
         path = 'Object Repository/Выполнение бизнес-плана/Выполнение бизнес-плана Балансы/'
-		
-		blockNumber = 4
 
+        blockNumber = 4
     }
-	
-	WebUI.navigateToUrl(findTestData('PlanFact').getValue(10, blockNumber))
-	
-	urlText = WebUI.getText(findTestObject('Страница авторизации/Text'))
-	
-	WebUI.delay(10)
-	
-	searchWord = 'Вход'
-	
-	if (urlText.contains(searchWord) == false) {
-		for (urlText.contains(searchWord) == false; i < 4; ii++) {
-			i = (i + 1)
-	
-			WebUI.refresh()
-	
-			WebUI.delay(20)
-	
-			WebUI.navigateToUrl(findTestData('PlanFact').getValue(10, blockNumber))
-	
-			WebUI.delay(10)
-	
-			urlText = WebUI.getText(findTestObject('Страница авторизации/Text'))
-		}
-	}
-	
-	WebUI.setText(findTestObject('Страница авторизации/input__username'), findTestData('PlanFact').getValue(8, 1))
-	
-	WebUI.setText(findTestObject('Страница авторизации/input__password'), findTestData('PlanFact').getValue(9, 1))
-	
-	WebUI.click(findTestObject('Страница авторизации/button_'))
-	
-	WebUI.delay(50)
-	
-	searchWord = 'ДЗО'
-	
-	urlText = WebUI.getText(findTestObject('Страница авторизации/Text'))
-	
-	if ((urlText.contains('ошибка'))||(urlText.contains(searchWord) == false)) {
-		for (urlText.contains(searchWord) == false; i < 4; ii++) {
-			i = (i + 1)
-	
-			WebUI.refresh()
-	
-			WebUI.delay(20)
-	
-			WebUI.navigateToUrl(findTestData('PlanFact').getValue(10, 1))
-	
-			WebUI.delay(10)
-	
-			urlText = WebUI.getText(findTestObject('Страница авторизации/Text'))
-		}
-	}
-	
+    
+    WebUI.navigateToUrl(findTestData('PlanFact').getValue(10, blockNumber))
+
+    urlText = WebUI.getText(findTestObject('Страница авторизации/Text'))
+
+    WebUI.delay(10)
+
+    searchWord = 'Вход'
+
+    if (urlText.contains(searchWord) == false) {
+        for (urlText.contains(searchWord) == false; i < 4; ii++) {
+            i = (i + 1)
+
+            WebUI.refresh()
+
+            WebUI.delay(20)
+
+            WebUI.navigateToUrl(findTestData('PlanFact').getValue(10, blockNumber))
+
+            WebUI.delay(10)
+
+            urlText = WebUI.getText(findTestObject('Страница авторизации/Text'))
+        }
+    }
+    
+    WebUI.setText(findTestObject('Страница авторизации/input__username'), findTestData('PlanFact').getValue(8, 1))
+
+    WebUI.setText(findTestObject('Страница авторизации/input__password'), findTestData('PlanFact').getValue(9, 1))
+
+    WebUI.click(findTestObject('Страница авторизации/button_'))
+
+    WebUI.delay(50)
+
+    searchWord = 'ДЗО'
+
+    urlText = WebUI.getText(findTestObject('Страница авторизации/Text'))
+
+    if (urlText.contains('ошибка') || (urlText.contains(searchWord) == false)) {
+        for (urlText.contains(searchWord) == false; i < 4; ii++) {
+            i = (i + 1)
+
+            WebUI.refresh()
+
+            WebUI.delay(20)
+
+            WebUI.navigateToUrl(findTestData('PlanFact').getValue(10, 1))
+
+            WebUI.delay(10)
+
+            urlText = WebUI.getText(findTestObject('Страница авторизации/Text'))
+        }
+    }
+    
     ZakrytOpoveshenie()
 
     'Раскрыть фильтр "Дата"'
@@ -1752,6 +1749,13 @@ static def Presettings(def blockNum, def path) {
     WebUI.scrollToElement(findTestObject(path + '2 квартал 2024'), 30)
 
     WebUI.click(findTestObject(path + '2 квартал 2024'))
+
+    'Скролл 3 квартал 2024'
+    WebUI.scrollToElement(findTestObject(path + '3 квартал 2024 список'), 30)
+
+    WebUI.click(findTestObject(path + '3 квартал 2024 список'))
+	
+	WebUI.click(findTestObject(path + 'Июль 2024'))
 
     'Проскроллить до заголовка фильтра "Дата"'
     WebUI.scrollToElement(findTestObject(path + 'Заголовок дашборда'), 30)

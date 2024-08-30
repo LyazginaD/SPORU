@@ -43,19 +43,19 @@ WebUI.delay(10)
 searchWord = 'Вход'
 
 if (urlText.contains(searchWord) == false) {
-	for (urlText.contains(searchWord) == false; i < 4; ii++) {
-		i = (i + 1)
+    for (urlText.contains(searchWord) == false; i < 4; ii++) {
+        i = (i + 1)
 
-		WebUI.refresh()
+        WebUI.refresh()
 
-		WebUI.delay(20)
+        WebUI.delay(20)
 
-		WebUI.navigateToUrl(findTestData('PlanFact').getValue(10, 1))
+        WebUI.navigateToUrl(findTestData('PlanFact').getValue(10, 1))
 
-		WebUI.delay(10)
+        WebUI.delay(10)
 
-		urlText = WebUI.getText(findTestObject('Страница авторизации/Text'))
-	}
+        urlText = WebUI.getText(findTestObject('Страница авторизации/Text'))
+    }
 }
 
 WebUI.setText(findTestObject('Страница авторизации/input__username'), findTestData('PlanFact').getValue(8, 1))
@@ -70,22 +70,21 @@ searchWord = 'ДЗО'
 
 urlText = WebUI.getText(findTestObject('Страница авторизации/Text'))
 
-if ((urlText.contains('ошибка'))||(urlText.contains(searchWord) == false)) {
-	for (urlText.contains(searchWord) == false; i < 4; ii++) {
-		i = (i + 1)
+if (urlText.contains('ошибка') || (urlText.contains(searchWord) == false)) {
+    for (urlText.contains(searchWord) == false; i < 4; ii++) {
+        i = (i + 1)
 
-		WebUI.refresh()
+        WebUI.refresh()
 
-		WebUI.delay(20)
+        WebUI.delay(20)
 
-		WebUI.navigateToUrl(findTestData('PlanFact').getValue(10, 1))
+        WebUI.navigateToUrl(findTestData('PlanFact').getValue(10, 1))
 
-		WebUI.delay(10)
+        WebUI.delay(10)
 
-		urlText = WebUI.getText(findTestObject('Страница авторизации/Text'))
-	}
+        urlText = WebUI.getText(findTestObject('Страница авторизации/Text'))
+    }
 }
-
 
 '!'
 ZakrytOpoveshenie()
@@ -131,6 +130,15 @@ WebUI.scrollToElement(findTestObject('Выполнение бизнес-план
 
 'Выбрать 1 квартал 2022'
 WebUI.click(findTestObject('Выполнение бизнес-плана/2 квартал 2024'))
+
+'Выбрать 1 квартал 2022'
+WebUI.scrollToElement(findTestObject('Выполнение бизнес-плана/3 квартал 2024 список'), 30)
+
+'Выбрать 1 квартал 2022'
+WebUI.click(findTestObject('Выполнение бизнес-плана/3 квартал 2024 список'), FailureHandling.CONTINUE_ON_FAILURE)
+
+'Выбрать 1 квартал 2022'
+WebUI.click(findTestObject('Выполнение бизнес-плана/Июль 2024'))
 
 'Проскроллить до заголовка фильтра "Дата"'
 WebUI.scrollToElement(findTestObject('Выполнение бизнес-плана/Заголовок дашборда'), 30)

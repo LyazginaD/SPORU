@@ -184,60 +184,60 @@ static def Blocks(def run, def vir, def block, def nameOfBlock, def typeOfData, 
         a30 = a30.replaceAll('%', '')
     }
     
-	a30=a30.replace('%','').replace(',','.').trim()
-	
+    a30 = a30.replace('%', '').replace(',', '.').trim()
+
     println('a30: ' + a30)
 
     if ((vir == 1) || (vir == 2)) {
-        a31 = WebUI.getText(findTestObject('Выручка в рублях/span2' + perc)).replace('%','').replace(',','.').trim()
+        a31 = WebUI.getText(findTestObject('Выручка в рублях/span2' + perc)).replace('%', '').replace(',', '.').trim()
     } else {
-        a31 = WebUI.getText(findTestObject('Выручка в рублях/span15' + perc)).replace('%','').replace(',','.').trim()
+        a31 = WebUI.getText(findTestObject('Выручка в рублях/span15' + perc)).replace('%', '').replace(',', '.').trim()
     }
     
     if ((vir == 1) || (vir == 2)) {
-        a32 = WebUI.getText(findTestObject('Выручка в рублях/span3' + perc)).replace('%','').replace(',','.').trim()
+        a32 = WebUI.getText(findTestObject('Выручка в рублях/span3' + perc)).replace('%', '').replace(',', '.').trim()
     } else {
-        a32 = WebUI.getText(findTestObject('Выручка в рублях/span16' + perc)).replace('%','').replace(',','.').trim()
+        a32 = WebUI.getText(findTestObject('Выручка в рублях/span16' + perc)).replace('%', '').replace(',', '.').trim()
     }
     
     if ((vir == 1) || (vir == 2)) {
-        a33 = WebUI.getText(findTestObject('Выручка в рублях/span4' + perc)).replace('%','').replace(',','.').trim()
+        a33 = WebUI.getText(findTestObject('Выручка в рублях/span4' + perc)).replace('%', '').replace(',', '.').trim()
 
-        a34 = WebUI.getText(findTestObject('Выручка в рублях/span5' + perc)).replace('%','').replace(',','.').trim()
+        a34 = WebUI.getText(findTestObject('Выручка в рублях/span5' + perc)).replace('%', '').replace(',', '.').trim()
 
-        a35 = WebUI.getText(findTestObject('Выручка в рублях/span6' + perc)).replace('%','').replace(',','.').trim()
+        a35 = WebUI.getText(findTestObject('Выручка в рублях/span6' + perc)).replace('%', '').replace(',', '.').trim()
 
-        a36 = WebUI.getText(findTestObject('Выручка в рублях/span7' + perc)).replace('%','').replace(',','.').trim()
+        a36 = WebUI.getText(findTestObject('Выручка в рублях/span7' + perc)).replace('%', '').replace(',', '.').trim()
 
-        a37 = WebUI.getText(findTestObject('Выручка в рублях/span8' + perc)).replace('%','').replace(',','.').trim()
+        a37 = WebUI.getText(findTestObject('Выручка в рублях/span8' + perc)).replace('%', '').replace(',', '.').trim()
     } else {
-        a37 = WebUI.getText(findTestObject('Выручка в рублях/span17' + perc)).replace('%','').replace(',','.').trim()
+        a37 = WebUI.getText(findTestObject('Выручка в рублях/span17' + perc)).replace('%', '').replace(',', '.').trim()
     }
     
     if ((vir == 1) || (vir == 2)) {
-        a38 = WebUI.getText(findTestObject('Выручка в рублях/span9' + perc)).replace('%','').replace(',','.').trim()
+        a38 = WebUI.getText(findTestObject('Выручка в рублях/span9' + perc)).replace('%', '').replace(',', '.').trim()
 
-        a39 = WebUI.getText(findTestObject('Выручка в рублях/span10' + perc)).replace('%','').replace(',','.').trim()
+        a39 = WebUI.getText(findTestObject('Выручка в рублях/span10' + perc)).replace('%', '').replace(',', '.').trim()
 
-        a310 = WebUI.getText(findTestObject('Выручка в рублях/span11' + perc)).replace('%','').replace(',','.').trim()
+        a310 = WebUI.getText(findTestObject('Выручка в рублях/span11' + perc)).replace('%', '').replace(',', '.').trim()
 
-        a311 = WebUI.getText(findTestObject('Выручка в рублях/span12' + perc)).replace('%','').replace(',','.').trim()
+        a311 = WebUI.getText(findTestObject('Выручка в рублях/span12' + perc)).replace('%', '').replace(',', '.').trim()
 
-        a312 = WebUI.getText(findTestObject('Выручка в рублях/span13' + perc)).replace('%','').replace(',','.').trim()
+        a312 = WebUI.getText(findTestObject('Выручка в рублях/span13' + perc)).replace('%', '').replace(',', '.').trim()
 
-        a313 = WebUI.getText(findTestObject('Выручка в рублях/span14' + perc)).replace('%','').replace(',','.').trim()
+        a313 = WebUI.getText(findTestObject('Выручка в рублях/span14' + perc)).replace('%', '').replace(',', '.').trim()
 
-        a314 = WebUI.getText(findTestObject('Выручка в рублях/span15' + perc)).replace('%','').replace(',','.').trim()
+        a314 = WebUI.getText(findTestObject('Выручка в рублях/span15' + perc)).replace('%', '').replace(',', '.').trim()
 
-        a315 = WebUI.getText(findTestObject('Выручка в рублях/span16' + perc)).replace('%','').replace(',','.').trim()
+        a315 = WebUI.getText(findTestObject('Выручка в рублях/span16' + perc)).replace('%', '').replace(',', '.').trim()
 
-        a316 = WebUI.getText(findTestObject('Выручка в рублях/span17' + perc)).replace('%','').replace(',','.').trim()
+        a316 = WebUI.getText(findTestObject('Выручка в рублях/span17' + perc)).replace('%', '').replace(',', '.').trim()
     } else {
-        a316 = WebUI.getText(findTestObject('Выручка в рублях/span18' + perc)).replace('%','').replace(',','.').trim()
+        a316 = WebUI.getText(findTestObject('Выручка в рублях/span18' + perc)).replace('%', '').replace(',', '.').trim()
     }
     
     if ((vir == 1) || (vir == 2)) {
-        a317 = WebUI.getText(findTestObject('Выручка в рублях/span18' + perc)).replace('%','').replace(',','.').trim()
+        a317 = WebUI.getText(findTestObject('Выручка в рублях/span18' + perc)).replace('%', '').replace(',', '.').trim()
     }
     
     block = 2
@@ -268,67 +268,66 @@ static def Blocks(def run, def vir, def block, def nameOfBlock, def typeOfData, 
         b30 = b30.substring(0, i)
 
         b30 = b30.replaceAll(' ', '')
-
     }
     
     if (b30.contains('%')) {
         b30 = b30.replaceAll('%', '')
     }
     
-	b30=b30.replace('%','').replace(',','.').trim()
-	
+    b30 = b30.replace('%', '').replace(',', '.').trim()
+
     println('b30: ' + b30)
 
     if ((vir == 1) || (vir == 2)) {
-        b31 = WebUI.getText(findTestObject('Выручка в рублях/span2' + perc)).replace('%','').replace(',','.').trim()
+        b31 = WebUI.getText(findTestObject('Выручка в рублях/span2' + perc)).replace('%', '').replace(',', '.').trim()
     } else {
-        b31 = WebUI.getText(findTestObject('Выручка в рублях/span15' + perc)).replace('%','').replace(',','.').trim()
+        b31 = WebUI.getText(findTestObject('Выручка в рублях/span15' + perc)).replace('%', '').replace(',', '.').trim()
     }
     
     if ((vir == 1) || (vir == 2)) {
-        b32 = WebUI.getText(findTestObject('Выручка в рублях/span3' + perc)).replace('%','').replace(',','.').trim()
+        b32 = WebUI.getText(findTestObject('Выручка в рублях/span3' + perc)).replace('%', '').replace(',', '.').trim()
     } else {
-        b32 = WebUI.getText(findTestObject('Выручка в рублях/span16' + perc)).replace('%','').replace(',','.').trim()
+        b32 = WebUI.getText(findTestObject('Выручка в рублях/span16' + perc)).replace('%', '').replace(',', '.').trim()
     }
     
     if ((vir == 1) || (vir == 2)) {
-        b33 = WebUI.getText(findTestObject('Выручка в рублях/span4' + perc)).replace('%','').replace(',','.').trim()
+        b33 = WebUI.getText(findTestObject('Выручка в рублях/span4' + perc)).replace('%', '').replace(',', '.').trim()
 
-        b34 = WebUI.getText(findTestObject('Выручка в рублях/span5' + perc)).replace('%','').replace(',','.').trim()
+        b34 = WebUI.getText(findTestObject('Выручка в рублях/span5' + perc)).replace('%', '').replace(',', '.').trim()
 
-        b35 = WebUI.getText(findTestObject('Выручка в рублях/span6' + perc)).replace('%','').replace(',','.').trim()
+        b35 = WebUI.getText(findTestObject('Выручка в рублях/span6' + perc)).replace('%', '').replace(',', '.').trim()
 
-        b36 = WebUI.getText(findTestObject('Выручка в рублях/span7' + perc)).replace('%','').replace(',','.').trim()
+        b36 = WebUI.getText(findTestObject('Выручка в рублях/span7' + perc)).replace('%', '').replace(',', '.').trim()
 
-        b37 = WebUI.getText(findTestObject('Выручка в рублях/span8' + perc)).replace('%','').replace(',','.').trim()
+        b37 = WebUI.getText(findTestObject('Выручка в рублях/span8' + perc)).replace('%', '').replace(',', '.').trim()
     } else {
-        b37 = WebUI.getText(findTestObject('Выручка в рублях/span17' + perc)).replace('%','').replace(',','.').trim()
+        b37 = WebUI.getText(findTestObject('Выручка в рублях/span17' + perc)).replace('%', '').replace(',', '.').trim()
     }
     
     if ((vir == 1) || (vir == 2)) {
-        b38 = WebUI.getText(findTestObject('Выручка в рублях/span9' + perc)).replace('%','').replace(',','.').trim()
+        b38 = WebUI.getText(findTestObject('Выручка в рублях/span9' + perc)).replace('%', '').replace(',', '.').trim()
 
-        b39 = WebUI.getText(findTestObject('Выручка в рублях/span10' + perc)).replace('%','').replace(',','.').trim()
+        b39 = WebUI.getText(findTestObject('Выручка в рублях/span10' + perc)).replace('%', '').replace(',', '.').trim()
 
-        b310 = WebUI.getText(findTestObject('Выручка в рублях/span11' + perc)).replace('%','').replace(',','.').trim()
+        b310 = WebUI.getText(findTestObject('Выручка в рублях/span11' + perc)).replace('%', '').replace(',', '.').trim()
 
-        b311 = WebUI.getText(findTestObject('Выручка в рублях/span12' + perc)).replace('%','').replace(',','.').trim()
+        b311 = WebUI.getText(findTestObject('Выручка в рублях/span12' + perc)).replace('%', '').replace(',', '.').trim()
 
-        b312 = WebUI.getText(findTestObject('Выручка в рублях/span13' + perc)).replace('%','').replace(',','.').trim()
+        b312 = WebUI.getText(findTestObject('Выручка в рублях/span13' + perc)).replace('%', '').replace(',', '.').trim()
 
-        b313 = WebUI.getText(findTestObject('Выручка в рублях/span14' + perc)).replace('%','').replace(',','.').trim()
+        b313 = WebUI.getText(findTestObject('Выручка в рублях/span14' + perc)).replace('%', '').replace(',', '.').trim()
 
-        b314 = WebUI.getText(findTestObject('Выручка в рублях/span15' + perc)).replace('%','').replace(',','.').trim()
+        b314 = WebUI.getText(findTestObject('Выручка в рублях/span15' + perc)).replace('%', '').replace(',', '.').trim()
 
-        b315 = WebUI.getText(findTestObject('Выручка в рублях/span16' + perc)).replace('%','').replace(',','.').trim()
+        b315 = WebUI.getText(findTestObject('Выручка в рублях/span16' + perc)).replace('%', '').replace(',', '.').trim()
 
-        b316 = WebUI.getText(findTestObject('Выручка в рублях/span17' + perc)).replace('%','').replace(',','.').trim()
+        b316 = WebUI.getText(findTestObject('Выручка в рублях/span17' + perc)).replace('%', '').replace(',', '.').trim()
     } else {
-        b316 = WebUI.getText(findTestObject('Выручка в рублях/span18' + perc)).replace('%','').replace(',','.').trim()
+        b316 = WebUI.getText(findTestObject('Выручка в рублях/span18' + perc)).replace('%', '').replace(',', '.').trim()
     }
     
     if ((vir == 1) || (vir == 2)) {
-        b317 = WebUI.getText(findTestObject('Выручка в рублях/span18' + perc)).replace('%','').replace(',','.').trim()
+        b317 = WebUI.getText(findTestObject('Выручка в рублях/span18' + perc)).replace('%', '').replace(',', '.').trim()
     }
     
     dZO = 'ПАО Россети'
@@ -346,8 +345,6 @@ static def Blocks(def run, def vir, def block, def nameOfBlock, def typeOfData, 
     if (WebUI.verifyEqual(a2, b2) == false) {
         vidget = 'Факт'
 
-        
-
         a = a2.toDouble()
 
         b = b2.toDouble()
@@ -358,8 +355,6 @@ static def Blocks(def run, def vir, def block, def nameOfBlock, def typeOfData, 
     vidget = 'Отклонения'
 
     if (WebUI.verifyEqual(a30, b30) == false) {
-        
-
         a = a30.toDouble()
 
         b = b30.toDouble()
@@ -370,7 +365,6 @@ static def Blocks(def run, def vir, def block, def nameOfBlock, def typeOfData, 
     dZO = 'АО «Тываэнерго»'
 
     if (WebUI.verifyEqual(a31, b31) == false) {
-
         a = a31.toDouble()
 
         b = b31.toDouble()
@@ -381,8 +375,6 @@ static def Blocks(def run, def vir, def block, def nameOfBlock, def typeOfData, 
     dZO = 'АО «Чеченэнерго»'
 
     if (WebUI.verifyEqual(a32, b32) == false) {
-        
-
         a = a32.toDouble()
 
         b = b32.toDouble()
@@ -393,8 +385,6 @@ static def Blocks(def run, def vir, def block, def nameOfBlock, def typeOfData, 
     dZO = 'Россети Волга'
 
     if (WebUI.verifyEqual(a33, b33) == false) {
-        
-
         a = a33.toDouble()
 
         b = b33.toDouble()
@@ -405,8 +395,6 @@ static def Blocks(def run, def vir, def block, def nameOfBlock, def typeOfData, 
     dZO = 'Россети Кубань'
 
     if (WebUI.verifyEqual(a34, b34) == false) {
-        
-
         a = a34.toDouble()
 
         b = b34.toDouble()
@@ -417,8 +405,6 @@ static def Blocks(def run, def vir, def block, def nameOfBlock, def typeOfData, 
     dZO = 'Россети Ленэнерго (ГК)'
 
     if (WebUI.verifyEqual(a35, b35) == false) {
-        
-
         a = a35.toDouble()
 
         b = b35.toDouble()
@@ -429,8 +415,6 @@ static def Blocks(def run, def vir, def block, def nameOfBlock, def typeOfData, 
     dZO = 'Россети Московский регион'
 
     if (WebUI.verifyEqual(a36, b36) == false) {
-        
-
         a = a36.toDouble()
 
         b = b36.toDouble()
@@ -441,8 +425,6 @@ static def Blocks(def run, def vir, def block, def nameOfBlock, def typeOfData, 
     dZO = 'Россети Северный Кавказ (ГК)'
 
     if (WebUI.verifyEqual(a37, b37) == false) {
-        
-
         a = a37.toDouble()
 
         b = b37.toDouble()
@@ -453,8 +435,6 @@ static def Blocks(def run, def vir, def block, def nameOfBlock, def typeOfData, 
     dZO = 'Россети Северо-Запад'
 
     if (WebUI.verifyEqual(a38, b38) == false) {
-        
-
         a = a38.toDouble()
 
         b = b38.toDouble()
@@ -465,8 +445,6 @@ static def Blocks(def run, def vir, def block, def nameOfBlock, def typeOfData, 
     dZO = 'Россети Сибирь (ГК)'
 
     if (WebUI.verifyEqual(a39, b39) == false) {
-        
-
         a = a39.toDouble()
 
         b = b39.toDouble()
@@ -477,8 +455,6 @@ static def Blocks(def run, def vir, def block, def nameOfBlock, def typeOfData, 
     dZO = 'Россети Томск'
 
     if (WebUI.verifyEqual(a310, b310) == false) {
-        
-
         a = a310.toDouble()
 
         b = b310.toDouble()
@@ -489,8 +465,6 @@ static def Blocks(def run, def vir, def block, def nameOfBlock, def typeOfData, 
     dZO = 'Россети Тюмень'
 
     if (WebUI.verifyEqual(a311, b311) == false) {
-        
-
         a = a311.toDouble()
 
         b = b311.toDouble()
@@ -501,8 +475,6 @@ static def Blocks(def run, def vir, def block, def nameOfBlock, def typeOfData, 
     dZO = 'Россети Урал (ГК)'
 
     if (WebUI.verifyEqual(a312, b312) == false) {
-        
-
         a = a312.toDouble()
 
         b = b312.toDouble()
@@ -513,8 +485,6 @@ static def Blocks(def run, def vir, def block, def nameOfBlock, def typeOfData, 
     dZO = 'Россети ФСК ЕЭС'
 
     if (WebUI.verifyEqual(a313, b313) == false) {
-        
-
         a = a313.toDouble()
 
         b = b313.toDouble()
@@ -525,8 +495,6 @@ static def Blocks(def run, def vir, def block, def nameOfBlock, def typeOfData, 
     dZO = 'Россети Центр'
 
     if (WebUI.verifyEqual(a314, b314) == false) {
-        
-
         a = a314.toDouble()
 
         b = b314.toDouble()
@@ -537,8 +505,6 @@ static def Blocks(def run, def vir, def block, def nameOfBlock, def typeOfData, 
     dZO = 'Россети Центр и Приволжье (ГК)'
 
     if (WebUI.verifyEqual(a315, b315) == false) {
-        
-
         a = a315.toDouble()
 
         b = b315.toDouble()
@@ -549,8 +515,6 @@ static def Blocks(def run, def vir, def block, def nameOfBlock, def typeOfData, 
     dZO = 'Россети Юг (ГК)'
 
     if (WebUI.verifyEqual(a316, b316) == false) {
-        
-
         a = a316.toDouble()
 
         b = b316.toDouble()
@@ -561,8 +525,6 @@ static def Blocks(def run, def vir, def block, def nameOfBlock, def typeOfData, 
     dZO = 'Россети Янтарь'
 
     if (WebUI.verifyEqual(a317, b317) == false) {
-        
-
         a = a317.toDouble()
 
         b = b317.toDouble()
@@ -572,7 +534,6 @@ static def Blocks(def run, def vir, def block, def nameOfBlock, def typeOfData, 
     
     WebUI.closeBrowser()
 }
-
 
 static void Rosseti(def nameOfBlock) {
     println('nameOfBlock:' + nameOfBlock)
@@ -585,12 +546,11 @@ static void Rosseti(def nameOfBlock) {
 }
 
 static def PreSettings(def run, def vir, def block, def nameOfBlock, def typeOfData, def todaysDate) {
-	
     WebUI.openBrowser('')
 
-	WebUI.refresh()
-	
-	WebUI.delay(30)
+    WebUI.refresh()
+
+    WebUI.delay(30)
 
     println('run:' + run)
 
@@ -640,6 +600,12 @@ static def PreSettings(def run, def vir, def block, def nameOfBlock, def typeOfD
     WebUI.scrollToElement(findTestObject('Выручка в рублях/2 квартал 2024 выбрать' + nameOfBlock), 30)
 
     WebUI.click(findTestObject('Выручка в рублях/2 квартал 2024 выбрать' + nameOfBlock))
+	
+	WebUI.scrollToElement(findTestObject('Выручка в рублях/3 квартал 2024 список' + nameOfBlock), 30)
+
+    WebUI.click(findTestObject('Выручка в рублях/3 квартал 2024 список' + nameOfBlock))
+
+    WebUI.click(findTestObject('Выручка в рублях/Июль 2024' + nameOfBlock))
 
     'Проскроллить до заголовка дашборда'
     WebUI.scrollToElement(findTestObject('Выручка в рублях/Заголовок дашборда' + nameOfBlock), 30)

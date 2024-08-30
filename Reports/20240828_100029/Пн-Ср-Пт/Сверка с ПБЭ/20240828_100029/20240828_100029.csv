@@ -1,0 +1,27 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Сверка с ПБЭ,,,,2024-08-28 10:00:31,2024-08-28 10:00:43,"12,719s",FAILED
+,,,,,,,
+Test Cases/Выполнение бизнес-плана/Выполнение бизнес-плана Сверка ПАО Россети все филиалы,,,,2024-08-28 10:00:31,2024-08-28 10:00:43,"12,557s",FAILED
+"openBrowser("""")",,,,2024-08-28 10:00:31,2024-08-28 10:00:33,"1,623s",FAILED
+date = new java.util.Date(),,,,2024-08-28 10:00:33,2024-08-28 10:00:33,"0,004s",PASSED
+"todaysDate = date.format(""dd.MM.yyyy"")",,,,2024-08-28 10:00:33,2024-08-28 10:00:33,"0,002s",PASSED
+dZO = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,,2024-08-28 10:00:33,2024-08-28 10:00:33,"0,000s",PASSED
+a = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,,2024-08-28 10:00:33,2024-08-28 10:00:33,"0,001s",PASSED
+fileperc = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,,2024-08-28 10:00:33,2024-08-28 10:00:33,"0,000s",PASSED
+pageperc = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,,2024-08-28 10:00:33,2024-08-28 10:00:33,"0,001s",PASSED
+pageInt = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,,2024-08-28 10:00:33,2024-08-28 10:00:33,"0,000s",PASSED
+fileInt = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,,2024-08-28 10:00:33,2024-08-28 10:00:33,"0,000s",PASSED
+pageDouble = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,,2024-08-28 10:00:33,2024-08-28 10:00:33,"0,000s",PASSED
+fileDouble = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,,2024-08-28 10:00:33,2024-08-28 10:00:33,"0,000s",PASSED
+typeOfData = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,,2024-08-28 10:00:33,2024-08-28 10:00:33,"0,001s",PASSED
+dzoNum = 0,,,,2024-08-28 10:00:33,2024-08-28 10:00:33,"0,000s",PASSED
+filialNum = 0,,,,2024-08-28 10:00:33,2024-08-28 10:00:33,"0,000s",PASSED
+urlText = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,,2024-08-28 10:00:33,2024-08-28 10:00:33,"0,000s",PASSED
+searchWord = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,,2024-08-28 10:00:33,2024-08-28 10:00:33,"0,000s",PASSED
+i = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,,2024-08-28 10:00:33,2024-08-28 10:00:33,"0,000s",PASSED
+ii = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,,2024-08-28 10:00:33,2024-08-28 10:00:33,"0,001s",PASSED
+"navigateToUrl(findTestData(""PlanFact"").getValue(10, 1))",,,,2024-08-28 10:00:33,2024-08-28 10:00:33,"0,353s",FAILED
+"urlText = getText(findTestObject(""Страница авторизации/Text""))",,,,2024-08-28 10:00:33,2024-08-28 10:00:33,"0,059s",FAILED
+delay(10),,,,2024-08-28 10:00:33,2024-08-28 10:00:43,"10,028s",PASSED
+"searchWord = ""Вход""",,,,2024-08-28 10:00:43,2024-08-28 10:00:43,"0,000s",PASSED
+if (urlText.contains(searchWord) == false),,,,2024-08-28 10:00:43,2024-08-28 10:00:43,"0,008s",ERROR
