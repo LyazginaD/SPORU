@@ -550,7 +550,7 @@ static def PreSettings(def run, def vir, def block, def nameOfBlock, def typeOfD
 
     WebUI.refresh()
 
-    WebUI.delay(30)
+    WebUI.delay(50)
 
     println('run:' + run)
 
@@ -581,7 +581,7 @@ static def PreSettings(def run, def vir, def block, def nameOfBlock, def typeOfD
     'Нажать "Применить"'
     WebUI.click(findTestObject('Выручка в рублях/Применить в фильтре Дата' + nameOfBlock))
 
-    WebUI.delay(30)
+    WebUI.delay(50)
 
     'Раскрыть фильтр "Дата"'
     WebUI.click(findTestObject('Выручка в рублях/Фильтр Период' + nameOfBlock))
@@ -600,8 +600,8 @@ static def PreSettings(def run, def vir, def block, def nameOfBlock, def typeOfD
     WebUI.scrollToElement(findTestObject('Выручка в рублях/2 квартал 2024 выбрать' + nameOfBlock), 30)
 
     WebUI.click(findTestObject('Выручка в рублях/2 квартал 2024 выбрать' + nameOfBlock))
-	
-	WebUI.scrollToElement(findTestObject('Выручка в рублях/3 квартал 2024 список' + nameOfBlock), 30)
+
+    WebUI.scrollToElement(findTestObject('Выручка в рублях/3 квартал 2024 список' + nameOfBlock), 30)
 
     WebUI.click(findTestObject('Выручка в рублях/3 квартал 2024 список' + nameOfBlock))
 
@@ -613,7 +613,7 @@ static def PreSettings(def run, def vir, def block, def nameOfBlock, def typeOfD
     'Нажать "Применить"'
     WebUI.click(findTestObject('Выручка в рублях/Применить в фильтре Дата' + nameOfBlock))
 
-    WebUI.delay(30)
+    WebUI.delay(50)
 
     'Открыть фильтр "ДЗО"'
     WebUI.click(findTestObject('Выручка в рублях/Фильтр ДЗО' + nameOfBlock))
@@ -624,7 +624,7 @@ static def PreSettings(def run, def vir, def block, def nameOfBlock, def typeOfD
     'Нажать "Применить"'
     WebUI.click(findTestObject('Выручка в рублях/Применить в фильтре ДЗО' + nameOfBlock))
 
-    WebUI.delay(30)
+    WebUI.delay(50)
 
     Tumbler(run, vir, block, nameOfBlock)
 
@@ -638,9 +638,8 @@ static void Autorization(def block, def nameOfBlock) {
     if (block == 1) {
         nameOfBlock = ''
     } else {
-        WebUI.deleteAllCookies()
 
-        WebUI.delay(30)
+        WebUI.delay(50)
 
         nameOfBlock = ' Выручка'
     }
@@ -661,7 +660,7 @@ static void Autorization(def block, def nameOfBlock) {
         WebUI.click(findTestObject('Страница авторизации/button_'))
     }
     
-    WebUI.delay(30)
+    WebUI.delay(50)
 
     if (block == 2) {
         String opoveshenie = WebUI.getText(findTestObject('Выручка в рублях/Просьба обратить внимание'))
