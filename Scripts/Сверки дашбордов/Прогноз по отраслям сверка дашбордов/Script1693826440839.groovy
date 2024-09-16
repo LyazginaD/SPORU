@@ -194,7 +194,7 @@ println('a12:' + a12)
 
 WebUI.navigateToUrl(findTestData('PlanFact').getValue(10, 12))
 
-WebUI.delay(15)
+WebUI.delay(30)
 
 WebUI.click(findTestObject('Прогноз по отраслям/Фильтр месяц Стресс'))
 
