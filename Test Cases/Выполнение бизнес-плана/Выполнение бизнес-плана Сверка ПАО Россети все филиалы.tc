@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Выполнение бизнес-плана Сверка ПАО Россети все филиалы</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6cf17c3b-5c87-4985-a946-0dfbccef5928</testCaseGuid>
+</TestCaseEntity>

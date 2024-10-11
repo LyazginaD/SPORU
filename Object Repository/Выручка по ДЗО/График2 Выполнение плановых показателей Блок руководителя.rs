@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>График2 Выполнение плановых показателей Блок руководителя</name>
+   <tag></tag>
+   <elementGuidId>3d994a95-6593-4445-b51b-a022e39d8ce0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='В начало'])[10]/following::*[name()='svg'][1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#highcharts-jx0d94b-56 > svg.highcharts-root</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>svg</value>
+      <webElementGuid>36df3fb5-c783-4a89-9591-2b441958cd1b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>version</name>
+      <type>Main</type>
+      <value>1.1</value>
+      <webElementGuid>3910f01c-8a83-4b95-adc6-cf8c66816085</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>highcharts-root</value>
+      <webElementGuid>95db763d-c31b-4943-a610-9ddd26a9b8ef</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xmlns</name>
+      <type>Main</type>
+      <value>http://www.w3.org/2000/svg</value>
+      <webElementGuid>327b955d-cef1-428e-920a-ac2f924a9415</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>width</name>
+      <type>Main</type>
+      <value>790</value>
+      <webElementGuid>bfb79274-da9a-4d96-86bf-1b02286974e2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>height</name>
+      <type>Main</type>
+      <value>840</value>
+      <webElementGuid>11ef9ead-75e3-4396-bdaa-88f87e154152</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>viewBox</name>
+      <type>Main</type>
+      <value>0 0 790 840</value>
+      <webElementGuid>576c3c71-8188-40f3-9831-c4b014af0e57</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Created with Highcharts 9.0.10,16%​0,16%0,29%​0,29%5,51%​5,51%4,93%​4,93%7,33%​7,33%15,63%​15,63%2%​2%3,9%​3,9%5,26%​5,26%0,71%​0,71%6,01%​6,01%7,6%​7,6%18,73%​18,73%8,42%​8,42%9,07%​9,07%3,77%​3,77%0,7%​0,7%АО «Тываэнерго»АО «Чеченэнерго»Россети ВолгаРоссети КубаньРоссети Ленэнерго (ГК)Россети Московский регионРоссети Северный Кавказ (ГК)Россети Северо-ЗападРоссети Сибирь (ГК)Россети ТомскРоссети ТюменьРоссети Урал (ГК)Россети ФСК ЕЭСРоссети ЦентрРоссети Центр и Приволжье (ГК)Россети Юг (ГК)Россети ЯнтарьРоссети Тюмень: 7 612 283,02</value>
+      <webElementGuid>b93feb6a-3440-4f51-84c6-f21e1e9759df</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;highcharts-jx0d94b-56&quot;)/svg[@class=&quot;highcharts-root&quot;]</value>
+      <webElementGuid>2987747f-a3db-48ac-885f-e9261a11c57a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Выполнение плановых показателей по ПАО Россети за Январь 2023 года'])[2]/following::*[name()='svg'][1]</value>
+      <webElementGuid>be96cc67-9752-4e2d-b063-a97019574086</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='В начало'])[10]/following::*[name()='svg'][1]</value>
+      <webElementGuid>c5bdbdbe-7b59-421c-b9d2-af3c7058a63c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//svg[(text() = 'Created with Highcharts 9.0.10,16%​0,16%0,29%​0,29%5,51%​5,51%4,93%​4,93%7,33%​7,33%15,63%​15,63%2%​2%3,9%​3,9%5,26%​5,26%0,71%​0,71%6,01%​6,01%7,6%​7,6%18,73%​18,73%8,42%​8,42%9,07%​9,07%3,77%​3,77%0,7%​0,7%АО «Тываэнерго»АО «Чеченэнерго»Россети ВолгаРоссети КубаньРоссети Ленэнерго (ГК)Россети Московский регионРоссети Северный Кавказ (ГК)Россети Северо-ЗападРоссети Сибирь (ГК)Россети ТомскРоссети ТюменьРоссети Урал (ГК)Россети ФСК ЕЭСРоссети ЦентрРоссети Центр и Приволжье (ГК)Россети Юг (ГК)Россети ЯнтарьРоссети Тюмень: 7 612 283,02' or . = 'Created with Highcharts 9.0.10,16%​0,16%0,29%​0,29%5,51%​5,51%4,93%​4,93%7,33%​7,33%15,63%​15,63%2%​2%3,9%​3,9%5,26%​5,26%0,71%​0,71%6,01%​6,01%7,6%​7,6%18,73%​18,73%8,42%​8,42%9,07%​9,07%3,77%​3,77%0,7%​0,7%АО «Тываэнерго»АО «Чеченэнерго»Россети ВолгаРоссети КубаньРоссети Ленэнерго (ГК)Россети Московский регионРоссети Северный Кавказ (ГК)Россети Северо-ЗападРоссети Сибирь (ГК)Россети ТомскРоссети ТюменьРоссети Урал (ГК)Россети ФСК ЕЭСРоссети ЦентрРоссети Центр и Приволжье (ГК)Россети Юг (ГК)Россети ЯнтарьРоссети Тюмень: 7 612 283,02')]</value>
+      <webElementGuid>ab3de3d8-d810-4c7b-aa2e-74c41902baa4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

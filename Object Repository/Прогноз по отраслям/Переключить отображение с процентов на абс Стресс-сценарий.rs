@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Переключить отображение с процентов на абс Стресс-сценарий</name>
+   <tag></tag>
+   <elementGuidId>1d5d1673-1282-4fcd-9529-ba521b636438</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[23]/div[2]/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#6e0a77eb5d19412bb0967f7480067fdf > div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>cfc5cc86-8902-4fbe-b1e9-3b8cc552a403</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;6e0a77eb5d19412bb0967f7480067fdf&quot;)/div[1]</value>
+      <webElementGuid>2eb5d54a-6f6c-4a61-ab75-76ae76a1c227</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='6e0a77eb5d19412bb0967f7480067fdf']/div</value>
+      <webElementGuid>c2d8ec4c-0d09-4a4b-97ee-79ae501c4d2c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[23]/div[2]/div/div</value>
+      <webElementGuid>4612d302-2a5e-4581-b007-8af59660fdb4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

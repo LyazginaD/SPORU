@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Выполнение бизнес-плана сверка дашбордов</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0790041b-4c5f-40bf-ac55-1ec0c49b22f4</testCaseGuid>
+</TestCaseEntity>

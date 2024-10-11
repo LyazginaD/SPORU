@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Кнопка Факт</name>
+   <tag></tag>
+   <elementGuidId>e50452b0-46ed-4458-ac08-6d31ee5f5aa8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.button5d255c932fa54ff1acb28e4b0689a3a7.Факт5d255c932fa54ff1acb28e4b0689a3a7</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[138]/div[2]/div/div/button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>4ab9d967-4e6a-440a-9b2c-77b9f5e9d0f0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>button5d255c932fa54ff1acb28e4b0689a3a7 Факт5d255c932fa54ff1acb28e4b0689a3a7</value>
+      <webElementGuid>1b1cc937-dbb4-48aa-baea-3da36c37cd77</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Факт</value>
+      <webElementGuid>473b9b89-4d58-4eec-947c-63d2a7a6116e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;5d255c932fa54ff1acb28e4b0689a3a7&quot;)/div[@class=&quot;resetAndCenter5d255c932fa54ff1acb28e4b0689a3a7&quot;]/button[@class=&quot;button5d255c932fa54ff1acb28e4b0689a3a7 Факт5d255c932fa54ff1acb28e4b0689a3a7&quot;]</value>
+      <webElementGuid>609f7e34-cd9d-406c-87f6-f92a7afa1df1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='5d255c932fa54ff1acb28e4b0689a3a7']/div/button</value>
+      <webElementGuid>7b904921-95ad-42a3-a8a5-1a0e4d4bd88e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Кнопки: Факт/План'])[1]/following::button[1]</value>
+      <webElementGuid>3445a042-1c18-489e-97b5-6295b97e8cd9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='В начало'])[69]/following::button[1]</value>
+      <webElementGuid>8be203a3-c291-4d92-93e3-17d33fbc87b3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='План'])[1]/preceding::button[1]</value>
+      <webElementGuid>5adf337b-664f-4800-ab9b-0910d988b676</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='В начало'])[70]/preceding::button[2]</value>
+      <webElementGuid>314645c8-ee5d-4d54-b5e6-1f4aa62a7c5f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Факт']/parent::*</value>
+      <webElementGuid>891dc280-4538-4cb8-89f5-0ef51cc5c0de</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[138]/div[2]/div/div/button</value>
+      <webElementGuid>87cc697d-a910-4b6d-aa9a-17e2dd185f36</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Факт' or . = 'Факт')]</value>
+      <webElementGuid>a061f9b3-8f81-4235-a187-7bff386f5bd1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

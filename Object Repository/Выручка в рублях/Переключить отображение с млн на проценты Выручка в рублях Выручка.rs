@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Переключить отображение с млн на проценты Выручка в рублях Выручка</name>
+   <tag></tag>
+   <elementGuidId>0914a0d0-233b-4a5e-b843-254c654fe7f5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#8b2155821c9646b1a6d3d819c78eb76f > div</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[35]/div[2]/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>b87eaabc-1beb-4153-962c-e08d93fc1685</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;8b2155821c9646b1a6d3d819c78eb76f&quot;)/div[1]</value>
+      <webElementGuid>9c8f9264-2770-45a4-b9e1-a8a9105e38ea</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='8b2155821c9646b1a6d3d819c78eb76f']/div</value>
+      <webElementGuid>f5157c0d-c1fc-47e3-aa04-381b29026b61</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[35]/div[2]/div/div</value>
+      <webElementGuid>49d57a3a-d784-4ef4-92df-30e6351267e2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

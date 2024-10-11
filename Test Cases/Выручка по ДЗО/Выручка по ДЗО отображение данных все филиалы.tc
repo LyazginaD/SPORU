@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Выручка по ДЗО отображение данных все филиалы</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>13c0651c-879e-40fb-b855-0608b36432b2</testCaseGuid>
+</TestCaseEntity>

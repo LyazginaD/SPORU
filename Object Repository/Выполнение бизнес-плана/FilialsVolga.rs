@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>FilialsVolga</name>
+   <tag></tag>
+   <elementGuidId>b35b2aae-8776-45e9-b7c8-ef48f699bba4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Россети Волга'])[4]/following::*[name()='svg'][1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#highcharts-vad6f6t-1198 > svg.highcharts-root</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>svg</value>
+      <webElementGuid>a051004d-7e4b-4f54-be82-fa43b315bf78</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>version</name>
+      <type>Main</type>
+      <value>1.1</value>
+      <webElementGuid>9863c8b4-22a4-4419-989c-82200414edae</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>highcharts-root</value>
+      <webElementGuid>05e3b952-5fdc-419d-a920-a72f175057ce</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xmlns</name>
+      <type>Main</type>
+      <value>http://www.w3.org/2000/svg</value>
+      <webElementGuid>8dadd5ba-75da-4b2f-a14e-965bb94c16d8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>width</name>
+      <type>Main</type>
+      <value>1675</value>
+      <webElementGuid>72d92fc6-6680-4865-9196-c1a5e7bf328b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>height</name>
+      <type>Main</type>
+      <value>201</value>
+      <webElementGuid>e7726e8d-cc80-471e-beff-41a883a466ba</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>viewBox</name>
+      <type>Main</type>
+      <value>0 0 1675 201</value>
+      <webElementGuid>7970d594-2a6d-4d93-b7a3-8446243b8773</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Created with Highcharts 9.0.16.947.447.523.566.136.505.976.267.187.012.915.705.725.43МордовэнергоОренбургэнергоПензаэнергоСамарские РССаратовские РСУльяновские РСЧувашэнерго0 10 НазадМордовэнерго: 6.94</value>
+      <webElementGuid>97dac6b0-ca88-4efc-b14d-0c0d50b0b195</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;highcharts-vad6f6t-1198&quot;)/svg[@class=&quot;highcharts-root&quot;]</value>
+      <webElementGuid>77134cf4-fac0-4c4f-800f-09a122ce9b27</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Уровень потерь электроэнергии'])[1]/following::*[name()='svg'][1]</value>
+      <webElementGuid>37e3bb04-2a44-4782-904f-a0530d9fb0a5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Россети Волга'])[4]/following::*[name()='svg'][1]</value>
+      <webElementGuid>2df762d3-3c72-4b1a-a1d4-914e6f1d21c9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//svg[(text() = 'Created with Highcharts 9.0.16.947.447.523.566.136.505.976.267.187.012.915.705.725.43МордовэнергоОренбургэнергоПензаэнергоСамарские РССаратовские РСУльяновские РСЧувашэнерго0 10 НазадМордовэнерго: 6.94' or . = 'Created with Highcharts 9.0.16.947.447.523.566.136.505.976.267.187.012.915.705.725.43МордовэнергоОренбургэнергоПензаэнергоСамарские РССаратовские РСУльяновские РСЧувашэнерго0 10 НазадМордовэнерго: 6.94')]</value>
+      <webElementGuid>bffd5348-6da5-44fd-8adb-d258c9ec102e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Кнопка План</name>
+   <tag></tag>
+   <elementGuidId>3c0a2657-22ce-4ab8-bf3f-f606c2439a13</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='a39fa013709a4a8796d0020acc128338']/div/button[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.buttona39fa013709a4a8796d0020acc128338.Планa39fa013709a4a8796d0020acc128338</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>0fcbbd8e-b554-4c8c-8fec-3a7b33219078</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>buttona39fa013709a4a8796d0020acc128338 Планa39fa013709a4a8796d0020acc128338</value>
+      <webElementGuid>1aaf142a-1986-4bb3-ba8f-2b6c9403253a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>План</value>
+      <webElementGuid>12282265-c3d1-412b-8ac2-02978bb583c4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;a39fa013709a4a8796d0020acc128338&quot;)/div[@class=&quot;resetAndCentera39fa013709a4a8796d0020acc128338&quot;]/button[@class=&quot;buttona39fa013709a4a8796d0020acc128338 Планa39fa013709a4a8796d0020acc128338&quot;]</value>
+      <webElementGuid>0b2c041f-1922-462f-b05a-dbb78616bcf8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='a39fa013709a4a8796d0020acc128338']/div/button[2]</value>
+      <webElementGuid>752df98e-0f0d-49d8-8925-fd5d803a9f07</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Факт'])[2]/following::button[1]</value>
+      <webElementGuid>8638ab0e-4aeb-4f8e-a849-40092f9e0ffa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Кнопки: Факт/План'])[1]/following::button[2]</value>
+      <webElementGuid>859bbc1e-29ca-416d-858f-e805cd670339</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='В начало'])[72]/preceding::button[1]</value>
+      <webElementGuid>9beb8db5-2239-48b0-99a8-189a207b1e21</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Итого – Факт'])[1]/preceding::button[1]</value>
+      <webElementGuid>eed61a14-3440-423f-b354-b2a456e50892</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[142]/div[2]/div/div/button[2]</value>
+      <webElementGuid>a0a16591-2fd0-4210-b084-25957092d9f5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'План' or . = 'План')]</value>
+      <webElementGuid>f4964c80-ae6d-48da-a4c2-80e4c1693016</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

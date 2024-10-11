@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>График1 Выполнение плановых показателей Выручка</name>
+   <tag></tag>
+   <elementGuidId>df22756d-f52c-4f0d-9566-202bb141b78f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='В начало'])[5]/following::*[name()='svg'][1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>svg.highcharts-root</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>svg</value>
+      <webElementGuid>438e1a97-15b3-4512-adbd-d9dc5c0f28e9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>version</name>
+      <type>Main</type>
+      <value>1.1</value>
+      <webElementGuid>cdffced5-c52d-4f1d-b0bc-502a3961113e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>highcharts-root</value>
+      <webElementGuid>0fbe1f64-7e84-42b4-9dff-1e0812c24eb5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xmlns</name>
+      <type>Main</type>
+      <value>http://www.w3.org/2000/svg</value>
+      <webElementGuid>5fc04a1c-491c-4db9-b5a7-9f16e00ec4ef</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>width</name>
+      <type>Main</type>
+      <value>1045</value>
+      <webElementGuid>bcdec373-3652-4c3f-8d01-43968c10999f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>height</name>
+      <type>Main</type>
+      <value>780</value>
+      <webElementGuid>59f5ce14-b24d-4046-9a80-e63dca20469b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>viewBox</name>
+      <type>Main</type>
+      <value>0 0 1045 780</value>
+      <webElementGuid>644dc84e-f784-4bef-8ad3-2f755e9b5ad2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Created with Highcharts 9.0.1183 ​183 426 ​426 6 798 ​6 798 6 136 ​6 136 9 092 ​9 092 19 074 ​19 074 2 659 ​2 659 5 011 ​5 011 6 462 ​6 462 880 ​880 7 411 ​7 411 9 431 ​9 431 23 024 ​23 024 10 356 ​10 356 11 198 ​11 198 4 573 ​4 573 884 ​884 203 ​203 361 ​361 6 981 ​6 981 6 247 ​6 247 9 289 ​9 289 19 800 ​19 800 2 533 ​2 533 4 939 ​4 939 6 657 ​6 657 894 ​894 7 612 ​7 612 9 632 ​9 632 23 723 ​23 723 10 667 ​10 667 11 487 ​11 487 4 771 ​4 771 891 ​891 ПланФактАО «Тываэнерго»АО «Чеченэнерго»Россети ВолгаРоссети КубаньРоссети Ленэнерго (ГК)Россети Московский регионРоссети Северный Кавказ (ГК)Россети Северо-ЗападРоссети Сибирь (ГК)Россети ТомскРоссети ТюменьРоссети Урал (ГК)Россети ФСК ЕЭСРоссети ЦентрРоссети Центр и Приволжье (ГК)Россети Юг (ГК)Россети Янтарь0 млн. руб.2 500 млн. руб.5 000 млн. руб.7 500 млн. руб.10 000 млн. руб.12 500 млн. руб.15 000 млн. руб.17 500 млн. руб.20 000 млн. руб.22 500 млн. руб.25 000 млн. руб.Россети ФСК ЕЭС: 23 023 757,33</value>
+      <webElementGuid>37adcf45-0889-48f1-be44-0558181ccab7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;highcharts-pav163f-20&quot;)/svg[@class=&quot;highcharts-root&quot;]</value>
+      <webElementGuid>3fc0b8ad-699d-42d2-9717-6a3235617124</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Выполнение плановых показателей по РаспредКомплекс за Январь 2023 года, млн. руб'])[1]/following::*[name()='svg'][1]</value>
+      <webElementGuid>6dbfb872-9219-4fed-ad81-b0f30fbb644c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='В начало'])[5]/following::*[name()='svg'][1]</value>
+      <webElementGuid>805851af-5137-413f-9c03-7443108a96d7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//svg[(text() = 'Created with Highcharts 9.0.1183 ​183 426 ​426 6 798 ​6 798 6 136 ​6 136 9 092 ​9 092 19 074 ​19 074 2 659 ​2 659 5 011 ​5 011 6 462 ​6 462 880 ​880 7 411 ​7 411 9 431 ​9 431 23 024 ​23 024 10 356 ​10 356 11 198 ​11 198 4 573 ​4 573 884 ​884 203 ​203 361 ​361 6 981 ​6 981 6 247 ​6 247 9 289 ​9 289 19 800 ​19 800 2 533 ​2 533 4 939 ​4 939 6 657 ​6 657 894 ​894 7 612 ​7 612 9 632 ​9 632 23 723 ​23 723 10 667 ​10 667 11 487 ​11 487 4 771 ​4 771 891 ​891 ПланФактАО «Тываэнерго»АО «Чеченэнерго»Россети ВолгаРоссети КубаньРоссети Ленэнерго (ГК)Россети Московский регионРоссети Северный Кавказ (ГК)Россети Северо-ЗападРоссети Сибирь (ГК)Россети ТомскРоссети ТюменьРоссети Урал (ГК)Россети ФСК ЕЭСРоссети ЦентрРоссети Центр и Приволжье (ГК)Россети Юг (ГК)Россети Янтарь0 млн. руб.2 500 млн. руб.5 000 млн. руб.7 500 млн. руб.10 000 млн. руб.12 500 млн. руб.15 000 млн. руб.17 500 млн. руб.20 000 млн. руб.22 500 млн. руб.25 000 млн. руб.Россети ФСК ЕЭС: 23 023 757,33' or . = 'Created with Highcharts 9.0.1183 ​183 426 ​426 6 798 ​6 798 6 136 ​6 136 9 092 ​9 092 19 074 ​19 074 2 659 ​2 659 5 011 ​5 011 6 462 ​6 462 880 ​880 7 411 ​7 411 9 431 ​9 431 23 024 ​23 024 10 356 ​10 356 11 198 ​11 198 4 573 ​4 573 884 ​884 203 ​203 361 ​361 6 981 ​6 981 6 247 ​6 247 9 289 ​9 289 19 800 ​19 800 2 533 ​2 533 4 939 ​4 939 6 657 ​6 657 894 ​894 7 612 ​7 612 9 632 ​9 632 23 723 ​23 723 10 667 ​10 667 11 487 ​11 487 4 771 ​4 771 891 ​891 ПланФактАО «Тываэнерго»АО «Чеченэнерго»Россети ВолгаРоссети КубаньРоссети Ленэнерго (ГК)Россети Московский регионРоссети Северный Кавказ (ГК)Россети Северо-ЗападРоссети Сибирь (ГК)Россети ТомскРоссети ТюменьРоссети Урал (ГК)Россети ФСК ЕЭСРоссети ЦентрРоссети Центр и Приволжье (ГК)Россети Юг (ГК)Россети Янтарь0 млн. руб.2 500 млн. руб.5 000 млн. руб.7 500 млн. руб.10 000 млн. руб.12 500 млн. руб.15 000 млн. руб.17 500 млн. руб.20 000 млн. руб.22 500 млн. руб.25 000 млн. руб.Россети ФСК ЕЭС: 23 023 757,33')]</value>
+      <webElementGuid>890622aa-a0e1-4a9a-bbcd-d9f7a7412133</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Выручка в рублях сверка дашбордов ПАО Россети</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>bb30c33d-0caa-4414-937d-ae0f827ffe1b</testCaseGuid>
+</TestCaseEntity>

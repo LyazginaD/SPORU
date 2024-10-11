@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>otkloneniya 3m</name>
+   <tag></tag>
+   <elementGuidId>ddb7062c-9ba6-4361-8205-640abc73ab1c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#highcharts-xgu3z9o-294 > svg.highcharts-root</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='ДЗО-ГОД-МЕСЯЦ'])[1]/following::*[name()='svg'][1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>svg</value>
+      <webElementGuid>73ebd708-9d7f-4fbd-b1cf-19b98c22164a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>version</name>
+      <type>Main</type>
+      <value>1.1</value>
+      <webElementGuid>1e379a72-2a2a-4eca-95e4-237ad1fcfb82</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>highcharts-root</value>
+      <webElementGuid>ee52391e-0a59-496e-a0a3-d78051b52c9b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xmlns</name>
+      <type>Main</type>
+      <value>http://www.w3.org/2000/svg</value>
+      <webElementGuid>94f47f53-7fd6-4365-9231-7947fa048cbe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>width</name>
+      <type>Main</type>
+      <value>1674</value>
+      <webElementGuid>c714c241-eef6-4f59-ba88-1b2e1c388402</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>height</name>
+      <type>Main</type>
+      <value>252</value>
+      <webElementGuid>cf0b8a35-c33d-4626-b196-de8701bee834</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>viewBox</name>
+      <type>Main</type>
+      <value>0 0 1674 252</value>
+      <webElementGuid>78433229-b274-4331-b6f3-81cb5b39e3fc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Created with Highcharts 9.0.1● Отрицательные/нулевые отклонения● ● ● ● Положительные отклоненияп.п.Отклонения фактического уровня потерь от бизнес-плана за 3 месяца (нарастающим итогом)0.1​0.10.6​0.63.3​3.3-0.6​-0.6-0.3​-0.3-0.1​-0.1-0.2​-0.21.4​1.4-0.1​-0.1-0.1​-0.1-0.0​-0.0-0.1​-0.1-0.3​-0.3-0.4​-0.4-0.3​-0.3-0.3​-0.30.3​0.30.0​0.00.8​0.82.9​2.9-0.5​-0.5-0.3​-0.3-0.1​-0.1-0.1​-0.11.8​1.8-0.1​-0.1-0.1​-0.1-0.0​-0.0-0.1​-0.1-0.3​-0.3-0.2​-0.2-0.2​-0.2-0.2​-0.2-0.0​-0.00.0​0.00.8​0.84.2​4.2-0.5​-0.5-0.1​-0.10.0​0.01.8​1.8-0.1​-0.10.3​0.3-0.0​-0.0-0.1​-0.1-0.3​-0.3-0.2​-0.2-0.3​-0.3-0.2​-0.2-0.1​-0.1Россети ФСК​ЕЭСАО​«Тываэнерго»АО​«Чеченэнерго»Россети ВолгаРоссети​КубаньРоссети​Ленэнерго​(ГК)Россети​Московский​регионРоссети​Северный​Кавказ (ГК)Россети Северо-​ЗападРоссети Сибирь​(ГК)Россети ТомскРоссети ТюменьРоссети Урал​(ГК)Россети ЦентрРоссети Центр и​Приволжье (ГК)Россети Юг (ГК)Россети Юг (Г…Россети​Янтарь0-55</value>
+      <webElementGuid>afaa51d9-4440-4c68-b508-e53bf9a35e6e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;highcharts-xgu3z9o-294&quot;)/svg[@class=&quot;highcharts-root&quot;]</value>
+      <webElementGuid>7d9f155f-6519-4f1f-840e-b7e9805e23cd</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ДЗО-ГОД-МЕСЯЦ'])[1]/following::*[name()='svg'][1]</value>
+      <webElementGuid>c4a194d8-8551-4870-84b8-06abe92bb02e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='В начало'])[35]/following::*[name()='svg'][1]</value>
+      <webElementGuid>bfb4d18a-121d-4fd6-bc5a-74f92cbbd652</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//svg[(text() = 'Created with Highcharts 9.0.1● Отрицательные/нулевые отклонения● ● ● ● Положительные отклоненияп.п.Отклонения фактического уровня потерь от бизнес-плана за 3 месяца (нарастающим итогом)0.1​0.10.6​0.63.3​3.3-0.6​-0.6-0.3​-0.3-0.1​-0.1-0.2​-0.21.4​1.4-0.1​-0.1-0.1​-0.1-0.0​-0.0-0.1​-0.1-0.3​-0.3-0.4​-0.4-0.3​-0.3-0.3​-0.30.3​0.30.0​0.00.8​0.82.9​2.9-0.5​-0.5-0.3​-0.3-0.1​-0.1-0.1​-0.11.8​1.8-0.1​-0.1-0.1​-0.1-0.0​-0.0-0.1​-0.1-0.3​-0.3-0.2​-0.2-0.2​-0.2-0.2​-0.2-0.0​-0.00.0​0.00.8​0.84.2​4.2-0.5​-0.5-0.1​-0.10.0​0.01.8​1.8-0.1​-0.10.3​0.3-0.0​-0.0-0.1​-0.1-0.3​-0.3-0.2​-0.2-0.3​-0.3-0.2​-0.2-0.1​-0.1Россети ФСК​ЕЭСАО​«Тываэнерго»АО​«Чеченэнерго»Россети ВолгаРоссети​КубаньРоссети​Ленэнерго​(ГК)Россети​Московский​регионРоссети​Северный​Кавказ (ГК)Россети Северо-​ЗападРоссети Сибирь​(ГК)Россети ТомскРоссети ТюменьРоссети Урал​(ГК)Россети ЦентрРоссети Центр и​Приволжье (ГК)Россети Юг (ГК)Россети Юг (Г…Россети​Янтарь0-55' or . = 'Created with Highcharts 9.0.1● Отрицательные/нулевые отклонения● ● ● ● Положительные отклоненияп.п.Отклонения фактического уровня потерь от бизнес-плана за 3 месяца (нарастающим итогом)0.1​0.10.6​0.63.3​3.3-0.6​-0.6-0.3​-0.3-0.1​-0.1-0.2​-0.21.4​1.4-0.1​-0.1-0.1​-0.1-0.0​-0.0-0.1​-0.1-0.3​-0.3-0.4​-0.4-0.3​-0.3-0.3​-0.30.3​0.30.0​0.00.8​0.82.9​2.9-0.5​-0.5-0.3​-0.3-0.1​-0.1-0.1​-0.11.8​1.8-0.1​-0.1-0.1​-0.1-0.0​-0.0-0.1​-0.1-0.3​-0.3-0.2​-0.2-0.2​-0.2-0.2​-0.2-0.0​-0.00.0​0.00.8​0.84.2​4.2-0.5​-0.5-0.1​-0.10.0​0.01.8​1.8-0.1​-0.10.3​0.3-0.0​-0.0-0.1​-0.1-0.3​-0.3-0.2​-0.2-0.3​-0.3-0.2​-0.2-0.1​-0.1Россети ФСК​ЕЭСАО​«Тываэнерго»АО​«Чеченэнерго»Россети ВолгаРоссети​КубаньРоссети​Ленэнерго​(ГК)Россети​Московский​регионРоссети​Северный​Кавказ (ГК)Россети Северо-​ЗападРоссети Сибирь​(ГК)Россети ТомскРоссети ТюменьРоссети Урал​(ГК)Россети ЦентрРоссети Центр и​Приволжье (ГК)Россети Юг (ГК)Россети Юг (Г…Россети​Янтарь0-55')]</value>
+      <webElementGuid>5f648600-e863-4af5-b202-28cce5e9b17a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

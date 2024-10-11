@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Закрыть оповещение</name>
+   <tag></tag>
+   <elementGuidId>99d74287-c010-4864-a1a5-75d34e1b1d61</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'thirdX88ed08ee570a46acafd2a12909231105']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#thirdX88ed08ee570a46acafd2a12909231105</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[2]/div/div/div/div[4]/div/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>98283561-d625-4cfb-ab36-f6f4f1c44a76</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>thirdX88ed08ee570a46acafd2a12909231105</value>
+      <webElementGuid>2bc48c4e-efdb-4f35-9ec1-d36139a373eb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>buttonX88ed08ee570a46acafd2a12909231105 alertButton88ed08ee570a46acafd2a12909231105</value>
+      <webElementGuid>80e60ed0-96e9-45fa-8654-7611e4c55280</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;thirdX88ed08ee570a46acafd2a12909231105&quot;)</value>
+      <webElementGuid>4b7fdfe0-c682-462e-82fa-0fe84a516672</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div[4]/div/a</value>
+      <webElementGuid>6964a8ad-45b3-48ef-aff6-804f033a0a48</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='alertModalContainer88ed08ee570a46acafd2a12909231105']/div/a</value>
+      <webElementGuid>11ed9e85-2130-4307-9736-088ed5a4db4d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@id='thirdX88ed08ee570a46acafd2a12909231105']</value>
+      <webElementGuid>4d5f691e-2b39-4dd3-8a4c-6c1c33b89c5a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@id = 'thirdX88ed08ee570a46acafd2a12909231105']</value>
+      <webElementGuid>1415af50-5f61-4165-a13b-0d57722b6bff</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

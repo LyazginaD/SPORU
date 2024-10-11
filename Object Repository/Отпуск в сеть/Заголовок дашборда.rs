@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Заголовок дашборда</name>
+   <tag></tag>
+   <elementGuidId>227b1972-7e18-4456-be06-1ade330ab184</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='fba79ad83d044a78bbc74c4cd3e70cf7']/div/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#fba79ad83d044a78bbc74c4cd3e70cf7 > div > span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>a6610693-8555-48d6-879b-b14a6a508d27</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Фактические данные по отпуску в сеть</value>
+      <webElementGuid>57585692-51a8-4d65-8aa5-621defb7900a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;fba79ad83d044a78bbc74c4cd3e70cf7&quot;)/div[1]/span[1]</value>
+      <webElementGuid>a0931519-6b11-4fc2-9510-cb96950ece36</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='fba79ad83d044a78bbc74c4cd3e70cf7']/div/span</value>
+      <webElementGuid>d2aac053-845d-4325-b13a-27c4a409ea89</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Текст 1 - копия 1 - копия'])[1]/following::span[1]</value>
+      <webElementGuid>8d1fcac8-b8c3-42af-b6e7-8f4fb5623b7f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='В начало'])[28]/following::span[1]</value>
+      <webElementGuid>02477f5d-1dc4-4f26-9849-db9057be2f56</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Экспорт данных'])[1]/preceding::span[1]</value>
+      <webElementGuid>aa7d642a-94d0-463f-9ead-f8bcc38c11e3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Отменить загрузку'])[1]/preceding::span[1]</value>
+      <webElementGuid>a59e3347-7eda-4ecf-b486-f8870d5ec148</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[56]/div[2]/div/div/span</value>
+      <webElementGuid>7a025cae-4e8d-4473-a49d-4d8dcc458942</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Фактические данные по отпуску в сеть' or . = 'Фактические данные по отпуску в сеть')]</value>
+      <webElementGuid>44d6869c-016e-478e-bbee-9608ba17dffb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

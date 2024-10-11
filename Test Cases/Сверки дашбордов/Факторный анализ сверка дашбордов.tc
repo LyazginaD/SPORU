@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Факторный анализ сверка дашбордов</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>70a4e3f5-5fbb-42e6-a564-2a84ecfa107a</testCaseGuid>
+</TestCaseEntity>

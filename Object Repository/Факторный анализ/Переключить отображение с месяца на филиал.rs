@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Переключить отображение с месяца на филиал</name>
+   <tag></tag>
+   <elementGuidId>18efc55e-88a9-4c2f-8f46-9461720ad1e2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[14]/div[2]/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#a7136f50413b4265b4b231fef43cc3e1 > div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>dad9b792-ba6f-43d2-999d-61eb8a35e8f3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;a7136f50413b4265b4b231fef43cc3e1&quot;)/div[1]</value>
+      <webElementGuid>784958fa-b3bf-4fed-9935-6512d3c77a51</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='a7136f50413b4265b4b231fef43cc3e1']/div</value>
+      <webElementGuid>9606a5ba-bf63-482e-872d-b963c32a92cb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[14]/div[2]/div/div</value>
+      <webElementGuid>34c3fddd-de85-4fbb-adc9-6327f15d1602</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

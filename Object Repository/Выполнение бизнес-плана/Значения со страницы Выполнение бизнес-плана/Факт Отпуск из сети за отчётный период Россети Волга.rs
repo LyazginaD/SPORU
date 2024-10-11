@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Факт Отпуск из сети за отчётный период Россети Волга</name>
+   <tag></tag>
+   <elementGuidId>e39c5c7e-5b4e-48cd-89b8-2919e1e5bf47</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//tbody[1]/tr[2]/td[2]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='table-f38b05898453429699020677a19a04c6']/tbody/tr[2]/td[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>fe4eeec1-26de-45d4-9ee2-f43e943f712b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>24 430 371</value>
+      <webElementGuid>fa4fb5a0-52f6-45a2-8c76-4f34a6279115</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//tbody[1]/tr[2]/td[2]</value>
+      <webElementGuid>1f4fd8ee-08b0-4de4-b2d0-5eab2f53dd5b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='table-f38b05898453429699020677a19a04c6']/tbody/tr[2]/td[2]</value>
+      <webElementGuid>61cf74d3-dcea-44f4-8f9b-878a252ef19e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='В начало'])[18]/following::td[17]</value>
+      <webElementGuid>4fe19937-d862-4fea-b40d-de8bd08c12e8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='В начало'])[19]/preceding::td[29]</value>
+      <webElementGuid>15d07486-3425-4ea6-b4b5-5be4b78cb1e7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ПАО Россети - 1, 2 кв. 2022 года'])[1]/preceding::td[29]</value>
+      <webElementGuid>7877fad8-2f32-4b10-9d04-694148b5b544</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='24 430 371']/parent::*</value>
+      <webElementGuid>8ff2f3a8-ddf2-4e55-9024-41dc470279e3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[2]/td[2]</value>
+      <webElementGuid>85a85978-7703-4b98-87be-875ed59b80ad</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = '24 430 371' or . = '24 430 371')]</value>
+      <webElementGuid>800f6c4b-805f-4caf-a594-afce45493014</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

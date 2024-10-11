@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_100</name>
+   <tag></tag>
+   <elementGuidId>0590aa6e-4cb2-4364-9a0c-87e0ca9d1d4c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#progress</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='progress']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>0c657213-f2d0-484a-bd65-a2b6dedf6a0f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>progress</value>
+      <webElementGuid>5ac3316f-3fb2-4caa-a8e2-d9830a11a733</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+            Выполнено: 100%
+        </value>
+      <webElementGuid>4b0468ed-470c-408a-add6-3909dc91ce5a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;progress&quot;)</value>
+      <webElementGuid>29c9de49-0f58-43b0-8222-110f8876d30a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@id='progress']</value>
+      <webElementGuid>c03ff466-13df-4011-9413-6346de007b4e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//vi-dc-form-instance-table[@id='form-table-container']/div[3]/div/div[2]/div/div[2]</value>
+      <webElementGuid>20fe2480-6629-450c-8d5c-b6f0559b274d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Прогресс выполнения скриптовых функций.'])[1]/following::div[6]</value>
+      <webElementGuid>3f16a924-25da-44bc-bd61-c36026e18407</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Наименование / Единица измерения'])[4]/following::div[31]</value>
+      <webElementGuid>997a5c8d-32d8-421e-9b4e-6809ce0ae336</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Сохранить данные'])[1]/preceding::div[7]</value>
+      <webElementGuid>37b364be-21fa-4657-8f66-c67aff5680ca</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div[2]/div/div[2]</value>
+      <webElementGuid>19231824-bc2f-447d-8171-a24bdebb312a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'progress' and (text() = '
+            Выполнено: 100%
+        ' or . = '
+            Выполнено: 100%
+        ')]</value>
+      <webElementGuid>43462ba2-c8a3-4f48-b8cc-1fae86bb056a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

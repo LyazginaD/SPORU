@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>График 2 в процентах КПО</name>
+   <tag></tag>
+   <elementGuidId>3c0bc07a-8491-4911-952f-f53e63d985d4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='0 %']/parent::*</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>25c370be-29b7-4bdf-9db0-8ac3b612bee9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>x</name>
+      <type>Main</type>
+      <value>442.5</value>
+      <webElementGuid>4685492c-abc0-4771-86e8-02af8021d00c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text-anchor</name>
+      <type>Main</type>
+      <value>middle</value>
+      <webElementGuid>04781215-8234-483f-8ee5-bc4012851aea</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>transform</name>
+      <type>Main</type>
+      <value>translate(0,0)</value>
+      <webElementGuid>d1c446c0-cf19-48d0-8c80-70abf3b595aa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>y</name>
+      <type>Main</type>
+      <value>659</value>
+      <webElementGuid>1243fa4b-b220-4f80-a2e5-afa51d1486ff</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>opacity</name>
+      <type>Main</type>
+      <value>1</value>
+      <webElementGuid>39912507-276b-4bce-9943-bb4a91818d3d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>0 %</value>
+      <webElementGuid>4e7fd216-0f74-42a6-9fc8-892d82134e51</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;highcharts-yv4gfeo-21&quot;)/svg[@class=&quot;highcharts-root&quot;]/g[@class=&quot;highcharts-axis-labels highcharts-yaxis-labels&quot;]/text[3]</value>
+      <webElementGuid>ae200f09-dda7-4ddb-840a-07f835d6be95</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='0 %']/parent::*</value>
+      <webElementGuid>2b48cb10-5544-489d-82e9-fd1c57eccb6c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//text[(text() = '0 %' or . = '0 %')]</value>
+      <webElementGuid>76b0ba00-197d-4b22-a5ce-6097114d705e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

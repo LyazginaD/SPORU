@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Блок руководителя сверка дашбордов под разными учётками</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>01c82fc5-1971-4b11-97c0-c8709fc424a8</testCaseGuid>
+</TestCaseEntity>

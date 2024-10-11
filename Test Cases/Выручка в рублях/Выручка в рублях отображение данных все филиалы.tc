@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Выручка в рублях отображение данных все филиалы</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8468c16a-8400-4305-a40f-341bb6bcfdc1</testCaseGuid>
+</TestCaseEntity>

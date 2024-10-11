@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Список ДЗО</name>
+   <tag></tag>
+   <elementGuidId>afc57dcd-eae6-49fd-8a13-5f84417fd4b5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='bb03a55c88b6487cb00176a96ee44d84']/div/div[2]/div[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.rb-filter-body-container.opened > div.rb-filter-list-container</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>c39aa908-228d-4e28-ac14-f4f7d2a95917</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>rb-filter-list-container</value>
+      <webElementGuid>63c1419d-39d5-42cf-ac60-72a6d9afeeae</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>ПАО РоссетиМагистральные сетиРаспредКомплексРоссети ВолгаМордовэнергоОренбургэнергоПензаэнергоСамарские РССаратовские РСУльяновские РСЧувашэнергоРоссети КубаньРоссети Ленэнерго (ГК)Россети Московский регионРоссети Северный Кавказ (ГК)Россети Северо-ЗападРоссети Сибирь (ГК)Россети ТомскРоссети ТюменьРоссети Урал (ГК)Россети ЦентрРоссети Центр и Приволжье (ГК)Россети Юг (ГК)Россети Янтарь</value>
+      <webElementGuid>ebc2b7d8-0439-4de5-8dcb-0c888c9a901d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;bb03a55c88b6487cb00176a96ee44d84&quot;)/div[@class=&quot;rb-filter-container not-selectable rb-filter-multi-selection&quot;]/div[@class=&quot;rb-filter-body-container opened&quot;]/div[@class=&quot;rb-filter-list-container&quot;]</value>
+      <webElementGuid>2a9c3077-a656-4e69-a4f9-6ad09f07aa9b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='bb03a55c88b6487cb00176a96ee44d84']/div/div[2]/div[3]</value>
+      <webElementGuid>f407e4eb-af27-4776-825e-14f05970a5c7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Снять выделение'])[2]/following::div[1]</value>
+      <webElementGuid>ad5fbc1b-178a-4c1d-9f5f-4c095db86b24</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Выбрать отображаемые'])[2]/following::div[2]</value>
+      <webElementGuid>01a83a92-d552-4c42-859b-8f282fd221e5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[8]/div[2]/div/div/div[2]/div[3]</value>
+      <webElementGuid>47ba514e-9564-45da-a9c5-7b89c059848e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'ПАО РоссетиМагистральные сетиРаспредКомплексРоссети ВолгаМордовэнергоОренбургэнергоПензаэнергоСамарские РССаратовские РСУльяновские РСЧувашэнергоРоссети КубаньРоссети Ленэнерго (ГК)Россети Московский регионРоссети Северный Кавказ (ГК)Россети Северо-ЗападРоссети Сибирь (ГК)Россети ТомскРоссети ТюменьРоссети Урал (ГК)Россети ЦентрРоссети Центр и Приволжье (ГК)Россети Юг (ГК)Россети Янтарь' or . = 'ПАО РоссетиМагистральные сетиРаспредКомплексРоссети ВолгаМордовэнергоОренбургэнергоПензаэнергоСамарские РССаратовские РСУльяновские РСЧувашэнергоРоссети КубаньРоссети Ленэнерго (ГК)Россети Московский регионРоссети Северный Кавказ (ГК)Россети Северо-ЗападРоссети Сибирь (ГК)Россети ТомскРоссети ТюменьРоссети Урал (ГК)Россети ЦентрРоссети Центр и Приволжье (ГК)Россети Юг (ГК)Россети Янтарь')]</value>
+      <webElementGuid>be2fd549-20b0-46b2-b7ea-cf42fe61b1b9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

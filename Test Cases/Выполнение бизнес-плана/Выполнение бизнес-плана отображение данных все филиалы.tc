@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Выполнение бизнес-плана отображение данных все филиалы</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>eb9722d3-9c40-4e29-8ec2-f05cd72a3509</testCaseGuid>
+</TestCaseEntity>
