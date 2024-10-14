@@ -642,7 +642,7 @@ static void Autorization(def block, def nameOfBlock) {
     if (block == 1) {
         nameOfBlock = ''
     } else {
-        WebUI.delay(65)
+        WebUI.delay(45)
 
         nameOfBlock = ' Выручка'
     }
@@ -651,8 +651,12 @@ static void Autorization(def block, def nameOfBlock) {
 
     if (block == 1) {
         WebUI.navigateToUrl(findTestData('PlanFact').getValue(10, 2))
+
+        WebUI.delay(45)
     } else {
         WebUI.navigateToUrl(findTestData('PlanFact').getValue(10, 9))
+
+        WebUI.delay(45)
     }
     
     if (WebUI.verifyElementPresent(findTestObject('Страница авторизации/button_'), 30) == true) {
@@ -663,7 +667,7 @@ static void Autorization(def block, def nameOfBlock) {
         WebUI.click(findTestObject('Страница авторизации/button_'))
     }
     
-    WebUI.delay(65)
+    WebUI.delay(45)
 
     if (block == 2) {
         String opoveshenie = WebUI.getText(findTestObject('Выручка в рублях/Просьба обратить внимание'))
