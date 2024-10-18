@@ -637,6 +637,11 @@ static def PreSettings(def run, def vir, def block, def nameOfBlock, def typeOfD
 }
 
 static void Autorization(def block, def nameOfBlock) {
+	int i
+	int ii
+	int urlData
+	String searchWord
+	String urlText
     println('block:' + block)
 
     if (block == 1) {
@@ -650,25 +655,64 @@ static void Autorization(def block, def nameOfBlock) {
     println('nameOfBlock:' + nameOfBlock)
 
     if (block == 1) {
-        WebUI.navigateToUrl(findTestData('PlanFact').getValue(10, 2))
+		urlData = 2
 
         WebUI.delay(45)
     } else {
-        WebUI.navigateToUrl(findTestData('PlanFact').getValue(10, 9))
+		urlData = 9
 
         WebUI.delay(45)
     }
     
+	WebUI.navigateToUrl(findTestData('PlanFact').getValue(10, urlData))
+	
+	urlText = WebUI.getText(findTestObject('Страница авторизации/Text'))
+	searchWord = 'Вход'
+	if (urlText.contains('ошибка') || (urlText.contains(searchWord) == false)) {
+		for (urlText.contains(searchWord) == false; i < 10; ii++) {
+			i = (i + 1)
+
+			WebUI.refresh()
+
+			WebUI.delay(45)
+
+			WebUI.navigateToUrl(findTestData('PlanFact').getValue(10, urlData))
+
+			WebUI.delay(45)
+
+			urlText = WebUI.getText(findTestObject('Страница авторизации/Text'))
+		}
+	}
+	
     if (WebUI.verifyElementPresent(findTestObject('Страница авторизации/button_'), 30) == true) {
         WebUI.setText(findTestObject('Страница авторизации/input__username'), findTestData('PlanFact').getValue(8, 1))
 
         WebUI.setText(findTestObject('Страница авторизации/input__password'), findTestData('PlanFact').getValue(9, 1))
 
         WebUI.click(findTestObject('Страница авторизации/button_'))
+		
+		WebUI.delay(45)
     }
-    
-    WebUI.delay(45)
+	
+	urlText = WebUI.getText(findTestObject('Страница авторизации/Text'))
+	searchWord = 'а'
+	if (urlText.contains('ошибка') || (urlText.contains(searchWord) == false)) {
+		for (urlText.contains(searchWord) == false; i < 10; ii++) {
+			i = (i + 1)
 
+			WebUI.refresh()
+
+			WebUI.delay(45)
+
+			WebUI.navigateToUrl(findTestData('PlanFact').getValue(10, urlData))
+
+			WebUI.delay(45)
+
+			urlText = WebUI.getText(findTestObject('Страница авторизации/Text'))
+		}
+	}
+    WebUI.delay(45)
+	
     if (block == 2) {
         String opoveshenie = WebUI.getText(findTestObject('Выручка в рублях/Просьба обратить внимание'))
 
@@ -676,24 +720,7 @@ static void Autorization(def block, def nameOfBlock) {
             WebUI.click(findTestObject('Выручка в рублях/Закрыть оповещение'))
 
             WebUI.delay(50)
-        } else {
-            WebUI.refresh()
-
-            WebUI.deleteAllCookies()
-
-            WebUI.navigateToUrl(findTestData('PlanFact').getValue(10, 9))
-
-            if (WebUI.verifyElementPresent(findTestObject('Страница авторизации/button_'), 30) == true) {
-                WebUI.setText(findTestObject('Страница авторизации/input__username'), findTestData('PlanFact').getValue(
-                        8, 1))
-
-                WebUI.setText(findTestObject('Страница авторизации/input__password'), findTestData('PlanFact').getValue(
-                        9, 1))
-
-                WebUI.click(findTestObject('Страница авторизации/button_'))
-
-                WebUI.delay(50)
-            }
+        
         }
     }
 }

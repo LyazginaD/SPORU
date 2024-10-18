@@ -870,6 +870,8 @@ static def Change(def todaysDate, def typeOfData) {
 static def Test(def todaysDate, def typeOfData) {
     WebUI.delay(35)
 
+	ZakrytOpoveshenie()
+	
     if (WebUI.verifyTextNotPresent('нет данных', false) == true) {
         if (WebUI.verifyTextNotPresent('Ошибка запроса данных', false) == true) {
             if (WebUI.verifyTextNotPresent('Произошла ошибка при выполнении пользовательского кода', false) == true) {

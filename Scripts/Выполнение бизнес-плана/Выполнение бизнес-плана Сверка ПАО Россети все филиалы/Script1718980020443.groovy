@@ -765,6 +765,8 @@ static def Numbers(def a, def typeOfData, def todaysDate, def pageInt, def fileI
 }
 
 static void ZakrytOpoveshenie() {
+	WebUI.delay(10)
+	
     String opoveshenie = WebUI.getText(findTestObject('Выполнение бизнес-плана/Просьба обратить внимание'))
 
     println(opoveshenie)
@@ -871,8 +873,18 @@ static def Filials(def a, def typeOfData, def todaysDate, def pageInt, def fileI
 
     println(dZO)
 
-    String reducedDZO = dZO.substring(0, 13)
+    String reducedDZO
+	
+	reducedDZO = dZO.substring((dZO.indexOf(' ')+1),dZO.length())
+	
+	if (reducedDZO.contains(' ')) {
+        reducedDZO = reducedDZO.substring(reducedDZO.indexOf(' ') + 1, reducedDZO.length())
 
+        if (reducedDZO.contains(' ')) {
+            reducedDZO = reducedDZO.substring(reducedDZO.indexOf(' ') + 1, reducedDZO.length())
+        }
+    }
+    
     println(reducedDZO)
 
     String dzoCut
@@ -885,25 +897,21 @@ static def Filials(def a, def typeOfData, def todaysDate, def pageInt, def fileI
 
     c = page.indexOf(reducedDZO)
 
-    while (c > -1) {
-        OpenFilter()
+	if (c > -1) {
+		WebUI.click(findTestObject('Выполнение бизнес-плана/список'))
 
-        CloseFilter()
+		WebUI.delay(10)
 
-        DZO(a)
+		WebUI.click(findTestObject('Выполнение бизнес-плана/Раскрытие списка'))
 
-        WebUI.delay(20)
+		WebUI.delay(10)
 
-        page = WebUI.getText(findTestObject('Object Repository/Выполнение бизнес-плана/Filials'))
+		page = WebUI.getText(findTestObject('Object Repository/Выполнение бизнес-плана/Filials'))
 
-        println(page)
+		println(page)
 
-        c = page.indexOf(reducedDZO)
-
-        println('c indexOf(reducedDZO): ' + c)
-
-        WebUI.delay(5)
-    }
+		c = page.indexOf(reducedDZO)
+	}
     
     String x2 = WebUI.getText(findTestObject('Выполнение бизнес-плана/Список ДЗО старый'))
 

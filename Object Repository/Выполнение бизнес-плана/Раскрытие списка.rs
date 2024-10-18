@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Раскрытие списка</name>
+   <tag></tag>
+   <elementGuidId>c48b8173-359e-4f01-84df-b2bced2248c1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#widget-action-76a32f975a684d3db67435133b213fee > div.va-widget-drilldown-panel > div:nth-of-type(2) > div.va-widget-action-icon > img</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[33]/div/div[2]/div/img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>f200e1da-9b45-456d-b9e7-4a2c96e1a33b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>dist/drill-down.png</value>
+      <webElementGuid>f380fa17-b47d-4744-8009-ffe5b66cc923</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-bind</name>
+      <type>Main</type>
+      <value>style: { height: controlPanelIconHeight() }</value>
+      <webElementGuid>84f58d91-0896-4030-86ef-eb4bccd7dcdc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;widget-action-76a32f975a684d3db67435133b213fee&quot;)/div[@class=&quot;va-widget-drilldown-panel&quot;]/div[2]/div[@class=&quot;va-widget-action-icon&quot;]/img[1]</value>
+      <webElementGuid>33950d04-19c6-4616-a9af-8f642eb4341e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='widget-action-76a32f975a684d3db67435133b213fee']/div/div[2]/div/img</value>
+      <webElementGuid>96ecc6ee-313e-4f37-a075-b27dad43b72f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[33]/div/div[2]/div/img</value>
+      <webElementGuid>ccfc8c62-50d1-4f75-965b-01da2b9d1962</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = 'dist/drill-down.png']</value>
+      <webElementGuid>02435c9e-1341-4529-98c3-8bd07363298f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
