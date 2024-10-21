@@ -11,10 +11,11 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Отмена'])[3]/following::div[1]</value>
+         <value>//div[13]/div[2]/div/div/div[2]/div[4]/div[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>afe22dda-e5d2-4b1e-9766-97e4a56b8535</webElementGuid>
+      <webElementGuid>f1c5bc0d-cf2e-4a4f-89f0-729bb137e14f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>rb-filter-apply-button button</value>
-      <webElementGuid>a4e021a9-6f86-4d07-855b-deb136ee9197</webElementGuid>
+      <webElementGuid>19dc795a-cc78-4155-bd7f-1055362f72bd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +39,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Применить</value>
-      <webElementGuid>18e245ba-6b3e-4a79-b81b-d0d884aafade</webElementGuid>
+      <webElementGuid>80c91f4b-db72-4fb1-9d86-8ec09bf18295</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +47,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;0e94d9ec0eed4e6aa840ab955d18da79&quot;)/div[@class=&quot;rb-filter-container not-selectable rb-filter-multi-selection&quot;]/div[@class=&quot;rb-filter-body-container opened&quot;]/div[@class=&quot;rb-actions-buttons-container&quot;]/div[@class=&quot;rb-filter-apply-button button&quot;]</value>
-      <webElementGuid>ffdbce77-0aec-47e2-987f-ad0b43bb98c0</webElementGuid>
+      <webElementGuid>52c45e20-43da-4c7d-9b9c-122f17b1f93f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +55,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='0e94d9ec0eed4e6aa840ab955d18da79']/div/div[2]/div[4]/div[2]</value>
-      <webElementGuid>c7c1c1e7-eb93-48c1-a9af-57f26643a0a8</webElementGuid>
+      <webElementGuid>05407705-e42d-429b-9293-1284bf0f0801</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +63,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Отмена'])[3]/following::div[1]</value>
-      <webElementGuid>d281039d-3e13-434c-9e8c-ab45c2f6c94b</webElementGuid>
+      <webElementGuid>f279082b-8bb0-4d66-8acb-d3e341286e4d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Россети Янтарь'])[2]/following::div[3]</value>
-      <webElementGuid>c2b8a677-0c8a-4471-a77f-ce684e355a17</webElementGuid>
+      <webElementGuid>92068429-a0e5-465d-879f-d471db2bc1c6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,15 +79,15 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='В начало'])[7]/preceding::div[16]</value>
-      <webElementGuid>be413378-16ac-4884-9282-53e2b26634b1</webElementGuid>
+      <webElementGuid>8cc66770-aa67-49b0-ac31-d33e0fbdd665</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Отклонение выручки по ПАО Россети за 1 кв., Апрель 2023 года (факт/план, %)'])[1]/preceding::div[24]</value>
-      <webElementGuid>dbe508b9-e1be-4fa2-a927-33b8616e638a</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Отклонение выручки по ПАО Россети за 1, 2 кв., Июль, Август 2024 года (факт/план, %)'])[1]/preceding::div[24]</value>
+      <webElementGuid>9a0763c0-f253-4013-88f8-b14b76f74046</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +95,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[13]/div[2]/div/div/div[2]/div[4]/div[2]</value>
-      <webElementGuid>eca5019a-b1a9-4c94-88fe-1b49c5c9f334</webElementGuid>
+      <webElementGuid>dec1e2f7-505e-44fc-b846-8f64b8192b63</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +103,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Применить' or . = 'Применить')]</value>
-      <webElementGuid>8e5ead26-f4c4-4cd1-a467-bc8629a734e1</webElementGuid>
+      <webElementGuid>787ffb7c-3b6d-464e-a0cb-bbb356e29909</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -58,7 +58,7 @@ WebUI.click(findTestObject('Прогноз по отраслям/Фильтр К
 
 WebUI.click(findTestObject('Прогноз по отраслям/Отпуск'))
 
-WebUI.delay(25)
+WebUI.delay(35)
 
 String a1 = WebUI.getText(findTestObject('Прогноз по отраслям/Виджеты дашборда'))
 
@@ -70,7 +70,7 @@ WebUI.click(findTestObject('Прогноз по отраслям/Фильтр С
 
 WebUI.click(findTestObject('Прогноз по отраслям/План'))
 
-WebUI.delay(25)
+WebUI.delay(35)
 
 String a2 = WebUI.getText(findTestObject('Прогноз по отраслям/Виджеты дашборда'))
 
@@ -82,7 +82,7 @@ WebUI.click(findTestObject('Прогноз по отраслям/Фильтр С
 
 WebUI.click(findTestObject('Прогноз по отраслям/План СУ'))
 
-WebUI.delay(25)
+WebUI.delay(35)
 
 String a3 = WebUI.getText(findTestObject('Прогноз по отраслям/Виджеты дашборда'))
 
@@ -98,7 +98,7 @@ WebUI.click(findTestObject('Прогноз по отраслям/Фильтр К
 
 WebUI.click(findTestObject('Прогноз по отраслям/КПО'))
 
-WebUI.delay(25)
+WebUI.delay(35)
 
 String a4 = WebUI.getText(findTestObject('Прогноз по отраслям/Виджеты дашборда'))
 
@@ -110,7 +110,7 @@ WebUI.click(findTestObject('Прогноз по отраслям/Фильтр С
 
 WebUI.click(findTestObject('Прогноз по отраслям/План'))
 
-WebUI.delay(25)
+WebUI.delay(35)
 
 String a5 = WebUI.getText(findTestObject('Прогноз по отраслям/Виджеты дашборда'))
 
@@ -124,7 +124,7 @@ WebUI.click(findTestObject('Прогноз по отраслям/Фильтр С
 
 WebUI.click(findTestObject('Прогноз по отраслям/План СУ'))
 
-WebUI.delay(25)
+WebUI.delay(35)
 
 String a6 = WebUI.getText(findTestObject('Прогноз по отраслям/Виджеты дашборда'))
 
@@ -142,7 +142,7 @@ WebUI.click(findTestObject('Прогноз по отраслям/Фильтр К
 
 WebUI.click(findTestObject('Прогноз по отраслям/Отпуск'))
 
-WebUI.delay(25)
+WebUI.delay(35)
 
 String a7 = WebUI.getText(findTestObject('Прогноз по отраслям/Виджеты дашборда'))
 
@@ -154,7 +154,7 @@ WebUI.click(findTestObject('Прогноз по отраслям/Фильтр С
 
 WebUI.click(findTestObject('Прогноз по отраслям/План'))
 
-WebUI.delay(25)
+WebUI.delay(35)
 
 String a8 = WebUI.getText(findTestObject('Прогноз по отраслям/Виджеты дашборда'))
 
@@ -166,7 +166,7 @@ WebUI.click(findTestObject('Прогноз по отраслям/Фильтр С
 
 WebUI.click(findTestObject('Прогноз по отраслям/План СУ'))
 
-WebUI.delay(25)
+WebUI.delay(35)
 
 String a9 = WebUI.getText(findTestObject('Прогноз по отраслям/Виджеты дашборда'))
 
@@ -182,7 +182,7 @@ WebUI.click(findTestObject('Прогноз по отраслям/Фильтр К
 
 WebUI.click(findTestObject('Прогноз по отраслям/КПО'))
 
-WebUI.delay(25)
+WebUI.delay(35)
 
 String a10 = WebUI.getText(findTestObject('Прогноз по отраслям/Виджеты дашборда'))
 
@@ -194,7 +194,7 @@ WebUI.click(findTestObject('Прогноз по отраслям/Фильтр С
 
 WebUI.click(findTestObject('Прогноз по отраслям/План'))
 
-WebUI.delay(25)
+WebUI.delay(35)
 
 String a11 = WebUI.getText(findTestObject('Прогноз по отраслям/Виджеты дашборда'))
 
@@ -208,7 +208,7 @@ WebUI.click(findTestObject('Прогноз по отраслям/Фильтр С
 
 WebUI.click(findTestObject('Прогноз по отраслям/План СУ'))
 
-WebUI.delay(25)
+WebUI.delay(35)
 
 String a12 = WebUI.getText(findTestObject('Прогноз по отраслям/Виджеты дашборда'))
 
@@ -236,7 +236,7 @@ WebUI.click(findTestObject('Прогноз по отраслям/Фильтр К
 
 WebUI.click(findTestObject('Прогноз по отраслям/Отпуск Стресс'))
 
-WebUI.delay(25)
+WebUI.delay(35)
 
 String b1 = WebUI.getText(findTestObject('Прогноз по отраслям/Виджеты дашборда'))
 
@@ -248,7 +248,7 @@ WebUI.click(findTestObject('Прогноз по отраслям/Фильтр С
 
 WebUI.click(findTestObject('Прогноз по отраслям/План Стресс'))
 
-WebUI.delay(25)
+WebUI.delay(35)
 
 String b2 = WebUI.getText(findTestObject('Прогноз по отраслям/Виджеты дашборда'))
 
@@ -260,7 +260,7 @@ WebUI.click(findTestObject('Прогноз по отраслям/Фильтр С
 
 WebUI.click(findTestObject('Прогноз по отраслям/План СУ Стресс'))
 
-WebUI.delay(25)
+WebUI.delay(35)
 
 String b3 = WebUI.getText(findTestObject('Прогноз по отраслям/Виджеты дашборда'))
 
@@ -276,7 +276,7 @@ WebUI.click(findTestObject('Прогноз по отраслям/Фильтр К
 
 WebUI.click(findTestObject('Прогноз по отраслям/КПО Стресс'))
 
-WebUI.delay(25)
+WebUI.delay(35)
 
 String b4 = WebUI.getText(findTestObject('Прогноз по отраслям/Виджеты дашборда'))
 
@@ -288,7 +288,7 @@ WebUI.click(findTestObject('Прогноз по отраслям/Фильтр С
 
 WebUI.click(findTestObject('Прогноз по отраслям/План Стресс'))
 
-WebUI.delay(25)
+WebUI.delay(35)
 
 String b5 = WebUI.getText(findTestObject('Прогноз по отраслям/Виджеты дашборда'))
 
@@ -302,7 +302,7 @@ WebUI.click(findTestObject('Прогноз по отраслям/Фильтр С
 
 WebUI.click(findTestObject('Прогноз по отраслям/План СУ Стресс'))
 
-WebUI.delay(25)
+WebUI.delay(35)
 
 String b6 = WebUI.getText(findTestObject('Прогноз по отраслям/Виджеты дашборда'))
 
@@ -320,7 +320,7 @@ WebUI.click(findTestObject('Прогноз по отраслям/Фильтр К
 
 WebUI.click(findTestObject('Прогноз по отраслям/Отпуск Стресс'))
 
-WebUI.delay(25)
+WebUI.delay(35)
 
 String b7 = WebUI.getText(findTestObject('Прогноз по отраслям/Виджеты дашборда'))
 
@@ -332,7 +332,7 @@ WebUI.click(findTestObject('Прогноз по отраслям/Фильтр С
 
 WebUI.click(findTestObject('Прогноз по отраслям/План Стресс'))
 
-WebUI.delay(25)
+WebUI.delay(35)
 
 String b8 = WebUI.getText(findTestObject('Прогноз по отраслям/Виджеты дашборда'))
 
@@ -344,7 +344,7 @@ WebUI.click(findTestObject('Прогноз по отраслям/Фильтр С
 
 WebUI.click(findTestObject('Прогноз по отраслям/План СУ Стресс'))
 
-WebUI.delay(25)
+WebUI.delay(35)
 
 String b9 = WebUI.getText(findTestObject('Прогноз по отраслям/Виджеты дашборда'))
 
@@ -360,7 +360,7 @@ WebUI.click(findTestObject('Прогноз по отраслям/Фильтр К
 
 WebUI.click(findTestObject('Прогноз по отраслям/КПО Стресс'))
 
-WebUI.delay(25)
+WebUI.delay(35)
 
 String b10 = WebUI.getText(findTestObject('Прогноз по отраслям/Виджеты дашборда'))
 
@@ -372,7 +372,7 @@ WebUI.click(findTestObject('Прогноз по отраслям/Фильтр С
 
 WebUI.click(findTestObject('Прогноз по отраслям/План Стресс'))
 
-WebUI.delay(25)
+WebUI.delay(35)
 
 String b11 = WebUI.getText(findTestObject('Прогноз по отраслям/Виджеты дашборда'))
 
@@ -386,7 +386,7 @@ WebUI.click(findTestObject('Прогноз по отраслям/Фильтр С
 
 WebUI.click(findTestObject('Прогноз по отраслям/План СУ Стресс'))
 
-WebUI.delay(25)
+WebUI.delay(35)
 
 String b12 = WebUI.getText(findTestObject('Прогноз по отраслям/Виджеты дашборда'))
 

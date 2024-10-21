@@ -335,9 +335,9 @@ static def Blocks(def run, def vir, def block, def nameOfBlock, def typeOfData, 
     if (WebUI.verifyEqual(a1, b1) == false) {
         vidget = 'План'
 
-        a = a1.toDouble()
+        a = a1.replaceAll('\\s+', '').toDouble()
 
-        b = b1.toDouble()
+        b = b1.replaceAll('\\s+', '').toDouble()
 
         WriteToExcel(todaysDate, run, vir, block, typeOfData, viruchka, vidget, nameOfBlock, a, b, dZO)
     }
@@ -345,9 +345,9 @@ static def Blocks(def run, def vir, def block, def nameOfBlock, def typeOfData, 
     if (WebUI.verifyEqual(a2, b2) == false) {
         vidget = 'Факт'
 
-        a = a2.toDouble()
+        a = a2.replaceAll('\\s+', '').toDouble()
 
-        b = b2.toDouble()
+        b = b2.replaceAll('\\s+', '').toDouble()
 
         WriteToExcel(todaysDate, run, vir, block, typeOfData, viruchka, vidget, nameOfBlock, a, b, dZO)
     }
@@ -355,9 +355,9 @@ static def Blocks(def run, def vir, def block, def nameOfBlock, def typeOfData, 
     vidget = 'Отклонения'
 
     if (WebUI.verifyEqual(a30, b30) == false) {
-        a = a30.toDouble()
+        a = a30.replaceAll('\\s+', '').toDouble()
 
-        b = b30.toDouble()
+        b = b30.replaceAll('\\s+', '').toDouble()
 
         WriteToExcel(todaysDate, run, vir, block, typeOfData, viruchka, vidget, nameOfBlock, a, b, dZO)
     }
@@ -365,9 +365,9 @@ static def Blocks(def run, def vir, def block, def nameOfBlock, def typeOfData, 
     dZO = 'АО «Тываэнерго»'
 
     if (WebUI.verifyEqual(a31, b31) == false) {
-        a = a31.toDouble()
+        a = a31.replaceAll('\\s+', '').toDouble()
 
-        b = b31.toDouble()
+        b = b31.replaceAll('\\s+', '').toDouble()
 
         WriteToExcel(todaysDate, run, vir, block, typeOfData, viruchka, vidget, nameOfBlock, a, b, dZO)
     }
@@ -375,9 +375,9 @@ static def Blocks(def run, def vir, def block, def nameOfBlock, def typeOfData, 
     dZO = 'АО «Чеченэнерго»'
 
     if (WebUI.verifyEqual(a32, b32) == false) {
-        a = a32.toDouble()
+        a = a32.replaceAll('\\s+', '').toDouble()
 
-        b = b32.toDouble()
+        b = b32.replaceAll('\\s+', '').toDouble()
 
         WriteToExcel(todaysDate, run, vir, block, typeOfData, viruchka, vidget, nameOfBlock, a, b, dZO)
     }
@@ -385,9 +385,9 @@ static def Blocks(def run, def vir, def block, def nameOfBlock, def typeOfData, 
     dZO = 'Россети Волга'
 
     if (WebUI.verifyEqual(a33, b33) == false) {
-        a = a33.toDouble()
+        a = a33.replaceAll('\\s+', '').toDouble()
 
-        b = b33.toDouble()
+        b = b33.replaceAll('\\s+', '').toDouble()
 
         WriteToExcel(todaysDate, run, vir, block, typeOfData, viruchka, vidget, nameOfBlock, a, b, dZO)
     }
@@ -395,9 +395,9 @@ static def Blocks(def run, def vir, def block, def nameOfBlock, def typeOfData, 
     dZO = 'Россети Кубань'
 
     if (WebUI.verifyEqual(a34, b34) == false) {
-        a = a34.toDouble()
+        a = a34.replaceAll('\\s+', '').toDouble()
 
-        b = b34.toDouble()
+        b = b34.replaceAll('\\s+', '').toDouble()
 
         WriteToExcel(todaysDate, run, vir, block, typeOfData, viruchka, vidget, nameOfBlock, a, b, dZO)
     }
@@ -405,9 +405,9 @@ static def Blocks(def run, def vir, def block, def nameOfBlock, def typeOfData, 
     dZO = 'Россети Ленэнерго (ГК)'
 
     if (WebUI.verifyEqual(a35, b35) == false) {
-        a = a35.toDouble()
+        a = a35.replaceAll('\\s+', '').toDouble()
 
-        b = b35.toDouble()
+        b = b35.replaceAll('\\s+', '').toDouble()
 
         WriteToExcel(todaysDate, run, vir, block, typeOfData, viruchka, vidget, nameOfBlock, a, b, dZO)
     }
@@ -415,9 +415,9 @@ static def Blocks(def run, def vir, def block, def nameOfBlock, def typeOfData, 
     dZO = 'Россети Московский регион'
 
     if (WebUI.verifyEqual(a36, b36) == false) {
-        a = a36.toDouble()
+        a = a36.replaceAll('\\s+', '').toDouble()
 
-        b = b36.toDouble()
+        b = b36.replaceAll('\\s+', '').toDouble()
 
         WriteToExcel(todaysDate, run, vir, block, typeOfData, viruchka, vidget, nameOfBlock, a, b, dZO)
     }
@@ -425,9 +425,9 @@ static def Blocks(def run, def vir, def block, def nameOfBlock, def typeOfData, 
     dZO = 'Россети Северный Кавказ (ГК)'
 
     if (WebUI.verifyEqual(a37, b37) == false) {
-        a = a37.toDouble()
+        a = a37.replaceAll('\\s+', '').toDouble()
 
-        b = b37.toDouble()
+        b = b37.replaceAll('\\s+', '').toDouble()
 
         WriteToExcel(todaysDate, run, vir, block, typeOfData, viruchka, vidget, nameOfBlock, a, b, dZO)
     }
@@ -435,9 +435,9 @@ static def Blocks(def run, def vir, def block, def nameOfBlock, def typeOfData, 
     dZO = 'Россети Северо-Запад'
 
     if (WebUI.verifyEqual(a38, b38) == false) {
-        a = a38.toDouble()
+        a = a38.replaceAll('\\s+', '').toDouble()
 
-        b = b38.toDouble()
+        b = b38.replaceAll('\\s+', '').toDouble()
 
         WriteToExcel(todaysDate, run, vir, block, typeOfData, viruchka, vidget, nameOfBlock, a, b, dZO)
     }
@@ -445,9 +445,9 @@ static def Blocks(def run, def vir, def block, def nameOfBlock, def typeOfData, 
     dZO = 'Россети Сибирь (ГК)'
 
     if (WebUI.verifyEqual(a39, b39) == false) {
-        a = a39.toDouble()
+        a = a39.replaceAll('\\s+', '').toDouble()
 
-        b = b39.toDouble()
+        b = b39.replaceAll('\\s+', '').toDouble()
 
         WriteToExcel(todaysDate, run, vir, block, typeOfData, viruchka, vidget, nameOfBlock, a, b, dZO)
     }
@@ -455,9 +455,9 @@ static def Blocks(def run, def vir, def block, def nameOfBlock, def typeOfData, 
     dZO = 'Россети Томск'
 
     if (WebUI.verifyEqual(a310, b310) == false) {
-        a = a310.toDouble()
+        a = a310.replaceAll('\\s+', '').toDouble()
 
-        b = b310.toDouble()
+        b = b310.replaceAll('\\s+', '').toDouble()
 
         WriteToExcel(todaysDate, run, vir, block, typeOfData, viruchka, vidget, nameOfBlock, a, b, dZO)
     }
@@ -465,9 +465,9 @@ static def Blocks(def run, def vir, def block, def nameOfBlock, def typeOfData, 
     dZO = 'Россети Тюмень'
 
     if (WebUI.verifyEqual(a311, b311) == false) {
-        a = a311.toDouble()
+        a = a311.replaceAll('\\s+', '').toDouble()
 
-        b = b311.toDouble()
+        b = b311.replaceAll('\\s+', '').toDouble()
 
         WriteToExcel(todaysDate, run, vir, block, typeOfData, viruchka, vidget, nameOfBlock, a, b, dZO)
     }
@@ -475,9 +475,9 @@ static def Blocks(def run, def vir, def block, def nameOfBlock, def typeOfData, 
     dZO = 'Россети Урал (ГК)'
 
     if (WebUI.verifyEqual(a312, b312) == false) {
-        a = a312.toDouble()
+        a = a312.replaceAll('\\s+', '').toDouble()
 
-        b = b312.toDouble()
+        b = b312.replaceAll('\\s+', '').toDouble()
 
         WriteToExcel(todaysDate, run, vir, block, typeOfData, viruchka, vidget, nameOfBlock, a, b, dZO)
     }
@@ -485,9 +485,9 @@ static def Blocks(def run, def vir, def block, def nameOfBlock, def typeOfData, 
     dZO = 'Россети ФСК ЕЭС'
 
     if (WebUI.verifyEqual(a313, b313) == false) {
-        a = a313.toDouble()
+        a = a313.replaceAll('\\s+', '').toDouble()
 
-        b = b313.toDouble()
+        b = b313.replaceAll('\\s+', '').toDouble()
 
         WriteToExcel(todaysDate, run, vir, block, typeOfData, viruchka, vidget, nameOfBlock, a, b, dZO)
     }
@@ -495,9 +495,9 @@ static def Blocks(def run, def vir, def block, def nameOfBlock, def typeOfData, 
     dZO = 'Россети Центр'
 
     if (WebUI.verifyEqual(a314, b314) == false) {
-        a = a314.toDouble()
+        a = a314.replaceAll('\\s+', '').toDouble()
 
-        b = b314.toDouble()
+        b = b314.replaceAll('\\s+', '').toDouble()
 
         WriteToExcel(todaysDate, run, vir, block, typeOfData, viruchka, vidget, nameOfBlock, a, b, dZO)
     }
@@ -505,9 +505,9 @@ static def Blocks(def run, def vir, def block, def nameOfBlock, def typeOfData, 
     dZO = 'Россети Центр и Приволжье (ГК)'
 
     if (WebUI.verifyEqual(a315, b315) == false) {
-        a = a315.toDouble()
+        a = a315.replaceAll('\\s+', '').toDouble()
 
-        b = b315.toDouble()
+        b = b315.replaceAll('\\s+', '').toDouble()
 
         WriteToExcel(todaysDate, run, vir, block, typeOfData, viruchka, vidget, nameOfBlock, a, b, dZO)
     }
@@ -515,9 +515,9 @@ static def Blocks(def run, def vir, def block, def nameOfBlock, def typeOfData, 
     dZO = 'Россети Юг (ГК)'
 
     if (WebUI.verifyEqual(a316, b316) == false) {
-        a = a316.toDouble()
+        a = a316.replaceAll('\\s+', '').toDouble()
 
-        b = b316.toDouble()
+        b = b316.replaceAll('\\s+', '').toDouble()
 
         WriteToExcel(todaysDate, run, vir, block, typeOfData, viruchka, vidget, nameOfBlock, a, b, dZO)
     }
@@ -525,9 +525,9 @@ static def Blocks(def run, def vir, def block, def nameOfBlock, def typeOfData, 
     dZO = 'Россети Янтарь'
 
     if (WebUI.verifyEqual(a317, b317) == false) {
-        a = a317.toDouble()
+        a = a317.replaceAll('\\s+', '').toDouble()
 
-        b = b317.toDouble()
+        b = b317.replaceAll('\\s+', '').toDouble()
 
         WriteToExcel(todaysDate, run, vir, block, typeOfData, viruchka, vidget, nameOfBlock, a, b, dZO)
     }
@@ -617,7 +617,7 @@ static def PreSettings(def run, def vir, def block, def nameOfBlock, def typeOfD
     'Нажать "Применить"'
     WebUI.click(findTestObject('Выручка в рублях/Применить в фильтре Дата' + nameOfBlock))
 
-    WebUI.delay(50)
+    WebUI.delay(55)
 
     'Открыть фильтр "ДЗО"'
     WebUI.click(findTestObject('Выручка в рублях/Фильтр ДЗО' + nameOfBlock))
@@ -637,11 +637,16 @@ static def PreSettings(def run, def vir, def block, def nameOfBlock, def typeOfD
 }
 
 static void Autorization(def block, def nameOfBlock) {
-	int i
-	int ii
-	int urlData
-	String searchWord
-	String urlText
+    int i
+
+    int ii
+
+    int urlData
+
+    String searchWord
+
+    String urlText
+
     println('block:' + block)
 
     if (block == 1) {
@@ -655,64 +660,69 @@ static void Autorization(def block, def nameOfBlock) {
     println('nameOfBlock:' + nameOfBlock)
 
     if (block == 1) {
-		urlData = 2
+        urlData = 2
 
         WebUI.delay(45)
     } else {
-		urlData = 9
+        urlData = 9
 
         WebUI.delay(45)
     }
     
-	WebUI.navigateToUrl(findTestData('PlanFact').getValue(10, urlData))
-	
-	urlText = WebUI.getText(findTestObject('Страница авторизации/Text'))
-	searchWord = 'Вход'
-	if (urlText.contains('ошибка') || (urlText.contains(searchWord) == false)) {
-		for (urlText.contains(searchWord) == false; i < 10; ii++) {
-			i = (i + 1)
+    WebUI.navigateToUrl(findTestData('PlanFact').getValue(10, urlData))
 
-			WebUI.refresh()
+    urlText = WebUI.getText(findTestObject('Страница авторизации/Text'))
 
-			WebUI.delay(45)
+    searchWord = 'Вход'
 
-			WebUI.navigateToUrl(findTestData('PlanFact').getValue(10, urlData))
+    if ((urlText == null) || (urlText.contains('ошибка') || (urlText.contains(searchWord) == false))) {
+        for (urlText.contains(searchWord) == false; i < 10; ii++) {
+            i = (i + 1)
 
-			WebUI.delay(45)
+            WebUI.refresh()
 
-			urlText = WebUI.getText(findTestObject('Страница авторизации/Text'))
-		}
-	}
-	
+            WebUI.delay(45)
+
+            WebUI.navigateToUrl(findTestData('PlanFact').getValue(10, urlData))
+
+            WebUI.delay(45)
+
+            urlText = WebUI.getText(findTestObject('Страница авторизации/Text'))
+        }
+    }
+    
     if (WebUI.verifyElementPresent(findTestObject('Страница авторизации/button_'), 30) == true) {
         WebUI.setText(findTestObject('Страница авторизации/input__username'), findTestData('PlanFact').getValue(8, 1))
 
         WebUI.setText(findTestObject('Страница авторизации/input__password'), findTestData('PlanFact').getValue(9, 1))
 
         WebUI.click(findTestObject('Страница авторизации/button_'))
-		
-		WebUI.delay(45)
+
+        WebUI.delay(45)
     }
-	
-	urlText = WebUI.getText(findTestObject('Страница авторизации/Text'))
-	searchWord = 'а'
-	if (urlText.contains('ошибка') || (urlText.contains(searchWord) == false)) {
-		for (urlText.contains(searchWord) == false; i < 10; ii++) {
-			i = (i + 1)
+    
+    urlText = WebUI.getText(findTestObject('Страница авторизации/Text'))
 
-			WebUI.refresh()
+    searchWord = 'а'
 
-			WebUI.delay(45)
+    if (urlText.contains('ошибка') || (urlText.contains(searchWord) == false)) {
+        for (urlText.contains(searchWord) == false; i < 10; ii++) {
+            i = (i + 1)
 
-			WebUI.navigateToUrl(findTestData('PlanFact').getValue(10, urlData))
+            WebUI.refresh()
 
-			WebUI.delay(45)
+            WebUI.delay(45)
 
-			urlText = WebUI.getText(findTestObject('Страница авторизации/Text'))
-		}
-	}
+            WebUI.navigateToUrl(findTestData('PlanFact').getValue(10, urlData))
+
+            WebUI.delay(45)
+
+            urlText = WebUI.getText(findTestObject('Страница авторизации/Text'))
+        }
+    }
+    
     WebUI.delay(45)
-	
+
     if (block == 2) {
         String opoveshenie = WebUI.getText(findTestObject('Выручка в рублях/Просьба обратить внимание'))
 
@@ -720,7 +730,6 @@ static void Autorization(def block, def nameOfBlock) {
             WebUI.click(findTestObject('Выручка в рублях/Закрыть оповещение'))
 
             WebUI.delay(50)
-        
         }
     }
 }
