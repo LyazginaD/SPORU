@@ -1718,7 +1718,7 @@ static def Presettings(def blockNum, def path) {
     'Нажать "Применить"'
     WebUI.click(findTestObject(path + 'Применить в фильтре Дата'))
 
-    WebUI.delay(30)
+    WebUI.delay(50)
 
     ZakrytOpoveshenie()
 
@@ -1753,13 +1753,7 @@ static def Presettings(def blockNum, def path) {
     'Скролл 3 квартал 2024'
     WebUI.scrollToElement(findTestObject(path + '3 квартал 2024 список'), 30)
 
-    WebUI.click(findTestObject(path + '3 квартал 2024 список'))
-
-    WebUI.click(findTestObject(path + 'Июль 2024'))
-
-    WebUI.scrollToElement(findTestObject(path + 'Август 2024'), 30)
-
-    WebUI.click(findTestObject(path + 'Август 2024'))
+    WebUI.click(findTestObject(path + '3 квартал 2024'))
 
     'Проскроллить до заголовка фильтра "Дата"'
     WebUI.scrollToElement(findTestObject(path + 'Заголовок дашборда'), 30)

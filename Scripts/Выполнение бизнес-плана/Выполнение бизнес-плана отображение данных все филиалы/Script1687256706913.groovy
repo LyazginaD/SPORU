@@ -135,16 +135,7 @@ WebUI.click(findTestObject('Выполнение бизнес-плана/2 кв�
 WebUI.scrollToElement(findTestObject('Выполнение бизнес-плана/3 квартал 2024 список'), 30)
 
 'Выбрать 1 квартал 2022'
-WebUI.click(findTestObject('Выполнение бизнес-плана/3 квартал 2024 список'), FailureHandling.CONTINUE_ON_FAILURE)
-
-'Выбрать 1 квартал 2022'
-WebUI.click(findTestObject('Выполнение бизнес-плана/Июль 2024'))
-
-'Выбрать 1 квартал 2022'
-WebUI.scrollToElement(findTestObject('Выполнение бизнес-плана/Август 2024'), 30)
-
-'Выбрать 1 квартал 2022'
-WebUI.click(findTestObject('Выполнение бизнес-плана/Август 2024'))
+WebUI.click(findTestObject('Выполнение бизнес-плана/3 квартал 2024'), FailureHandling.CONTINUE_ON_FAILURE)
 
 'Проскроллить до заголовка фильтра "Дата"'
 WebUI.scrollToElement(findTestObject('Выполнение бизнес-плана/Заголовок дашборда'), 30)
@@ -868,10 +859,10 @@ static def Change(def todaysDate, def typeOfData) {
 }
 
 static def Test(def todaysDate, def typeOfData) {
-    WebUI.delay(35)
+    WebUI.delay(50)
 
-	ZakrytOpoveshenie()
-	
+    ZakrytOpoveshenie()
+
     if (WebUI.verifyTextNotPresent('нет данных', false) == true) {
         if (WebUI.verifyTextNotPresent('Ошибка запроса данных', false) == true) {
             if (WebUI.verifyTextNotPresent('Произошла ошибка при выполнении пользовательского кода', false) == true) {

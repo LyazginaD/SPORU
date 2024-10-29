@@ -69,11 +69,11 @@ WebUI.click(findTestObject('Выполнение бизнес-плана/2023 с
 
 WebUI.scrollToElement(findTestObject('Выполнение бизнес-плана/1 квартал 2024 список'), 30)
 
-WebUI.click(findTestObject('Выполнение бизнес-плана/1 квартал 2023'))
+WebUI.click(findTestObject('Выполнение бизнес-плана/3 квартал 2024'))
 
 WebUI.scrollToElement(findTestObject('Выполнение бизнес-плана/2 квартал 2023 список'), 30)
 
-WebUI.click(findTestObject('Выполнение бизнес-плана/2 квартал 2023'))
+WebUI.click(findTestObject('null'))
 
 WebUI.click(findTestObject('Выполнение бизнес-плана/3 квартал 2023 список'))
 
