@@ -1755,6 +1755,18 @@ static def Presettings(def blockNum, def path) {
 
     WebUI.click(findTestObject(path + '3 квартал 2024'))
 
+    'Выбрать 4 квартал 2024'
+    WebUI.scrollToElement(findTestObject(path + '4 квартал 2024 список'), 30)
+
+    'Выбрать 4 квартал 2024'
+    WebUI.click(findTestObject(path + '4 квартал 2024 список'))
+
+    'Выбрать 4 квартал 2024'
+    WebUI.scrollToElement(findTestObject(path + 'Октябрь 2024'), 30)
+
+    'Выбрать 4 квартал 2024'
+    WebUI.click(findTestObject(path + 'Октябрь 2024'))
+
     'Проскроллить до заголовка фильтра "Дата"'
     WebUI.scrollToElement(findTestObject(path + 'Заголовок дашборда'), 30)
 

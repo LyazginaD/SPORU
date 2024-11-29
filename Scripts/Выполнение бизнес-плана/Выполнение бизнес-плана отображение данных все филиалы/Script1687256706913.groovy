@@ -64,7 +64,7 @@ WebUI.setText(findTestObject('Страница авторизации/input__pas
 
 WebUI.click(findTestObject('Страница авторизации/button_'))
 
-WebUI.delay(50)
+WebUI.delay(60)
 
 searchWord = 'ДЗО'
 
@@ -98,7 +98,7 @@ WebUI.click(findTestObject('Выполнение бизнес-плана/Сня�
 'Нажать "Применить"'
 WebUI.click(findTestObject('Object Repository/Выполнение бизнес-плана/Применить в фильтре Дата'))
 
-WebUI.delay(50)
+WebUI.delay(60)
 
 ZakrytOpoveshenie()
 
@@ -137,13 +137,25 @@ WebUI.scrollToElement(findTestObject('Выполнение бизнес-план
 'Выбрать 1 квартал 2022'
 WebUI.click(findTestObject('Выполнение бизнес-плана/3 квартал 2024'), FailureHandling.CONTINUE_ON_FAILURE)
 
+'Выбрать 1 квартал 2022'
+WebUI.scrollToElement(findTestObject('Выполнение бизнес-плана/4 квартал 2024 список'), 30)
+
+'Выбрать 1 квартал 2022'
+WebUI.click(findTestObject('Выполнение бизнес-плана/4 квартал 2024 список'), FailureHandling.CONTINUE_ON_FAILURE)
+
+'Выбрать 1 квартал 2022'
+WebUI.scrollToElement(findTestObject('Выполнение бизнес-плана/Октябрь 2024'), 30)
+
+'Выбрать 1 квартал 2022'
+WebUI.click(findTestObject('Выполнение бизнес-плана/Октябрь 2024'), FailureHandling.CONTINUE_ON_FAILURE)
+
 'Проскроллить до заголовка фильтра "Дата"'
 WebUI.scrollToElement(findTestObject('Выполнение бизнес-плана/Заголовок дашборда'), 30)
 
 'Нажать "Применить"'
 WebUI.click(findTestObject('Object Repository/Выполнение бизнес-плана/Применить в фильтре Дата'))
 
-WebUI.delay(50)
+WebUI.delay(60)
 
 ZakrytOpoveshenie()
 

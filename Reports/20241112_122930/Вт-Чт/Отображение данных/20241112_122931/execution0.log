@@ -1,0 +1,1930 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-11-12T14:26:21.145337Z</date>
+  <millis>1731421581145</millis>
+  <nanos>337000</nanos>
+  <sequence>74763</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (verifyTextNotPresent(&amp;quot;У виджета нет данных&amp;quot;, false) == true)</message>
+  <nestedLevel>5</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-11-12T14:26:21.146334600Z</date>
+  <millis>1731421581146</millis>
+  <nanos>334600</nanos>
+  <sequence>74764</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (verifyTextNotPresent(&amp;quot;У виджета нет данных&amp;quot;, false) == true)</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-11-12T14:26:21.146334600Z</date>
+  <millis>1731421581146</millis>
+  <nanos>334600</nanos>
+  <sequence>74765</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (verifyTextNotPresent(&amp;quot;Произошла ошибка при выполнении пользовательского кода&amp;quot;, false) == true)</message>
+  <nestedLevel>3</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-11-12T14:26:21.146334600Z</date>
+  <millis>1731421581146</millis>
+  <nanos>334600</nanos>
+  <sequence>74766</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (verifyTextNotPresent(&amp;quot;Ошибка запроса данных&amp;quot;, false) == true)</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-11-12T14:26:21.146334600Z</date>
+  <millis>1731421581146</millis>
+  <nanos>334600</nanos>
+  <sequence>74767</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (verifyTextNotPresent(&amp;quot;нет данных&amp;quot;, false) == true)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-11-12T14:26:21.146334600Z</date>
+  <millis>1731421581146</millis>
+  <nanos>334600</nanos>
+  <sequence>74768</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(&amp;quot;Выручка в рублях/Фильтр Выручка&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">991</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2024-11-12T14:26:21.467345100Z</date>
+  <millis>1731421581467</millis>
+  <nanos>345100</nanos>
+  <sequence>74778</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Выручка в рублях/Фильтр Выручка&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2024-11-12T14:26:21.467345100Z</date>
+  <millis>1731421581467</millis>
+  <nanos>345100</nanos>
+  <sequence>74779</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(&amp;quot;Выручка в рублях/Фильтр Выручка&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-11-12T14:26:21.467345100Z</date>
+  <millis>1731421581467</millis>
+  <nanos>345100</nanos>
+  <sequence>74780</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(&amp;quot;Выручка в рублях/Внутренний оборот в фильтре Выручка&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">993</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2024-11-12T14:26:21.991430800Z</date>
+  <millis>1731421581991</millis>
+  <nanos>430800</nanos>
+  <sequence>74790</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Выручка в рублях/Внутренний оборот в фильтре Выручка&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2024-11-12T14:26:21.991430800Z</date>
+  <millis>1731421581991</millis>
+  <nanos>430800</nanos>
+  <sequence>74791</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(&amp;quot;Выручка в рублях/Внутренний оборот в фильтре Выручка&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-11-12T14:26:21.991430800Z</date>
+  <millis>1731421581991</millis>
+  <nanos>430800</nanos>
+  <sequence>74792</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(&amp;quot;Выручка в рублях/Применить в фильтре Выручка&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">995</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2024-11-12T14:26:22.665159800Z</date>
+  <millis>1731421582665</millis>
+  <nanos>159800</nanos>
+  <sequence>74802</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Выручка в рублях/Применить в фильтре Выручка&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2024-11-12T14:26:22.666156500Z</date>
+  <millis>1731421582666</millis>
+  <nanos>156500</nanos>
+  <sequence>74803</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(&amp;quot;Выручка в рублях/Применить в фильтре Выручка&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-11-12T14:26:22.666156500Z</date>
+  <millis>1731421582666</millis>
+  <nanos>156500</nanos>
+  <sequence>74804</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Script1687405761596.Test(typeOfData, todaysDate)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">997</property>
+  <property name="stepIndex">9</property>
+</record>
+<record>
+  <date>2024-11-12T14:26:22.666156500Z</date>
+  <millis>1731421582666</millis>
+  <nanos>156500</nanos>
+  <sequence>74805</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Script1687405761596.Test(typeOfData, todaysDate)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-11-12T14:26:22.666156500Z</date>
+  <millis>1731421582666</millis>
+  <nanos>156500</nanos>
+  <sequence>74806</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (verifyTextNotPresent(&amp;quot;нет данных&amp;quot;, false) == true)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">1017</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2024-11-12T14:26:24.883037200Z</date>
+  <millis>1731421584883</millis>
+  <nanos>37200</nanos>
+  <sequence>74810</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;нет данных&amp;apos; is not present on page</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-is-assertion">true</property>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.verifyTextNotPresent</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2024-11-12T14:26:24.884033Z</date>
+  <millis>1731421584884</millis>
+  <nanos>33000</nanos>
+  <sequence>74811</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (verifyTextNotPresent(&amp;quot;Ошибка запроса данных&amp;quot;, false) == true)</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">1018</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2024-11-12T14:26:25.446321Z</date>
+  <millis>1731421585446</millis>
+  <nanos>321000</nanos>
+  <sequence>74815</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Ошибка запроса данных&amp;apos; is not present on page</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-is-assertion">true</property>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.verifyTextNotPresent</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2024-11-12T14:26:25.446321Z</date>
+  <millis>1731421585446</millis>
+  <nanos>321000</nanos>
+  <sequence>74816</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (verifyTextNotPresent(&amp;quot;Произошла ошибка при выполнении пользовательского кода&amp;quot;, false) == true)</message>
+  <nestedLevel>3</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">1019</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2024-11-12T14:26:25.989716500Z</date>
+  <millis>1731421585989</millis>
+  <nanos>716500</nanos>
+  <sequence>74820</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Произошла ошибка при выполнении пользовательского кода&amp;apos; is not present on page</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-is-assertion">true</property>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.verifyTextNotPresent</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2024-11-12T14:26:25.990714900Z</date>
+  <millis>1731421585990</millis>
+  <nanos>714900</nanos>
+  <sequence>74821</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (verifyTextNotPresent(&amp;quot;У виджета нет данных&amp;quot;, false) == true)</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">1020</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2024-11-12T14:26:26.542162300Z</date>
+  <millis>1731421586542</millis>
+  <nanos>162300</nanos>
+  <sequence>74825</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;У виджета нет данных&amp;apos; is not present on page</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-is-assertion">true</property>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.verifyTextNotPresent</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2024-11-12T14:26:26.542162300Z</date>
+  <millis>1731421586542</millis>
+  <nanos>162300</nanos>
+  <sequence>74826</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (verifyTextNotPresent(&amp;quot;У виджета нет данных&amp;quot;, false) == true)</message>
+  <nestedLevel>5</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">1021</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2024-11-12T14:26:27.091092500Z</date>
+  <millis>1731421587091</millis>
+  <nanos>92500</nanos>
+  <sequence>74830</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;У виджета нет данных&amp;apos; is not present on page</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-is-assertion">true</property>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.verifyTextNotPresent</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2024-11-12T14:26:27.091092500Z</date>
+  <millis>1731421587091</millis>
+  <nanos>92500</nanos>
+  <sequence>74831</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (verifyTextNotPresent(&amp;quot;У виджета нет данных&amp;quot;, false) == true)</message>
+  <nestedLevel>5</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-11-12T14:26:27.091092500Z</date>
+  <millis>1731421587091</millis>
+  <nanos>92500</nanos>
+  <sequence>74832</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (verifyTextNotPresent(&amp;quot;У виджета нет данных&amp;quot;, false) == true)</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-11-12T14:26:27.091092500Z</date>
+  <millis>1731421587091</millis>
+  <nanos>92500</nanos>
+  <sequence>74833</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (verifyTextNotPresent(&amp;quot;Произошла ошибка при выполнении пользовательского кода&amp;quot;, false) == true)</message>
+  <nestedLevel>3</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-11-12T14:26:27.091092500Z</date>
+  <millis>1731421587091</millis>
+  <nanos>92500</nanos>
+  <sequence>74834</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (verifyTextNotPresent(&amp;quot;Ошибка запроса данных&amp;quot;, false) == true)</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-11-12T14:26:27.091092500Z</date>
+  <millis>1731421587091</millis>
+  <nanos>92500</nanos>
+  <sequence>74835</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (verifyTextNotPresent(&amp;quot;нет данных&amp;quot;, false) == true)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-11-12T14:26:27.091092500Z</date>
+  <millis>1731421587091</millis>
+  <nanos>92500</nanos>
+  <sequence>74836</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(&amp;quot;Выручка в рублях/Фильтр Выручка&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">999</property>
+  <property name="stepIndex">10</property>
+</record>
+<record>
+  <date>2024-11-12T14:26:27.395441100Z</date>
+  <millis>1731421587395</millis>
+  <nanos>441100</nanos>
+  <sequence>74846</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Выручка в рублях/Фильтр Выручка&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2024-11-12T14:26:27.395441100Z</date>
+  <millis>1731421587395</millis>
+  <nanos>441100</nanos>
+  <sequence>74847</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(&amp;quot;Выручка в рублях/Фильтр Выручка&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-11-12T14:26:27.395441100Z</date>
+  <millis>1731421587395</millis>
+  <nanos>441100</nanos>
+  <sequence>74848</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(&amp;quot;Выручка в рублях/Снять выделение в фильтре Выручка&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">1001</property>
+  <property name="stepIndex">11</property>
+</record>
+<record>
+  <date>2024-11-12T14:26:27.900769Z</date>
+  <millis>1731421587900</millis>
+  <nanos>769000</nanos>
+  <sequence>74858</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Выручка в рублях/Снять выделение в фильтре Выручка&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2024-11-12T14:26:27.900769Z</date>
+  <millis>1731421587900</millis>
+  <nanos>769000</nanos>
+  <sequence>74859</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(&amp;quot;Выручка в рублях/Снять выделение в фильтре Выручка&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-11-12T14:26:27.900769Z</date>
+  <millis>1731421587900</millis>
+  <nanos>769000</nanos>
+  <sequence>74860</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(&amp;quot;Выручка в рублях/Внутренний оборот в фильтре Выручка&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">1003</property>
+  <property name="stepIndex">12</property>
+</record>
+<record>
+  <date>2024-11-12T14:26:28.205331300Z</date>
+  <millis>1731421588205</millis>
+  <nanos>331300</nanos>
+  <sequence>74870</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Выручка в рублях/Внутренний оборот в фильтре Выручка&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2024-11-12T14:26:28.205331300Z</date>
+  <millis>1731421588205</millis>
+  <nanos>331300</nanos>
+  <sequence>74871</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(&amp;quot;Выручка в рублях/Внутренний оборот в фильтре Выручка&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-11-12T14:26:28.205331300Z</date>
+  <millis>1731421588205</millis>
+  <nanos>331300</nanos>
+  <sequence>74872</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(&amp;quot;Выручка в рублях/Применить в фильтре Выручка&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">1005</property>
+  <property name="stepIndex">13</property>
+</record>
+<record>
+  <date>2024-11-12T14:26:28.873196Z</date>
+  <millis>1731421588873</millis>
+  <nanos>196000</nanos>
+  <sequence>74882</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Выручка в рублях/Применить в фильтре Выручка&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2024-11-12T14:26:28.873196Z</date>
+  <millis>1731421588873</millis>
+  <nanos>196000</nanos>
+  <sequence>74883</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(&amp;quot;Выручка в рублях/Применить в фильтре Выручка&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-11-12T14:26:28.873196Z</date>
+  <millis>1731421588873</millis>
+  <nanos>196000</nanos>
+  <sequence>74884</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Script1687405761596.Test(typeOfData, todaysDate)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">1007</property>
+  <property name="stepIndex">14</property>
+</record>
+<record>
+  <date>2024-11-12T14:26:28.873196Z</date>
+  <millis>1731421588873</millis>
+  <nanos>196000</nanos>
+  <sequence>74885</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Script1687405761596.Test(typeOfData, todaysDate)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-11-12T14:26:28.873196Z</date>
+  <millis>1731421588873</millis>
+  <nanos>196000</nanos>
+  <sequence>74886</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (verifyTextNotPresent(&amp;quot;нет данных&amp;quot;, false) == true)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">1017</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2024-11-12T14:26:30.777186600Z</date>
+  <millis>1731421590777</millis>
+  <nanos>186600</nanos>
+  <sequence>74893</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;нет данных&amp;apos; is present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text &amp;apos;нет данных&amp;apos; is present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.doCall(VerifyTextNotPresentKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.call(VerifyTextNotPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.verifyTextNotPresent(VerifyTextNotPresentKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.execute(VerifyTextNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextNotPresent(WebUiBuiltInKeywords.groovy:1795)
+	at Выручка в рублях отображение данных все филиалы.Test(Выручка в рублях отображение данных все филиалы:1017)
+	at Выручка в рублях отображение данных все филиалы.Tumbler(Выручка в рублях отображение данных все филиалы:1007)
+	at Выручка в рублях отображение данных все филиалы.Change(Выручка в рублях отображение данных все филиалы:971)
+	at Выручка в рублях отображение данных все филиалы.DzoTest(Выручка в рублях отображение данных все филиалы:76)
+	at Выручка в рублях отображение данных все филиалы.run(Выручка в рублях отображение данных все филиалы:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1731403771965.run(TempTestSuite1731403771965.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.stacktrace">com.kms.katalon.core.exception.StepFailedException: Text &apos;нет данных&apos; is present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.doCall(VerifyTextNotPresentKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.call(VerifyTextNotPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.verifyTextNotPresent(VerifyTextNotPresentKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.execute(VerifyTextNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextNotPresent(WebUiBuiltInKeywords.groovy:1795)
+	at Выручка в рублях отображение данных все филиалы.Test(Выручка в рублях отображение данных все филиалы:1017)
+	at Выручка в рублях отображение данных все филиалы.Tumbler(Выручка в рублях отображение данных все филиалы:1007)
+	at Выручка в рублях отображение данных все филиалы.Change(Выручка в рублях отображение данных все филиалы:971)
+	at Выручка в рублях отображение данных все филиалы.DzoTest(Выручка в рублях отображение данных все филиалы:76)
+	at Выручка в рублях отображение данных все филиалы.run(Выручка в рублях отображение данных все филиалы:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1731403771965.run(TempTestSuite1731403771965.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+</property>
+  <property name="failed.exception.class">com.kms.katalon.core.exception.StepFailedException</property>
+  <property name="testops-is-assertion">true</property>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.verifyTextNotPresent</property>
+  <property name="testops-execution-stacktrace">com.kms.katalon.core.logging.testops.TestOpsLogHelper.handleFailedLogEntry(TestOpsLogHelper.java:112)
+com.kms.katalon.core.logging.KeywordLogger.logFailed(KeywordLogger.java:290)
+com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:34)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.doCall(VerifyTextNotPresentKeyword.groovy:77)
+com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.call(VerifyTextNotPresentKeyword.groovy)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.verifyTextNotPresent(VerifyTextNotPresentKeyword.groovy:82)
+com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.execute(VerifyTextNotPresentKeyword.groovy:68)
+com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextNotPresent(WebUiBuiltInKeywords.groovy:1795)
+Выручка в рублях отображение данных все филиалы.Test(Выручка в рублях отображение данных все филиалы:1017)
+Выручка в рублях отображение данных все филиалы.Tumbler(Выручка в рублях отображение данных все филиалы:1007)
+Выручка в рублях отображение данных все филиалы.Change(Выручка в рублях отображение данных все филиалы:971)
+Выручка в рублях отображение данных все филиалы.DzoTest(Выручка в рублях отображение данных все филиалы:76)
+Выручка в рублях отображение данных все филиалы.run(Выручка в рублях отображение данных все филиалы:32)
+</property>
+  <property name="failed.exception.message">Text &apos;нет данных&apos; is present on page </property>
+</record>
+<record>
+  <date>2024-11-12T14:26:30.778184400Z</date>
+  <millis>1731421590778</millis>
+  <nanos>184400</nanos>
+  <sequence>74894</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (verifyTextNotPresent(&amp;quot;нет данных&amp;quot;, false) == true)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-11-12T14:26:30.778184400Z</date>
+  <millis>1731421590778</millis>
+  <nanos>184400</nanos>
+  <sequence>74895</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : else</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">1034</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2024-11-12T14:26:30.778184400Z</date>
+  <millis>1731421590778</millis>
+  <nanos>184400</nanos>
+  <sequence>74896</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Script1687405761596.WriteToExcel(typeOfData, todaysDate)</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">1035</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2024-11-12T14:26:30.778184400Z</date>
+  <millis>1731421590778</millis>
+  <nanos>184400</nanos>
+  <sequence>74897</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Script1687405761596.WriteToExcel(typeOfData, todaysDate)</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-11-12T14:26:30.778184400Z</date>
+  <millis>1731421590778</millis>
+  <nanos>184400</nanos>
+  <sequence>74898</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : else</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-11-12T14:26:30.778184400Z</date>
+  <millis>1731421590778</millis>
+  <nanos>184400</nanos>
+  <sequence>74899</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : sheetName = &amp;quot;Sheet1&amp;quot;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">1040</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2024-11-12T14:26:30.778184400Z</date>
+  <millis>1731421590778</millis>
+  <nanos>184400</nanos>
+  <sequence>74900</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : sheetName = &amp;quot;Sheet1&amp;quot;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-11-12T14:26:30.778184400Z</date>
+  <millis>1731421590778</millis>
+  <nanos>184400</nanos>
+  <sequence>74901</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : data = findTestData(&amp;quot;PlanFact&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">1042</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2024-11-12T14:26:30.834034200Z</date>
+  <millis>1731421590834</millis>
+  <nanos>34200</nanos>
+  <sequence>74906</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : data = findTestData(&amp;quot;PlanFact&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-11-12T14:26:30.834034200Z</date>
+  <millis>1731421590834</millis>
+  <nanos>34200</nanos>
+  <sequence>74907</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : n = data.getRowNumbers() + 1</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">1044</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2024-11-12T14:26:30.834034200Z</date>
+  <millis>1731421590834</millis>
+  <nanos>34200</nanos>
+  <sequence>74908</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : n = data.getRowNumbers() + 1</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-11-12T14:26:30.834034200Z</date>
+  <millis>1731421590834</millis>
+  <nanos>34200</nanos>
+  <sequence>74909</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : t = typeOfData</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">1046</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2024-11-12T14:26:30.834034200Z</date>
+  <millis>1731421590834</millis>
+  <nanos>34200</nanos>
+  <sequence>74910</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : t = typeOfData</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-11-12T14:26:30.834034200Z</date>
+  <millis>1731421590834</millis>
+  <nanos>34200</nanos>
+  <sequence>74911</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(t)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">1048</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2024-11-12T14:26:30.834034200Z</date>
+  <millis>1731421590834</millis>
+  <nanos>34200</nanos>
+  <sequence>74912</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(t)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-11-12T14:26:30.834034200Z</date>
+  <millis>1731421590834</millis>
+  <nanos>34200</nanos>
+  <sequence>74913</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : dZO = getText(findTestObject(&amp;quot;Выручка в рублях/Фильтр ДЗО&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">1050</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2024-11-12T14:26:31.121268800Z</date>
+  <millis>1731421591121</millis>
+  <nanos>268800</nanos>
+  <sequence>74922</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text of object &amp;apos;Object Repository/Выручка в рублях/Фильтр ДЗО&amp;apos; is: &amp;apos;ПАО Россети - Магистральные сети - Россети ФСК ЕЭС - Итого по ФСК ЕЭС&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2024-11-12T14:26:31.122266200Z</date>
+  <millis>1731421591122</millis>
+  <nanos>266200</nanos>
+  <sequence>74923</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : dZO = getText(findTestObject(&amp;quot;Выручка в рублях/Фильтр ДЗО&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-11-12T14:26:31.122266200Z</date>
+  <millis>1731421591122</millis>
+  <nanos>266200</nanos>
+  <sequence>74924</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : period = getText(findTestObject(&amp;quot;Выручка в рублях/Фильтр Период&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">1052</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2024-11-12T14:26:31.412488500Z</date>
+  <millis>1731421591412</millis>
+  <nanos>488500</nanos>
+  <sequence>74933</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text of object &amp;apos;Object Repository/Выручка в рублях/Фильтр Период&amp;apos; is: &amp;apos;1, 2, 3 кв. 2024 года&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2024-11-12T14:26:31.412488500Z</date>
+  <millis>1731421591412</millis>
+  <nanos>488500</nanos>
+  <sequence>74934</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : period = getText(findTestObject(&amp;quot;Выручка в рублях/Фильтр Период&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-11-12T14:26:31.412488500Z</date>
+  <millis>1731421591412</millis>
+  <nanos>488500</nanos>
+  <sequence>74935</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : viruchka = getText(findTestObject(&amp;quot;Выручка в рублях/Фильтр Выручка&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">1054</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2024-11-12T14:26:31.695838900Z</date>
+  <millis>1731421591695</millis>
+  <nanos>838900</nanos>
+  <sequence>74944</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text of object &amp;apos;Object Repository/Выручка в рублях/Фильтр Выручка&amp;apos; is: &amp;apos;ПЕРЕДАЧА ЭЛЕКТРОЭНЕРГИИ, внутренний оборот&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2024-11-12T14:26:31.695838900Z</date>
+  <millis>1731421591695</millis>
+  <nanos>838900</nanos>
+  <sequence>74945</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : viruchka = getText(findTestObject(&amp;quot;Выручка в рублях/Фильтр Выручка&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-11-12T14:26:31.695838900Z</date>
+  <millis>1731421591695</millis>
+  <nanos>838900</nanos>
+  <sequence>74946</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (viruchka == &amp;quot;Выбрано: 2&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">1056</property>
+  <property name="stepIndex">9</property>
+</record>
+<record>
+  <date>2024-11-12T14:26:31.695838900Z</date>
+  <millis>1731421591695</millis>
+  <nanos>838900</nanos>
+  <sequence>74947</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (viruchka == &amp;quot;Выбрано: 2&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-11-12T14:26:31.696836Z</date>
+  <millis>1731421591696</millis>
+  <nanos>836000</nanos>
+  <sequence>74948</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (viruchka == &amp;quot;Все&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">1060</property>
+  <property name="stepIndex">10</property>
+</record>
+<record>
+  <date>2024-11-12T14:26:31.696836Z</date>
+  <millis>1731421591696</millis>
+  <nanos>836000</nanos>
+  <sequence>74949</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (viruchka == &amp;quot;Все&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-11-12T14:26:31.696836Z</date>
+  <millis>1731421591696</millis>
+  <nanos>836000</nanos>
+  <sequence>74950</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(period)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">1064</property>
+  <property name="stepIndex">11</property>
+</record>
+<record>
+  <date>2024-11-12T14:26:31.696836Z</date>
+  <millis>1731421591696</millis>
+  <nanos>836000</nanos>
+  <sequence>74951</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(period)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-11-12T14:26:31.696836Z</date>
+  <millis>1731421591696</millis>
+  <nanos>836000</nanos>
+  <sequence>74952</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : dashboardName = &amp;quot;Выручка в рублях&amp;quot;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">1066</property>
+  <property name="stepIndex">12</property>
+</record>
+<record>
+  <date>2024-11-12T14:26:31.696836Z</date>
+  <millis>1731421591696</millis>
+  <nanos>836000</nanos>
+  <sequence>74953</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : dashboardName = &amp;quot;Выручка в рублях&amp;quot;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-11-12T14:26:31.696836Z</date>
+  <millis>1731421591696</millis>
+  <nanos>836000</nanos>
+  <sequence>74954</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : workbook01 = getWorkbook(excelFilePath)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">1068</property>
+  <property name="stepIndex">13</property>
+</record>
+<record>
+  <date>2024-11-12T14:26:31.734731600Z</date>
+  <millis>1731421591734</millis>
+  <nanos>731600</nanos>
+  <sequence>74955</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : workbook01 = getWorkbook(excelFilePath)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-11-12T14:26:31.734731600Z</date>
+  <millis>1731421591734</millis>
+  <nanos>731600</nanos>
+  <sequence>74956</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : sheet01 = getExcelSheet(workbook01, sheetName)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">1070</property>
+  <property name="stepIndex">14</property>
+</record>
+<record>
+  <date>2024-11-12T14:26:31.734731600Z</date>
+  <millis>1731421591734</millis>
+  <nanos>731600</nanos>
+  <sequence>74957</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : sheet01 = getExcelSheet(workbook01, sheetName)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-11-12T14:26:31.734731600Z</date>
+  <millis>1731421591734</millis>
+  <nanos>731600</nanos>
+  <sequence>74958</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setValueToCellByIndex(sheet01, n, 0, dashboardName)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">1072</property>
+  <property name="stepIndex">15</property>
+</record>
+<record>
+  <date>2024-11-12T14:26:31.734731600Z</date>
+  <millis>1731421591734</millis>
+  <nanos>731600</nanos>
+  <sequence>74959</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setValueToCellByIndex(sheet01, n, 0, dashboardName)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-11-12T14:26:31.735729700Z</date>
+  <millis>1731421591735</millis>
+  <nanos>729700</nanos>
+  <sequence>74960</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setValueToCellByIndex(sheet01, n, 1, dZO)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">1074</property>
+  <property name="stepIndex">16</property>
+</record>
+<record>
+  <date>2024-11-12T14:26:31.735729700Z</date>
+  <millis>1731421591735</millis>
+  <nanos>729700</nanos>
+  <sequence>74961</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setValueToCellByIndex(sheet01, n, 1, dZO)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-11-12T14:26:31.735729700Z</date>
+  <millis>1731421591735</millis>
+  <nanos>729700</nanos>
+  <sequence>74962</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setValueToCellByIndex(sheet01, n, 2, period)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">1076</property>
+  <property name="stepIndex">17</property>
+</record>
+<record>
+  <date>2024-11-12T14:26:31.735729700Z</date>
+  <millis>1731421591735</millis>
+  <nanos>729700</nanos>
+  <sequence>74963</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setValueToCellByIndex(sheet01, n, 2, period)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-11-12T14:26:31.735729700Z</date>
+  <millis>1731421591735</millis>
+  <nanos>729700</nanos>
+  <sequence>74964</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setValueToCellByIndex(sheet01, n, 3, viruchka)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">1078</property>
+  <property name="stepIndex">18</property>
+</record>
+<record>
+  <date>2024-11-12T14:26:31.735729700Z</date>
+  <millis>1731421591735</millis>
+  <nanos>729700</nanos>
+  <sequence>74965</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setValueToCellByIndex(sheet01, n, 3, viruchka)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-11-12T14:26:31.735729700Z</date>
+  <millis>1731421591735</millis>
+  <nanos>729700</nanos>
+  <sequence>74966</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setValueToCellByIndex(sheet01, n, 4, t)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">1080</property>
+  <property name="stepIndex">19</property>
+</record>
+<record>
+  <date>2024-11-12T14:26:31.735729700Z</date>
+  <millis>1731421591735</millis>
+  <nanos>729700</nanos>
+  <sequence>74967</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setValueToCellByIndex(sheet01, n, 4, t)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-11-12T14:26:31.735729700Z</date>
+  <millis>1731421591735</millis>
+  <nanos>729700</nanos>
+  <sequence>74968</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setValueToCellByIndex(sheet01, n, 5, todaysDate)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">1082</property>
+  <property name="stepIndex">20</property>
+</record>
+<record>
+  <date>2024-11-12T14:26:31.735729700Z</date>
+  <millis>1731421591735</millis>
+  <nanos>729700</nanos>
+  <sequence>74969</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setValueToCellByIndex(sheet01, n, 5, todaysDate)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-11-12T14:26:31.735729700Z</date>
+  <millis>1731421591735</millis>
+  <nanos>729700</nanos>
+  <sequence>74970</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : n = n + 1</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">1084</property>
+  <property name="stepIndex">21</property>
+</record>
+<record>
+  <date>2024-11-12T14:26:31.735729700Z</date>
+  <millis>1731421591735</millis>
+  <nanos>729700</nanos>
+  <sequence>74971</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : n = n + 1</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-11-12T14:26:31.735729700Z</date>
+  <millis>1731421591735</millis>
+  <nanos>729700</nanos>
+  <sequence>74972</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : saveWorkbook(excelFilePath, workbook01)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">1086</property>
+  <property name="stepIndex">22</property>
+</record>
+<record>
+  <date>2024-11-12T14:26:32.025955100Z</date>
+  <millis>1731421592025</millis>
+  <nanos>955100</nanos>
+  <sequence>74973</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : saveWorkbook(excelFilePath, workbook01)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-11-12T14:26:32.025955100Z</date>
+  <millis>1731421592025</millis>
+  <nanos>955100</nanos>
+  <sequence>74974</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(&amp;quot;Выручка в рублях/Фильтр Выручка&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">1009</property>
+  <property name="stepIndex">15</property>
+</record>
+<record>
+  <date>2024-11-12T14:26:32.346613600Z</date>
+  <millis>1731421592346</millis>
+  <nanos>613600</nanos>
+  <sequence>74984</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Выручка в рублях/Фильтр Выручка&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2024-11-12T14:26:32.346613600Z</date>
+  <millis>1731421592346</millis>
+  <nanos>613600</nanos>
+  <sequence>74985</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(&amp;quot;Выручка в рублях/Фильтр Выручка&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-11-12T14:26:32.346613600Z</date>
+  <millis>1731421592346</millis>
+  <nanos>613600</nanos>
+  <sequence>74986</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(&amp;quot;Выручка в рублях/Снять выделение в фильтре Выручка&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">1011</property>
+  <property name="stepIndex">16</property>
+</record>
+<record>
+  <date>2024-11-12T14:26:32.852697600Z</date>
+  <millis>1731421592852</millis>
+  <nanos>697600</nanos>
+  <sequence>74996</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Выручка в рублях/Снять выделение в фильтре Выручка&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2024-11-12T14:26:32.852697600Z</date>
+  <millis>1731421592852</millis>
+  <nanos>697600</nanos>
+  <sequence>74997</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(&amp;quot;Выручка в рублях/Снять выделение в фильтре Выручка&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-11-12T14:26:32.852697600Z</date>
+  <millis>1731421592852</millis>
+  <nanos>697600</nanos>
+  <sequence>74998</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(&amp;quot;Выручка в рублях/Применить в фильтре Выручка&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">1013</property>
+  <property name="stepIndex">17</property>
+</record>
+<record>
+  <date>2024-11-12T14:26:33.333658900Z</date>
+  <millis>1731421593333</millis>
+  <nanos>658900</nanos>
+  <sequence>75008</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Выручка в рублях/Применить в фильтре Выручка&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2024-11-12T14:26:33.334657100Z</date>
+  <millis>1731421593334</millis>
+  <nanos>657100</nanos>
+  <sequence>75009</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(&amp;quot;Выручка в рублях/Применить в фильтре Выручка&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-11-12T14:26:33.334657100Z</date>
+  <millis>1731421593334</millis>
+  <nanos>657100</nanos>
+  <sequence>75010</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(&amp;quot;Выручка в рублях/Фильтр ДЗО&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">974</property>
+  <property name="stepIndex">4</property>
+  <property name="description">Открыть фильтр &quot;ДЗО&quot;</property>
+</record>
+<record>
+  <date>2024-11-12T14:26:34.856446800Z</date>
+  <millis>1731421594856</millis>
+  <nanos>446800</nanos>
+  <sequence>75020</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Выручка в рублях/Фильтр ДЗО&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2024-11-12T14:26:34.856446800Z</date>
+  <millis>1731421594856</millis>
+  <nanos>446800</nanos>
+  <sequence>75021</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(&amp;quot;Выручка в рублях/Фильтр ДЗО&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-11-12T14:26:34.856446800Z</date>
+  <millis>1731421594856</millis>
+  <nanos>446800</nanos>
+  <sequence>75022</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(&amp;quot;Выручка в рублях/Снять выделение в фильтре ДЗО&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">977</property>
+  <property name="stepIndex">5</property>
+  <property name="description">Нажать &quot;Снять выделение&quot;</property>
+</record>
+<record>
+  <date>2024-11-12T14:26:35.838267800Z</date>
+  <millis>1731421595838</millis>
+  <nanos>267800</nanos>
+  <sequence>75032</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Выручка в рублях/Снять выделение в фильтре ДЗО&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2024-11-12T14:26:35.838267800Z</date>
+  <millis>1731421595838</millis>
+  <nanos>267800</nanos>
+  <sequence>75033</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(&amp;quot;Выручка в рублях/Снять выделение в фильтре ДЗО&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-11-12T14:26:35.839266200Z</date>
+  <millis>1731421595839</millis>
+  <nanos>266200</nanos>
+  <sequence>75034</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(&amp;quot;Выручка в рублях/РаспредКомплекс&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">78</property>
+  <property name="stepIndex">18</property>
+</record>
+<record>
+  <date>2024-11-12T14:26:36.155041Z</date>
+  <millis>1731421596155</millis>
+  <nanos>41000</nanos>
+  <sequence>75044</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Выручка в рублях/РаспредКомплекс&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2024-11-12T14:26:36.156039200Z</date>
+  <millis>1731421596156</millis>
+  <nanos>39200</nanos>
+  <sequence>75045</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(&amp;quot;Выручка в рублях/РаспредКомплекс&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-11-12T14:26:36.156039200Z</date>
+  <millis>1731421596156</millis>
+  <nanos>39200</nanos>
+  <sequence>75046</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Script1687405761596.Change(typeOfData, todaysDate)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">80</property>
+  <property name="stepIndex">19</property>
+</record>
+<record>
+  <date>2024-11-12T14:26:36.156039200Z</date>
+  <millis>1731421596156</millis>
+  <nanos>39200</nanos>
+  <sequence>75047</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Script1687405761596.Change(typeOfData, todaysDate)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-11-12T14:26:36.156039200Z</date>
+  <millis>1731421596156</millis>
+  <nanos>39200</nanos>
+  <sequence>75048</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : scrollToElement(findTestObject(&amp;quot;Выручка в рублях/Заголовок дашборда&amp;quot;), 30)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">966</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2024-11-12T14:26:36.660599400Z</date>
+  <millis>1731421596660</millis>
+  <nanos>599400</nanos>
+  <sequence>75058</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Scroll to object &amp;apos;Object Repository/Выручка в рублях/Заголовок дашборда&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.scrollToElement</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2024-11-12T14:26:36.660599400Z</date>
+  <millis>1731421596660</millis>
+  <nanos>599400</nanos>
+  <sequence>75059</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : scrollToElement(findTestObject(&amp;quot;Выручка в рублях/Заголовок дашборда&amp;quot;), 30)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-11-12T14:26:36.660599400Z</date>
+  <millis>1731421596660</millis>
+  <nanos>599400</nanos>
+  <sequence>75060</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(&amp;quot;Выручка в рублях/Применить в фильтре ДЗО&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">969</property>
+  <property name="stepIndex">2</property>
+  <property name="description">Нажать &quot;Применить&quot;</property>
+</record>
+<record>
+  <date>2024-11-12T14:26:37.204501500Z</date>
+  <millis>1731421597204</millis>
+  <nanos>501500</nanos>
+  <sequence>75070</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Выручка в рублях/Применить в фильтре ДЗО&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2024-11-12T14:26:37.205495700Z</date>
+  <millis>1731421597205</millis>
+  <nanos>495700</nanos>
+  <sequence>75071</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(&amp;quot;Выручка в рублях/Применить в фильтре ДЗО&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-11-12T14:26:37.205495700Z</date>
+  <millis>1731421597205</millis>
+  <nanos>495700</nanos>
+  <sequence>75072</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Script1687405761596.Tumbler(typeOfData, todaysDate)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">971</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2024-11-12T14:26:37.205495700Z</date>
+  <millis>1731421597205</millis>
+  <nanos>495700</nanos>
+  <sequence>75073</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Script1687405761596.Tumbler(typeOfData, todaysDate)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-11-12T14:26:37.205495700Z</date>
+  <millis>1731421597205</millis>
+  <nanos>495700</nanos>
+  <sequence>75074</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Script1687405761596.Test(typeOfData, todaysDate)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">981</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2024-11-12T14:26:37.205495700Z</date>
+  <millis>1731421597205</millis>
+  <nanos>495700</nanos>
+  <sequence>75075</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Script1687405761596.Test(typeOfData, todaysDate)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-11-12T14:26:37.205495700Z</date>
+  <millis>1731421597205</millis>
+  <nanos>495700</nanos>
+  <sequence>75076</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (verifyTextNotPresent(&amp;quot;нет данных&amp;quot;, false) == true)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">1017</property>
+  <property name="stepIndex">1</property>
+</record>
+</log>

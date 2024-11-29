@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>4 квартал 2024</name>
+   <tag></tag>
+   <elementGuidId>d011a395-5260-4fbe-bd98-cff45e430c63</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[3]/ul/li[8]/ul/li[4]/div/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.rb-filter-body-container.opened > div.rb-filter-list-container > ul.rb-filter-list.rb-filter-root-list > li.rb-filter-list-item.rb-filter-list-item-parent > ul.rb-filter-list > li.rb-filter-list-item.rb-filter-list-item-parent > div.rb-filter-list-item-container > i.fa.fa-square-o.rb-filter-list-item-icon.semi-selected</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>15e31d12-a99f-4630-84c9-b4c5d612a88f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fa fa-square-o rb-filter-list-item-icon semi-selected</value>
+      <webElementGuid>8a2ed22b-d5f7-4979-94b6-b6d070ab2810</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;c7e27f08c7164b0c881f567f2c3b10a2&quot;)/div[@class=&quot;rb-filter-container not-selectable rb-filter-multi-selection&quot;]/div[@class=&quot;rb-filter-body-container opened&quot;]/div[@class=&quot;rb-filter-list-container&quot;]/ul[@class=&quot;rb-filter-list rb-filter-root-list&quot;]/li[@class=&quot;rb-filter-list-item rb-filter-list-item-parent&quot;]/ul[@class=&quot;rb-filter-list&quot;]/li[@class=&quot;rb-filter-list-item rb-filter-list-item-parent&quot;]/div[@class=&quot;rb-filter-list-item-container&quot;]/i[@class=&quot;fa fa-square-o rb-filter-list-item-icon semi-selected&quot;]</value>
+      <webElementGuid>3afdfe2d-6449-4939-be0b-58713aa530c8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='c7e27f08c7164b0c881f567f2c3b10a2']/div/div[2]/div[3]/ul/li[8]/ul/li[4]/div/i</value>
+      <webElementGuid>628af574-f03e-48ea-a4da-ecb3948e8428</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/ul/li[8]/ul/li[4]/div/i</value>
+      <webElementGuid>7677dd8b-0c54-4160-8220-3a141eb28ab4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

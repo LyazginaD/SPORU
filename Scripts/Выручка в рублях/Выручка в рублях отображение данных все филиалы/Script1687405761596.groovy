@@ -854,6 +854,14 @@ def PreSettings(def typeOfData, def todaysDate) {
 
     WebUI.click(findTestObject('Выручка в рублях/3 квартал 2024'), FailureHandling.CONTINUE_ON_FAILURE)
 
+    WebUI.scrollToElement(findTestObject('Выручка в рублях/4 квартал 2024 список'), 30)
+
+    WebUI.click(findTestObject('Выручка в рублях/4 квартал 2024 список'), FailureHandling.CONTINUE_ON_FAILURE)
+
+    WebUI.scrollToElement(findTestObject('Выручка в рублях/Октябрь 2024'), 30)
+
+    WebUI.click(findTestObject('Выручка в рублях/Октябрь 2024'), FailureHandling.CONTINUE_ON_FAILURE)
+
     'Проскроллить до заголовка фильтра "Дата"'
     WebUI.scrollToElement(findTestObject('Выручка в рублях/Заголовок дашборда'), 30)
 

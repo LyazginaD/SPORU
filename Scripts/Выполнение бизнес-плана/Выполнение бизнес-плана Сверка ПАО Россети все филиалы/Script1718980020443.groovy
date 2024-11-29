@@ -154,16 +154,7 @@ WebUI.click(findTestObject('Выполнение бизнес-плана/2 кв�
 WebUI.scrollToElement(findTestObject('Выполнение бизнес-плана/3 квартал 2024 список'), 30)
 
 'Выбрать 1 квартал 2022'
-WebUI.click(findTestObject('Выполнение бизнес-плана/3 квартал 2024 список'), FailureHandling.CONTINUE_ON_FAILURE)
-
-'Выбрать 1 квартал 2022'
-WebUI.click(findTestObject('Выполнение бизнес-плана/Июль 2024'))
-
-'Выбрать 1 квартал 2022'
-WebUI.scrollToElement(findTestObject('Выполнение бизнес-плана/Август 2024'), 30)
-
-'Выбрать 1 квартал 2022'
-WebUI.click(findTestObject('Выполнение бизнес-плана/Август 2024'))
+WebUI.click(findTestObject('Выполнение бизнес-плана/3 квартал 2024'), FailureHandling.CONTINUE_ON_FAILURE)
 
 'Проскроллить до заголовка фильтра "Дата"'
 WebUI.scrollToElement(findTestObject('Выполнение бизнес-плана/Заголовок дашборда'), 30)
@@ -765,8 +756,8 @@ static def Numbers(def a, def typeOfData, def todaysDate, def pageInt, def fileI
 }
 
 static void ZakrytOpoveshenie() {
-	WebUI.delay(10)
-	
+    WebUI.delay(10)
+
     String opoveshenie = WebUI.getText(findTestObject('Выполнение бизнес-плана/Просьба обратить внимание'))
 
     println(opoveshenie)
@@ -874,10 +865,10 @@ static def Filials(def a, def typeOfData, def todaysDate, def pageInt, def fileI
     println(dZO)
 
     String reducedDZO
-	
-	reducedDZO = dZO.substring((dZO.indexOf(' ')+1),dZO.length())
-	
-	if (reducedDZO.contains(' ')) {
+
+    reducedDZO = dZO.substring(dZO.indexOf(' ') + 1, dZO.length())
+
+    if (reducedDZO.contains(' ')) {
         reducedDZO = reducedDZO.substring(reducedDZO.indexOf(' ') + 1, reducedDZO.length())
 
         if (reducedDZO.contains(' ')) {
@@ -897,21 +888,21 @@ static def Filials(def a, def typeOfData, def todaysDate, def pageInt, def fileI
 
     c = page.indexOf(reducedDZO)
 
-	if (c > -1) {
-		WebUI.click(findTestObject('Выполнение бизнес-плана/список'))
+    if (c > -1) {
+        WebUI.click(findTestObject('Выполнение бизнес-плана/список'))
 
-		WebUI.delay(10)
+        WebUI.delay(10)
 
-		WebUI.click(findTestObject('Выполнение бизнес-плана/Раскрытие списка'))
+        WebUI.click(findTestObject('Выполнение бизнес-плана/Раскрытие списка'))
 
-		WebUI.delay(10)
+        WebUI.delay(10)
 
-		page = WebUI.getText(findTestObject('Object Repository/Выполнение бизнес-плана/Filials'))
+        page = WebUI.getText(findTestObject('Object Repository/Выполнение бизнес-плана/Filials'))
 
-		println(page)
+        println(page)
 
-		c = page.indexOf(reducedDZO)
-	}
+        c = page.indexOf(reducedDZO)
+    }
     
     String x2 = WebUI.getText(findTestObject('Выполнение бизнес-плана/Список ДЗО старый'))
 
