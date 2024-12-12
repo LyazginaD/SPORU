@@ -156,6 +156,18 @@ WebUI.scrollToElement(findTestObject('Выполнение бизнес-план
 'Выбрать 1 квартал 2022'
 WebUI.click(findTestObject('Выполнение бизнес-плана/3 квартал 2024'), FailureHandling.CONTINUE_ON_FAILURE)
 
+'Выбрать 1 квартал 2022'
+WebUI.scrollToElement(findTestObject('Выполнение бизнес-плана/4 квартал 2024 список'), 30)
+
+'Выбрать 1 квартал 2022'
+WebUI.click(findTestObject('Выполнение бизнес-плана/4 квартал 2024 список'), FailureHandling.CONTINUE_ON_FAILURE)
+
+'Выбрать 1 квартал 2022'
+WebUI.scrollToElement(findTestObject('Выполнение бизнес-плана/Октябрь 2024'), 30)
+
+'Выбрать 1 квартал 2022'
+WebUI.click(findTestObject('Выполнение бизнес-плана/Октябрь 2024'), FailureHandling.CONTINUE_ON_FAILURE)
+
 'Проскроллить до заголовка фильтра "Дата"'
 WebUI.scrollToElement(findTestObject('Выполнение бизнес-плана/Заголовок дашборда'), 30)
 

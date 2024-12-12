@@ -14,14 +14,14 @@
    <testCaseLink>
       <guid>d981e2f0-e151-42c0-9f3b-4615ba168578</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Выполнение бизнес-плана/Выполнение бизнес-плана отображение данных все филиалы</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>a4fd05be-dd78-4204-9623-3bfb6f4f8ea4</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Выручка в рублях/Выручка в рублях отображение данных все филиалы</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
