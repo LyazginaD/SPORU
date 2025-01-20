@@ -125,6 +125,10 @@ WebUI.scrollToElement(findTestObject('Выручка по ДЗО/Октябрь 
 
 WebUI.click(findTestObject('Выручка по ДЗО/Октябрь 2024'), FailureHandling.CONTINUE_ON_FAILURE)
 
+WebUI.scrollToElement(findTestObject('Выручка по ДЗО/Ноябрь 2024'), 30)
+
+WebUI.click(findTestObject('Выручка по ДЗО/Ноябрь 2024'), FailureHandling.CONTINUE_ON_FAILURE)
+
 'Проскроллить до заголовка фильтра "Дата"'
 WebUI.scrollToElement(findTestObject('Выручка по ДЗО/Заголовок дашборда'), 30)
 

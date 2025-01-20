@@ -101,6 +101,10 @@ static def Test(def run, def todaysDate, def typeOfData, def otobrajeniyeDannyh,
 
     WebUI.click(findTestObject('Факторный анализ/Октябрь 2024'), FailureHandling.CONTINUE_ON_FAILURE)
 
+    WebUI.scrollToElement(findTestObject('Факторный анализ/Ноябрь 2024'), 30)
+
+    WebUI.click(findTestObject('Факторный анализ/Ноябрь 2024'), FailureHandling.CONTINUE_ON_FAILURE)
+
     'Проскроллить до заголовка фильтра "Дата"'
     WebUI.scrollToElement(findTestObject('Факторный анализ/Заголовок дашборда'), 30)
 
@@ -366,6 +370,10 @@ static def Test(def run, def todaysDate, def typeOfData, def otobrajeniyeDannyh,
     WebUI.scrollToElement(findTestObject('Факторный анализ/Октябрь 2024 Выручка'), 30)
 
     WebUI.click(findTestObject('Факторный анализ/Октябрь 2024 Выручка'), FailureHandling.CONTINUE_ON_FAILURE)
+
+    WebUI.scrollToElement(findTestObject('Факторный анализ/Ноябрь 2024 Выручка'), 30)
+
+    WebUI.click(findTestObject('Факторный анализ/Ноябрь 2024 Выручка'), FailureHandling.CONTINUE_ON_FAILURE)
 
     'Проскроллить до заголовка фильтра "Дата"'
     WebUI.scrollToElement(findTestObject('Факторный анализ/Заголовок дашборда Выручка'), 30)

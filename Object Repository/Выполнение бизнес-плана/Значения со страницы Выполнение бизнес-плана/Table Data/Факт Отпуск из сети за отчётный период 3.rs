@@ -3,18 +3,19 @@
    <description></description>
    <name>Факт Отпуск из сети за отчётный период 3</name>
    <tag></tag>
-   <elementGuidId>75db01ed-97dd-4a5d-b102-7870816c7c7c</elementGuidId>
+   <elementGuidId>b836218e-d729-4202-a319-eda8f81a06a2</elementGuidId>
    <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Показатели баланса электроэнергии по ДЗО – Факт'])[2]/following::td[20]</value>
+      </entry>
       <entry>
          <key>CSS</key>
          <value>#table-d6297b234167415fb658afcb4ab7d63c > tbody > tr:nth-of-type(2) > td:nth-of-type(3)</value>
       </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Показатели баланса электроэнергии по ДЗО – Факт'])[2]/following::td[10]</value>
-      </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,15 +23,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>td</value>
-      <webElementGuid>10b9dc3c-88d6-447f-a510-1d1d1e4663ed</webElementGuid>
+      <webElementGuid>8911d63d-6555-426f-95e3-15b4ef7a3658</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>5 734 146</value>
-      <webElementGuid>4098e917-5877-4232-bc49-a1c9a292e01d</webElementGuid>
+      <value>2 312 442</value>
+      <webElementGuid>175c6fc7-d89b-4c46-ba2d-9f84436088c2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +39,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;table-d6297b234167415fb658afcb4ab7d63c&quot;)/tbody[1]/tr[2]/td[3]</value>
-      <webElementGuid>affd00b8-08c3-4390-9142-56e3892b815c</webElementGuid>
+      <webElementGuid>3a9fca3f-0d35-44e3-9d45-f0ee9e823695</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,47 +47,39 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='table-d6297b234167415fb658afcb4ab7d63c']/tbody/tr[2]/td[3]</value>
-      <webElementGuid>52fe9d1a-f903-42c3-aa66-32605218db7f</webElementGuid>
+      <webElementGuid>dd72ea12-a6bf-4b95-955f-43bc4cbba6b8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Показатели баланса электроэнергии по ДЗО – Факт'])[2]/following::td[10]</value>
-      <webElementGuid>abbf3748-7c58-44ec-8744-20e11fbea57d</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Показатели баланса электроэнергии по ДЗО – Факт'])[2]/following::td[20]</value>
+      <webElementGuid>719a1270-0fd6-4c17-98d1-e09f5359623a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='В начало'])[79]/following::td[10]</value>
-      <webElementGuid>df8a5481-4802-4b9e-b8cc-1dcb197c6d06</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='В начало'])[79]/following::td[20]</value>
+      <webElementGuid>ae3ada7f-f282-4422-b369-d8ba3cf938dd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='В начало'])[80]/preceding::td[12]</value>
-      <webElementGuid>0c2583c2-a756-41d2-82eb-a2e86628f068</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='В начало'])[80]/preceding::td[32]</value>
+      <webElementGuid>70d8d8c2-e3fb-4f94-ae22-67a930f7e03a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Показатели баланса электроэнергии по ДЗО – План'])[2]/preceding::td[12]</value>
-      <webElementGuid>47170c22-2f25-4632-843c-7f8d01b8d8a9</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='5 734 146']/parent::*</value>
-      <webElementGuid>d0e03831-6125-451d-ad0b-a79ecffc8f11</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Показатели баланса электроэнергии по ДЗО – План'])[2]/preceding::td[32]</value>
+      <webElementGuid>456dbe35-3103-4fd8-a792-99e242114fe3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,14 +87,14 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[158]/div[2]/div/div/table/tbody/tr[2]/td[3]</value>
-      <webElementGuid>1f5477e8-556e-44d6-870d-31d68af26618</webElementGuid>
+      <webElementGuid>4a3e2193-0d2b-419d-8538-ab1e18caee6b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//td[(text() = '5 734 146' or . = '5 734 146')]</value>
-      <webElementGuid>63a2fab3-c37a-4717-887c-4fc87b296200</webElementGuid>
+      <value>//td[(text() = '2 312 442' or . = '2 312 442')]</value>
+      <webElementGuid>11dfd555-9fdb-49db-bd16-275138cd7bce</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -168,6 +168,12 @@ WebUI.scrollToElement(findTestObject('Выполнение бизнес-план
 'Выбрать 1 квартал 2022'
 WebUI.click(findTestObject('Выполнение бизнес-плана/Октябрь 2024'), FailureHandling.CONTINUE_ON_FAILURE)
 
+'Выбрать 1 квартал 2022'
+WebUI.scrollToElement(findTestObject('Выполнение бизнес-плана/Ноябрь 2024'), 30)
+
+'Выбрать 1 квартал 2022'
+WebUI.click(findTestObject('Выполнение бизнес-плана/Ноябрь 2024'), FailureHandling.CONTINUE_ON_FAILURE)
+
 'Проскроллить до заголовка фильтра "Дата"'
 WebUI.scrollToElement(findTestObject('Выполнение бизнес-плана/Заголовок дашборда'), 30)
 
@@ -182,6 +188,9 @@ WebUI.delay(30)
 
 '!'
 OpenFilter()
+
+'Выбрать ПАО Россети'
+WebUI.click(findTestObject('Выполнение бизнес-плана/Раскрыть список ПАО Россети в фильтре ДЗО'))
 
 'Выбрать ПАО Россети'
 WebUI.click(findTestObject('Выполнение бизнес-плана/ПАО Россети'))
@@ -204,7 +213,7 @@ dZO = 'Россети ФСК ЕЭС'
 
 a = 83
 
-if (x1.contains(dZO)) {
+if (x1.contains('ЕЭС')) {
     dzoNum = (dzoNum + 1)
 
     println(dzoNum)
@@ -226,7 +235,7 @@ dZO = 'АО «Тываэнерго»'
 
 a = 52
 
-if (x1.contains(dZO)) {
+if (x1.contains('Тываэнерго')) {
     dzoNum = (dzoNum + 1)
 
     Numbers(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO, dzoNum, filialNum)
@@ -240,7 +249,7 @@ dZO = 'АО «Чеченэнерго»'
 
 a = 72
 
-if (x1.contains(dZO)) {
+if (x1.contains('Чеченэнерго')) {
     dzoNum = (dzoNum + 1)
 
     Numbers(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO, dzoNum, filialNum)
@@ -254,7 +263,7 @@ a = 28
 
 dZO = 'Россети Волга'
 
-if (x1.contains(dZO)) {
+if (x1.contains('Волга')) {
     dzoNum = (dzoNum + 1)
 
     Numbers(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO, dzoNum, filialNum)
@@ -268,7 +277,7 @@ dZO = 'Россети Кубань'
 
 a = 73
 
-if (x1.contains(dZO)) {
+if (x1.contains('Кубань')) {
     dzoNum = (dzoNum + 1)
 
     Numbers(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO, dzoNum, filialNum)
@@ -282,7 +291,7 @@ dZO = 'Россети Ленэнерго'
 
 a = 77
 
-if (x1.contains(dZO)) {
+if (x1.contains('Ленэнерго')) {
     dzoNum = (dzoNum + 1)
 
     Numbers(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO, dzoNum, filialNum)
@@ -296,7 +305,7 @@ dZO = 'Россети Московский регион'
 
 a = 74
 
-if (x1.contains(dZO)) {
+if (x1.contains('Московский')) {
     dzoNum = (dzoNum + 1)
 
     Numbers(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO, dzoNum, filialNum)
@@ -310,7 +319,7 @@ dZO = 'Россети Северный Кавказ'
 
 a = 65
 
-if (x1.contains(dZO)) {
+if (x1.contains('Кавказ')) {
     dzoNum = (dzoNum + 1)
 
     Numbers(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO, dzoNum, filialNum)
@@ -324,7 +333,7 @@ dZO = 'Россети Северо-Запад'
 
 a = 36
 
-if (x1.contains(dZO)) {
+if (x1.contains('Северо-Запад')) {
     dzoNum = (dzoNum + 1)
 
     Numbers(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO, dzoNum, filialNum)
@@ -338,7 +347,7 @@ dZO = 'Россети Сибирь'
 
 a = 44
 
-if (x1.contains(dZO)) {
+if (x1.contains('Сибирь')) {
     dzoNum = (dzoNum + 1)
 
     Numbers(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO, dzoNum, filialNum)
@@ -352,7 +361,7 @@ dZO = 'Россети Томск'
 
 a = 53
 
-if (x1.contains(dZO)) {
+if (x1.contains('Томск')) {
     dzoNum = (dzoNum + 1)
 
     Numbers(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO, dzoNum, filialNum)
@@ -366,7 +375,7 @@ dZO = 'Россети Тюмень'
 
 a = 80
 
-if (x1.contains(dZO)) {
+if (x1.contains('Тюмень')) {
     dzoNum = (dzoNum + 1)
 
     Numbers(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO, dzoNum, filialNum)
@@ -380,7 +389,7 @@ dZO = 'Россети Урал (ГК)'
 
 a = 54
 
-if (x1.contains(dZO)) {
+if (x1.contains('Урал')) {
     dzoNum = (dzoNum + 1)
 
     Numbers(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO, dzoNum, filialNum)
@@ -394,7 +403,7 @@ dZO = 'Россети Центр (ГК)'
 
 a = 1
 
-if (x1.contains(dZO)) {
+if (x1.contains('Центр (ГК)') || x1.contains('Центр(ГК)')) {
     dzoNum = (dzoNum + 1)
 
     Numbers(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO, dzoNum, filialNum)
@@ -408,7 +417,7 @@ dZO = 'Россети Центр и Приволжье (ГК)'
 
 a = 18
 
-if (x1.contains(dZO)) {
+if (x1.contains('Приволжье')) {
     dzoNum = (dzoNum + 1)
 
     Numbers(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO, dzoNum, filialNum)
@@ -422,7 +431,7 @@ dZO = 'Россети Юг'
 
 a = 59
 
-if (x1.contains(dZO)) {
+if (x1.contains('Юг')) {
     dzoNum = (dzoNum + 1)
 
     Numbers(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO, dzoNum, filialNum)
@@ -436,7 +445,7 @@ dZO = 'Россети Янтарь'
 
 a = 81
 
-if (x1.contains(dZO)) {
+if (x1.contains('Янтарь')) {
     dzoNum = (dzoNum + 1)
 
     Numbers(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO, dzoNum, filialNum)
@@ -518,7 +527,6 @@ static def Numbers(def a, def typeOfData, def todaysDate, def pageInt, def fileI
     if (i > -1) {
         b = b.substring(0, i)
 
-        b = b.trim()
     }
     
     i = b.indexOf('О "')
@@ -530,7 +538,6 @@ static def Numbers(def a, def typeOfData, def todaysDate, def pageInt, def fileI
 
         b = b.substring(0, i)
 
-        b = b.trim()
     }
     
     i = b.indexOf('О «')
@@ -542,7 +549,6 @@ static def Numbers(def a, def typeOfData, def todaysDate, def pageInt, def fileI
 
         b = b.substring(0, i)
 
-        b = b.trim()
     }
     
     i = b.indexOf('г. ')
@@ -550,8 +556,9 @@ static def Numbers(def a, def typeOfData, def todaysDate, def pageInt, def fileI
     if (i > -1) {
         b = b.substring(i + 3, b.length())
 
-        b = b.trim()
     }
+	
+	b = b.trim()
     
     println(b)
 
@@ -582,9 +589,9 @@ static def Numbers(def a, def typeOfData, def todaysDate, def pageInt, def fileI
             path = (((dataFolder + typeOfData) + ' за отчётный период ') + 'РаспредКомплекс')
         } else if (a == 84) {
             path = (((dataFolder + typeOfData) + ' за отчётный период ') + 'ПАО Россети')
-        } else if ((((((((((((((((a == 52) || (a == 72)) || (a == 28)) || (a == 73)) || (a == 77)) || (a == 74)) || (a == 
-        65)) || (a == 36)) || (a == 44)) || (a == 53)) || (a == 80)) || (a == 54)) || (a == 1)) || (a == 18)) || (a == 59)) || 
-        (a == 81)) {
+        } else if (((((((((((((((((a == 83) || (a == 52)) || (a == 72)) || (a == 28)) || (a == 73)) || (a == 77)) || (a == 
+        74)) || (a == 65)) || (a == 36)) || (a == 44)) || (a == 53)) || (a == 80)) || (a == 54)) || (a == 1)) || (a == 18)) || 
+        (a == 59)) || (a == 81)) {
             path = ((((dataFolder + 'Table Data/') + typeOfData) + ' за отчётный период ') + dzoNum)
         } else {
             path = (((dataFolder + typeOfData) + ' за отчётный период ') + b)
@@ -606,8 +613,8 @@ static def Numbers(def a, def typeOfData, def todaysDate, def pageInt, def fileI
             path = (((dataFolder + typeOfData) + ' за отчётный период ') + 'РаспредКомплекс')
         } else if (a == 84) {
             path = (((dataFolder + typeOfData) + ' за отчётный период ') + 'ПАО Россети')
-        } else if ((((((((((((((((a == 52) || (a == 72)) || (a == 28)) || (a == 73)) || (a == 77)) || (a == 74)) || (a == 
-        65)) || (a == 36)) || (a == 44)) || (a == 53)) || (a == 80)) || (a == 54)) || (a == 1)) || (a == 18)) || (a == 59)) || 
+        } else if ((((((((((((((((a == 83) || (a == 52)) || (a == 72)) || (a == 28)) || (a == 73)) || (a == 77)) || (a == 
+        74)) || (a == 65)) || (a == 44)) || (a == 53)) || (a == 80)) || (a == 54)) || (a == 1)) || (a == 18)) || (a == 59)) || 
         (a == 81)) {
             path = ((((dataFolder + 'Table Data/') + typeOfData) + ' за отчётный период ') + dzoNum)
         } else {
@@ -671,6 +678,8 @@ static def Numbers(def a, def typeOfData, def todaysDate, def pageInt, def fileI
         }
     }
     
+    println('a=' + a)
+
     if ((a == 84) || (a == 82)) {
         page = WebUI.getText(findTestObject('Выполнение бизнес-плана/textPlanFact'))
 
@@ -687,9 +696,9 @@ static def Numbers(def a, def typeOfData, def todaysDate, def pageInt, def fileI
         page2 = page2.substring(0, page.indexOf('_'))
 
         page2 = page2.substring(0, page.indexOf(' '))
-    } else if ((((((((((((((((a == 52) || (a == 72)) || (a == 28)) || (a == 73)) || (a == 77)) || (a == 74)) || (a == 65)) || 
-    (a == 36)) || (a == 44)) || (a == 53)) || (a == 80)) || (a == 54)) || (a == 1)) || (a == 18)) || (a == 59)) || (a == 
-    81)) {
+    } else if (((((((((((((((((a == 83) || (a == 52)) || (a == 72)) || (a == 28)) || (a == 73)) || (a == 77)) || (a == 74)) || 
+    (a == 65)) || (a == 36)) || (a == 44)) || (a == 53)) || (a == 80)) || (a == 54)) || (a == 1)) || (a == 18)) || (a == 
+    59)) || (a == 81)) {
         page1 = WebUI.getText(findTestObject('Object Repository/Выполнение бизнес-плана/spanPlan' + dzoNum))
 
         page1 = page1.replace('|', '')
@@ -751,6 +760,8 @@ static def Numbers(def a, def typeOfData, def todaysDate, def pageInt, def fileI
     
     if (WebUI.verifyEqual(numberOfErrors, 0) == false) {
         println(numberOfErrors)
+
+        println('a=' + a)
 
         if ((((((((((a == 28) || (a == 77)) || (a == 74)) || (a == 65)) || (a == 36)) || (a == 44)) || (a == 54)) || (a == 
         1)) || (a == 18)) || (a == 59)) {
@@ -1775,6 +1786,8 @@ static def Filials(def a, def typeOfData, def todaysDate, def pageInt, def fileI
     OpenFilter()
 
     CloseFilter()
+
+    WebUI.delay(60)
 }
 
 static def WriteToExcel(def a, def typeOfData, def todaysDate, def pageInt, def fileInt, def pageDouble, def fileDouble, def dZO) {

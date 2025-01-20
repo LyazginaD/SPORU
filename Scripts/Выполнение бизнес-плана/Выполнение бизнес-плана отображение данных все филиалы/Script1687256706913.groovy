@@ -149,6 +149,12 @@ WebUI.scrollToElement(findTestObject('Выполнение бизнес-план
 'Выбрать 1 квартал 2022'
 WebUI.click(findTestObject('Выполнение бизнес-плана/Октябрь 2024'), FailureHandling.CONTINUE_ON_FAILURE)
 
+'Выбрать 1 квартал 2022'
+WebUI.scrollToElement(findTestObject('Выполнение бизнес-плана/Ноябрь 2024'), 30)
+
+'Выбрать 1 квартал 2022'
+WebUI.click(findTestObject('Выполнение бизнес-плана/Ноябрь 2024'), FailureHandling.CONTINUE_ON_FAILURE)
+
 'Проскроллить до заголовка фильтра "Дата"'
 WebUI.scrollToElement(findTestObject('Выполнение бизнес-плана/Заголовок дашборда'), 30)
 
@@ -170,6 +176,9 @@ DzoTest(todaysDate, typeOfData)
 WebUI.closeBrowser()
 
 def DzoTest(def todaysDate, def typeOfData) {
+    'Выбрать ПАО Россети'
+    WebUI.click(findTestObject('Выполнение бизнес-плана/ПАО Россети'))
+
     'Выбрать ПАО Россети'
     WebUI.click(findTestObject('Выполнение бизнес-плана/ПАО Россети'))
 
@@ -603,7 +612,7 @@ def DzoTest(def todaysDate, def typeOfData) {
 
     WebUI.click(findTestObject('Общие объекты/Раскрыть список Россети Урал'))
 
-    WebUI.scrollToElement(findTestObject('Общие объекты/АО ЕЭСК'), 30)
+    WebUI.scrollToElement(findTestObject('Общие объекты/Пермэнерго'), 30)
 
     WebUI.click(findTestObject('Общие объекты/АО ЕЭСК'))
 

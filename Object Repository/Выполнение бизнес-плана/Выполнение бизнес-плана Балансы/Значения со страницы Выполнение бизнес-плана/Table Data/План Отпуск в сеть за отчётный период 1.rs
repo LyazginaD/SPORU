@@ -6,15 +6,16 @@
    <elementGuidId>83341d58-921f-4a5c-990c-21c2f0f344ef</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#table-e1152b5f006d42fb814304c2fcc9a104 > tbody > tr > td</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Показатели баланса электроэнергии по ДЗО – План'])[1]/following::td[1]</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#table-e1152b5f006d42fb814304c2fcc9a104 > tbody > tr > td</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

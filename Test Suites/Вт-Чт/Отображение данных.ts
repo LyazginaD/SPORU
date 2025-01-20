@@ -12,21 +12,21 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>1e0a1f3d-779a-4dc6-bb5f-1d2a40e031e9</testSuiteGuid>
    <testCaseLink>
-      <guid>d981e2f0-e151-42c0-9f3b-4615ba168578</guid>
+      <guid>e4dffb68-e9c5-40dc-9758-aa972f2be316</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Выполнение бизнес-плана/Выполнение бизнес-плана отображение данных все филиалы</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>a4fd05be-dd78-4204-9623-3bfb6f4f8ea4</guid>
+      <guid>91432d10-e93c-4253-8724-a9947e2690a0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Выручка в рублях/Выручка в рублях отображение данных все филиалы</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>2e766459-744b-4458-b455-33b2e57b4035</guid>
+      <guid>301611e9-16bf-4a69-bb21-e5b76bd65e95</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Выручка по ДЗО/Выручка по ДЗО отображение данных все филиалы</testCaseId>

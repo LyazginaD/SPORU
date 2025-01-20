@@ -127,6 +127,10 @@ WebUI.scrollToElement(findTestObject('Факторный анализ/Октяб
 
 WebUI.click(findTestObject('Факторный анализ/Октябрь 2024'), FailureHandling.CONTINUE_ON_FAILURE)
 
+WebUI.scrollToElement(findTestObject('Факторный анализ/Ноябрь 2024'), 30)
+
+WebUI.click(findTestObject('Факторный анализ/Ноябрь 2024'), FailureHandling.CONTINUE_ON_FAILURE)
+
 'Проскроллить до заголовка фильтра "Дата"'
 WebUI.scrollToElement(findTestObject('Факторный анализ/Заголовок фильтра Период'), 30)
 
@@ -138,6 +142,8 @@ WebUI.click(findTestObject('Факторный анализ/Фильтр ДЗО'
 
 'Нажать "Снять выделение"'
 WebUI.click(findTestObject('Факторный анализ/Снять выделение в Фильтре ДЗО'))
+
+WebUI.click(findTestObject('Факторный анализ/ПАО Россети'))
 
 WebUI.click(findTestObject('Факторный анализ/ПАО Россети'))
 

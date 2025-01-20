@@ -76,8 +76,14 @@ WebUI.scrollToElement(findTestObject('Выручка по ДЗО/Октябрь 
 
 WebUI.click(findTestObject('Выручка по ДЗО/Октябрь 2024'), FailureHandling.CONTINUE_ON_FAILURE)
 
+WebUI.scrollToElement(findTestObject('Выручка по ДЗО/Ноябрь 2024'), 30)
+
+WebUI.click(findTestObject('Выручка по ДЗО/Ноябрь 2024'), FailureHandling.CONTINUE_ON_FAILURE)
+
 'Нажать "Применить"'
 WebUI.click(findTestObject('Выручка по ДЗО/Применить в фильтре Дата'))
+
+WebUI.delay(30)
 
 String a1 = WebUI.getText(findTestObject('Выручка по ДЗО/График1 Выполнение плановых показателей Блок руководителя'))
 
@@ -138,11 +144,17 @@ WebUI.scrollToElement(findTestObject('Выручка по ДЗО/Октябрь 
 
 WebUI.click(findTestObject('Выручка по ДЗО/Октябрь 2024 Выручка'), FailureHandling.CONTINUE_ON_FAILURE)
 
+WebUI.scrollToElement(findTestObject('Выручка по ДЗО/Ноябрь 2024 Выручка'), 30)
+
+WebUI.click(findTestObject('Выручка по ДЗО/Ноябрь 2024 Выручка'), FailureHandling.CONTINUE_ON_FAILURE)
+
 'Проскроллить до заголовка фильтра "Дата"'
 WebUI.scrollToElement(findTestObject('Выручка по ДЗО/Заголовок дашборда Выручка'), 30)
 
 'Нажать "Применить"'
 WebUI.click(findTestObject('Выручка по ДЗО/Применить в фильтре Дата Выручка'))
+
+WebUI.delay(30)
 
 String b1 = WebUI.getText(findTestObject('Выручка по ДЗО/График1 Выполнение плановых показателей Выручка'))
 

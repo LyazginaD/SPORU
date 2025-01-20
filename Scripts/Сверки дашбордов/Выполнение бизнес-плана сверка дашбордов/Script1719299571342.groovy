@@ -742,7 +742,7 @@ def CompareDZOData(def a, def b, def dZO, def typeOfData, def PercPlanR, def Per
 
         println((tabR + '/') + tabB)
 
-        if (WebUI.verifyEqual(PercFactR, PercFactB) == false) {
+        if (WebUI.verifyEqual(tabR, tabB) == false) {
             def result = WriteToExcel(typeOfData, todaysDate, PercPlanR, PercPlanB, PercFactR, PercFactB, x, tabR, tabB, 
                 o1R, o1B, vidget)
         }
@@ -755,7 +755,7 @@ def CompareDZOData(def a, def b, def dZO, def typeOfData, def PercPlanR, def Per
 
         println((tabR + '/') + tabB)
 
-        if (WebUI.verifyEqual(PercFactR, PercFactB) == false) {
+        if (WebUI.verifyEqual(tabR, tabB) == false) {
             def result = WriteToExcel(typeOfData, todaysDate, PercPlanR, PercPlanB, PercFactR, PercFactB, x, tabR, tabB, 
                 o1R, o1B, vidget)
         }
@@ -768,7 +768,7 @@ def CompareDZOData(def a, def b, def dZO, def typeOfData, def PercPlanR, def Per
 
         println((tabR + '/') + tabB)
 
-        if (WebUI.verifyEqual(PercFactR, PercFactB) == false) {
+        if (WebUI.verifyEqual(tabR, tabB) == false) {
             def result = WriteToExcel(typeOfData, todaysDate, PercPlanR, PercPlanB, PercFactR, PercFactB, x, tabR, tabB, 
                 o1R, o1B, vidget)
         }
@@ -955,35 +955,32 @@ def GetAllData(def path, def dZONum, def VseDZO, def x) {
     
     x = ((x + '/') + z)
 
-    z = WebUI.getText(findTestObject(((path + path2) + 'Факт Отпуск в сеть за отчётный период ') + dZONum)).replaceAll('\\s+', 
-        '')
-
-    x = ((x + '/') + z)
-
-    z = WebUI.getText(findTestObject(((path + path2) + 'Факт Отпуск из сети за отчётный период ') + dZONum)).replaceAll(
-        '\\s+', '')
-
-    x = ((x + '/') + z)
-
-    z = WebUI.getText(findTestObject(((path + path2) + 'Факт Потери за отчётный период ') + dZONum)).replaceAll('\\s+', 
-        '')
-
-    x = ((x + '/') + z)
-
-    z = WebUI.getText(findTestObject(((path + path2) + 'План Отпуск в сеть за отчётный период ') + dZONum)).replaceAll('\\s+', 
-        '')
-
-    x = ((x + '/') + z)
-
-    z = WebUI.getText(findTestObject(((path + path2) + 'План Отпуск из сети за отчётный период ') + dZONum)).replaceAll(
-        '\\s+', '')
-
-    x = ((x + '/') + z)
-
-    z = WebUI.getText(findTestObject(((path + path2) + 'План Потери за отчётный период ') + dZONum)).replaceAll('\\s+', 
-        '')
-
-    x = ((x + '/') + z)
+	z = WebUI.getText(findTestObject(((path + path2) + 'Факт Отпуск в сеть за отчётный период ') + dZONum)).replaceAll('\\s+', '')
+	println('z='+z)
+		
+	x = ((x + '/') + z)
+			
+	z = WebUI.getText(findTestObject(((path + path2) + 'Факт Отпуск из сети за отчётный период ') + dZONum)).replaceAll(
+			        '\\s+', '')
+			
+	x = ((x + '/') + z)
+		
+	z = WebUI.getText(findTestObject(((path + path2) + 'Факт Потери за отчётный период ') + dZONum)).replaceAll('\\s+', 
+		        '')
+		
+	x = ((x + '/') + z)
+		
+	z = WebUI.getText(findTestObject(((path + path2) + 'План Отпуск в сеть за отчётный период ') + dZONum)).replaceAll('\\s+', 
+		        '')
+	x = ((x + '/') + z)
+		
+	z = WebUI.getText(findTestObject(((path + path2) + 'План Отпуск из сети за отчётный период ') + dZONum)).replaceAll(
+		        '\\s+', '')
+	x = ((x + '/') + z)
+		
+	z = WebUI.getText(findTestObject(((path + path2) + 'План Потери за отчётный период ') + dZONum)).replaceAll('\\s+', 
+		        '')
+	x = ((x + '/') + z)
 
     z = WebUI.getText(findTestObject(path + 'Список ДЗО')).replaceAll('[\\r?\n|\r]', '/')
 
@@ -1011,7 +1008,7 @@ def GetAllData(def path, def dZONum, def VseDZO, def x) {
 
     x = x.replaceAll('[\\r?\n|\r]', '')
 
-    println(x)
+    println('x ='+x)
 
     return x
 }
@@ -1766,6 +1763,12 @@ static def Presettings(def blockNum, def path) {
 
     'Выбрать 4 квартал 2024'
     WebUI.click(findTestObject(path + 'Октябрь 2024'))
+
+    'Выбрать 4 квартал 2024'
+    WebUI.scrollToElement(findTestObject(path + 'Ноябрь 2024'), 30)
+
+    'Выбрать 4 квартал 2024'
+    WebUI.click(findTestObject(path + 'Ноябрь 2024'))
 
     'Проскроллить до заголовка фильтра "Дата"'
     WebUI.scrollToElement(findTestObject(path + 'Заголовок дашборда'), 30)
