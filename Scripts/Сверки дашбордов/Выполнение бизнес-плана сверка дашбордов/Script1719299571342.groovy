@@ -1725,52 +1725,9 @@ static def Presettings(def blockNum, def path) {
     WebUI.scrollToElement(findTestObject(path + '2024 список'), 30)
 
     'Выбрать 1 квартал 2022'
-    WebUI.click(findTestObject(path + '2024 список'))
+    WebUI.click(findTestObject(path + '2024 год'))
 
-    'Выбрать 1 квартал 2022'
-    WebUI.scrollToElement(findTestObject(path + '1 квартал 2024 список'), 30)
-
-    'Выбрать 1 квартал 2022'
-    WebUI.click(findTestObject(path + '1 квартал 2024 список'))
-
-    'Выбрать 1 квартал 2022'
-    WebUI.click(findTestObject(path + 'Январь 2024'))
-
-    'Выбрать 1 квартал 2022'
-    WebUI.click(findTestObject(path + 'Февраль 2024'))
-
-    'Выбрать 1 квартал 2022'
-    WebUI.click(findTestObject(path + 'Март 2024'))
-
-    'Выбрать 2 квартал 2024'
-    WebUI.scrollToElement(findTestObject(path + '2 квартал 2024'), 30)
-
-    WebUI.click(findTestObject(path + '2 квартал 2024'))
-
-    'Скролл 3 квартал 2024'
-    WebUI.scrollToElement(findTestObject(path + '3 квартал 2024 список'), 30)
-
-    WebUI.click(findTestObject(path + '3 квартал 2024'))
-
-    'Выбрать 4 квартал 2024'
-    WebUI.scrollToElement(findTestObject(path + '4 квартал 2024 список'), 30)
-
-    'Выбрать 4 квартал 2024'
-    WebUI.click(findTestObject(path + '4 квартал 2024 список'))
-
-    'Выбрать 4 квартал 2024'
-    WebUI.scrollToElement(findTestObject(path + 'Октябрь 2024'), 30)
-
-    'Выбрать 4 квартал 2024'
-    WebUI.click(findTestObject(path + 'Октябрь 2024'))
-
-    'Выбрать 4 квартал 2024'
-    WebUI.scrollToElement(findTestObject(path + 'Ноябрь 2024'), 30)
-
-    'Выбрать 4 квартал 2024'
-    WebUI.click(findTestObject(path + 'Ноябрь 2024'))
-
-    'Проскроллить до заголовка фильтра "Дата"'
+    'Проскроллить до заголовка дашборда'
     WebUI.scrollToElement(findTestObject(path + 'Заголовок дашборда'), 30)
 
     'Нажать "Применить"'

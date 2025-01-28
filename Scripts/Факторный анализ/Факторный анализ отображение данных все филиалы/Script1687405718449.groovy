@@ -105,31 +105,7 @@ WebUI.click(findTestObject('Факторный анализ/Снять выде�
 
 WebUI.scrollToElement(findTestObject('Факторный анализ/2024 список'), 30)
 
-WebUI.click(findTestObject('Факторный анализ/2024 список'))
-
-WebUI.scrollToElement(findTestObject('Факторный анализ/1 квартал 2024 выбрать'), 30)
-
-WebUI.click(findTestObject('Факторный анализ/1 квартал 2024 выбрать'))
-
-WebUI.scrollToElement(findTestObject('Факторный анализ/1 квартал 2024 выбрать'), 30)
-
-WebUI.click(findTestObject('Факторный анализ/2 квартал 2024 выбрать'), FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.scrollToElement(findTestObject('Факторный анализ/3 квартал 2024 список'), 30)
-
-WebUI.click(findTestObject('Факторный анализ/3 квартал 2024 выбрать'), FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.scrollToElement(findTestObject('Факторный анализ/4 квартал 2024 список'), 30)
-
-WebUI.click(findTestObject('Факторный анализ/4 квартал 2024 список'), FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.scrollToElement(findTestObject('Факторный анализ/Октябрь 2024'), 30)
-
-WebUI.click(findTestObject('Факторный анализ/Октябрь 2024'), FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.scrollToElement(findTestObject('Факторный анализ/Ноябрь 2024'), 30)
-
-WebUI.click(findTestObject('Факторный анализ/Ноябрь 2024'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('Факторный анализ/2024 год'))
 
 'Проскроллить до заголовка фильтра "Дата"'
 WebUI.scrollToElement(findTestObject('Факторный анализ/Заголовок фильтра Период'), 30)

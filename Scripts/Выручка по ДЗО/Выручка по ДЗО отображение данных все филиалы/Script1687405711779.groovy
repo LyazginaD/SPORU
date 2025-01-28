@@ -103,31 +103,7 @@ WebUI.click(findTestObject('Выручка по ДЗО/Снять выделен
 
 WebUI.scrollToElement(findTestObject('Выручка по ДЗО/2024 список'), 30)
 
-WebUI.click(findTestObject('Выручка по ДЗО/2024 список'))
-
-WebUI.scrollToElement(findTestObject('Выручка по ДЗО/1 квартал 2024 выбрать'), 30)
-
-WebUI.click(findTestObject('Выручка по ДЗО/1 квартал 2024 выбрать'))
-
-WebUI.scrollToElement(findTestObject('Выручка по ДЗО/2 квартал 2024 выбрать'), 30)
-
-WebUI.click(findTestObject('Выручка по ДЗО/2 квартал 2024 выбрать'), FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.scrollToElement(findTestObject('Выручка по ДЗО/3 квартал 2024 список'), 30)
-
-WebUI.click(findTestObject('Выручка по ДЗО/3 квартал 2024 выбрать'), FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.scrollToElement(findTestObject('Выручка по ДЗО/4 квартал 2024 список'), 30)
-
-WebUI.click(findTestObject('Выручка по ДЗО/4 квартал 2024 список'), FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.scrollToElement(findTestObject('Выручка по ДЗО/Октябрь 2024'), 30)
-
-WebUI.click(findTestObject('Выручка по ДЗО/Октябрь 2024'), FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.scrollToElement(findTestObject('Выручка по ДЗО/Ноябрь 2024'), 30)
-
-WebUI.click(findTestObject('Выручка по ДЗО/Ноябрь 2024'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('Выручка по ДЗО/2024 год'))
 
 'Проскроллить до заголовка фильтра "Дата"'
 WebUI.scrollToElement(findTestObject('Выручка по ДЗО/Заголовок дашборда'), 30)

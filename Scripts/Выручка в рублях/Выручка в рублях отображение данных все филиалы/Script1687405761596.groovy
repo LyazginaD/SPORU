@@ -840,31 +840,7 @@ def PreSettings(def typeOfData, def todaysDate) {
 
     WebUI.scrollToElement(findTestObject('Выручка в рублях/2024 список'), 30)
 
-    WebUI.click(findTestObject('Выручка в рублях/2024 список'))
-
-    WebUI.scrollToElement(findTestObject('Выручка в рублях/1 квартал 2024 выбрать'), 30)
-
-    WebUI.click(findTestObject('Выручка в рублях/1 квартал 2024 выбрать'))
-
-    WebUI.scrollToElement(findTestObject('Выручка в рублях/2 квартал 2024 выбрать'), 30)
-
-    WebUI.click(findTestObject('Выручка в рублях/2 квартал 2024 выбрать'))
-
-    WebUI.scrollToElement(findTestObject('Выручка в рублях/3 квартал 2024 список'), 30)
-
-    WebUI.click(findTestObject('Выручка в рублях/3 квартал 2024'), FailureHandling.CONTINUE_ON_FAILURE)
-
-    WebUI.scrollToElement(findTestObject('Выручка в рублях/4 квартал 2024 список'), 30)
-
-    WebUI.click(findTestObject('Выручка в рублях/4 квартал 2024 список'), FailureHandling.CONTINUE_ON_FAILURE)
-
-    WebUI.scrollToElement(findTestObject('Выручка в рублях/Октябрь 2024'), 30)
-
-    WebUI.click(findTestObject('Выручка в рублях/Октябрь 2024'), FailureHandling.CONTINUE_ON_FAILURE)
-
-    WebUI.scrollToElement(findTestObject('Выручка в рублях/Ноябрь 2024'), 30)
-
-    WebUI.click(findTestObject('Выручка в рублях/Ноябрь 2024'), FailureHandling.CONTINUE_ON_FAILURE)
+    WebUI.click(findTestObject('Выручка в рублях/2024 год'))
 
     'Проскроллить до заголовка фильтра "Дата"'
     WebUI.scrollToElement(findTestObject('Выручка в рублях/Заголовок дашборда'), 30)
