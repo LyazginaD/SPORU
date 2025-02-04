@@ -127,52 +127,7 @@ WebUI.click(findTestObject('Object Repository/Выполнение бизнес-
 WebUI.scrollToElement(findTestObject('Выполнение бизнес-плана/2024 список'), 30)
 
 'Выбрать 1 квартал 2022'
-WebUI.click(findTestObject('Выполнение бизнес-плана/2024 список'))
-
-'Выбрать 1 квартал 2022'
-WebUI.scrollToElement(findTestObject('Выполнение бизнес-плана/1 квартал 2024 список'), 30)
-
-'Выбрать 1 квартал 2022'
-WebUI.click(findTestObject('Выполнение бизнес-плана/1 квартал 2024 список'))
-
-'Выбрать 1 квартал 2022'
-WebUI.click(findTestObject('Выполнение бизнес-плана/Январь 2024'))
-
-'Выбрать 1 квартал 2022'
-WebUI.click(findTestObject('Выполнение бизнес-плана/Февраль 2024'))
-
-'Выбрать 1 квартал 2022'
-WebUI.click(findTestObject('Выполнение бизнес-плана/Март 2024'))
-
-'Выбрать 1 квартал 2022'
-WebUI.scrollToElement(findTestObject('Выполнение бизнес-плана/2 квартал 2024'), 30)
-
-'Выбрать 1 квартал 2022'
-WebUI.click(findTestObject('Выполнение бизнес-плана/2 квартал 2024'))
-
-'Выбрать 1 квартал 2022'
-WebUI.scrollToElement(findTestObject('Выполнение бизнес-плана/3 квартал 2024 список'), 30)
-
-'Выбрать 1 квартал 2022'
-WebUI.click(findTestObject('Выполнение бизнес-плана/3 квартал 2024'), FailureHandling.CONTINUE_ON_FAILURE)
-
-'Выбрать 1 квартал 2022'
-WebUI.scrollToElement(findTestObject('Выполнение бизнес-плана/4 квартал 2024 список'), 30)
-
-'Выбрать 1 квартал 2022'
-WebUI.click(findTestObject('Выполнение бизнес-плана/4 квартал 2024 список'), FailureHandling.CONTINUE_ON_FAILURE)
-
-'Выбрать 1 квартал 2022'
-WebUI.scrollToElement(findTestObject('Выполнение бизнес-плана/Октябрь 2024'), 30)
-
-'Выбрать 1 квартал 2022'
-WebUI.click(findTestObject('Выполнение бизнес-плана/Октябрь 2024'), FailureHandling.CONTINUE_ON_FAILURE)
-
-'Выбрать 1 квартал 2022'
-WebUI.scrollToElement(findTestObject('Выполнение бизнес-плана/Ноябрь 2024'), 30)
-
-'Выбрать 1 квартал 2022'
-WebUI.click(findTestObject('Выполнение бизнес-плана/Ноябрь 2024'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('Выполнение бизнес-плана/2024 год'))
 
 'Проскроллить до заголовка фильтра "Дата"'
 WebUI.scrollToElement(findTestObject('Выполнение бизнес-плана/Заголовок дашборда'), 30)
@@ -224,6 +179,8 @@ if (x1.contains('ЕЭС')) {
 }
 
 println(dzoNum)
+
+WebUI.delay(20)
 
 dZO = 'РаспредКомплекс'
 
@@ -526,7 +483,6 @@ static def Numbers(def a, def typeOfData, def todaysDate, def pageInt, def fileI
 
     if (i > -1) {
         b = b.substring(0, i)
-
     }
     
     i = b.indexOf('О "')
@@ -537,7 +493,6 @@ static def Numbers(def a, def typeOfData, def todaysDate, def pageInt, def fileI
         i = b.indexOf('"')
 
         b = b.substring(0, i)
-
     }
     
     i = b.indexOf('О «')
@@ -548,18 +503,16 @@ static def Numbers(def a, def typeOfData, def todaysDate, def pageInt, def fileI
         i = b.indexOf('»')
 
         b = b.substring(0, i)
-
     }
     
     i = b.indexOf('г. ')
 
     if (i > -1) {
         b = b.substring(i + 3, b.length())
-
     }
-	
-	b = b.trim()
     
+    b = b.trim()
+
     println(b)
 
     for (planFact = 1; planFact < 3; planFact++) {
@@ -598,14 +551,25 @@ static def Numbers(def a, def typeOfData, def todaysDate, def pageInt, def fileI
         }
         
         println(path)
+		
+		'_________________________________________________'
 
         page = WebUI.getText(findTestObject(path))
+		
+		if((page == '')||(page == null)) {
+			
+			fileInt = otpusk.toInteger()
+			
+			WriteToExcelNoData(a, typeOfData, todaysDate, fileInt, fileDouble, dZO)
+		}else {
+				
+	        page = page.replaceAll('\\s+', '')
+	
+	        fileOtpuskVSet = otpusk.toInteger()
+	
+	        pageOtpuskVSet = page.toInteger()
+		}
 
-        page = page.replaceAll('\\s+', '')
-
-        fileOtpuskVSet = otpusk.toInteger()
-
-        pageOtpuskVSet = page.toInteger()
 
         typeOfData = (typeOfDataMain + ' Потери')
 
@@ -622,57 +586,70 @@ static def Numbers(def a, def typeOfData, def todaysDate, def pageInt, def fileI
         }
         
         page = WebUI.getText(findTestObject(path))
+		
+		
+		if((page == '')||(page == null)) {
+			
+			fileInt = poteri.toInteger()
+			WriteToExcelNoData(a, typeOfData, todaysDate, fileInt, fileDouble, dZO)
+		}else {
+				
+	        page = page.replaceAll('\\s+', '')
+	
+	        filePoteri = poteri.toInteger()
+	
+	        pagePoteri = page.toInteger()
 
-        page = page.replaceAll('\\s+', '')
-
-        filePoteri = poteri.toInteger()
-
-        pagePoteri = page.toInteger()
+		}
 
         compare = pageOtpuskVSet
 
-        if (compare == fileOtpuskVSet) {
-        } else if (compare > fileOtpuskVSet) {
-            compare = (compare - 1)
-        } else if (compare < fileOtpuskVSet) {
-            compare = (compare + 1)
-        }
-        
-        if (compare == fileOtpuskVSet) {
-        } else {
-            numberOfErrors = (numberOfErrors + 1)
-
-            pageInt = pageOtpuskVSet
-
-            fileInt = fileOtpuskVSet
-
-            typeOfData = (typeOfDataMain + ' Отпуск в сеть')
-
-            WriteToExcel(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO)
-        }
-        
+		if(pageOtpuskVSet != null) {
+	        if (compare == fileOtpuskVSet) {
+	        } else if (compare > fileOtpuskVSet) {
+	            compare = (compare - 1)
+	        } else if (compare < fileOtpuskVSet) {
+	            compare = (compare + 1)
+	        }
+	        
+	        if (compare == fileOtpuskVSet) {
+	        } else {
+	            numberOfErrors = (numberOfErrors + 1)
+	
+	            pageInt = pageOtpuskVSet
+	
+	            fileInt = fileOtpuskVSet
+	
+	            typeOfData = (typeOfDataMain + ' Отпуск в сеть')
+	
+	            WriteToExcel(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO)
+	        }
+		}
+		
         compare = pagePoteri
 
-        if (compare == filePoteri) {
-        } else if (compare > filePoteri) {
-            compare = (compare - 1)
-        } else if (compare < filePoteri) {
-            compare = (compare + 1)
-        }
-        
-        if (compare == filePoteri) {
-        } else {
-            numberOfErrors = (numberOfErrors + 1)
-
-            pageInt = pagePoteri
-
-            fileInt = filePoteri
-
-            typeOfData = (typeOfDataMain + ' Потери')
-
-            WriteToExcel(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO)
-        }
-        
+		if(pageOtpuskVSet != null) {
+	        if (compare == filePoteri) {
+	        } else if (compare > filePoteri) {
+	            compare = (compare - 1)
+	        } else if (compare < filePoteri) {
+	            compare = (compare + 1)
+	        }
+	        
+	        if (compare == filePoteri) {
+	        } else {
+	            numberOfErrors = (numberOfErrors + 1)
+	
+	            pageInt = pagePoteri
+	
+	            fileInt = filePoteri
+	
+	            typeOfData = (typeOfDataMain + ' Потери')
+	
+	            WriteToExcel(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO)
+	        }
+		}
+		
         if (planFact == 2) {
             WebUI.click(findTestObject('Выполнение бизнес-плана/Кнопка Факт'))
         }
