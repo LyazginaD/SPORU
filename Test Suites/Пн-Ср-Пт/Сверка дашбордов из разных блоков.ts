@@ -10,54 +10,54 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>327ccdc1-3141-4f54-a440-600c18ed0de1</testSuiteGuid>
+   <testSuiteGuid>31301d18-525d-4009-8558-7cdb87acaab1</testSuiteGuid>
    <testCaseLink>
-      <guid>830960bb-81eb-4f5e-b66d-7f9a28e3442e</guid>
+      <guid>9928c53d-8520-458c-b826-be98ec142495</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Сверки дашбордов/Блок руководителя сверка дашбордов под разными учётками</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>863d86cf-f7fb-4d79-80f8-e672725fe7fb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Сверки дашбордов/Выполнение бизнес-плана сверка дашбордов</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>793c8c48-4101-4386-a39e-1b654568570c</guid>
+      <guid>54b311d2-3353-44e7-a534-775fa17a652b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Сверки дашбордов/Выручка в рублях сверка дашбордов ПАО Россети</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>985c3955-dbb2-4331-b9fe-6e356f652a57</guid>
+      <guid>266ec053-6aaa-44a9-ad12-47b88760d955</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Сверки дашбордов/Выручка по ДЗО сверка дашбордов</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>29060bad-f52c-466d-ab3d-eafe0d388f02</guid>
+      <guid>8f8b4135-441b-494c-8ddc-2d2ade29ed08</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Сверки дашбордов/Прогноз по отраслям сверка дашбордов</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>92dde189-482c-4f76-8bf0-12dd67c97b32</guid>
+      <guid>65336a08-ffe1-4774-beaa-8760c9a56e86</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Сверки дашбордов/Факторный анализ сверка дашбордов</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>b2b568e2-efa6-4007-a780-fbdcf949501d</guid>
+      <guid>47a46692-7007-4647-8850-6e0985c49df0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Выполнение бизнес-плана/Выполнение бизнес-плана Сверка ПАО Россети все филиалы</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>3a4c4d6a-0cd9-4ad7-9dcd-ae63acc59b4d</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Сверки дашбордов/Блок руководителя сверка дашбордов под разными учётками</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

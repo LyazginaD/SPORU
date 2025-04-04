@@ -231,9 +231,21 @@ def VipolnenieBiznesPlana(def user, def dashboardName, def n, def data, def run,
     'Раскрыть фильтр "Дата"'
     WebUI.click(findTestObject('Object Repository/Выполнение бизнес-плана/Фильтр Дата'))
 
-    WebUI.scrollToElement(findTestObject('Выполнение бизнес-плана/2024 список'), 30)
+    WebUI.scrollToElement(findTestObject('Выполнение бизнес-плана/2025 список'), 30)
 
-    WebUI.click(findTestObject('Выполнение бизнес-плана/2024 год'), FailureHandling.CONTINUE_ON_FAILURE)
+    WebUI.click(findTestObject('Выполнение бизнес-плана/2025 список'), FailureHandling.CONTINUE_ON_FAILURE)
+
+    WebUI.scrollToElement(findTestObject('Выполнение бизнес-плана/1 квартал 2025 список'), 30)
+
+    WebUI.click(findTestObject('Выполнение бизнес-плана/1 квартал 2025 список'), FailureHandling.CONTINUE_ON_FAILURE)
+
+    WebUI.scrollToElement(findTestObject('Выполнение бизнес-плана/Январь 2025'), 30)
+
+    WebUI.click(findTestObject('Выполнение бизнес-плана/Январь 2025'), FailureHandling.CONTINUE_ON_FAILURE)
+
+    WebUI.scrollToElement(findTestObject('Выполнение бизнес-плана/Февраль 2025'), 30)
+
+    WebUI.click(findTestObject('Выполнение бизнес-плана/Февраль 2025'), FailureHandling.CONTINUE_ON_FAILURE)
 
     'Нажать "Применить"'
     WebUI.click(findTestObject('Object Repository/Выполнение бизнес-плана/Применить в фильтре Дата'))
@@ -407,9 +419,21 @@ def ViruchkaVRublyah(def user, def dashboardName, def n, def data, def run, def 
     'Нажать "Снять выделение"'
     WebUI.click(findTestObject('Выручка в рублях/Снять выделение в фильтре Дата'))
 
-    WebUI.scrollToElement(findTestObject('Выручка в рублях/2024 список'), 30)
+    WebUI.scrollToElement(findTestObject('Выручка в рублях/2025 список'), 30)
 
-    WebUI.click(findTestObject('Выручка в рублях/2024 год'))
+    WebUI.click(findTestObject('Выручка в рублях/2025 список'))
+
+    WebUI.scrollToElement(findTestObject('Выручка в рублях/1 квартал 2025 список'), 30)
+
+    WebUI.click(findTestObject('Выручка в рублях/1 квартал 2025 список'), FailureHandling.CONTINUE_ON_FAILURE)
+
+    WebUI.scrollToElement(findTestObject('Выручка в рублях/Январь 2025'), 30)
+
+    WebUI.click(findTestObject('Выручка в рублях/Январь 2025'), FailureHandling.CONTINUE_ON_FAILURE)
+
+    WebUI.scrollToElement(findTestObject('Выручка в рублях/Февраль 2025'), 30)
+
+    WebUI.click(findTestObject('Выручка в рублях/Февраль 2025'), FailureHandling.CONTINUE_ON_FAILURE)
 
     'Нажать "Применить"'
     WebUI.click(findTestObject('Выручка в рублях/Применить в фильтре Дата'))
@@ -1133,9 +1157,21 @@ def FaktorniyAnaliz(def user, def dashboardName, def n, def data, def run, def a
     'Нажать "Снять выделение"'
     WebUI.click(findTestObject('Факторный анализ/Снять выделение в фильтре Дата'))
 
-    WebUI.scrollToElement(findTestObject('Факторный анализ/2024 список'), 30)
+    WebUI.scrollToElement(findTestObject('Факторный анализ/2025 список'), 30)
 
-    WebUI.click(findTestObject('Факторный анализ/2024 год'))
+    WebUI.click(findTestObject('Факторный анализ/2025 список'))
+
+    WebUI.scrollToElement(findTestObject('Факторный анализ/1 квартал 2025 список'), 30)
+
+    WebUI.click(findTestObject('Факторный анализ/1 квартал 2025 список'), FailureHandling.CONTINUE_ON_FAILURE)
+
+    WebUI.scrollToElement(findTestObject('Факторный анализ/Январь 2025'), 30)
+
+    WebUI.click(findTestObject('Факторный анализ/Январь 2025'), FailureHandling.CONTINUE_ON_FAILURE)
+
+    WebUI.scrollToElement(findTestObject('Факторный анализ/Февраль 2025'), 30)
+
+    WebUI.click(findTestObject('Факторный анализ/Февраль 2025'), FailureHandling.CONTINUE_ON_FAILURE)
 
     'Проскроллить до заголовка фильтра "Дата"'
     WebUI.scrollToElement(findTestObject('Факторный анализ/Заголовок дашборда'), 30)
@@ -1162,7 +1198,7 @@ def FaktorniyAnaliz(def user, def dashboardName, def n, def data, def run, def a
 
         a3 = WebUI.getText(findTestObject('Факторный анализ/График Всего отклонения по факторам Блок руководителя'))
 
-        WebUI.click(findTestObject('Факторный анализ/Переключить отображение с филиала на месяц'))
+        WebUI.click(findTestObject('Факторный анализ/Переключить отображение с филиала на месяц Выручка'))
 
         a4 = WebUI.getText(findTestObject('Факторный анализ/График Всего отклонения по факторам Блок руководителя'))
 
@@ -1180,7 +1216,7 @@ def FaktorniyAnaliz(def user, def dashboardName, def n, def data, def run, def a
 
         a3 = WebUI.getText(findTestObject('Факторный анализ/График Всего отклонения по факторам Блок руководителя'))
 
-        WebUI.click(findTestObject('Факторный анализ/Переключить отображение с филиала на месяц'))
+        WebUI.click(findTestObject('Факторный анализ/Переключить отображение с филиала на месяц Выручка'))
 
         a4 = WebUI.getText(findTestObject('Факторный анализ/График Всего отклонения по факторам Блок руководителя'))
 
@@ -1208,7 +1244,7 @@ def FaktorniyAnaliz(def user, def dashboardName, def n, def data, def run, def a
 
         a3 = WebUI.getText(findTestObject('Факторный анализ/График Всего отклонения по факторам Блок руководителя'))
 
-        WebUI.click(findTestObject('Факторный анализ/Переключить отображение с филиала на месяц'))
+        WebUI.click(findTestObject('Факторный анализ/Переключить отображение с филиала на месяц Выручка'))
 
         a4 = WebUI.getText(findTestObject('Факторный анализ/График Всего отклонения по факторам Блок руководителя'))
 
@@ -1258,9 +1294,21 @@ def ViruchkaPoDZO(def user, def dashboardName, def n, def data, def run, def a1,
     'Нажать "Снять выделение"'
     WebUI.click(findTestObject('Выручка по ДЗО/Снять выделение в фильтре Дата'))
 
-    WebUI.scrollToElement(findTestObject('Выручка по ДЗО/2024 список'), 30)
+    WebUI.scrollToElement(findTestObject('Выручка по ДЗО/2025 список'), 30)
 
-    WebUI.click(findTestObject('Выручка по ДЗО/2024 год'))
+    WebUI.click(findTestObject('Выручка по ДЗО/2025 список'))
+
+    WebUI.scrollToElement(findTestObject('Выручка по ДЗО/1 квартал 2025 список'), 30)
+
+    WebUI.click(findTestObject('Выручка по ДЗО/1 квартал 2025 список'), FailureHandling.CONTINUE_ON_FAILURE)
+
+    WebUI.scrollToElement(findTestObject('Выручка по ДЗО/Январь 2025'), 30)
+
+    WebUI.click(findTestObject('Выручка по ДЗО/Январь 2025'), FailureHandling.CONTINUE_ON_FAILURE)
+
+    WebUI.scrollToElement(findTestObject('Выручка по ДЗО/Февраль 2025'), 30)
+
+    WebUI.click(findTestObject('Выручка по ДЗО/Февраль 2025'), FailureHandling.CONTINUE_ON_FAILURE)
 
     'Проскроллить до заголовка фильтра "Дата"'
     WebUI.scrollToElement(findTestObject('Выручка по ДЗО/Заголовок дашборда'), 30)

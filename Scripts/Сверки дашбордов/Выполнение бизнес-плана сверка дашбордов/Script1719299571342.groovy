@@ -955,32 +955,37 @@ def GetAllData(def path, def dZONum, def VseDZO, def x) {
     
     x = ((x + '/') + z)
 
-	z = WebUI.getText(findTestObject(((path + path2) + 'Факт Отпуск в сеть за отчётный период ') + dZONum)).replaceAll('\\s+', '')
-	println('z='+z)
-		
-	x = ((x + '/') + z)
-			
-	z = WebUI.getText(findTestObject(((path + path2) + 'Факт Отпуск из сети за отчётный период ') + dZONum)).replaceAll(
-			        '\\s+', '')
-			
-	x = ((x + '/') + z)
-		
-	z = WebUI.getText(findTestObject(((path + path2) + 'Факт Потери за отчётный период ') + dZONum)).replaceAll('\\s+', 
-		        '')
-		
-	x = ((x + '/') + z)
-		
-	z = WebUI.getText(findTestObject(((path + path2) + 'План Отпуск в сеть за отчётный период ') + dZONum)).replaceAll('\\s+', 
-		        '')
-	x = ((x + '/') + z)
-		
-	z = WebUI.getText(findTestObject(((path + path2) + 'План Отпуск из сети за отчётный период ') + dZONum)).replaceAll(
-		        '\\s+', '')
-	x = ((x + '/') + z)
-		
-	z = WebUI.getText(findTestObject(((path + path2) + 'План Потери за отчётный период ') + dZONum)).replaceAll('\\s+', 
-		        '')
-	x = ((x + '/') + z)
+    z = WebUI.getText(findTestObject(((path + path2) + 'Факт Отпуск в сеть за отчётный период ') + dZONum)).replaceAll('\\s+', 
+        '')
+
+    println('z=' + z)
+
+    x = ((x + '/') + z)
+
+    z = WebUI.getText(findTestObject(((path + path2) + 'Факт Отпуск из сети за отчётный период ') + dZONum)).replaceAll(
+        '\\s+', '')
+
+    x = ((x + '/') + z)
+
+    z = WebUI.getText(findTestObject(((path + path2) + 'Факт Потери за отчётный период ') + dZONum)).replaceAll('\\s+', 
+        '')
+
+    x = ((x + '/') + z)
+
+    z = WebUI.getText(findTestObject(((path + path2) + 'План Отпуск в сеть за отчётный период ') + dZONum)).replaceAll('\\s+', 
+        '')
+
+    x = ((x + '/') + z)
+
+    z = WebUI.getText(findTestObject(((path + path2) + 'План Отпуск из сети за отчётный период ') + dZONum)).replaceAll(
+        '\\s+', '')
+
+    x = ((x + '/') + z)
+
+    z = WebUI.getText(findTestObject(((path + path2) + 'План Потери за отчётный период ') + dZONum)).replaceAll('\\s+', 
+        '')
+
+    x = ((x + '/') + z)
 
     z = WebUI.getText(findTestObject(path + 'Список ДЗО')).replaceAll('[\\r?\n|\r]', '/')
 
@@ -1008,7 +1013,7 @@ def GetAllData(def path, def dZONum, def VseDZO, def x) {
 
     x = x.replaceAll('[\\r?\n|\r]', '')
 
-    println('x ='+x)
+    println('x =' + x)
 
     return x
 }
@@ -1504,16 +1509,34 @@ def WriteToExcel(def typeOfData, def todaysDate, def PercPlanR, def PercPlanB, d
 
     int n = data.getRowNumbers() + 1
 
-    String year = todaysDate.substring(todaysDate.length() - 4, todaysDate.length())
+    int day = todaysDate.substring(0, todaysDate.indexOf('.')).toInteger()
 
-    int y = year.toInteger()
+    println(day)
+
+    int month = todaysDate.substring(todaysDate.indexOf('.') + 1, todaysDate.lastIndexOf('.')).toInteger()
+
+    println(month)
+
+    int y = todaysDate.substring(todaysDate.length() - 4, todaysDate.length()).toInteger()
+
+    if ((month < 3) && (day < 30)) {
+        y = (y - 1)
+    }
+    
+    println(y)
 
     String m = WebUI.getText(findTestObject('Выполнение бизнес-плана/Выполнение бизнес-плана Балансы/Фильтр Дата'))
 
-    m = m.substring(0, m.indexOf('2024'))
-
+    if (y.toString().length() == 4) {
+        m = m.substring(0, m.indexOf(y.toString()))
+    }
+    
     m = m.trim()
 
+    if (m == '') {
+        m = 'весь год'
+    }
+    
     String dashboardName = 'Выполнение бизнес-плана'
 
     def workbook01 = ExcelKeywords.getWorkbook(GlobalVariable.excelFilePath)
@@ -1722,10 +1745,26 @@ static def Presettings(def blockNum, def path) {
     'Раскрыть фильтр "Дата"'
     WebUI.click(findTestObject(path + 'Фильтр Дата'))
 
-    WebUI.scrollToElement(findTestObject(path + '2024 список'), 30)
+    WebUI.scrollToElement(findTestObject(path + '2025 список'), 30)
 
-    'Выбрать 1 квартал 2022'
-    WebUI.click(findTestObject(path + '2024 год'))
+    'Выбрать нужную дату'
+    WebUI.click(findTestObject(path + '2025 список'))
+
+    WebUI.scrollToElement(findTestObject(path + '1 квартал 2025 список'), 30)
+
+    'Выбрать нужную дату'
+    WebUI.click(findTestObject(path + '1 квартал 2025 список'))
+
+    'Выбрать нужную дату'
+    WebUI.scrollToElement(findTestObject(path + 'Январь 2025'), 30)
+
+    'Выбрать нужную дату'
+    WebUI.click(findTestObject(path + 'Январь 2025'))
+
+    WebUI.scrollToElement(findTestObject(path + 'Февраль 2025'), 30)
+
+    'Выбрать нужную дату'
+    WebUI.click(findTestObject(path + 'Февраль 2025'))
 
     'Проскроллить до заголовка дашборда'
     WebUI.scrollToElement(findTestObject(path + 'Заголовок дашборда'), 30)

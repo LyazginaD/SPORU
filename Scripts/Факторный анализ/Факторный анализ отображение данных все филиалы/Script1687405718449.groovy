@@ -103,9 +103,19 @@ WebUI.click(findTestObject('Факторный анализ/Фильтр Пер�
 'Нажать "Снять выделение"'
 WebUI.click(findTestObject('Факторный анализ/Снять выделение в фильтре Дата'))
 
-WebUI.scrollToElement(findTestObject('Факторный анализ/2024 список'), 30)
+WebUI.scrollToElement(findTestObject('Факторный анализ/2025 список'), 30)
 
-WebUI.click(findTestObject('Факторный анализ/2024 год'))
+WebUI.click(findTestObject('Факторный анализ/2025 список'))
+
+WebUI.scrollToElement(findTestObject('Факторный анализ/1 квартал 2025 список'), 30)
+
+WebUI.click(findTestObject('Факторный анализ/1 квартал 2025 список'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.scrollToElement(findTestObject('Факторный анализ/Февраль 2025'), 30)
+
+WebUI.click(findTestObject('Факторный анализ/Январь 2025'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.click(findTestObject('Факторный анализ/Февраль 2025'), FailureHandling.CONTINUE_ON_FAILURE)
 
 'Проскроллить до заголовка фильтра "Дата"'
 WebUI.scrollToElement(findTestObject('Факторный анализ/Заголовок фильтра Период'), 30)
@@ -153,23 +163,37 @@ WebUI.click(findTestObject('Общие объекты/Раскрыть спис�
 
 WebUI.click(findTestObject('Общие объекты/Раскрыть список РаспредКомплекс'))
 
-WebUI.scrollToElement(findTestObject('Факторный анализ/АО Тываэнерго'), 30)
-
-WebUI.click(findTestObject('Факторный анализ/АО Тываэнерго'))
+WebUI.click(findTestObject('Факторный анализ/РЭС'))
 
 Change(todaysDate, typeOfData)
 
-WebUI.scrollToElement(findTestObject('Общие объекты/Раскрыть список Тываэнерго'), 30)
+WebUI.click(findTestObject('Факторный анализ/Раскрыть список РЭС'))
 
-WebUI.click(findTestObject('Общие объекты/Раскрыть список Тываэнерго'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('Факторный анализ/РЭС нижний уровень'))
+
+Change(todaysDate, typeOfData)
+
+WebUI.scrollToElement(findTestObject('Факторный анализ/Тываэнерго'), 30)
+
+WebUI.click(findTestObject('Факторный анализ/Тываэнерго'))
+
+Change(todaysDate, typeOfData)
+
+WebUI.scrollToElement(findTestObject('Факторный анализ/Раскрыть список Тываэнерго'), 30)
+
+WebUI.click(findTestObject('Факторный анализ/Раскрыть список Тываэнерго'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.click(findTestObject('Факторный анализ/Раскрыть список Тываэнерго'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.scrollToElement(findTestObject('Факторный анализ/Тываэнерго нижний уровень'), 30)
 
 WebUI.click(findTestObject('Факторный анализ/Тываэнерго нижний уровень'), FailureHandling.CONTINUE_ON_FAILURE)
 
 Change(todaysDate, typeOfData)
 
-WebUI.scrollToElement(findTestObject('Факторный анализ/АО Чеченэнерго'), 30)
+WebUI.scrollToElement(findTestObject('Факторный анализ/Чеченэнерго'), 30)
 
-WebUI.click(findTestObject('Факторный анализ/АО Чеченэнерго'))
+WebUI.click(findTestObject('Факторный анализ/Чеченэнерго'))
 
 Change(todaysDate, typeOfData)
 
@@ -189,9 +213,11 @@ WebUI.click(findTestObject('Факторный анализ/Россети Во�
 
 Change(todaysDate, typeOfData)
 
-WebUI.click(findTestObject('Общие объекты/Раскрыть список Россети Волга'))
+WebUI.scrollToElement(findTestObject('Факторный анализ/Раскрыть список Россети Волга'), 30)
 
-WebUI.click(findTestObject('Общие объекты/Раскрыть список Россети Волга'))
+WebUI.click(findTestObject('Факторный анализ/Раскрыть список Россети Волга'))
+
+WebUI.click(findTestObject('Факторный анализ/Раскрыть список Россети Волга'))
 
 WebUI.scrollToElement(findTestObject('Общие объекты/Мордовэнерго'), 30)
 
@@ -741,7 +767,7 @@ typeOfData = 'Филиал'
 
 Test(todaysDate, typeOfData)
 
-WebUI.click(findTestObject('Факторный анализ/Переключить отображение с филиала на месяц'))
+WebUI.click(findTestObject('Факторный анализ/Переключить отображение с филиала на месяц Выручка'))
 
 typeOfData = 'Месяц'
 
@@ -760,7 +786,7 @@ static def Change(def todaysDate, def typeOfData) {
 
     Test(todaysDate, typeOfData)
 
-    WebUI.click(findTestObject('Факторный анализ/Переключить отображение с филиала на месяц'))
+    WebUI.click(findTestObject('Факторный анализ/Переключить отображение с филиала на месяц Выручка'))
 
     typeOfData = 'Месяц'
 

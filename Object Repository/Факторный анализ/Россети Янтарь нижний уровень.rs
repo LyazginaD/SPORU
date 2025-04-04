@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//li[16]/ul/li[2]/div/div</value>
+         <value>//li[17]/ul/li[2]/div/div</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -15,6 +15,7 @@
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>20744d92-1baa-42a7-ac90-0dcb7f0f7133</webElementGuid>
+      <webElementGuid>87d9e6b7-e23a-43e1-97b0-b5745f528c58</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>rb-filter-list-item-text</value>
-      <webElementGuid>36614321-5ff2-40fb-973c-c9158028c412</webElementGuid>
+      <webElementGuid>cf92c8be-487d-4a6c-aa05-e336be45c6d6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +39,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Россети Янтарь</value>
-      <webElementGuid>e865f4b6-6489-4716-a202-e567c215ed10</webElementGuid>
+      <webElementGuid>8ea2638c-8335-4055-9d59-e4fb16103005</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,23 +47,31 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;bb03a55c88b6487cb00176a96ee44d84&quot;)/div[@class=&quot;rb-filter-container not-selectable rb-filter-multi-selection&quot;]/div[@class=&quot;rb-filter-body-container opened&quot;]/div[@class=&quot;rb-filter-list-container&quot;]/ul[@class=&quot;rb-filter-list rb-filter-root-list&quot;]/li[@class=&quot;rb-filter-list-item rb-filter-list-item-parent&quot;]/ul[@class=&quot;rb-filter-list&quot;]/li[@class=&quot;rb-filter-list-item rb-filter-list-item-parent&quot;]/ul[@class=&quot;rb-filter-list&quot;]/li[@class=&quot;rb-filter-list-item rb-filter-list-item-parent&quot;]/ul[@class=&quot;rb-filter-list&quot;]/li[@class=&quot;rb-filter-list-item&quot;]/div[@class=&quot;rb-filter-list-item-container&quot;]/div[@class=&quot;rb-filter-list-item-text&quot;]</value>
-      <webElementGuid>6264ded6-f4da-47b9-8c7c-680dab20e7aa</webElementGuid>
+      <webElementGuid>ab5eec20-ac7d-4983-bc52-1ca91db6f579</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
+      <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Восточные электрические сети'])[1]/following::div[2]</value>
-      <webElementGuid>2efa7a3b-f772-44de-a8ec-a5bb7e509b8c</webElementGuid>
+      <value>//div[@id='bb03a55c88b6487cb00176a96ee44d84']/div/div[2]/div[3]/ul/li/ul/li[2]/ul/li[17]/ul/li[2]/div/div</value>
+      <webElementGuid>1751fd89-491b-4fc6-a69f-d63e0728c0c2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Россети Янтарь'])[1]/following::div[4]</value>
-      <webElementGuid>a4a36689-2736-483e-a681-e912e1663044</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Восточные электрические сети'])[1]/following::div[2]</value>
+      <webElementGuid>c5d39986-bbee-4709-85fa-8903dd3d06de</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Россети Янтарь'])[2]/following::div[4]</value>
+      <webElementGuid>588a44a4-4e01-4348-9b24-60c8a1705f2e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Отмена'])[2]/preceding::div[1]</value>
-      <webElementGuid>137a7349-b90a-4001-ab9b-7a9f75288469</webElementGuid>
+      <webElementGuid>63bada92-be9b-4837-a977-8ac34f42bfcf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,23 +87,15 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Применить'])[2]/preceding::div[2]</value>
-      <webElementGuid>993568e0-de68-4b6f-8edc-131eafe14544</webElementGuid>
+      <webElementGuid>2ba9dd2d-6502-46ce-9cba-6042951d2cb4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li[16]/ul/li[2]/div/div</value>
-      <webElementGuid>80d35bf0-143e-4d33-a2fe-c9ab3eba6dd2</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='bb03a55c88b6487cb00176a96ee44d84']/div/div[2]/div[3]/ul/li/ul/li[2]/ul/li[16]/ul/li[2]/div/div</value>
-      <webElementGuid>6f30b2be-32f5-47c7-b2c7-5b5311eb8ac4</webElementGuid>
+      <value>//li[17]/ul/li[2]/div/div</value>
+      <webElementGuid>38d39421-1307-4812-9648-4f7faa69fdc3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +103,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Россети Янтарь' or . = 'Россети Янтарь')]</value>
-      <webElementGuid>2c32e1ed-77f5-444e-ab56-372e8bc4aaff</webElementGuid>
+      <webElementGuid>0c3a6d58-2869-4eaa-90a0-61294a4a3b72</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

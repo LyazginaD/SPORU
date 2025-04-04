@@ -1,0 +1,5211 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-03-20T14:51:19.642991100Z</date>
+  <millis>1742482279642</millis>
+  <nanos>991100</nanos>
+  <sequence>30685</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(&amp;quot;dZO3:&amp;quot; + dZO3)</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:51:19.642991100Z</date>
+  <millis>1742482279642</millis>
+  <nanos>991100</nanos>
+  <sequence>30686</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : i = dZO3.length() + 2</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">941</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2025-03-20T14:51:19.642991100Z</date>
+  <millis>1742482279642</millis>
+  <nanos>991100</nanos>
+  <sequence>30687</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : i = dZO3.length() + 2</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:51:19.642991100Z</date>
+  <millis>1742482279642</millis>
+  <nanos>991100</nanos>
+  <sequence>30688</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : dZO = dZO.substring(i)</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">943</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2025-03-20T14:51:19.642991100Z</date>
+  <millis>1742482279642</millis>
+  <nanos>991100</nanos>
+  <sequence>30689</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : dZO = dZO.substring(i)</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:51:19.642991100Z</date>
+  <millis>1742482279642</millis>
+  <nanos>991100</nanos>
+  <sequence>30690</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : dZO = dZO.trim()</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">945</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2025-03-20T14:51:19.642991100Z</date>
+  <millis>1742482279642</millis>
+  <nanos>991100</nanos>
+  <sequence>30691</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : dZO = dZO.trim()</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:51:19.642991100Z</date>
+  <millis>1742482279642</millis>
+  <nanos>991100</nanos>
+  <sequence>30692</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(dZO)</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">947</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2025-03-20T14:51:19.642991100Z</date>
+  <millis>1742482279642</millis>
+  <nanos>991100</nanos>
+  <sequence>30693</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(dZO)</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:51:19.642991100Z</date>
+  <millis>1742482279642</millis>
+  <nanos>991100</nanos>
+  <sequence>30694</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : dZO4 = dZO</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">949</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2025-03-20T14:51:19.642991100Z</date>
+  <millis>1742482279642</millis>
+  <nanos>991100</nanos>
+  <sequence>30695</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : dZO4 = dZO</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:51:19.642991100Z</date>
+  <millis>1742482279642</millis>
+  <nanos>991100</nanos>
+  <sequence>30696</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(&amp;quot;dZO4:&amp;quot; + dZO4)</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">951</property>
+  <property name="stepIndex">9</property>
+</record>
+<record>
+  <date>2025-03-20T14:51:19.643989200Z</date>
+  <millis>1742482279643</millis>
+  <nanos>989200</nanos>
+  <sequence>30697</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(&amp;quot;dZO4:&amp;quot; + dZO4)</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:51:19.643989200Z</date>
+  <millis>1742482279643</millis>
+  <nanos>989200</nanos>
+  <sequence>30698</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (i &amp;gt; -1)</message>
+  <nestedLevel>3</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:51:19.643989200Z</date>
+  <millis>1742482279643</millis>
+  <nanos>989200</nanos>
+  <sequence>30699</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (i &amp;gt; -1)</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:51:19.643989200Z</date>
+  <millis>1742482279643</millis>
+  <nanos>989200</nanos>
+  <sequence>30700</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (i &amp;gt; -1)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:51:19.643989200Z</date>
+  <millis>1742482279643</millis>
+  <nanos>989200</nanos>
+  <sequence>30701</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : date = getText(findTestObject(&amp;quot;Выполнение бизнес-плана/Фильтр Дата&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">974</property>
+  <property name="stepIndex">12</property>
+</record>
+<record>
+  <date>2025-03-20T14:51:19.940098900Z</date>
+  <millis>1742482279940</millis>
+  <nanos>98900</nanos>
+  <sequence>30710</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text of object &amp;apos;Object Repository/Выполнение бизнес-плана/Фильтр Дата&amp;apos; is: &amp;apos;Январь 2025 года&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-03-20T14:51:19.940098900Z</date>
+  <millis>1742482279940</millis>
+  <nanos>98900</nanos>
+  <sequence>30711</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : date = getText(findTestObject(&amp;quot;Выполнение бизнес-плана/Фильтр Дата&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:51:19.940098900Z</date>
+  <millis>1742482279940</millis>
+  <nanos>98900</nanos>
+  <sequence>30712</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(date)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">976</property>
+  <property name="stepIndex">13</property>
+</record>
+<record>
+  <date>2025-03-20T14:51:19.940098900Z</date>
+  <millis>1742482279940</millis>
+  <nanos>98900</nanos>
+  <sequence>30713</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(date)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:51:19.940098900Z</date>
+  <millis>1742482279940</millis>
+  <nanos>98900</nanos>
+  <sequence>30714</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : dashboardName = &amp;quot;Выполнение бизнес-плана&amp;quot;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">978</property>
+  <property name="stepIndex">14</property>
+</record>
+<record>
+  <date>2025-03-20T14:51:19.941096600Z</date>
+  <millis>1742482279941</millis>
+  <nanos>96600</nanos>
+  <sequence>30715</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : dashboardName = &amp;quot;Выполнение бизнес-плана&amp;quot;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:51:19.941096600Z</date>
+  <millis>1742482279941</millis>
+  <nanos>96600</nanos>
+  <sequence>30716</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : workbook01 = getWorkbook(excelFilePath)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">980</property>
+  <property name="stepIndex">15</property>
+</record>
+<record>
+  <date>2025-03-20T14:51:19.978993800Z</date>
+  <millis>1742482279978</millis>
+  <nanos>993800</nanos>
+  <sequence>30717</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : workbook01 = getWorkbook(excelFilePath)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:51:19.978993800Z</date>
+  <millis>1742482279978</millis>
+  <nanos>993800</nanos>
+  <sequence>30718</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : sheet01 = getExcelSheet(workbook01, sheetName)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">982</property>
+  <property name="stepIndex">16</property>
+</record>
+<record>
+  <date>2025-03-20T14:51:19.978993800Z</date>
+  <millis>1742482279978</millis>
+  <nanos>993800</nanos>
+  <sequence>30719</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : sheet01 = getExcelSheet(workbook01, sheetName)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:51:19.978993800Z</date>
+  <millis>1742482279978</millis>
+  <nanos>993800</nanos>
+  <sequence>30720</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setValueToCellByIndex(sheet01, n, 0, dashboardName)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">984</property>
+  <property name="stepIndex">17</property>
+</record>
+<record>
+  <date>2025-03-20T14:51:19.978993800Z</date>
+  <millis>1742482279978</millis>
+  <nanos>993800</nanos>
+  <sequence>30721</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setValueToCellByIndex(sheet01, n, 0, dashboardName)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:51:19.979991300Z</date>
+  <millis>1742482279979</millis>
+  <nanos>991300</nanos>
+  <sequence>30722</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setValueToCellByIndex(sheet01, n, 1, dZO1)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">986</property>
+  <property name="stepIndex">18</property>
+</record>
+<record>
+  <date>2025-03-20T14:51:19.979991300Z</date>
+  <millis>1742482279979</millis>
+  <nanos>991300</nanos>
+  <sequence>30723</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setValueToCellByIndex(sheet01, n, 1, dZO1)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:51:19.979991300Z</date>
+  <millis>1742482279979</millis>
+  <nanos>991300</nanos>
+  <sequence>30724</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setValueToCellByIndex(sheet01, n, 2, dZO2)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">988</property>
+  <property name="stepIndex">19</property>
+</record>
+<record>
+  <date>2025-03-20T14:51:19.979991300Z</date>
+  <millis>1742482279979</millis>
+  <nanos>991300</nanos>
+  <sequence>30725</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setValueToCellByIndex(sheet01, n, 2, dZO2)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:51:19.979991300Z</date>
+  <millis>1742482279979</millis>
+  <nanos>991300</nanos>
+  <sequence>30726</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setValueToCellByIndex(sheet01, n, 3, dZO3)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">990</property>
+  <property name="stepIndex">20</property>
+</record>
+<record>
+  <date>2025-03-20T14:51:19.979991300Z</date>
+  <millis>1742482279979</millis>
+  <nanos>991300</nanos>
+  <sequence>30727</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setValueToCellByIndex(sheet01, n, 3, dZO3)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:51:19.979991300Z</date>
+  <millis>1742482279979</millis>
+  <nanos>991300</nanos>
+  <sequence>30728</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setValueToCellByIndex(sheet01, n, 4, dZO4)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">992</property>
+  <property name="stepIndex">21</property>
+</record>
+<record>
+  <date>2025-03-20T14:51:19.979991300Z</date>
+  <millis>1742482279979</millis>
+  <nanos>991300</nanos>
+  <sequence>30729</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setValueToCellByIndex(sheet01, n, 4, dZO4)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:51:19.979991300Z</date>
+  <millis>1742482279979</millis>
+  <nanos>991300</nanos>
+  <sequence>30730</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setValueToCellByIndex(sheet01, n, 5, date)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">994</property>
+  <property name="stepIndex">22</property>
+</record>
+<record>
+  <date>2025-03-20T14:51:19.979991300Z</date>
+  <millis>1742482279979</millis>
+  <nanos>991300</nanos>
+  <sequence>30731</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setValueToCellByIndex(sheet01, n, 5, date)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:51:19.979991300Z</date>
+  <millis>1742482279979</millis>
+  <nanos>991300</nanos>
+  <sequence>30732</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setValueToCellByIndex(sheet01, n, 6, typeOfData)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">996</property>
+  <property name="stepIndex">23</property>
+</record>
+<record>
+  <date>2025-03-20T14:51:19.979991300Z</date>
+  <millis>1742482279979</millis>
+  <nanos>991300</nanos>
+  <sequence>30733</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setValueToCellByIndex(sheet01, n, 6, typeOfData)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:51:19.979991300Z</date>
+  <millis>1742482279979</millis>
+  <nanos>991300</nanos>
+  <sequence>30734</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setValueToCellByIndex(sheet01, n, 7, todaysDate)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">998</property>
+  <property name="stepIndex">24</property>
+</record>
+<record>
+  <date>2025-03-20T14:51:19.979991300Z</date>
+  <millis>1742482279979</millis>
+  <nanos>991300</nanos>
+  <sequence>30735</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setValueToCellByIndex(sheet01, n, 7, todaysDate)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:51:19.979991300Z</date>
+  <millis>1742482279979</millis>
+  <nanos>991300</nanos>
+  <sequence>30736</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : n = n + 1</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">1000</property>
+  <property name="stepIndex">25</property>
+</record>
+<record>
+  <date>2025-03-20T14:51:19.979991300Z</date>
+  <millis>1742482279979</millis>
+  <nanos>991300</nanos>
+  <sequence>30737</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : n = n + 1</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:51:19.979991300Z</date>
+  <millis>1742482279979</millis>
+  <nanos>991300</nanos>
+  <sequence>30738</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : saveWorkbook(excelFilePath, workbook01)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">1002</property>
+  <property name="stepIndex">26</property>
+</record>
+<record>
+  <date>2025-03-20T14:51:20.209326400Z</date>
+  <millis>1742482280209</millis>
+  <nanos>326400</nanos>
+  <sequence>30739</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : saveWorkbook(excelFilePath, workbook01)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:51:20.209326400Z</date>
+  <millis>1742482280209</millis>
+  <nanos>326400</nanos>
+  <sequence>30740</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(&amp;quot;Выполнение бизнес-плана/Кнопка Факт&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">835</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2025-03-20T14:51:20.535068900Z</date>
+  <millis>1742482280535</millis>
+  <nanos>68900</nanos>
+  <sequence>30750</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Выполнение бизнес-плана/Кнопка Факт&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-03-20T14:51:20.535068900Z</date>
+  <millis>1742482280535</millis>
+  <nanos>68900</nanos>
+  <sequence>30751</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(&amp;quot;Выполнение бизнес-плана/Кнопка Факт&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:51:20.535068900Z</date>
+  <millis>1742482280535</millis>
+  <nanos>68900</nanos>
+  <sequence>30752</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(&amp;quot;Object Repository/Выполнение бизнес-плана/Фильтр ДЗО&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">838</property>
+  <property name="stepIndex">9</property>
+  <property name="description">Открыть фильтр &quot;ДЗО&quot;</property>
+</record>
+<record>
+  <date>2025-03-20T14:51:20.876010300Z</date>
+  <millis>1742482280876</millis>
+  <nanos>10300</nanos>
+  <sequence>30762</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Выполнение бизнес-плана/Фильтр ДЗО&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-03-20T14:51:20.876010300Z</date>
+  <millis>1742482280876</millis>
+  <nanos>10300</nanos>
+  <sequence>30763</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(&amp;quot;Object Repository/Выполнение бизнес-плана/Фильтр ДЗО&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:51:20.876995Z</date>
+  <millis>1742482280876</millis>
+  <nanos>995000</nanos>
+  <sequence>30764</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(&amp;quot;Выполнение бизнес-плана/Снять выделение в фильтре ДЗО&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">841</property>
+  <property name="stepIndex">10</property>
+  <property name="description">Нажать &quot;Снять выделение&quot;</property>
+</record>
+<record>
+  <date>2025-03-20T14:51:21.412078200Z</date>
+  <millis>1742482281412</millis>
+  <nanos>78200</nanos>
+  <sequence>30774</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Выполнение бизнес-плана/Снять выделение в фильтре ДЗО&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-03-20T14:51:21.412078200Z</date>
+  <millis>1742482281412</millis>
+  <nanos>78200</nanos>
+  <sequence>30775</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(&amp;quot;Выполнение бизнес-плана/Снять выделение в фильтре ДЗО&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:51:21.412078200Z</date>
+  <millis>1742482281412</millis>
+  <nanos>78200</nanos>
+  <sequence>30776</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : scrollToElement(findTestObject(&amp;quot;Общие объекты/Калугаэнерго&amp;quot;), 30)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">705</property>
+  <property name="stepIndex">282</property>
+</record>
+<record>
+  <date>2025-03-20T14:51:21.722246700Z</date>
+  <millis>1742482281722</millis>
+  <nanos>246700</nanos>
+  <sequence>30786</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Scroll to object &amp;apos;Object Repository/Общие объекты/Калугаэнерго&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.scrollToElement</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-03-20T14:51:21.723245400Z</date>
+  <millis>1742482281723</millis>
+  <nanos>245400</nanos>
+  <sequence>30787</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : scrollToElement(findTestObject(&amp;quot;Общие объекты/Калугаэнерго&amp;quot;), 30)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:51:21.723245400Z</date>
+  <millis>1742482281723</millis>
+  <nanos>245400</nanos>
+  <sequence>30788</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(&amp;quot;Общие объекты/Калугаэнерго&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">707</property>
+  <property name="stepIndex">283</property>
+</record>
+<record>
+  <date>2025-03-20T14:51:22.060343200Z</date>
+  <millis>1742482282060</millis>
+  <nanos>343200</nanos>
+  <sequence>30798</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Общие объекты/Калугаэнерго&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-03-20T14:51:22.061342700Z</date>
+  <millis>1742482282061</millis>
+  <nanos>342700</nanos>
+  <sequence>30799</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(&amp;quot;Общие объекты/Калугаэнерго&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:51:22.061342700Z</date>
+  <millis>1742482282061</millis>
+  <nanos>342700</nanos>
+  <sequence>30800</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Script1687256706913.Change(todaysDate, typeOfData)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">709</property>
+  <property name="stepIndex">284</property>
+</record>
+<record>
+  <date>2025-03-20T14:51:22.061342700Z</date>
+  <millis>1742482282061</millis>
+  <nanos>342700</nanos>
+  <sequence>30801</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Script1687256706913.Change(todaysDate, typeOfData)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:51:22.061342700Z</date>
+  <millis>1742482282061</millis>
+  <nanos>342700</nanos>
+  <sequence>30802</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : scrollToElement(findTestObject(&amp;quot;Выполнение бизнес-плана/Заголовок дашборда&amp;quot;), 30)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">820</property>
+  <property name="stepIndex">1</property>
+  <property name="description">Проскроллить до заголовка фильтра &quot;ДЗО&quot;</property>
+</record>
+<record>
+  <date>2025-03-20T14:51:22.583339900Z</date>
+  <millis>1742482282583</millis>
+  <nanos>339900</nanos>
+  <sequence>30812</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Scroll to object &amp;apos;Object Repository/Выполнение бизнес-плана/Заголовок дашборда&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.scrollToElement</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-03-20T14:51:22.584336100Z</date>
+  <millis>1742482282584</millis>
+  <nanos>336100</nanos>
+  <sequence>30813</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : scrollToElement(findTestObject(&amp;quot;Выполнение бизнес-плана/Заголовок дашборда&amp;quot;), 30)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:51:22.584336100Z</date>
+  <millis>1742482282584</millis>
+  <nanos>336100</nanos>
+  <sequence>30814</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(&amp;quot;Object Repository/Выполнение бизнес-плана/Применить в фильтре ДЗО&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">823</property>
+  <property name="stepIndex">2</property>
+  <property name="description">Нажать &quot;Применить&quot;</property>
+</record>
+<record>
+  <date>2025-03-20T14:51:23.311043Z</date>
+  <millis>1742482283311</millis>
+  <nanos>43000</nanos>
+  <sequence>30824</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Выполнение бизнес-плана/Применить в фильтре ДЗО&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-03-20T14:51:23.312040700Z</date>
+  <millis>1742482283312</millis>
+  <nanos>40700</nanos>
+  <sequence>30825</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(&amp;quot;Object Repository/Выполнение бизнес-плана/Применить в фильтре ДЗО&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:51:23.312040700Z</date>
+  <millis>1742482283312</millis>
+  <nanos>40700</nanos>
+  <sequence>30826</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : typeOfData = &amp;quot;Факт&amp;quot;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">825</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2025-03-20T14:51:23.312040700Z</date>
+  <millis>1742482283312</millis>
+  <nanos>40700</nanos>
+  <sequence>30827</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : typeOfData = &amp;quot;Факт&amp;quot;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:51:23.312040700Z</date>
+  <millis>1742482283312</millis>
+  <nanos>40700</nanos>
+  <sequence>30828</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Script1687256706913.Test(todaysDate, typeOfData)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">827</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2025-03-20T14:51:23.312040700Z</date>
+  <millis>1742482283312</millis>
+  <nanos>40700</nanos>
+  <sequence>30829</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Script1687256706913.Test(todaysDate, typeOfData)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:51:23.312040700Z</date>
+  <millis>1742482283312</millis>
+  <nanos>40700</nanos>
+  <sequence>30830</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(50)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">845</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2025-03-20T14:52:13.328286800Z</date>
+  <millis>1742482333328</millis>
+  <nanos>286800</nanos>
+  <sequence>30832</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 50 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.builtin.DelayKeyword.delay</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-03-20T14:52:13.328286800Z</date>
+  <millis>1742482333328</millis>
+  <nanos>286800</nanos>
+  <sequence>30833</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(50)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:52:13.328286800Z</date>
+  <millis>1742482333328</millis>
+  <nanos>286800</nanos>
+  <sequence>30834</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Script1687256706913.ZakrytOpoveshenie()</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">847</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2025-03-20T14:52:13.328286800Z</date>
+  <millis>1742482333328</millis>
+  <nanos>286800</nanos>
+  <sequence>30835</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Script1687256706913.ZakrytOpoveshenie()</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:52:13.328286800Z</date>
+  <millis>1742482333328</millis>
+  <nanos>286800</nanos>
+  <sequence>30836</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : opoveshenie = getText(findTestObject(&amp;quot;Выполнение бизнес-плана/Просьба обратить внимание&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">872</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2025-03-20T14:52:13.609141400Z</date>
+  <millis>1742482333609</millis>
+  <nanos>141400</nanos>
+  <sequence>30845</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text of object &amp;apos;Object Repository/Выполнение бизнес-плана/Просьба обратить внимание&amp;apos; is: &amp;apos;&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-03-20T14:52:13.609141400Z</date>
+  <millis>1742482333609</millis>
+  <nanos>141400</nanos>
+  <sequence>30846</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : opoveshenie = getText(findTestObject(&amp;quot;Выполнение бизнес-плана/Просьба обратить внимание&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:52:13.609141400Z</date>
+  <millis>1742482333609</millis>
+  <nanos>141400</nanos>
+  <sequence>30847</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(opoveshenie)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">874</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2025-03-20T14:52:13.609141400Z</date>
+  <millis>1742482333609</millis>
+  <nanos>141400</nanos>
+  <sequence>30848</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(opoveshenie)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:52:13.609141400Z</date>
+  <millis>1742482333609</millis>
+  <nanos>141400</nanos>
+  <sequence>30849</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (opoveshenie == &amp;quot;Просьба обратить внимание&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">876</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2025-03-20T14:52:13.609141400Z</date>
+  <millis>1742482333609</millis>
+  <nanos>141400</nanos>
+  <sequence>30850</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (opoveshenie == &amp;quot;Просьба обратить внимание&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:52:13.609141400Z</date>
+  <millis>1742482333609</millis>
+  <nanos>141400</nanos>
+  <sequence>30851</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (verifyTextNotPresent(&amp;quot;нет данных&amp;quot;, false) == true)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">849</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2025-03-20T14:52:14.921333800Z</date>
+  <millis>1742482334921</millis>
+  <nanos>333800</nanos>
+  <sequence>30858</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;нет данных&amp;apos; is present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text &amp;apos;нет данных&amp;apos; is present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.doCall(VerifyTextNotPresentKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.call(VerifyTextNotPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.verifyTextNotPresent(VerifyTextNotPresentKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.execute(VerifyTextNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextNotPresent(WebUiBuiltInKeywords.groovy:1795)
+	at Выполнение бизнес-плана отображение данных все филиалы.Test(Выполнение бизнес-плана отображение данных все филиалы:849)
+	at Выполнение бизнес-плана отображение данных все филиалы.Change(Выполнение бизнес-плана отображение данных все филиалы:827)
+	at Выполнение бизнес-плана отображение данных все филиалы.DzoTest(Выполнение бизнес-плана отображение данных все филиалы:709)
+	at Выполнение бизнес-плана отображение данных все филиалы.run(Выполнение бизнес-плана отображение данных все филиалы:136)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1742472435577.run(TempTestSuite1742472435577.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.stacktrace">com.kms.katalon.core.exception.StepFailedException: Text &apos;нет данных&apos; is present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.doCall(VerifyTextNotPresentKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.call(VerifyTextNotPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.verifyTextNotPresent(VerifyTextNotPresentKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.execute(VerifyTextNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextNotPresent(WebUiBuiltInKeywords.groovy:1795)
+	at Выполнение бизнес-плана отображение данных все филиалы.Test(Выполнение бизнес-плана отображение данных все филиалы:849)
+	at Выполнение бизнес-плана отображение данных все филиалы.Change(Выполнение бизнес-плана отображение данных все филиалы:827)
+	at Выполнение бизнес-плана отображение данных все филиалы.DzoTest(Выполнение бизнес-плана отображение данных все филиалы:709)
+	at Выполнение бизнес-плана отображение данных все филиалы.run(Выполнение бизнес-плана отображение данных все филиалы:136)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1742472435577.run(TempTestSuite1742472435577.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+</property>
+  <property name="failed.exception.class">com.kms.katalon.core.exception.StepFailedException</property>
+  <property name="testops-is-assertion">true</property>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.verifyTextNotPresent</property>
+  <property name="testops-execution-stacktrace">com.kms.katalon.core.logging.testops.TestOpsLogHelper.handleFailedLogEntry(TestOpsLogHelper.java:112)
+com.kms.katalon.core.logging.KeywordLogger.logFailed(KeywordLogger.java:290)
+com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:34)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.doCall(VerifyTextNotPresentKeyword.groovy:77)
+com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.call(VerifyTextNotPresentKeyword.groovy)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.verifyTextNotPresent(VerifyTextNotPresentKeyword.groovy:82)
+com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.execute(VerifyTextNotPresentKeyword.groovy:68)
+com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextNotPresent(WebUiBuiltInKeywords.groovy:1795)
+Выполнение бизнес-плана отображение данных все филиалы.Test(Выполнение бизнес-плана отображение данных все филиалы:849)
+Выполнение бизнес-плана отображение данных все филиалы.Change(Выполнение бизнес-плана отображение данных все филиалы:827)
+Выполнение бизнес-плана отображение данных все филиалы.DzoTest(Выполнение бизнес-плана отображение данных все филиалы:709)
+Выполнение бизнес-плана отображение данных все филиалы.run(Выполнение бизнес-плана отображение данных все филиалы:136)
+</property>
+  <property name="failed.exception.message">Text &apos;нет данных&apos; is present on page </property>
+</record>
+<record>
+  <date>2025-03-20T14:52:14.929314700Z</date>
+  <millis>1742482334929</millis>
+  <nanos>314700</nanos>
+  <sequence>30859</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (verifyTextNotPresent(&amp;quot;нет данных&amp;quot;, false) == true)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:52:14.929314700Z</date>
+  <millis>1742482334929</millis>
+  <nanos>314700</nanos>
+  <sequence>30860</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : else</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">866</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2025-03-20T14:52:14.929314700Z</date>
+  <millis>1742482334929</millis>
+  <nanos>314700</nanos>
+  <sequence>30861</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Script1687256706913.WriteToExcel(todaysDate, typeOfData)</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">867</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2025-03-20T14:52:14.929314700Z</date>
+  <millis>1742482334929</millis>
+  <nanos>314700</nanos>
+  <sequence>30862</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Script1687256706913.WriteToExcel(todaysDate, typeOfData)</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:52:14.929314700Z</date>
+  <millis>1742482334929</millis>
+  <nanos>314700</nanos>
+  <sequence>30863</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : else</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:52:14.929314700Z</date>
+  <millis>1742482334929</millis>
+  <nanos>314700</nanos>
+  <sequence>30864</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : sheetName = &amp;quot;Sheet1&amp;quot;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">882</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2025-03-20T14:52:14.929314700Z</date>
+  <millis>1742482334929</millis>
+  <nanos>314700</nanos>
+  <sequence>30865</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : sheetName = &amp;quot;Sheet1&amp;quot;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:52:14.929314700Z</date>
+  <millis>1742482334929</millis>
+  <nanos>314700</nanos>
+  <sequence>30866</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : data = findTestData(&amp;quot;PlanFact&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">884</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2025-03-20T14:52:14.976181900Z</date>
+  <millis>1742482334976</millis>
+  <nanos>181900</nanos>
+  <sequence>30871</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : data = findTestData(&amp;quot;PlanFact&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:52:14.976181900Z</date>
+  <millis>1742482334976</millis>
+  <nanos>181900</nanos>
+  <sequence>30872</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : n = data.getRowNumbers() + 1</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">886</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2025-03-20T14:52:14.976181900Z</date>
+  <millis>1742482334976</millis>
+  <nanos>181900</nanos>
+  <sequence>30873</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : n = data.getRowNumbers() + 1</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:52:14.976181900Z</date>
+  <millis>1742482334976</millis>
+  <nanos>181900</nanos>
+  <sequence>30874</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : dZO = getText(findTestObject(&amp;quot;Выполнение бизнес-плана/Фильтр ДЗО&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">888</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2025-03-20T14:52:15.272987100Z</date>
+  <millis>1742482335272</millis>
+  <nanos>987100</nanos>
+  <sequence>30883</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text of object &amp;apos;Object Repository/Выполнение бизнес-плана/Фильтр ДЗО&amp;apos; is: &amp;apos;ПАО Россети - РаспредКомплекс - Россети Центр и Приволжье (ГК) - Калугаэнерго&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-03-20T14:52:15.272987100Z</date>
+  <millis>1742482335272</millis>
+  <nanos>987100</nanos>
+  <sequence>30884</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : dZO = getText(findTestObject(&amp;quot;Выполнение бизнес-плана/Фильтр ДЗО&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:52:15.272987100Z</date>
+  <millis>1742482335272</millis>
+  <nanos>987100</nanos>
+  <sequence>30885</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : i = dZO.indexOf(&amp;quot; - &amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">890</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2025-03-20T14:52:15.272987100Z</date>
+  <millis>1742482335272</millis>
+  <nanos>987100</nanos>
+  <sequence>30886</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : i = dZO.indexOf(&amp;quot; - &amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:52:15.272987100Z</date>
+  <millis>1742482335272</millis>
+  <nanos>987100</nanos>
+  <sequence>30887</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : dZO1 = &amp;lt;not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression&amp;gt;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">892</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2025-03-20T14:52:15.272987100Z</date>
+  <millis>1742482335272</millis>
+  <nanos>987100</nanos>
+  <sequence>30888</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : dZO1 = &amp;lt;not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression&amp;gt;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:52:15.272987100Z</date>
+  <millis>1742482335272</millis>
+  <nanos>987100</nanos>
+  <sequence>30889</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : dZO2 = &amp;lt;not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression&amp;gt;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">894</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2025-03-20T14:52:15.272987100Z</date>
+  <millis>1742482335272</millis>
+  <nanos>987100</nanos>
+  <sequence>30890</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : dZO2 = &amp;lt;not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression&amp;gt;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:52:15.272987100Z</date>
+  <millis>1742482335272</millis>
+  <nanos>987100</nanos>
+  <sequence>30891</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : dZO3 = &amp;lt;not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression&amp;gt;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">896</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2025-03-20T14:52:15.272987100Z</date>
+  <millis>1742482335272</millis>
+  <nanos>987100</nanos>
+  <sequence>30892</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : dZO3 = &amp;lt;not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression&amp;gt;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:52:15.272987100Z</date>
+  <millis>1742482335272</millis>
+  <nanos>987100</nanos>
+  <sequence>30893</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : dZO4 = &amp;lt;not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression&amp;gt;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">898</property>
+  <property name="stepIndex">9</property>
+</record>
+<record>
+  <date>2025-03-20T14:52:15.272987100Z</date>
+  <millis>1742482335272</millis>
+  <nanos>987100</nanos>
+  <sequence>30894</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : dZO4 = &amp;lt;not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression&amp;gt;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:52:15.272987100Z</date>
+  <millis>1742482335272</millis>
+  <nanos>987100</nanos>
+  <sequence>30895</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (i &amp;gt; -1)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">900</property>
+  <property name="stepIndex">10</property>
+</record>
+<record>
+  <date>2025-03-20T14:52:15.272987100Z</date>
+  <millis>1742482335272</millis>
+  <nanos>987100</nanos>
+  <sequence>30896</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : dZO1 = dZO.substring(0, i)</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">901</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2025-03-20T14:52:15.272987100Z</date>
+  <millis>1742482335272</millis>
+  <nanos>987100</nanos>
+  <sequence>30897</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : dZO1 = dZO.substring(0, i)</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:52:15.272987100Z</date>
+  <millis>1742482335272</millis>
+  <nanos>987100</nanos>
+  <sequence>30898</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : dZO1 = dZO1.trim()</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">903</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2025-03-20T14:52:15.272987100Z</date>
+  <millis>1742482335272</millis>
+  <nanos>987100</nanos>
+  <sequence>30899</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : dZO1 = dZO1.trim()</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:52:15.272987100Z</date>
+  <millis>1742482335272</millis>
+  <nanos>987100</nanos>
+  <sequence>30900</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(&amp;quot;dZO1:&amp;quot; + dZO1)</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">905</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2025-03-20T14:52:15.272987100Z</date>
+  <millis>1742482335272</millis>
+  <nanos>987100</nanos>
+  <sequence>30901</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(&amp;quot;dZO1:&amp;quot; + dZO1)</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:52:15.272987100Z</date>
+  <millis>1742482335272</millis>
+  <nanos>987100</nanos>
+  <sequence>30902</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : i = dZO1.length() + 2</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">907</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2025-03-20T14:52:15.272987100Z</date>
+  <millis>1742482335272</millis>
+  <nanos>987100</nanos>
+  <sequence>30903</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : i = dZO1.length() + 2</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:52:15.272987100Z</date>
+  <millis>1742482335272</millis>
+  <nanos>987100</nanos>
+  <sequence>30904</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : dZO = dZO.substring(i)</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">909</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2025-03-20T14:52:15.272987100Z</date>
+  <millis>1742482335272</millis>
+  <nanos>987100</nanos>
+  <sequence>30905</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : dZO = dZO.substring(i)</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:52:15.272987100Z</date>
+  <millis>1742482335272</millis>
+  <nanos>987100</nanos>
+  <sequence>30906</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : dZO = dZO.trim()</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">911</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2025-03-20T14:52:15.272987100Z</date>
+  <millis>1742482335272</millis>
+  <nanos>987100</nanos>
+  <sequence>30907</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : dZO = dZO.trim()</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:52:15.272987100Z</date>
+  <millis>1742482335272</millis>
+  <nanos>987100</nanos>
+  <sequence>30908</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(dZO)</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">913</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2025-03-20T14:52:15.272987100Z</date>
+  <millis>1742482335272</millis>
+  <nanos>987100</nanos>
+  <sequence>30909</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(dZO)</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:52:15.272987100Z</date>
+  <millis>1742482335272</millis>
+  <nanos>987100</nanos>
+  <sequence>30910</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : i = dZO.indexOf(&amp;quot; - &amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">915</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2025-03-20T14:52:15.272987100Z</date>
+  <millis>1742482335272</millis>
+  <nanos>987100</nanos>
+  <sequence>30911</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : i = dZO.indexOf(&amp;quot; - &amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:52:15.272987100Z</date>
+  <millis>1742482335272</millis>
+  <nanos>987100</nanos>
+  <sequence>30912</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (i &amp;gt; -1)</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">917</property>
+  <property name="stepIndex">9</property>
+</record>
+<record>
+  <date>2025-03-20T14:52:15.272987100Z</date>
+  <millis>1742482335272</millis>
+  <nanos>987100</nanos>
+  <sequence>30913</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : dZO2 = dZO.substring(0, i)</message>
+  <nestedLevel>3</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">918</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2025-03-20T14:52:15.272987100Z</date>
+  <millis>1742482335272</millis>
+  <nanos>987100</nanos>
+  <sequence>30914</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : dZO2 = dZO.substring(0, i)</message>
+  <nestedLevel>3</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:52:15.272987100Z</date>
+  <millis>1742482335272</millis>
+  <nanos>987100</nanos>
+  <sequence>30915</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : dZO2 = dZO2.trim()</message>
+  <nestedLevel>3</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">920</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2025-03-20T14:52:15.272987100Z</date>
+  <millis>1742482335272</millis>
+  <nanos>987100</nanos>
+  <sequence>30916</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : dZO2 = dZO2.trim()</message>
+  <nestedLevel>3</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:52:15.272987100Z</date>
+  <millis>1742482335272</millis>
+  <nanos>987100</nanos>
+  <sequence>30917</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(&amp;quot;dZO2:&amp;quot; + dZO2)</message>
+  <nestedLevel>3</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">922</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2025-03-20T14:52:15.272987100Z</date>
+  <millis>1742482335272</millis>
+  <nanos>987100</nanos>
+  <sequence>30918</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(&amp;quot;dZO2:&amp;quot; + dZO2)</message>
+  <nestedLevel>3</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:52:15.272987100Z</date>
+  <millis>1742482335272</millis>
+  <nanos>987100</nanos>
+  <sequence>30919</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : i = dZO2.length() + 2</message>
+  <nestedLevel>3</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">924</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2025-03-20T14:52:15.272987100Z</date>
+  <millis>1742482335272</millis>
+  <nanos>987100</nanos>
+  <sequence>30920</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : i = dZO2.length() + 2</message>
+  <nestedLevel>3</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:52:15.272987100Z</date>
+  <millis>1742482335272</millis>
+  <nanos>987100</nanos>
+  <sequence>30921</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : dZO = dZO.substring(i)</message>
+  <nestedLevel>3</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">926</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2025-03-20T14:52:15.272987100Z</date>
+  <millis>1742482335272</millis>
+  <nanos>987100</nanos>
+  <sequence>30922</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : dZO = dZO.substring(i)</message>
+  <nestedLevel>3</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:52:15.272987100Z</date>
+  <millis>1742482335272</millis>
+  <nanos>987100</nanos>
+  <sequence>30923</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : dZO = dZO.trim()</message>
+  <nestedLevel>3</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">928</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2025-03-20T14:52:15.272987100Z</date>
+  <millis>1742482335272</millis>
+  <nanos>987100</nanos>
+  <sequence>30924</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : dZO = dZO.trim()</message>
+  <nestedLevel>3</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:52:15.272987100Z</date>
+  <millis>1742482335272</millis>
+  <nanos>987100</nanos>
+  <sequence>30925</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(dZO)</message>
+  <nestedLevel>3</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">930</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2025-03-20T14:52:15.272987100Z</date>
+  <millis>1742482335272</millis>
+  <nanos>987100</nanos>
+  <sequence>30926</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(dZO)</message>
+  <nestedLevel>3</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:52:15.272987100Z</date>
+  <millis>1742482335272</millis>
+  <nanos>987100</nanos>
+  <sequence>30927</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : i = dZO.indexOf(&amp;quot; - &amp;quot;)</message>
+  <nestedLevel>3</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">932</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2025-03-20T14:52:15.272987100Z</date>
+  <millis>1742482335272</millis>
+  <nanos>987100</nanos>
+  <sequence>30928</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : i = dZO.indexOf(&amp;quot; - &amp;quot;)</message>
+  <nestedLevel>3</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:52:15.272987100Z</date>
+  <millis>1742482335272</millis>
+  <nanos>987100</nanos>
+  <sequence>30929</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (i &amp;gt; -1)</message>
+  <nestedLevel>3</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">934</property>
+  <property name="stepIndex">9</property>
+</record>
+<record>
+  <date>2025-03-20T14:52:15.272987100Z</date>
+  <millis>1742482335272</millis>
+  <nanos>987100</nanos>
+  <sequence>30930</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : dZO3 = dZO.substring(0, i)</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">935</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2025-03-20T14:52:15.272987100Z</date>
+  <millis>1742482335272</millis>
+  <nanos>987100</nanos>
+  <sequence>30931</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : dZO3 = dZO.substring(0, i)</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:52:15.272987100Z</date>
+  <millis>1742482335272</millis>
+  <nanos>987100</nanos>
+  <sequence>30932</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : dZO3 = dZO3.trim()</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">937</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2025-03-20T14:52:15.272987100Z</date>
+  <millis>1742482335272</millis>
+  <nanos>987100</nanos>
+  <sequence>30933</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : dZO3 = dZO3.trim()</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:52:15.272987100Z</date>
+  <millis>1742482335272</millis>
+  <nanos>987100</nanos>
+  <sequence>30934</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(&amp;quot;dZO3:&amp;quot; + dZO3)</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">939</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2025-03-20T14:52:15.272987100Z</date>
+  <millis>1742482335272</millis>
+  <nanos>987100</nanos>
+  <sequence>30935</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(&amp;quot;dZO3:&amp;quot; + dZO3)</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:52:15.272987100Z</date>
+  <millis>1742482335272</millis>
+  <nanos>987100</nanos>
+  <sequence>30936</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : i = dZO3.length() + 2</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">941</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2025-03-20T14:52:15.272987100Z</date>
+  <millis>1742482335272</millis>
+  <nanos>987100</nanos>
+  <sequence>30937</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : i = dZO3.length() + 2</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:52:15.272987100Z</date>
+  <millis>1742482335272</millis>
+  <nanos>987100</nanos>
+  <sequence>30938</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : dZO = dZO.substring(i)</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">943</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2025-03-20T14:52:15.272987100Z</date>
+  <millis>1742482335272</millis>
+  <nanos>987100</nanos>
+  <sequence>30939</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : dZO = dZO.substring(i)</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:52:15.272987100Z</date>
+  <millis>1742482335272</millis>
+  <nanos>987100</nanos>
+  <sequence>30940</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : dZO = dZO.trim()</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">945</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2025-03-20T14:52:15.272987100Z</date>
+  <millis>1742482335272</millis>
+  <nanos>987100</nanos>
+  <sequence>30941</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : dZO = dZO.trim()</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:52:15.272987100Z</date>
+  <millis>1742482335272</millis>
+  <nanos>987100</nanos>
+  <sequence>30942</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(dZO)</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">947</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2025-03-20T14:52:15.272987100Z</date>
+  <millis>1742482335272</millis>
+  <nanos>987100</nanos>
+  <sequence>30943</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(dZO)</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:52:15.272987100Z</date>
+  <millis>1742482335272</millis>
+  <nanos>987100</nanos>
+  <sequence>30944</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : dZO4 = dZO</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">949</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2025-03-20T14:52:15.272987100Z</date>
+  <millis>1742482335272</millis>
+  <nanos>987100</nanos>
+  <sequence>30945</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : dZO4 = dZO</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:52:15.272987100Z</date>
+  <millis>1742482335272</millis>
+  <nanos>987100</nanos>
+  <sequence>30946</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(&amp;quot;dZO4:&amp;quot; + dZO4)</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">951</property>
+  <property name="stepIndex">9</property>
+</record>
+<record>
+  <date>2025-03-20T14:52:15.272987100Z</date>
+  <millis>1742482335272</millis>
+  <nanos>987100</nanos>
+  <sequence>30947</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(&amp;quot;dZO4:&amp;quot; + dZO4)</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:52:15.272987100Z</date>
+  <millis>1742482335272</millis>
+  <nanos>987100</nanos>
+  <sequence>30948</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (i &amp;gt; -1)</message>
+  <nestedLevel>3</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:52:15.272987100Z</date>
+  <millis>1742482335272</millis>
+  <nanos>987100</nanos>
+  <sequence>30949</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (i &amp;gt; -1)</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:52:15.272987100Z</date>
+  <millis>1742482335272</millis>
+  <nanos>987100</nanos>
+  <sequence>30950</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (i &amp;gt; -1)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:52:15.272987100Z</date>
+  <millis>1742482335272</millis>
+  <nanos>987100</nanos>
+  <sequence>30951</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : date = getText(findTestObject(&amp;quot;Выполнение бизнес-плана/Фильтр Дата&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">974</property>
+  <property name="stepIndex">12</property>
+</record>
+<record>
+  <date>2025-03-20T14:52:15.554168800Z</date>
+  <millis>1742482335554</millis>
+  <nanos>168800</nanos>
+  <sequence>30960</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text of object &amp;apos;Object Repository/Выполнение бизнес-плана/Фильтр Дата&amp;apos; is: &amp;apos;Январь 2025 года&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-03-20T14:52:15.554168800Z</date>
+  <millis>1742482335554</millis>
+  <nanos>168800</nanos>
+  <sequence>30961</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : date = getText(findTestObject(&amp;quot;Выполнение бизнес-плана/Фильтр Дата&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:52:15.554168800Z</date>
+  <millis>1742482335554</millis>
+  <nanos>168800</nanos>
+  <sequence>30962</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(date)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">976</property>
+  <property name="stepIndex">13</property>
+</record>
+<record>
+  <date>2025-03-20T14:52:15.554168800Z</date>
+  <millis>1742482335554</millis>
+  <nanos>168800</nanos>
+  <sequence>30963</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(date)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:52:15.554168800Z</date>
+  <millis>1742482335554</millis>
+  <nanos>168800</nanos>
+  <sequence>30964</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : dashboardName = &amp;quot;Выполнение бизнес-плана&amp;quot;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">978</property>
+  <property name="stepIndex">14</property>
+</record>
+<record>
+  <date>2025-03-20T14:52:15.554168800Z</date>
+  <millis>1742482335554</millis>
+  <nanos>168800</nanos>
+  <sequence>30965</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : dashboardName = &amp;quot;Выполнение бизнес-плана&amp;quot;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:52:15.554168800Z</date>
+  <millis>1742482335554</millis>
+  <nanos>168800</nanos>
+  <sequence>30966</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : workbook01 = getWorkbook(excelFilePath)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">980</property>
+  <property name="stepIndex">15</property>
+</record>
+<record>
+  <date>2025-03-20T14:52:15.601036300Z</date>
+  <millis>1742482335601</millis>
+  <nanos>36300</nanos>
+  <sequence>30967</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : workbook01 = getWorkbook(excelFilePath)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:52:15.601036300Z</date>
+  <millis>1742482335601</millis>
+  <nanos>36300</nanos>
+  <sequence>30968</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : sheet01 = getExcelSheet(workbook01, sheetName)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">982</property>
+  <property name="stepIndex">16</property>
+</record>
+<record>
+  <date>2025-03-20T14:52:15.601036300Z</date>
+  <millis>1742482335601</millis>
+  <nanos>36300</nanos>
+  <sequence>30969</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : sheet01 = getExcelSheet(workbook01, sheetName)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:52:15.601036300Z</date>
+  <millis>1742482335601</millis>
+  <nanos>36300</nanos>
+  <sequence>30970</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setValueToCellByIndex(sheet01, n, 0, dashboardName)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">984</property>
+  <property name="stepIndex">17</property>
+</record>
+<record>
+  <date>2025-03-20T14:52:15.601036300Z</date>
+  <millis>1742482335601</millis>
+  <nanos>36300</nanos>
+  <sequence>30971</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setValueToCellByIndex(sheet01, n, 0, dashboardName)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:52:15.601036300Z</date>
+  <millis>1742482335601</millis>
+  <nanos>36300</nanos>
+  <sequence>30972</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setValueToCellByIndex(sheet01, n, 1, dZO1)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">986</property>
+  <property name="stepIndex">18</property>
+</record>
+<record>
+  <date>2025-03-20T14:52:15.601036300Z</date>
+  <millis>1742482335601</millis>
+  <nanos>36300</nanos>
+  <sequence>30973</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setValueToCellByIndex(sheet01, n, 1, dZO1)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:52:15.601036300Z</date>
+  <millis>1742482335601</millis>
+  <nanos>36300</nanos>
+  <sequence>30974</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setValueToCellByIndex(sheet01, n, 2, dZO2)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">988</property>
+  <property name="stepIndex">19</property>
+</record>
+<record>
+  <date>2025-03-20T14:52:15.601036300Z</date>
+  <millis>1742482335601</millis>
+  <nanos>36300</nanos>
+  <sequence>30975</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setValueToCellByIndex(sheet01, n, 2, dZO2)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:52:15.601036300Z</date>
+  <millis>1742482335601</millis>
+  <nanos>36300</nanos>
+  <sequence>30976</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setValueToCellByIndex(sheet01, n, 3, dZO3)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">990</property>
+  <property name="stepIndex">20</property>
+</record>
+<record>
+  <date>2025-03-20T14:52:15.601036300Z</date>
+  <millis>1742482335601</millis>
+  <nanos>36300</nanos>
+  <sequence>30977</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setValueToCellByIndex(sheet01, n, 3, dZO3)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:52:15.601036300Z</date>
+  <millis>1742482335601</millis>
+  <nanos>36300</nanos>
+  <sequence>30978</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setValueToCellByIndex(sheet01, n, 4, dZO4)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">992</property>
+  <property name="stepIndex">21</property>
+</record>
+<record>
+  <date>2025-03-20T14:52:15.601036300Z</date>
+  <millis>1742482335601</millis>
+  <nanos>36300</nanos>
+  <sequence>30979</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setValueToCellByIndex(sheet01, n, 4, dZO4)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:52:15.601036300Z</date>
+  <millis>1742482335601</millis>
+  <nanos>36300</nanos>
+  <sequence>30980</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setValueToCellByIndex(sheet01, n, 5, date)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">994</property>
+  <property name="stepIndex">22</property>
+</record>
+<record>
+  <date>2025-03-20T14:52:15.601036300Z</date>
+  <millis>1742482335601</millis>
+  <nanos>36300</nanos>
+  <sequence>30981</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setValueToCellByIndex(sheet01, n, 5, date)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:52:15.601036300Z</date>
+  <millis>1742482335601</millis>
+  <nanos>36300</nanos>
+  <sequence>30982</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setValueToCellByIndex(sheet01, n, 6, typeOfData)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">996</property>
+  <property name="stepIndex">23</property>
+</record>
+<record>
+  <date>2025-03-20T14:52:15.601036300Z</date>
+  <millis>1742482335601</millis>
+  <nanos>36300</nanos>
+  <sequence>30983</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setValueToCellByIndex(sheet01, n, 6, typeOfData)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:52:15.601036300Z</date>
+  <millis>1742482335601</millis>
+  <nanos>36300</nanos>
+  <sequence>30984</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setValueToCellByIndex(sheet01, n, 7, todaysDate)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">998</property>
+  <property name="stepIndex">24</property>
+</record>
+<record>
+  <date>2025-03-20T14:52:15.601036300Z</date>
+  <millis>1742482335601</millis>
+  <nanos>36300</nanos>
+  <sequence>30985</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setValueToCellByIndex(sheet01, n, 7, todaysDate)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:52:15.601036300Z</date>
+  <millis>1742482335601</millis>
+  <nanos>36300</nanos>
+  <sequence>30986</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : n = n + 1</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">1000</property>
+  <property name="stepIndex">25</property>
+</record>
+<record>
+  <date>2025-03-20T14:52:15.601036300Z</date>
+  <millis>1742482335601</millis>
+  <nanos>36300</nanos>
+  <sequence>30987</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : n = n + 1</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:52:15.601036300Z</date>
+  <millis>1742482335601</millis>
+  <nanos>36300</nanos>
+  <sequence>30988</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : saveWorkbook(excelFilePath, workbook01)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">1002</property>
+  <property name="stepIndex">26</property>
+</record>
+<record>
+  <date>2025-03-20T14:52:15.835354200Z</date>
+  <millis>1742482335835</millis>
+  <nanos>354200</nanos>
+  <sequence>30989</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : saveWorkbook(excelFilePath, workbook01)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:52:15.835354200Z</date>
+  <millis>1742482335835</millis>
+  <nanos>354200</nanos>
+  <sequence>30990</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : typeOfData = &amp;quot;План&amp;quot;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">829</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2025-03-20T14:52:15.835354200Z</date>
+  <millis>1742482335835</millis>
+  <nanos>354200</nanos>
+  <sequence>30991</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : typeOfData = &amp;quot;План&amp;quot;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:52:15.835354200Z</date>
+  <millis>1742482335835</millis>
+  <nanos>354200</nanos>
+  <sequence>30992</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(&amp;quot;Выполнение бизнес-плана/Кнопка План&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">831</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2025-03-20T14:52:16.153618Z</date>
+  <millis>1742482336153</millis>
+  <nanos>618000</nanos>
+  <sequence>31002</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Выполнение бизнес-плана/Кнопка План&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-03-20T14:52:16.153618Z</date>
+  <millis>1742482336153</millis>
+  <nanos>618000</nanos>
+  <sequence>31003</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(&amp;quot;Выполнение бизнес-плана/Кнопка План&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:52:16.153618Z</date>
+  <millis>1742482336153</millis>
+  <nanos>618000</nanos>
+  <sequence>31004</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Script1687256706913.Test(todaysDate, typeOfData)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">833</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2025-03-20T14:52:16.153618Z</date>
+  <millis>1742482336153</millis>
+  <nanos>618000</nanos>
+  <sequence>31005</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Script1687256706913.Test(todaysDate, typeOfData)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:52:16.153618Z</date>
+  <millis>1742482336153</millis>
+  <nanos>618000</nanos>
+  <sequence>31006</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(50)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">845</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2025-03-20T14:53:06.162372900Z</date>
+  <millis>1742482386162</millis>
+  <nanos>372900</nanos>
+  <sequence>31008</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 50 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.builtin.DelayKeyword.delay</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-03-20T14:53:06.162372900Z</date>
+  <millis>1742482386162</millis>
+  <nanos>372900</nanos>
+  <sequence>31009</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(50)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:53:06.162372900Z</date>
+  <millis>1742482386162</millis>
+  <nanos>372900</nanos>
+  <sequence>31010</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Script1687256706913.ZakrytOpoveshenie()</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">847</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2025-03-20T14:53:06.162372900Z</date>
+  <millis>1742482386162</millis>
+  <nanos>372900</nanos>
+  <sequence>31011</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Script1687256706913.ZakrytOpoveshenie()</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:53:06.162372900Z</date>
+  <millis>1742482386162</millis>
+  <nanos>372900</nanos>
+  <sequence>31012</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : opoveshenie = getText(findTestObject(&amp;quot;Выполнение бизнес-плана/Просьба обратить внимание&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">872</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2025-03-20T14:53:06.443557500Z</date>
+  <millis>1742482386443</millis>
+  <nanos>557500</nanos>
+  <sequence>31021</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text of object &amp;apos;Object Repository/Выполнение бизнес-плана/Просьба обратить внимание&amp;apos; is: &amp;apos;&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-03-20T14:53:06.443557500Z</date>
+  <millis>1742482386443</millis>
+  <nanos>557500</nanos>
+  <sequence>31022</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : opoveshenie = getText(findTestObject(&amp;quot;Выполнение бизнес-плана/Просьба обратить внимание&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:53:06.443557500Z</date>
+  <millis>1742482386443</millis>
+  <nanos>557500</nanos>
+  <sequence>31023</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(opoveshenie)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">874</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2025-03-20T14:53:06.443557500Z</date>
+  <millis>1742482386443</millis>
+  <nanos>557500</nanos>
+  <sequence>31024</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(opoveshenie)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:53:06.443557500Z</date>
+  <millis>1742482386443</millis>
+  <nanos>557500</nanos>
+  <sequence>31025</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (opoveshenie == &amp;quot;Просьба обратить внимание&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">876</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2025-03-20T14:53:06.443557500Z</date>
+  <millis>1742482386443</millis>
+  <nanos>557500</nanos>
+  <sequence>31026</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (opoveshenie == &amp;quot;Просьба обратить внимание&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:53:06.443557500Z</date>
+  <millis>1742482386443</millis>
+  <nanos>557500</nanos>
+  <sequence>31027</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (verifyTextNotPresent(&amp;quot;нет данных&amp;quot;, false) == true)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">849</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2025-03-20T14:53:07.902671Z</date>
+  <millis>1742482387902</millis>
+  <nanos>671000</nanos>
+  <sequence>31034</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;нет данных&amp;apos; is present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text &amp;apos;нет данных&amp;apos; is present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.doCall(VerifyTextNotPresentKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.call(VerifyTextNotPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.verifyTextNotPresent(VerifyTextNotPresentKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.execute(VerifyTextNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextNotPresent(WebUiBuiltInKeywords.groovy:1795)
+	at Выполнение бизнес-плана отображение данных все филиалы.Test(Выполнение бизнес-плана отображение данных все филиалы:849)
+	at Выполнение бизнес-плана отображение данных все филиалы.Change(Выполнение бизнес-плана отображение данных все филиалы:833)
+	at Выполнение бизнес-плана отображение данных все филиалы.DzoTest(Выполнение бизнес-плана отображение данных все филиалы:709)
+	at Выполнение бизнес-плана отображение данных все филиалы.run(Выполнение бизнес-плана отображение данных все филиалы:136)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1742472435577.run(TempTestSuite1742472435577.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.stacktrace">com.kms.katalon.core.exception.StepFailedException: Text &apos;нет данных&apos; is present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.doCall(VerifyTextNotPresentKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.call(VerifyTextNotPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.verifyTextNotPresent(VerifyTextNotPresentKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.execute(VerifyTextNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextNotPresent(WebUiBuiltInKeywords.groovy:1795)
+	at Выполнение бизнес-плана отображение данных все филиалы.Test(Выполнение бизнес-плана отображение данных все филиалы:849)
+	at Выполнение бизнес-плана отображение данных все филиалы.Change(Выполнение бизнес-плана отображение данных все филиалы:833)
+	at Выполнение бизнес-плана отображение данных все филиалы.DzoTest(Выполнение бизнес-плана отображение данных все филиалы:709)
+	at Выполнение бизнес-плана отображение данных все филиалы.run(Выполнение бизнес-плана отображение данных все филиалы:136)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1742472435577.run(TempTestSuite1742472435577.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+</property>
+  <property name="failed.exception.class">com.kms.katalon.core.exception.StepFailedException</property>
+  <property name="testops-is-assertion">true</property>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.verifyTextNotPresent</property>
+  <property name="testops-execution-stacktrace">com.kms.katalon.core.logging.testops.TestOpsLogHelper.handleFailedLogEntry(TestOpsLogHelper.java:112)
+com.kms.katalon.core.logging.KeywordLogger.logFailed(KeywordLogger.java:290)
+com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:34)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.doCall(VerifyTextNotPresentKeyword.groovy:77)
+com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.call(VerifyTextNotPresentKeyword.groovy)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.verifyTextNotPresent(VerifyTextNotPresentKeyword.groovy:82)
+com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.execute(VerifyTextNotPresentKeyword.groovy:68)
+com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextNotPresent(WebUiBuiltInKeywords.groovy:1795)
+Выполнение бизнес-плана отображение данных все филиалы.Test(Выполнение бизнес-плана отображение данных все филиалы:849)
+Выполнение бизнес-плана отображение данных все филиалы.Change(Выполнение бизнес-плана отображение данных все филиалы:833)
+Выполнение бизнес-плана отображение данных все филиалы.DzoTest(Выполнение бизнес-плана отображение данных все филиалы:709)
+Выполнение бизнес-плана отображение данных все филиалы.run(Выполнение бизнес-плана отображение данных все филиалы:136)
+</property>
+  <property name="failed.exception.message">Text &apos;нет данных&apos; is present on page </property>
+</record>
+<record>
+  <date>2025-03-20T14:53:07.912354Z</date>
+  <millis>1742482387912</millis>
+  <nanos>354000</nanos>
+  <sequence>31035</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (verifyTextNotPresent(&amp;quot;нет данных&amp;quot;, false) == true)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:53:07.912354Z</date>
+  <millis>1742482387912</millis>
+  <nanos>354000</nanos>
+  <sequence>31036</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : else</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">866</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2025-03-20T14:53:07.912354Z</date>
+  <millis>1742482387912</millis>
+  <nanos>354000</nanos>
+  <sequence>31037</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Script1687256706913.WriteToExcel(todaysDate, typeOfData)</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">867</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2025-03-20T14:53:07.912354Z</date>
+  <millis>1742482387912</millis>
+  <nanos>354000</nanos>
+  <sequence>31038</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Script1687256706913.WriteToExcel(todaysDate, typeOfData)</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:53:07.912354Z</date>
+  <millis>1742482387912</millis>
+  <nanos>354000</nanos>
+  <sequence>31039</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : else</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:53:07.912354Z</date>
+  <millis>1742482387912</millis>
+  <nanos>354000</nanos>
+  <sequence>31040</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : sheetName = &amp;quot;Sheet1&amp;quot;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">882</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2025-03-20T14:53:07.912354Z</date>
+  <millis>1742482387912</millis>
+  <nanos>354000</nanos>
+  <sequence>31041</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : sheetName = &amp;quot;Sheet1&amp;quot;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:53:07.912354Z</date>
+  <millis>1742482387912</millis>
+  <nanos>354000</nanos>
+  <sequence>31042</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : data = findTestData(&amp;quot;PlanFact&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">884</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2025-03-20T14:53:07.962256100Z</date>
+  <millis>1742482387962</millis>
+  <nanos>256100</nanos>
+  <sequence>31047</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : data = findTestData(&amp;quot;PlanFact&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:53:07.962256100Z</date>
+  <millis>1742482387962</millis>
+  <nanos>256100</nanos>
+  <sequence>31048</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : n = data.getRowNumbers() + 1</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">886</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2025-03-20T14:53:07.962256100Z</date>
+  <millis>1742482387962</millis>
+  <nanos>256100</nanos>
+  <sequence>31049</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : n = data.getRowNumbers() + 1</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:53:07.962256100Z</date>
+  <millis>1742482387962</millis>
+  <nanos>256100</nanos>
+  <sequence>31050</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : dZO = getText(findTestObject(&amp;quot;Выполнение бизнес-плана/Фильтр ДЗО&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">888</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2025-03-20T14:53:08.243442300Z</date>
+  <millis>1742482388243</millis>
+  <nanos>442300</nanos>
+  <sequence>31059</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text of object &amp;apos;Object Repository/Выполнение бизнес-плана/Фильтр ДЗО&amp;apos; is: &amp;apos;ПАО Россети - РаспредКомплекс - Россети Центр и Приволжье (ГК) - Калугаэнерго&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-03-20T14:53:08.243442300Z</date>
+  <millis>1742482388243</millis>
+  <nanos>442300</nanos>
+  <sequence>31060</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : dZO = getText(findTestObject(&amp;quot;Выполнение бизнес-плана/Фильтр ДЗО&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:53:08.243442300Z</date>
+  <millis>1742482388243</millis>
+  <nanos>442300</nanos>
+  <sequence>31061</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : i = dZO.indexOf(&amp;quot; - &amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">890</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2025-03-20T14:53:08.243442300Z</date>
+  <millis>1742482388243</millis>
+  <nanos>442300</nanos>
+  <sequence>31062</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : i = dZO.indexOf(&amp;quot; - &amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:53:08.243442300Z</date>
+  <millis>1742482388243</millis>
+  <nanos>442300</nanos>
+  <sequence>31063</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : dZO1 = &amp;lt;not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression&amp;gt;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">892</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2025-03-20T14:53:08.243442300Z</date>
+  <millis>1742482388243</millis>
+  <nanos>442300</nanos>
+  <sequence>31064</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : dZO1 = &amp;lt;not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression&amp;gt;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:53:08.243442300Z</date>
+  <millis>1742482388243</millis>
+  <nanos>442300</nanos>
+  <sequence>31065</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : dZO2 = &amp;lt;not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression&amp;gt;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">894</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2025-03-20T14:53:08.243442300Z</date>
+  <millis>1742482388243</millis>
+  <nanos>442300</nanos>
+  <sequence>31066</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : dZO2 = &amp;lt;not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression&amp;gt;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:53:08.243442300Z</date>
+  <millis>1742482388243</millis>
+  <nanos>442300</nanos>
+  <sequence>31067</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : dZO3 = &amp;lt;not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression&amp;gt;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">896</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2025-03-20T14:53:08.243442300Z</date>
+  <millis>1742482388243</millis>
+  <nanos>442300</nanos>
+  <sequence>31068</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : dZO3 = &amp;lt;not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression&amp;gt;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:53:08.243442300Z</date>
+  <millis>1742482388243</millis>
+  <nanos>442300</nanos>
+  <sequence>31069</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : dZO4 = &amp;lt;not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression&amp;gt;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">898</property>
+  <property name="stepIndex">9</property>
+</record>
+<record>
+  <date>2025-03-20T14:53:08.243442300Z</date>
+  <millis>1742482388243</millis>
+  <nanos>442300</nanos>
+  <sequence>31070</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : dZO4 = &amp;lt;not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression&amp;gt;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:53:08.243442300Z</date>
+  <millis>1742482388243</millis>
+  <nanos>442300</nanos>
+  <sequence>31071</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (i &amp;gt; -1)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">900</property>
+  <property name="stepIndex">10</property>
+</record>
+<record>
+  <date>2025-03-20T14:53:08.243442300Z</date>
+  <millis>1742482388243</millis>
+  <nanos>442300</nanos>
+  <sequence>31072</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : dZO1 = dZO.substring(0, i)</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">901</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2025-03-20T14:53:08.243442300Z</date>
+  <millis>1742482388243</millis>
+  <nanos>442300</nanos>
+  <sequence>31073</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : dZO1 = dZO.substring(0, i)</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:53:08.259062600Z</date>
+  <millis>1742482388259</millis>
+  <nanos>62600</nanos>
+  <sequence>31074</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : dZO1 = dZO1.trim()</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">903</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2025-03-20T14:53:08.259062600Z</date>
+  <millis>1742482388259</millis>
+  <nanos>62600</nanos>
+  <sequence>31075</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : dZO1 = dZO1.trim()</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:53:08.259062600Z</date>
+  <millis>1742482388259</millis>
+  <nanos>62600</nanos>
+  <sequence>31076</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(&amp;quot;dZO1:&amp;quot; + dZO1)</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">905</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2025-03-20T14:53:08.259062600Z</date>
+  <millis>1742482388259</millis>
+  <nanos>62600</nanos>
+  <sequence>31077</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(&amp;quot;dZO1:&amp;quot; + dZO1)</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:53:08.259062600Z</date>
+  <millis>1742482388259</millis>
+  <nanos>62600</nanos>
+  <sequence>31078</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : i = dZO1.length() + 2</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">907</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2025-03-20T14:53:08.259062600Z</date>
+  <millis>1742482388259</millis>
+  <nanos>62600</nanos>
+  <sequence>31079</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : i = dZO1.length() + 2</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:53:08.259062600Z</date>
+  <millis>1742482388259</millis>
+  <nanos>62600</nanos>
+  <sequence>31080</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : dZO = dZO.substring(i)</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">909</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2025-03-20T14:53:08.259062600Z</date>
+  <millis>1742482388259</millis>
+  <nanos>62600</nanos>
+  <sequence>31081</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : dZO = dZO.substring(i)</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:53:08.259062600Z</date>
+  <millis>1742482388259</millis>
+  <nanos>62600</nanos>
+  <sequence>31082</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : dZO = dZO.trim()</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">911</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2025-03-20T14:53:08.259062600Z</date>
+  <millis>1742482388259</millis>
+  <nanos>62600</nanos>
+  <sequence>31083</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : dZO = dZO.trim()</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:53:08.259062600Z</date>
+  <millis>1742482388259</millis>
+  <nanos>62600</nanos>
+  <sequence>31084</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(dZO)</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">913</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2025-03-20T14:53:08.259062600Z</date>
+  <millis>1742482388259</millis>
+  <nanos>62600</nanos>
+  <sequence>31085</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(dZO)</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:53:08.259062600Z</date>
+  <millis>1742482388259</millis>
+  <nanos>62600</nanos>
+  <sequence>31086</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : i = dZO.indexOf(&amp;quot; - &amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">915</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2025-03-20T14:53:08.259062600Z</date>
+  <millis>1742482388259</millis>
+  <nanos>62600</nanos>
+  <sequence>31087</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : i = dZO.indexOf(&amp;quot; - &amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:53:08.259062600Z</date>
+  <millis>1742482388259</millis>
+  <nanos>62600</nanos>
+  <sequence>31088</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (i &amp;gt; -1)</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">917</property>
+  <property name="stepIndex">9</property>
+</record>
+<record>
+  <date>2025-03-20T14:53:08.259062600Z</date>
+  <millis>1742482388259</millis>
+  <nanos>62600</nanos>
+  <sequence>31089</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : dZO2 = dZO.substring(0, i)</message>
+  <nestedLevel>3</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">918</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2025-03-20T14:53:08.259062600Z</date>
+  <millis>1742482388259</millis>
+  <nanos>62600</nanos>
+  <sequence>31090</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : dZO2 = dZO.substring(0, i)</message>
+  <nestedLevel>3</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:53:08.259062600Z</date>
+  <millis>1742482388259</millis>
+  <nanos>62600</nanos>
+  <sequence>31091</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : dZO2 = dZO2.trim()</message>
+  <nestedLevel>3</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">920</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2025-03-20T14:53:08.259062600Z</date>
+  <millis>1742482388259</millis>
+  <nanos>62600</nanos>
+  <sequence>31092</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : dZO2 = dZO2.trim()</message>
+  <nestedLevel>3</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:53:08.259062600Z</date>
+  <millis>1742482388259</millis>
+  <nanos>62600</nanos>
+  <sequence>31093</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(&amp;quot;dZO2:&amp;quot; + dZO2)</message>
+  <nestedLevel>3</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">922</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2025-03-20T14:53:08.259062600Z</date>
+  <millis>1742482388259</millis>
+  <nanos>62600</nanos>
+  <sequence>31094</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(&amp;quot;dZO2:&amp;quot; + dZO2)</message>
+  <nestedLevel>3</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:53:08.259062600Z</date>
+  <millis>1742482388259</millis>
+  <nanos>62600</nanos>
+  <sequence>31095</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : i = dZO2.length() + 2</message>
+  <nestedLevel>3</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">924</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2025-03-20T14:53:08.259062600Z</date>
+  <millis>1742482388259</millis>
+  <nanos>62600</nanos>
+  <sequence>31096</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : i = dZO2.length() + 2</message>
+  <nestedLevel>3</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:53:08.259062600Z</date>
+  <millis>1742482388259</millis>
+  <nanos>62600</nanos>
+  <sequence>31097</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : dZO = dZO.substring(i)</message>
+  <nestedLevel>3</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">926</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2025-03-20T14:53:08.259062600Z</date>
+  <millis>1742482388259</millis>
+  <nanos>62600</nanos>
+  <sequence>31098</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : dZO = dZO.substring(i)</message>
+  <nestedLevel>3</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:53:08.259062600Z</date>
+  <millis>1742482388259</millis>
+  <nanos>62600</nanos>
+  <sequence>31099</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : dZO = dZO.trim()</message>
+  <nestedLevel>3</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">928</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2025-03-20T14:53:08.259062600Z</date>
+  <millis>1742482388259</millis>
+  <nanos>62600</nanos>
+  <sequence>31100</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : dZO = dZO.trim()</message>
+  <nestedLevel>3</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:53:08.259062600Z</date>
+  <millis>1742482388259</millis>
+  <nanos>62600</nanos>
+  <sequence>31101</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(dZO)</message>
+  <nestedLevel>3</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">930</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2025-03-20T14:53:08.259062600Z</date>
+  <millis>1742482388259</millis>
+  <nanos>62600</nanos>
+  <sequence>31102</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(dZO)</message>
+  <nestedLevel>3</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:53:08.259062600Z</date>
+  <millis>1742482388259</millis>
+  <nanos>62600</nanos>
+  <sequence>31103</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : i = dZO.indexOf(&amp;quot; - &amp;quot;)</message>
+  <nestedLevel>3</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">932</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2025-03-20T14:53:08.259062600Z</date>
+  <millis>1742482388259</millis>
+  <nanos>62600</nanos>
+  <sequence>31104</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : i = dZO.indexOf(&amp;quot; - &amp;quot;)</message>
+  <nestedLevel>3</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:53:08.259062600Z</date>
+  <millis>1742482388259</millis>
+  <nanos>62600</nanos>
+  <sequence>31105</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (i &amp;gt; -1)</message>
+  <nestedLevel>3</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">934</property>
+  <property name="stepIndex">9</property>
+</record>
+<record>
+  <date>2025-03-20T14:53:08.259062600Z</date>
+  <millis>1742482388259</millis>
+  <nanos>62600</nanos>
+  <sequence>31106</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : dZO3 = dZO.substring(0, i)</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">935</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2025-03-20T14:53:08.259062600Z</date>
+  <millis>1742482388259</millis>
+  <nanos>62600</nanos>
+  <sequence>31107</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : dZO3 = dZO.substring(0, i)</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:53:08.259062600Z</date>
+  <millis>1742482388259</millis>
+  <nanos>62600</nanos>
+  <sequence>31108</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : dZO3 = dZO3.trim()</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">937</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2025-03-20T14:53:08.259062600Z</date>
+  <millis>1742482388259</millis>
+  <nanos>62600</nanos>
+  <sequence>31109</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : dZO3 = dZO3.trim()</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:53:08.259062600Z</date>
+  <millis>1742482388259</millis>
+  <nanos>62600</nanos>
+  <sequence>31110</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(&amp;quot;dZO3:&amp;quot; + dZO3)</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">939</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2025-03-20T14:53:08.259062600Z</date>
+  <millis>1742482388259</millis>
+  <nanos>62600</nanos>
+  <sequence>31111</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(&amp;quot;dZO3:&amp;quot; + dZO3)</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:53:08.259062600Z</date>
+  <millis>1742482388259</millis>
+  <nanos>62600</nanos>
+  <sequence>31112</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : i = dZO3.length() + 2</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">941</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2025-03-20T14:53:08.259062600Z</date>
+  <millis>1742482388259</millis>
+  <nanos>62600</nanos>
+  <sequence>31113</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : i = dZO3.length() + 2</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:53:08.259062600Z</date>
+  <millis>1742482388259</millis>
+  <nanos>62600</nanos>
+  <sequence>31114</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : dZO = dZO.substring(i)</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">943</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2025-03-20T14:53:08.259062600Z</date>
+  <millis>1742482388259</millis>
+  <nanos>62600</nanos>
+  <sequence>31115</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : dZO = dZO.substring(i)</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:53:08.259062600Z</date>
+  <millis>1742482388259</millis>
+  <nanos>62600</nanos>
+  <sequence>31116</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : dZO = dZO.trim()</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">945</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2025-03-20T14:53:08.259062600Z</date>
+  <millis>1742482388259</millis>
+  <nanos>62600</nanos>
+  <sequence>31117</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : dZO = dZO.trim()</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:53:08.259062600Z</date>
+  <millis>1742482388259</millis>
+  <nanos>62600</nanos>
+  <sequence>31118</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(dZO)</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">947</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2025-03-20T14:53:08.259062600Z</date>
+  <millis>1742482388259</millis>
+  <nanos>62600</nanos>
+  <sequence>31119</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(dZO)</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:53:08.259062600Z</date>
+  <millis>1742482388259</millis>
+  <nanos>62600</nanos>
+  <sequence>31120</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : dZO4 = dZO</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">949</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2025-03-20T14:53:08.259062600Z</date>
+  <millis>1742482388259</millis>
+  <nanos>62600</nanos>
+  <sequence>31121</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : dZO4 = dZO</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:53:08.259062600Z</date>
+  <millis>1742482388259</millis>
+  <nanos>62600</nanos>
+  <sequence>31122</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(&amp;quot;dZO4:&amp;quot; + dZO4)</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">951</property>
+  <property name="stepIndex">9</property>
+</record>
+<record>
+  <date>2025-03-20T14:53:08.259062600Z</date>
+  <millis>1742482388259</millis>
+  <nanos>62600</nanos>
+  <sequence>31123</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(&amp;quot;dZO4:&amp;quot; + dZO4)</message>
+  <nestedLevel>4</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:53:08.259062600Z</date>
+  <millis>1742482388259</millis>
+  <nanos>62600</nanos>
+  <sequence>31124</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (i &amp;gt; -1)</message>
+  <nestedLevel>3</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:53:08.259062600Z</date>
+  <millis>1742482388259</millis>
+  <nanos>62600</nanos>
+  <sequence>31125</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (i &amp;gt; -1)</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:53:08.259062600Z</date>
+  <millis>1742482388259</millis>
+  <nanos>62600</nanos>
+  <sequence>31126</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (i &amp;gt; -1)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:53:08.259062600Z</date>
+  <millis>1742482388259</millis>
+  <nanos>62600</nanos>
+  <sequence>31127</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : date = getText(findTestObject(&amp;quot;Выполнение бизнес-плана/Фильтр Дата&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">974</property>
+  <property name="stepIndex">12</property>
+</record>
+<record>
+  <date>2025-03-20T14:53:08.531655200Z</date>
+  <millis>1742482388531</millis>
+  <nanos>655200</nanos>
+  <sequence>31136</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text of object &amp;apos;Object Repository/Выполнение бизнес-плана/Фильтр Дата&amp;apos; is: &amp;apos;Январь 2025 года&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-03-20T14:53:08.531655200Z</date>
+  <millis>1742482388531</millis>
+  <nanos>655200</nanos>
+  <sequence>31137</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : date = getText(findTestObject(&amp;quot;Выполнение бизнес-плана/Фильтр Дата&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:53:08.531655200Z</date>
+  <millis>1742482388531</millis>
+  <nanos>655200</nanos>
+  <sequence>31138</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(date)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">976</property>
+  <property name="stepIndex">13</property>
+</record>
+<record>
+  <date>2025-03-20T14:53:08.531655200Z</date>
+  <millis>1742482388531</millis>
+  <nanos>655200</nanos>
+  <sequence>31139</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(date)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:53:08.531655200Z</date>
+  <millis>1742482388531</millis>
+  <nanos>655200</nanos>
+  <sequence>31140</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : dashboardName = &amp;quot;Выполнение бизнес-плана&amp;quot;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">978</property>
+  <property name="stepIndex">14</property>
+</record>
+<record>
+  <date>2025-03-20T14:53:08.531655200Z</date>
+  <millis>1742482388531</millis>
+  <nanos>655200</nanos>
+  <sequence>31141</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : dashboardName = &amp;quot;Выполнение бизнес-плана&amp;quot;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:53:08.531655200Z</date>
+  <millis>1742482388531</millis>
+  <nanos>655200</nanos>
+  <sequence>31142</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : workbook01 = getWorkbook(excelFilePath)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">980</property>
+  <property name="stepIndex">15</property>
+</record>
+<record>
+  <date>2025-03-20T14:53:08.578518900Z</date>
+  <millis>1742482388578</millis>
+  <nanos>518900</nanos>
+  <sequence>31143</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : workbook01 = getWorkbook(excelFilePath)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:53:08.578518900Z</date>
+  <millis>1742482388578</millis>
+  <nanos>518900</nanos>
+  <sequence>31144</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : sheet01 = getExcelSheet(workbook01, sheetName)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">982</property>
+  <property name="stepIndex">16</property>
+</record>
+<record>
+  <date>2025-03-20T14:53:08.578518900Z</date>
+  <millis>1742482388578</millis>
+  <nanos>518900</nanos>
+  <sequence>31145</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : sheet01 = getExcelSheet(workbook01, sheetName)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:53:08.578518900Z</date>
+  <millis>1742482388578</millis>
+  <nanos>518900</nanos>
+  <sequence>31146</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setValueToCellByIndex(sheet01, n, 0, dashboardName)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">984</property>
+  <property name="stepIndex">17</property>
+</record>
+<record>
+  <date>2025-03-20T14:53:08.578518900Z</date>
+  <millis>1742482388578</millis>
+  <nanos>518900</nanos>
+  <sequence>31147</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setValueToCellByIndex(sheet01, n, 0, dashboardName)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:53:08.578518900Z</date>
+  <millis>1742482388578</millis>
+  <nanos>518900</nanos>
+  <sequence>31148</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setValueToCellByIndex(sheet01, n, 1, dZO1)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">986</property>
+  <property name="stepIndex">18</property>
+</record>
+<record>
+  <date>2025-03-20T14:53:08.578518900Z</date>
+  <millis>1742482388578</millis>
+  <nanos>518900</nanos>
+  <sequence>31149</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setValueToCellByIndex(sheet01, n, 1, dZO1)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:53:08.578518900Z</date>
+  <millis>1742482388578</millis>
+  <nanos>518900</nanos>
+  <sequence>31150</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setValueToCellByIndex(sheet01, n, 2, dZO2)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">988</property>
+  <property name="stepIndex">19</property>
+</record>
+<record>
+  <date>2025-03-20T14:53:08.578518900Z</date>
+  <millis>1742482388578</millis>
+  <nanos>518900</nanos>
+  <sequence>31151</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setValueToCellByIndex(sheet01, n, 2, dZO2)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:53:08.578518900Z</date>
+  <millis>1742482388578</millis>
+  <nanos>518900</nanos>
+  <sequence>31152</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setValueToCellByIndex(sheet01, n, 3, dZO3)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">990</property>
+  <property name="stepIndex">20</property>
+</record>
+<record>
+  <date>2025-03-20T14:53:08.578518900Z</date>
+  <millis>1742482388578</millis>
+  <nanos>518900</nanos>
+  <sequence>31153</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setValueToCellByIndex(sheet01, n, 3, dZO3)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:53:08.578518900Z</date>
+  <millis>1742482388578</millis>
+  <nanos>518900</nanos>
+  <sequence>31154</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setValueToCellByIndex(sheet01, n, 4, dZO4)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">992</property>
+  <property name="stepIndex">21</property>
+</record>
+<record>
+  <date>2025-03-20T14:53:08.578518900Z</date>
+  <millis>1742482388578</millis>
+  <nanos>518900</nanos>
+  <sequence>31155</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setValueToCellByIndex(sheet01, n, 4, dZO4)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:53:08.578518900Z</date>
+  <millis>1742482388578</millis>
+  <nanos>518900</nanos>
+  <sequence>31156</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setValueToCellByIndex(sheet01, n, 5, date)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">994</property>
+  <property name="stepIndex">22</property>
+</record>
+<record>
+  <date>2025-03-20T14:53:08.578518900Z</date>
+  <millis>1742482388578</millis>
+  <nanos>518900</nanos>
+  <sequence>31157</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setValueToCellByIndex(sheet01, n, 5, date)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:53:08.578518900Z</date>
+  <millis>1742482388578</millis>
+  <nanos>518900</nanos>
+  <sequence>31158</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setValueToCellByIndex(sheet01, n, 6, typeOfData)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">996</property>
+  <property name="stepIndex">23</property>
+</record>
+<record>
+  <date>2025-03-20T14:53:08.578518900Z</date>
+  <millis>1742482388578</millis>
+  <nanos>518900</nanos>
+  <sequence>31159</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setValueToCellByIndex(sheet01, n, 6, typeOfData)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:53:08.578518900Z</date>
+  <millis>1742482388578</millis>
+  <nanos>518900</nanos>
+  <sequence>31160</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setValueToCellByIndex(sheet01, n, 7, todaysDate)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">998</property>
+  <property name="stepIndex">24</property>
+</record>
+<record>
+  <date>2025-03-20T14:53:08.578518900Z</date>
+  <millis>1742482388578</millis>
+  <nanos>518900</nanos>
+  <sequence>31161</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setValueToCellByIndex(sheet01, n, 7, todaysDate)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:53:08.578518900Z</date>
+  <millis>1742482388578</millis>
+  <nanos>518900</nanos>
+  <sequence>31162</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : n = n + 1</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">1000</property>
+  <property name="stepIndex">25</property>
+</record>
+<record>
+  <date>2025-03-20T14:53:08.578518900Z</date>
+  <millis>1742482388578</millis>
+  <nanos>518900</nanos>
+  <sequence>31163</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : n = n + 1</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:53:08.578518900Z</date>
+  <millis>1742482388578</millis>
+  <nanos>518900</nanos>
+  <sequence>31164</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : saveWorkbook(excelFilePath, workbook01)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">1002</property>
+  <property name="stepIndex">26</property>
+</record>
+<record>
+  <date>2025-03-20T14:53:08.785796700Z</date>
+  <millis>1742482388785</millis>
+  <nanos>796700</nanos>
+  <sequence>31165</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : saveWorkbook(excelFilePath, workbook01)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:53:08.785796700Z</date>
+  <millis>1742482388785</millis>
+  <nanos>796700</nanos>
+  <sequence>31166</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(&amp;quot;Выполнение бизнес-плана/Кнопка Факт&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">835</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2025-03-20T14:53:09.116192700Z</date>
+  <millis>1742482389116</millis>
+  <nanos>192700</nanos>
+  <sequence>31176</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Выполнение бизнес-плана/Кнопка Факт&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-03-20T14:53:09.116192700Z</date>
+  <millis>1742482389116</millis>
+  <nanos>192700</nanos>
+  <sequence>31177</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(&amp;quot;Выполнение бизнес-плана/Кнопка Факт&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:53:09.116192700Z</date>
+  <millis>1742482389116</millis>
+  <nanos>192700</nanos>
+  <sequence>31178</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(&amp;quot;Object Repository/Выполнение бизнес-плана/Фильтр ДЗО&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">838</property>
+  <property name="stepIndex">9</property>
+  <property name="description">Открыть фильтр &quot;ДЗО&quot;</property>
+</record>
+<record>
+  <date>2025-03-20T14:53:09.456056200Z</date>
+  <millis>1742482389456</millis>
+  <nanos>56200</nanos>
+  <sequence>31188</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Выполнение бизнес-плана/Фильтр ДЗО&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-03-20T14:53:09.456056200Z</date>
+  <millis>1742482389456</millis>
+  <nanos>56200</nanos>
+  <sequence>31189</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(&amp;quot;Object Repository/Выполнение бизнес-плана/Фильтр ДЗО&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:53:09.456056200Z</date>
+  <millis>1742482389456</millis>
+  <nanos>56200</nanos>
+  <sequence>31190</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(&amp;quot;Выполнение бизнес-плана/Снять выделение в фильтре ДЗО&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">841</property>
+  <property name="stepIndex">10</property>
+  <property name="description">Нажать &quot;Снять выделение&quot;</property>
+</record>
+<record>
+  <date>2025-03-20T14:53:09.975827500Z</date>
+  <millis>1742482389975</millis>
+  <nanos>827500</nanos>
+  <sequence>31200</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Выполнение бизнес-плана/Снять выделение в фильтре ДЗО&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-03-20T14:53:09.975827500Z</date>
+  <millis>1742482389975</millis>
+  <nanos>827500</nanos>
+  <sequence>31201</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(&amp;quot;Выполнение бизнес-плана/Снять выделение в фильтре ДЗО&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:53:09.975827500Z</date>
+  <millis>1742482389975</millis>
+  <nanos>827500</nanos>
+  <sequence>31202</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : scrollToElement(findTestObject(&amp;quot;Общие объекты/Кировэнерго&amp;quot;), 30)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">711</property>
+  <property name="stepIndex">285</property>
+</record>
+<record>
+  <date>2025-03-20T14:53:10.286444600Z</date>
+  <millis>1742482390286</millis>
+  <nanos>444600</nanos>
+  <sequence>31212</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Scroll to object &amp;apos;Object Repository/Общие объекты/Кировэнерго&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.scrollToElement</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-03-20T14:53:10.287442200Z</date>
+  <millis>1742482390287</millis>
+  <nanos>442200</nanos>
+  <sequence>31213</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : scrollToElement(findTestObject(&amp;quot;Общие объекты/Кировэнерго&amp;quot;), 30)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:53:10.287442200Z</date>
+  <millis>1742482390287</millis>
+  <nanos>442200</nanos>
+  <sequence>31214</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(&amp;quot;Общие объекты/Кировэнерго&amp;quot;), CONTINUE_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">713</property>
+  <property name="stepIndex">286</property>
+</record>
+<record>
+  <date>2025-03-20T14:53:10.619992500Z</date>
+  <millis>1742482390619</millis>
+  <nanos>992500</nanos>
+  <sequence>31224</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Общие объекты/Кировэнерго&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-03-20T14:53:10.620990300Z</date>
+  <millis>1742482390620</millis>
+  <nanos>990300</nanos>
+  <sequence>31225</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(&amp;quot;Общие объекты/Кировэнерго&amp;quot;), CONTINUE_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:53:10.620990300Z</date>
+  <millis>1742482390620</millis>
+  <nanos>990300</nanos>
+  <sequence>31226</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Script1687256706913.Change(todaysDate, typeOfData)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">715</property>
+  <property name="stepIndex">287</property>
+</record>
+<record>
+  <date>2025-03-20T14:53:10.620990300Z</date>
+  <millis>1742482390620</millis>
+  <nanos>990300</nanos>
+  <sequence>31227</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Script1687256706913.Change(todaysDate, typeOfData)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:53:10.620990300Z</date>
+  <millis>1742482390620</millis>
+  <nanos>990300</nanos>
+  <sequence>31228</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : scrollToElement(findTestObject(&amp;quot;Выполнение бизнес-плана/Заголовок дашборда&amp;quot;), 30)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">820</property>
+  <property name="stepIndex">1</property>
+  <property name="description">Проскроллить до заголовка фильтра &quot;ДЗО&quot;</property>
+</record>
+<record>
+  <date>2025-03-20T14:53:11.140442600Z</date>
+  <millis>1742482391140</millis>
+  <nanos>442600</nanos>
+  <sequence>31238</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Scroll to object &amp;apos;Object Repository/Выполнение бизнес-плана/Заголовок дашборда&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.scrollToElement</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-03-20T14:53:11.140442600Z</date>
+  <millis>1742482391140</millis>
+  <nanos>442600</nanos>
+  <sequence>31239</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : scrollToElement(findTestObject(&amp;quot;Выполнение бизнес-плана/Заголовок дашборда&amp;quot;), 30)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:53:11.140442600Z</date>
+  <millis>1742482391140</millis>
+  <nanos>442600</nanos>
+  <sequence>31240</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(&amp;quot;Object Repository/Выполнение бизнес-плана/Применить в фильтре ДЗО&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">823</property>
+  <property name="stepIndex">2</property>
+  <property name="description">Нажать &quot;Применить&quot;</property>
+</record>
+<record>
+  <date>2025-03-20T14:53:11.887242700Z</date>
+  <millis>1742482391887</millis>
+  <nanos>242700</nanos>
+  <sequence>31250</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Выполнение бизнес-плана/Применить в фильтре ДЗО&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-03-20T14:53:11.887242700Z</date>
+  <millis>1742482391887</millis>
+  <nanos>242700</nanos>
+  <sequence>31251</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(&amp;quot;Object Repository/Выполнение бизнес-плана/Применить в фильтре ДЗО&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:53:11.887242700Z</date>
+  <millis>1742482391887</millis>
+  <nanos>242700</nanos>
+  <sequence>31252</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : typeOfData = &amp;quot;Факт&amp;quot;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">825</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2025-03-20T14:53:11.887242700Z</date>
+  <millis>1742482391887</millis>
+  <nanos>242700</nanos>
+  <sequence>31253</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : typeOfData = &amp;quot;Факт&amp;quot;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:53:11.887242700Z</date>
+  <millis>1742482391887</millis>
+  <nanos>242700</nanos>
+  <sequence>31254</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Script1687256706913.Test(todaysDate, typeOfData)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">827</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2025-03-20T14:53:11.887242700Z</date>
+  <millis>1742482391887</millis>
+  <nanos>242700</nanos>
+  <sequence>31255</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Script1687256706913.Test(todaysDate, typeOfData)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-20T14:53:11.887242700Z</date>
+  <millis>1742482391887</millis>
+  <nanos>242700</nanos>
+  <sequence>31256</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(50)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">845</property>
+  <property name="stepIndex">1</property>
+</record>
+</log>

@@ -98,7 +98,7 @@ static def Test(def run, def todaysDate, def typeOfData, def otobrajeniyeDannyh)
 
         a = a.replaceAll('\\s+', '')
     } else {
-        WebUI.click(findTestObject('Факторный анализ/Переключить отображение с филиала на месяц'))
+        WebUI.click(findTestObject('Факторный анализ/Переключить отображение с филиала на месяц Выручка'))
 
         a1 = WebUI.getText(findTestObject('Факторный анализ/span1 Блок руководителя'))
 
@@ -163,7 +163,7 @@ static def Test(def run, def todaysDate, def typeOfData, def otobrajeniyeDannyh)
     String b2
 
     if (run == 1) {
-        b = WebUI.getText(findTestObject('Факторный анализ/Отклонения выручки по факторам Выручка'))
+        b = WebUI.getText(findTestObject('null'))
 
         b = b.replaceAll('[а-яА-Я]', '')
 
@@ -171,7 +171,7 @@ static def Test(def run, def todaysDate, def typeOfData, def otobrajeniyeDannyh)
 
         b = b.replaceAll('\\s+', '')
     } else {
-        WebUI.click(findTestObject('Факторный анализ/Переключить отображение с филиала на месяц'))
+        WebUI.click(findTestObject('Факторный анализ/Переключить отображение с филиала на месяц Выручка'))
 
         b1 = WebUI.getText(findTestObject('Факторный анализ/span1 Выручка'))
 

@@ -124,10 +124,17 @@ ZakrytOpoveshenie()
 'Раскрыть фильтр "Дата"'
 WebUI.click(findTestObject('Object Repository/Выполнение бизнес-плана/Фильтр Дата'))
 
-WebUI.scrollToElement(findTestObject('Выполнение бизнес-плана/2024 список'), 30)
+WebUI.scrollToElement(findTestObject('Выполнение бизнес-плана/2025 список'), 30)
 
-'Выбрать 1 квартал 2022'
-WebUI.click(findTestObject('Выполнение бизнес-плана/2024 год'))
+WebUI.click(findTestObject('Выполнение бизнес-плана/2025 список'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.scrollToElement(findTestObject('Выполнение бизнес-плана/1 квартал 2025 список'), 30)
+
+WebUI.click(findTestObject('Выполнение бизнес-плана/1 квартал 2025 список'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.scrollToElement(findTestObject('Выполнение бизнес-плана/Январь 2025'), 30)
+
+WebUI.click(findTestObject('Выполнение бизнес-плана/Январь 2025'), FailureHandling.CONTINUE_ON_FAILURE)
 
 'Проскроллить до заголовка фильтра "Дата"'
 WebUI.scrollToElement(findTestObject('Выполнение бизнес-плана/Заголовок дашборда'), 30)
@@ -179,8 +186,6 @@ if (x1.contains('ЕЭС')) {
 }
 
 println(dzoNum)
-
-WebUI.delay(20)
 
 dZO = 'РаспредКомплекс'
 
@@ -551,26 +556,27 @@ static def Numbers(def a, def typeOfData, def todaysDate, def pageInt, def fileI
         }
         
         println(path)
-		
-		'_________________________________________________'
 
+        '_________________________________________________'
         page = WebUI.getText(findTestObject(path))
-		
-		if((page == '')||(page == null)) {
-			
-			fileInt = otpusk.toInteger()
-			
-			WriteToExcelNoData(a, typeOfData, todaysDate, fileInt, fileDouble, dZO)
-		}else {
-				
-	        page = page.replaceAll('\\s+', '')
-	
-	        fileOtpuskVSet = otpusk.toInteger()
-	
-	        pageOtpuskVSet = page.toInteger()
-		}
 
+        if ((page == '') || (page == null)) {
+            fileInt = otpusk.toInteger()
 
+            WriteToExcelNoData(a, typeOfData, todaysDate, fileInt, fileDouble, dZO)
+        } else {
+			
+            page = page.replaceAll('\\s+', '')
+			
+			if(page == 'undefined') {
+				page = '0'
+			}
+			
+            fileOtpuskVSet = otpusk.toInteger()
+
+            pageOtpuskVSet = page.toInteger()
+        }
+        
         typeOfData = (typeOfDataMain + ' Потери')
 
         if (a == 82) {
@@ -586,70 +592,70 @@ static def Numbers(def a, def typeOfData, def todaysDate, def pageInt, def fileI
         }
         
         page = WebUI.getText(findTestObject(path))
-		
-		
-		if((page == '')||(page == null)) {
-			
-			fileInt = poteri.toInteger()
-			WriteToExcelNoData(a, typeOfData, todaysDate, fileInt, fileDouble, dZO)
-		}else {
-				
-	        page = page.replaceAll('\\s+', '')
-	
-	        filePoteri = poteri.toInteger()
-	
-	        pagePoteri = page.toInteger()
 
-		}
+        if ((page == '') || (page == null)) {
+            fileInt = poteri.toInteger()
 
+            WriteToExcelNoData(a, typeOfData, todaysDate, fileInt, fileDouble, dZO)
+        } else {
+            page = page.replaceAll('\\s+', '')
+
+			if(page == 'undefined') {
+				page = '0'
+			}
+            filePoteri = poteri.toInteger()
+
+            pagePoteri = page.toInteger()
+        }
+        
         compare = pageOtpuskVSet
 
-		if(pageOtpuskVSet != null) {
-	        if (compare == fileOtpuskVSet) {
-	        } else if (compare > fileOtpuskVSet) {
-	            compare = (compare - 1)
-	        } else if (compare < fileOtpuskVSet) {
-	            compare = (compare + 1)
-	        }
-	        
-	        if (compare == fileOtpuskVSet) {
-	        } else {
-	            numberOfErrors = (numberOfErrors + 1)
-	
-	            pageInt = pageOtpuskVSet
-	
-	            fileInt = fileOtpuskVSet
-	
-	            typeOfData = (typeOfDataMain + ' Отпуск в сеть')
-	
-	            WriteToExcel(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO)
-	        }
-		}
-		
+        if (pageOtpuskVSet != null) {
+            if (compare == fileOtpuskVSet) {
+            } else if (compare > fileOtpuskVSet) {
+                compare = (compare - 1)
+            } else if (compare < fileOtpuskVSet) {
+                compare = (compare + 1)
+            }
+            
+            if (compare == fileOtpuskVSet) {
+            } else {
+                numberOfErrors = (numberOfErrors + 1)
+
+                pageInt = pageOtpuskVSet
+
+                fileInt = fileOtpuskVSet
+
+                typeOfData = (typeOfDataMain + ' Отпуск в сеть')
+
+                WriteToExcel(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO)
+            }
+        }
+        
         compare = pagePoteri
 
-		if(pageOtpuskVSet != null) {
-	        if (compare == filePoteri) {
-	        } else if (compare > filePoteri) {
-	            compare = (compare - 1)
-	        } else if (compare < filePoteri) {
-	            compare = (compare + 1)
-	        }
-	        
-	        if (compare == filePoteri) {
-	        } else {
-	            numberOfErrors = (numberOfErrors + 1)
-	
-	            pageInt = pagePoteri
-	
-	            fileInt = filePoteri
-	
-	            typeOfData = (typeOfDataMain + ' Потери')
-	
-	            WriteToExcel(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO)
-	        }
-		}
-		
+        if (pageOtpuskVSet != null) {
+            if (compare == filePoteri) {
+            } else if (compare > filePoteri) {
+                compare = (compare - 1)
+            } else if (compare < filePoteri) {
+                compare = (compare + 1)
+            }
+            
+            if (compare == filePoteri) {
+            } else {
+                numberOfErrors = (numberOfErrors + 1)
+
+                pageInt = pagePoteri
+
+                fileInt = filePoteri
+
+                typeOfData = (typeOfDataMain + ' Потери')
+
+                WriteToExcel(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO)
+            }
+        }
+        
         if (planFact == 2) {
             WebUI.click(findTestObject('Выполнение бизнес-плана/Кнопка Факт'))
         }
@@ -768,6 +774,8 @@ static void ZakrytOpoveshenie() {
 }
 
 static void DZO(def a) {
+    WebUI.delay(20)
+
     OpenFilter()
 
     OpenRSK()
@@ -833,6 +841,8 @@ static void DZO(def a) {
     }
     
     CloseFilter()
+
+    WebUI.delay(20)
 
     ZakrytOpoveshenie()
 }
@@ -1774,16 +1784,38 @@ static def WriteToExcel(def a, def typeOfData, def todaysDate, def pageInt, def 
 
     int n = data.getRowNumbers() + 1
 
-    String year = todaysDate.substring(todaysDate.length() - 4, todaysDate.length())
+    int day = todaysDate.substring(0, todaysDate.indexOf('.')).toInteger()
 
-    int y = year.toInteger()
+    println(day)
+
+    int month = todaysDate.substring(todaysDate.indexOf('.') + 1, todaysDate.lastIndexOf('.')).toInteger()
+
+    println(month)
+
+    int y
+
+    int iy
 
     String m = WebUI.getText(findTestObject('Выполнение бизнес-плана/Период'))
 
-    m = m.substring(0, m.indexOf('2024'))
+    iy = m.indexOf('20')
 
+    if (iy > -1) {
+        y = m.substring(iy, iy + 4).toInteger()
+    }
+    
+    println(y)
+
+    if (y.toString().length() == 4) {
+        m = m.substring(0, m.indexOf(y.toString()))
+    }
+    
     m = m.trim()
 
+    if (m == '') {
+        m = 'весь год'
+    }
+    
     String dashboardName = 'Выполнение бизнес-плана'
 
     def workbook01 = ExcelKeywords.getWorkbook(GlobalVariable.excelFilePath)
@@ -1872,16 +1904,38 @@ static def WriteToExcelNoData(def a, def typeOfData, def todaysDate, def fileInt
 
     int n = data.getRowNumbers() + 1
 
-    String year = todaysDate.substring(todaysDate.length() - 4, todaysDate.length())
+    int day = todaysDate.substring(0, todaysDate.indexOf('.')).toInteger()
 
-    int y = year.toInteger()
+    println(day)
+
+    int month = todaysDate.substring(todaysDate.indexOf('.') + 1, todaysDate.lastIndexOf('.')).toInteger()
+
+    println(month)
+
+    int y
+
+    int iy
 
     String m = WebUI.getText(findTestObject('Выполнение бизнес-плана/Период'))
 
-    m = m.substring(0, m.indexOf('2024'))
+    iy = m.indexOf('20')
 
+    if (iy > -1) {
+        y = m.substring(iy, iy + 4).toInteger()
+    }
+    
+    println(y)
+
+    if (y.toString().length() == 4) {
+        m = m.substring(0, m.indexOf(y.toString()))
+    }
+    
     m = m.trim()
 
+    if (m == '') {
+        m = 'весь год'
+    }
+    
     String dashboardName = 'Выполнение бизнес-плана'
 
     def workbook01 = ExcelKeywords.getWorkbook(GlobalVariable.excelFilePath)

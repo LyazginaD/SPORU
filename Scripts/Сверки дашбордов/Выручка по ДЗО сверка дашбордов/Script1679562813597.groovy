@@ -51,9 +51,21 @@ WebUI.click(findTestObject('Выручка по ДЗО/Фильтр Дата'))
 'Нажать "Снять выделение"'
 WebUI.click(findTestObject('Выручка по ДЗО/Снять выделение в фильтре Дата'))
 
-WebUI.scrollToElement(findTestObject('Выручка по ДЗО/2024 список'), 30)
+WebUI.scrollToElement(findTestObject('Выручка по ДЗО/2025 список'), 30)
 
-WebUI.click(findTestObject('Выручка по ДЗО/2024 год'))
+WebUI.click(findTestObject('Выручка по ДЗО/2025 список'))
+
+WebUI.scrollToElement(findTestObject('Выручка по ДЗО/1 квартал 2025 список'), 30)
+
+WebUI.click(findTestObject('Выручка по ДЗО/1 квартал 2025 список'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.scrollToElement(findTestObject('Выручка по ДЗО/Январь 2025'), 30)
+
+WebUI.click(findTestObject('Выручка по ДЗО/Январь 2025'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.scrollToElement(findTestObject('Выручка по ДЗО/Февраль 2025'), 30)
+
+WebUI.click(findTestObject('Выручка по ДЗО/Февраль 2025'), FailureHandling.CONTINUE_ON_FAILURE)
 
 'Проскроллить до заголовка фильтра "Дата"'
 WebUI.scrollToElement(findTestObject('Выручка по ДЗО/Заголовок дашборда'), 30)
@@ -100,9 +112,21 @@ WebUI.click(findTestObject('Выручка по ДЗО/Фильтр Дата В�
 'Нажать "Снять выделение"'
 WebUI.click(findTestObject('Выручка по ДЗО/Снять выделение в фильтре Дата Выручка'))
 
-WebUI.scrollToElement(findTestObject('Выручка по ДЗО/2024 список Выручка'), 30)
+WebUI.scrollToElement(findTestObject('Выручка по ДЗО/2025 список Выручка'), 30)
 
-WebUI.click(findTestObject('Выручка по ДЗО/2024 год Выручка'))
+WebUI.click(findTestObject('Выручка по ДЗО/2025 список Выручка'))
+
+WebUI.scrollToElement(findTestObject('Выручка по ДЗО/1 квартал 2025 список Выручка'), 30)
+
+WebUI.click(findTestObject('Выручка по ДЗО/1 квартал 2025 список Выручка'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.scrollToElement(findTestObject('Выручка по ДЗО/Январь 2025 Выручка'), 30)
+
+WebUI.click(findTestObject('Выручка по ДЗО/Январь 2025 Выручка'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.scrollToElement(findTestObject('Выручка по ДЗО/Февраль 2025 Выручка'), 30)
+
+WebUI.click(findTestObject('Выручка по ДЗО/Февраль 2025 Выручка'), FailureHandling.CONTINUE_ON_FAILURE)
 
 'Проскроллить до заголовка фильтра "Дата"'
 WebUI.scrollToElement(findTestObject('Выручка по ДЗО/Заголовок дашборда Выручка'), 30)
@@ -159,6 +183,10 @@ static def WriteToExcel(def todaysDate) {
 
     println(period)
 
+    if (period.findAll('[а-яА-Я]') == false) {
+        period = (period + ' год')
+    }
+    
     String dashboardName = 'Выручка по ДЗО'
 
     def workbook01 = ExcelKeywords.getWorkbook(GlobalVariable.excelFilePath)

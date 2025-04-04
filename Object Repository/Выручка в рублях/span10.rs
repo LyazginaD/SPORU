@@ -11,10 +11,11 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Изображение - копия 1 - копия'])[1]/preceding::span[9]</value>
+         <value>//div[27]/div[2]/div/div/div/div[9]/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>c8af7e01-d60d-4df1-bf87-7a5c2c76952b</webElementGuid>
+      <webElementGuid>3d067343-43c2-4fa9-bd78-d435db60f17b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,71 +31,71 @@
       <name>data-z-index</name>
       <type>Main</type>
       <value>1</value>
-      <webElementGuid>03908e35-2412-472f-8dfe-40cf60daa76c</webElementGuid>
+      <webElementGuid>9bea67bb-d75e-458c-a37b-1bb6cd11a15f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>1 394</value>
-      <webElementGuid>23a1a09c-33cc-4bec-852a-7704dc91b541</webElementGuid>
+      <value>-251</value>
+      <webElementGuid>dbd64434-2ce4-478e-ada7-b2b77239dc06</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;highcharts-b63r051-33&quot;)/div[@class=&quot;highcharts-data-labels highcharts-series-0 highcharts-bar-series highcharts-tracker highcharts-series-hover&quot;]/div[@class=&quot;highcharts-label highcharts-data-label highcharts-data-label-color-undefined highcharts-tracker highcharts-drilldown-data-label&quot;]/span[1]</value>
-      <webElementGuid>746431ad-29b5-4404-974a-806cba50cdee</webElementGuid>
+      <value>id(&quot;highcharts-etjmusn-34&quot;)/div[@class=&quot;highcharts-data-labels highcharts-series-0 highcharts-bar-series highcharts-tracker highcharts-series-hover&quot;]/div[@class=&quot;highcharts-label highcharts-data-label highcharts-data-label-color-undefined highcharts-tracker highcharts-drilldown-data-label&quot;]/span[1]</value>
+      <webElementGuid>e9f255c2-e03e-4f18-b1b0-ceec168097bf</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='highcharts-b63r051-33']/div/div[9]/span</value>
-      <webElementGuid>deb7a3d3-bb8e-4b67-9dc3-d250701eabb2</webElementGuid>
+      <value>//div[@id='highcharts-etjmusn-34']/div/div[9]/span</value>
+      <webElementGuid>d9e51fae-836e-4eb6-9a65-ae574e617d4d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='- 500 млн.руб.'])[1]/following::span[9]</value>
-      <webElementGuid>128d6fa0-17fa-4b3f-97a3-d919c4b9e243</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='- 200 млн.руб.'])[1]/following::span[9]</value>
+      <webElementGuid>10d31c3f-f9d2-438c-8f34-8449b4ecde2e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Россети Янтарь'])[4]/following::span[9]</value>
-      <webElementGuid>38677064-53df-48ab-b87b-2e70d57ee962</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='- 400 млн.руб.'])[1]/following::span[9]</value>
+      <webElementGuid>12e4e5e1-7716-4ec4-801f-12a379d440d9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='В начало'])[14]/preceding::span[9]</value>
-      <webElementGuid>fc1d71fb-b586-4aa1-843f-18c6dd2bdbaf</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='В начало'])[14]/preceding::span[10]</value>
+      <webElementGuid>6e495eae-8b3f-4f4d-ad57-418859257793</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Изображение - копия 1 - копия'])[1]/preceding::span[9]</value>
-      <webElementGuid>b410f5fb-6554-405a-9ffc-31804abe535f</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Изображение - копия 1 - копия'])[1]/preceding::span[10]</value>
+      <webElementGuid>f9d22ac0-4d2c-45d0-8bb3-0a4973445d3e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='1 394']/parent::*</value>
-      <webElementGuid>86ff2f05-962f-4c88-a487-8c1d4a474871</webElementGuid>
+      <value>//*/text()[normalize-space(.)='-251']/parent::*</value>
+      <webElementGuid>a27f283a-a4c3-41f5-8d87-6a77b274e86f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,14 +103,14 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[27]/div[2]/div/div/div/div[9]/span</value>
-      <webElementGuid>e2cda284-4305-496e-94f3-40d91c440978</webElementGuid>
+      <webElementGuid>1cc1ffa8-1916-47bf-bc5a-653fd5fed998</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//span[(text() = '1 394' or . = '1 394')]</value>
-      <webElementGuid>ebe3ef3f-3300-4b3b-b360-f595bb28a298</webElementGuid>
+      <value>//span[(text() = '-251' or . = '-251')]</value>
+      <webElementGuid>347ebc1d-321e-44fe-8397-1919898dbf2c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
