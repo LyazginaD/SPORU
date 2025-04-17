@@ -15,6 +15,7 @@
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>dad9b792-ba6f-43d2-999d-61eb8a35e8f3</webElementGuid>
+      <webElementGuid>1c7f938b-8ddb-4b3b-b81e-a9a1c898fc14</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +31,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;a7136f50413b4265b4b231fef43cc3e1&quot;)/div[1]</value>
-      <webElementGuid>784958fa-b3bf-4fed-9935-6512d3c77a51</webElementGuid>
+      <webElementGuid>5525ec15-0bd6-4abe-b16a-2531ff3cf37d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -38,7 +39,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='a7136f50413b4265b4b231fef43cc3e1']/div</value>
-      <webElementGuid>9606a5ba-bf63-482e-872d-b963c32a92cb</webElementGuid>
+      <webElementGuid>b5da69f7-ce72-40ad-bc3c-a58cea196ebf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -46,6 +47,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[14]/div[2]/div/div</value>
-      <webElementGuid>34c3fddd-de85-4fbb-adc9-6327f15d1602</webElementGuid>
+      <webElementGuid>294a452b-1e10-4fa2-98cd-e6f845f1404c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

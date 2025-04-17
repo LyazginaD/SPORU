@@ -136,6 +136,10 @@ WebUI.scrollToElement(findTestObject('Выполнение бизнес-план
 
 WebUI.click(findTestObject('Выполнение бизнес-плана/Январь 2025'), FailureHandling.CONTINUE_ON_FAILURE)
 
+WebUI.scrollToElement(findTestObject('Выполнение бизнес-плана/Февраль 2025'), 30)
+
+WebUI.click(findTestObject('Выполнение бизнес-плана/Февраль 2025'), FailureHandling.CONTINUE_ON_FAILURE)
+
 'Проскроллить до заголовка фильтра "Дата"'
 WebUI.scrollToElement(findTestObject('Выполнение бизнес-плана/Заголовок дашборда'), 30)
 
@@ -565,13 +569,12 @@ static def Numbers(def a, def typeOfData, def todaysDate, def pageInt, def fileI
 
             WriteToExcelNoData(a, typeOfData, todaysDate, fileInt, fileDouble, dZO)
         } else {
-			
             page = page.replaceAll('\\s+', '')
-			
-			if(page == 'undefined') {
-				page = '0'
-			}
-			
+
+            if (page == 'undefined') {
+                page = '0'
+            }
+            
             fileOtpuskVSet = otpusk.toInteger()
 
             pageOtpuskVSet = page.toInteger()
@@ -600,9 +603,10 @@ static def Numbers(def a, def typeOfData, def todaysDate, def pageInt, def fileI
         } else {
             page = page.replaceAll('\\s+', '')
 
-			if(page == 'undefined') {
-				page = '0'
-			}
+            if (page == 'undefined') {
+                page = '0'
+            }
+            
             filePoteri = poteri.toInteger()
 
             pagePoteri = page.toInteger()

@@ -767,7 +767,7 @@ typeOfData = 'Филиал'
 
 Test(todaysDate, typeOfData)
 
-WebUI.click(findTestObject('Факторный анализ/Переключить отображение с филиала на месяц Выручка'))
+WebUI.click(findTestObject('Факторный анализ/Переключить отображение с филиала на месяц Блок руководителя'))
 
 typeOfData = 'Месяц'
 
@@ -786,7 +786,7 @@ static def Change(def todaysDate, def typeOfData) {
 
     Test(todaysDate, typeOfData)
 
-    WebUI.click(findTestObject('Факторный анализ/Переключить отображение с филиала на месяц Выручка'))
+    WebUI.click(findTestObject('Факторный анализ/Переключить отображение с филиала на месяц Блок руководителя'))
 
     typeOfData = 'Месяц'
 
