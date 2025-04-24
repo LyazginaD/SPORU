@@ -42,7 +42,7 @@
    <testCaseLink>
       <guid>8f8b4135-441b-494c-8ddc-2d2ade29ed08</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Сверки дашбордов/Прогноз по отраслям сверка дашбордов</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>

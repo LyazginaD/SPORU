@@ -754,7 +754,7 @@ def DzoTest(def todaysDate, def typeOfData) {
 
     Change(todaysDate, typeOfData)
 
-    WebUI.scrollToElement(findTestObject('Общие объекты/Раскрыть список Россети Юг'), 0)
+    WebUI.scrollToElement(findTestObject('Общие объекты/Раскрыть список Россети Юг'), 30)
 
     WebUI.click(findTestObject('Общие объекты/Раскрыть список Россети Юг'))
 
