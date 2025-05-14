@@ -153,7 +153,7 @@ i = VseDZO.indexOf('ЕЭС')
 if (i > -1) {
     dZONum = (dZONum + 1)
 
-    fR = GetAllData(path, dZONum, VseDZO, x = 'Россети ФСК ЕЭС/')
+    fR = GetAllData(path, dZONum, VseDZO, x = 'Россети ФСК ЕЭС/', dZO)
 } else {
     fR = (fR + 'нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных')
 }
@@ -165,7 +165,7 @@ i = VseDZO.indexOf('Тываэнерго')
 if (i > -1) {
     dZONum = (dZONum + 1)
 
-    tyR = GetAllData(path, dZONum, VseDZO, x = 'АО "Тываэнерго"/')
+    tyR = GetAllData(path, dZONum, VseDZO, x = 'АО "Тываэнерго"/', dZO)
 } else {
     tyR = (tyR + 'нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных')
 }
@@ -177,7 +177,7 @@ i = VseDZO.indexOf('Чеченэнерго')
 if (i > -1) {
     dZONum = (dZONum + 1)
 
-    chR = GetAllData(path, dZONum, VseDZO, x = 'АО "Чеченэнерго"/')
+    chR = GetAllData(path, dZONum, VseDZO, x = 'АО "Чеченэнерго"/', dZO)
 } else {
     chR = (chR + 'нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных')
 }
@@ -189,7 +189,7 @@ i = VseDZO.indexOf('Волга')
 if (i > -1) {
     dZONum = (dZONum + 1)
 
-    vR = GetAllData(path, dZONum, VseDZO, x = 'Россети Волга/')
+    vR = GetAllData(path, dZONum, VseDZO, x = 'Россети Волга/', dZO)
 } else {
     vR = (vR + 'нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных')
 }
@@ -201,7 +201,7 @@ i = VseDZO.indexOf('Кубань')
 if (i > -1) {
     dZONum = (dZONum + 1)
 
-    kR = GetAllData(path, dZONum, VseDZO, x = 'Россети Кубань/')
+    kR = GetAllData(path, dZONum, VseDZO, x = 'Россети Кубань/', dZO)
 } else {
     kR = (kR + 'нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных')
 }
@@ -213,7 +213,7 @@ i = VseDZO.indexOf('Ленэнерго')
 if (i > -1) {
     dZONum = (dZONum + 1)
 
-    lR = GetAllData(path, dZONum, VseDZO, x = 'Россети Ленэнерго (ГК)/')
+    lR = GetAllData(path, dZONum, VseDZO, x = 'Россети Ленэнерго (ГК)/', dZO)
 } else {
     lR = (lR + 'нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных')
 }
@@ -225,7 +225,7 @@ i = VseDZO.indexOf('Московский')
 if (i > -1) {
     dZONum = (dZONum + 1)
 
-    mR = GetAllData(path, dZONum, VseDZO, x = 'Россети Московский регион/')
+    mR = GetAllData(path, dZONum, VseDZO, x = 'Россети Московский регион/', dZO)
 } else {
     mR = (mR + 'нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных')
 }
@@ -237,7 +237,7 @@ i = VseDZO.indexOf('Кавказ')
 if (i > -1) {
     dZONum = (dZONum + 1)
 
-    sKR = GetAllData(path, dZONum, VseDZO, x = 'Россети Северный Кавказ (ГК)/')
+    sKR = GetAllData(path, dZONum, VseDZO, x = 'Россети Северный Кавказ (ГК)/', dZO)
 } else {
     sKR = (sKR + 'нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных')
 }
@@ -249,7 +249,7 @@ i = VseDZO.indexOf('Запад')
 if (i > -1) {
     dZONum = (dZONum + 1)
 
-    sZR = GetAllData(path, dZONum, VseDZO, x = 'Россети Северо-Запад/')
+    sZR = GetAllData(path, dZONum, VseDZO, x = 'Россети Северо-Запад/', dZO)
 } else {
     sZR = (sZR + 'нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных')
 }
@@ -261,7 +261,7 @@ i = VseDZO.indexOf('Сибирь')
 if (i > -1) {
     dZONum = (dZONum + 1)
 
-    siR = GetAllData(path, dZONum, VseDZO, x = 'Россети Сибирь (ГК)/')
+    siR = GetAllData(path, dZONum, VseDZO, x = 'Россети Сибирь (ГК)/', dZO)
 } else {
     siR = (siR + 'нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных')
 }
@@ -273,7 +273,7 @@ i = VseDZO.indexOf('Томск')
 if (i > -1) {
     dZONum = (dZONum + 1)
 
-    tomR = GetAllData(path, dZONum, VseDZO, x = 'Россети Томск/')
+    tomR = GetAllData(path, dZONum, VseDZO, x = 'Россети Томск/', dZO)
 } else {
     tomR = (tomR + 'нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных')
 }
@@ -285,7 +285,7 @@ i = VseDZO.indexOf('Тюмень')
 if (i > -1) {
     dZONum = (dZONum + 1)
 
-    tyumR = GetAllData(path, dZONum, VseDZO, x = 'Россети Тюмень/')
+    tyumR = GetAllData(path, dZONum, VseDZO, x = 'Россети Тюмень/', dZO)
 } else {
     tyumR = (tyumR + 'нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных')
 }
@@ -297,7 +297,7 @@ i = VseDZO.indexOf('Урал')
 if (i > -1) {
     dZONum = (dZONum + 1)
 
-    urR = GetAllData(path, dZONum, VseDZO, x = 'Россети Урал (ГК)/')
+    urR = GetAllData(path, dZONum, VseDZO, x = 'Россети Урал (ГК)/', dZO)
 } else {
     urR = (urR + 'нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных')
 }
@@ -309,7 +309,7 @@ i = VseDZO.indexOf('Центр')
 if (i > -1) {
     dZONum = (dZONum + 1)
 
-    cenR = GetAllData(path, dZONum, VseDZO, x = 'Россети Центр (ГК)/')
+    cenR = GetAllData(path, dZONum, VseDZO, x = 'Россети Центр (ГК)/', dZO)
 } else {
     cenR = (cenR + 'нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных')
 }
@@ -321,7 +321,7 @@ i = VseDZO.indexOf('Приволжье')
 if (i > -1) {
     dZONum = (dZONum + 1)
 
-    cIPR = GetAllData(path, dZONum, VseDZO, x = 'Россети Центр и Приволжье (ГК)/')
+    cIPR = GetAllData(path, dZONum, VseDZO, x = 'Россети Центр и Приволжье (ГК)/', dZO)
 } else {
     cIPR = (cIPR + 'нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных')
 }
@@ -333,7 +333,7 @@ i = VseDZO.indexOf('Юг')
 if (i > -1) {
     dZONum = (dZONum + 1)
 
-    ugR = GetAllData(path, dZONum, VseDZO, x = 'Россети Юг (ГК)/')
+    ugR = GetAllData(path, dZONum, VseDZO, x = 'Россети Юг (ГК)/', dZO)
 } else {
     ugR = (ugR + 'нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных')
 }
@@ -345,7 +345,7 @@ i = VseDZO.indexOf('Янтарь')
 if (i > -1) {
     dZONum = (dZONum + 1)
 
-    yR = GetAllData(path, dZONum, VseDZO, x = 'Россети Янтарь/')
+    yR = GetAllData(path, dZONum, VseDZO, x = 'Россети Янтарь/', dZO)
 } else {
     yR = (yR + 'нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных')
 }
@@ -372,7 +372,7 @@ i = VseDZO.indexOf('ЕЭС')
 if (i > -1) {
     dZONum = (dZONum + 1)
 
-    fB = GetAllData(path, dZONum, VseDZO, x = 'Россети ФСК ЕЭС/')
+    fB = GetAllData(path, dZONum, VseDZO, x = 'Россети ФСК ЕЭС/', dZO)
 } else {
     fB = (fB + 'нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных')
 }
@@ -384,7 +384,7 @@ i = VseDZO.indexOf('Тываэнерго')
 if (i > -1) {
     dZONum = (dZONum + 1)
 
-    tyB = GetAllData(path, dZONum, VseDZO, x = 'АО "Тываэнерго"/')
+    tyB = GetAllData(path, dZONum, VseDZO, x = 'АО "Тываэнерго"/', dZO)
 } else {
     tyB = (tyB + 'нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных')
 }
@@ -396,7 +396,7 @@ i = VseDZO.indexOf('Чеченэнерго')
 if (i > -1) {
     dZONum = (dZONum + 1)
 
-    chB = GetAllData(path, dZONum, VseDZO, x = 'АО "Чеченэнерго"/')
+    chB = GetAllData(path, dZONum, VseDZO, x = 'АО "Чеченэнерго"/', dZO)
 } else {
     chB = (chB + 'нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных')
 }
@@ -408,7 +408,7 @@ i = VseDZO.indexOf('Волга')
 if (i > -1) {
     dZONum = (dZONum + 1)
 
-    vB = GetAllData(path, dZONum, VseDZO, x = 'Россети Волга/')
+    vB = GetAllData(path, dZONum, VseDZO, x = 'Россети Волга/', dZO)
 } else {
     vB = (vB + 'нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных')
 }
@@ -420,7 +420,7 @@ i = VseDZO.indexOf('Кубань')
 if (i > -1) {
     dZONum = (dZONum + 1)
 
-    kB = GetAllData(path, dZONum, VseDZO, x = 'Россети Кубань/')
+    kB = GetAllData(path, dZONum, VseDZO, x = 'Россети Кубань/', dZO)
 } else {
     kB = (kB + 'нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных')
 }
@@ -432,7 +432,7 @@ i = VseDZO.indexOf('Ленэнерго')
 if (i > -1) {
     dZONum = (dZONum + 1)
 
-    lB = GetAllData(path, dZONum, VseDZO, x = 'Россети Ленэнерго (ГК)/')
+    lB = GetAllData(path, dZONum, VseDZO, x = 'Россети Ленэнерго (ГК)/', dZO)
 } else {
     lB = (lB + 'нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных')
 }
@@ -444,7 +444,7 @@ i = VseDZO.indexOf('Московский')
 if (i > -1) {
     dZONum = (dZONum + 1)
 
-    mB = GetAllData(path, dZONum, VseDZO, x = 'Россети Московский регион/')
+    mB = GetAllData(path, dZONum, VseDZO, x = 'Россети Московский регион/', dZO)
 } else {
     mB = (mB + 'нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных')
 }
@@ -456,7 +456,7 @@ i = VseDZO.indexOf('Кавказ')
 if (i > -1) {
     dZONum = (dZONum + 1)
 
-    sKB = GetAllData(path, dZONum, VseDZO, x = 'Россети Северный Кавказ (ГК)/')
+    sKB = GetAllData(path, dZONum, VseDZO, x = 'Россети Северный Кавказ (ГК)/', dZO)
 } else {
     sKB = (sKB + 'нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных')
 }
@@ -468,7 +468,7 @@ i = VseDZO.indexOf('Запад')
 if (i > -1) {
     dZONum = (dZONum + 1)
 
-    sZB = GetAllData(path, dZONum, VseDZO, x = 'Россети Северо-Запад/')
+    sZB = GetAllData(path, dZONum, VseDZO, x = 'Россети Северо-Запад/', dZO)
 } else {
     sZB = (sZB + 'нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных')
 }
@@ -480,7 +480,7 @@ i = VseDZO.indexOf('Сибирь')
 if (i > -1) {
     dZONum = (dZONum + 1)
 
-    siB = GetAllData(path, dZONum, VseDZO, x = 'Россети Сибирь (ГК)/')
+    siB = GetAllData(path, dZONum, VseDZO, x = 'Россети Сибирь (ГК)/', dZO)
 } else {
     siB = (siB + 'нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных')
 }
@@ -492,7 +492,7 @@ i = VseDZO.indexOf('Томск')
 if (i > -1) {
     dZONum = (dZONum + 1)
 
-    tomB = GetAllData(path, dZONum, VseDZO, x = 'Россети Томск/')
+    tomB = GetAllData(path, dZONum, VseDZO, x = 'Россети Томск/', dZO)
 } else {
     tomB = (tomB + 'нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных')
 }
@@ -504,7 +504,7 @@ i = VseDZO.indexOf('Тюмень')
 if (i > -1) {
     dZONum = (dZONum + 1)
 
-    tyumB = GetAllData(path, dZONum, VseDZO, x = 'Россети Тюмень/')
+    tyumB = GetAllData(path, dZONum, VseDZO, x = 'Россети Тюмень/', dZO)
 } else {
     tyumB = (tyumB + 'нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных')
 }
@@ -516,7 +516,7 @@ i = VseDZO.indexOf('Урал')
 if (i > -1) {
     dZONum = (dZONum + 1)
 
-    urB = GetAllData(path, dZONum, VseDZO, x = 'Россети Урал (ГК)/')
+    urB = GetAllData(path, dZONum, VseDZO, x = 'Россети Урал (ГК)/', dZO)
 } else {
     urB = (urB + 'нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных')
 }
@@ -528,7 +528,7 @@ i = VseDZO.indexOf('Центр')
 if (i > -1) {
     dZONum = (dZONum + 1)
 
-    cenB = GetAllData(path, dZONum, VseDZO, x = 'Россети Центр (ГК)/')
+    cenB = GetAllData(path, dZONum, VseDZO, x = 'Россети Центр (ГК)/', dZO)
 } else {
     cenB = (cenB + 'нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных')
 }
@@ -540,7 +540,7 @@ i = VseDZO.indexOf('Приволжье')
 if (i > -1) {
     dZONum = (dZONum + 1)
 
-    cIPB = GetAllData(path, dZONum, VseDZO, x = 'Россети Центр и Приволжье (ГК)/')
+    cIPB = GetAllData(path, dZONum, VseDZO, x = 'Россети Центр и Приволжье (ГК)/', dZO)
 } else {
     cIPB = (cIPB + 'нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных')
 }
@@ -552,7 +552,7 @@ i = VseDZO.indexOf('Юг')
 if (i > -1) {
     dZONum = (dZONum + 1)
 
-    ugB = GetAllData(path, dZONum, VseDZO, x = 'Россети Юг (ГК)/')
+    ugB = GetAllData(path, dZONum, VseDZO, x = 'Россети Юг (ГК)/', dZO)
 } else {
     ugB = (ugB + 'нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных')
 }
@@ -564,7 +564,7 @@ i = VseDZO.indexOf('Янтарь')
 if (i > -1) {
     dZONum = (dZONum + 1)
 
-    yB = GetAllData(path, dZONum, VseDZO, x = 'Россети Янтарь/')
+    yB = GetAllData(path, dZONum, VseDZO, x = 'Россети Янтарь/', dZO)
 } else {
     yB = (yB + 'нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных')
 }
@@ -912,107 +912,214 @@ def GetAllPAOData(def path, def dZONum, def VseDZO, def x) {
     return x
 }
 
-def GetAllData(def path, def dZONum, def VseDZO, def x) {
+def GetAllData(def path, def dZONum, def VseDZO, def x, def dZO) {
     int ii
 
     int i1
 
     String z
-
+	
+	String strToManage
+	
     String path2 = 'Значения со страницы Выполнение бизнес-плана/Table Data/'
-
+	
     println('path: ' + path)
 
+	int dZONumOtk
+	
     println('dZONum: ' + dZONum)
+	
+	dZO = x.substring(x.indexOf('/'))
+	
+	println('dZO: ' + dZO)
 
     z = WebUI.getText(findTestObject((path + 'spanPlan') + dZONum))
 
     println(z)
 
-    ii = z.indexOf('|')
+    if (z != '') {
+        ii = z.indexOf('|')
 
-    if (ii > -1) {
-        z = z.substring(0, z.length() - 1)
+        if (ii > -1) {
+            z = z.substring(0, z.length() - 1)
+
+            println(z)
+        }
+        
+        z = z.replaceAll('\\s+', '')
+
+        z = z.replace('[\\r?\n|\r]', '/')
 
         println(z)
-    }
-    
-    z = z.replaceAll('\\s+', '')
 
-    z = z.replace('[\\r?\n|\r]', '/')
+        x = (x + z)
 
-    println(z)
+        z = WebUI.getText(findTestObject((path + 'spanFact') + dZONum))
 
-    x = (x + z)
+        ii = z.indexOf('|')
 
-    z = WebUI.getText(findTestObject((path + 'spanFact') + dZONum))
-
-    ii = z.indexOf('|')
-
-    if (ii > -1) {
-        z = z.replace('|', '').substring(0, z.length() - 1).replace('[\\r?\n|\r]', '/')
-    }
-    
-    x = ((x + '/') + z)
-
-    z = WebUI.getText(findTestObject(((path + path2) + 'Факт Отпуск в сеть за отчётный период ') + dZONum)).replaceAll('\\s+', 
-        '')
-
-    println('z=' + z)
-
-    x = ((x + '/') + z)
-
-    z = WebUI.getText(findTestObject(((path + path2) + 'Факт Отпуск из сети за отчётный период ') + dZONum)).replaceAll(
-        '\\s+', '')
-
-    x = ((x + '/') + z)
-
-    z = WebUI.getText(findTestObject(((path + path2) + 'Факт Потери за отчётный период ') + dZONum)).replaceAll('\\s+', 
-        '')
-
-    x = ((x + '/') + z)
-
-    z = WebUI.getText(findTestObject(((path + path2) + 'План Отпуск в сеть за отчётный период ') + dZONum)).replaceAll('\\s+', 
-        '')
-
-    x = ((x + '/') + z)
-
-    z = WebUI.getText(findTestObject(((path + path2) + 'План Отпуск из сети за отчётный период ') + dZONum)).replaceAll(
-        '\\s+', '')
-
-    x = ((x + '/') + z)
-
-    z = WebUI.getText(findTestObject(((path + path2) + 'План Потери за отчётный период ') + dZONum)).replaceAll('\\s+', 
-        '')
-
-    x = ((x + '/') + z)
-
-    z = WebUI.getText(findTestObject(path + 'Список ДЗО')).replaceAll('[\\r?\n|\r]', '/')
-
-    for (ii = 1; ii < dZONum; ii++) {
-        i1 = (z.indexOf('/') + 1)
-
-        if (i1 > -1) {
-            z = z.substring(i1, z.length())
-
-            i1 = z.indexOf('/')
+        if (ii > -1) {
+            z = z.replace('|', '').substring(0, z.length() - 1).replace('[\\r?\n|\r]', '/')
         }
+        
+        x = ((x + '/') + z)
+
+        z = WebUI.getText(findTestObject(((path + path2) + 'Факт Отпуск в сеть за отчётный период ') + dZONum)).replaceAll(
+            '\\s+', '')
+
+        println('z=' + z)
+
+        x = ((x + '/') + z)
+
+        z = WebUI.getText(findTestObject(((path + path2) + 'Факт Отпуск из сети за отчётный период ') + dZONum)).replaceAll(
+            '\\s+', '')
+
+        x = ((x + '/') + z)
+
+        z = WebUI.getText(findTestObject(((path + path2) + 'Факт Потери за отчётный период ') + dZONum)).replaceAll('\\s+', 
+            '')
+
+        x = ((x + '/') + z)
+
+        z = WebUI.getText(findTestObject(((path + path2) + 'План Отпуск в сеть за отчётный период ') + dZONum)).replaceAll(
+            '\\s+', '')
+
+        x = ((x + '/') + z)
+
+        z = WebUI.getText(findTestObject(((path + path2) + 'План Отпуск из сети за отчётный период ') + dZONum)).replaceAll(
+            '\\s+', '')
+
+        x = ((x + '/') + z)
+
+        z = WebUI.getText(findTestObject(((path + path2) + 'План Потери за отчётный период ') + dZONum)).replaceAll('\\s+', 
+            '')
+
+        x = ((x + '/') + z)
+
+        z = WebUI.getText(findTestObject(path + 'Список ДЗО 2')).replaceAll('[\\r?\n|\r]', '/')
+
+		strToManage = z
+		
+		ii = strToManage.indexOf('ГК')
+		
+		
+		if(ii >-1) {
+		
+			for(i1 = 1; i1 > -1; i1--) {
+				strToManage = strToManage.substring(0,strToManage.indexOf('ГК')-1)+strToManage.substring(strToManage.indexOf('ГК')+3)
+				
+				println('strToManage count i1: ' + strToManage)
+				
+				i1 = strToManage.count('ГК')
+				println('i1: ' + i1)
+		
+			}
+		
+		}
+		
+		z = strToManage
+		
+		println('z: ' + z)
+		
+		int lettersStart = z.indexOf('Россети')
+
+		strToManage = z.substring(lettersStart,z.length())
+		
+		println('strToManage: ' + strToManage)
+		
+		String dZONames = strToManage
+		
+		strToManage = strToManage.replaceAll('[а-яА-Я]', '')
+		
+		println('strToManage after letters: ' + strToManage)
+		
+		strToManage = strToManage.replaceAll(' ', '').replaceAll('/-/', '')
+		
+		println('strToManage: ' + strToManage)
+		
+		strToManage = strToManage.substring(strToManage.lastIndexOf('//')+1,strToManage.length())
+		
+		println('strToManage: ' + strToManage)
+		
+		ii = z.indexOf(strToManage)
+		
+		if(ii>-1) {
+			z = z.substring(0,ii)+'/'
+		
+		}
+		
+		println('z: ' + z)
+		
+		println('dZONum: ' + dZONum)
+		
+		strToManage = dZO
+		
+		if(strToManage.indexOf('(ГК)')>-1) {
+			strToManage = strToManage.substring(0,dZO.indexOf('(ГК)'))
+		}
+		strToManage = strToManage.replaceAll("\\p{P}", "").replaceAll('\\s+', '')
+		
+		println('strToManage: ' + strToManage)
+		
+		if(z.replaceAll("\\p{P}", "").replaceAll('\\s+', '').indexOf(strToManage)>-1) {
+		
+			dZONames = dZONames.replaceAll('\\d+','').replaceAll('\\s+', '').replaceAll('-', '').replaceAll('//','')
+			
+			println('dZONames: ' + dZONames)
+			
+			dZONumOtk = 1
+			
+			ii = dZONames.indexOf(strToManage)
+			
+			if(strToManage!='ФСК') {
+					
+				if (ii>-1) {
+					
+					for(i1=1;ii>-1;i1++) {
+						
+						dZONames=dZONames.substring(dZONames.indexOf('/')+1, dZONames.length())
+							
+						ii = dZONames.lastIndexOf('/')
+						
+						println('dZONames: ' + dZONames)
+						
+						dZONumOtk = (dZONumOtk+1)
+							
+						println('dZONumOtk: ' + dZONumOtk)
+			
+					}
+				}
+			
+			}
+			if(z.indexOf('//')>-1) {
+					z = z.substring(0,z.indexOf('//'))
+			}
+		
+			println('z: ' + z)
+			
+			for (ii = 1; ii < dZONumOtk; ii++) {
+				i1 = (z.indexOf('/')+1)
+				z = z.substring(i1,z.length())
+				println('ii: ' + ii)
+				println('z: ' + z)
+		
+			}
+			
+			z = z.substring(0,z.indexOf('/'))
+		
+		}else {
+			z='нет данных'
+		}
+		println('z: ' + z)
+				
+		x = ((x + '/') + z)
+		
+		x = x.replaceAll('[\\r?\n|\r]', '')
+		
+    } else {
+        x = (x + 'нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных')
     }
     
-    i1 = z.indexOf('/')
-
-    if (i1 > -1) {
-        z = z.substring(0, i1)
-    }
-    
-    z = z.replace(',', '.')
-
-    println(z)
-
-    x = ((x + '/') + z)
-
-    x = x.replaceAll('[\\r?\n|\r]', '')
-
     println('x =' + x)
 
     return x
@@ -1471,7 +1578,9 @@ def WriteToExcel(def typeOfData, def todaysDate, def PercPlanR, def PercPlanB, d
 
     println(iii)
 
-    dZO = dZO.substring(0, iii)
+    if (iii>-1) {
+		dZO = dZO.substring(0, iii)
+    }
 
     println(dZO)
 
@@ -1753,18 +1862,7 @@ static def Presettings(def blockNum, def path) {
     WebUI.scrollToElement(findTestObject(path + '1 квартал 2025 список'), 30)
 
     'Выбрать нужную дату'
-    WebUI.click(findTestObject(path + '1 квартал 2025 список'))
-
-    'Выбрать нужную дату'
-    WebUI.scrollToElement(findTestObject(path + 'Январь 2025'), 30)
-
-    'Выбрать нужную дату'
-    WebUI.click(findTestObject(path + 'Январь 2025'))
-
-    WebUI.scrollToElement(findTestObject(path + 'Февраль 2025'), 30)
-
-    'Выбрать нужную дату'
-    WebUI.click(findTestObject(path + 'Февраль 2025'))
+    WebUI.click(findTestObject(path + '1 квартал 2025'))
 
     'Проскроллить до заголовка дашборда'
     WebUI.scrollToElement(findTestObject(path + 'Заголовок дашборда'), 30)

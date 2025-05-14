@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Показатели баланса электроэнергии по ДЗО – План'])[2]/following::td[22]</value>
+         <value>//div[160]/div[2]/div/div/table/tbody/tr[2]/td[5]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -23,15 +23,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>td</value>
-      <webElementGuid>02e5d552-f48d-406d-989f-53f9fcb1b20b</webElementGuid>
+      <webElementGuid>2fe9c0b9-4af3-4c60-83e2-a93cc8f6ed37</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>20 493 323</value>
-      <webElementGuid>c7b26bcd-8927-4b3d-a456-e58b3367ee61</webElementGuid>
+      <value>1 275 060</value>
+      <webElementGuid>c1e85329-5bb4-4088-97cb-ba2ec8ad1884</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;table-ac1c1f33b4104b84bb5367f98ee8ff92&quot;)/tbody[1]/tr[2]/td[5]</value>
-      <webElementGuid>ae76f77b-3f82-4d51-bfcc-0228cc45c160</webElementGuid>
+      <webElementGuid>bd252b00-8047-4547-afd6-56b5e9e37c40</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -47,39 +47,39 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='table-ac1c1f33b4104b84bb5367f98ee8ff92']/tbody/tr[2]/td[5]</value>
-      <webElementGuid>1838cc79-865f-4f8a-9061-33517ab9b98e</webElementGuid>
+      <webElementGuid>fa6be18b-16a3-462d-af66-31ab4658e450</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Показатели баланса электроэнергии по ДЗО – План'])[2]/following::td[22]</value>
-      <webElementGuid>ab5928e9-fdfc-45bf-9261-e29189b178dc</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Показатели баланса электроэнергии по ДЗО – План'])[2]/following::td[13]</value>
+      <webElementGuid>acbea5f8-3c0c-415b-b05f-448103ac6029</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='В начало'])[80]/following::td[22]</value>
-      <webElementGuid>7644d349-d6b1-4d50-881f-f924f192665b</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='В начало'])[80]/following::td[13]</value>
+      <webElementGuid>cdb93548-3479-40bc-9c0d-490ffa3c53ea</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Экспорт данных'])[1]/preceding::td[30]</value>
-      <webElementGuid>c7d53c3d-1540-4d90-8eaf-5248c07d9ba0</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='В начало'])[81]/preceding::td[12]</value>
+      <webElementGuid>55c5e774-bc4e-4747-a39e-1cf90b1c2377</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Отменить загрузку'])[1]/preceding::td[30]</value>
-      <webElementGuid>bec2e914-b4ca-44da-a599-1c1268041f95</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Уровень потерь электроэнергии - копия'])[1]/preceding::td[12]</value>
+      <webElementGuid>41b926cb-de90-4808-a517-dd9c4789966d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,14 +87,14 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[160]/div[2]/div/div/table/tbody/tr[2]/td[5]</value>
-      <webElementGuid>bbe5ae5b-f621-4ff6-9ecf-3a550e4d381b</webElementGuid>
+      <webElementGuid>0da5dc51-37df-4c1b-b1e3-241ab11123ff</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//td[(text() = '20 493 323' or . = '20 493 323')]</value>
-      <webElementGuid>71403cca-81a9-4e26-b88c-d8b51a0e83e9</webElementGuid>
+      <value>//td[(text() = '1 275 060' or . = '1 275 060')]</value>
+      <webElementGuid>d763b4ce-2d5e-462c-8d01-e13c61ed429a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

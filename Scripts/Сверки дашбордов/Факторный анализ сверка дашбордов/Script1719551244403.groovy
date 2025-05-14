@@ -85,15 +85,7 @@ static def Test(def run, def todaysDate, def typeOfData, def otobrajeniyeDannyh,
 
     WebUI.scrollToElement(findTestObject('Факторный анализ/1 квартал 2025 список'), 30)
 
-    WebUI.click(findTestObject('Факторный анализ/1 квартал 2025 список'), FailureHandling.CONTINUE_ON_FAILURE)
-
-    WebUI.scrollToElement(findTestObject('Факторный анализ/Январь 2025'), 30)
-
-    WebUI.click(findTestObject('Факторный анализ/Январь 2025'), FailureHandling.CONTINUE_ON_FAILURE)
-
-    WebUI.scrollToElement(findTestObject('Факторный анализ/Февраль 2025'), 30)
-
-    WebUI.click(findTestObject('Факторный анализ/Февраль 2025'), FailureHandling.CONTINUE_ON_FAILURE)
+    WebUI.click(findTestObject('Факторный анализ/1 квартал 2025 выбрать'), FailureHandling.CONTINUE_ON_FAILURE)
 
     'Проскроллить до заголовка фильтра "Дата"'
     WebUI.scrollToElement(findTestObject('Факторный анализ/Заголовок дашборда'), 30)
@@ -167,12 +159,12 @@ static def Test(def run, def todaysDate, def typeOfData, def otobrajeniyeDannyh,
     
     println('tableA: ' + tableA)
 
-	String ResA = GetData(x = tableA)
-	
-	println('ResA: ' + ResA)
-	
-	tableA = NewDZO(x = tableA)
-		
+    String ResA = GetData(x = tableA)
+
+    println('ResA: ' + ResA)
+
+    tableA = NewDZO(x = tableA)
+
     String TyA = GetData(x = tableA)
 
     println('TyA: ' + TyA)
@@ -187,7 +179,8 @@ static def Test(def run, def todaysDate, def typeOfData, def otobrajeniyeDannyh,
 
     i = tableA.indexOf('Кубань')
 
-    String VA = tableA.substring(0, i).replaceAll('[а-яА-Я]', '').replaceAll('  ', ' ').replaceAll('  ', ' ').replaceAll('- ', '-').replaceAll('--', '-').replaceAll('["«»()./]', '').trim()
+    String VA = tableA.substring(0, i).replaceAll('[а-яА-Я]', '').replaceAll('  ', ' ').replaceAll('  ', ' ').replaceAll(
+        '- ', '-').replaceAll('--', '-').replaceAll('["«»()./]', '').trim()
 
     println('VA: ' + VA)
 
@@ -205,7 +198,8 @@ static def Test(def run, def todaysDate, def typeOfData, def otobrajeniyeDannyh,
 
     i = tableA.indexOf('Московский')
 
-    String LenA = tableA.substring(0, i).replaceAll('[а-яА-Я]', '').replaceAll('  ', ' ').replaceAll('  ', ' ').replaceAll('- ', '-').replaceAll('--', '-').replaceAll('["«»()./]', '').trim()
+    String LenA = tableA.substring(0, i).replaceAll('[а-яА-Я]', '').replaceAll('  ', ' ').replaceAll('  ', ' ').replaceAll(
+        '- ', '-').replaceAll('--', '-').replaceAll('["«»()./]', '').trim()
 
     println('LenA: ' + LenA)
 
@@ -215,7 +209,8 @@ static def Test(def run, def todaysDate, def typeOfData, def otobrajeniyeDannyh,
 
     i = tableA.indexOf('Кавказ')
 
-    String MosA = tableA.substring(0, i).replaceAll('[а-яА-Я]', '').replaceAll('  ', ' ').replaceAll('  ', ' ').replaceAll('- ', '-').replaceAll('--', '-').replaceAll('["«»()./]', '').trim()
+    String MosA = tableA.substring(0, i).replaceAll('[а-яА-Я]', '').replaceAll('  ', ' ').replaceAll('  ', ' ').replaceAll(
+        '- ', '-').replaceAll('--', '-').replaceAll('["«»()./]', '').trim()
 
     println('MosA: ' + MosA)
 
@@ -223,9 +218,10 @@ static def Test(def run, def todaysDate, def typeOfData, def otobrajeniyeDannyh,
         tableA = NewDZO(x = tableA)
     }
     
-    i = tableA.indexOf('Запад')-1
+    i = (tableA.indexOf('Запад') - 1)
 
-    String SKA = tableA.substring(0, i).replaceAll('[а-яА-Я]', '').replaceAll('  ', ' ').replaceAll('  ', ' ').replaceAll('- ', '-').replaceAll('--', '-').replaceAll('["«»()./]', '').trim()
+    String SKA = tableA.substring(0, i).replaceAll('[а-яА-Я]', '').replaceAll('  ', ' ').replaceAll('  ', ' ').replaceAll(
+        '- ', '-').replaceAll('--', '-').replaceAll('["«»()./]', '').trim()
 
     println('SKA: ' + SKA)
 
@@ -235,7 +231,8 @@ static def Test(def run, def todaysDate, def typeOfData, def otobrajeniyeDannyh,
     
     i = tableA.indexOf('Сибирь')
 
-    String SZA = tableA.substring(0, i).replaceAll('[а-яА-Я]', '').replaceAll('  ', ' ').replaceAll('  ', ' ').replaceAll('- ', '-').replaceAll('--', '-').replaceAll('["«»()./]', '').trim()
+    String SZA = tableA.substring(0, i).replaceAll('[а-яА-Я]', '').replaceAll('  ', ' ').replaceAll('  ', ' ').replaceAll(
+        '- ', '-').replaceAll('--', '-').replaceAll('["«»()./]', '').trim()
 
     println('SZA: ' + SZA)
 
@@ -245,7 +242,8 @@ static def Test(def run, def todaysDate, def typeOfData, def otobrajeniyeDannyh,
     
     i = tableA.indexOf('Томск')
 
-    String SiA = tableA.substring(0, i).replaceAll('[а-яА-Я]', '').replaceAll('  ', ' ').replaceAll('  ', ' ').replaceAll('- ', '-').replaceAll('--', '-').replaceAll('["«»()./]', '').trim()
+    String SiA = tableA.substring(0, i).replaceAll('[а-яА-Я]', '').replaceAll('  ', ' ').replaceAll('  ', ' ').replaceAll(
+        '- ', '-').replaceAll('--', '-').replaceAll('["«»()./]', '').trim()
 
     println('SiA: ' + SiA)
 
@@ -255,13 +253,15 @@ static def Test(def run, def todaysDate, def typeOfData, def otobrajeniyeDannyh,
     
     i = tableA.indexOf('Тюмень')
 
-    String ToA = tableA.substring(0, i).replaceAll('[а-яА-Я]', '').replaceAll('  ', ' ').replaceAll('  ', ' ').replaceAll('- ', '-').replaceAll('--', '-').replaceAll('["«»()./]', '').trim()
+    String ToA = tableA.substring(0, i).replaceAll('[а-яА-Я]', '').replaceAll('  ', ' ').replaceAll('  ', ' ').replaceAll(
+        '- ', '-').replaceAll('--', '-').replaceAll('["«»()./]', '').trim()
 
     println('ToA: ' + ToA)
 
     tableA = NewDZO(x = tableA)
 
-    String TyuA = tableA.substring(0, i).replaceAll('[а-яА-Я]', '').replaceAll('  ', ' ').replaceAll('  ', ' ').replaceAll('- ', '-').replaceAll('--', '-').replaceAll('["«»()./]', '').trim()
+    String TyuA = tableA.substring(0, i).replaceAll('[а-яА-Я]', '').replaceAll('  ', ' ').replaceAll('  ', ' ').replaceAll(
+        '- ', '-').replaceAll('--', '-').replaceAll('["«»()./]', '').trim()
 
     println('TyuA: ' + TyuA)
 
@@ -269,7 +269,8 @@ static def Test(def run, def todaysDate, def typeOfData, def otobrajeniyeDannyh,
 
     i = tableA.indexOf('ЕЭС')
 
-    String UrA = tableA.substring(0, i).replaceAll('[а-яА-Я]', '').replaceAll('  ', ' ').replaceAll('  ', ' ').replaceAll('- ', '-').replaceAll('--', '-').replaceAll('["«»()./]', '').trim()
+    String UrA = tableA.substring(0, i).replaceAll('[а-яА-Я]', '').replaceAll('  ', ' ').replaceAll('  ', ' ').replaceAll(
+        '- ', '-').replaceAll('--', '-').replaceAll('["«»()./]', '').trim()
 
     println('UrA: ' + UrA)
 
@@ -279,7 +280,8 @@ static def Test(def run, def todaysDate, def typeOfData, def otobrajeniyeDannyh,
     
     i = tableA.indexOf('Центр')
 
-    String FSKA = tableA.substring(0, i).replaceAll('[а-яА-Я]', '').replaceAll('  ', ' ').replaceAll('  ', ' ').replaceAll('- ', '-').replaceAll('--', '-').replaceAll('["«»()./]', '').trim()
+    String FSKA = tableA.substring(0, i).replaceAll('[а-яА-Я]', '').replaceAll('  ', ' ').replaceAll('  ', ' ').replaceAll(
+        '- ', '-').replaceAll('--', '-').replaceAll('["«»()./]', '').trim()
 
     println('FSKA: ' + FSKA)
 
@@ -287,7 +289,8 @@ static def Test(def run, def todaysDate, def typeOfData, def otobrajeniyeDannyh,
 
     i = tableA.indexOf('Приволжье')
 
-    String CenA = tableA.substring(0, i).replaceAll('[а-яА-Я]', '').replaceAll('  ', ' ').replaceAll('  ', ' ').replaceAll('- ', '-').replaceAll('--', '-').replaceAll('["«»()./]', '').trim()
+    String CenA = tableA.substring(0, i).replaceAll('[а-яА-Я]', '').replaceAll('  ', ' ').replaceAll('  ', ' ').replaceAll(
+        '- ', '-').replaceAll('--', '-').replaceAll('["«»()./]', '').trim()
 
     println('CenA: ' + CenA)
 
@@ -297,7 +300,8 @@ static def Test(def run, def todaysDate, def typeOfData, def otobrajeniyeDannyh,
     
     i = tableA.indexOf('Юг')
 
-    String CiPA = tableA.substring(0, i).replaceAll('[а-яА-Я]', '').replaceAll('  ', ' ').replaceAll('  ', ' ').replaceAll('- ', '-').replaceAll('--', '-').replaceAll('["«»()./]', '').trim()
+    String CiPA = tableA.substring(0, i).replaceAll('[а-яА-Я]', '').replaceAll('  ', ' ').replaceAll('  ', ' ').replaceAll(
+        '- ', '-').replaceAll('--', '-').replaceAll('["«»()./]', '').trim()
 
     println('CiPA: ' + CiPA)
 
@@ -307,13 +311,15 @@ static def Test(def run, def todaysDate, def typeOfData, def otobrajeniyeDannyh,
     
     i = tableA.indexOf('Янтарь')
 
-    String UgA = tableA.substring(0, i).replaceAll('[а-яА-Я]', '').replaceAll('  ', ' ').replaceAll('  ', ' ').replaceAll('- ', '-').replaceAll('--', '-').replaceAll('["«»()./]', '').trim()
+    String UgA = tableA.substring(0, i).replaceAll('[а-яА-Я]', '').replaceAll('  ', ' ').replaceAll('  ', ' ').replaceAll(
+        '- ', '-').replaceAll('--', '-').replaceAll('["«»()./]', '').trim()
 
     println('UgA: ' + UgA)
 
     i = tableA.lastIndexOf('/')
 
-    String YaA = tableA.substring(i, tableA.length()).replaceAll('[а-яА-Я]', '').replaceAll('  ', ' ').replaceAll('  ', ' ').replaceAll('- ', '-').replaceAll('--', '-').replaceAll('["«»()./]', '').trim()
+    String YaA = tableA.substring(i, tableA.length()).replaceAll('[а-яА-Я]', '').replaceAll('  ', ' ').replaceAll('  ', 
+        ' ').replaceAll('- ', '-').replaceAll('--', '-').replaceAll('["«»()./]', '').trim()
 
     println('YaA: ' + YaA)
 
@@ -351,15 +357,7 @@ static def Test(def run, def todaysDate, def typeOfData, def otobrajeniyeDannyh,
 
     WebUI.scrollToElement(findTestObject('Факторный анализ/1 квартал 2025 список Выручка'), 30)
 
-    WebUI.click(findTestObject('Факторный анализ/1 квартал 2025 список Выручка'), FailureHandling.CONTINUE_ON_FAILURE)
-
-    WebUI.scrollToElement(findTestObject('Факторный анализ/Январь 2025 Выручка'), 30)
-
-    WebUI.click(findTestObject('Факторный анализ/Январь 2025 Выручка'), FailureHandling.CONTINUE_ON_FAILURE)
-
-    WebUI.scrollToElement(findTestObject('Факторный анализ/Февраль 2025 Выручка'), 30)
-
-    WebUI.click(findTestObject('Факторный анализ/Февраль 2025 Выручка'), FailureHandling.CONTINUE_ON_FAILURE)
+    WebUI.click(findTestObject('Факторный анализ/1 квартал 2025 выбрать Выручка'), FailureHandling.CONTINUE_ON_FAILURE)
 
     'Проскроллить до заголовка фильтра "Дата"'
     WebUI.scrollToElement(findTestObject('Факторный анализ/Заголовок дашборда Выручка'), 30)
@@ -368,54 +366,51 @@ static def Test(def run, def todaysDate, def typeOfData, def otobrajeniyeDannyh,
     WebUI.click(findTestObject('Факторный анализ/Применить в фильтре Дата Выручка'))
 
     if (run == 1) {
-		
-		b = WebUI.getText(findTestObject('Факторный анализ/Отклонения выручки по факторам Выручка'))
-		
-		i = (b.indexOf('ДЗО, руб')+8)
-		
-		if (i > -1) {
-			b = b.substring(i, b.length())
-		}
-		
-		i = b.indexOf('Отклонение')
-		
-		if (i > -1) {
-			b = b.substring(0, i).trim()
-		}
-		
-		b = b.replaceAll('[\\r?\n|\r]', '/')
-		
-		println('b: ' + b)
-		i = b.indexOf('/')
-		
-		if (i > -1) {
-			b1 = b.substring(0, i)
-		
-			println('b1: ' + b1)
-		
-			b2 = b.substring(b1.length() + 1, b.length())
-		
-			println('b2: ' + b2)
-		
-			i = (b1.length() / 2)
-		
-			if (i > -1) {
-				b1 = b1.substring(0, i).replaceAll('\\s+', '').trim()
-								
-				println('b1: ' + b1)
-		
-			}
-		
-		}
-		
-		i = (b2.length() / 2)
-		
-		if (i > -1) {
-			b2 = b2.substring(0, i).replaceAll('\\s+', '').trim()
-		}
-					
-		println('b2: ' + b2)
-		
+        b = WebUI.getText(findTestObject('Факторный анализ/Отклонения выручки по факторам Выручка'))
+
+        i = (b.indexOf('ДЗО, руб') + 8)
+
+        if (i > -1) {
+            b = b.substring(i, b.length())
+        }
+        
+        i = b.indexOf('Отклонение')
+
+        if (i > -1) {
+            b = b.substring(0, i).trim()
+        }
+        
+        b = b.replaceAll('[\\r?\n|\r]', '/')
+
+        println('b: ' + b)
+
+        i = b.indexOf('/')
+
+        if (i > -1) {
+            b1 = b.substring(0, i)
+
+            println('b1: ' + b1)
+
+            b2 = b.substring(b1.length() + 1, b.length())
+
+            println('b2: ' + b2)
+
+            i = (b1.length() / 2)
+
+            if (i > -1) {
+                b1 = b1.substring(0, i).replaceAll('\\s+', '').trim()
+
+                println('b1: ' + b1)
+            }
+        }
+        
+        i = (b2.length() / 2)
+
+        if (i > -1) {
+            b2 = b2.substring(0, i).replaceAll('\\s+', '').trim()
+        }
+        
+        println('b2: ' + b2)
     } else {
         WebUI.click(findTestObject('Факторный анализ/Переключить отображение с филиала на месяц Выручка'))
 
@@ -452,12 +447,12 @@ static def Test(def run, def todaysDate, def typeOfData, def otobrajeniyeDannyh,
     
     println('tableB: ' + tableB)
 
-	String ResB = GetData(x = tableB)
-	
-	println('ResB: ' + ResB)
-	
-	tableB = NewDZO(x = tableB)
-		
+    String ResB = GetData(x = tableB)
+
+    println('ResB: ' + ResB)
+
+    tableB = NewDZO(x = tableB)
+
     String TyB = GetData(x = tableB)
 
     println('TyB: ' + TyB)
@@ -472,7 +467,8 @@ static def Test(def run, def todaysDate, def typeOfData, def otobrajeniyeDannyh,
 
     i = tableB.indexOf('Кубань')
 
-    String VB = tableB.substring(0, i).replaceAll('[а-яА-Я]', '').replaceAll('  ', ' ').replaceAll('  ', ' ').replaceAll('- ', '-').replaceAll('--', '-').replaceAll('["«»()./]', '').trim()
+    String VB = tableB.substring(0, i).replaceAll('[а-яА-Я]', '').replaceAll('  ', ' ').replaceAll('  ', ' ').replaceAll(
+        '- ', '-').replaceAll('--', '-').replaceAll('["«»()./]', '').trim()
 
     println('VB: ' + VB)
 
@@ -490,7 +486,8 @@ static def Test(def run, def todaysDate, def typeOfData, def otobrajeniyeDannyh,
 
     i = tableB.indexOf('Московский')
 
-    String LenB = tableB.substring(0, i).replaceAll('[а-яА-Я]', '').replaceAll('  ', ' ').replaceAll('  ', ' ').replaceAll('- ', '-').replaceAll('--', '-').replaceAll('["«»()./]', '').trim()
+    String LenB = tableB.substring(0, i).replaceAll('[а-яА-Я]', '').replaceAll('  ', ' ').replaceAll('  ', ' ').replaceAll(
+        '- ', '-').replaceAll('--', '-').replaceAll('["«»()./]', '').trim()
 
     println('LenB: ' + LenB)
 
@@ -500,7 +497,8 @@ static def Test(def run, def todaysDate, def typeOfData, def otobrajeniyeDannyh,
 
     i = tableB.indexOf('Кавказ')
 
-    String MosB = tableB.substring(0, i).replaceAll('[а-яА-Я]', '').replaceAll('  ', ' ').replaceAll('  ', ' ').replaceAll('- ', '-').replaceAll('--', '-').replaceAll('["«»()./]', '').trim()
+    String MosB = tableB.substring(0, i).replaceAll('[а-яА-Я]', '').replaceAll('  ', ' ').replaceAll('  ', ' ').replaceAll(
+        '- ', '-').replaceAll('--', '-').replaceAll('["«»()./]', '').trim()
 
     println('MosB: ' + MosB)
 
@@ -508,9 +506,10 @@ static def Test(def run, def todaysDate, def typeOfData, def otobrajeniyeDannyh,
         tableB = NewDZO(x = tableB)
     }
     
-    i = tableB.indexOf('Запад')-1
+    i = (tableB.indexOf('Запад') - 1)
 
-    String SKB = tableB.substring(0, i).replaceAll('[а-яА-Я]', '').replaceAll('  ', ' ').replaceAll('  ', ' ').replaceAll('- ', '-').replaceAll('--', '-').replaceAll('["«»()./]', '').trim()
+    String SKB = tableB.substring(0, i).replaceAll('[а-яА-Я]', '').replaceAll('  ', ' ').replaceAll('  ', ' ').replaceAll(
+        '- ', '-').replaceAll('--', '-').replaceAll('["«»()./]', '').trim()
 
     println('SKB: ' + SKB)
 
@@ -520,7 +519,8 @@ static def Test(def run, def todaysDate, def typeOfData, def otobrajeniyeDannyh,
     
     i = tableB.indexOf('Сибирь')
 
-    String SZB = tableB.substring(0, i).replaceAll('[а-яА-Я]', '').replaceAll('  ', ' ').replaceAll('  ', ' ').replaceAll('- ', '-').replaceAll('--', '-').replaceAll('["«»()./]', '').trim()
+    String SZB = tableB.substring(0, i).replaceAll('[а-яА-Я]', '').replaceAll('  ', ' ').replaceAll('  ', ' ').replaceAll(
+        '- ', '-').replaceAll('--', '-').replaceAll('["«»()./]', '').trim()
 
     println('SZB: ' + SZB)
 
@@ -530,7 +530,8 @@ static def Test(def run, def todaysDate, def typeOfData, def otobrajeniyeDannyh,
     
     i = tableB.indexOf('Томск')
 
-    String SiB = tableB.substring(0, i).replaceAll('[а-яА-Я]', '').replaceAll('  ', ' ').replaceAll('  ', ' ').replaceAll('- ', '-').replaceAll('--', '-').replaceAll('["«»()./]', '').trim()
+    String SiB = tableB.substring(0, i).replaceAll('[а-яА-Я]', '').replaceAll('  ', ' ').replaceAll('  ', ' ').replaceAll(
+        '- ', '-').replaceAll('--', '-').replaceAll('["«»()./]', '').trim()
 
     println('SiB: ' + SiB)
 
@@ -540,13 +541,15 @@ static def Test(def run, def todaysDate, def typeOfData, def otobrajeniyeDannyh,
     
     i = tableB.indexOf('Тюмень')
 
-    String ToB = tableB.substring(0, i).replaceAll('[а-яА-Я]', '').replaceAll('  ', ' ').replaceAll('  ', ' ').replaceAll('- ', '-').replaceAll('--', '-').replaceAll('["«»()./]', '').trim()
+    String ToB = tableB.substring(0, i).replaceAll('[а-яА-Я]', '').replaceAll('  ', ' ').replaceAll('  ', ' ').replaceAll(
+        '- ', '-').replaceAll('--', '-').replaceAll('["«»()./]', '').trim()
 
     println('ToB: ' + ToB)
 
     tableB = NewDZO(x = tableB)
 
-    String TyuB = tableB.substring(0, i).replaceAll('[а-яА-Я]', '').replaceAll('  ', ' ').replaceAll('  ', ' ').replaceAll('- ', '-').replaceAll('--', '-').replaceAll('["«»()./]', '').trim()
+    String TyuB = tableB.substring(0, i).replaceAll('[а-яА-Я]', '').replaceAll('  ', ' ').replaceAll('  ', ' ').replaceAll(
+        '- ', '-').replaceAll('--', '-').replaceAll('["«»()./]', '').trim()
 
     println('TyuB: ' + TyuB)
 
@@ -554,7 +557,8 @@ static def Test(def run, def todaysDate, def typeOfData, def otobrajeniyeDannyh,
 
     i = tableB.indexOf('ЕЭС')
 
-    String UrB = tableB.substring(0, i).replaceAll('[а-яА-Я]', '').replaceAll('  ', ' ').replaceAll('  ', ' ').replaceAll('- ', '-').replaceAll('--', '-').replaceAll('["«»()./]', '').trim()
+    String UrB = tableB.substring(0, i).replaceAll('[а-яА-Я]', '').replaceAll('  ', ' ').replaceAll('  ', ' ').replaceAll(
+        '- ', '-').replaceAll('--', '-').replaceAll('["«»()./]', '').trim()
 
     println('UrB: ' + UrB)
 
@@ -564,7 +568,8 @@ static def Test(def run, def todaysDate, def typeOfData, def otobrajeniyeDannyh,
     
     i = tableB.indexOf('Центр')
 
-    String FSKB = tableB.substring(0, i).replaceAll('[а-яА-Я]', '').replaceAll('  ', ' ').replaceAll('  ', ' ').replaceAll('- ', '-').replaceAll('--', '-').replaceAll('["«»()./]', '').trim()
+    String FSKB = tableB.substring(0, i).replaceAll('[а-яА-Я]', '').replaceAll('  ', ' ').replaceAll('  ', ' ').replaceAll(
+        '- ', '-').replaceAll('--', '-').replaceAll('["«»()./]', '').trim()
 
     println('FSKB: ' + FSKB)
 
@@ -572,7 +577,8 @@ static def Test(def run, def todaysDate, def typeOfData, def otobrajeniyeDannyh,
 
     i = tableB.indexOf('Приволжье')
 
-    String CenB = tableB.substring(0, i).replaceAll('[а-яА-Я]', '').replaceAll('  ', ' ').replaceAll('  ', ' ').replaceAll('- ', '-').replaceAll('--', '-').replaceAll('["«»()./]', '').trim()
+    String CenB = tableB.substring(0, i).replaceAll('[а-яА-Я]', '').replaceAll('  ', ' ').replaceAll('  ', ' ').replaceAll(
+        '- ', '-').replaceAll('--', '-').replaceAll('["«»()./]', '').trim()
 
     println('CenB: ' + CenB)
 
@@ -582,7 +588,8 @@ static def Test(def run, def todaysDate, def typeOfData, def otobrajeniyeDannyh,
     
     i = tableB.indexOf('Юг')
 
-    String CiPB = tableB.substring(0, i).replaceAll('[а-яА-Я]', '').replaceAll('  ', ' ').replaceAll('  ', ' ').replaceAll('- ', '-').replaceAll('--', '-').replaceAll('["«»()./]', '').trim()
+    String CiPB = tableB.substring(0, i).replaceAll('[а-яА-Я]', '').replaceAll('  ', ' ').replaceAll('  ', ' ').replaceAll(
+        '- ', '-').replaceAll('--', '-').replaceAll('["«»()./]', '').trim()
 
     println('CiPB: ' + CiPB)
 
@@ -592,24 +599,25 @@ static def Test(def run, def todaysDate, def typeOfData, def otobrajeniyeDannyh,
     
     i = tableB.indexOf('Янтарь')
 
-    String UgB = tableB.substring(0, i).replaceAll('[а-яА-Я]', '').replaceAll('  ', ' ').replaceAll('  ', ' ').replaceAll('- ', '-').replaceAll('--', '-').replaceAll('["«»()./]', '').trim()
+    String UgB = tableB.substring(0, i).replaceAll('[а-яА-Я]', '').replaceAll('  ', ' ').replaceAll('  ', ' ').replaceAll(
+        '- ', '-').replaceAll('--', '-').replaceAll('["«»()./]', '').trim()
 
     println('UgB: ' + UgB)
 
     i = tableB.lastIndexOf('/')
 
-    String YaB = tableB.substring(i, tableB.length()).replaceAll('[а-яА-Я]', '').replaceAll('  ', ' ').replaceAll('  ', ' ').replaceAll('--', '-').replaceAll('["«»()./]', '').trim()
+    String YaB = tableB.substring(i, tableB.length()).replaceAll('[а-яА-Я]', '').replaceAll('  ', ' ').replaceAll('  ', 
+        ' ').replaceAll('--', '-').replaceAll('["«»()./]', '').trim()
 
     println('YaB: ' + YaB)
 
     vidget = 'Отклонения выручки по факторам'
 
     if (run == 2) {
-		
-		DZO = 'АО "РЭС"'
-		
-		CompareDZO(x = ResA, y = ResB, run, typeOfData, otobrajeniyeDannyh, todaysDate, vidget, DZO)
-		
+        DZO = 'АО "РЭС"'
+
+        CompareDZO(x = ResA, y = ResB, run, typeOfData, otobrajeniyeDannyh, todaysDate, vidget, DZO)
+
         DZO = 'АО «Тываэнерго»'
 
         CompareDZO(x = TyA, y = TyB, run, typeOfData, otobrajeniyeDannyh, todaysDate, vidget, DZO)
@@ -717,7 +725,8 @@ static def GetData(def x) {
 
     i2 = (x.indexOf('/') + 1)
 
-    x = x.substring(0, i2).replaceAll('[а-яА-Я]', '').replaceAll('  ', ' ').replaceAll('  ', ' ').replaceAll('  ', ' ').replaceAll('--', '-').replaceAll('["«»()./]', '').trim()
+    x = x.substring(0, i2).replaceAll('[а-яА-Я]', '').replaceAll('  ', ' ').replaceAll('  ', ' ').replaceAll('  ', ' ').replaceAll(
+        '--', '-').replaceAll('["«»()./]', '').trim()
 
     return x
 }

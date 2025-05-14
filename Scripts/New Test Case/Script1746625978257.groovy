@@ -17,46 +17,29 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-String a31='45.5'
+WebUI.openBrowser('')
 
-String b31=''
+WebUI.navigateToUrl(findTestData('PlanFact').getValue(10, 4))
 
-double a
+urlText = WebUI.getText(findTestObject('Страница авторизации/Text'))
 
-double b
+WebUI.delay(10)
 
-String x
+WebUI.setText(findTestObject('Страница авторизации/input__username'), findTestData('PlanFact').getValue(8, 1))
 
+WebUI.setText(findTestObject('Страница авторизации/input__password'), findTestData('PlanFact').getValue(9, 1))
 
-String y
+WebUI.click(findTestObject('Страница авторизации/button_'))
 
-if (WebUI.verifyEqual(a31, b31) == false) {
-	CheckIfNotEmptyA(x)
+WebUI.delay(25)
 
-}
+String a  = WebUI.getText(findTestObject('Выполнение бизнес-плана/Выполнение бизнес-плана Балансы/Список ДЗО 2')).replaceAll('[\\r?\n|\r]', '/')
 
-def CheckIfNotEmptyA(x) {
-	
-	if(x !='') {
-		a = a31.replaceAll('\\s+', '').toDouble()
-		println(a)
-	}else {
-		x = 'нет данных'
-		println(x)
-	}
+println(a)
 
-}
+a  = WebUI.getText(findTestObject('Выполнение бизнес-плана/Выполнение бизнес-плана Балансы/Список ДЗО 3')).replaceAll('[\\r?\n|\r]', '/')
 
+println(a)
 
-def CheckIfNotEmptyB(b,y) {
+WebUI.closeBrowser()
 
-	if(y !='') {
-		b = y.replaceAll('\\s+', '').toDouble()
-		println(b)
-		
-		return b
-	}else {
-		y = 'нет данных'
-		println(y)
-	}
-}

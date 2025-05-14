@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Показатели баланса электроэнергии по ДЗО – Факт'])[1]/following::td[37]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Показатели баланса электроэнергии по ДЗО – Факт'])[1]/following::td[19]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>td</value>
-      <webElementGuid>6f93858c-1ba0-41d5-8fb8-ecaa8637ab01</webElementGuid>
+      <webElementGuid>dab3cc78-953c-486e-b0d3-ef648d83564f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +31,7 @@
       <name>text</name>
       <type>Main</type>
       <value>7 752 382</value>
-      <webElementGuid>6b73373d-606f-4471-9929-3959ceddd236</webElementGuid>
+      <webElementGuid>8201b995-e9f0-4b54-b55c-115e667e6754</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;table-a7b9063e17f946a88f7817e908578521&quot;)/tbody[1]/tr[3]/td[1]</value>
-      <webElementGuid>2dd9a967-ac14-4413-8d13-f71c3bb38a03</webElementGuid>
+      <webElementGuid>e8766205-68ba-48a6-87b9-19341a371bf0</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='table-a7b9063e17f946a88f7817e908578521']/tbody/tr[3]/td</value>
-      <webElementGuid>919a6af3-96e4-41b6-bbaa-cf0ce2f9a642</webElementGuid>
+      <webElementGuid>9fefce0d-258c-428e-9d48-5ffc2b4ba348</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Показатели баланса электроэнергии по ДЗО – Факт'])[1]/following::td[41]</value>
-      <webElementGuid>b3a06f2a-8b69-4dcb-a6a4-565c74b78164</webElementGuid>
+      <webElementGuid>71553eb9-723f-41d1-99dc-a9e211e7b8cd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='В начало'])[16]/following::td[35]</value>
-      <webElementGuid>d71f215e-0289-4c0e-a757-6f4a620488ee</webElementGuid>
+      <webElementGuid>9e227467-2b28-4fb8-ae33-416e62579b81</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='В начало'])[17]/preceding::td[17]</value>
-      <webElementGuid>8e12d18b-d1f6-41a6-b028-fe898547140c</webElementGuid>
+      <webElementGuid>ca43499e-4ab5-4adb-b8f9-dbcb0b872e51</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Итого'])[5]/preceding::td[17]</value>
-      <webElementGuid>c5919333-619c-4dc3-b334-c0945311b80d</webElementGuid>
+      <webElementGuid>ef84d554-4137-49cb-841f-e9255a114cdd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='7 752 382']/parent::*</value>
-      <webElementGuid>2e245b06-39f5-49a0-a8d8-336e1c26729b</webElementGuid>
+      <webElementGuid>5969d3fd-23a6-47f8-8050-5035d4cb48d2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[3]/td</value>
-      <webElementGuid>40268177-1520-437c-a0b3-bc744a853275</webElementGuid>
+      <webElementGuid>23c301c2-4527-4406-b1ca-0aab2805605e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,6 +103,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//td[(text() = '7 752 382' or . = '7 752 382')]</value>
-      <webElementGuid>2e21f774-bcda-4532-ad03-f5c00c1edb05</webElementGuid>
+      <webElementGuid>04c81749-630c-4122-9670-40d35b3085f7</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -130,15 +130,7 @@ WebUI.click(findTestObject('Выполнение бизнес-плана/2025 с
 
 WebUI.scrollToElement(findTestObject('Выполнение бизнес-плана/1 квартал 2025 список'), 30)
 
-WebUI.click(findTestObject('Выполнение бизнес-плана/1 квартал 2025 список'), FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.scrollToElement(findTestObject('Выполнение бизнес-плана/Январь 2025'), 30)
-
-WebUI.click(findTestObject('Выполнение бизнес-плана/Январь 2025'), FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.scrollToElement(findTestObject('Выполнение бизнес-плана/Февраль 2025'), 30)
-
-WebUI.click(findTestObject('Выполнение бизнес-плана/Февраль 2025'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('Выполнение бизнес-плана/1 квартал 2025'), FailureHandling.CONTINUE_ON_FAILURE)
 
 'Проскроллить до заголовка фильтра "Дата"'
 WebUI.scrollToElement(findTestObject('Выполнение бизнес-плана/Заголовок дашборда'), 30)
@@ -586,9 +578,9 @@ static def Numbers(def a, def typeOfData, def todaysDate, def pageInt, def fileI
             path = (((dataFolder + typeOfData) + ' за отчётный период ') + 'РаспредКомплекс')
         } else if (a == 84) {
             path = (((dataFolder + typeOfData) + ' за отчётный период ') + 'ПАО Россети')
-        } else if ((((((((((((((((a == 83) || (a == 52)) || (a == 72)) || (a == 28)) || (a == 73)) || (a == 77)) || (a == 
-        74)) || (a == 65)) || (a == 44)) || (a == 53)) || (a == 80)) || (a == 54)) || (a == 1)) || (a == 18)) || (a == 59)) || 
-        (a == 81)) {
+        } else if (((((((((((((((((a == 83) || (a == 52)) || (a == 72)) || (a == 28)) || (a == 73)) || (a == 77)) || (a == 
+        74)) || (a == 65)) || (a == 36)) || (a == 44)) || (a == 53)) || (a == 80)) || (a == 54)) || (a == 1)) || (a == 18)) || 
+        (a == 59)) || (a == 81)) {
             path = ((((dataFolder + 'Table Data/') + typeOfData) + ' за отчётный период ') + dzoNum)
         } else {
             path = (((dataFolder + typeOfData) + ' за отчётный период ') + b)
@@ -778,7 +770,7 @@ static void ZakrytOpoveshenie() {
 }
 
 static void DZO(def a) {
-    WebUI.delay(20)
+    WebUI.delay(30)
 
     OpenFilter()
 
@@ -846,7 +838,7 @@ static void DZO(def a) {
     
     CloseFilter()
 
-    WebUI.delay(20)
+    WebUI.delay(30)
 
     ZakrytOpoveshenie()
 }
@@ -1778,7 +1770,7 @@ static def Filials(def a, def typeOfData, def todaysDate, def pageInt, def fileI
 
     CloseFilter()
 
-    WebUI.delay(60)
+    WebUI.delay(20)
 }
 
 static def WriteToExcel(def a, def typeOfData, def todaysDate, def pageInt, def fileInt, def pageDouble, def fileDouble, def dZO) {

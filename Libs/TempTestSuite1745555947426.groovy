@@ -13,8 +13,8 @@ import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 
 Map<String, String> suiteProperties = new HashMap<String, String>();
 
-suiteProperties.put('id', 'Test Suites/\u0412\u0442-\u0427\u0442/\u041E\u0442\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 \u0434\u0430\u043D\u043D\u044B\u0445')
-suiteProperties.put('name', '\u041E\u0442\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 \u0434\u0430\u043D\u043D\u044B\u0445')
+suiteProperties.put('id', 'Test Suites/\u041F\u043D-\u0421\u0440-\u041F\u0442/\u0421\u0432\u0435\u0440\u043A\u0430 \u0434\u0430\u0448\u0431\u043E\u0440\u0434\u043E\u0432 \u0438\u0437 \u0440\u0430\u0437\u043D\u044B\u0445 \u0431\u043B\u043E\u043A\u043E\u0432')
+suiteProperties.put('name', '\u0421\u0432\u0435\u0440\u043A\u0430 \u0434\u0430\u0448\u0431\u043E\u0440\u0434\u043E\u0432 \u0438\u0437 \u0440\u0430\u0437\u043D\u044B\u0445 \u0431\u043B\u043E\u043A\u043E\u0432')
 suiteProperties.put('description', '')
 suiteProperties.put('rerunTestFailImmediately', 'false')
 suiteProperties.put('retryCount', '0')
@@ -28,8 +28,8 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.t
 
 
 
-RunConfiguration.setExecutionSettingFile("C:\\Users\\LIAZGINA-DI\\git\\SPORU\\Reports\\20250424_050009\\\u0412\u0442-\u0427\u0442\\\u041E\u0442\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 \u0434\u0430\u043D\u043D\u044B\u0445\\20250424_050010\\execution.properties")
+RunConfiguration.setExecutionSettingFile("C:\\Users\\LIAZGINA-DI\\git\\SPORU\\Reports\\20250425_073907\\\u041F\u043D-\u0421\u0440-\u041F\u0442\\\u0421\u0432\u0435\u0440\u043A\u0430 \u0434\u0430\u0448\u0431\u043E\u0440\u0434\u043E\u0432 \u0438\u0437 \u0440\u0430\u0437\u043D\u044B\u0445 \u0431\u043B\u043E\u043A\u043E\u0432\\20250425_073907\\execution.properties")
 
 TestCaseMain.beforeStart()
 
-TestCaseMain.startTestSuite('Test Suites/Вт-Чт/Отображение данных', suiteProperties, new File("C:\\Users\\LIAZGINA-DI\\git\\SPORU\\Reports\\20250424_050009\\\u0412\u0442-\u0427\u0442\\\u041E\u0442\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 \u0434\u0430\u043D\u043D\u044B\u0445\\20250424_050010\\testCaseBinding"))
+TestCaseMain.startTestSuite('Test Suites/Пн-Ср-Пт/Сверка дашбордов из разных блоков', suiteProperties, new File("C:\\Users\\LIAZGINA-DI\\git\\SPORU\\Reports\\20250425_073907\\\u041F\u043D-\u0421\u0440-\u041F\u0442\\\u0421\u0432\u0435\u0440\u043A\u0430 \u0434\u0430\u0448\u0431\u043E\u0440\u0434\u043E\u0432 \u0438\u0437 \u0440\u0430\u0437\u043D\u044B\u0445 \u0431\u043B\u043E\u043A\u043E\u0432\\20250425_073907\\testCaseBinding"))

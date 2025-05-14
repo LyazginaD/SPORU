@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='c7e27f08c7164b0c881f567f2c3b10a2']/div/div[2]/div[2]/div[2]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Выбрать отображаемые'])[2]/following::div[1]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -15,6 +15,7 @@
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>4a9f25cf-94f6-47af-92e5-515308ab3339</webElementGuid>
+      <webElementGuid>1f65a3ec-ffb4-4ce4-addc-cf943c74251f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>rb-filter-unselect-all-button button</value>
-      <webElementGuid>cfe0e91e-01f7-4f30-9b69-ce396dfbb3f3</webElementGuid>
+      <webElementGuid>b5a6953f-1ac6-4f39-bcd5-740470fa5d95</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +39,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Снять выделение</value>
-      <webElementGuid>49a06a26-d637-4cd7-986a-cce90d0cb2a3</webElementGuid>
+      <webElementGuid>812c6542-e1b3-4caa-9a88-362645aef48e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +47,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;c7e27f08c7164b0c881f567f2c3b10a2&quot;)/div[@class=&quot;rb-filter-container not-selectable rb-filter-multi-selection&quot;]/div[@class=&quot;rb-filter-body-container opened&quot;]/div[@class=&quot;rb-filter-selection-buttons-container&quot;]/div[@class=&quot;rb-filter-unselect-all-button button&quot;]</value>
-      <webElementGuid>7f772f00-d01f-4741-bc63-f747071c9ba8</webElementGuid>
+      <webElementGuid>e4afb81e-158f-4d55-89f2-e0564ca749f1</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +55,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='c7e27f08c7164b0c881f567f2c3b10a2']/div/div[2]/div[2]/div[2]</value>
-      <webElementGuid>e3ba8625-dde7-426e-a7eb-7000305ee68b</webElementGuid>
+      <webElementGuid>547677b1-7d60-409f-876d-1eda259529b6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,39 +63,39 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Выбрать отображаемые'])[2]/following::div[1]</value>
-      <webElementGuid>7569e259-3088-4e20-aa8b-9204f21e108e</webElementGuid>
+      <webElementGuid>c5f2b9ef-aac3-484c-b683-4de2b37da007</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Февраль'])[1]/following::div[3]</value>
-      <webElementGuid>123e2cf2-39df-4734-8e5c-bd282923bc58</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Выбранные значения'])[2]/following::div[4]</value>
+      <webElementGuid>4eebc7f0-0953-4edb-8cac-513effa9a4cc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Январь'])[1]/preceding::div[5]</value>
-      <webElementGuid>c5a60458-da3e-48cf-830b-ac6e7135e09e</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Достигнут лимит данных'])[1]/preceding::div[1]</value>
+      <webElementGuid>a7d5eaa8-6882-4cb3-a831-377336077f9e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Февраль'])[2]/preceding::div[7]</value>
-      <webElementGuid>369a3be7-f3d5-4471-a7cc-e3e5186dc474</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Январь'])[1]/preceding::div[6]</value>
+      <webElementGuid>9be9b161-109d-4130-92ea-273a4c92146a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[5]/div[2]/div/div/div[2]/div[2]/div[2]</value>
-      <webElementGuid>72ee733d-366b-4622-bb9d-8b0ee69b8ae2</webElementGuid>
+      <value>//div[4]/div[2]/div/div/div[2]/div[2]/div[2]</value>
+      <webElementGuid>77b08314-21a5-4293-b5cf-9dd0c79364bc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +103,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Снять выделение' or . = 'Снять выделение')]</value>
-      <webElementGuid>6b5adf53-2679-45c6-8fef-c014780afb42</webElementGuid>
+      <webElementGuid>b22dbecc-8bf0-41e1-90a5-0cff964b4d64</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

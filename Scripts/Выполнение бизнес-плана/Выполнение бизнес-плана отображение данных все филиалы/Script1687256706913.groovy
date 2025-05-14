@@ -111,15 +111,7 @@ WebUI.click(findTestObject('Выполнение бизнес-плана/2025 с
 
 WebUI.scrollToElement(findTestObject('Выполнение бизнес-плана/1 квартал 2025 список'), 30)
 
-WebUI.click(findTestObject('Выполнение бизнес-плана/1 квартал 2025 список'), FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.scrollToElement(findTestObject('Выполнение бизнес-плана/Январь 2025'), 30)
-
-WebUI.click(findTestObject('Выполнение бизнес-плана/Январь 2025'), FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.scrollToElement(findTestObject('Выполнение бизнес-плана/Февраль 2025'), 30)
-
-WebUI.click(findTestObject('Выполнение бизнес-плана/Февраль 2025'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('Выполнение бизнес-плана/1 квартал 2025'), FailureHandling.CONTINUE_ON_FAILURE)
 
 'Проскроллить до заголовка фильтра "Дата"'
 WebUI.scrollToElement(findTestObject('Выполнение бизнес-плана/Заголовок дашборда'), 30)

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Список ДЗО 2</name>
+   <tag></tag>
+   <elementGuidId>237c1715-78e7-4a58-a35d-4f7aeed4d2e3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='В начало'])[3]/following::*[name()='svg'][1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>svg.highcharts-root</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>svg</value>
+      <webElementGuid>b00da60e-0ab3-4eed-bce8-19d73120eec0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>version</name>
+      <type>Main</type>
+      <value>1.1</value>
+      <webElementGuid>d3a24259-4350-4624-8571-824c2830ed31</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>highcharts-root</value>
+      <webElementGuid>24d055c4-6adf-40fa-a87c-6ed309824528</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xmlns</name>
+      <type>Main</type>
+      <value>http://www.w3.org/2000/svg</value>
+      <webElementGuid>48a542d6-0ab0-4a18-af0c-88625ce471e7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>width</name>
+      <type>Main</type>
+      <value>1675</value>
+      <webElementGuid>5f4d498a-4bf7-484d-a5dc-3acba6e4125a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>height</name>
+      <type>Main</type>
+      <value>190</value>
+      <webElementGuid>8640c05b-359a-447c-83ac-6e7cd89ebd8c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>viewBox</name>
+      <type>Main</type>
+      <value>0 0 1675 190</value>
+      <webElementGuid>e7d8846b-54e4-4e64-a90a-f1b3033b9f2d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Created with Highcharts 9.0.10.05-0.99-0.40-1.51-0.19-0.38-0.25-1.05-0.60-1.44-1.52Россети ФСК ЕЭСРоссети ВолгаРоссети Московский​регионРоссети Северо-ЗападРоссети ТомскРоссети ТюменьРоссети Урал (ГК)Россети Центр (ГК)Россети Центр и​Приволжье (ГК)Россети Юг (ГК)Россети Янтарь-202468Россети Юг (ГК): -1.44</value>
+      <webElementGuid>468a0949-e716-45f3-9eba-085d79cb1507</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;highcharts-yxpaggw-173&quot;)/svg[@class=&quot;highcharts-root&quot;]</value>
+      <webElementGuid>742d17af-f9f0-4d4f-b6d7-5518fcc6a891</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Отклонения фактического уровня потерь от бизнес-плана, п.п.'])[1]/following::*[name()='svg'][1]</value>
+      <webElementGuid>bd585f73-9424-404f-b57b-6f56e65f0cc9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='В начало'])[3]/following::*[name()='svg'][1]</value>
+      <webElementGuid>9143d296-0c82-481e-b817-1b16da06e836</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//svg[(text() = 'Created with Highcharts 9.0.10.05-0.99-0.40-1.51-0.19-0.38-0.25-1.05-0.60-1.44-1.52Россети ФСК ЕЭСРоссети ВолгаРоссети Московский​регионРоссети Северо-ЗападРоссети ТомскРоссети ТюменьРоссети Урал (ГК)Россети Центр (ГК)Россети Центр и​Приволжье (ГК)Россети Юг (ГК)Россети Янтарь-202468Россети Юг (ГК): -1.44' or . = 'Created with Highcharts 9.0.10.05-0.99-0.40-1.51-0.19-0.38-0.25-1.05-0.60-1.44-1.52Россети ФСК ЕЭСРоссети ВолгаРоссети Московский​регионРоссети Северо-ЗападРоссети ТомскРоссети ТюменьРоссети Урал (ГК)Россети Центр (ГК)Россети Центр и​Приволжье (ГК)Россети Юг (ГК)Россети Янтарь-202468Россети Юг (ГК): -1.44')]</value>
+      <webElementGuid>f70ff733-4bad-4f79-ab1d-7c4aef8cf0fb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

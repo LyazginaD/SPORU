@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Потери'])[4]/following::td[1]</value>
+         <value>//div[144]/div[2]/div/div/table/tbody/tr[3]/td[2]</value>
       </entry>
       <entry>
          <key>BASIC</key>
@@ -15,9 +15,11 @@
       </entry>
       <entry>
          <key>CSS</key>
+         <value>#table-d666b45405154eb2b183036cee818b60 > tbody > tr:nth-of-type(3) > td:nth-of-type(2)</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -25,15 +27,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>td</value>
-      <webElementGuid>4e5d777a-a507-4efa-b4ac-fb0d6ecbefb0</webElementGuid>
+      <webElementGuid>e32e7a7f-616f-412c-a878-172d1575c22a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>15 049 150</value>
-      <webElementGuid>a00f7da6-e1f5-4297-9214-dbf6b346b16f</webElementGuid>
+      <value>14 602 194</value>
+      <webElementGuid>3a9667e5-c757-4d67-875b-0dd0feaa61b1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -41,7 +43,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;table-d666b45405154eb2b183036cee818b60&quot;)/tbody[1]/tr[3]/td[2]</value>
-      <webElementGuid>5ac0f7c4-cc47-43c6-9a8a-41fec91374fd</webElementGuid>
+      <webElementGuid>1258e374-bcea-40c8-a081-2eceff4cc0dc</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -49,54 +51,62 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='table-d666b45405154eb2b183036cee818b60']/tbody/tr[3]/td[2]</value>
-      <webElementGuid>16079a4f-39dd-4abf-8263-555c8b35a647</webElementGuid>
+      <webElementGuid>d9b904e1-1847-4d3b-9157-b5f99f7c7067</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Потери'])[4]/following::td[1]</value>
-      <webElementGuid>87c57ecf-a443-4a61-9224-0833650c5b4b</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Потери'])[3]/following::td[1]</value>
+      <webElementGuid>f687299d-1a6a-4a75-8126-f44a8da1b25e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Отпуск из сети'])[4]/following::td[3]</value>
-      <webElementGuid>502656bf-7517-41dd-a2e8-392c855256b0</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Отпуск из сети'])[3]/following::td[3]</value>
+      <webElementGuid>5e08bab9-36d1-4299-bd30-d29c37650ce5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Экспорт данных'])[1]/preceding::td[1]</value>
-      <webElementGuid>fb6c75db-946c-407e-bb38-db081e6991c3</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='В начало'])[73]/preceding::td[1]</value>
+      <webElementGuid>efeab0ca-f42b-4809-80d5-ac384767470c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Отменить загрузку'])[1]/preceding::td[1]</value>
-      <webElementGuid>efc49d22-6c7e-4d3b-aecc-141df5f5e0d0</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Текст 2 - копия 2 - копия 3 - копия'])[1]/preceding::td[1]</value>
+      <webElementGuid>6e029618-0032-4b4f-9288-3d72d8ee5e18</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='14 602 194']/parent::*</value>
+      <webElementGuid>e80385aa-732b-4970-ae16-af4191ba862a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[150]/div[2]/div/div/table/tbody/tr[3]/td[2]</value>
-      <webElementGuid>020b6cfb-f24e-4d73-8391-263d3fa5f9c1</webElementGuid>
+      <value>//div[144]/div[2]/div/div/table/tbody/tr[3]/td[2]</value>
+      <webElementGuid>596f4266-ccc6-4494-94b4-b78314e255a3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//td[(text() = '15 049 150' or . = '15 049 150')]</value>
-      <webElementGuid>f136ca8a-8295-4138-8aa0-875e625f43d1</webElementGuid>
+      <value>//td[(text() = '14 602 194' or . = '14 602 194')]</value>
+      <webElementGuid>6315e072-4e47-475c-9cfc-7c62713035cf</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
