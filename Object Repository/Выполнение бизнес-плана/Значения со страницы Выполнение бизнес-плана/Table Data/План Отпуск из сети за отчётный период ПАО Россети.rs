@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>План Отпуск из сети за отчётный период ПАО Россети</name>
+   <tag></tag>
+   <elementGuidId>550a4d49-12a7-4f6f-bca3-2748c8f46cea</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[164]/div[2]/div/div/table/tbody/tr[2]/td[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#table-2c5e039c06194cedb60372b2737389d1 > tbody > tr:nth-of-type(2) > td:nth-of-type(2)</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>e5aa529b-210c-46e0-8e25-ccb8e35fc48f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>158 511 723</value>
+      <webElementGuid>623e5b6b-080c-4e8c-85ef-7c67091b900a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;table-2c5e039c06194cedb60372b2737389d1&quot;)/tbody[1]/tr[2]/td[2]</value>
+      <webElementGuid>1689d401-a647-42ca-a87e-f73e82d91612</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='table-2c5e039c06194cedb60372b2737389d1']/tbody/tr[2]/td[2]</value>
+      <webElementGuid>fc958f30-a306-4001-bdf6-2b0d2960b95c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Отпуск из сети'])[6]/following::td[1]</value>
+      <webElementGuid>c00e8408-c617-40cd-8c17-ee47b5fdba85</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Отпуск в сеть'])[6]/following::td[3]</value>
+      <webElementGuid>9fc05609-314d-4b35-a84b-e0dfd18ca637</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Потери'])[6]/preceding::td[1]</value>
+      <webElementGuid>dd03dcae-e761-4973-ac84-0cc798bc9e9f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Экспорт данных'])[1]/preceding::td[3]</value>
+      <webElementGuid>fb3474dc-02dc-4364-9fb2-17606e82a227</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[164]/div[2]/div/div/table/tbody/tr[2]/td[2]</value>
+      <webElementGuid>5ec2b4cc-209a-4819-a4b9-d22e6d4cc26c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = '158 511 723' or . = '158 511 723')]</value>
+      <webElementGuid>25b6dc33-d767-457c-b4fd-b46de95fa041</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

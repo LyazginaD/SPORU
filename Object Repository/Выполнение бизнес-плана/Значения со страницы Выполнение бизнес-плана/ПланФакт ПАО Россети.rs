@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='va-widgets-container']/div[90]</value>
+         <value>//div[@id='va-widgets-container']/div[88]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -15,6 +15,7 @@
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>c1562b92-78d7-4e1d-a8de-5a7ab19b2992</webElementGuid>
+      <webElementGuid>6e4026d9-55fe-47dc-b3f2-8f9ade80fcb0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>va-widget</value>
-      <webElementGuid>543a8db4-b1db-4cc0-a84f-67dcd48e3893</webElementGuid>
+      <webElementGuid>84e30a70-114a-42e0-b154-6e20f129123e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +39,7 @@
       <name>data-bind</name>
       <type>Main</type>
       <value>attr: { id: 'widget-' + guid() }, css: { selected: isSelected() &amp;&amp; isEditing(), draggable: isEditing(), 'position-locked': positionLocked() },  style: { width: width() + 'px', height: height() + 'px', left: x() + 'px', top: y() + 'px', 'border': frame.enabled() ? '1px solid ' + frame.style.color() : '', cursor: $parent.isEditing() ? 'pointer' : 'default', 'z-index': computedZIndex(), 'border-radius': frame.style.radius() + 'px', 'box-shadow': boxShadow.x() + 'px' + ' ' + boxShadow.y() + 'px' + ' ' + boxShadow.blur() + 'px' + ' ' + boxShadow.spread() + 'px' + ' ' + boxShadow.color()}</value>
-      <webElementGuid>d42f9d64-e23a-43b3-96d6-61129d90968b</webElementGuid>
+      <webElementGuid>8c7e5920-9154-4ff3-9f74-3dd1d3f3f186</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +47,7 @@
       <name>id</name>
       <type>Main</type>
       <value>widget-c3988338d8d246e39ad8f83f1d3492f0</value>
-      <webElementGuid>d21ddd01-298f-4aa2-b9c7-619dbb64d45d</webElementGuid>
+      <webElementGuid>5d5261d1-103d-4a84-808b-36b0ca45183f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -77,7 +78,7 @@
                                 
                             
                         </value>
-      <webElementGuid>1e219d25-c364-492f-842a-dbeff9287b68</webElementGuid>
+      <webElementGuid>8d6217a9-6ce4-4f88-a3fd-c4fb44e07e1e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,7 +86,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;widget-c3988338d8d246e39ad8f83f1d3492f0&quot;)</value>
-      <webElementGuid>88cb816d-ff6c-45f7-b8a1-4c86cfb14b6d</webElementGuid>
+      <webElementGuid>6e7dbab1-b674-4a58-9070-ad719289faa4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -93,23 +94,23 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//div[@id='widget-c3988338d8d246e39ad8f83f1d3492f0']</value>
-      <webElementGuid>2f3bd639-8c6d-411d-9fdb-67f7ac3e7cb5</webElementGuid>
+      <webElementGuid>b01603b5-a67b-422e-9035-335136f53b10</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='va-widgets-container']/div[90]</value>
-      <webElementGuid>56c982dd-208d-4e15-a6be-c2e37b63c676</webElementGuid>
+      <value>//div[@id='va-widgets-container']/div[88]</value>
+      <webElementGuid>1d77c09e-147b-4515-ae29-04d8ebffe492</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='В начало'])[45]/following::div[5]</value>
-      <webElementGuid>d702f674-c8e8-41b6-84ac-4d946f923b59</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='В начало'])[44]/following::div[5]</value>
+      <webElementGuid>dc53a01d-81d9-4709-83f4-12697f7399fd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,23 +118,23 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Потери'])[1]/following::div[24]</value>
-      <webElementGuid>0b24338a-2058-4404-862e-1189d34ba78c</webElementGuid>
+      <webElementGuid>f0d5a263-1868-434e-9601-91d5d2c0decc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='В начало'])[46]/preceding::div[20]</value>
-      <webElementGuid>5dc47ae5-5f85-4cd8-8c78-2fae0e2f1cb9</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='В начало'])[45]/preceding::div[20]</value>
+      <webElementGuid>cd67c74b-a59e-49e9-b88e-9358f1ec5bf3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[90]</value>
-      <webElementGuid>84504f90-f2b1-41fa-9a6d-e766f91979d5</webElementGuid>
+      <value>//div[88]</value>
+      <webElementGuid>670f8c77-dbc2-427a-944e-a92b67781370</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -187,6 +188,6 @@
                                 
                             
                         ')]</value>
-      <webElementGuid>82d6c5ca-8ac5-47af-84f2-6ef60ca02c18</webElementGuid>
+      <webElementGuid>10ef3297-a491-4d2d-9192-736503f0a46a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

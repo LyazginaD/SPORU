@@ -7,11 +7,11 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='ДЗО-ГОД-МЕСЯЦ'])[1]/preceding::div[24]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='В начало'])[79]/following::div[9]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#grid-25be55ef81e941d9a5e47136b644a838</value>
+         <value>#grid-d6297b234167415fb658afcb4ab7d63c</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,86 +23,94 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>a1bf167f-15f5-4605-b5e6-5db777b55fd6</webElementGuid>
+      <webElementGuid>febb4238-d596-4510-ba72-038303935205</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>grid-25be55ef81e941d9a5e47136b644a838</value>
-      <webElementGuid>31f2d5e0-f93f-43eb-ac3b-f17462e43f5b</webElementGuid>
+      <value>grid-d6297b234167415fb658afcb4ab7d63c</value>
+      <webElementGuid>8b3624a2-3475-43f7-927e-b05d81ce3321</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>594 080 058749 6963 207 43352 089 02026 062 31741 680 05798 770 87721 397 72033 399 37660 285 6195 223 09956 194 29072 957 56954 376 53253 883 65428 747 2474 396 705569 378 070596 6792 165 37349 067 36223 582 78137 495 28591 131 22815 978 10431 431 05755 785 7884 754 89154 712 09068 235 02948 808 14850 006 71525 983 4223 985 78424 701 988153 0171 042 0613 021 6582 479 5364 184 7727 639 6495 419 6161 968 3194 499 831468 2081 482 1994 722 5405 568 3833 876 9382 763 826410 921</value>
-      <webElementGuid>165d5e19-5e46-4a7a-8293-d7e117b0e39d</webElementGuid>
+      <value>164 602 4544 949 97428 695 2976 258 2541 364 45419 698 9473 467 484901 140158 511 7234 641 85126 113 9105 931 7111 220 43918 393 1443 141 633821 1816 090 730308 1232 581 387326 542144 0151 305 803325 85279 959</value>
+      <webElementGuid>946ceb9d-ada3-40b0-89bb-78cad07d1920</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;grid-25be55ef81e941d9a5e47136b644a838&quot;)</value>
-      <webElementGuid>64f7616b-0d27-4e8d-ba8c-34ee2c9a5cc0</webElementGuid>
+      <value>id(&quot;grid-d6297b234167415fb658afcb4ab7d63c&quot;)</value>
+      <webElementGuid>d46ea662-a061-49f0-8dc7-daa0a7c074e1</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//div[@id='grid-25be55ef81e941d9a5e47136b644a838']</value>
-      <webElementGuid>3dda7b45-81a2-4327-965e-c5a6a8564ace</webElementGuid>
+      <value>//div[@id='grid-d6297b234167415fb658afcb4ab7d63c']</value>
+      <webElementGuid>e106b5ce-cc7e-4b50-bcec-7b82a4965352</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='25be55ef81e941d9a5e47136b644a838']/div</value>
-      <webElementGuid>2f439a0e-c1e6-4e9e-92e2-f65385a461b2</webElementGuid>
+      <value>//div[@id='d6297b234167415fb658afcb4ab7d63c']/div</value>
+      <webElementGuid>a13017af-660f-4831-aa54-69acb60d6bed</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='В начало'])[38]/following::div[9]</value>
-      <webElementGuid>0a0d9847-b8fe-48c7-8b30-5d28e87fbd97</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Показатели баланса электроэнергии по ДЗО – Факт'])[2]/following::div[3]</value>
+      <webElementGuid>a1e19a24-81c7-4e3e-8f0a-bddc02495bad</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='В начало'])[39]/preceding::div[16]</value>
-      <webElementGuid>6ff5ad72-ec04-4995-a6b7-bc44f7819e25</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='В начало'])[79]/following::div[9]</value>
+      <webElementGuid>e17d0463-93f1-46ef-a0ad-0488ae7b98cc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='ДЗО-ГОД-МЕСЯЦ'])[1]/preceding::div[24]</value>
-      <webElementGuid>bf9a7636-f0c2-4569-9c18-0bcc4bf3782c</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='В начало'])[80]/preceding::div[16]</value>
+      <webElementGuid>de6b0c70-2f44-461e-b167-866cec87c936</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Показатели баланса электроэнергии по ДЗО – План'])[2]/preceding::div[24]</value>
+      <webElementGuid>09fce8a7-a42b-464e-a3a3-915d57d94092</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[77]/div[2]/div/div</value>
-      <webElementGuid>faad852b-0e5f-4f46-8a33-d00e92117328</webElementGuid>
+      <value>//div[158]/div[2]/div/div</value>
+      <webElementGuid>2189b362-0962-486b-b520-ff92c8e989f8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//div[@id = 'grid-25be55ef81e941d9a5e47136b644a838' and (text() = '594 080 058749 6963 207 43352 089 02026 062 31741 680 05798 770 87721 397 72033 399 37660 285 6195 223 09956 194 29072 957 56954 376 53253 883 65428 747 2474 396 705569 378 070596 6792 165 37349 067 36223 582 78137 495 28591 131 22815 978 10431 431 05755 785 7884 754 89154 712 09068 235 02948 808 14850 006 71525 983 4223 985 78424 701 988153 0171 042 0613 021 6582 479 5364 184 7727 639 6495 419 6161 968 3194 499 831468 2081 482 1994 722 5405 568 3833 876 9382 763 826410 921' or . = '594 080 058749 6963 207 43352 089 02026 062 31741 680 05798 770 87721 397 72033 399 37660 285 6195 223 09956 194 29072 957 56954 376 53253 883 65428 747 2474 396 705569 378 070596 6792 165 37349 067 36223 582 78137 495 28591 131 22815 978 10431 431 05755 785 7884 754 89154 712 09068 235 02948 808 14850 006 71525 983 4223 985 78424 701 988153 0171 042 0613 021 6582 479 5364 184 7727 639 6495 419 6161 968 3194 499 831468 2081 482 1994 722 5405 568 3833 876 9382 763 826410 921')]</value>
-      <webElementGuid>77ff31af-234d-4f05-8832-b47a4ee5141d</webElementGuid>
+      <value>//div[@id = 'grid-d6297b234167415fb658afcb4ab7d63c' and (text() = '164 602 4544 949 97428 695 2976 258 2541 364 45419 698 9473 467 484901 140158 511 7234 641 85126 113 9105 931 7111 220 43918 393 1443 141 633821 1816 090 730308 1232 581 387326 542144 0151 305 803325 85279 959' or . = '164 602 4544 949 97428 695 2976 258 2541 364 45419 698 9473 467 484901 140158 511 7234 641 85126 113 9105 931 7111 220 43918 393 1443 141 633821 1816 090 730308 1232 581 387326 542144 0151 305 803325 85279 959')]</value>
+      <webElementGuid>b67245b9-4b3d-4353-bb30-08ff45169470</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(findTestData('PlanFact').getValue(10, 4))
+WebUI.navigateToUrl(findTestData('PlanFact').getValue(10, 1))
 
 urlText = WebUI.getText(findTestObject('Страница авторизации/Text'))
 
@@ -33,11 +33,14 @@ WebUI.click(findTestObject('Страница авторизации/button_'))
 
 WebUI.delay(25)
 
-String a  = WebUI.getText(findTestObject('Выполнение бизнес-плана/Выполнение бизнес-плана Балансы/Список ДЗО 2')).replaceAll('[\\r?\n|\r]', '/')
+WebUI.click(findTestObject('Выполнение бизнес-плана/Кнопка План'))
+
+String a = WebUI.getText(findTestObject('Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/ПланФакт ПАО Россети')).replaceAll(
+    '[\\r?\n|\r]', '/')
 
 println(a)
 
-a  = WebUI.getText(findTestObject('Выполнение бизнес-плана/Выполнение бизнес-плана Балансы/Список ДЗО 3')).replaceAll('[\\r?\n|\r]', '/')
+a = WebUI.getText(findTestObject('Выполнение бизнес-плана/svg1')).replaceAll('[\\r?\n|\r]', '/')
 
 println(a)
 

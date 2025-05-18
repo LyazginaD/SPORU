@@ -996,7 +996,7 @@ def GetAllData(def path, def dZONum, def VseDZO, def x, def dZO) {
 
         x = ((x + '/') + z)
 
-        z = WebUI.getText(findTestObject(path + 'Список ДЗО 2')).replaceAll('[\\r?\n|\r]', '/')
+        z = WebUI.getText(findTestObject(path + 'Отклонения за 1 месяц')).replaceAll('[\\r?\n|\r]', '/')
 
 		strToManage = z
 		

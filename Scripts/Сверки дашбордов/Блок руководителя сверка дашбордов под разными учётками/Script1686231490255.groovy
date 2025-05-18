@@ -52,31 +52,31 @@ for (run = 1; run < 4; run++) {
     VipolnenieBiznesPlana(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9, urlData)
 }
 
-WebUI.delay(70)
+WebUI.delay(40)
 
 for (run = 1; run < 4; run++) {
     ViruchkaVRublyah(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9, urlData)
 }
 
-WebUI.delay(70)
+WebUI.delay(40)
 
 for (run = 1; run < 4; run++) {
     ObyemPoter(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9, urlData)
 }
 
-WebUI.delay(70)
+WebUI.delay(40)
 
 for (run = 1; run < 4; run++) {
     OtpuskIzSeti(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9, urlData)
 }
 
-WebUI.delay(70)
+WebUI.delay(40)
 
 for (run = 1; run < 4; run++) {
     OtpuskVSet(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9, urlData)
 }
 
-WebUI.delay(70)
+WebUI.delay(40)
 
 //for (run = 1; run < 4; run++) {
 //    PokazateliBalansa(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9, urlData)
@@ -88,25 +88,25 @@ for (run = 1; run < 4; run++) {
     KotlovoyPolezniyOtpusk(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9, urlData)
 }
 
-WebUI.delay(70)
+WebUI.delay(40)
 
 for (run = 1; run < 4; run++) {
     FaktorniyAnaliz(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9, urlData)
 }
 
-WebUI.delay(70)
+WebUI.delay(40)
 
 for (run = 1; run < 4; run++) {
     ViruchkaPoDZO(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9, urlData)
 }
 
-WebUI.delay(70)
+WebUI.delay(40)
 
 for (run = 1; run < 4; run++) {
     PrognozPoDZO(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9, urlData)
 }
 
-WebUI.delay(70)
+WebUI.delay(40)
 
 for (run = 1; run < 4; run++) {
     PrognozPoOtraslyam(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9, urlData)
@@ -125,7 +125,7 @@ static def CheckPageDownload(def urlData, def run) {
 
     WebUI.refresh()
 
-    WebUI.delay(70)
+    WebUI.delay(40)
 
     WebUI.navigateToUrl(findTestData('PlanFact').getValue(10, urlData))
 
@@ -134,14 +134,14 @@ static def CheckPageDownload(def urlData, def run) {
     if (pageLoaded1 == false) {
         WebUI.refresh()
 
-        WebUI.delay(70)
+        WebUI.delay(40)
 
         WebUI.navigateToUrl(findTestData('PlanFact').getValue(10, urlData))
     }
     
     urlText = WebUI.getText(findTestObject('Страница авторизации/Text'))
 
-    WebUI.delay(70)
+    WebUI.delay(40)
 
     searchWord = 'Вход'
 
@@ -151,11 +151,11 @@ static def CheckPageDownload(def urlData, def run) {
 
             WebUI.refresh()
 
-            WebUI.delay(70)
+            WebUI.delay(40)
 
             WebUI.navigateToUrl(findTestData('PlanFact').getValue(10, urlData))
 
-            WebUI.delay(70)
+            WebUI.delay(40)
 
             urlText = WebUI.getText(findTestObject('Страница авторизации/Text'))
         }
@@ -167,7 +167,7 @@ static def CheckPageDownload(def urlData, def run) {
 
     WebUI.click(findTestObject('Страница авторизации/button_'))
 
-    WebUI.delay(70)
+    WebUI.delay(40)
 
     searchWord = 'а'
 
@@ -176,7 +176,7 @@ static def CheckPageDownload(def urlData, def run) {
     if (pageLoaded2 == false) {
         WebUI.refresh()
 
-        WebUI.delay(70)
+        WebUI.delay(40)
 
         WebUI.navigateToUrl(findTestData('PlanFact').getValue(10, urlData))
     }
@@ -189,11 +189,11 @@ static def CheckPageDownload(def urlData, def run) {
 
             WebUI.refresh()
 
-            WebUI.delay(70)
+            WebUI.delay(40)
 
             WebUI.navigateToUrl(findTestData('PlanFact').getValue(10, urlData))
 
-            WebUI.delay(70)
+            WebUI.delay(40)
 
             urlText = WebUI.getText(findTestObject('Страница авторизации/Text'))
         }
@@ -201,6 +201,12 @@ static def CheckPageDownload(def urlData, def run) {
 }
 
 def VipolnenieBiznesPlana(def user, def dashboardName, def n, def data, def run, def a1, def a2, def a3, def a4, def a5, def a6, def a7, def a8, def a9, def urlData) {
+    String a10
+
+    String a11
+
+    String a12
+
     n = (data.getRowNumbers() + 1)
 
     println(n)
@@ -224,7 +230,7 @@ def VipolnenieBiznesPlana(def user, def dashboardName, def n, def data, def run,
     'Нажать "Применить"'
     WebUI.click(findTestObject('Object Repository/Выполнение бизнес-плана/Применить в фильтре Дата'))
 
-    WebUI.delay(70)
+    WebUI.delay(40)
 
     ZakrytOpoveshenie()
 
@@ -245,7 +251,7 @@ def VipolnenieBiznesPlana(def user, def dashboardName, def n, def data, def run,
     'Проскроллить до заголовка фильтра "Дата"'
     WebUI.scrollToElement(findTestObject('Выполнение бизнес-плана/Заголовок дашборда'), 30)
 
-    WebUI.delay(70)
+    WebUI.delay(40)
 
     '!'
     ZakrytOpoveshenie()
@@ -262,28 +268,38 @@ def VipolnenieBiznesPlana(def user, def dashboardName, def n, def data, def run,
     'Нажать "Применить"'
     WebUI.click(findTestObject('Object Repository/Выполнение бизнес-плана/Применить в фильтре ДЗО'))
 
-    WebUI.delay(70)
+    WebUI.delay(40)
 
     if (run == 1) {
         user = 'админ'
 
         a1 = WebUI.getText(findTestObject('Выполнение бизнес-плана/Проценты'))
 
-        a2 = WebUI.getText(findTestObject('Выполнение бизнес-плана/vidget 2'))
+        a2 = WebUI.getText(findTestObject('Выполнение бизнес-плана/Виджет Итого'))
 
-        a3 = WebUI.getText(findTestObject('Выполнение бизнес-плана/table'))
+        a3 = WebUI.getText(findTestObject('Выполнение бизнес-плана/Список ДЗО'))
 
-        a4 = WebUI.getText(findTestObject('null'))
+        a4 = WebUI.getText(findTestObject('Выполнение бизнес-плана/Отклонения за 1 месяц'))
 
-        a5 = WebUI.getText(findTestObject('Выполнение бизнес-плана/svg1'))
+        a5 = WebUI.getText(findTestObject('Выполнение бизнес-плана/table'))
 
-        a6 = WebUI.getText(findTestObject('Выполнение бизнес-плана/svg2'))
+        a6 = WebUI.getText(findTestObject('Выполнение бизнес-плана/Отклонения за 3 месяца'))
 
         a7 = WebUI.getText(findTestObject('Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Факт Отпуск в сеть за отчётный период ПАО Россети'))
 
-        a8 = WebUI.getText(findTestObject('Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Факт Отпуск из сети за отчётный период ПАО Россети'))
+        a7 = (a7 + WebUI.getText(findTestObject('Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Факт Отпуск из сети за отчётный период ПАО Россети')))
 
-        a9 = WebUI.getText(findTestObject('Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Факт Потери за отчётный период ПАО Россети'))
+        a7 = (a7 + WebUI.getText(findTestObject('Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Факт Потери за отчётный период ПАО Россети')))
+
+        WebUI.click(findTestObject('Выполнение бизнес-плана/Кнопка План'))
+
+        a8 = (a8 + WebUI.getText(findTestObject('Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/План Отпуск в сеть за отчётный период ПАО Россети')))
+
+        a8 = (a8 + WebUI.getText(findTestObject('Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/План Отпуск из сети за отчётный период ПАО Россети')))
+
+        a8 = (a8 + WebUI.getText(findTestObject('Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/План Потери за отчётный период ПАО Россети')))
+
+        WebUI.click(findTestObject('Выполнение бизнес-плана/Кнопка Факт'))
 
         WriteToExcel(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
     }
@@ -293,21 +309,31 @@ def VipolnenieBiznesPlana(def user, def dashboardName, def n, def data, def run,
 
         a1 = WebUI.getText(findTestObject('Выполнение бизнес-плана/Проценты'))
 
-        a2 = WebUI.getText(findTestObject('Выполнение бизнес-плана/vidget 2'))
+        a2 = WebUI.getText(findTestObject('Выполнение бизнес-плана/Виджет Итого'))
 
-        a3 = WebUI.getText(findTestObject('Выполнение бизнес-плана/table'))
+        a3 = WebUI.getText(findTestObject('Выполнение бизнес-плана/Список ДЗО'))
 
-        a4 = WebUI.getText(findTestObject('null'))
+        a4 = WebUI.getText(findTestObject('Выполнение бизнес-плана/Отклонения за 1 месяц'))
 
-        a5 = WebUI.getText(findTestObject('Выполнение бизнес-плана/svg1'))
+        a5 = WebUI.getText(findTestObject('Выполнение бизнес-плана/table'))
 
-        a6 = WebUI.getText(findTestObject('Выполнение бизнес-плана/svg2'))
+        a6 = WebUI.getText(findTestObject('Выполнение бизнес-плана/Отклонения за 3 месяца'))
 
         a7 = WebUI.getText(findTestObject('Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Факт Отпуск в сеть за отчётный период ПАО Россети'))
 
-        a8 = WebUI.getText(findTestObject('Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Факт Отпуск из сети за отчётный период ПАО Россети'))
+        a7 = (a7 + WebUI.getText(findTestObject('Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Факт Отпуск из сети за отчётный период ПАО Россети')))
 
-        a9 = WebUI.getText(findTestObject('Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Факт Потери за отчётный период ПАО Россети'))
+        a7 = (a7 + WebUI.getText(findTestObject('Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Факт Потери за отчётный период ПАО Россети')))
+
+        WebUI.click(findTestObject('Выполнение бизнес-плана/Кнопка План'))
+
+        a8 = (a8 + WebUI.getText(findTestObject('Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/План Отпуск в сеть за отчётный период ПАО Россети')))
+
+        a8 = (a8 + WebUI.getText(findTestObject('Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/План Отпуск из сети за отчётный период ПАО Россети')))
+
+        a8 = (a8 + WebUI.getText(findTestObject('Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/План Потери за отчётный период ПАО Россети')))
+
+        WebUI.click(findTestObject('Выполнение бизнес-плана/Кнопка Факт'))
 
         n = (n + 1)
 
@@ -329,8 +355,6 @@ def VipolnenieBiznesPlana(def user, def dashboardName, def n, def data, def run,
 
         WebUI.verifyEqual(findTestData('PlanFact').getValue(9, b), a8)
 
-        WebUI.verifyEqual(findTestData('PlanFact').getValue(10, b), a9)
-
         WriteToExcel(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
     }
     
@@ -339,21 +363,33 @@ def VipolnenieBiznesPlana(def user, def dashboardName, def n, def data, def run,
 
         a1 = WebUI.getText(findTestObject('Выполнение бизнес-плана/Проценты'))
 
-        a2 = WebUI.getText(findTestObject('Выполнение бизнес-плана/vidget 2'))
+        a2 = WebUI.getText(findTestObject('Выполнение бизнес-плана/Виджет Итого'))
 
-        a3 = WebUI.getText(findTestObject('Выполнение бизнес-плана/table'))
+        a3 = WebUI.getText(findTestObject('Выполнение бизнес-плана/Список ДЗО'))
 
-        a4 = WebUI.getText(findTestObject('null'))
+        a4 = WebUI.getText(findTestObject('Выполнение бизнес-плана/Отклонения за 1 месяц'))
 
-        a5 = WebUI.getText(findTestObject('Выполнение бизнес-плана/svg1'))
+        a5 = WebUI.getText(findTestObject('Выполнение бизнес-плана/table'))
 
-        a6 = WebUI.getText(findTestObject('Выполнение бизнес-плана/svg2'))
+        a6 = WebUI.getText(findTestObject('Выполнение бизнес-плана/Отклонения за 3 месяца'))
 
         a7 = WebUI.getText(findTestObject('Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Факт Отпуск в сеть за отчётный период ПАО Россети'))
 
-        a8 = WebUI.getText(findTestObject('Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Факт Отпуск из сети за отчётный период ПАО Россети'))
+        a7 = (a7 + WebUI.getText(findTestObject('Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Факт Отпуск из сети за отчётный период ПАО Россети')))
 
-        a9 = WebUI.getText(findTestObject('Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Факт Потери за отчётный период ПАО Россети'))
+        a7 = (a7 + WebUI.getText(findTestObject('Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Факт Потери за отчётный период ПАО Россети')))
+
+        WebUI.click(findTestObject('Выполнение бизнес-плана/Кнопка План'))
+
+        a8 = (a8 + WebUI.getText(findTestObject('Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/План Отпуск в сеть за отчётный период ПАО Россети')))
+
+        a8 = (a8 + WebUI.getText(findTestObject('Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/План Отпуск из сети за отчётный период ПАО Россети')))
+
+        a8 = (a8 + WebUI.getText(findTestObject('Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/План Потери за отчётный период ПАО Россети')))
+
+        WebUI.click(findTestObject('Выполнение бизнес-плана/Кнопка Факт'))
+
+        WebUI.click(findTestObject('Выполнение бизнес-плана/Кнопка Факт'))
 
         n = (n + 2)
 
@@ -374,8 +410,6 @@ def VipolnenieBiznesPlana(def user, def dashboardName, def n, def data, def run,
         WebUI.verifyEqual(findTestData('PlanFact').getValue(8, b), a7)
 
         WebUI.verifyEqual(findTestData('PlanFact').getValue(9, b), a8)
-
-        WebUI.verifyEqual(findTestData('PlanFact').getValue(10, b), a9)
 
         WriteToExcel(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
     }
@@ -425,7 +459,7 @@ def ViruchkaVRublyah(def user, def dashboardName, def n, def data, def run, def 
     'Проскроллить до заголовка фильтра "Дата"'
     WebUI.scrollToElement(findTestObject('Выручка в рублях/Заголовок дашборда'), 30)
 
-    WebUI.delay(70)
+    WebUI.delay(40)
 
     a5 = ''
 
@@ -962,7 +996,7 @@ def OtpuskIzSeti2006(def user, def dashboardName, def n, def data, def run, def 
 
         WebUI.refresh()
 
-        WebUI.delay(70)
+        WebUI.delay(40)
 
         a1 = WebUI.getText(findTestObject('Отпуск из сети 2006-2021/График1'))
 
@@ -1019,7 +1053,7 @@ def KotlovoyPolezniyOtpusk(def user, def dashboardName, def n, def data, def run
         if (a1 == '') {
             WebUI.refresh()
 
-            WebUI.delay(70)
+            WebUI.delay(40)
 
             a1 = WebUI.getText(findTestObject('Котловой полезный отпуск/График 1'))
 
@@ -1029,7 +1063,7 @@ def KotlovoyPolezniyOtpusk(def user, def dashboardName, def n, def data, def run
             if (a1 == '') {
                 WebUI.refresh()
 
-                WebUI.delay(70)
+                WebUI.delay(40)
 
                 a1 = WebUI.getText(findTestObject('Котловой полезный отпуск/График 1')).replaceAll('\\s+', '')
             }
@@ -1050,7 +1084,7 @@ def KotlovoyPolezniyOtpusk(def user, def dashboardName, def n, def data, def run
         if (a1 == '') {
             WebUI.refresh()
 
-            WebUI.delay(70)
+            WebUI.delay(40)
 
             a1 = WebUI.getText(findTestObject('Котловой полезный отпуск/График 1'))
 
@@ -1060,7 +1094,7 @@ def KotlovoyPolezniyOtpusk(def user, def dashboardName, def n, def data, def run
             if (a1 == '') {
                 WebUI.refresh()
 
-                WebUI.delay(70)
+                WebUI.delay(40)
 
                 a1 = WebUI.getText(findTestObject('Котловой полезный отпуск/График 1')).replaceAll('\\s+', '')
             }
@@ -1085,7 +1119,7 @@ def KotlovoyPolezniyOtpusk(def user, def dashboardName, def n, def data, def run
         if (a1 == '') {
             WebUI.refresh()
 
-            WebUI.delay(70)
+            WebUI.delay(40)
 
             a1 = WebUI.getText(findTestObject('Котловой полезный отпуск/График 1'))
 
@@ -1095,7 +1129,7 @@ def KotlovoyPolezniyOtpusk(def user, def dashboardName, def n, def data, def run
             if (a1 == '') {
                 WebUI.refresh()
 
-                WebUI.delay(70)
+                WebUI.delay(40)
 
                 a1 = WebUI.getText(findTestObject('Котловой полезный отпуск/График 1')).replaceAll('\\s+', '')
             }

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Отклонения за 1 месяц</name>
+   <tag></tag>
+   <elementGuidId>05db5101-23c6-4322-9dc6-aae06db863b4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='В начало'])[77]/following::*[name()='svg'][1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#highcharts-85khx4m-234 > svg.highcharts-root</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>svg</value>
+      <webElementGuid>69536ca8-b98d-4a8a-860f-3b5da6adf082</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>version</name>
+      <type>Main</type>
+      <value>1.1</value>
+      <webElementGuid>8d09a865-a36a-4e37-9e44-11988d8b9b35</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>highcharts-root</value>
+      <webElementGuid>332b7512-17a6-409f-a368-6e402aace8ef</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xmlns</name>
+      <type>Main</type>
+      <value>http://www.w3.org/2000/svg</value>
+      <webElementGuid>65805f36-9e35-4498-956c-ed7dbae3f0d5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>width</name>
+      <type>Main</type>
+      <value>1635</value>
+      <webElementGuid>872e4f16-9ec1-41f7-bdb3-178aea81d153</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>height</name>
+      <type>Main</type>
+      <value>200</value>
+      <webElementGuid>752c2cb1-aa3c-49cd-a10d-7b6c11ad8597</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>viewBox</name>
+      <type>Main</type>
+      <value>0 0 1635 200</value>
+      <webElementGuid>3f0a6144-a35c-4cb5-8087-61dffa8f4a97</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Created with Highcharts 9.0.10.010.294.81-0.52-0.33-0.110.013.04-0.11-0.03-0.03-0.06-0.27-0.23-0.26-0.20-0.08Россети ФСК​ЕЭСАО​«Тываэнерго»АО​«Чеченэнерго»Россети​ВолгаРоссети​КубаньРоссети​Ленэнерго​(ГК)Россети​Московский​регионРоссети​Северный​КавказРоссети​Северо-ЗападРоссети​СибирьРоссети​ТомскРоссети​ТюменьРоссети Урал​(ГК)Россети​Центр (ГК)Россети​Центр и​Приволжье​(ГК)Россети Юг​(ГК)Россети​Янтарь-10123456АО «Чеченэнерго»: 4.81</value>
+      <webElementGuid>9959bbbb-6d83-4ee4-a9cd-194118bf1995</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;highcharts-85khx4m-234&quot;)/svg[@class=&quot;highcharts-root&quot;]</value>
+      <webElementGuid>6dd1644f-408c-4b09-9a39-34555ad2a844</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Отклонения фактического уровня потерь от бизнес-плана, п.п.'])[2]/following::*[name()='svg'][1]</value>
+      <webElementGuid>b8a9de70-2809-4b6a-82cc-e27ed56c766c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='В начало'])[77]/following::*[name()='svg'][1]</value>
+      <webElementGuid>1f12cc16-514d-4db1-837f-bc2eee532763</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//svg[(text() = 'Created with Highcharts 9.0.10.010.294.81-0.52-0.33-0.110.013.04-0.11-0.03-0.03-0.06-0.27-0.23-0.26-0.20-0.08Россети ФСК​ЕЭСАО​«Тываэнерго»АО​«Чеченэнерго»Россети​ВолгаРоссети​КубаньРоссети​Ленэнерго​(ГК)Россети​Московский​регионРоссети​Северный​КавказРоссети​Северо-ЗападРоссети​СибирьРоссети​ТомскРоссети​ТюменьРоссети Урал​(ГК)Россети​Центр (ГК)Россети​Центр и​Приволжье​(ГК)Россети Юг​(ГК)Россети​Янтарь-10123456АО «Чеченэнерго»: 4.81' or . = 'Created with Highcharts 9.0.10.010.294.81-0.52-0.33-0.110.013.04-0.11-0.03-0.03-0.06-0.27-0.23-0.26-0.20-0.08Россети ФСК​ЕЭСАО​«Тываэнерго»АО​«Чеченэнерго»Россети​ВолгаРоссети​КубаньРоссети​Ленэнерго​(ГК)Россети​Московский​регионРоссети​Северный​КавказРоссети​Северо-ЗападРоссети​СибирьРоссети​ТомскРоссети​ТюменьРоссети Урал​(ГК)Россети​Центр (ГК)Россети​Центр и​Приволжье​(ГК)Россети Юг​(ГК)Россети​Янтарь-10123456АО «Чеченэнерго»: 4.81')]</value>
+      <webElementGuid>7019e48e-6dcd-42b6-af2a-bd9046b7848c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

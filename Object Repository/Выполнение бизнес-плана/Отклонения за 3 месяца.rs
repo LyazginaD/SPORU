@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Отклонения за 3 месяца</name>
+   <tag></tag>
+   <elementGuidId>ea68d142-dd13-4490-98fc-5c929d3811b3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Итого (1-ый сверху)'])[1]/following::*[name()='svg'][2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#highcharts-wzdf99c-201 > svg.highcharts-root</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>svg</value>
+      <webElementGuid>24ae1c2b-f815-45bf-8f59-5ca4dc47ac7f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>version</name>
+      <type>Main</type>
+      <value>1.1</value>
+      <webElementGuid>f2d38f6c-17ad-48d1-8327-0e3d31bbb197</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>highcharts-root</value>
+      <webElementGuid>a98d8bc1-dcc7-4cb4-b7cc-7c18e48b50e7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xmlns</name>
+      <type>Main</type>
+      <value>http://www.w3.org/2000/svg</value>
+      <webElementGuid>23233ccc-a1fb-4fcc-8e60-8f6aee311db2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>width</name>
+      <type>Main</type>
+      <value>209</value>
+      <webElementGuid>c12c77bd-cdd2-482c-92e7-ecc5b90db2d3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>height</name>
+      <type>Main</type>
+      <value>237</value>
+      <webElementGuid>56ad3b50-6478-45e0-80dc-5713381b9446</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>viewBox</name>
+      <type>Main</type>
+      <value>0 0 209 237</value>
+      <webElementGuid>463db940-fe2f-4e2e-9565-3c4c7ca7b84e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Created with Highcharts 9.0.1%5.63 ​5.63 8.24 ​8.24 ПланФакт1 100 Итого по Факту: 8.24</value>
+      <webElementGuid>518b047e-bac5-4831-9ebd-bbcd1a95a086</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;highcharts-wzdf99c-201&quot;)/svg[@class=&quot;highcharts-root&quot;]</value>
+      <webElementGuid>05a35e2c-a06b-4c7b-a112-f6ac6f1709c1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Итого (1-ый сверху)'])[1]/following::*[name()='svg'][1]</value>
+      <webElementGuid>41522fd5-22dd-42fb-be91-524b446164b3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='В начало'])[20]/following::*[name()='svg'][1]</value>
+      <webElementGuid>c2fbeb7a-d65f-4a68-bac8-1c258dc8750c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//svg[(text() = 'Created with Highcharts 9.0.1%5.63 ​5.63 8.24 ​8.24 ПланФакт1 100 Итого по Факту: 8.24' or . = 'Created with Highcharts 9.0.1%5.63 ​5.63 8.24 ​8.24 ПланФакт1 100 Итого по Факту: 8.24')]</value>
+      <webElementGuid>ee14b45a-39bd-458c-8a2f-45a395d54c65</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

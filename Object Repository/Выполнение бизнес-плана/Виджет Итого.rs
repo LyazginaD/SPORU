@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Виджет Итого</name>
+   <tag></tag>
+   <elementGuidId>a78031f1-5272-4de3-a9bd-f0568765e946</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='В начало'])[19]/following::*[name()='svg'][1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#highcharts-gaj8jsh-57 > svg.highcharts-root</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>svg</value>
+      <webElementGuid>a0830746-a332-480f-b565-ae84d98c5295</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>version</name>
+      <type>Main</type>
+      <value>1.1</value>
+      <webElementGuid>7b1194d8-835e-438f-9cc7-78dada3fe230</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>highcharts-root</value>
+      <webElementGuid>02e2d515-288d-4aa3-a0f6-5026ad644df2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xmlns</name>
+      <type>Main</type>
+      <value>http://www.w3.org/2000/svg</value>
+      <webElementGuid>49b38485-cd27-4b18-be74-f6ec88bb0cc8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>width</name>
+      <type>Main</type>
+      <value>210</value>
+      <webElementGuid>595f21b3-6784-4c10-b77d-cf742bf533c9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>height</name>
+      <type>Main</type>
+      <value>251</value>
+      <webElementGuid>5f9b1f13-83ee-4c3e-a387-cfc318bc2d97</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>viewBox</name>
+      <type>Main</type>
+      <value>0 0 210 251</value>
+      <webElementGuid>dc6da4e3-4904-4703-b3ed-6e6cbebfaaf9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Created with Highcharts 9.0.1-0.03000​-0.03000Итого-0.04-0.03-0.02-0.010Итого: -0,03</value>
+      <webElementGuid>a7b34485-1054-4d55-8259-2670dfecf36e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;highcharts-gaj8jsh-57&quot;)/svg[@class=&quot;highcharts-root&quot;]</value>
+      <webElementGuid>c86905e2-7f40-4564-8846-bc73e1adebb1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ПАО Россети - 2022 год'])[1]/following::*[name()='svg'][1]</value>
+      <webElementGuid>c33e5d5f-d9e0-41e7-8432-803014f711ad</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='В начало'])[19]/following::*[name()='svg'][1]</value>
+      <webElementGuid>97579bbd-f24a-402d-a06f-66fd9c552576</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//svg[(text() = 'Created with Highcharts 9.0.1-0.03000​-0.03000Итого-0.04-0.03-0.02-0.010Итого: -0,03' or . = 'Created with Highcharts 9.0.1-0.03000​-0.03000Итого-0.04-0.03-0.02-0.010Итого: -0,03')]</value>
+      <webElementGuid>3934f958-2246-49b2-9daf-3314a3e99921</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

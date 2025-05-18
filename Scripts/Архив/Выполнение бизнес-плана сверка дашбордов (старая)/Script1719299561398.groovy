@@ -199,7 +199,7 @@ a3 = a3.substring(0, i)
 
 println(a3)
 
-String a4 = WebUI.getText(findTestObject('Выполнение бизнес-плана/svg2'))
+String a4 = WebUI.getText(findTestObject('Выполнение бизнес-плана/Виджет Итого'))
 
 a4 = a4.replaceAll('\\s+', '')
 

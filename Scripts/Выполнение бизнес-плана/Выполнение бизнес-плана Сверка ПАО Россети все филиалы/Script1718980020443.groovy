@@ -158,7 +158,7 @@ WebUI.click(findTestObject('Object Repository/Выполнение бизнес-
 
 WebUI.delay(30)
 
-String x1 = WebUI.getText(findTestObject('Выполнение бизнес-плана/Список ДЗО старый'))
+String x1 = WebUI.getText(findTestObject('Выполнение бизнес-плана/Отклонения за 3 месяца'))
 
 '___________________________________________________________________________________________________'
 dZO = 'ПАО Россети'
@@ -910,7 +910,7 @@ static def Filials(def a, def typeOfData, def todaysDate, def pageInt, def fileI
         c = page.indexOf(reducedDZO)
     }
     
-    String x2 = WebUI.getText(findTestObject('Выполнение бизнес-плана/Список ДЗО старый'))
+    String x2 = WebUI.getText(findTestObject('Выполнение бизнес-плана/Отклонения за 3 месяца'))
 
     if (a == 28) {
         dZO = 'Мордовэнерго'
