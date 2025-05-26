@@ -109,7 +109,7 @@ a = a.trim()
 
 println(a)
 
-String a1 = WebUI.getText(findTestObject('Выполнение бизнес-плана/vidget 2'))
+String a1 = WebUI.getText(findTestObject('Выполнение бизнес-плана/Уровень потерь электроэнергии'))
 
 println(a1)
 

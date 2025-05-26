@@ -158,7 +158,7 @@ WebUI.click(findTestObject('Object Repository/Выполнение бизнес-
 
 WebUI.delay(30)
 
-String x1 = WebUI.getText(findTestObject('Выполнение бизнес-плана/Отклонения за 3 месяца'))
+String x1 = WebUI.getText(findTestObject('Выполнение бизнес-плана/Уровень потерь электроэнергии'))
 
 '___________________________________________________________________________________________________'
 dZO = 'ПАО Россети'
@@ -688,11 +688,20 @@ static def Numbers(def a, def typeOfData, def todaysDate, def pageInt, def fileI
     } else {
         page1 = WebUI.getText(findTestObject('Object Repository/Выполнение бизнес-плана/spanPlan' + filialNum))
 
-        page1 = page1.replace('|', '')
-
+		if(page1== null) {
+			page1='нет данных'
+		}else {
+			page1 = page1.replace('|', '')
+		}
+        
         page2 = WebUI.getText(findTestObject('Object Repository/Выполнение бизнес-плана/spanFact' + filialNum))
+		
+		if(page2== null) {
+			page2='нет данных'
+		}else {
+			page2 = page2.replace('|', '')
+		}
 
-        page2 = page2.replace('|', '')
     }
     
     println('page1: ' + page1)
@@ -910,7 +919,7 @@ static def Filials(def a, def typeOfData, def todaysDate, def pageInt, def fileI
         c = page.indexOf(reducedDZO)
     }
     
-    String x2 = WebUI.getText(findTestObject('Выполнение бизнес-плана/Отклонения за 3 месяца'))
+    String x2 = WebUI.getText(findTestObject('Выполнение бизнес-плана/Отклонения за 1 месяц'))
 
     if (a == 28) {
         dZO = 'Мордовэнерго'

@@ -198,5 +198,6 @@
 	<classpathentry kind="lib" path="C:/Users/LIAZGINA-DI/.katalon/packages/Katalon_Studio_Free_Windows_64-9.5.0/Katalon_Studio_Free_Windows_64-9.5.0/configuration/plugin/install/216260/1.0.2/ExcelKeywords.jar"/>
 	<classpathentry kind="lib" path="C:/Users/LIAZGINA-DI/.katalon/packages/Katalon_Studio_Free_Windows_64-9.5.0/Katalon_Studio_Free_Windows_64-9.5.0/configuration/org.eclipse.osgi/28/0/.cp/resources/basic-report/katalon-studio-report-plugin.jar"/>
 	<classpathentry kind="con" path="GROOVY_SUPPORT"/>
+	<classpathentry kind="con" path="GROOVY_DSL_SUPPORT"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
