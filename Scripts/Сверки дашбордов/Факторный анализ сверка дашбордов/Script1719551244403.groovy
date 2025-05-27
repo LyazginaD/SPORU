@@ -705,6 +705,11 @@ static def Test(def run, def todaysDate, def typeOfData, def otobrajeniyeDannyh,
 }
 
 static def Compare(def x, def y, def run, def typeOfData, def otobrajeniyeDannyh, def todaysDate, def vidget, def DZO) {
+	
+	x = x.replaceAll('\\s+', '').trim()
+	
+	y = y.replaceAll('\\s+', '').trim()
+	
     if (WebUI.verifyEqual(x, y) == true) {
     } else {
         if (run == 1) {
@@ -720,11 +725,10 @@ static def Compare(def x, def y, def run, def typeOfData, def otobrajeniyeDannyh
 }
 
 static def CompareDZO(def x, def y, def run, def typeOfData, def otobrajeniyeDannyh, def todaysDate, def vidget, def DZO) {
-    String x1 = x
+    x = x.replaceAll('\\s+', '').trim()
 
-    String y1 = y
+    y = y.replaceAll('\\s+', '').trim()
 
-    int i1
 
     if (WebUI.verifyEqual(x, y) == true) {
     } else {
