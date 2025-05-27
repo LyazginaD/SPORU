@@ -19,11 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(findTestData('PlanFact').getValue(10, 1))
+WebUI.navigateToUrl(findTestData('PlanFact').getValue(10, 9))
 
 urlText = WebUI.getText(findTestObject('Страница авторизации/Text'))
-
-WebUI.delay(10)
 
 WebUI.setText(findTestObject('Страница авторизации/input__username'), findTestData('PlanFact').getValue(8, 1))
 
@@ -31,27 +29,21 @@ WebUI.setText(findTestObject('Страница авторизации/input__pas
 
 WebUI.click(findTestObject('Страница авторизации/button_'))
 
-WebUI.delay(25)
-
-WebUI.click(findTestObject('Выполнение бизнес-плана/Кнопка План'))
-
-String a7 = WebUI.getText(findTestObject('Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Факт Отпуск в сеть за отчётный период ПАО Россети'))
-
-a7 = (a7 + WebUI.getText(findTestObject('Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Факт Отпуск из сети за отчётный период ПАО Россети')))
-
-a7 = (a7 + WebUI.getText(findTestObject('Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Факт Потери за отчётный период ПАО Россети')))
-
-WebUI.click(findTestObject('Выполнение бизнес-плана/Кнопка План'))
-
 WebUI.delay(5)
 
-String a8 = WebUI.getText(findTestObject('Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/План Отпуск в сеть за отчётный период ПАО Россети'))
+WebUI.click(findTestObject('Выручка в рублях/Фильтр Период Выручка'))
 
-a8 = (a8 + WebUI.getText(findTestObject('Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/План Отпуск из сети за отчётный период ПАО Россети')))
+WebUI.click(findTestObject('Выручка в рублях/Снять выделение в фильтре Дата Выручка'))
 
-a8 = (a8 + WebUI.getText(findTestObject('Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/План Потери за отчётный период ПАО Россети')))
+WebUI.click(findTestObject('Выручка в рублях/Применить в фильтре Дата Выручка'))
 
-WebUI.click(findTestObject('Выполнение бизнес-плана/Кнопка Факт'))
+WebUI.click(findTestObject('Выручка в рублях/Фильтр Период Выручка'))
+
+WebUI.scrollToElement(findTestObject('Выручка в рублях/1 квартал 2024 список Выручка'), 30)
+
+WebUI.click(findTestObject('Выручка в рублях/1 квартал 2025 выбрать Выручка'))
+
+WebUI.click(findTestObject('Выручка в рублях/Применить в фильтре Дата Выручка'))
 
 WebUI.closeBrowser()
 

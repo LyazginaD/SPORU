@@ -620,7 +620,7 @@ static def PreSettings(def run, def vir, def block, def nameOfBlock, def typeOfD
 
     WebUI.refresh()
 
-    WebUI.delay(50)
+    WebUI.delay(20)
 
     println('run:' + run)
 
@@ -642,6 +642,8 @@ static def PreSettings(def run, def vir, def block, def nameOfBlock, def typeOfD
 
     Autorization(block, nameOfBlock)
 
+    WebUI.delay(20)
+
     'Раскрыть фильтр "Дата"'
     WebUI.click(findTestObject('Выручка в рублях/Фильтр Период' + nameOfBlock))
 
@@ -651,7 +653,7 @@ static def PreSettings(def run, def vir, def block, def nameOfBlock, def typeOfD
     'Нажать "Применить"'
     WebUI.click(findTestObject('Выручка в рублях/Применить в фильтре Дата' + nameOfBlock))
 
-    WebUI.delay(50)
+    WebUI.delay(20)
 
     'Раскрыть фильтр "Дата"'
     WebUI.click(findTestObject('Выручка в рублях/Фильтр Период' + nameOfBlock))
@@ -666,14 +668,14 @@ static def PreSettings(def run, def vir, def block, def nameOfBlock, def typeOfD
     WebUI.scrollToElement(findTestObject('Выручка в рублях/1 квартал 2025 список' + nameOfBlock), 30)
 
     WebUI.click(findTestObject('Выручка в рублях/1 квартал 2025 выбрать' + nameOfBlock))
-	
-	WebUI.scrollToElement(findTestObject('Выручка в рублях/2 квартал 2025 список' + nameOfBlock), 30)
 
-	WebUI.click(findTestObject('Выручка в рублях/2 квартал 2025 список' + nameOfBlock))
-	
-	WebUI.scrollToElement(findTestObject('Выручка в рублях/Апрель 2025' + nameOfBlock), 30)
+    WebUI.scrollToElement(findTestObject('Выручка в рублях/2 квартал 2025 список' + nameOfBlock), 30)
 
-	WebUI.click(findTestObject('Выручка в рублях/Апрель 2025' + nameOfBlock))
+    WebUI.click(findTestObject('Выручка в рублях/2 квартал 2025 список' + nameOfBlock))
+
+    WebUI.scrollToElement(findTestObject('Выручка в рублях/Апрель 2025' + nameOfBlock), 30)
+
+    WebUI.click(findTestObject('Выручка в рублях/Апрель 2025' + nameOfBlock))
 
     'Проскроллить до заголовка дашборда'
     WebUI.scrollToElement(findTestObject('Выручка в рублях/Заголовок дашборда' + nameOfBlock), 30)
@@ -681,7 +683,7 @@ static def PreSettings(def run, def vir, def block, def nameOfBlock, def typeOfD
     'Нажать "Применить"'
     WebUI.click(findTestObject('Выручка в рублях/Применить в фильтре Дата' + nameOfBlock))
 
-    WebUI.delay(55)
+    WebUI.delay(20)
 
     'Открыть фильтр "ДЗО"'
     WebUI.click(findTestObject('Выручка в рублях/Фильтр ДЗО' + nameOfBlock))
@@ -692,7 +694,7 @@ static def PreSettings(def run, def vir, def block, def nameOfBlock, def typeOfD
     'Нажать "Применить"'
     WebUI.click(findTestObject('Выручка в рублях/Применить в фильтре ДЗО' + nameOfBlock))
 
-    WebUI.delay(50)
+    WebUI.delay(20)
 
     Tumbler(run, vir, block, nameOfBlock)
 
@@ -716,7 +718,7 @@ static void Autorization(def block, def nameOfBlock) {
     if (block == 1) {
         nameOfBlock = ''
     } else {
-        WebUI.delay(45)
+        WebUI.delay(20)
 
         nameOfBlock = ' Выручка'
     }
@@ -726,11 +728,11 @@ static void Autorization(def block, def nameOfBlock) {
     if (block == 1) {
         urlData = 2
 
-        WebUI.delay(45)
+        WebUI.delay(20)
     } else {
         urlData = 9
 
-        WebUI.delay(45)
+        WebUI.delay(20)
     }
     
     WebUI.navigateToUrl(findTestData('PlanFact').getValue(10, urlData))
@@ -739,17 +741,17 @@ static void Autorization(def block, def nameOfBlock) {
 
     searchWord = 'Вход'
 
-    if ((urlText == null) || (urlText.contains('ошибка') || (urlText.contains(searchWord) == false))) {
+    if ((urlText == null) || (urlText.contains(searchWord) == false)) {
         for (urlText.contains(searchWord) == false; i < 10; ii++) {
             i = (i + 1)
 
             WebUI.refresh()
 
-            WebUI.delay(45)
+            WebUI.delay(20)
 
             WebUI.navigateToUrl(findTestData('PlanFact').getValue(10, urlData))
 
-            WebUI.delay(45)
+            WebUI.delay(20)
 
             urlText = WebUI.getText(findTestObject('Страница авторизации/Text'))
         }
@@ -762,7 +764,7 @@ static void Autorization(def block, def nameOfBlock) {
 
         WebUI.click(findTestObject('Страница авторизации/button_'))
 
-        WebUI.delay(45)
+        WebUI.delay(20)
     }
     
     urlText = WebUI.getText(findTestObject('Страница авторизации/Text'))
@@ -775,17 +777,17 @@ static void Autorization(def block, def nameOfBlock) {
 
             WebUI.refresh()
 
-            WebUI.delay(45)
+            WebUI.delay(20)
 
             WebUI.navigateToUrl(findTestData('PlanFact').getValue(10, urlData))
 
-            WebUI.delay(45)
+            WebUI.delay(20)
 
             urlText = WebUI.getText(findTestObject('Страница авторизации/Text'))
         }
     }
     
-    WebUI.delay(45)
+    WebUI.delay(20)
 
     if (block == 2) {
         String opoveshenie = WebUI.getText(findTestObject('Выручка в рублях/Просьба обратить внимание'))
@@ -793,7 +795,7 @@ static void Autorization(def block, def nameOfBlock) {
         if (opoveshenie == 'Просьба обратить внимание') {
             WebUI.click(findTestObject('Выручка в рублях/Закрыть оповещение'))
 
-            WebUI.delay(50)
+            WebUI.delay(20)
         }
     }
 }
