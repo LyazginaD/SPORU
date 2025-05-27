@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Дата'])[1]/following::div[4]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Период'])[1]/following::div[4]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>585ee085-c6d6-4644-ac45-df1772238987</webElementGuid>
+      <webElementGuid>c070f847-2600-48f5-b3e0-507fdf1e0476</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>rb-filter-header-container</value>
-      <webElementGuid>d8e6bfe9-2220-49c9-9a0f-f947df65b98c</webElementGuid>
+      <webElementGuid>69772594-5ab9-4bea-87c6-c43fdcb3930b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +39,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;bad330e3842846578d3ddc1498b0e12a&quot;)/div[@class=&quot;rb-filter-container not-selectable rb-filter-multi-selection&quot;]/div[@class=&quot;rb-filter-header-container&quot;]</value>
-      <webElementGuid>4241cfae-5c41-42a2-b2a7-8a905e9263c5</webElementGuid>
+      <webElementGuid>aef80466-85e2-4bb4-b05a-c1857720b104</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -47,15 +47,15 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='bad330e3842846578d3ddc1498b0e12a']/div/div</value>
-      <webElementGuid>fff7477b-d4b4-4532-b058-85cf55bd098e</webElementGuid>
+      <webElementGuid>e46ed51d-8cda-4acd-9775-26a2ff2d32ca</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Дата'])[1]/following::div[4]</value>
-      <webElementGuid>e90769a9-5079-48a3-af4d-31f24ed7d259</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Период'])[1]/following::div[4]</value>
+      <webElementGuid>a69bb67b-353b-441e-b3b0-2c8b4df4c188</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='В начало'])[1]/following::div[10]</value>
-      <webElementGuid>b2a442cd-bdd5-4856-86b5-71f5e50c7a5c</webElementGuid>
+      <webElementGuid>8c011772-c358-44a5-afc2-1b6fdf7cd0df</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Выбранные значения'])[1]/preceding::div[2]</value>
-      <webElementGuid>681cd405-e41e-48f0-9ff5-92d962ff188c</webElementGuid>
+      <webElementGuid>ef425081-313f-4d45-9551-0af4c1921a48</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Выбрать отображаемые'])[1]/preceding::div[3]</value>
-      <webElementGuid>41c08e6a-02bf-4897-ac15-e65973b65332</webElementGuid>
+      <webElementGuid>a8d9df34-e843-4d8c-a6ad-bfdee0cad13e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,6 +87,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div[2]/div/div/div</value>
-      <webElementGuid>09279627-713f-4a93-bcb2-fdd546996a43</webElementGuid>
+      <webElementGuid>42c915ec-b9dc-4f36-a070-a73a0db786d2</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
