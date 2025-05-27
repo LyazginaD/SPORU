@@ -113,13 +113,31 @@ WebUI.scrollToElement(findTestObject('Выполнение бизнес-план
 
 WebUI.click(findTestObject('Выполнение бизнес-плана/1 квартал 2025'), FailureHandling.CONTINUE_ON_FAILURE)
 
+WebUI.scrollToElement(findTestObject('Выполнение бизнес-плана/2 квартал 2025 список'), 30)
+
+WebUI.click(findTestObject('Выполнение бизнес-плана/2 квартал 2025 список'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.scrollToElement(findTestObject('Выполнение бизнес-плана/Апрель 2025'), 30)
+
+WebUI.click(findTestObject('Выполнение бизнес-плана/Апрель 2025'), FailureHandling.CONTINUE_ON_FAILURE)
+
 'Проскроллить до заголовка фильтра "Дата"'
 WebUI.scrollToElement(findTestObject('Выполнение бизнес-плана/Заголовок дашборда'), 30)
 
 'Нажать "Применить"'
 WebUI.click(findTestObject('Object Repository/Выполнение бизнес-плана/Применить в фильтре Дата'))
 
-WebUI.delay(60)
+WebUI.delay(30)
+
+ZakrytOpoveshenie()
+
+'Раскрыть фильтр "Дата"'
+WebUI.click(findTestObject('Object Repository/Выполнение бизнес-плана/Фильтр Дата'))
+
+'Нажать "Применить"'
+WebUI.click(findTestObject('Object Repository/Выполнение бизнес-плана/Применить в фильтре Дата'))
+
+WebUI.delay(30)
 
 ZakrytOpoveshenie()
 

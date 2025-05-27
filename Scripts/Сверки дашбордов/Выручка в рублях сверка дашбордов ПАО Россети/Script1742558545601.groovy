@@ -666,6 +666,14 @@ static def PreSettings(def run, def vir, def block, def nameOfBlock, def typeOfD
     WebUI.scrollToElement(findTestObject('Выручка в рублях/1 квартал 2025 список' + nameOfBlock), 30)
 
     WebUI.click(findTestObject('Выручка в рублях/1 квартал 2025 выбрать' + nameOfBlock))
+	
+	WebUI.scrollToElement(findTestObject('Выручка в рублях/2 квартал 2025 список' + nameOfBlock), 30)
+
+	WebUI.click(findTestObject('Выручка в рублях/2 квартал 2025 список' + nameOfBlock))
+	
+	WebUI.scrollToElement(findTestObject('Выручка в рублях/Август 2025' + nameOfBlock), 30)
+
+	WebUI.click(findTestObject('Выручка в рублях/Август 2025' + nameOfBlock))
 
     'Проскроллить до заголовка дашборда'
     WebUI.scrollToElement(findTestObject('Выручка в рублях/Заголовок дашборда' + nameOfBlock), 30)

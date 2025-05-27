@@ -59,6 +59,14 @@ WebUI.scrollToElement(findTestObject('Выручка по ДЗО/1 кварта�
 
 WebUI.click(findTestObject('Выручка по ДЗО/1 квартал 2025 выбрать'), FailureHandling.CONTINUE_ON_FAILURE)
 
+WebUI.scrollToElement(findTestObject('Выручка по ДЗО/2 квартал 2025 список'), 30)
+
+WebUI.click(findTestObject('Выручка по ДЗО/2 квартал 2025 список'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.scrollToElement(findTestObject('Выручка по ДЗО/Апрель 2025'), 30)
+
+WebUI.click(findTestObject('Выручка по ДЗО/Апрель 2025'), FailureHandling.CONTINUE_ON_FAILURE)
+
 'Проскроллить до заголовка фильтра "Дата"'
 WebUI.scrollToElement(findTestObject('Выручка по ДЗО/Заголовок дашборда'), 30)
 
@@ -111,6 +119,14 @@ WebUI.click(findTestObject('Выручка по ДЗО/2025 список Выр�
 WebUI.scrollToElement(findTestObject('Выручка по ДЗО/1 квартал 2025 список Выручка'), 30)
 
 WebUI.click(findTestObject('Выручка по ДЗО/1 квартал 2025 выбрать Выручка'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.scrollToElement(findTestObject('Выручка по ДЗО/2 квартал 2025 список Выручка'), 30)
+
+WebUI.click(findTestObject('Выручка по ДЗО/2 квартал 2025 список Выручка'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.scrollToElement(findTestObject('Выручка по ДЗО/Апрель 2025 Выручка'), 30)
+
+WebUI.click(findTestObject('Выручка по ДЗО/Апрель 2025 Выручка'), FailureHandling.CONTINUE_ON_FAILURE)
 
 'Проскроллить до заголовка фильтра "Дата"'
 WebUI.scrollToElement(findTestObject('Выручка по ДЗО/Заголовок дашборда Выручка'), 30)

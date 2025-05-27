@@ -918,20 +918,20 @@ def GetAllData(def path, def dZONum, def VseDZO, def x, def dZO) {
     int i1
 
     String z
-	
-	String strToManage
-	
+
+    String strToManage
+
     String path2 = 'Значения со страницы Выполнение бизнес-плана/Table Data/'
-	
+
     println('path: ' + path)
 
-	int dZONumOtk
-	
+    int dZONumOtk
+
     println('dZONum: ' + dZONum)
-	
-	dZO = x.substring(x.indexOf('/'))
-	
-	println('dZO: ' + dZO)
+
+    dZO = x.substring(x.indexOf('/'))
+
+    println('dZO: ' + dZO)
 
     z = WebUI.getText(findTestObject((path + 'spanPlan') + dZONum))
 
@@ -998,124 +998,118 @@ def GetAllData(def path, def dZONum, def VseDZO, def x, def dZO) {
 
         z = WebUI.getText(findTestObject(path + 'Отклонения за 1 месяц')).replaceAll('[\\r?\n|\r]', '/')
 
-		strToManage = z
-		
-		ii = strToManage.indexOf('ГК')
-		
-		
-		if(ii >-1) {
-		
-			for(i1 = 1; i1 > -1; i1--) {
-				strToManage = strToManage.substring(0,strToManage.indexOf('ГК')-1)+strToManage.substring(strToManage.indexOf('ГК')+3)
-				
-				println('strToManage count i1: ' + strToManage)
-				
-				i1 = strToManage.count('ГК')
-				println('i1: ' + i1)
-		
-			}
-		
-		}
-		
-		z = strToManage
-		
-		println('z: ' + z)
-		
-		int lettersStart = z.indexOf('Россети')
+        strToManage = z
 
-		strToManage = z.substring(lettersStart,z.length())
-		
-		println('strToManage: ' + strToManage)
-		
-		String dZONames = strToManage
-		
-		strToManage = strToManage.replaceAll('[а-яА-Я]', '')
-		
-		println('strToManage after letters: ' + strToManage)
-		
-		strToManage = strToManage.replaceAll(' ', '').replaceAll('/-/', '')
-		
-		println('strToManage: ' + strToManage)
-		
-		strToManage = strToManage.substring(strToManage.lastIndexOf('//')+1,strToManage.length())
-		
-		println('strToManage: ' + strToManage)
-		
-		ii = z.indexOf(strToManage)
-		
-		if(ii>-1) {
-			z = z.substring(0,ii)+'/'
-		
-		}
-		
-		println('z: ' + z)
-		
-		println('dZONum: ' + dZONum)
-		
-		strToManage = dZO
-		
-		if(strToManage.indexOf('(ГК)')>-1) {
-			strToManage = strToManage.substring(0,dZO.indexOf('(ГК)'))
-		}
-		strToManage = strToManage.replaceAll("\\p{P}", "").replaceAll('\\s+', '')
-		
-		println('strToManage: ' + strToManage)
-		
-		if(z.replaceAll("\\p{P}", "").replaceAll('\\s+', '').indexOf(strToManage)>-1) {
-		
-			dZONames = dZONames.replaceAll('\\d+','').replaceAll('\\s+', '').replaceAll('-', '').replaceAll('//','')
-			
-			println('dZONames: ' + dZONames)
-			
-			dZONumOtk = 1
-			
-			ii = dZONames.indexOf(strToManage)
-			
-			if(strToManage!='ФСК') {
-					
-				if (ii>-1) {
-					
-					for(i1=1;ii>-1;i1++) {
-						
-						dZONames=dZONames.substring(dZONames.indexOf('/')+1, dZONames.length())
-							
-						ii = dZONames.lastIndexOf('/')
-						
-						println('dZONames: ' + dZONames)
-						
-						dZONumOtk = (dZONumOtk+1)
-							
-						println('dZONumOtk: ' + dZONumOtk)
-			
-					}
-				}
-			
-			}
-			if(z.indexOf('//')>-1) {
-					z = z.substring(0,z.indexOf('//'))
-			}
-		
-			println('z: ' + z)
-			
-			for (ii = 1; ii < dZONumOtk; ii++) {
-				i1 = (z.indexOf('/')+1)
-				z = z.substring(i1,z.length())
-				println('ii: ' + ii)
-				println('z: ' + z)
-		
-			}
-			
-			z = z.substring(0,z.indexOf('/'))
-		
-		}else {
-			z='нет данных'
-		}
-		println('z: ' + z)
-				
-		x = ((x + '/') + z)
-		
-		x = x.replaceAll('[\\r?\n|\r]', '')
-		
+        ii = strToManage.indexOf('ГК')
+
+        if (ii > -1) {
+            for (i1 = 1; i1 > -1; i1--) {
+                strToManage = (strToManage.substring(0, strToManage.indexOf('ГК') - 1) + strToManage.substring(strToManage.indexOf(
+                        'ГК') + 3))
+
+                println('strToManage count i1: ' + strToManage)
+
+                i1 = strToManage.count('ГК')
+
+                println('i1: ' + i1)
+            }
+        }
+        
+        z = strToManage
+
+        println('z: ' + z)
+
+        int lettersStart = z.indexOf('Россети')
+
+        strToManage = z.substring(lettersStart, z.length())
+
+        println('strToManage: ' + strToManage)
+
+        String dZONames = strToManage
+
+        strToManage = strToManage.replaceAll('[а-яА-Я]', '')
+
+        println('strToManage after letters: ' + strToManage)
+
+        strToManage = strToManage.replaceAll(' ', '').replaceAll('/-/', '')
+
+        println('strToManage: ' + strToManage)
+
+        strToManage = strToManage.substring(strToManage.lastIndexOf('//') + 1, strToManage.length())
+
+        println('strToManage: ' + strToManage)
+
+        ii = z.indexOf(strToManage)
+
+        if (ii > -1) {
+            z = (z.substring(0, ii) + '/')
+        }
+        
+        println('z: ' + z)
+
+        println('dZONum: ' + dZONum)
+
+        strToManage = dZO
+
+        if (strToManage.indexOf('(ГК)') > -1) {
+            strToManage = strToManage.substring(0, dZO.indexOf('(ГК)'))
+        }
+        
+        strToManage = strToManage.replaceAll('\\p{P}', '').replaceAll('\\s+', '')
+
+        println('strToManage: ' + strToManage)
+
+        if (z.replaceAll('\\p{P}', '').replaceAll('\\s+', '').indexOf(strToManage) > -1) {
+            dZONames = dZONames.replaceAll('\\d+', '').replaceAll('\\s+', '').replaceAll('-', '').replaceAll('//', '')
+
+            println('dZONames: ' + dZONames)
+
+            dZONumOtk = 1
+
+            ii = dZONames.indexOf(strToManage)
+
+            if (strToManage != 'ФСК') {
+                if (ii > -1) {
+                    for (i1 = 1; ii > -1; i1++) {
+                        dZONames = dZONames.substring(dZONames.indexOf('/') + 1, dZONames.length())
+
+                        ii = dZONames.lastIndexOf('/')
+
+                        println('dZONames: ' + dZONames)
+
+                        dZONumOtk = (dZONumOtk + 1)
+
+                        println('dZONumOtk: ' + dZONumOtk)
+                    }
+                }
+            }
+            
+            if (z.indexOf('//') > -1) {
+                z = z.substring(0, z.indexOf('//'))
+            }
+            
+            println('z: ' + z)
+
+            for (ii = 1; ii < dZONumOtk; ii++) {
+                i1 = (z.indexOf('/') + 1)
+
+                z = z.substring(i1, z.length())
+
+                println('ii: ' + ii)
+
+                println('z: ' + z)
+            }
+            
+            z = z.substring(0, z.indexOf('/'))
+        } else {
+            z = 'нет данных'
+        }
+        
+        println('z: ' + z)
+
+        x = ((x + '/') + z)
+
+        x = x.replaceAll('[\\r?\n|\r]', '')
     } else {
         x = (x + 'нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных/нет данных')
     }
@@ -1578,10 +1572,10 @@ def WriteToExcel(def typeOfData, def todaysDate, def PercPlanR, def PercPlanB, d
 
     println(iii)
 
-    if (iii>-1) {
-		dZO = dZO.substring(0, iii)
+    if (iii > -1) {
+        dZO = dZO.substring(0, iii)
     }
-
+    
     println(dZO)
 
     println(PercPlanR)
@@ -1864,8 +1858,28 @@ static def Presettings(def blockNum, def path) {
     'Выбрать нужную дату'
     WebUI.click(findTestObject(path + '1 квартал 2025'))
 
+    WebUI.scrollToElement(findTestObject(path + '2 квартал 2025 список'), 30)
+
+    'Выбрать нужную дату'
+    WebUI.click(findTestObject(path + '2 квартал 2025 список'))
+
+    WebUI.scrollToElement(findTestObject(path + 'Апрель 2025'), 30)
+
+    'Выбрать нужную дату'
+    WebUI.click(findTestObject(path + 'Апрель 2025'))
+
     'Проскроллить до заголовка дашборда'
     WebUI.scrollToElement(findTestObject(path + 'Заголовок дашборда'), 30)
+
+    'Нажать "Применить"'
+    WebUI.click(findTestObject(path + 'Применить в фильтре Дата'))
+
+    WebUI.delay(30)
+
+    ZakrytOpoveshenie()
+
+    'Раскрыть фильтр "Дата"'
+    WebUI.click(findTestObject(path + 'Фильтр Дата'))
 
     'Нажать "Применить"'
     WebUI.click(findTestObject(path + 'Применить в фильтре Дата'))
