@@ -48542,7 +48542,8 @@
   <method>startKeyword</method>
   <thread>1</thread>
   <message>Start action : a1 = replaceAll(&amp;quot;[\r?
-|]&amp;quot;, &amp;quot;&amp;quot;).replaceAll(&amp;quot;\s+&amp;quot;, &amp;quot;&amp;quot;)</message>
+|
+]&amp;quot;, &amp;quot;&amp;quot;).replaceAll(&amp;quot;\s+&amp;quot;, &amp;quot;&amp;quot;)</message>
   <nestedLevel>2</nestedLevel>
   <escapedJava>false</escapedJava>
   <property name="startLine">1073</property>
@@ -48558,7 +48559,8 @@
   <method>endKeyword</method>
   <thread>1</thread>
   <message>End action : a1 = replaceAll(&amp;quot;[\r?
-|]&amp;quot;, &amp;quot;&amp;quot;).replaceAll(&amp;quot;\s+&amp;quot;, &amp;quot;&amp;quot;)</message>
+|
+]&amp;quot;, &amp;quot;&amp;quot;).replaceAll(&amp;quot;\s+&amp;quot;, &amp;quot;&amp;quot;)</message>
   <nestedLevel>2</nestedLevel>
   <escapedJava>false</escapedJava>
 </record>
@@ -50864,7 +50866,8 @@
   <method>startKeyword</method>
   <thread>1</thread>
   <message>Start action : a1 = replaceAll(&amp;quot;[\r?
-|]&amp;quot;, &amp;quot;&amp;quot;).replaceAll(&amp;quot;\s+&amp;quot;, &amp;quot;&amp;quot;)</message>
+|
+]&amp;quot;, &amp;quot;&amp;quot;).replaceAll(&amp;quot;\s+&amp;quot;, &amp;quot;&amp;quot;)</message>
   <nestedLevel>2</nestedLevel>
   <escapedJava>false</escapedJava>
   <property name="startLine">1104</property>
@@ -50880,7 +50883,8 @@
   <method>endKeyword</method>
   <thread>1</thread>
   <message>End action : a1 = replaceAll(&amp;quot;[\r?
-|]&amp;quot;, &amp;quot;&amp;quot;).replaceAll(&amp;quot;\s+&amp;quot;, &amp;quot;&amp;quot;)</message>
+|
+]&amp;quot;, &amp;quot;&amp;quot;).replaceAll(&amp;quot;\s+&amp;quot;, &amp;quot;&amp;quot;)</message>
   <nestedLevel>2</nestedLevel>
   <escapedJava>false</escapedJava>
 </record>
@@ -53258,7 +53262,8 @@
   <method>startKeyword</method>
   <thread>1</thread>
   <message>Start action : a1 = replaceAll(&amp;quot;[\r?
-|]&amp;quot;, &amp;quot;&amp;quot;).replaceAll(&amp;quot;\s+&amp;quot;, &amp;quot;&amp;quot;)</message>
+|
+]&amp;quot;, &amp;quot;&amp;quot;).replaceAll(&amp;quot;\s+&amp;quot;, &amp;quot;&amp;quot;)</message>
   <nestedLevel>2</nestedLevel>
   <escapedJava>false</escapedJava>
   <property name="startLine">1139</property>
@@ -53274,7 +53279,8 @@
   <method>endKeyword</method>
   <thread>1</thread>
   <message>End action : a1 = replaceAll(&amp;quot;[\r?
-|]&amp;quot;, &amp;quot;&amp;quot;).replaceAll(&amp;quot;\s+&amp;quot;, &amp;quot;&amp;quot;)</message>
+|
+]&amp;quot;, &amp;quot;&amp;quot;).replaceAll(&amp;quot;\s+&amp;quot;, &amp;quot;&amp;quot;)</message>
   <nestedLevel>2</nestedLevel>
   <escapedJava>false</escapedJava>
 </record>
@@ -95115,3 +95121,7 @@
   <property name="startLine">788</property>
   <property name="stepIndex">20</property>
 </record>
+</log><?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>

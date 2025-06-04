@@ -1630,15 +1630,23 @@ def WriteToExcel(def typeOfData, def todaysDate, def PercPlanR, def PercPlanB, d
 
     String m = WebUI.getText(findTestObject('Выполнение бизнес-плана/Выполнение бизнес-плана Балансы/Фильтр Дата'))
 
-    if (y.toString().length() == 4) {
-        m = m.substring(0, m.indexOf(y.toString()))
-    }
-    
-    m = m.trim()
-
-    if (m == '') {
-        m = 'весь год'
-    }
+	if (y!=null) {
+		
+		String ii11 = y.toString()+' год -'
+		println(ii11)
+		m = m.replaceAll(ii11,'')
+		
+		println(m)
+	
+		m = m.replaceAll('  ',' ').replaceAll('  ',' ')
+	}
+	
+	m = m.trim()
+	
+	if (m == '') {
+		m = 'весь год'
+	}
+	println(m)
     
     String dashboardName = 'Выполнение бизнес-плана'
 
@@ -1814,7 +1822,8 @@ static def Presettings(def blockNum, def path) {
 
     urlText = WebUI.getText(findTestObject('Страница авторизации/Text'))
 
-    if (urlText.contains('ошибка') || (urlText.contains(searchWord) == false)) {
+    if ((urlText.contains('Ошибка запроса данных') || urlText.contains('Ошибка запроса данных')) || (urlText.contains(searchWord) == 
+    false)) {
         for (urlText.contains(searchWord) == false; i < 4; ii++) {
             i = (i + 1)
 
@@ -1878,16 +1887,6 @@ static def Presettings(def blockNum, def path) {
 
     ZakrytOpoveshenie()
 
-    'Раскрыть фильтр "Дата"'
-    WebUI.click(findTestObject(path + 'Фильтр Дата'))
-
-    'Нажать "Применить"'
-    WebUI.click(findTestObject(path + 'Применить в фильтре Дата'))
-
-    WebUI.delay(30)
-
-    ZakrytOpoveshenie()
-
     'Открыть фильтр "ДЗО"'
     WebUI.click(findTestObject(path + 'Фильтр ДЗО'))
 
@@ -1901,6 +1900,16 @@ static def Presettings(def blockNum, def path) {
     WebUI.click(findTestObject(path + 'Применить в фильтре ДЗО'))
 
     WebUI.delay(30)
+
+    'Раскрыть фильтр "Дата"'
+    WebUI.click(findTestObject(path + 'Фильтр Дата'))
+
+    'Нажать "Применить"'
+    WebUI.click(findTestObject(path + 'Применить в фильтре Дата'))
+
+    WebUI.delay(30)
+
+    ZakrytOpoveshenie()
 }
 
 static void ZakrytOpoveshenie() {

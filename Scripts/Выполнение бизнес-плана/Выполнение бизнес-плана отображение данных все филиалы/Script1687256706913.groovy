@@ -86,9 +86,6 @@ if (urlText.contains('ошибка') || (urlText.contains(searchWord) == false))
     }
 }
 
-'!'
-ZakrytOpoveshenie()
-
 'Раскрыть фильтр "Дата"'
 WebUI.click(findTestObject('Object Repository/Выполнение бизнес-плана/Фильтр Дата'))
 
@@ -98,7 +95,7 @@ WebUI.click(findTestObject('Выполнение бизнес-плана/Сня�
 'Нажать "Применить"'
 WebUI.click(findTestObject('Object Repository/Выполнение бизнес-плана/Применить в фильтре Дата'))
 
-WebUI.delay(60)
+WebUI.delay(40)
 
 ZakrytOpoveshenie()
 
@@ -131,6 +128,17 @@ WebUI.delay(30)
 
 ZakrytOpoveshenie()
 
+'Открыть фильтр "ДЗО"'
+WebUI.click(findTestObject('Object Repository/Выполнение бизнес-плана/Фильтр ДЗО'))
+
+'Нажать "Снять выделение"'
+WebUI.click(findTestObject('Выполнение бизнес-плана/Снять выделение в фильтре ДЗО'))
+
+'Нажать "Применить"'
+WebUI.click(findTestObject('Object Repository/Выполнение бизнес-плана/Применить в фильтре ДЗО'))
+
+WebUI.delay(40)
+
 'Раскрыть фильтр "Дата"'
 WebUI.click(findTestObject('Object Repository/Выполнение бизнес-плана/Фильтр Дата'))
 
@@ -139,13 +147,8 @@ WebUI.click(findTestObject('Object Repository/Выполнение бизнес-
 
 WebUI.delay(30)
 
+'!'
 ZakrytOpoveshenie()
-
-'Открыть фильтр "ДЗО"'
-WebUI.click(findTestObject('Object Repository/Выполнение бизнес-плана/Фильтр ДЗО'))
-
-'Нажать "Снять выделение"'
-WebUI.click(findTestObject('Выполнение бизнес-плана/Снять выделение в фильтре ДЗО'))
 
 DzoTest(todaysDate, typeOfData)
 
@@ -835,6 +838,12 @@ static def Change(def todaysDate, def typeOfData) {
 
     'Нажать "Применить"'
     WebUI.click(findTestObject('Object Repository/Выполнение бизнес-плана/Применить в фильтре ДЗО'))
+
+    'Раскрыть фильтр "Дата"'
+    WebUI.click(findTestObject('Object Repository/Выполнение бизнес-плана/Фильтр Дата'))
+
+    'Нажать "Применить"'
+    WebUI.click(findTestObject('Object Repository/Выполнение бизнес-плана/Применить в фильтре Дата'))
 
     typeOfData = 'Факт'
 

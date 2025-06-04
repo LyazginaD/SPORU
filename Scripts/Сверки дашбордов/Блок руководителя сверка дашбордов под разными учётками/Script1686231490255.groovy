@@ -183,7 +183,8 @@ static def CheckPageDownload(def urlData, def run) {
     
     urlText = WebUI.getText(findTestObject('Страница авторизации/Text'))
 
-    if (urlText.contains('ошибка') || (urlText.contains(searchWord) == false)) {
+    if ((urlText.contains('Ошибка запроса данных') || urlText.contains('Ошибка запроса данных')) || (urlText.contains(searchWord) == 
+    false)) {
         for (urlText.contains(searchWord) == false; i < 10; ii++) {
             i = (i + 1)
 
@@ -263,17 +264,6 @@ def VipolnenieBiznesPlana(def user, def dashboardName, def n, def data, def run,
 
     ZakrytOpoveshenie()
 
-    'Раскрыть фильтр "Дата"'
-    WebUI.click(findTestObject('Object Repository/Выполнение бизнес-плана/Фильтр Дата'))
-
-    'Нажать "Применить"'
-    WebUI.click(findTestObject('Object Repository/Выполнение бизнес-плана/Применить в фильтре Дата'))
-
-    WebUI.delay(30)
-
-    '!'
-    ZakrytOpoveshenie()
-
     'Открыть фильтр "ДЗО"'
     WebUI.click(findTestObject('Object Repository/Выполнение бизнес-плана/Фильтр ДЗО'))
 
@@ -287,6 +277,17 @@ def VipolnenieBiznesPlana(def user, def dashboardName, def n, def data, def run,
     WebUI.click(findTestObject('Object Repository/Выполнение бизнес-плана/Применить в фильтре ДЗО'))
 
     WebUI.delay(40)
+
+    'Раскрыть фильтр "Дата"'
+    WebUI.click(findTestObject('Object Repository/Выполнение бизнес-плана/Фильтр Дата'))
+
+    'Нажать "Применить"'
+    WebUI.click(findTestObject('Object Repository/Выполнение бизнес-плана/Применить в фильтре Дата'))
+
+    WebUI.delay(30)
+
+    '!'
+    ZakrytOpoveshenie()
 
     if (run == 1) {
         user = 'админ'
