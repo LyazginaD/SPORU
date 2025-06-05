@@ -113,7 +113,7 @@ for (run = 1; run < 4; run++) {
 }
 
 static def CheckPageDownload(def urlData, def run) {
-    int i = 1
+    int i = 0
 
     int ii = 0
 
@@ -136,7 +136,6 @@ static def CheckPageDownload(def urlData, def run) {
 
         WebUI.delay(40)
 
-        WebUI.navigateToUrl(findTestData('PlanFact').getValue(10, urlData))
     }
     
     urlText = WebUI.getText(findTestObject('Страница авторизации/Text'))
@@ -146,18 +145,19 @@ static def CheckPageDownload(def urlData, def run) {
     searchWord = 'Вход'
 
     if (urlText.contains(searchWord) == false) {
-        for (urlText.contains(searchWord) == false; i < 4; ii++) {
-            i = (i + 1)
+		while (i < 0) {
+			
+			if(ii==4) break
 
             WebUI.refresh()
 
             WebUI.delay(40)
 
-            WebUI.navigateToUrl(findTestData('PlanFact').getValue(10, urlData))
-
-            WebUI.delay(40)
-
             urlText = WebUI.getText(findTestObject('Страница авторизации/Text'))
+			
+			i = urlText.indexOf('ошибка')
+			
+			println(i)
         }
     }
     
@@ -178,25 +178,24 @@ static def CheckPageDownload(def urlData, def run) {
 
         WebUI.delay(40)
 
-        WebUI.navigateToUrl(findTestData('PlanFact').getValue(10, urlData))
     }
     
     urlText = WebUI.getText(findTestObject('Страница авторизации/Text'))
 
-    if ((urlText.contains('Ошибка запроса данных') || urlText.contains('Ошибка запроса данных')) || (urlText.contains(searchWord) == 
-    false)) {
-        for (urlText.contains(searchWord) == false; i < 10; ii++) {
-            i = (i + 1)
+    if (urlText.contains('ошибка') || (urlText.contains(searchWord) == false)) {
+		while (i < 0) {
 
-            WebUI.refresh()
+			if(ii==4) break
+			
+			WebUI.refresh()
 
-            WebUI.delay(40)
-
-            WebUI.navigateToUrl(findTestData('PlanFact').getValue(10, urlData))
-
-            WebUI.delay(40)
+			WebUI.delay(40)
 
             urlText = WebUI.getText(findTestObject('Страница авторизации/Text'))
+			
+			i = urlText.indexOf('ошибка')
+			
+			println(i)
         }
     }
 }
@@ -260,7 +259,7 @@ def VipolnenieBiznesPlana(def user, def dashboardName, def n, def data, def run,
     'Нажать "Применить"'
     WebUI.click(findTestObject('Object Repository/Выполнение бизнес-плана/Применить в фильтре Дата'))
 
-    WebUI.delay(30)
+    WebUI.delay(40)
 
     ZakrytOpoveshenie()
 
@@ -284,7 +283,7 @@ def VipolnenieBiznesPlana(def user, def dashboardName, def n, def data, def run,
     'Нажать "Применить"'
     WebUI.click(findTestObject('Object Repository/Выполнение бизнес-плана/Применить в фильтре Дата'))
 
-    WebUI.delay(30)
+    WebUI.delay(40)
 
     '!'
     ZakrytOpoveshenie()

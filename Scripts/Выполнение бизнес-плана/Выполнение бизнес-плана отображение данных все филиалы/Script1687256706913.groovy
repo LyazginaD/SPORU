@@ -30,7 +30,7 @@ String urlText
 
 String searchWord
 
-int i
+int i=0
 
 int ii
 
@@ -43,18 +43,21 @@ WebUI.delay(10)
 searchWord = 'Вход'
 
 if (urlText.contains(searchWord) == false) {
-    for (urlText.contains(searchWord) == false; i < 4; ii++) {
-        i = (i + 1)
+    while (i < 0) {
 
+		if(ii==4) break
+		
+		ii = ii +1
+		
         WebUI.refresh()
 
         WebUI.delay(20)
 
-        WebUI.navigateToUrl(findTestData('PlanFact').getValue(10, 1))
-
-        WebUI.delay(10)
-
         urlText = WebUI.getText(findTestObject('Страница авторизации/Text'))
+
+        i = urlText.indexOf('ошибка')
+
+        println(i)
     }
 }
 
@@ -64,27 +67,34 @@ WebUI.setText(findTestObject('Страница авторизации/input__pas
 
 WebUI.click(findTestObject('Страница авторизации/button_'))
 
-WebUI.delay(60)
+WebUI.delay(40)
 
 searchWord = 'ДЗО'
 
 urlText = WebUI.getText(findTestObject('Страница авторизации/Text'))
 
 if (urlText.contains('ошибка') || (urlText.contains(searchWord) == false)) {
-    for (urlText.contains(searchWord) == false; i < 4; ii++) {
-        i = (i + 1)
-
+    while (i < 0) {
+		
+		if(ii==4) break
+		
+		ii = ii +1
+		
         WebUI.refresh()
 
-        WebUI.delay(20)
-
-        WebUI.navigateToUrl(findTestData('PlanFact').getValue(10, 1))
-
-        WebUI.delay(10)
+        WebUI.delay(50)
 
         urlText = WebUI.getText(findTestObject('Страница авторизации/Text'))
+
+        i = urlText.indexOf('ошибка')
+
+        println(i)
     }
 }
+
+WebUI.delay(40)
+
+ZakrytOpoveshenie()
 
 'Раскрыть фильтр "Дата"'
 WebUI.click(findTestObject('Object Repository/Выполнение бизнес-плана/Фильтр Дата'))
@@ -155,6 +165,9 @@ DzoTest(todaysDate, typeOfData)
 WebUI.closeBrowser()
 
 def DzoTest(def todaysDate, def typeOfData) {
+    'Открыть фильтр "ДЗО"'
+    WebUI.click(findTestObject('Object Repository/Выполнение бизнес-плана/Фильтр ДЗО'))
+
     'Выбрать ПАО Россети'
     WebUI.click(findTestObject('Выполнение бизнес-плана/ПАО Россети'))
 
@@ -865,7 +878,7 @@ static def Change(def todaysDate, def typeOfData) {
 }
 
 static def Test(def todaysDate, def typeOfData) {
-    WebUI.delay(50)
+    WebUI.delay(20)
 
     ZakrytOpoveshenie()
 
