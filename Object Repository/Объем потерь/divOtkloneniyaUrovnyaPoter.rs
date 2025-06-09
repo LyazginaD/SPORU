@@ -11,10 +11,11 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='В начало'])[12]/following::div[5]</value>
+         <value>//div[@id='va-widgets-container']/div[24]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>bdcef47b-8ab6-49f0-97ce-1a8a459304c5</webElementGuid>
+      <webElementGuid>18a4a48b-6a04-475e-a04a-38dd466313c1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>va-widget</value>
-      <webElementGuid>cb51a680-be7e-45fd-979a-962fa8b0039b</webElementGuid>
+      <webElementGuid>1bc56034-ca52-4e68-834a-e225e44a8a6e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +39,7 @@
       <name>data-bind</name>
       <type>Main</type>
       <value>attr: { id: 'widget-' + guid() }, css: { selected: isSelected() &amp;&amp; isEditing(), draggable: isEditing(), 'position-locked': positionLocked() },  style: { width: width() + 'px', height: height() + 'px', left: x() + 'px', top: y() + 'px', 'border': frame.enabled() ? '1px solid ' + frame.style.color() : '', cursor: $parent.isEditing() ? 'pointer' : 'default', 'z-index': computedZIndex(), 'border-radius': frame.style.radius() + 'px', 'box-shadow': boxShadow.x() + 'px' + ' ' + boxShadow.y() + 'px' + ' ' + boxShadow.blur() + 'px' + ' ' + boxShadow.spread() + 'px' + ' ' + boxShadow.color()}</value>
-      <webElementGuid>ec03ee9e-435a-4279-be21-6b245f439bc3</webElementGuid>
+      <webElementGuid>5eb75b3c-2c26-4600-84fe-a402ba8aa1f5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +47,7 @@
       <name>id</name>
       <type>Main</type>
       <value>widget-5ee1593dbc134cda83171b6487944873</value>
-      <webElementGuid>b14f61da-e018-4960-908e-a03cf93537eb</webElementGuid>
+      <webElementGuid>16960d1c-8a3c-4c61-89fb-90c71484b30a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -77,7 +78,7 @@
                                 
                             
                         </value>
-      <webElementGuid>29dda7f2-8218-4865-8336-e8db4bd7e9d7</webElementGuid>
+      <webElementGuid>2415df5b-38b1-4c10-b436-5800dded018d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,7 +86,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;widget-5ee1593dbc134cda83171b6487944873&quot;)</value>
-      <webElementGuid>f210f0fe-e2d7-4062-8bbf-2d800938d341</webElementGuid>
+      <webElementGuid>c080f142-7344-4dda-bd14-ebcea824c1f9</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -93,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='В начало'])[12]/following::div[5]</value>
-      <webElementGuid>5b57d750-bfca-48c1-a4cf-327d3a6385b0</webElementGuid>
+      <webElementGuid>1fb092b8-862a-4896-bfb7-b08a476ca4c6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Отклонение:'])[1]/following::div[24]</value>
-      <webElementGuid>5980faec-8e8c-4889-a1a5-f8fe20280673</webElementGuid>
+      <webElementGuid>721a21e9-e450-467e-bea8-a957ee505ccf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +110,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[24]</value>
-      <webElementGuid>fb50a894-3cd7-48a7-8f39-6f505f6ba74c</webElementGuid>
+      <webElementGuid>ae37d0fc-f194-459b-842f-0f4487a47873</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +118,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='va-widgets-container']/div[24]</value>
-      <webElementGuid>816d6ac2-c1fc-4974-a503-2cdd7c162ebf</webElementGuid>
+      <webElementGuid>5ca132b7-4703-4556-9cdd-55da8de44a7a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +126,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//div[@id='widget-5ee1593dbc134cda83171b6487944873']</value>
-      <webElementGuid>1ee69eec-bd37-460b-bed8-91003b1566c5</webElementGuid>
+      <webElementGuid>931a36b6-3c65-4f33-9521-90361e83dd24</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -179,6 +180,6 @@
                                 
                             
                         ')]</value>
-      <webElementGuid>93c41b6a-5741-4d03-8b98-b3b8e463b801</webElementGuid>
+      <webElementGuid>20c0b058-9b66-4a05-b80c-ea94aa95cc82</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

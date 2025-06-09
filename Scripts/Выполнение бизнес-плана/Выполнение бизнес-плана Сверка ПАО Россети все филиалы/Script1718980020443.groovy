@@ -132,6 +132,14 @@ WebUI.scrollToElement(findTestObject('Выполнение бизнес-план
 
 WebUI.click(findTestObject('Выполнение бизнес-плана/1 квартал 2025'), FailureHandling.CONTINUE_ON_FAILURE)
 
+WebUI.scrollToElement(findTestObject('Выполнение бизнес-плана/2 квартал 2025 список'), 30)
+
+WebUI.click(findTestObject('Выполнение бизнес-плана/2 квартал 2025 список'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.scrollToElement(findTestObject('Выполнение бизнес-плана/Апрель 2025'), 30)
+
+WebUI.click(findTestObject('Выполнение бизнес-плана/Апрель 2025'), FailureHandling.CONTINUE_ON_FAILURE)
+
 'Проскроллить до заголовка фильтра "Дата"'
 WebUI.scrollToElement(findTestObject('Выполнение бизнес-плана/Заголовок дашборда'), 30)
 
@@ -155,6 +163,14 @@ WebUI.click(findTestObject('Выполнение бизнес-плана/ПАО 
 
 'Нажать "Применить"'
 WebUI.click(findTestObject('Object Repository/Выполнение бизнес-плана/Применить в фильтре ДЗО'))
+
+WebUI.delay(30)
+
+'Раскрыть фильтр "Дата"'
+WebUI.click(findTestObject('Object Repository/Выполнение бизнес-плана/Фильтр Дата'))
+
+'Нажать "Применить"'
+WebUI.click(findTestObject('Object Repository/Выполнение бизнес-плана/Применить в фильтре Дата'))
 
 WebUI.delay(30)
 
@@ -688,20 +704,19 @@ static def Numbers(def a, def typeOfData, def todaysDate, def pageInt, def fileI
     } else {
         page1 = WebUI.getText(findTestObject('Object Repository/Выполнение бизнес-плана/spanPlan' + filialNum))
 
-		if(page1== null) {
-			page1='нет данных'
-		}else {
-			page1 = page1.replace('|', '')
-		}
+        if (page1 == null) {
+            page1 = 'нет данных'
+        } else {
+            page1 = page1.replace('|', '')
+        }
         
         page2 = WebUI.getText(findTestObject('Object Repository/Выполнение бизнес-плана/spanFact' + filialNum))
-		
-		if(page2== null) {
-			page2='нет данных'
-		}else {
-			page2 = page2.replace('|', '')
-		}
 
+        if (page2 == null) {
+            page2 = 'нет данных'
+        } else {
+            page2 = page2.replace('|', '')
+        }
     }
     
     println('page1: ' + page1)
@@ -868,6 +883,16 @@ static void CloseFilter() {
     WebUI.scrollToElement(findTestObject('Выполнение бизнес-плана/Заголовок дашборда'), 30)
 
     WebUI.click(findTestObject('Object Repository/Выполнение бизнес-плана/Применить в фильтре ДЗО'))
+
+    WebUI.delay(30)
+
+    'Раскрыть фильтр "Дата"'
+    WebUI.click(findTestObject('Object Repository/Выполнение бизнес-плана/Фильтр Дата'))
+
+    'Нажать "Применить"'
+    WebUI.click(findTestObject('Object Repository/Выполнение бизнес-плана/Применить в фильтре Дата'))
+
+    WebUI.delay(30)
 }
 
 static def Filials(def a, def typeOfData, def todaysDate, def pageInt, def fileInt, def pageDouble, def fileDouble, def dZO, def dzoNum, def filialNum) {
@@ -1792,35 +1817,39 @@ static def WriteToExcel(def a, def typeOfData, def todaysDate, def pageInt, def 
     int day = todaysDate.substring(0, todaysDate.indexOf('.')).toInteger()
 
     println(day)
+	
+	int month = todaysDate.substring(todaysDate.indexOf('.') + 1, todaysDate.lastIndexOf('.')).toInteger()
 
-    int month = todaysDate.substring(todaysDate.indexOf('.') + 1, todaysDate.lastIndexOf('.')).toInteger()
+	println(month)
 
-    println(month)
+	int y = todaysDate.substring(todaysDate.length() - 4, todaysDate.length()).toInteger()
 
-    int y
+	if ((month < 3) && (day < 30)) {
+		y = (y - 1)
+	}
+	
+	println(y)
 
-    int iy
+	String m = WebUI.getText(findTestObject('Выполнение бизнес-плана/Выполнение бизнес-плана Балансы/Фильтр Дата'))
 
-    String m = WebUI.getText(findTestObject('Выполнение бизнес-плана/Период'))
-
-    iy = m.indexOf('20')
-
-    if (iy > -1) {
-        y = m.substring(iy, iy + 4).toInteger()
-    }
-    
-    println(y)
-
-    if (y.toString().length() == 4) {
-        m = m.substring(0, m.indexOf(y.toString()))
-    }
-    
-    m = m.trim()
-
-    if (m == '') {
-        m = 'весь год'
-    }
-    
+	if (y!=null) {
+		
+		String ii11 = y.toString()+' год -'
+		println(ii11)
+		m = m.replaceAll(ii11,'')
+		
+		println(m)
+	
+		m = m.replaceAll('  ',' ').replaceAll('  ',' ')
+	}
+	
+	m = m.trim()
+	
+	if (m == '') {
+		m = 'весь год'
+	}
+	println(m)
+	
     String dashboardName = 'Выполнение бизнес-плана'
 
     def workbook01 = ExcelKeywords.getWorkbook(GlobalVariable.excelFilePath)
@@ -1912,35 +1941,39 @@ static def WriteToExcelNoData(def a, def typeOfData, def todaysDate, def fileInt
     int day = todaysDate.substring(0, todaysDate.indexOf('.')).toInteger()
 
     println(day)
+	
+	int month = todaysDate.substring(todaysDate.indexOf('.') + 1, todaysDate.lastIndexOf('.')).toInteger()
 
-    int month = todaysDate.substring(todaysDate.indexOf('.') + 1, todaysDate.lastIndexOf('.')).toInteger()
+	println(month)
 
-    println(month)
+	int y = todaysDate.substring(todaysDate.length() - 4, todaysDate.length()).toInteger()
 
-    int y
+	if ((month < 3) && (day < 30)) {
+		y = (y - 1)
+	}
+	
+	println(y)
+	
+	String m = WebUI.getText(findTestObject('Выполнение бизнес-плана/Выполнение бизнес-плана Балансы/Фильтр Дата'))
 
-    int iy
-
-    String m = WebUI.getText(findTestObject('Выполнение бизнес-плана/Период'))
-
-    iy = m.indexOf('20')
-
-    if (iy > -1) {
-        y = m.substring(iy, iy + 4).toInteger()
-    }
-    
-    println(y)
-
-    if (y.toString().length() == 4) {
-        m = m.substring(0, m.indexOf(y.toString()))
-    }
-    
-    m = m.trim()
-
-    if (m == '') {
-        m = 'весь год'
-    }
-    
+	if (y!=null) {
+		
+		String ii11 = y.toString()+' год -'
+		println(ii11)
+		m = m.replaceAll(ii11,'')
+		
+		println(m)
+	
+		m = m.replaceAll('  ',' ').replaceAll('  ',' ')
+	}
+	
+	m = m.trim()
+	
+	if (m == '') {
+		m = 'весь год'
+	}
+	println(m)
+        
     String dashboardName = 'Выполнение бизнес-плана'
 
     def workbook01 = ExcelKeywords.getWorkbook(GlobalVariable.excelFilePath)

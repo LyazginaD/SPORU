@@ -1,0 +1,1456 @@
+2025-06-09 13:32:52.370 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Пн-Ср-Пт/Сверка дашбордов из разных блоков
+2025-06-09 13:32:52.498 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Дарья Игоревна Лязгина
+2025-06-09 13:32:52.500 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = SPORU
+2025-06-09 13:32:52.501 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = Daria - DariaPC.IGD_Rostelecom
+2025-06-09 13:32:52.502 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 10 64bit
+2025-06-09 13:32:52.503 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.0.17
+2025-06-09 13:32:52.503 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.2.1.0
+2025-06-09 13:32:53.311 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-06-09 13:32:53.311 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Сверки дашбордов/Блок руководителя сверка дашбордов под разными учётками
+2025-06-09 13:32:55.171 DEBUG ля сверка дашбордов под разными учётками - 1: run = 1
+2025-06-09 13:32:55.184 DEBUG ля сверка дашбордов под разными учётками - 2: data = findTestData("PlanFact")
+2025-06-09 13:32:55.717 DEBUG ля сверка дашбордов под разными учётками - 3: n = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2025-06-09 13:32:55.721 DEBUG ля сверка дашбордов под разными учётками - 4: urlData = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2025-06-09 13:32:55.730 DEBUG ля сверка дашбордов под разными учётками - 5: dashboardName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2025-06-09 13:32:55.736 DEBUG ля сверка дашбордов под разными учётками - 6: a1 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2025-06-09 13:32:55.743 DEBUG ля сверка дашбордов под разными учётками - 7: a2 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2025-06-09 13:32:55.754 DEBUG ля сверка дашбордов под разными учётками - 8: a3 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2025-06-09 13:32:55.759 DEBUG ля сверка дашбордов под разными учётками - 9: a4 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2025-06-09 13:32:55.768 DEBUG ля сверка дашбордов под разными учётками - 10: a5 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2025-06-09 13:32:55.780 DEBUG ля сверка дашбордов под разными учётками - 11: a6 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2025-06-09 13:32:55.789 DEBUG ля сверка дашбордов под разными учётками - 12: a7 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2025-06-09 13:32:55.795 DEBUG ля сверка дашбордов под разными учётками - 13: a8 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2025-06-09 13:32:55.801 DEBUG ля сверка дашбордов под разными учётками - 14: a9 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2025-06-09 13:32:55.819 DEBUG ля сверка дашбордов под разными учётками - 15: user = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2025-06-09 13:32:55.823 DEBUG ля сверка дашбордов под разными учётками - 16: for ([run = 1, run < 4, (run++)])
+2025-06-09 13:32:55.828 DEBUG ля сверка дашбордов под разными учётками - 1: VipolnenieBiznesPlana(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9, urlData)
+2025-06-09 13:32:55.865 DEBUG ля сверка дашбордов под разными учётками - 1: a10 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2025-06-09 13:32:55.872 DEBUG ля сверка дашбордов под разными учётками - 2: a11 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2025-06-09 13:32:55.877 DEBUG ля сверка дашбордов под разными учётками - 3: a12 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2025-06-09 13:32:55.887 DEBUG ля сверка дашбордов под разными учётками - 4: n = data.getRowNumbers() + 1
+2025-06-09 13:32:55.933 DEBUG ля сверка дашбордов под разными учётками - 5: println(n)
+118
+2025-06-09 13:32:56.136 DEBUG ля сверка дашбордов под разными учётками - 6: dashboardName = "Выполнение бизнес-плана"
+2025-06-09 13:32:56.159 DEBUG ля сверка дашбордов под разными учётками - 7: openBrowser("")
+2025-06-09 13:32:56.552 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-06-09 13:32:56.591 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Use managed Chrome browser & driver
+2025-06-09 13:32:56.593 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking and download if needed Chrome browser and driver for Chrome for Testing version latest (This may take a while in case of downloading needed)
+2025-06-09 13:32:56.944 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking Chrome browser and driver completed in 351 ms
+2025-06-09 13:32:56.945 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome driver path: C:\Users\Daria\.cache\selenium\chromedriver\win64\137.0.7151.68\chromedriver.exe
+2025-06-09 13:32:56.945 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome browser path: C:\Users\Daria\.cache\selenium\chrome\win64\137.0.7151.68\chrome.exe
+2025-06-09 13:32:56.966 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+июн. 09, 2025 1:32:58 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+июн. 09, 2025 1:32:58 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 137.0.7151.68. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-06-09 13:32:59.126 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 28bf76952fbd83436a8eb8ccbdd2b110
+2025-06-09 13:32:59.127 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 137.0.7151.68
+2025-06-09 13:32:59.128 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2025-06-09 13:32:59.129 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-06-09 13:32:59.149 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-06-09 13:32:59.204 DEBUG ля сверка дашбордов под разными учётками - 8: urlData = 1
+2025-06-09 13:32:59.208 DEBUG ля сверка дашбордов под разными учётками - 9: Script1686231490255.CheckPageDownload(urlData, run)
+2025-06-09 13:35:35.311 DEBUG ля сверка дашбордов под разными учётками - 10: Script1686231490255.ZakrytOpoveshenie()
+Просьба обратить внимание
+2025-06-09 13:35:35.927 DEBUG ля сверка дашбордов под разными учётками - 11: click(findTestObject("Object Repository/Выполнение бизнес-плана/Фильтр Дата"))
+2025-06-09 13:35:36.279 DEBUG ля сверка дашбордов под разными учётками - 12: click(findTestObject("Выполнение бизнес-плана/Снять выделение в фильтре Дата"))
+2025-06-09 13:35:36.815 DEBUG ля сверка дашбордов под разными учётками - 13: click(findTestObject("Object Repository/Выполнение бизнес-плана/Применить в фильтре Дата"))
+2025-06-09 13:35:37.731 DEBUG ля сверка дашбордов под разными учётками - 14: delay(40)
+2025-06-09 13:36:17.744 DEBUG ля сверка дашбордов под разными учётками - 15: Script1686231490255.ZakrytOpoveshenie()
+Просьба обратить внимание
+2025-06-09 13:36:33.301 DEBUG ля сверка дашбордов под разными учётками - 16: click(findTestObject("Object Repository/Выполнение бизнес-плана/Фильтр Дата"))
+2025-06-09 13:36:33.648 DEBUG ля сверка дашбордов под разными учётками - 17: scrollToElement(findTestObject("Выполнение бизнес-плана/2025 список"), 30)
+2025-06-09 13:36:34.163 DEBUG ля сверка дашбордов под разными учётками - 18: click(findTestObject("Выполнение бизнес-плана/2025 список"), CONTINUE_ON_FAILURE)
+2025-06-09 13:36:34.718 DEBUG ля сверка дашбордов под разными учётками - 19: scrollToElement(findTestObject("Выполнение бизнес-плана/1 квартал 2025 список"), 30)
+2025-06-09 13:36:35.199 DEBUG ля сверка дашбордов под разными учётками - 20: click(findTestObject("Выполнение бизнес-плана/1 квартал 2025"), CONTINUE_ON_FAILURE)
+2025-06-09 13:36:35.519 DEBUG ля сверка дашбордов под разными учётками - 21: scrollToElement(findTestObject("Выполнение бизнес-плана/2 квартал 2025 список"), 30)
+2025-06-09 13:36:36.030 DEBUG ля сверка дашбордов под разными учётками - 22: click(findTestObject("Выполнение бизнес-плана/2 квартал 2025 список"), CONTINUE_ON_FAILURE)
+2025-06-09 13:36:36.342 DEBUG ля сверка дашбордов под разными учётками - 23: scrollToElement(findTestObject("Выполнение бизнес-плана/Апрель 2025"), 30)
+2025-06-09 13:36:36.604 DEBUG ля сверка дашбордов под разными учётками - 24: click(findTestObject("Выполнение бизнес-плана/Апрель 2025"), CONTINUE_ON_FAILURE)
+2025-06-09 13:36:36.911 DEBUG ля сверка дашбордов под разными учётками - 25: scrollToElement(findTestObject("Выполнение бизнес-плана/Заголовок дашборда"), 30)
+2025-06-09 13:36:37.426 DEBUG ля сверка дашбордов под разными учётками - 26: click(findTestObject("Object Repository/Выполнение бизнес-плана/Применить в фильтре Дата"))
+2025-06-09 13:36:38.488 DEBUG ля сверка дашбордов под разными учётками - 27: delay(40)
+2025-06-09 13:37:18.519 DEBUG ля сверка дашбордов под разными учётками - 28: Script1686231490255.ZakrytOpoveshenie()
+Просьба обратить внимание
+2025-06-09 13:37:20.767 DEBUG ля сверка дашбордов под разными учётками - 29: click(findTestObject("Object Repository/Выполнение бизнес-плана/Фильтр ДЗО"))
+2025-06-09 13:37:21.586 DEBUG ля сверка дашбордов под разными учётками - 30: click(findTestObject("Выполнение бизнес-плана/Снять выделение в фильтре ДЗО"))
+2025-06-09 13:37:22.120 DEBUG ля сверка дашбордов под разными учётками - 31: click(findTestObject("Выполнение бизнес-плана/ПАО Россети"))
+2025-06-09 13:37:22.433 DEBUG ля сверка дашбордов под разными учётками - 32: click(findTestObject("Object Repository/Выполнение бизнес-плана/Применить в фильтре ДЗО"))
+2025-06-09 13:37:23.654 DEBUG ля сверка дашбордов под разными учётками - 33: delay(40)
+2025-06-09 13:38:03.662 DEBUG ля сверка дашбордов под разными учётками - 34: click(findTestObject("Object Repository/Выполнение бизнес-плана/Фильтр Дата"))
+2025-06-09 13:38:03.981 DEBUG ля сверка дашбордов под разными учётками - 35: click(findTestObject("Object Repository/Выполнение бизнес-плана/Применить в фильтре Дата"))
+2025-06-09 13:38:04.731 DEBUG ля сверка дашбордов под разными учётками - 36: delay(40)
+2025-06-09 13:38:44.737 DEBUG ля сверка дашбордов под разными учётками - 37: Script1686231490255.ZakrytOpoveshenie()
+2025-06-09 13:38:45.002 DEBUG ля сверка дашбордов под разными учётками - 38: if (run == 1)
+2025-06-09 13:38:45.003 DEBUG ля сверка дашбордов под разными учётками - 1: user = "админ"
+2025-06-09 13:38:45.004 DEBUG ля сверка дашбордов под разными учётками - 2: a1 = getText(findTestObject("Выполнение бизнес-плана/Проценты"))
+2025-06-09 13:38:45.303 DEBUG ля сверка дашбордов под разными учётками - 3: a2 = getText(findTestObject("Выполнение бизнес-плана/Виджет Итого"))
+2025-06-09 13:38:45.581 DEBUG ля сверка дашбордов под разными учётками - 4: a3 = getText(findTestObject("Выполнение бизнес-плана/Список ДЗО"))
+2025-06-09 13:38:45.874 DEBUG ля сверка дашбордов под разными учётками - 5: a4 = getText(findTestObject("Выполнение бизнес-плана/Отклонения за 1 месяц"))
+2025-06-09 13:38:46.202 DEBUG ля сверка дашбордов под разными учётками - 6: a5 = getText(findTestObject("Выполнение бизнес-плана/table"))
+2025-06-09 13:38:46.474 DEBUG ля сверка дашбордов под разными учётками - 7: a6 = getText(findTestObject("Выполнение бизнес-плана/Отклонения за 3 месяца"))
+2025-06-09 13:38:46.819 DEBUG ля сверка дашбордов под разными учётками - 8: a7 = getText(findTestObject("Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Факт Отпуск в сеть за отчётный период ПАО Россети"))
+2025-06-09 13:38:47.169 DEBUG ля сверка дашбордов под разными учётками - 9: a7 = a7 + getText(findTestObject("Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Факт Отпуск из сети за отчётный период ПАО Россети"))
+2025-06-09 13:38:47.438 DEBUG ля сверка дашбордов под разными учётками - 10: a7 = a7 + getText(findTestObject("Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Факт Потери за отчётный период ПАО Россети"))
+2025-06-09 13:38:47.720 DEBUG ля сверка дашбордов под разными учётками - 11: click(findTestObject("Выполнение бизнес-плана/Кнопка План"))
+2025-06-09 13:38:48.039 DEBUG ля сверка дашбордов под разными учётками - 12: delay(5)
+2025-06-09 13:38:53.049 DEBUG ля сверка дашбордов под разными учётками - 13: a8 = getText(findTestObject("Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/План Отпуск в сеть за отчётный период ПАО Россети"))
+2025-06-09 13:38:53.326 DEBUG ля сверка дашбордов под разными учётками - 14: a8 = a8 + getText(findTestObject("Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/План Отпуск из сети за отчётный период ПАО Россети"))
+2025-06-09 13:38:53.588 DEBUG ля сверка дашбордов под разными учётками - 15: a8 = a8 + getText(findTestObject("Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/План Потери за отчётный период ПАО Россети"))
+2025-06-09 13:38:53.888 DEBUG ля сверка дашбордов под разными учётками - 16: click(findTestObject("Выполнение бизнес-плана/Кнопка Факт"))
+2025-06-09 13:38:54.188 DEBUG ля сверка дашбордов под разными учётками - 17: Script1686231490255.WriteToExcel(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
+2025-06-09 13:38:54.853 DEBUG ля сверка дашбордов под разными учётками - 39: if (run == 2)
+2025-06-09 13:38:54.860 DEBUG ля сверка дашбордов под разными учётками - 40: if (run == 3)
+2025-06-09 13:38:54.862 DEBUG ля сверка дашбордов под разными учётками - 41: closeBrowser()
+2025-06-09 13:38:55.239 DEBUG ля сверка дашбордов под разными учётками - 1: VipolnenieBiznesPlana(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9, urlData)
+2025-06-09 13:38:55.240 DEBUG ля сверка дашбордов под разными учётками - 1: a10 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2025-06-09 13:38:55.241 DEBUG ля сверка дашбордов под разными учётками - 2: a11 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2025-06-09 13:38:55.242 DEBUG ля сверка дашбордов под разными учётками - 3: a12 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2025-06-09 13:38:55.244 DEBUG ля сверка дашбордов под разными учётками - 4: n = data.getRowNumbers() + 1
+2025-06-09 13:38:55.245 DEBUG ля сверка дашбордов под разными учётками - 5: println(n)
+118
+2025-06-09 13:38:55.246 DEBUG ля сверка дашбордов под разными учётками - 6: dashboardName = "Выполнение бизнес-плана"
+2025-06-09 13:38:55.246 DEBUG ля сверка дашбордов под разными учётками - 7: openBrowser("")
+2025-06-09 13:38:55.250 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-06-09 13:38:55.251 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Use managed Chrome browser & driver
+2025-06-09 13:38:55.252 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking and download if needed Chrome browser and driver for Chrome for Testing version latest (This may take a while in case of downloading needed)
+2025-06-09 13:38:55.496 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking Chrome browser and driver completed in 244 ms
+2025-06-09 13:38:55.496 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome driver path: C:\Users\Daria\.cache\selenium\chromedriver\win64\137.0.7151.68\chromedriver.exe
+2025-06-09 13:38:55.496 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome browser path: C:\Users\Daria\.cache\selenium\chrome\win64\137.0.7151.68\chrome.exe
+2025-06-09 13:38:55.496 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+июн. 09, 2025 1:38:56 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+июн. 09, 2025 1:38:56 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 137.0.7151.68. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-06-09 13:38:56.529 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = c9c77e6582393e4c22f05db94da6f96f
+2025-06-09 13:38:56.529 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 137.0.7151.68
+2025-06-09 13:38:56.530 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2025-06-09 13:38:56.530 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-06-09 13:38:56.532 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-06-09 13:38:56.590 DEBUG ля сверка дашбордов под разными учётками - 8: urlData = 1
+2025-06-09 13:38:56.595 DEBUG ля сверка дашбордов под разными учётками - 9: Script1686231490255.CheckPageDownload(urlData, run)
+2025-06-09 13:41:30.552 DEBUG ля сверка дашбордов под разными учётками - 10: Script1686231490255.ZakrytOpoveshenie()
+Просьба обратить внимание
+2025-06-09 13:41:31.224 DEBUG ля сверка дашбордов под разными учётками - 11: click(findTestObject("Object Repository/Выполнение бизнес-плана/Фильтр Дата"))
+2025-06-09 13:41:31.632 DEBUG ля сверка дашбордов под разными учётками - 12: click(findTestObject("Выполнение бизнес-плана/Снять выделение в фильтре Дата"))
+2025-06-09 13:41:32.243 DEBUG ля сверка дашбордов под разными учётками - 13: click(findTestObject("Object Repository/Выполнение бизнес-плана/Применить в фильтре Дата"))
+2025-06-09 13:41:33.189 DEBUG ля сверка дашбордов под разными учётками - 14: delay(40)
+2025-06-09 13:42:13.197 DEBUG ля сверка дашбордов под разными учётками - 15: Script1686231490255.ZakrytOpoveshenie()
+Просьба обратить внимание
+2025-06-09 13:42:29.649 DEBUG ля сверка дашбордов под разными учётками - 16: click(findTestObject("Object Repository/Выполнение бизнес-плана/Фильтр Дата"))
+2025-06-09 13:42:30.057 DEBUG ля сверка дашбордов под разными учётками - 17: scrollToElement(findTestObject("Выполнение бизнес-плана/2025 список"), 30)
+2025-06-09 13:42:30.626 DEBUG ля сверка дашбордов под разными учётками - 18: click(findTestObject("Выполнение бизнес-плана/2025 список"), CONTINUE_ON_FAILURE)
+2025-06-09 13:42:31.216 DEBUG ля сверка дашбордов под разными учётками - 19: scrollToElement(findTestObject("Выполнение бизнес-плана/1 квартал 2025 список"), 30)
+2025-06-09 13:42:31.743 DEBUG ля сверка дашбордов под разными учётками - 20: click(findTestObject("Выполнение бизнес-плана/1 квартал 2025"), CONTINUE_ON_FAILURE)
+2025-06-09 13:42:32.094 DEBUG ля сверка дашбордов под разными учётками - 21: scrollToElement(findTestObject("Выполнение бизнес-плана/2 квартал 2025 список"), 30)
+2025-06-09 13:42:32.632 DEBUG ля сверка дашбордов под разными учётками - 22: click(findTestObject("Выполнение бизнес-плана/2 квартал 2025 список"), CONTINUE_ON_FAILURE)
+2025-06-09 13:42:33.049 DEBUG ля сверка дашбордов под разными учётками - 23: scrollToElement(findTestObject("Выполнение бизнес-плана/Апрель 2025"), 30)
+2025-06-09 13:42:33.332 DEBUG ля сверка дашбордов под разными учётками - 24: click(findTestObject("Выполнение бизнес-плана/Апрель 2025"), CONTINUE_ON_FAILURE)
+2025-06-09 13:42:33.703 DEBUG ля сверка дашбордов под разными учётками - 25: scrollToElement(findTestObject("Выполнение бизнес-плана/Заголовок дашборда"), 30)
+2025-06-09 13:42:34.250 DEBUG ля сверка дашбордов под разными учётками - 26: click(findTestObject("Object Repository/Выполнение бизнес-плана/Применить в фильтре Дата"))
+2025-06-09 13:42:35.275 DEBUG ля сверка дашбордов под разными учётками - 27: delay(40)
+2025-06-09 13:43:15.286 DEBUG ля сверка дашбордов под разными учётками - 28: Script1686231490255.ZakrytOpoveshenie()
+Просьба обратить внимание
+2025-06-09 13:43:19.400 DEBUG ля сверка дашбордов под разными учётками - 29: click(findTestObject("Object Repository/Выполнение бизнес-плана/Фильтр ДЗО"))
+2025-06-09 13:43:20.228 DEBUG ля сверка дашбордов под разными учётками - 30: click(findTestObject("Выполнение бизнес-плана/Снять выделение в фильтре ДЗО"))
+2025-06-09 13:43:20.810 DEBUG ля сверка дашбордов под разными учётками - 31: click(findTestObject("Выполнение бизнес-плана/ПАО Россети"))
+2025-06-09 13:43:21.180 DEBUG ля сверка дашбордов под разными учётками - 32: click(findTestObject("Object Repository/Выполнение бизнес-плана/Применить в фильтре ДЗО"))
+2025-06-09 13:43:22.487 DEBUG ля сверка дашбордов под разными учётками - 33: delay(40)
+2025-06-09 13:44:02.500 DEBUG ля сверка дашбордов под разными учётками - 34: click(findTestObject("Object Repository/Выполнение бизнес-плана/Фильтр Дата"))
+2025-06-09 13:44:02.876 DEBUG ля сверка дашбордов под разными учётками - 35: click(findTestObject("Object Repository/Выполнение бизнес-плана/Применить в фильтре Дата"))
+2025-06-09 13:44:03.696 DEBUG ля сверка дашбордов под разными учётками - 36: delay(40)
+2025-06-09 13:44:43.708 DEBUG ля сверка дашбордов под разными учётками - 37: Script1686231490255.ZakrytOpoveshenie()
+2025-06-09 13:44:44.052 DEBUG ля сверка дашбордов под разными учётками - 38: if (run == 1)
+2025-06-09 13:44:44.053 DEBUG ля сверка дашбордов под разными учётками - 39: if (run == 2)
+2025-06-09 13:44:44.054 DEBUG ля сверка дашбордов под разными учётками - 1: user = "Андреева"
+2025-06-09 13:44:44.055 DEBUG ля сверка дашбордов под разными учётками - 2: a1 = getText(findTestObject("Выполнение бизнес-плана/Проценты"))
+2025-06-09 13:44:44.363 DEBUG ля сверка дашбордов под разными учётками - 3: a2 = getText(findTestObject("Выполнение бизнес-плана/Виджет Итого"))
+2025-06-09 13:44:44.717 DEBUG ля сверка дашбордов под разными учётками - 4: a3 = getText(findTestObject("Выполнение бизнес-плана/Список ДЗО"))
+2025-06-09 13:44:45.067 DEBUG ля сверка дашбордов под разными учётками - 5: a4 = getText(findTestObject("Выполнение бизнес-плана/Отклонения за 1 месяц"))
+2025-06-09 13:44:45.435 DEBUG ля сверка дашбордов под разными учётками - 6: a5 = getText(findTestObject("Выполнение бизнес-плана/table"))
+2025-06-09 13:44:45.778 DEBUG ля сверка дашбордов под разными учётками - 7: a6 = getText(findTestObject("Выполнение бизнес-плана/Отклонения за 3 месяца"))
+2025-06-09 13:44:46.170 DEBUG ля сверка дашбордов под разными учётками - 8: a7 = getText(findTestObject("Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Факт Отпуск в сеть за отчётный период ПАО Россети"))
+2025-06-09 13:44:46.562 DEBUG ля сверка дашбордов под разными учётками - 9: a7 = a7 + getText(findTestObject("Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Факт Отпуск из сети за отчётный период ПАО Россети"))
+2025-06-09 13:44:46.878 DEBUG ля сверка дашбордов под разными учётками - 10: a7 = a7 + getText(findTestObject("Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Факт Потери за отчётный период ПАО Россети"))
+2025-06-09 13:44:47.184 DEBUG ля сверка дашбордов под разными учётками - 11: click(findTestObject("Выполнение бизнес-плана/Кнопка План"))
+2025-06-09 13:44:47.489 DEBUG ля сверка дашбордов под разными учётками - 12: delay(5)
+2025-06-09 13:44:52.496 DEBUG ля сверка дашбордов под разными учётками - 13: a8 = getText(findTestObject("Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/План Отпуск в сеть за отчётный период ПАО Россети"))
+2025-06-09 13:44:52.842 DEBUG ля сверка дашбордов под разными учётками - 14: a8 = a8 + getText(findTestObject("Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/План Отпуск из сети за отчётный период ПАО Россети"))
+2025-06-09 13:44:53.155 DEBUG ля сверка дашбордов под разными учётками - 15: a8 = a8 + getText(findTestObject("Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/План Потери за отчётный период ПАО Россети"))
+2025-06-09 13:44:53.484 DEBUG ля сверка дашбордов под разными учётками - 16: click(findTestObject("Выполнение бизнес-плана/Кнопка Факт"))
+2025-06-09 13:44:53.843 DEBUG ля сверка дашбордов под разными учётками - 17: n = n + 1
+2025-06-09 13:44:53.844 DEBUG ля сверка дашбордов под разными учётками - 18: b = data.getRowNumbers() + 1
+2025-06-09 13:44:53.846 DEBUG ля сверка дашбордов под разными учётками - 19: verifyEqual(findTestData("PlanFact").getValue(2, b), a1)
+2025-06-09 13:44:53.923 DEBUG ля сверка дашбордов под разными учётками - 20: verifyEqual(findTestData("PlanFact").getValue(3, b), a2)
+2025-06-09 13:44:53.995 DEBUG ля сверка дашбордов под разными учётками - 21: verifyEqual(findTestData("PlanFact").getValue(4, b), a3)
+2025-06-09 13:44:54.067 DEBUG ля сверка дашбордов под разными учётками - 22: verifyEqual(findTestData("PlanFact").getValue(5, b), a4)
+2025-06-09 13:44:54.150 DEBUG ля сверка дашбордов под разными учётками - 23: verifyEqual(findTestData("PlanFact").getValue(6, b), a5)
+2025-06-09 13:44:54.201 DEBUG ля сверка дашбордов под разными учётками - 24: verifyEqual(findTestData("PlanFact").getValue(7, b), a6)
+2025-06-09 13:44:54.281 DEBUG ля сверка дашбордов под разными учётками - 25: verifyEqual(findTestData("PlanFact").getValue(8, b), a7)
+2025-06-09 13:44:54.350 DEBUG ля сверка дашбордов под разными учётками - 26: verifyEqual(findTestData("PlanFact").getValue(9, b), a8)
+2025-06-09 13:44:54.412 DEBUG ля сверка дашбордов под разными учётками - 27: Script1686231490255.WriteToExcel(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
+2025-06-09 13:44:54.761 DEBUG ля сверка дашбордов под разными учётками - 40: if (run == 3)
+2025-06-09 13:44:54.762 DEBUG ля сверка дашбордов под разными учётками - 41: closeBrowser()
+2025-06-09 13:44:55.140 DEBUG ля сверка дашбордов под разными учётками - 1: VipolnenieBiznesPlana(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9, urlData)
+2025-06-09 13:44:55.140 DEBUG ля сверка дашбордов под разными учётками - 1: a10 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2025-06-09 13:44:55.141 DEBUG ля сверка дашбордов под разными учётками - 2: a11 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2025-06-09 13:44:55.141 DEBUG ля сверка дашбордов под разными учётками - 3: a12 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2025-06-09 13:44:55.141 DEBUG ля сверка дашбордов под разными учётками - 4: n = data.getRowNumbers() + 1
+2025-06-09 13:44:55.142 DEBUG ля сверка дашбордов под разными учётками - 5: println(n)
+118
+2025-06-09 13:44:55.142 DEBUG ля сверка дашбордов под разными учётками - 6: dashboardName = "Выполнение бизнес-плана"
+2025-06-09 13:44:55.142 DEBUG ля сверка дашбордов под разными учётками - 7: openBrowser("")
+2025-06-09 13:44:55.146 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-06-09 13:44:55.147 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Use managed Chrome browser & driver
+2025-06-09 13:44:55.147 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking and download if needed Chrome browser and driver for Chrome for Testing version latest (This may take a while in case of downloading needed)
+2025-06-09 13:44:55.353 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking Chrome browser and driver completed in 206 ms
+2025-06-09 13:44:55.353 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome driver path: C:\Users\Daria\.cache\selenium\chromedriver\win64\137.0.7151.68\chromedriver.exe
+2025-06-09 13:44:55.353 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome browser path: C:\Users\Daria\.cache\selenium\chrome\win64\137.0.7151.68\chrome.exe
+2025-06-09 13:44:55.353 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+июн. 09, 2025 1:44:56 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+июн. 09, 2025 1:44:56 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 137.0.7151.68. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-06-09 13:44:56.474 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = a7cd5ec584f2e239118afd6aab7f1727
+2025-06-09 13:44:56.475 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 137.0.7151.68
+2025-06-09 13:44:56.475 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2025-06-09 13:44:56.475 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-06-09 13:44:56.476 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-06-09 13:44:56.509 DEBUG ля сверка дашбордов под разными учётками - 8: urlData = 1
+2025-06-09 13:44:56.510 DEBUG ля сверка дашбордов под разными учётками - 9: Script1686231490255.CheckPageDownload(urlData, run)
+2025-06-09 13:47:18.021 DEBUG ля сверка дашбордов под разными учётками - 10: Script1686231490255.ZakrytOpoveshenie()
+Просьба обратить внимание
+2025-06-09 13:47:18.632 DEBUG ля сверка дашбордов под разными учётками - 11: click(findTestObject("Object Repository/Выполнение бизнес-плана/Фильтр Дата"))
+2025-06-09 13:47:19.009 DEBUG ля сверка дашбордов под разными учётками - 12: click(findTestObject("Выполнение бизнес-плана/Снять выделение в фильтре Дата"))
+2025-06-09 13:47:19.560 DEBUG ля сверка дашбордов под разными учётками - 13: click(findTestObject("Object Repository/Выполнение бизнес-плана/Применить в фильтре Дата"))
+2025-06-09 13:47:20.545 DEBUG ля сверка дашбордов под разными учётками - 14: delay(40)
+2025-06-09 13:48:00.553 DEBUG ля сверка дашбордов под разными учётками - 15: Script1686231490255.ZakrytOpoveshenie()
+Просьба обратить внимание
+2025-06-09 13:48:25.683 DEBUG ля сверка дашбордов под разными учётками - 16: click(findTestObject("Object Repository/Выполнение бизнес-плана/Фильтр Дата"))
+2025-06-09 13:48:26.047 DEBUG ля сверка дашбордов под разными учётками - 17: scrollToElement(findTestObject("Выполнение бизнес-плана/2025 список"), 30)
+2025-06-09 13:48:26.626 DEBUG ля сверка дашбордов под разными учётками - 18: click(findTestObject("Выполнение бизнес-плана/2025 список"), CONTINUE_ON_FAILURE)
+2025-06-09 13:48:27.222 DEBUG ля сверка дашбордов под разными учётками - 19: scrollToElement(findTestObject("Выполнение бизнес-плана/1 квартал 2025 список"), 30)
+2025-06-09 13:48:27.710 DEBUG ля сверка дашбордов под разными учётками - 20: click(findTestObject("Выполнение бизнес-плана/1 квартал 2025"), CONTINUE_ON_FAILURE)
+2025-06-09 13:48:28.021 DEBUG ля сверка дашбордов под разными учётками - 21: scrollToElement(findTestObject("Выполнение бизнес-плана/2 квартал 2025 список"), 30)
+2025-06-09 13:48:28.518 DEBUG ля сверка дашбордов под разными учётками - 22: click(findTestObject("Выполнение бизнес-плана/2 квартал 2025 список"), CONTINUE_ON_FAILURE)
+2025-06-09 13:48:28.828 DEBUG ля сверка дашбордов под разными учётками - 23: scrollToElement(findTestObject("Выполнение бизнес-плана/Апрель 2025"), 30)
+2025-06-09 13:48:29.086 DEBUG ля сверка дашбордов под разными учётками - 24: click(findTestObject("Выполнение бизнес-плана/Апрель 2025"), CONTINUE_ON_FAILURE)
+2025-06-09 13:48:29.383 DEBUG ля сверка дашбордов под разными учётками - 25: scrollToElement(findTestObject("Выполнение бизнес-плана/Заголовок дашборда"), 30)
+2025-06-09 13:48:29.871 DEBUG ля сверка дашбордов под разными учётками - 26: click(findTestObject("Object Repository/Выполнение бизнес-плана/Применить в фильтре Дата"))
+2025-06-09 13:48:30.942 DEBUG ля сверка дашбордов под разными учётками - 27: delay(40)
+2025-06-09 13:49:10.958 DEBUG ля сверка дашбордов под разными учётками - 28: Script1686231490255.ZakrytOpoveshenie()
+Просьба обратить внимание
+2025-06-09 13:49:13.590 DEBUG ля сверка дашбордов под разными учётками - 29: click(findTestObject("Object Repository/Выполнение бизнес-плана/Фильтр ДЗО"))
+2025-06-09 13:49:14.354 DEBUG ля сверка дашбордов под разными учётками - 30: click(findTestObject("Выполнение бизнес-плана/Снять выделение в фильтре ДЗО"))
+2025-06-09 13:49:14.869 DEBUG ля сверка дашбордов под разными учётками - 31: click(findTestObject("Выполнение бизнес-плана/ПАО Россети"))
+2025-06-09 13:49:15.168 DEBUG ля сверка дашбордов под разными учётками - 32: click(findTestObject("Object Repository/Выполнение бизнес-плана/Применить в фильтре ДЗО"))
+2025-06-09 13:49:16.385 DEBUG ля сверка дашбордов под разными учётками - 33: delay(40)
+2025-06-09 13:49:56.389 DEBUG ля сверка дашбордов под разными учётками - 34: click(findTestObject("Object Repository/Выполнение бизнес-плана/Фильтр Дата"))
+2025-06-09 13:49:56.732 DEBUG ля сверка дашбордов под разными учётками - 35: click(findTestObject("Object Repository/Выполнение бизнес-плана/Применить в фильтре Дата"))
+2025-06-09 13:49:57.556 DEBUG ля сверка дашбордов под разными учётками - 36: delay(40)
+2025-06-09 13:50:37.560 DEBUG ля сверка дашбордов под разными учётками - 37: Script1686231490255.ZakrytOpoveshenie()
+2025-06-09 13:50:37.873 DEBUG ля сверка дашбордов под разными учётками - 38: if (run == 1)
+2025-06-09 13:50:37.873 DEBUG ля сверка дашбордов под разными учётками - 39: if (run == 2)
+2025-06-09 13:50:37.874 DEBUG ля сверка дашбордов под разными учётками - 40: if (run == 3)
+2025-06-09 13:50:37.875 DEBUG ля сверка дашбордов под разными учётками - 1: user = "Попова"
+2025-06-09 13:50:37.875 DEBUG ля сверка дашбордов под разными учётками - 2: a1 = getText(findTestObject("Выполнение бизнес-плана/Проценты"))
+2025-06-09 13:50:38.149 DEBUG ля сверка дашбордов под разными учётками - 3: a2 = getText(findTestObject("Выполнение бизнес-плана/Виджет Итого"))
+2025-06-09 13:50:38.422 DEBUG ля сверка дашбордов под разными учётками - 4: a3 = getText(findTestObject("Выполнение бизнес-плана/Список ДЗО"))
+2025-06-09 13:50:38.711 DEBUG ля сверка дашбордов под разными учётками - 5: a4 = getText(findTestObject("Выполнение бизнес-плана/Отклонения за 1 месяц"))
+2025-06-09 13:50:39.031 DEBUG ля сверка дашбордов под разными учётками - 6: a5 = getText(findTestObject("Выполнение бизнес-плана/table"))
+2025-06-09 13:50:39.301 DEBUG ля сверка дашбордов под разными учётками - 7: a6 = getText(findTestObject("Выполнение бизнес-плана/Отклонения за 3 месяца"))
+2025-06-09 13:50:39.634 DEBUG ля сверка дашбордов под разными учётками - 8: a7 = getText(findTestObject("Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Факт Отпуск в сеть за отчётный период ПАО Россети"))
+2025-06-09 13:50:39.894 DEBUG ля сверка дашбордов под разными учётками - 9: a7 = a7 + getText(findTestObject("Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Факт Отпуск из сети за отчётный период ПАО Россети"))
+2025-06-09 13:50:40.228 DEBUG ля сверка дашбордов под разными учётками - 10: a7 = a7 + getText(findTestObject("Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Факт Потери за отчётный период ПАО Россети"))
+2025-06-09 13:50:40.489 DEBUG ля сверка дашбордов под разными учётками - 11: click(findTestObject("Выполнение бизнес-плана/Кнопка План"))
+2025-06-09 13:50:40.789 DEBUG ля сверка дашбордов под разными учётками - 12: delay(5)
+2025-06-09 13:50:45.795 DEBUG ля сверка дашбордов под разными учётками - 13: a8 = getText(findTestObject("Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/План Отпуск в сеть за отчётный период ПАО Россети"))
+2025-06-09 13:50:46.070 DEBUG ля сверка дашбордов под разными учётками - 14: a8 = a8 + getText(findTestObject("Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/План Отпуск из сети за отчётный период ПАО Россети"))
+2025-06-09 13:50:46.358 DEBUG ля сверка дашбордов под разными учётками - 15: a8 = a8 + getText(findTestObject("Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/План Потери за отчётный период ПАО Россети"))
+2025-06-09 13:50:46.663 DEBUG ля сверка дашбордов под разными учётками - 16: click(findTestObject("Выполнение бизнес-плана/Кнопка Факт"))
+2025-06-09 13:50:46.993 DEBUG ля сверка дашбордов под разными учётками - 17: n = n + 2
+2025-06-09 13:50:46.994 DEBUG ля сверка дашбордов под разными учётками - 18: b = data.getRowNumbers() + 1
+2025-06-09 13:50:46.995 DEBUG ля сверка дашбордов под разными учётками - 19: verifyEqual(findTestData("PlanFact").getValue(2, b), a1)
+2025-06-09 13:50:47.076 DEBUG ля сверка дашбордов под разными учётками - 20: verifyEqual(findTestData("PlanFact").getValue(3, b), a2)
+2025-06-09 13:50:47.145 DEBUG ля сверка дашбордов под разными учётками - 21: verifyEqual(findTestData("PlanFact").getValue(4, b), a3)
+2025-06-09 13:50:47.205 DEBUG ля сверка дашбордов под разными учётками - 22: verifyEqual(findTestData("PlanFact").getValue(5, b), a4)
+2025-06-09 13:50:47.294 DEBUG ля сверка дашбордов под разными учётками - 23: verifyEqual(findTestData("PlanFact").getValue(6, b), a5)
+2025-06-09 13:50:47.377 DEBUG ля сверка дашбордов под разными учётками - 24: verifyEqual(findTestData("PlanFact").getValue(7, b), a6)
+2025-06-09 13:50:47.465 DEBUG ля сверка дашбордов под разными учётками - 25: verifyEqual(findTestData("PlanFact").getValue(8, b), a7)
+2025-06-09 13:50:47.538 DEBUG ля сверка дашбордов под разными учётками - 26: verifyEqual(findTestData("PlanFact").getValue(9, b), a8)
+2025-06-09 13:50:47.592 DEBUG ля сверка дашбордов под разными учётками - 27: Script1686231490255.WriteToExcel(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
+2025-06-09 13:50:47.888 DEBUG ля сверка дашбордов под разными учётками - 41: closeBrowser()
+2025-06-09 13:50:48.215 DEBUG ля сверка дашбордов под разными учётками - 17: delay(40)
+2025-06-09 13:51:28.221 DEBUG ля сверка дашбордов под разными учётками - 18: for ([run = 1, run < 4, (run++)])
+2025-06-09 13:51:28.223 DEBUG ля сверка дашбордов под разными учётками - 1: ViruchkaVRublyah(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9, urlData)
+2025-06-09 13:51:28.225 DEBUG ля сверка дашбордов под разными учётками - 1: n = data.getRowNumbers() + 1
+2025-06-09 13:51:28.228 DEBUG ля сверка дашбордов под разными учётками - 2: println(n)
+118
+2025-06-09 13:51:28.232 DEBUG ля сверка дашбордов под разными учётками - 3: dashboardName = "Вырука в рублях"
+2025-06-09 13:51:28.233 DEBUG ля сверка дашбордов под разными учётками - 4: openBrowser("")
+2025-06-09 13:51:28.244 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-06-09 13:51:28.246 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Use managed Chrome browser & driver
+2025-06-09 13:51:28.246 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking and download if needed Chrome browser and driver for Chrome for Testing version latest (This may take a while in case of downloading needed)
+2025-06-09 13:51:28.485 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking Chrome browser and driver completed in 239 ms
+2025-06-09 13:51:28.485 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome driver path: C:\Users\Daria\.cache\selenium\chromedriver\win64\137.0.7151.68\chromedriver.exe
+2025-06-09 13:51:28.485 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome browser path: C:\Users\Daria\.cache\selenium\chrome\win64\137.0.7151.68\chrome.exe
+2025-06-09 13:51:28.485 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+июн. 09, 2025 1:51:29 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+июн. 09, 2025 1:51:29 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 137.0.7151.68. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-06-09 13:51:29.504 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = af94e430e21b60f60d1fa7169f09aa24
+2025-06-09 13:51:29.504 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 137.0.7151.68
+2025-06-09 13:51:29.505 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2025-06-09 13:51:29.505 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-06-09 13:51:29.506 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-06-09 13:51:29.529 DEBUG ля сверка дашбордов под разными учётками - 5: urlData = 2
+2025-06-09 13:51:29.530 DEBUG ля сверка дашбордов под разными учётками - 6: Script1686231490255.CheckPageDownload(urlData, run)
+2025-06-09 13:53:36.636 DEBUG ля сверка дашбордов под разными учётками - 7: click(findTestObject("Выручка в рублях/Фильтр Период"))
+2025-06-09 13:53:37.039 DEBUG ля сверка дашбордов под разными учётками - 8: click(findTestObject("Выручка в рублях/Снять выделение в фильтре Дата"))
+2025-06-09 13:53:37.607 DEBUG ля сверка дашбордов под разными учётками - 9: click(findTestObject("Выручка в рублях/Применить в фильтре Дата"))
+2025-06-09 13:53:38.212 DEBUG ля сверка дашбордов под разными учётками - 10: click(findTestObject("Выручка в рублях/Фильтр Период"))
+2025-06-09 13:53:39.674 DEBUG ля сверка дашбордов под разными учётками - 11: click(findTestObject("Выручка в рублях/Снять выделение в фильтре Дата"))
+2025-06-09 13:53:40.239 DEBUG ля сверка дашбордов под разными учётками - 12: scrollToElement(findTestObject("Выручка в рублях/2025 список"), 30)
+2025-06-09 13:53:40.557 DEBUG ля сверка дашбордов под разными учётками - 13: click(findTestObject("Выручка в рублях/2025 список"))
+2025-06-09 13:53:40.877 DEBUG ля сверка дашбордов под разными учётками - 14: scrollToElement(findTestObject("Выручка в рублях/1 квартал 2025 список"), 30)
+2025-06-09 13:53:41.368 DEBUG ля сверка дашбордов под разными учётками - 15: click(findTestObject("Выручка в рублях/1 квартал 2025 выбрать"), CONTINUE_ON_FAILURE)
+2025-06-09 13:53:41.739 DEBUG ля сверка дашбордов под разными учётками - 16: click(findTestObject("Выручка в рублях/Применить в фильтре Дата"))
+2025-06-09 13:53:42.487 DEBUG ля сверка дашбордов под разными учётками - 17: scrollToElement(findTestObject("Выручка в рублях/Заголовок дашборда"), 30)
+2025-06-09 13:53:43.478 DEBUG ля сверка дашбордов под разными учётками - 18: delay(40)
+2025-06-09 13:54:23.502 DEBUG ля сверка дашбордов под разными учётками - 19: a5 = ""
+2025-06-09 13:54:23.505 DEBUG ля сверка дашбордов под разными учётками - 20: a6 = ""
+2025-06-09 13:54:23.507 DEBUG ля сверка дашбордов под разными учётками - 21: a7 = ""
+2025-06-09 13:54:23.509 DEBUG ля сверка дашбордов под разными учётками - 22: a8 = ""
+2025-06-09 13:54:23.511 DEBUG ля сверка дашбордов под разными учётками - 23: a9 = ""
+2025-06-09 13:54:23.513 DEBUG ля сверка дашбордов под разными учётками - 24: if (run == 1)
+2025-06-09 13:54:23.516 DEBUG ля сверка дашбордов под разными учётками - 1: user = "админ"
+2025-06-09 13:54:23.518 DEBUG ля сверка дашбордов под разными учётками - 2: a1 = getText(findTestObject("Выручка в рублях/График План"))
+2025-06-09 13:54:23.810 DEBUG ля сверка дашбордов под разными учётками - 3: a2 = getText(findTestObject("Выручка в рублях/График Факт"))
+2025-06-09 13:54:24.109 DEBUG ля сверка дашбордов под разными учётками - 4: a3 = getText(findTestObject("Выручка в рублях/График Отклонение выручки"))
+2025-06-09 13:54:24.864 DEBUG ля сверка дашбордов под разными учётками - 5: a3 = a3.substring(a3.lastIndexOf("Отклонение"))
+2025-06-09 13:54:24.865 DEBUG ля сверка дашбордов под разными учётками - 6: click(findTestObject("Выручка в рублях/Переключить отображение с млн на проценты Выручка в рублях"))
+2025-06-09 13:54:25.240 DEBUG ля сверка дашбордов под разными учётками - 7: a4 = getText(findTestObject("Выручка в рублях/График Отклонение выручки"))
+2025-06-09 13:54:25.902 DEBUG ля сверка дашбордов под разными учётками - 8: a4 = a4.substring(a4.lastIndexOf("Отклонение"))
+2025-06-09 13:54:25.903 DEBUG ля сверка дашбордов под разными учётками - 9: click(findTestObject("Выручка в рублях/Переключить отображение с процентов на млн Выручка в рублях"))
+2025-06-09 13:54:26.250 DEBUG ля сверка дашбордов под разными учётками - 10: n = n + 3
+2025-06-09 13:54:26.251 DEBUG ля сверка дашбордов под разными учётками - 11: Script1686231490255.WriteToExcel(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
+2025-06-09 13:54:26.561 DEBUG ля сверка дашбордов под разными учётками - 25: if (run == 2)
+2025-06-09 13:54:26.562 DEBUG ля сверка дашбордов под разными учётками - 26: if (run == 3)
+2025-06-09 13:54:26.563 DEBUG ля сверка дашбордов под разными учётками - 27: closeBrowser()
+2025-06-09 13:54:26.912 DEBUG ля сверка дашбордов под разными учётками - 1: ViruchkaVRublyah(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9, urlData)
+2025-06-09 13:54:26.913 DEBUG ля сверка дашбордов под разными учётками - 1: n = data.getRowNumbers() + 1
+2025-06-09 13:54:26.913 DEBUG ля сверка дашбордов под разными учётками - 2: println(n)
+118
+2025-06-09 13:54:26.914 DEBUG ля сверка дашбордов под разными учётками - 3: dashboardName = "Вырука в рублях"
+2025-06-09 13:54:26.914 DEBUG ля сверка дашбордов под разными учётками - 4: openBrowser("")
+2025-06-09 13:54:26.916 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-06-09 13:54:26.917 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Use managed Chrome browser & driver
+2025-06-09 13:54:26.917 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking and download if needed Chrome browser and driver for Chrome for Testing version latest (This may take a while in case of downloading needed)
+2025-06-09 13:54:27.152 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking Chrome browser and driver completed in 235 ms
+2025-06-09 13:54:27.152 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome driver path: C:\Users\Daria\.cache\selenium\chromedriver\win64\137.0.7151.68\chromedriver.exe
+2025-06-09 13:54:27.152 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome browser path: C:\Users\Daria\.cache\selenium\chrome\win64\137.0.7151.68\chrome.exe
+2025-06-09 13:54:27.153 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+июн. 09, 2025 1:54:28 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+июн. 09, 2025 1:54:28 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 137.0.7151.68. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-06-09 13:54:28.239 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = eb66c047e6496fa40680ca7cfcc893a0
+2025-06-09 13:54:28.242 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 137.0.7151.68
+2025-06-09 13:54:28.243 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2025-06-09 13:54:28.243 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-06-09 13:54:28.243 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-06-09 13:54:28.268 DEBUG ля сверка дашбордов под разными учётками - 5: urlData = 2
+2025-06-09 13:54:28.269 DEBUG ля сверка дашбордов под разными учётками - 6: Script1686231490255.CheckPageDownload(urlData, run)
+2025-06-09 13:56:35.469 DEBUG ля сверка дашбордов под разными учётками - 7: click(findTestObject("Выручка в рублях/Фильтр Период"))
+2025-06-09 13:56:35.803 DEBUG ля сверка дашбордов под разными учётками - 8: click(findTestObject("Выручка в рублях/Снять выделение в фильтре Дата"))
+2025-06-09 13:56:36.347 DEBUG ля сверка дашбордов под разными учётками - 9: click(findTestObject("Выручка в рублях/Применить в фильтре Дата"))
+2025-06-09 13:56:36.896 DEBUG ля сверка дашбордов под разными учётками - 10: click(findTestObject("Выручка в рублях/Фильтр Период"))
+2025-06-09 13:56:38.319 DEBUG ля сверка дашбордов под разными учётками - 11: click(findTestObject("Выручка в рублях/Снять выделение в фильтре Дата"))
+2025-06-09 13:56:38.826 DEBUG ля сверка дашбордов под разными учётками - 12: scrollToElement(findTestObject("Выручка в рублях/2025 список"), 30)
+2025-06-09 13:56:39.081 DEBUG ля сверка дашбордов под разными учётками - 13: click(findTestObject("Выручка в рублях/2025 список"))
+2025-06-09 13:56:39.384 DEBUG ля сверка дашбордов под разными учётками - 14: scrollToElement(findTestObject("Выручка в рублях/1 квартал 2025 список"), 30)
+2025-06-09 13:56:39.870 DEBUG ля сверка дашбордов под разными учётками - 15: click(findTestObject("Выручка в рублях/1 квартал 2025 выбрать"), CONTINUE_ON_FAILURE)
+2025-06-09 13:56:40.172 DEBUG ля сверка дашбордов под разными учётками - 16: click(findTestObject("Выручка в рублях/Применить в фильтре Дата"))
+2025-06-09 13:56:40.884 DEBUG ля сверка дашбордов под разными учётками - 17: scrollToElement(findTestObject("Выручка в рублях/Заголовок дашборда"), 30)
+2025-06-09 13:56:41.873 DEBUG ля сверка дашбордов под разными учётками - 18: delay(40)
+2025-06-09 13:57:21.895 DEBUG ля сверка дашбордов под разными учётками - 19: a5 = ""
+2025-06-09 13:57:21.896 DEBUG ля сверка дашбордов под разными учётками - 20: a6 = ""
+2025-06-09 13:57:21.897 DEBUG ля сверка дашбордов под разными учётками - 21: a7 = ""
+2025-06-09 13:57:21.898 DEBUG ля сверка дашбордов под разными учётками - 22: a8 = ""
+2025-06-09 13:57:21.899 DEBUG ля сверка дашбордов под разными учётками - 23: a9 = ""
+2025-06-09 13:57:21.899 DEBUG ля сверка дашбордов под разными учётками - 24: if (run == 1)
+2025-06-09 13:57:21.900 DEBUG ля сверка дашбордов под разными учётками - 25: if (run == 2)
+2025-06-09 13:57:21.901 DEBUG ля сверка дашбордов под разными учётками - 1: user = "Андреева"
+2025-06-09 13:57:21.903 DEBUG ля сверка дашбордов под разными учётками - 2: a1 = getText(findTestObject("Выручка в рублях/График План"))
+2025-06-09 13:57:22.167 DEBUG ля сверка дашбордов под разными учётками - 3: a2 = getText(findTestObject("Выручка в рублях/График Факт"))
+2025-06-09 13:57:22.437 DEBUG ля сверка дашбордов под разными учётками - 4: a3 = getText(findTestObject("Выручка в рублях/График Отклонение выручки"))
+2025-06-09 13:57:23.122 DEBUG ля сверка дашбордов под разными учётками - 5: a3 = a3.substring(a3.lastIndexOf("Отклонение"))
+2025-06-09 13:57:23.123 DEBUG ля сверка дашбордов под разными учётками - 6: click(findTestObject("Выручка в рублях/Переключить отображение с млн на проценты Выручка в рублях"))
+2025-06-09 13:57:23.463 DEBUG ля сверка дашбордов под разными учётками - 7: a4 = getText(findTestObject("Выручка в рублях/График Отклонение выручки"))
+2025-06-09 13:57:24.105 DEBUG ля сверка дашбордов под разными учётками - 8: a4 = a4.substring(a4.lastIndexOf("Отклонение"))
+2025-06-09 13:57:24.106 DEBUG ля сверка дашбордов под разными учётками - 9: click(findTestObject("Выручка в рублях/Переключить отображение с процентов на млн Выручка в рублях"))
+2025-06-09 13:57:24.397 DEBUG ля сверка дашбордов под разными учётками - 10: n = n + 4
+2025-06-09 13:57:24.399 DEBUG ля сверка дашбордов под разными учётками - 11: b = n - run + 1
+2025-06-09 13:57:24.401 DEBUG ля сверка дашбордов под разными учётками - 12: verifyEqual(findTestData("PlanFact").getValue(2, b), a1)
+2025-06-09 13:57:24.456 DEBUG ля сверка дашбордов под разными учётками - 13: verifyEqual(findTestData("PlanFact").getValue(3, b), a2)
+2025-06-09 13:57:24.542 DEBUG ля сверка дашбордов под разными учётками - 14: verifyEqual(findTestData("PlanFact").getValue(4, b), a3)
+2025-06-09 13:57:24.601 DEBUG ля сверка дашбордов под разными учётками - 15: verifyEqual(findTestData("PlanFact").getValue(5, b), a4)
+2025-06-09 13:57:24.662 DEBUG ля сверка дашбордов под разными учётками - 16: Script1686231490255.WriteToExcel(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
+2025-06-09 13:57:24.984 DEBUG ля сверка дашбордов под разными учётками - 26: if (run == 3)
+2025-06-09 13:57:24.985 DEBUG ля сверка дашбордов под разными учётками - 27: closeBrowser()
+2025-06-09 13:57:25.322 DEBUG ля сверка дашбордов под разными учётками - 1: ViruchkaVRublyah(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9, urlData)
+2025-06-09 13:57:25.323 DEBUG ля сверка дашбордов под разными учётками - 1: n = data.getRowNumbers() + 1
+2025-06-09 13:57:25.323 DEBUG ля сверка дашбордов под разными учётками - 2: println(n)
+118
+2025-06-09 13:57:25.323 DEBUG ля сверка дашбордов под разными учётками - 3: dashboardName = "Вырука в рублях"
+2025-06-09 13:57:25.323 DEBUG ля сверка дашбордов под разными учётками - 4: openBrowser("")
+2025-06-09 13:57:25.326 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-06-09 13:57:25.327 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Use managed Chrome browser & driver
+2025-06-09 13:57:25.327 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking and download if needed Chrome browser and driver for Chrome for Testing version latest (This may take a while in case of downloading needed)
+2025-06-09 13:57:25.558 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking Chrome browser and driver completed in 231 ms
+2025-06-09 13:57:25.559 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome driver path: C:\Users\Daria\.cache\selenium\chromedriver\win64\137.0.7151.68\chromedriver.exe
+2025-06-09 13:57:25.559 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome browser path: C:\Users\Daria\.cache\selenium\chrome\win64\137.0.7151.68\chrome.exe
+2025-06-09 13:57:25.559 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+июн. 09, 2025 1:57:26 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+июн. 09, 2025 1:57:26 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 137.0.7151.68. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-06-09 13:57:26.681 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = bf362b552372ecf9ded7400beab49c5d
+2025-06-09 13:57:26.682 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 137.0.7151.68
+2025-06-09 13:57:26.682 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2025-06-09 13:57:26.682 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-06-09 13:57:26.683 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-06-09 13:57:26.715 DEBUG ля сверка дашбордов под разными учётками - 5: urlData = 2
+2025-06-09 13:57:26.716 DEBUG ля сверка дашбордов под разными учётками - 6: Script1686231490255.CheckPageDownload(urlData, run)
+2025-06-09 13:59:33.312 DEBUG ля сверка дашбордов под разными учётками - 7: click(findTestObject("Выручка в рублях/Фильтр Период"))
+2025-06-09 13:59:33.656 DEBUG ля сверка дашбордов под разными учётками - 8: click(findTestObject("Выручка в рублях/Снять выделение в фильтре Дата"))
+2025-06-09 13:59:34.235 DEBUG ля сверка дашбордов под разными учётками - 9: click(findTestObject("Выручка в рублях/Применить в фильтре Дата"))
+2025-06-09 13:59:34.804 DEBUG ля сверка дашбордов под разными учётками - 10: click(findTestObject("Выручка в рублях/Фильтр Период"))
+2025-06-09 13:59:36.116 DEBUG ля сверка дашбордов под разными учётками - 11: click(findTestObject("Выручка в рублях/Снять выделение в фильтре Дата"))
+2025-06-09 13:59:36.612 DEBUG ля сверка дашбордов под разными учётками - 12: scrollToElement(findTestObject("Выручка в рублях/2025 список"), 30)
+2025-06-09 13:59:36.897 DEBUG ля сверка дашбордов под разными учётками - 13: click(findTestObject("Выручка в рублях/2025 список"))
+2025-06-09 13:59:37.219 DEBUG ля сверка дашбордов под разными учётками - 14: scrollToElement(findTestObject("Выручка в рублях/1 квартал 2025 список"), 30)
+2025-06-09 13:59:37.714 DEBUG ля сверка дашбордов под разными учётками - 15: click(findTestObject("Выручка в рублях/1 квартал 2025 выбрать"), CONTINUE_ON_FAILURE)
+2025-06-09 13:59:38.048 DEBUG ля сверка дашбордов под разными учётками - 16: click(findTestObject("Выручка в рублях/Применить в фильтре Дата"))
+2025-06-09 13:59:38.772 DEBUG ля сверка дашбордов под разными учётками - 17: scrollToElement(findTestObject("Выручка в рублях/Заголовок дашборда"), 30)
+2025-06-09 13:59:39.791 DEBUG ля сверка дашбордов под разными учётками - 18: delay(40)
+2025-06-09 14:00:19.803 DEBUG ля сверка дашбордов под разными учётками - 19: a5 = ""
+2025-06-09 14:00:19.804 DEBUG ля сверка дашбордов под разными учётками - 20: a6 = ""
+2025-06-09 14:00:19.804 DEBUG ля сверка дашбордов под разными учётками - 21: a7 = ""
+2025-06-09 14:00:19.805 DEBUG ля сверка дашбордов под разными учётками - 22: a8 = ""
+2025-06-09 14:00:19.805 DEBUG ля сверка дашбордов под разными учётками - 23: a9 = ""
+2025-06-09 14:00:19.805 DEBUG ля сверка дашбордов под разными учётками - 24: if (run == 1)
+2025-06-09 14:00:19.806 DEBUG ля сверка дашбордов под разными учётками - 25: if (run == 2)
+2025-06-09 14:00:19.806 DEBUG ля сверка дашбордов под разными учётками - 26: if (run == 3)
+2025-06-09 14:00:19.807 DEBUG ля сверка дашбордов под разными учётками - 1: user = "Попова"
+2025-06-09 14:00:19.807 DEBUG ля сверка дашбордов под разными учётками - 2: a1 = getText(findTestObject("Выручка в рублях/График План"))
+2025-06-09 14:00:20.075 DEBUG ля сверка дашбордов под разными учётками - 3: a2 = getText(findTestObject("Выручка в рублях/График Факт"))
+2025-06-09 14:00:20.341 DEBUG ля сверка дашбордов под разными учётками - 4: a3 = getText(findTestObject("Выручка в рублях/График Отклонение выручки"))
+2025-06-09 14:00:21.023 DEBUG ля сверка дашбордов под разными учётками - 5: a3 = a3.substring(a3.lastIndexOf("Отклонение"))
+2025-06-09 14:00:21.024 DEBUG ля сверка дашбордов под разными учётками - 6: click(findTestObject("Выручка в рублях/Переключить отображение с млн на проценты Выручка в рублях"))
+2025-06-09 14:00:21.368 DEBUG ля сверка дашбордов под разными учётками - 7: a4 = getText(findTestObject("Выручка в рублях/График Отклонение выручки"))
+2025-06-09 14:00:21.995 DEBUG ля сверка дашбордов под разными учётками - 8: a4 = a4.substring(a4.lastIndexOf("Отклонение"))
+2025-06-09 14:00:21.996 DEBUG ля сверка дашбордов под разными учётками - 9: click(findTestObject("Выручка в рублях/Переключить отображение с процентов на млн Выручка в рублях"))
+2025-06-09 14:00:22.282 DEBUG ля сверка дашбордов под разными учётками - 10: n = n + 5
+2025-06-09 14:00:22.285 DEBUG ля сверка дашбордов под разными учётками - 11: b = n - run + 1
+2025-06-09 14:00:22.288 DEBUG ля сверка дашбордов под разными учётками - 12: verifyEqual(findTestData("PlanFact").getValue(2, b), a1)
+2025-06-09 14:00:22.375 DEBUG ля сверка дашбордов под разными учётками - 13: verifyEqual(findTestData("PlanFact").getValue(3, b), a2)
+2025-06-09 14:00:22.460 DEBUG ля сверка дашбордов под разными учётками - 14: verifyEqual(findTestData("PlanFact").getValue(4, b), a3)
+2025-06-09 14:00:22.538 DEBUG ля сверка дашбордов под разными учётками - 15: verifyEqual(findTestData("PlanFact").getValue(5, b), a4)
+2025-06-09 14:00:22.612 DEBUG ля сверка дашбордов под разными учётками - 16: Script1686231490255.WriteToExcel(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
+2025-06-09 14:00:22.889 DEBUG ля сверка дашбордов под разными учётками - 27: closeBrowser()
+2025-06-09 14:00:23.195 DEBUG ля сверка дашбордов под разными учётками - 19: delay(40)
+2025-06-09 14:01:03.202 DEBUG ля сверка дашбордов под разными учётками - 20: for ([run = 1, run < 4, (run++)])
+2025-06-09 14:01:03.204 DEBUG ля сверка дашбордов под разными учётками - 1: ObyemPoter(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9, urlData)
+2025-06-09 14:01:03.206 DEBUG ля сверка дашбордов под разными учётками - 1: n = data.getRowNumbers() + 1
+2025-06-09 14:01:03.208 DEBUG ля сверка дашбордов под разными учётками - 2: println(n)
+118
+2025-06-09 14:01:03.211 DEBUG ля сверка дашбордов под разными учётками - 3: dashboardName = "Объём потерь"
+2025-06-09 14:01:03.213 DEBUG ля сверка дашбордов под разными учётками - 4: openBrowser("")
+2025-06-09 14:01:03.221 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-06-09 14:01:03.226 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Use managed Chrome browser & driver
+2025-06-09 14:01:03.226 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking and download if needed Chrome browser and driver for Chrome for Testing version latest (This may take a while in case of downloading needed)
+2025-06-09 14:01:04.707 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking Chrome browser and driver completed in 1481 ms
+2025-06-09 14:01:04.707 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome driver path: C:\Users\Daria\.cache\selenium\chromedriver\win64\137.0.7151.68\chromedriver.exe
+2025-06-09 14:01:04.707 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome browser path: C:\Users\Daria\.cache\selenium\chrome\win64\137.0.7151.68\chrome.exe
+2025-06-09 14:01:04.707 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+июн. 09, 2025 2:01:05 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+июн. 09, 2025 2:01:05 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 137.0.7151.68. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-06-09 14:01:05.714 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = e4a1056c4fdc69d2282db449df60683c
+2025-06-09 14:01:05.719 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 137.0.7151.68
+2025-06-09 14:01:05.725 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2025-06-09 14:01:05.733 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-06-09 14:01:05.739 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-06-09 14:01:05.788 DEBUG ля сверка дашбордов под разными учётками - 5: urlData = 14
+2025-06-09 14:01:05.789 DEBUG ля сверка дашбордов под разными учётками - 6: Script1686231490255.CheckPageDownload(urlData, run)
+2025-06-09 14:03:11.886 DEBUG ля сверка дашбордов под разными учётками - 7: a9 = ""
+2025-06-09 14:03:11.887 DEBUG ля сверка дашбордов под разными учётками - 8: a3 = ""
+2025-06-09 14:03:11.887 DEBUG ля сверка дашбордов под разными учётками - 9: a6 = ""
+2025-06-09 14:03:11.888 DEBUG ля сверка дашбордов под разными учётками - 10: if (run == 1)
+2025-06-09 14:03:11.889 DEBUG ля сверка дашбордов под разными учётками - 1: user = "админ"
+2025-06-09 14:03:11.889 DEBUG ля сверка дашбордов под разными учётками - 2: a1 = getText(findTestObject("Объем потерь/divObemPoter"))
+2025-06-09 14:03:12.188 DEBUG ля сверка дашбордов под разными учётками - 3: a2 = getText(findTestObject("Объем потерь/divUrovenPoter"))
+2025-06-09 14:03:12.533 DEBUG ля сверка дашбордов под разными учётками - 4: a3 = getText(findTestObject("Объем потерь/divOtkloneniyaObemaPoter"))
+2025-06-09 14:03:12.845 DEBUG ля сверка дашбордов под разными учётками - 5: a4 = getText(findTestObject("Объем потерь/divOtkloneniyaUrovnyaPoter"))
+2025-06-09 14:03:13.121 DEBUG ля сверка дашбордов под разными учётками - 6: n = n + 6
+2025-06-09 14:03:13.122 DEBUG ля сверка дашбордов под разными учётками - 7: Script1686231490255.WriteToExcel(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
+2025-06-09 14:03:13.458 DEBUG ля сверка дашбордов под разными учётками - 11: if (run == 2)
+2025-06-09 14:03:13.459 DEBUG ля сверка дашбордов под разными учётками - 12: if (run == 3)
+2025-06-09 14:03:13.460 DEBUG ля сверка дашбордов под разными учётками - 13: closeBrowser()
+2025-06-09 14:03:13.806 DEBUG ля сверка дашбордов под разными учётками - 1: ObyemPoter(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9, urlData)
+2025-06-09 14:03:13.806 DEBUG ля сверка дашбордов под разными учётками - 1: n = data.getRowNumbers() + 1
+2025-06-09 14:03:13.806 DEBUG ля сверка дашбордов под разными учётками - 2: println(n)
+118
+2025-06-09 14:03:13.807 DEBUG ля сверка дашбордов под разными учётками - 3: dashboardName = "Объём потерь"
+2025-06-09 14:03:13.807 DEBUG ля сверка дашбордов под разными учётками - 4: openBrowser("")
+2025-06-09 14:03:13.810 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-06-09 14:03:13.811 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Use managed Chrome browser & driver
+2025-06-09 14:03:13.811 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking and download if needed Chrome browser and driver for Chrome for Testing version latest (This may take a while in case of downloading needed)
+2025-06-09 14:03:14.047 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking Chrome browser and driver completed in 236 ms
+2025-06-09 14:03:14.048 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome driver path: C:\Users\Daria\.cache\selenium\chromedriver\win64\137.0.7151.68\chromedriver.exe
+2025-06-09 14:03:14.048 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome browser path: C:\Users\Daria\.cache\selenium\chrome\win64\137.0.7151.68\chrome.exe
+2025-06-09 14:03:14.048 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+июн. 09, 2025 2:03:15 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+июн. 09, 2025 2:03:15 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 137.0.7151.68. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-06-09 14:03:15.147 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 73258fa66110f9c189b4168fcfc43eb5
+2025-06-09 14:03:15.148 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 137.0.7151.68
+2025-06-09 14:03:15.148 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2025-06-09 14:03:15.149 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-06-09 14:03:15.149 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-06-09 14:03:15.173 DEBUG ля сверка дашбордов под разными учётками - 5: urlData = 14
+2025-06-09 14:03:15.173 DEBUG ля сверка дашбордов под разными учётками - 6: Script1686231490255.CheckPageDownload(urlData, run)
+2025-06-09 14:05:24.225 DEBUG ля сверка дашбордов под разными учётками - 7: a9 = ""
+2025-06-09 14:05:24.225 DEBUG ля сверка дашбордов под разными учётками - 8: a3 = ""
+2025-06-09 14:05:24.225 DEBUG ля сверка дашбордов под разными учётками - 9: a6 = ""
+2025-06-09 14:05:24.226 DEBUG ля сверка дашбордов под разными учётками - 10: if (run == 1)
+2025-06-09 14:05:24.226 DEBUG ля сверка дашбордов под разными учётками - 11: if (run == 2)
+2025-06-09 14:05:24.226 DEBUG ля сверка дашбордов под разными учётками - 1: user = "Андреева"
+2025-06-09 14:05:24.227 DEBUG ля сверка дашбордов под разными учётками - 2: a1 = getText(findTestObject("Объем потерь/divObemPoter"))
+2025-06-09 14:05:24.780 DEBUG ля сверка дашбордов под разными учётками - 3: a2 = getText(findTestObject("Объем потерь/divUrovenPoter"))
+2025-06-09 14:05:25.121 DEBUG ля сверка дашбордов под разными учётками - 4: a3 = getText(findTestObject("Объем потерь/divOtkloneniyaObemaPoter"))
+2025-06-09 14:05:25.468 DEBUG ля сверка дашбордов под разными учётками - 5: a4 = getText(findTestObject("Объем потерь/divOtkloneniyaUrovnyaPoter"))
+2025-06-09 14:05:25.779 DEBUG ля сверка дашбордов под разными учётками - 6: n = n + 7
+2025-06-09 14:05:25.780 DEBUG ля сверка дашбордов под разными учётками - 7: b = n - run + 1
+2025-06-09 14:05:25.781 DEBUG ля сверка дашбордов под разными учётками - 8: verifyEqual(findTestData("PlanFact").getValue(2, b), a1)
+2025-06-09 14:05:25.835 DEBUG ля сверка дашбордов под разными учётками - 9: verifyEqual(findTestData("PlanFact").getValue(3, b), a2)
+2025-06-09 14:05:25.889 DEBUG ля сверка дашбордов под разными учётками - 10: verifyEqual(findTestData("PlanFact").getValue(4, b), a3)
+2025-06-09 14:05:25.983 DEBUG ля сверка дашбордов под разными учётками - 11: verifyEqual(findTestData("PlanFact").getValue(5, b), a4)
+2025-06-09 14:05:26.087 DEBUG ля сверка дашбордов под разными учётками - 12: Script1686231490255.WriteToExcel(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
+2025-06-09 14:05:26.394 DEBUG ля сверка дашбордов под разными учётками - 12: if (run == 3)
+2025-06-09 14:05:26.395 DEBUG ля сверка дашбордов под разными учётками - 13: closeBrowser()
+2025-06-09 14:05:26.749 DEBUG ля сверка дашбордов под разными учётками - 1: ObyemPoter(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9, urlData)
+2025-06-09 14:05:26.749 DEBUG ля сверка дашбордов под разными учётками - 1: n = data.getRowNumbers() + 1
+2025-06-09 14:05:26.750 DEBUG ля сверка дашбордов под разными учётками - 2: println(n)
+118
+2025-06-09 14:05:26.750 DEBUG ля сверка дашбордов под разными учётками - 3: dashboardName = "Объём потерь"
+2025-06-09 14:05:26.751 DEBUG ля сверка дашбордов под разными учётками - 4: openBrowser("")
+2025-06-09 14:05:26.753 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-06-09 14:05:26.754 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Use managed Chrome browser & driver
+2025-06-09 14:05:26.754 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking and download if needed Chrome browser and driver for Chrome for Testing version latest (This may take a while in case of downloading needed)
+2025-06-09 14:05:26.978 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking Chrome browser and driver completed in 224 ms
+2025-06-09 14:05:26.978 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome driver path: C:\Users\Daria\.cache\selenium\chromedriver\win64\137.0.7151.68\chromedriver.exe
+2025-06-09 14:05:26.979 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome browser path: C:\Users\Daria\.cache\selenium\chrome\win64\137.0.7151.68\chrome.exe
+2025-06-09 14:05:26.979 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+июн. 09, 2025 2:05:27 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+июн. 09, 2025 2:05:27 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 137.0.7151.68. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-06-09 14:05:27.927 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 4cd8014a9f95124a7447f8effb7cf8d3
+2025-06-09 14:05:27.928 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 137.0.7151.68
+2025-06-09 14:05:27.928 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2025-06-09 14:05:27.930 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-06-09 14:05:27.932 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-06-09 14:05:27.968 DEBUG ля сверка дашбордов под разными учётками - 5: urlData = 14
+2025-06-09 14:05:27.968 DEBUG ля сверка дашбордов под разными учётками - 6: Script1686231490255.CheckPageDownload(urlData, run)
+2025-06-09 14:07:40.214 DEBUG ля сверка дашбордов под разными учётками - 7: a9 = ""
+2025-06-09 14:07:40.214 DEBUG ля сверка дашбордов под разными учётками - 8: a3 = ""
+2025-06-09 14:07:40.215 DEBUG ля сверка дашбордов под разными учётками - 9: a6 = ""
+2025-06-09 14:07:40.215 DEBUG ля сверка дашбордов под разными учётками - 10: if (run == 1)
+2025-06-09 14:07:40.215 DEBUG ля сверка дашбордов под разными учётками - 11: if (run == 2)
+2025-06-09 14:07:40.216 DEBUG ля сверка дашбордов под разными учётками - 12: if (run == 3)
+2025-06-09 14:07:40.216 DEBUG ля сверка дашбордов под разными учётками - 1: user = "Попова"
+2025-06-09 14:07:40.217 DEBUG ля сверка дашбордов под разными учётками - 2: a1 = getText(findTestObject("Объем потерь/divObemPoter"))
+2025-06-09 14:07:40.758 DEBUG ля сверка дашбордов под разными учётками - 3: a2 = getText(findTestObject("Объем потерь/divUrovenPoter"))
+2025-06-09 14:07:41.088 DEBUG ля сверка дашбордов под разными учётками - 4: a3 = getText(findTestObject("Объем потерь/divOtkloneniyaObemaPoter"))
+2025-06-09 14:07:41.448 DEBUG ля сверка дашбордов под разными учётками - 5: a4 = getText(findTestObject("Объем потерь/divOtkloneniyaUrovnyaPoter"))
+2025-06-09 14:07:41.730 DEBUG ля сверка дашбордов под разными учётками - 6: n = n + 8
+2025-06-09 14:07:41.731 DEBUG ля сверка дашбордов под разными учётками - 7: b = n - run + 1
+2025-06-09 14:07:41.732 DEBUG ля сверка дашбордов под разными учётками - 8: verifyEqual(findTestData("PlanFact").getValue(2, b), a1)
+2025-06-09 14:07:41.787 DEBUG ля сверка дашбордов под разными учётками - 9: verifyEqual(findTestData("PlanFact").getValue(3, b), a2)
+2025-06-09 14:07:41.838 DEBUG ля сверка дашбордов под разными учётками - 10: verifyEqual(findTestData("PlanFact").getValue(4, b), a3)
+2025-06-09 14:07:41.921 DEBUG ля сверка дашбордов под разными учётками - 11: verifyEqual(findTestData("PlanFact").getValue(5, b), a4)
+2025-06-09 14:07:41.975 DEBUG ля сверка дашбордов под разными учётками - 12: Script1686231490255.WriteToExcel(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
+2025-06-09 14:07:42.287 DEBUG ля сверка дашбордов под разными учётками - 13: closeBrowser()
+2025-06-09 14:07:42.615 DEBUG ля сверка дашбордов под разными учётками - 21: delay(40)
+2025-06-09 14:08:22.630 DEBUG ля сверка дашбордов под разными учётками - 22: for ([run = 1, run < 4, (run++)])
+2025-06-09 14:08:22.634 DEBUG ля сверка дашбордов под разными учётками - 1: OtpuskIzSeti(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9, urlData)
+2025-06-09 14:08:22.637 DEBUG ля сверка дашбордов под разными учётками - 1: n = data.getRowNumbers() + 1
+2025-06-09 14:08:22.640 DEBUG ля сверка дашбордов под разными учётками - 2: println(n)
+118
+2025-06-09 14:08:22.644 DEBUG ля сверка дашбордов под разными учётками - 3: dashboardName = "Отпуск из сети"
+2025-06-09 14:08:22.646 DEBUG ля сверка дашбордов под разными учётками - 4: openBrowser("")
+2025-06-09 14:08:22.657 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-06-09 14:08:22.660 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Use managed Chrome browser & driver
+2025-06-09 14:08:22.661 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking and download if needed Chrome browser and driver for Chrome for Testing version latest (This may take a while in case of downloading needed)
+2025-06-09 14:08:22.900 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking Chrome browser and driver completed in 239 ms
+2025-06-09 14:08:22.900 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome driver path: C:\Users\Daria\.cache\selenium\chromedriver\win64\137.0.7151.68\chromedriver.exe
+2025-06-09 14:08:22.900 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome browser path: C:\Users\Daria\.cache\selenium\chrome\win64\137.0.7151.68\chrome.exe
+2025-06-09 14:08:22.900 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+июн. 09, 2025 2:08:23 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+июн. 09, 2025 2:08:23 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 137.0.7151.68. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-06-09 14:08:23.973 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = b7cc6b46efac9dc305bdce48d3cf66fa
+2025-06-09 14:08:23.974 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 137.0.7151.68
+2025-06-09 14:08:23.974 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2025-06-09 14:08:23.974 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-06-09 14:08:23.976 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-06-09 14:08:23.993 DEBUG ля сверка дашбордов под разными учётками - 5: urlData = 15
+2025-06-09 14:08:23.994 DEBUG ля сверка дашбордов под разными учётками - 6: Script1686231490255.CheckPageDownload(urlData, run)
+2025-06-09 14:10:46.100 DEBUG ля сверка дашбордов под разными учётками - 7: a6 = ""
+2025-06-09 14:10:46.101 DEBUG ля сверка дашбордов под разными учётками - 8: a7 = ""
+2025-06-09 14:10:46.102 DEBUG ля сверка дашбордов под разными учётками - 9: a8 = ""
+2025-06-09 14:10:46.102 DEBUG ля сверка дашбордов под разными учётками - 10: a9 = ""
+2025-06-09 14:10:46.103 DEBUG ля сверка дашбордов под разными учётками - 11: if (run == 1)
+2025-06-09 14:10:46.104 DEBUG ля сверка дашбордов под разными учётками - 1: user = "админ"
+2025-06-09 14:10:46.104 DEBUG ля сверка дашбордов под разными учётками - 2: a1 = getText(findTestObject("Отпуск из сети/span1"))
+2025-06-09 14:10:46.638 DEBUG ля сверка дашбордов под разными учётками - 3: a2 = getText(findTestObject("Отпуск из сети/span2"))
+2025-06-09 14:10:46.921 DEBUG ля сверка дашбордов под разными учётками - 4: a3 = getText(findTestObject("Отпуск из сети/span3"))
+2025-06-09 14:10:47.200 DEBUG ля сверка дашбордов под разными учётками - 5: a4 = getText(findTestObject("Отпуск из сети/График1"))
+2025-06-09 14:10:47.515 DEBUG ля сверка дашбордов под разными учётками - 6: a5 = getText(findTestObject("Отпуск из сети/График2"))
+2025-06-09 14:10:47.829 DEBUG ля сверка дашбордов под разными учётками - 7: n = n + 9
+2025-06-09 14:10:47.830 DEBUG ля сверка дашбордов под разными учётками - 8: Script1686231490255.WriteToExcel(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
+2025-06-09 14:10:48.162 DEBUG ля сверка дашбордов под разными учётками - 12: if (run == 2)
+2025-06-09 14:10:48.163 DEBUG ля сверка дашбордов под разными учётками - 13: if (run == 3)
+2025-06-09 14:10:48.164 DEBUG ля сверка дашбордов под разными учётками - 14: closeBrowser()
+2025-06-09 14:10:48.509 DEBUG ля сверка дашбордов под разными учётками - 1: OtpuskIzSeti(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9, urlData)
+2025-06-09 14:10:48.509 DEBUG ля сверка дашбордов под разными учётками - 1: n = data.getRowNumbers() + 1
+2025-06-09 14:10:48.510 DEBUG ля сверка дашбордов под разными учётками - 2: println(n)
+118
+2025-06-09 14:10:48.510 DEBUG ля сверка дашбордов под разными учётками - 3: dashboardName = "Отпуск из сети"
+2025-06-09 14:10:48.511 DEBUG ля сверка дашбордов под разными учётками - 4: openBrowser("")
+2025-06-09 14:10:48.514 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-06-09 14:10:48.515 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Use managed Chrome browser & driver
+2025-06-09 14:10:48.515 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking and download if needed Chrome browser and driver for Chrome for Testing version latest (This may take a while in case of downloading needed)
+2025-06-09 14:10:48.754 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking Chrome browser and driver completed in 239 ms
+2025-06-09 14:10:48.754 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome driver path: C:\Users\Daria\.cache\selenium\chromedriver\win64\137.0.7151.68\chromedriver.exe
+2025-06-09 14:10:48.754 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome browser path: C:\Users\Daria\.cache\selenium\chrome\win64\137.0.7151.68\chrome.exe
+2025-06-09 14:10:48.754 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+июн. 09, 2025 2:10:49 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+июн. 09, 2025 2:10:49 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 137.0.7151.68. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-06-09 14:10:49.866 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 8b955242fe64b121f6fb0c959e1a3c98
+2025-06-09 14:10:49.866 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 137.0.7151.68
+2025-06-09 14:10:49.866 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2025-06-09 14:10:49.866 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-06-09 14:10:49.867 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-06-09 14:10:49.894 DEBUG ля сверка дашбордов под разными учётками - 5: urlData = 15
+2025-06-09 14:10:49.895 DEBUG ля сверка дашбордов под разными учётками - 6: Script1686231490255.CheckPageDownload(urlData, run)
+2025-06-09 14:13:12.847 DEBUG ля сверка дашбордов под разными учётками - 7: a6 = ""
+2025-06-09 14:13:12.848 DEBUG ля сверка дашбордов под разными учётками - 8: a7 = ""
+2025-06-09 14:13:12.848 DEBUG ля сверка дашбордов под разными учётками - 9: a8 = ""
+2025-06-09 14:13:12.849 DEBUG ля сверка дашбордов под разными учётками - 10: a9 = ""
+2025-06-09 14:13:12.849 DEBUG ля сверка дашбордов под разными учётками - 11: if (run == 1)
+2025-06-09 14:13:12.849 DEBUG ля сверка дашбордов под разными учётками - 12: if (run == 2)
+2025-06-09 14:13:12.850 DEBUG ля сверка дашбордов под разными учётками - 1: user = "Андреева"
+2025-06-09 14:13:12.851 DEBUG ля сверка дашбордов под разными учётками - 2: a1 = getText(findTestObject("Отпуск из сети/span1"))
+2025-06-09 14:13:13.366 DEBUG ля сверка дашбордов под разными учётками - 3: a2 = getText(findTestObject("Отпуск из сети/span2"))
+2025-06-09 14:13:13.658 DEBUG ля сверка дашбордов под разными учётками - 4: a3 = getText(findTestObject("Отпуск из сети/span3"))
+2025-06-09 14:13:13.972 DEBUG ля сверка дашбордов под разными учётками - 5: a4 = getText(findTestObject("Отпуск из сети/График1"))
+2025-06-09 14:13:14.273 DEBUG ля сверка дашбордов под разными учётками - 6: a5 = getText(findTestObject("Отпуск из сети/График2"))
+2025-06-09 14:13:14.552 DEBUG ля сверка дашбордов под разными учётками - 7: n = n + 10
+2025-06-09 14:13:14.553 DEBUG ля сверка дашбордов под разными учётками - 8: b = n - run + 1
+2025-06-09 14:13:14.553 DEBUG ля сверка дашбордов под разными учётками - 9: verifyEqual(findTestData("PlanFact").getValue(2, b), a1)
+2025-06-09 14:13:14.612 DEBUG ля сверка дашбордов под разными учётками - 10: verifyEqual(findTestData("PlanFact").getValue(3, b), a2)
+2025-06-09 14:13:14.692 DEBUG ля сверка дашбордов под разными учётками - 11: verifyEqual(findTestData("PlanFact").getValue(4, b), a3)
+2025-06-09 14:13:14.753 DEBUG ля сверка дашбордов под разными учётками - 12: verifyEqual(findTestData("PlanFact").getValue(5, b), a4)
+2025-06-09 14:13:14.820 DEBUG ля сверка дашбордов под разными учётками - 13: verifyEqual(findTestData("PlanFact").getValue(6, b), a5)
+2025-06-09 14:13:14.908 DEBUG ля сверка дашбордов под разными учётками - 14: Script1686231490255.WriteToExcel(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
+2025-06-09 14:13:15.261 DEBUG ля сверка дашбордов под разными учётками - 13: if (run == 3)
+2025-06-09 14:13:15.264 DEBUG ля сверка дашбордов под разными учётками - 14: closeBrowser()
+2025-06-09 14:13:15.597 DEBUG ля сверка дашбордов под разными учётками - 1: OtpuskIzSeti(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9, urlData)
+2025-06-09 14:13:15.597 DEBUG ля сверка дашбордов под разными учётками - 1: n = data.getRowNumbers() + 1
+2025-06-09 14:13:15.598 DEBUG ля сверка дашбордов под разными учётками - 2: println(n)
+118
+2025-06-09 14:13:15.598 DEBUG ля сверка дашбордов под разными учётками - 3: dashboardName = "Отпуск из сети"
+2025-06-09 14:13:15.598 DEBUG ля сверка дашбордов под разными учётками - 4: openBrowser("")
+2025-06-09 14:13:15.601 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-06-09 14:13:15.602 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Use managed Chrome browser & driver
+2025-06-09 14:13:15.602 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking and download if needed Chrome browser and driver for Chrome for Testing version latest (This may take a while in case of downloading needed)
+2025-06-09 14:13:15.844 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking Chrome browser and driver completed in 242 ms
+2025-06-09 14:13:15.845 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome driver path: C:\Users\Daria\.cache\selenium\chromedriver\win64\137.0.7151.68\chromedriver.exe
+2025-06-09 14:13:15.845 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome browser path: C:\Users\Daria\.cache\selenium\chrome\win64\137.0.7151.68\chrome.exe
+2025-06-09 14:13:15.845 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+июн. 09, 2025 2:13:16 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+июн. 09, 2025 2:13:16 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 137.0.7151.68. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-06-09 14:13:16.952 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 8949b913ffb3d0f9adf76e74a86d1be1
+2025-06-09 14:13:16.952 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 137.0.7151.68
+2025-06-09 14:13:16.953 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2025-06-09 14:13:16.953 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-06-09 14:13:16.953 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-06-09 14:13:16.983 DEBUG ля сверка дашбордов под разными учётками - 5: urlData = 15
+2025-06-09 14:13:16.984 DEBUG ля сверка дашбордов под разными учётками - 6: Script1686231490255.CheckPageDownload(urlData, run)
+2025-06-09 14:15:23.611 DEBUG ля сверка дашбордов под разными учётками - 7: a6 = ""
+2025-06-09 14:15:23.611 DEBUG ля сверка дашбордов под разными учётками - 8: a7 = ""
+2025-06-09 14:15:23.612 DEBUG ля сверка дашбордов под разными учётками - 9: a8 = ""
+2025-06-09 14:15:23.612 DEBUG ля сверка дашбордов под разными учётками - 10: a9 = ""
+2025-06-09 14:15:23.612 DEBUG ля сверка дашбордов под разными учётками - 11: if (run == 1)
+2025-06-09 14:15:23.612 DEBUG ля сверка дашбордов под разными учётками - 12: if (run == 2)
+2025-06-09 14:15:23.612 DEBUG ля сверка дашбордов под разными учётками - 13: if (run == 3)
+2025-06-09 14:15:23.613 DEBUG ля сверка дашбордов под разными учётками - 1: user = "Попова"
+2025-06-09 14:15:23.613 DEBUG ля сверка дашбордов под разными учётками - 2: a1 = getText(findTestObject("Отпуск из сети/span1"))
+2025-06-09 14:15:23.878 DEBUG ля сверка дашбордов под разными учётками - 3: a2 = getText(findTestObject("Отпуск из сети/span2"))
+2025-06-09 14:15:24.206 DEBUG ля сверка дашбордов под разными учётками - 4: a3 = getText(findTestObject("Отпуск из сети/span3"))
+2025-06-09 14:15:24.521 DEBUG ля сверка дашбордов под разными учётками - 5: a4 = getText(findTestObject("Отпуск из сети/График1"))
+2025-06-09 14:15:24.851 DEBUG ля сверка дашбордов под разными учётками - 6: a5 = getText(findTestObject("Отпуск из сети/График2"))
+2025-06-09 14:15:25.241 DEBUG ля сверка дашбордов под разными учётками - 7: n = n + 11
+2025-06-09 14:15:25.244 DEBUG ля сверка дашбордов под разными учётками - 8: b = n - run + 1
+2025-06-09 14:15:25.246 DEBUG ля сверка дашбордов под разными учётками - 9: verifyEqual(findTestData("PlanFact").getValue(2, b), a1)
+2025-06-09 14:15:25.323 DEBUG ля сверка дашбордов под разными учётками - 10: verifyEqual(findTestData("PlanFact").getValue(3, b), a2)
+2025-06-09 14:15:25.393 DEBUG ля сверка дашбордов под разными учётками - 11: verifyEqual(findTestData("PlanFact").getValue(4, b), a3)
+2025-06-09 14:15:25.447 DEBUG ля сверка дашбордов под разными учётками - 12: verifyEqual(findTestData("PlanFact").getValue(5, b), a4)
+2025-06-09 14:15:25.500 DEBUG ля сверка дашбордов под разными учётками - 13: verifyEqual(findTestData("PlanFact").getValue(6, b), a5)
+2025-06-09 14:15:25.551 DEBUG ля сверка дашбордов под разными учётками - 14: Script1686231490255.WriteToExcel(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
+2025-06-09 14:15:25.881 DEBUG ля сверка дашбордов под разными учётками - 14: closeBrowser()
+2025-06-09 14:15:26.198 DEBUG ля сверка дашбордов под разными учётками - 23: delay(40)
+2025-06-09 14:16:06.204 DEBUG ля сверка дашбордов под разными учётками - 24: for ([run = 1, run < 4, (run++)])
+2025-06-09 14:16:06.207 DEBUG ля сверка дашбордов под разными учётками - 1: OtpuskVSet(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9, urlData)
+2025-06-09 14:16:06.210 DEBUG ля сверка дашбордов под разными учётками - 1: n = data.getRowNumbers() + 1
+2025-06-09 14:16:06.212 DEBUG ля сверка дашбордов под разными учётками - 2: println(n)
+118
+2025-06-09 14:16:06.215 DEBUG ля сверка дашбордов под разными учётками - 3: dashboardName = "Отпуск в сеть"
+2025-06-09 14:16:06.217 DEBUG ля сверка дашбордов под разными учётками - 4: openBrowser("")
+2025-06-09 14:16:06.227 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-06-09 14:16:06.229 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Use managed Chrome browser & driver
+2025-06-09 14:16:06.229 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking and download if needed Chrome browser and driver for Chrome for Testing version latest (This may take a while in case of downloading needed)
+2025-06-09 14:16:06.483 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking Chrome browser and driver completed in 254 ms
+2025-06-09 14:16:06.483 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome driver path: C:\Users\Daria\.cache\selenium\chromedriver\win64\137.0.7151.68\chromedriver.exe
+2025-06-09 14:16:06.483 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome browser path: C:\Users\Daria\.cache\selenium\chrome\win64\137.0.7151.68\chrome.exe
+2025-06-09 14:16:06.483 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+июн. 09, 2025 2:16:07 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+июн. 09, 2025 2:16:07 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 137.0.7151.68. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-06-09 14:16:07.440 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 59f5ead7227a7179a58e69fcdd7ef56d
+2025-06-09 14:16:07.440 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 137.0.7151.68
+2025-06-09 14:16:07.440 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2025-06-09 14:16:07.440 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-06-09 14:16:07.445 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-06-09 14:16:07.468 DEBUG ля сверка дашбордов под разными учётками - 5: urlData = 16
+2025-06-09 14:16:07.469 DEBUG ля сверка дашбордов под разными учётками - 6: Script1686231490255.CheckPageDownload(urlData, run)
+2025-06-09 14:18:13.858 DEBUG ля сверка дашбордов под разными учётками - 7: a5 = ""
+2025-06-09 14:18:13.858 DEBUG ля сверка дашбордов под разными учётками - 8: a6 = ""
+2025-06-09 14:18:13.859 DEBUG ля сверка дашбордов под разными учётками - 9: a7 = ""
+2025-06-09 14:18:13.859 DEBUG ля сверка дашбордов под разными учётками - 10: a8 = ""
+2025-06-09 14:18:13.859 DEBUG ля сверка дашбордов под разными учётками - 11: a9 = ""
+2025-06-09 14:18:13.860 DEBUG ля сверка дашбордов под разными учётками - 12: if (run == 1)
+2025-06-09 14:18:13.860 DEBUG ля сверка дашбордов под разными учётками - 1: user = "админ"
+2025-06-09 14:18:13.861 DEBUG ля сверка дашбордов под разными учётками - 2: a1 = getText(findTestObject("Отпуск в сеть/span1"))
+2025-06-09 14:18:14.144 DEBUG ля сверка дашбордов под разными учётками - 3: a2 = getText(findTestObject("Отпуск в сеть/span2"))
+2025-06-09 14:18:14.405 DEBUG ля сверка дашбордов под разными учётками - 4: a3 = getText(findTestObject("Отпуск в сеть/График1"))
+2025-06-09 14:18:14.682 DEBUG ля сверка дашбордов под разными учётками - 5: a4 = getText(findTestObject("Отпуск в сеть/График2"))
+2025-06-09 14:18:14.959 DEBUG ля сверка дашбордов под разными учётками - 6: n = n + 12
+2025-06-09 14:18:14.959 DEBUG ля сверка дашбордов под разными учётками - 7: Script1686231490255.WriteToExcel(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
+2025-06-09 14:18:15.313 DEBUG ля сверка дашбордов под разными учётками - 13: if (run == 2)
+2025-06-09 14:18:15.314 DEBUG ля сверка дашбордов под разными учётками - 14: if (run == 3)
+2025-06-09 14:18:15.315 DEBUG ля сверка дашбордов под разными учётками - 15: closeBrowser()
+2025-06-09 14:18:15.641 DEBUG ля сверка дашбордов под разными учётками - 1: OtpuskVSet(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9, urlData)
+2025-06-09 14:18:15.641 DEBUG ля сверка дашбордов под разными учётками - 1: n = data.getRowNumbers() + 1
+2025-06-09 14:18:15.641 DEBUG ля сверка дашбордов под разными учётками - 2: println(n)
+118
+2025-06-09 14:18:15.642 DEBUG ля сверка дашбордов под разными учётками - 3: dashboardName = "Отпуск в сеть"
+2025-06-09 14:18:15.642 DEBUG ля сверка дашбордов под разными учётками - 4: openBrowser("")
+2025-06-09 14:18:15.646 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-06-09 14:18:15.647 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Use managed Chrome browser & driver
+2025-06-09 14:18:15.647 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking and download if needed Chrome browser and driver for Chrome for Testing version latest (This may take a while in case of downloading needed)
+2025-06-09 14:18:15.913 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking Chrome browser and driver completed in 266 ms
+2025-06-09 14:18:15.913 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome driver path: C:\Users\Daria\.cache\selenium\chromedriver\win64\137.0.7151.68\chromedriver.exe
+2025-06-09 14:18:15.913 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome browser path: C:\Users\Daria\.cache\selenium\chrome\win64\137.0.7151.68\chrome.exe
+2025-06-09 14:18:15.913 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+июн. 09, 2025 2:18:17 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+июн. 09, 2025 2:18:17 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 137.0.7151.68. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-06-09 14:18:17.717 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = afb9194a68b33ec4be6f31ba1765e391
+2025-06-09 14:18:17.726 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 137.0.7151.68
+2025-06-09 14:18:17.731 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2025-06-09 14:18:17.735 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-06-09 14:18:17.742 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-06-09 14:18:17.775 DEBUG ля сверка дашбордов под разными учётками - 5: urlData = 16
+2025-06-09 14:18:17.776 DEBUG ля сверка дашбордов под разными учётками - 6: Script1686231490255.CheckPageDownload(urlData, run)
+2025-06-09 14:20:24.655 DEBUG ля сверка дашбордов под разными учётками - 7: a5 = ""
+2025-06-09 14:20:24.655 DEBUG ля сверка дашбордов под разными учётками - 8: a6 = ""
+2025-06-09 14:20:24.656 DEBUG ля сверка дашбордов под разными учётками - 9: a7 = ""
+2025-06-09 14:20:24.656 DEBUG ля сверка дашбордов под разными учётками - 10: a8 = ""
+2025-06-09 14:20:24.656 DEBUG ля сверка дашбордов под разными учётками - 11: a9 = ""
+2025-06-09 14:20:24.656 DEBUG ля сверка дашбордов под разными учётками - 12: if (run == 1)
+2025-06-09 14:20:24.656 DEBUG ля сверка дашбордов под разными учётками - 13: if (run == 2)
+2025-06-09 14:20:24.657 DEBUG ля сверка дашбордов под разными учётками - 1: user = "Андреева"
+2025-06-09 14:20:24.658 DEBUG ля сверка дашбордов под разными учётками - 2: a1 = getText(findTestObject("Отпуск в сеть/span1"))
+2025-06-09 14:20:24.934 DEBUG ля сверка дашбордов под разными учётками - 3: a2 = getText(findTestObject("Отпуск в сеть/span2"))
+2025-06-09 14:20:25.196 DEBUG ля сверка дашбордов под разными учётками - 4: a3 = getText(findTestObject("Отпуск в сеть/График1"))
+2025-06-09 14:20:25.461 DEBUG ля сверка дашбордов под разными учётками - 5: a4 = getText(findTestObject("Отпуск в сеть/График2"))
+2025-06-09 14:20:25.726 DEBUG ля сверка дашбордов под разными учётками - 6: n = n + 13
+2025-06-09 14:20:25.727 DEBUG ля сверка дашбордов под разными учётками - 7: b = n - run + 1
+2025-06-09 14:20:25.727 DEBUG ля сверка дашбордов под разными учётками - 8: verifyEqual(findTestData("PlanFact").getValue(2, b), a1)
+2025-06-09 14:20:25.780 DEBUG ля сверка дашбордов под разными учётками - 9: verifyEqual(findTestData("PlanFact").getValue(3, b), a2)
+2025-06-09 14:20:25.835 DEBUG ля сверка дашбордов под разными учётками - 10: verifyEqual(findTestData("PlanFact").getValue(4, b), a3)
+2025-06-09 14:20:25.895 DEBUG ля сверка дашбордов под разными учётками - 11: verifyEqual(findTestData("PlanFact").getValue(5, b), a4)
+2025-06-09 14:20:25.983 DEBUG ля сверка дашбордов под разными учётками - 12: Script1686231490255.WriteToExcel(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
+2025-06-09 14:20:26.304 DEBUG ля сверка дашбордов под разными учётками - 14: if (run == 3)
+2025-06-09 14:20:26.305 DEBUG ля сверка дашбордов под разными учётками - 15: closeBrowser()
+2025-06-09 14:20:26.660 DEBUG ля сверка дашбордов под разными учётками - 1: OtpuskVSet(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9, urlData)
+2025-06-09 14:20:26.661 DEBUG ля сверка дашбордов под разными учётками - 1: n = data.getRowNumbers() + 1
+2025-06-09 14:20:26.661 DEBUG ля сверка дашбордов под разными учётками - 2: println(n)
+118
+2025-06-09 14:20:26.661 DEBUG ля сверка дашбордов под разными учётками - 3: dashboardName = "Отпуск в сеть"
+2025-06-09 14:20:26.662 DEBUG ля сверка дашбордов под разными учётками - 4: openBrowser("")
+2025-06-09 14:20:26.664 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-06-09 14:20:26.665 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Use managed Chrome browser & driver
+2025-06-09 14:20:26.665 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking and download if needed Chrome browser and driver for Chrome for Testing version latest (This may take a while in case of downloading needed)
+2025-06-09 14:20:26.907 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking Chrome browser and driver completed in 242 ms
+2025-06-09 14:20:26.907 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome driver path: C:\Users\Daria\.cache\selenium\chromedriver\win64\137.0.7151.68\chromedriver.exe
+2025-06-09 14:20:26.907 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome browser path: C:\Users\Daria\.cache\selenium\chrome\win64\137.0.7151.68\chrome.exe
+2025-06-09 14:20:26.907 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+июн. 09, 2025 2:20:27 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+июн. 09, 2025 2:20:27 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 137.0.7151.68. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-06-09 14:20:27.994 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = a96b6da29285c2aa091bdc9c5fd84ffd
+2025-06-09 14:20:27.994 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 137.0.7151.68
+2025-06-09 14:20:27.994 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2025-06-09 14:20:27.994 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-06-09 14:20:27.995 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-06-09 14:20:28.017 DEBUG ля сверка дашбордов под разными учётками - 5: urlData = 16
+2025-06-09 14:20:28.017 DEBUG ля сверка дашбордов под разными учётками - 6: Script1686231490255.CheckPageDownload(urlData, run)
+2025-06-09 14:22:34.612 DEBUG ля сверка дашбордов под разными учётками - 7: a5 = ""
+2025-06-09 14:22:34.613 DEBUG ля сверка дашбордов под разными учётками - 8: a6 = ""
+2025-06-09 14:22:34.613 DEBUG ля сверка дашбордов под разными учётками - 9: a7 = ""
+2025-06-09 14:22:34.613 DEBUG ля сверка дашбордов под разными учётками - 10: a8 = ""
+2025-06-09 14:22:34.613 DEBUG ля сверка дашбордов под разными учётками - 11: a9 = ""
+2025-06-09 14:22:34.613 DEBUG ля сверка дашбордов под разными учётками - 12: if (run == 1)
+2025-06-09 14:22:34.614 DEBUG ля сверка дашбордов под разными учётками - 13: if (run == 2)
+2025-06-09 14:22:34.614 DEBUG ля сверка дашбордов под разными учётками - 14: if (run == 3)
+2025-06-09 14:22:34.614 DEBUG ля сверка дашбордов под разными учётками - 1: user = "Попова"
+2025-06-09 14:22:34.615 DEBUG ля сверка дашбордов под разными учётками - 2: a1 = getText(findTestObject("Отпуск в сеть/span1"))
+2025-06-09 14:22:34.861 DEBUG ля сверка дашбордов под разными учётками - 3: a2 = getText(findTestObject("Отпуск в сеть/span2"))
+2025-06-09 14:22:35.133 DEBUG ля сверка дашбордов под разными учётками - 4: a3 = getText(findTestObject("Отпуск в сеть/График1"))
+2025-06-09 14:22:35.442 DEBUG ля сверка дашбордов под разными учётками - 5: a4 = getText(findTestObject("Отпуск в сеть/График2"))
+2025-06-09 14:22:35.700 DEBUG ля сверка дашбордов под разными учётками - 6: n = n + 14
+2025-06-09 14:22:35.701 DEBUG ля сверка дашбордов под разными учётками - 7: b = n - run + 1
+2025-06-09 14:22:35.701 DEBUG ля сверка дашбордов под разными учётками - 8: verifyEqual(findTestData("PlanFact").getValue(2, b), a1)
+2025-06-09 14:22:35.755 DEBUG ля сверка дашбордов под разными учётками - 9: verifyEqual(findTestData("PlanFact").getValue(3, b), a2)
+2025-06-09 14:22:35.812 DEBUG ля сверка дашбордов под разными учётками - 10: verifyEqual(findTestData("PlanFact").getValue(4, b), a3)
+2025-06-09 14:22:35.867 DEBUG ля сверка дашбордов под разными учётками - 11: verifyEqual(findTestData("PlanFact").getValue(5, b), a4)
+2025-06-09 14:22:35.966 DEBUG ля сверка дашбордов под разными учётками - 12: Script1686231490255.WriteToExcel(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
+2025-06-09 14:22:36.271 DEBUG ля сверка дашбордов под разными учётками - 15: closeBrowser()
+2025-06-09 14:22:36.599 DEBUG ля сверка дашбордов под разными учётками - 25: delay(40)
+2025-06-09 14:23:16.608 DEBUG ля сверка дашбордов под разными учётками - 26: for ([run = 1, run < 4, (run++)])
+2025-06-09 14:23:16.610 DEBUG ля сверка дашбордов под разными учётками - 1: KotlovoyPolezniyOtpusk(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9, urlData)
+2025-06-09 14:23:16.616 DEBUG ля сверка дашбордов под разными учётками - 1: n = data.getRowNumbers() + 1
+2025-06-09 14:23:16.626 DEBUG ля сверка дашбордов под разными учётками - 2: println(n)
+118
+2025-06-09 14:23:16.630 DEBUG ля сверка дашбордов под разными учётками - 3: dashboardName = "Котловой полезный отпуск"
+2025-06-09 14:23:16.632 DEBUG ля сверка дашбордов под разными учётками - 4: openBrowser("")
+2025-06-09 14:23:16.636 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-06-09 14:23:16.641 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Use managed Chrome browser & driver
+2025-06-09 14:23:16.641 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking and download if needed Chrome browser and driver for Chrome for Testing version latest (This may take a while in case of downloading needed)
+2025-06-09 14:23:17.002 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking Chrome browser and driver completed in 361 ms
+2025-06-09 14:23:17.002 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome driver path: C:\Users\Daria\.cache\selenium\chromedriver\win64\137.0.7151.68\chromedriver.exe
+2025-06-09 14:23:17.003 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome browser path: C:\Users\Daria\.cache\selenium\chrome\win64\137.0.7151.68\chrome.exe
+2025-06-09 14:23:17.003 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+июн. 09, 2025 2:23:19 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+июн. 09, 2025 2:23:19 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 137.0.7151.68. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-06-09 14:23:19.097 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = ffe7800b81383f92fc21a659bed36bf4
+2025-06-09 14:23:19.116 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 137.0.7151.68
+2025-06-09 14:23:19.116 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2025-06-09 14:23:19.116 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-06-09 14:23:19.117 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-06-09 14:23:19.145 DEBUG ля сверка дашбордов под разными учётками - 5: urlData = 18
+2025-06-09 14:23:19.148 DEBUG ля сверка дашбордов под разными учётками - 6: Script1686231490255.CheckPageDownload(urlData, run)
+2025-06-09 14:25:25.887 DEBUG ля сверка дашбордов под разными учётками - 7: a2 = ""
+2025-06-09 14:25:25.888 DEBUG ля сверка дашбордов под разными учётками - 8: a3 = ""
+2025-06-09 14:25:25.889 DEBUG ля сверка дашбордов под разными учётками - 9: a4 = ""
+2025-06-09 14:25:25.889 DEBUG ля сверка дашбордов под разными учётками - 10: a5 = ""
+2025-06-09 14:25:25.890 DEBUG ля сверка дашбордов под разными учётками - 11: a6 = ""
+2025-06-09 14:25:25.890 DEBUG ля сверка дашбордов под разными учётками - 12: a7 = ""
+2025-06-09 14:25:25.890 DEBUG ля сверка дашбордов под разными учётками - 13: a8 = ""
+2025-06-09 14:25:25.891 DEBUG ля сверка дашбордов под разными учётками - 14: a9 = ""
+2025-06-09 14:25:25.891 DEBUG ля сверка дашбордов под разными учётками - 15: if (run == 1)
+2025-06-09 14:25:25.891 DEBUG ля сверка дашбордов под разными учётками - 1: user = "админ"
+2025-06-09 14:25:25.892 DEBUG ля сверка дашбордов под разными учётками - 2: a1 = getText(findTestObject("Котловой полезный отпуск/График 1"))
+2025-06-09 14:25:26.598 DEBUG ля сверка дашбордов под разными учётками - 3: a1 = replaceAll("[\r?
+|]", "").replaceAll("\s+", "")
+2025-06-09 14:25:26.603 DEBUG ля сверка дашбордов под разными учётками - 4: if (a1 == "")
+2025-06-09 14:25:26.604 DEBUG ля сверка дашбордов под разными учётками - 5: n = n + 21
+2025-06-09 14:25:26.604 DEBUG ля сверка дашбордов под разными учётками - 6: Script1686231490255.WriteToExcel(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
+2025-06-09 14:25:26.878 DEBUG ля сверка дашбордов под разными учётками - 16: if (run == 2)
+2025-06-09 14:25:26.879 DEBUG ля сверка дашбордов под разными учётками - 17: if (run == 3)
+2025-06-09 14:25:26.879 DEBUG ля сверка дашбордов под разными учётками - 18: closeBrowser()
+2025-06-09 14:25:27.273 DEBUG ля сверка дашбордов под разными учётками - 1: KotlovoyPolezniyOtpusk(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9, urlData)
+2025-06-09 14:25:27.273 DEBUG ля сверка дашбордов под разными учётками - 1: n = data.getRowNumbers() + 1
+2025-06-09 14:25:27.274 DEBUG ля сверка дашбордов под разными учётками - 2: println(n)
+118
+2025-06-09 14:25:27.274 DEBUG ля сверка дашбордов под разными учётками - 3: dashboardName = "Котловой полезный отпуск"
+2025-06-09 14:25:27.274 DEBUG ля сверка дашбордов под разными учётками - 4: openBrowser("")
+2025-06-09 14:25:27.277 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-06-09 14:25:27.278 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Use managed Chrome browser & driver
+2025-06-09 14:25:27.278 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking and download if needed Chrome browser and driver for Chrome for Testing version latest (This may take a while in case of downloading needed)
+2025-06-09 14:25:27.515 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking Chrome browser and driver completed in 237 ms
+2025-06-09 14:25:27.515 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome driver path: C:\Users\Daria\.cache\selenium\chromedriver\win64\137.0.7151.68\chromedriver.exe
+2025-06-09 14:25:27.515 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome browser path: C:\Users\Daria\.cache\selenium\chrome\win64\137.0.7151.68\chrome.exe
+2025-06-09 14:25:27.515 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+июн. 09, 2025 2:25:28 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+июн. 09, 2025 2:25:28 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 137.0.7151.68. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-06-09 14:25:28.546 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 6ebbe71be87912f3d9852d97f3d969be
+2025-06-09 14:25:28.546 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 137.0.7151.68
+2025-06-09 14:25:28.547 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2025-06-09 14:25:28.547 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-06-09 14:25:28.547 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-06-09 14:25:28.580 DEBUG ля сверка дашбордов под разными учётками - 5: urlData = 18
+2025-06-09 14:25:28.580 DEBUG ля сверка дашбордов под разными учётками - 6: Script1686231490255.CheckPageDownload(urlData, run)
+2025-06-09 14:27:35.877 DEBUG ля сверка дашбордов под разными учётками - 7: a2 = ""
+2025-06-09 14:27:35.877 DEBUG ля сверка дашбордов под разными учётками - 8: a3 = ""
+2025-06-09 14:27:35.877 DEBUG ля сверка дашбордов под разными учётками - 9: a4 = ""
+2025-06-09 14:27:35.877 DEBUG ля сверка дашбордов под разными учётками - 10: a5 = ""
+2025-06-09 14:27:35.878 DEBUG ля сверка дашбордов под разными учётками - 11: a6 = ""
+2025-06-09 14:27:35.878 DEBUG ля сверка дашбордов под разными учётками - 12: a7 = ""
+2025-06-09 14:27:35.878 DEBUG ля сверка дашбордов под разными учётками - 13: a8 = ""
+2025-06-09 14:27:35.878 DEBUG ля сверка дашбордов под разными учётками - 14: a9 = ""
+2025-06-09 14:27:35.878 DEBUG ля сверка дашбордов под разными учётками - 15: if (run == 1)
+2025-06-09 14:27:35.878 DEBUG ля сверка дашбордов под разными учётками - 16: if (run == 2)
+2025-06-09 14:27:35.879 DEBUG ля сверка дашбордов под разными учётками - 1: user = "Андреева"
+2025-06-09 14:27:35.879 DEBUG ля сверка дашбордов под разными учётками - 2: a1 = getText(findTestObject("Котловой полезный отпуск/График 1"))
+2025-06-09 14:27:36.511 DEBUG ля сверка дашбордов под разными учётками - 3: a1 = replaceAll("[\r?
+|]", "").replaceAll("\s+", "")
+2025-06-09 14:27:36.512 DEBUG ля сверка дашбордов под разными учётками - 4: if (a1 == "")
+2025-06-09 14:27:36.513 DEBUG ля сверка дашбордов под разными учётками - 5: n = n + 22
+2025-06-09 14:27:36.513 DEBUG ля сверка дашбордов под разными учётками - 6: b = n - run + 1
+2025-06-09 14:27:36.514 DEBUG ля сверка дашбордов под разными учётками - 7: verifyEqual(findTestData("PlanFact").getValue(2, b), a1)
+2025-06-09 14:27:36.593 DEBUG ля сверка дашбордов под разными учётками - 8: Script1686231490255.WriteToExcel(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
+2025-06-09 14:27:36.913 DEBUG ля сверка дашбордов под разными учётками - 17: if (run == 3)
+2025-06-09 14:27:36.914 DEBUG ля сверка дашбордов под разными учётками - 18: closeBrowser()
+2025-06-09 14:27:37.225 DEBUG ля сверка дашбордов под разными учётками - 1: KotlovoyPolezniyOtpusk(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9, urlData)
+2025-06-09 14:27:37.226 DEBUG ля сверка дашбордов под разными учётками - 1: n = data.getRowNumbers() + 1
+2025-06-09 14:27:37.226 DEBUG ля сверка дашбордов под разными учётками - 2: println(n)
+118
+2025-06-09 14:27:37.226 DEBUG ля сверка дашбордов под разными учётками - 3: dashboardName = "Котловой полезный отпуск"
+2025-06-09 14:27:37.227 DEBUG ля сверка дашбордов под разными учётками - 4: openBrowser("")
+2025-06-09 14:27:37.230 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-06-09 14:27:37.230 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Use managed Chrome browser & driver
+2025-06-09 14:27:37.230 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking and download if needed Chrome browser and driver for Chrome for Testing version latest (This may take a while in case of downloading needed)
+2025-06-09 14:27:37.457 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking Chrome browser and driver completed in 227 ms
+2025-06-09 14:27:37.458 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome driver path: C:\Users\Daria\.cache\selenium\chromedriver\win64\137.0.7151.68\chromedriver.exe
+2025-06-09 14:27:37.458 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome browser path: C:\Users\Daria\.cache\selenium\chrome\win64\137.0.7151.68\chrome.exe
+2025-06-09 14:27:37.458 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+июн. 09, 2025 2:27:38 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+июн. 09, 2025 2:27:38 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 137.0.7151.68. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-06-09 14:27:38.390 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 3748005ee0f83b0f2c7eee5dece4d4e5
+2025-06-09 14:27:38.391 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 137.0.7151.68
+2025-06-09 14:27:38.391 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2025-06-09 14:27:38.391 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-06-09 14:27:38.391 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-06-09 14:27:38.406 DEBUG ля сверка дашбордов под разными учётками - 5: urlData = 18
+2025-06-09 14:27:38.407 DEBUG ля сверка дашбордов под разными учётками - 6: Script1686231490255.CheckPageDownload(urlData, run)
+2025-06-09 14:29:45.504 DEBUG ля сверка дашбордов под разными учётками - 7: a2 = ""
+2025-06-09 14:29:45.504 DEBUG ля сверка дашбордов под разными учётками - 8: a3 = ""
+2025-06-09 14:29:45.504 DEBUG ля сверка дашбордов под разными учётками - 9: a4 = ""
+2025-06-09 14:29:45.504 DEBUG ля сверка дашбордов под разными учётками - 10: a5 = ""
+2025-06-09 14:29:45.504 DEBUG ля сверка дашбордов под разными учётками - 11: a6 = ""
+2025-06-09 14:29:45.505 DEBUG ля сверка дашбордов под разными учётками - 12: a7 = ""
+2025-06-09 14:29:45.505 DEBUG ля сверка дашбордов под разными учётками - 13: a8 = ""
+2025-06-09 14:29:45.505 DEBUG ля сверка дашбордов под разными учётками - 14: a9 = ""
+2025-06-09 14:29:45.505 DEBUG ля сверка дашбордов под разными учётками - 15: if (run == 1)
+2025-06-09 14:29:45.505 DEBUG ля сверка дашбордов под разными учётками - 16: if (run == 2)
+2025-06-09 14:29:45.505 DEBUG ля сверка дашбордов под разными учётками - 17: if (run == 3)
+2025-06-09 14:29:45.506 DEBUG ля сверка дашбордов под разными учётками - 1: user = "Попова"
+2025-06-09 14:29:45.507 DEBUG ля сверка дашбордов под разными учётками - 2: a1 = getText(findTestObject("Котловой полезный отпуск/График 1"))
+2025-06-09 14:29:46.176 DEBUG ля сверка дашбордов под разными учётками - 3: a1 = replaceAll("[\r?
+|]", "").replaceAll("\s+", "")
+2025-06-09 14:29:46.177 DEBUG ля сверка дашбордов под разными учётками - 4: if (a1 == "")
+2025-06-09 14:29:46.178 DEBUG ля сверка дашбордов под разными учётками - 5: n = n + 23
+2025-06-09 14:29:46.178 DEBUG ля сверка дашбордов под разными учётками - 6: b = n - run + 1
+2025-06-09 14:29:46.179 DEBUG ля сверка дашбордов под разными учётками - 7: verifyEqual(findTestData("PlanFact").getValue(2, b), a1)
+2025-06-09 14:29:46.234 DEBUG ля сверка дашбордов под разными учётками - 8: Script1686231490255.WriteToExcel(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
+2025-06-09 14:29:46.524 DEBUG ля сверка дашбордов под разными учётками - 18: closeBrowser()
+2025-06-09 14:29:46.839 DEBUG ля сверка дашбордов под разными учётками - 27: delay(40)
+2025-06-09 14:30:26.855 DEBUG ля сверка дашбордов под разными учётками - 28: for ([run = 1, run < 4, (run++)])
+2025-06-09 14:30:26.858 DEBUG ля сверка дашбордов под разными учётками - 1: FaktorniyAnaliz(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9, urlData)
+2025-06-09 14:30:26.860 DEBUG ля сверка дашбордов под разными учётками - 1: n = data.getRowNumbers() + 1
+2025-06-09 14:30:26.862 DEBUG ля сверка дашбордов под разными учётками - 2: println(n)
+118
+2025-06-09 14:30:26.865 DEBUG ля сверка дашбордов под разными учётками - 3: dashboardName = "Факторный анализ"
+2025-06-09 14:30:26.866 DEBUG ля сверка дашбордов под разными учётками - 4: openBrowser("")
+2025-06-09 14:30:26.875 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-06-09 14:30:26.877 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Use managed Chrome browser & driver
+2025-06-09 14:30:26.877 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking and download if needed Chrome browser and driver for Chrome for Testing version latest (This may take a while in case of downloading needed)
+2025-06-09 14:30:27.136 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking Chrome browser and driver completed in 259 ms
+2025-06-09 14:30:27.136 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome driver path: C:\Users\Daria\.cache\selenium\chromedriver\win64\137.0.7151.68\chromedriver.exe
+2025-06-09 14:30:27.136 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome browser path: C:\Users\Daria\.cache\selenium\chrome\win64\137.0.7151.68\chrome.exe
+2025-06-09 14:30:27.136 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+июн. 09, 2025 2:30:28 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+июн. 09, 2025 2:30:28 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 137.0.7151.68. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-06-09 14:30:28.167 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 6b50ca992ffa99cff64821ea71d6fe24
+2025-06-09 14:30:28.168 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 137.0.7151.68
+2025-06-09 14:30:28.168 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2025-06-09 14:30:28.168 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-06-09 14:30:28.169 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-06-09 14:30:28.181 DEBUG ля сверка дашбордов под разными учётками - 5: urlData = 3
+2025-06-09 14:30:28.182 DEBUG ля сверка дашбордов под разными учётками - 6: Script1686231490255.CheckPageDownload(urlData, run)
+2025-06-09 14:32:34.574 DEBUG ля сверка дашбордов под разными учётками - 7: click(findTestObject("Факторный анализ/Фильтр Период"))
+2025-06-09 14:32:34.953 DEBUG ля сверка дашбордов под разными учётками - 8: click(findTestObject("Факторный анализ/Снять выделение в фильтре Дата"))
+2025-06-09 14:32:35.536 DEBUG ля сверка дашбордов под разными учётками - 9: click(findTestObject("Факторный анализ/Применить в фильтре Дата"))
+2025-06-09 14:32:36.093 DEBUG ля сверка дашбордов под разными учётками - 10: click(findTestObject("Факторный анализ/Фильтр Период"))
+2025-06-09 14:32:38.290 DEBUG ля сверка дашбордов под разными учётками - 11: click(findTestObject("Факторный анализ/Снять выделение в фильтре Дата"))
+2025-06-09 14:32:38.854 DEBUG ля сверка дашбордов под разными учётками - 12: scrollToElement(findTestObject("Факторный анализ/2025 список"), 30)
+2025-06-09 14:32:39.173 DEBUG ля сверка дашбордов под разными учётками - 13: click(findTestObject("Факторный анализ/2025 список"))
+2025-06-09 14:32:39.536 DEBUG ля сверка дашбордов под разными учётками - 14: scrollToElement(findTestObject("Факторный анализ/1 квартал 2025 список"), 30)
+2025-06-09 14:32:40.042 DEBUG ля сверка дашбордов под разными учётками - 15: click(findTestObject("Факторный анализ/1 квартал 2025 выбрать"), CONTINUE_ON_FAILURE)
+2025-06-09 14:32:40.348 DEBUG ля сверка дашбордов под разными учётками - 16: scrollToElement(findTestObject("Факторный анализ/2 квартал 2025 список"), 30)
+2025-06-09 14:32:40.854 DEBUG ля сверка дашбордов под разными учётками - 17: click(findTestObject("Факторный анализ/2 квартал 2025 список"), CONTINUE_ON_FAILURE)
+2025-06-09 14:32:41.188 DEBUG ля сверка дашбордов под разными учётками - 18: scrollToElement(findTestObject("Факторный анализ/Апрель 2025"), 30)
+2025-06-09 14:32:41.495 DEBUG ля сверка дашбордов под разными учётками - 19: click(findTestObject("Факторный анализ/Апрель 2025"), CONTINUE_ON_FAILURE)
+2025-06-09 14:32:41.821 DEBUG ля сверка дашбордов под разными учётками - 20: scrollToElement(findTestObject("Факторный анализ/Заголовок дашборда"), 30)
+2025-06-09 14:32:42.304 DEBUG ля сверка дашбордов под разными учётками - 21: click(findTestObject("Факторный анализ/Применить в фильтре Дата"))
+2025-06-09 14:32:42.863 DEBUG ля сверка дашбордов под разными учётками - 22: a5 = ""
+2025-06-09 14:32:42.865 DEBUG ля сверка дашбордов под разными учётками - 23: a6 = ""
+2025-06-09 14:32:42.865 DEBUG ля сверка дашбордов под разными учётками - 24: a7 = ""
+2025-06-09 14:32:42.868 DEBUG ля сверка дашбордов под разными учётками - 25: a8 = ""
+2025-06-09 14:32:42.870 DEBUG ля сверка дашбордов под разными учётками - 26: a9 = ""
+2025-06-09 14:32:42.871 DEBUG ля сверка дашбордов под разными учётками - 27: if (run == 1)
+2025-06-09 14:32:42.872 DEBUG ля сверка дашбордов под разными учётками - 1: user = "админ"
+2025-06-09 14:32:42.873 DEBUG ля сверка дашбордов под разными учётками - 2: a1 = getText(findTestObject("Факторный анализ/span1 Блок руководителя"))
+2025-06-09 14:32:44.281 DEBUG ля сверка дашбордов под разными учётками - 3: a2 = getText(findTestObject("Факторный анализ/span2 Блок руководителя"))
+2025-06-09 14:32:44.537 DEBUG ля сверка дашбордов под разными учётками - 4: a3 = getText(findTestObject("Факторный анализ/График Всего отклонения по факторам Блок руководителя"))
+2025-06-09 14:32:44.785 DEBUG ля сверка дашбордов под разными учётками - 5: click(findTestObject("Факторный анализ/Переключить отображение с филиала на месяц Выручка"))
+2025-06-09 14:32:45.084 DEBUG ля сверка дашбордов под разными учётками - 6: a4 = getText(findTestObject("Факторный анализ/График Всего отклонения по факторам Блок руководителя"))
+2025-06-09 14:32:45.370 DEBUG ля сверка дашбордов под разными учётками - 7: n = n + 24
+2025-06-09 14:32:45.372 DEBUG ля сверка дашбордов под разными учётками - 8: Script1686231490255.WriteToExcel(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
+2025-06-09 14:32:45.724 DEBUG ля сверка дашбордов под разными учётками - 28: if (run == 2)
+2025-06-09 14:32:45.725 DEBUG ля сверка дашбордов под разными учётками - 29: if (run == 3)
+2025-06-09 14:32:45.725 DEBUG ля сверка дашбордов под разными учётками - 30: closeBrowser()
+2025-06-09 14:32:46.096 DEBUG ля сверка дашбордов под разными учётками - 1: FaktorniyAnaliz(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9, urlData)
+2025-06-09 14:32:46.097 DEBUG ля сверка дашбордов под разными учётками - 1: n = data.getRowNumbers() + 1
+2025-06-09 14:32:46.097 DEBUG ля сверка дашбордов под разными учётками - 2: println(n)
+118
+2025-06-09 14:32:46.098 DEBUG ля сверка дашбордов под разными учётками - 3: dashboardName = "Факторный анализ"
+2025-06-09 14:32:46.098 DEBUG ля сверка дашбордов под разными учётками - 4: openBrowser("")
+2025-06-09 14:32:46.100 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-06-09 14:32:46.101 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Use managed Chrome browser & driver
+2025-06-09 14:32:46.101 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking and download if needed Chrome browser and driver for Chrome for Testing version latest (This may take a while in case of downloading needed)
+2025-06-09 14:32:46.339 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking Chrome browser and driver completed in 238 ms
+2025-06-09 14:32:46.339 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome driver path: C:\Users\Daria\.cache\selenium\chromedriver\win64\137.0.7151.68\chromedriver.exe
+2025-06-09 14:32:46.339 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome browser path: C:\Users\Daria\.cache\selenium\chrome\win64\137.0.7151.68\chrome.exe
+2025-06-09 14:32:46.339 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+июн. 09, 2025 2:32:47 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+июн. 09, 2025 2:32:47 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 137.0.7151.68. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-06-09 14:32:47.436 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 9591956dbc61ea502e50b68695e066d7
+2025-06-09 14:32:47.437 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 137.0.7151.68
+2025-06-09 14:32:47.438 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2025-06-09 14:32:47.438 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-06-09 14:32:47.439 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-06-09 14:32:47.450 DEBUG ля сверка дашбордов под разными учётками - 5: urlData = 3
+2025-06-09 14:32:47.450 DEBUG ля сверка дашбордов под разными учётками - 6: Script1686231490255.CheckPageDownload(urlData, run)
+2025-06-09 14:34:54.112 DEBUG ля сверка дашбордов под разными учётками - 7: click(findTestObject("Факторный анализ/Фильтр Период"))
+2025-06-09 14:34:54.508 DEBUG ля сверка дашбордов под разными учётками - 8: click(findTestObject("Факторный анализ/Снять выделение в фильтре Дата"))
+2025-06-09 14:34:55.090 DEBUG ля сверка дашбордов под разными учётками - 9: click(findTestObject("Факторный анализ/Применить в фильтре Дата"))
+2025-06-09 14:34:55.634 DEBUG ля сверка дашбордов под разными учётками - 10: click(findTestObject("Факторный анализ/Фильтр Период"))
+2025-06-09 14:35:25.817 DEBUG ля сверка дашбордов под разными учётками - 11: click(findTestObject("Факторный анализ/Снять выделение в фильтре Дата"))
+2025-06-09 14:35:48.563 DEBUG ля сверка дашбордов под разными учётками - 12: scrollToElement(findTestObject("Факторный анализ/2025 список"), 30)
+2025-06-09 14:35:48.829 DEBUG ля сверка дашбордов под разными учётками - 13: click(findTestObject("Факторный анализ/2025 список"))
+2025-06-09 14:35:49.135 DEBUG ля сверка дашбордов под разными учётками - 14: scrollToElement(findTestObject("Факторный анализ/1 квартал 2025 список"), 30)
+2025-06-09 14:35:49.602 DEBUG ля сверка дашбордов под разными учётками - 15: click(findTestObject("Факторный анализ/1 квартал 2025 выбрать"), CONTINUE_ON_FAILURE)
+2025-06-09 14:35:49.937 DEBUG ля сверка дашбордов под разными учётками - 16: scrollToElement(findTestObject("Факторный анализ/2 квартал 2025 список"), 30)
+2025-06-09 14:35:50.390 DEBUG ля сверка дашбордов под разными учётками - 17: click(findTestObject("Факторный анализ/2 квартал 2025 список"), CONTINUE_ON_FAILURE)
+2025-06-09 14:35:50.668 DEBUG ля сверка дашбордов под разными учётками - 18: scrollToElement(findTestObject("Факторный анализ/Апрель 2025"), 30)
+2025-06-09 14:35:50.973 DEBUG ля сверка дашбордов под разными учётками - 19: click(findTestObject("Факторный анализ/Апрель 2025"), CONTINUE_ON_FAILURE)
+2025-06-09 14:35:51.320 DEBUG ля сверка дашбордов под разными учётками - 20: scrollToElement(findTestObject("Факторный анализ/Заголовок дашборда"), 30)
+2025-06-09 14:35:51.811 DEBUG ля сверка дашбордов под разными учётками - 21: click(findTestObject("Факторный анализ/Применить в фильтре Дата"))
+2025-06-09 14:35:52.365 DEBUG ля сверка дашбордов под разными учётками - 22: a5 = ""
+2025-06-09 14:35:52.366 DEBUG ля сверка дашбордов под разными учётками - 23: a6 = ""
+2025-06-09 14:35:52.366 DEBUG ля сверка дашбордов под разными учётками - 24: a7 = ""
+2025-06-09 14:35:52.366 DEBUG ля сверка дашбордов под разными учётками - 25: a8 = ""
+2025-06-09 14:35:52.367 DEBUG ля сверка дашбордов под разными учётками - 26: a9 = ""
+2025-06-09 14:35:52.368 DEBUG ля сверка дашбордов под разными учётками - 27: if (run == 1)
+2025-06-09 14:35:52.368 DEBUG ля сверка дашбордов под разными учётками - 28: if (run == 2)
+2025-06-09 14:35:52.368 DEBUG ля сверка дашбордов под разными учётками - 1: user = "Андреева"
+2025-06-09 14:35:52.369 DEBUG ля сверка дашбордов под разными учётками - 2: a1 = getText(findTestObject("Факторный анализ/span1 Блок руководителя"))
+2025-06-09 14:36:35.176 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - Unable to find the element located by 'By.xpath: //div[26]/div[2]/div/div/div/div/span'. Please recheck the objects properties to make sure the desired element is located. 
+2025-06-09 14:36:35.415 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to get text of object 'Object Repository/Факторный анализ/span1 Блок руководителя' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/Факторный анализ/span1 Блок руководителя'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:994)
+	at Блок руководителя сверка дашбордов под разными учётками.FaktorniyAnaliz(Блок руководителя сверка дашбордов под разными учётками:1253)
+	at Блок руководителя сверка дашбордов под разными учётками.run(Блок руководителя сверка дашбордов под разными учётками:94)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1749450767664.run(TempTestSuite1749450767664.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Факторный анализ/span1 Блок руководителя' located by '//div[26]/div[2]/div/div/div/div/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1457)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:994)
+	at Script1686231490255.FaktorniyAnaliz(Script1686231490255.groovy:1253)
+	at Script1686231490255.run(Script1686231490255.groovy:94)
+	... 15 more
+)
+2025-06-09 14:36:35.419 DEBUG ля сверка дашбордов под разными учётками - 3: a2 = getText(findTestObject("Факторный анализ/span2 Блок руководителя"))
+2025-06-09 14:37:06.605 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - Unable to find the element located by 'By.xpath: //div[26]/div[2]/div/div/div[2]/div/span'. Please recheck the objects properties to make sure the desired element is located. 
+2025-06-09 14:37:06.724 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to get text of object 'Object Repository/Факторный анализ/span2 Блок руководителя' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/Факторный анализ/span2 Блок руководителя'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:994)
+	at Блок руководителя сверка дашбордов под разными учётками.FaktorniyAnaliz(Блок руководителя сверка дашбордов под разными учётками:1255)
+	at Блок руководителя сверка дашбордов под разными учётками.run(Блок руководителя сверка дашбордов под разными учётками:94)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1749450767664.run(TempTestSuite1749450767664.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Факторный анализ/span2 Блок руководителя' located by '//div[26]/div[2]/div/div/div[2]/div/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1457)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:994)
+	at Script1686231490255.FaktorniyAnaliz(Script1686231490255.groovy:1255)
+	at Script1686231490255.run(Script1686231490255.groovy:94)
+	... 15 more
+)
+2025-06-09 14:37:06.726 DEBUG ля сверка дашбордов под разными учётками - 4: a3 = getText(findTestObject("Факторный анализ/График Всего отклонения по факторам Блок руководителя"))
+2025-06-09 14:37:06.983 DEBUG ля сверка дашбордов под разными учётками - 5: click(findTestObject("Факторный анализ/Переключить отображение с филиала на месяц Выручка"))
+2025-06-09 14:37:07.319 DEBUG ля сверка дашбордов под разными учётками - 6: a4 = getText(findTestObject("Факторный анализ/График Всего отклонения по факторам Блок руководителя"))
+2025-06-09 14:37:07.557 DEBUG ля сверка дашбордов под разными учётками - 7: n = n + 25
+2025-06-09 14:37:07.558 DEBUG ля сверка дашбордов под разными учётками - 8: b = n - run + 1
+2025-06-09 14:37:07.558 DEBUG ля сверка дашбордов под разными учётками - 9: verifyEqual(findTestData("PlanFact").getValue(2, b), a1)
+2025-06-09 14:37:07.640 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to verify equal between actual object '' and expected object 'null' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object '' and expected object 'null' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:146)
+	at jdk.internal.reflect.GeneratedMethodAccessor30.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at Блок руководителя сверка дашбордов под разными учётками.FaktorniyAnaliz(Блок руководителя сверка дашбордов под разными учётками:1267)
+	at Блок руководителя сверка дашбордов под разными учётками.run(Блок руководителя сверка дашбордов под разными учётками:94)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1749450767664.run(TempTestSuite1749450767664.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+2025-06-09 14:37:07.641 DEBUG ля сверка дашбордов под разными учётками - 10: verifyEqual(findTestData("PlanFact").getValue(3, b), a2)
+2025-06-09 14:37:07.715 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to verify equal between actual object '' and expected object 'null' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object '' and expected object 'null' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:146)
+	at jdk.internal.reflect.GeneratedMethodAccessor30.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at Блок руководителя сверка дашбордов под разными учётками.FaktorniyAnaliz(Блок руководителя сверка дашбордов под разными учётками:1269)
+	at Блок руководителя сверка дашбордов под разными учётками.run(Блок руководителя сверка дашбордов под разными учётками:94)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1749450767664.run(TempTestSuite1749450767664.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+2025-06-09 14:37:07.722 DEBUG ля сверка дашбордов под разными учётками - 11: verifyEqual(findTestData("PlanFact").getValue(4, b), a3)
+2025-06-09 14:37:07.814 DEBUG ля сверка дашбордов под разными учётками - 12: verifyEqual(findTestData("PlanFact").getValue(5, b), a4)
+2025-06-09 14:37:07.873 DEBUG ля сверка дашбордов под разными учётками - 13: Script1686231490255.WriteToExcel(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
+2025-06-09 14:37:08.252 DEBUG ля сверка дашбордов под разными учётками - 29: if (run == 3)
+2025-06-09 14:37:08.254 DEBUG ля сверка дашбордов под разными учётками - 30: closeBrowser()
+2025-06-09 14:37:08.589 DEBUG ля сверка дашбордов под разными учётками - 1: FaktorniyAnaliz(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9, urlData)
+2025-06-09 14:37:08.590 DEBUG ля сверка дашбордов под разными учётками - 1: n = data.getRowNumbers() + 1
+2025-06-09 14:37:08.590 DEBUG ля сверка дашбордов под разными учётками - 2: println(n)
+118
+2025-06-09 14:37:08.591 DEBUG ля сверка дашбордов под разными учётками - 3: dashboardName = "Факторный анализ"
+2025-06-09 14:37:08.591 DEBUG ля сверка дашбордов под разными учётками - 4: openBrowser("")
+2025-06-09 14:37:08.593 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-06-09 14:37:08.594 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Use managed Chrome browser & driver
+2025-06-09 14:37:08.594 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking and download if needed Chrome browser and driver for Chrome for Testing version latest (This may take a while in case of downloading needed)
+2025-06-09 14:37:08.838 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking Chrome browser and driver completed in 244 ms
+2025-06-09 14:37:08.838 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome driver path: C:\Users\Daria\.cache\selenium\chromedriver\win64\137.0.7151.68\chromedriver.exe
+2025-06-09 14:37:08.838 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome browser path: C:\Users\Daria\.cache\selenium\chrome\win64\137.0.7151.68\chrome.exe
+2025-06-09 14:37:08.838 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+июн. 09, 2025 2:37:09 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+июн. 09, 2025 2:37:09 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 137.0.7151.68. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-06-09 14:37:09.974 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 10b03933db13c8d2a7898da5153d690b
+2025-06-09 14:37:09.975 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 137.0.7151.68
+2025-06-09 14:37:09.975 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2025-06-09 14:37:09.975 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-06-09 14:37:09.976 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-06-09 14:37:10.005 DEBUG ля сверка дашбордов под разными учётками - 5: urlData = 3
+2025-06-09 14:37:10.005 DEBUG ля сверка дашбордов под разными учётками - 6: Script1686231490255.CheckPageDownload(urlData, run)
+2025-06-09 14:38:53.708 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to navigate to 'https://bi.rosseti.digital/viewer?dashboardGuid=2301950b23be4ed89c1df75f2020051e&sheetGuid=ccd7d7486b3d4e6fa0ee9b1eaebed46c&fit=true' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to navigate to 'https://bi.rosseti.digital/viewer?dashboardGuid=2301950b23be4ed89c1df75f2020051e&sheetGuid=ccd7d7486b3d4e6fa0ee9b1eaebed46c&fit=true'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:185)
+	at Блок руководителя сверка дашбордов под разными учётками.CheckPageDownload(Блок руководителя сверка дашбордов под разными учётками:130)
+	at Блок руководителя сверка дашбордов под разными учётками.FaktorniyAnaliz(Блок руководителя сверка дашбордов под разными учётками:1183)
+	at Блок руководителя сверка дашбордов под разными учётками.run(Блок руководителя сверка дашбордов под разными учётками:94)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1749450767664.run(TempTestSuite1749450767664.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.WebDriverException: unknown error: net::ERR_CONNECTION_TIMED_OUT
+  (Session info: chrome=137.0.7151.68)
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [10b03933db13c8d2a7898da5153d690b, get {url=https://bi.rosseti.digital/viewer?dashboardGuid=2301950b23be4ed89c1df75f2020051e&sheetGuid=ccd7d7486b3d4e6fa0ee9b1eaebed46c&fit=true}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.68, chrome: {chromedriverVersion: 137.0.7151.68 (2989ffee9373..., userDataDir: C:\Users\Daria\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56765}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56765/devtoo..., se:cdpVersion: 137.0.7151.68, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: ws://localhost:24195/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 10b03933db13c8d2a7898da5153d690b
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:313)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:1090)
+	at jdk.internal.reflect.GeneratedMethodAccessor73.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:315)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:405)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$ieHXrxXq.to(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.doCall(NavigateToUrlKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.call(NavigateToUrlKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:185)
+	at Script1686231490255.CheckPageDownload(Script1686231490255.groovy:130)
+	at Script1686231490255.FaktorniyAnaliz(Script1686231490255.groovy:1183)
+	at Script1686231490255.run(Script1686231490255.groovy:94)
+	... 15 more
+)
+2025-06-09 14:40:05.584 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - Unable to find the element located by 'By.xpath: //input[@id='username']'. Please recheck the objects properties to make sure the desired element is located. 
+2025-06-09 14:40:05.669 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to set text 'Petrova-OV' of object 'Object Repository/Страница авторизации/input__username' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'Petrova-OV' of object 'Object Repository/Страница авторизации/input__username'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1056)
+	at Блок руководителя сверка дашбордов под разными учётками.CheckPageDownload(Блок руководителя сверка дашбордов под разными учётками:164)
+	at Блок руководителя сверка дашбордов под разными учётками.FaktorniyAnaliz(Блок руководителя сверка дашбордов под разными учётками:1183)
+	at Блок руководителя сверка дашбордов под разными учётками.run(Блок руководителя сверка дашбордов под разными учётками:94)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1749450767664.run(TempTestSuite1749450767664.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Страница авторизации/input__username' located by '//input[@id='username']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1457)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1056)
+	at Script1686231490255.CheckPageDownload(Script1686231490255.groovy:164)
+	at Script1686231490255.FaktorniyAnaliz(Script1686231490255.groovy:1183)
+	at Script1686231490255.run(Script1686231490255.groovy:94)
+	... 15 more
+)
+2025-06-09 14:40:36.950 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - Unable to find the element located by 'By.xpath: //input[@id='password']'. Please recheck the objects properties to make sure the desired element is located. 
+2025-06-09 14:40:37.040 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to set text '4Ex@~R53r&3x&BVe7' of object 'Object Repository/Страница авторизации/input__password' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text '4Ex@~R53r&3x&BVe7' of object 'Object Repository/Страница авторизации/input__password'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1056)
+	at Блок руководителя сверка дашбордов под разными учётками.CheckPageDownload(Блок руководителя сверка дашбордов под разными учётками:166)
+	at Блок руководителя сверка дашбордов под разными учётками.FaktorniyAnaliz(Блок руководителя сверка дашбордов под разными учётками:1183)
+	at Блок руководителя сверка дашбордов под разными учётками.run(Блок руководителя сверка дашбордов под разными учётками:94)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1749450767664.run(TempTestSuite1749450767664.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Страница авторизации/input__password' located by '//input[@id='password']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1457)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1056)
+	at Script1686231490255.CheckPageDownload(Script1686231490255.groovy:166)
+	at Script1686231490255.FaktorniyAnaliz(Script1686231490255.groovy:1183)
+	at Script1686231490255.run(Script1686231490255.groovy:94)
+	... 15 more
+)
+2025-06-09 14:41:08.164 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - Unable to find the element located by 'By.xpath: //button[@name='button']'. Please recheck the objects properties to make sure the desired element is located. 
+2025-06-09 14:41:08.274 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to click on object 'Object Repository/Страница авторизации/button_' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Страница авторизации/button_'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Блок руководителя сверка дашбордов под разными учётками.CheckPageDownload(Блок руководителя сверка дашбордов под разными учётками:168)
+	at Блок руководителя сверка дашбордов под разными учётками.FaktorniyAnaliz(Блок руководителя сверка дашбордов под разными учётками:1183)
+	at Блок руководителя сверка дашбордов под разными учётками.run(Блок руководителя сверка дашбордов под разными учётками:94)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1749450767664.run(TempTestSuite1749450767664.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Страница авторизации/button_' located by '//button[@name='button']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1457)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Script1686231490255.CheckPageDownload(Script1686231490255.groovy:168)
+	at Script1686231490255.FaktorniyAnaliz(Script1686231490255.groovy:1183)
+	at Script1686231490255.run(Script1686231490255.groovy:94)
+	... 15 more
+)

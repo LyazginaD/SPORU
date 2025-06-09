@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>Выполнение бизнес-плана отображение данных все филиалы - Copy</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>69892623-5f66-4eaa-9044-a8144cc49cb6</testCaseGuid>
-</TestCaseEntity>

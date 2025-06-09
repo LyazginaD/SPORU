@@ -1,0 +1,1101 @@
+2025-06-06 12:33:04.706 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Пн-Ср-Пт/Блок руководителя под разными учётками
+2025-06-06 12:33:04.840 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Дарья Игоревна Лязгина
+2025-06-06 12:33:04.843 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = SPORU
+2025-06-06 12:33:04.844 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = Daria - DariaPC.IGD_Rostelecom
+2025-06-06 12:33:04.846 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 10 64bit
+2025-06-06 12:33:04.848 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.0.17
+2025-06-06 12:33:04.849 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.2.1.0
+2025-06-06 12:33:05.447 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-06-06 12:33:05.447 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Сверки дашбордов/Блок руководителя сверка дашбордов под разными учётками
+2025-06-06 12:33:07.082 DEBUG ля сверка дашбордов под разными учётками - 1: run = 1
+2025-06-06 12:33:07.089 DEBUG ля сверка дашбордов под разными учётками - 2: data = findTestData("PlanFact")
+2025-06-06 12:33:07.573 DEBUG ля сверка дашбордов под разными учётками - 3: n = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2025-06-06 12:33:07.580 DEBUG ля сверка дашбордов под разными учётками - 4: urlData = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2025-06-06 12:33:07.588 DEBUG ля сверка дашбордов под разными учётками - 5: dashboardName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2025-06-06 12:33:07.612 DEBUG ля сверка дашбордов под разными учётками - 6: a1 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2025-06-06 12:33:07.622 DEBUG ля сверка дашбордов под разными учётками - 7: a2 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2025-06-06 12:33:07.628 DEBUG ля сверка дашбордов под разными учётками - 8: a3 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2025-06-06 12:33:07.652 DEBUG ля сверка дашбордов под разными учётками - 9: a4 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2025-06-06 12:33:07.663 DEBUG ля сверка дашбордов под разными учётками - 10: a5 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2025-06-06 12:33:07.669 DEBUG ля сверка дашбордов под разными учётками - 11: a6 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2025-06-06 12:33:07.681 DEBUG ля сверка дашбордов под разными учётками - 12: a7 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2025-06-06 12:33:07.692 DEBUG ля сверка дашбордов под разными учётками - 13: a8 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2025-06-06 12:33:07.706 DEBUG ля сверка дашбордов под разными учётками - 14: a9 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2025-06-06 12:33:07.721 DEBUG ля сверка дашбордов под разными учётками - 15: user = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2025-06-06 12:33:07.734 DEBUG ля сверка дашбордов под разными учётками - 16: for ([run = 1, run < 4, (run++)])
+2025-06-06 12:33:07.749 DEBUG ля сверка дашбордов под разными учётками - 1: VipolnenieBiznesPlana(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9, urlData)
+2025-06-06 12:33:07.774 DEBUG ля сверка дашбордов под разными учётками - 1: a10 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2025-06-06 12:33:07.779 DEBUG ля сверка дашбордов под разными учётками - 2: a11 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2025-06-06 12:33:07.785 DEBUG ля сверка дашбордов под разными учётками - 3: a12 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2025-06-06 12:33:07.788 DEBUG ля сверка дашбордов под разными учётками - 4: n = data.getRowNumbers() + 1
+2025-06-06 12:33:07.873 DEBUG ля сверка дашбордов под разными учётками - 5: println(n)
+85
+2025-06-06 12:33:07.880 DEBUG ля сверка дашбордов под разными учётками - 6: dashboardName = "Выполнение бизнес-плана"
+2025-06-06 12:33:07.884 DEBUG ля сверка дашбордов под разными учётками - 7: openBrowser("")
+2025-06-06 12:33:08.262 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-06-06 12:33:08.299 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Use managed Chrome browser & driver
+2025-06-06 12:33:08.303 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking and download if needed Chrome browser and driver for Chrome for Testing version latest (This may take a while in case of downloading needed)
+2025-06-06 12:33:10.282 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking Chrome browser and driver completed in 1979 ms
+2025-06-06 12:33:10.283 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome driver path: C:\Users\Daria\.cache\selenium\chromedriver\win64\137.0.7151.68\chromedriver.exe
+2025-06-06 12:33:10.283 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome browser path: C:\Users\Daria\.cache\selenium\chrome\win64\137.0.7151.68\chrome.exe
+2025-06-06 12:33:10.304 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+июн. 06, 2025 12:33:11 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+июн. 06, 2025 12:33:11 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 137.0.7151.68. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-06-06 12:33:12.677 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 170dfab734c3ab3ee4057366ac773270
+2025-06-06 12:33:12.679 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 137.0.7151.68
+2025-06-06 12:33:12.681 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2025-06-06 12:33:12.684 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-06-06 12:33:12.701 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-06-06 12:33:12.759 DEBUG ля сверка дашбордов под разными учётками - 8: urlData = 1
+2025-06-06 12:33:12.763 DEBUG ля сверка дашбордов под разными учётками - 9: Script1686231490255.CheckPageDownload(urlData, run)
+2025-06-06 12:35:41.397 DEBUG ля сверка дашбордов под разными учётками - 10: Script1686231490255.ZakrytOpoveshenie()
+Просьба обратить внимание
+2025-06-06 12:35:42.046 DEBUG ля сверка дашбордов под разными учётками - 11: click(findTestObject("Object Repository/Выполнение бизнес-плана/Фильтр Дата"))
+2025-06-06 12:35:42.466 DEBUG ля сверка дашбордов под разными учётками - 12: click(findTestObject("Выполнение бизнес-плана/Снять выделение в фильтре Дата"))
+2025-06-06 12:35:43.056 DEBUG ля сверка дашбордов под разными учётками - 13: click(findTestObject("Object Repository/Выполнение бизнес-плана/Применить в фильтре Дата"))
+2025-06-06 12:35:43.981 DEBUG ля сверка дашбордов под разными учётками - 14: delay(40)
+2025-06-06 12:36:23.990 DEBUG ля сверка дашбордов под разными учётками - 15: Script1686231490255.ZakrytOpoveshenie()
+Просьба обратить внимание
+2025-06-06 12:36:33.669 DEBUG ля сверка дашбордов под разными учётками - 16: click(findTestObject("Object Repository/Выполнение бизнес-плана/Фильтр Дата"))
+2025-06-06 12:36:34.039 DEBUG ля сверка дашбордов под разными учётками - 17: scrollToElement(findTestObject("Выполнение бизнес-плана/2025 список"), 30)
+2025-06-06 12:36:34.695 DEBUG ля сверка дашбордов под разными учётками - 18: click(findTestObject("Выполнение бизнес-плана/2025 список"), CONTINUE_ON_FAILURE)
+2025-06-06 12:36:35.295 DEBUG ля сверка дашбордов под разными учётками - 19: scrollToElement(findTestObject("Выполнение бизнес-плана/1 квартал 2025 список"), 30)
+2025-06-06 12:36:35.791 DEBUG ля сверка дашбордов под разными учётками - 20: click(findTestObject("Выполнение бизнес-плана/1 квартал 2025"), CONTINUE_ON_FAILURE)
+2025-06-06 12:36:36.155 DEBUG ля сверка дашбордов под разными учётками - 21: scrollToElement(findTestObject("Выполнение бизнес-плана/2 квартал 2025 список"), 30)
+2025-06-06 12:36:36.709 DEBUG ля сверка дашбордов под разными учётками - 22: click(findTestObject("Выполнение бизнес-плана/2 квартал 2025 список"), CONTINUE_ON_FAILURE)
+2025-06-06 12:36:37.081 DEBUG ля сверка дашбордов под разными учётками - 23: scrollToElement(findTestObject("Выполнение бизнес-плана/Апрель 2025"), 30)
+2025-06-06 12:36:37.350 DEBUG ля сверка дашбордов под разными учётками - 24: click(findTestObject("Выполнение бизнес-плана/Апрель 2025"), CONTINUE_ON_FAILURE)
+2025-06-06 12:36:37.738 DEBUG ля сверка дашбордов под разными учётками - 25: scrollToElement(findTestObject("Выполнение бизнес-плана/Заголовок дашборда"), 30)
+2025-06-06 12:36:38.275 DEBUG ля сверка дашбордов под разными учётками - 26: click(findTestObject("Object Repository/Выполнение бизнес-плана/Применить в фильтре Дата"))
+2025-06-06 12:36:39.301 DEBUG ля сверка дашбордов под разными учётками - 27: delay(40)
+2025-06-06 12:37:19.320 DEBUG ля сверка дашбордов под разными учётками - 28: Script1686231490255.ZakrytOpoveshenie()
+Просьба обратить внимание
+2025-06-06 12:37:28.444 DEBUG ля сверка дашбордов под разными учётками - 29: click(findTestObject("Object Repository/Выполнение бизнес-плана/Фильтр ДЗО"))
+2025-06-06 12:37:28.854 DEBUG ля сверка дашбордов под разными учётками - 30: click(findTestObject("Выполнение бизнес-плана/Снять выделение в фильтре ДЗО"))
+2025-06-06 12:37:29.383 DEBUG ля сверка дашбордов под разными учётками - 31: click(findTestObject("Выполнение бизнес-плана/ПАО Россети"))
+2025-06-06 12:37:29.745 DEBUG ля сверка дашбордов под разными учётками - 32: click(findTestObject("Object Repository/Выполнение бизнес-плана/Применить в фильтре ДЗО"))
+2025-06-06 12:37:31.030 DEBUG ля сверка дашбордов под разными учётками - 33: delay(40)
+2025-06-06 12:38:11.050 DEBUG ля сверка дашбордов под разными учётками - 34: click(findTestObject("Object Repository/Выполнение бизнес-плана/Фильтр Дата"))
+2025-06-06 12:38:11.546 DEBUG ля сверка дашбордов под разными учётками - 35: click(findTestObject("Object Repository/Выполнение бизнес-плана/Применить в фильтре Дата"))
+2025-06-06 12:38:12.419 DEBUG ля сверка дашбордов под разными учётками - 36: delay(40)
+2025-06-06 12:38:52.430 DEBUG ля сверка дашбордов под разными учётками - 37: Script1686231490255.ZakrytOpoveshenie()
+2025-06-06 12:38:52.749 DEBUG ля сверка дашбордов под разными учётками - 38: if (run == 1)
+2025-06-06 12:38:52.750 DEBUG ля сверка дашбордов под разными учётками - 1: user = "админ"
+2025-06-06 12:38:52.752 DEBUG ля сверка дашбордов под разными учётками - 2: a1 = getText(findTestObject("Выполнение бизнес-плана/Проценты"))
+2025-06-06 12:38:53.080 DEBUG ля сверка дашбордов под разными учётками - 3: a2 = getText(findTestObject("Выполнение бизнес-плана/Виджет Итого"))
+2025-06-06 12:38:53.443 DEBUG ля сверка дашбордов под разными учётками - 4: a3 = getText(findTestObject("Выполнение бизнес-плана/Список ДЗО"))
+2025-06-06 12:38:53.797 DEBUG ля сверка дашбордов под разными учётками - 5: a4 = getText(findTestObject("Выполнение бизнес-плана/Отклонения за 1 месяц"))
+2025-06-06 12:38:54.156 DEBUG ля сверка дашбордов под разными учётками - 6: a5 = getText(findTestObject("Выполнение бизнес-плана/table"))
+2025-06-06 12:38:54.497 DEBUG ля сверка дашбордов под разными учётками - 7: a6 = getText(findTestObject("Выполнение бизнес-плана/Отклонения за 3 месяца"))
+2025-06-06 12:38:54.814 DEBUG ля сверка дашбордов под разными учётками - 8: a7 = getText(findTestObject("Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Факт Отпуск в сеть за отчётный период ПАО Россети"))
+2025-06-06 12:38:55.204 DEBUG ля сверка дашбордов под разными учётками - 9: a7 = a7 + getText(findTestObject("Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Факт Отпуск из сети за отчётный период ПАО Россети"))
+2025-06-06 12:38:55.463 DEBUG ля сверка дашбордов под разными учётками - 10: a7 = a7 + getText(findTestObject("Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Факт Потери за отчётный период ПАО Россети"))
+2025-06-06 12:38:55.774 DEBUG ля сверка дашбордов под разными учётками - 11: click(findTestObject("Выполнение бизнес-плана/Кнопка План"))
+2025-06-06 12:38:56.088 DEBUG ля сверка дашбордов под разными учётками - 12: delay(5)
+2025-06-06 12:39:01.099 DEBUG ля сверка дашбордов под разными учётками - 13: a8 = getText(findTestObject("Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/План Отпуск в сеть за отчётный период ПАО Россети"))
+2025-06-06 12:39:01.438 DEBUG ля сверка дашбордов под разными учётками - 14: a8 = a8 + getText(findTestObject("Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/План Отпуск из сети за отчётный период ПАО Россети"))
+2025-06-06 12:39:01.780 DEBUG ля сверка дашбордов под разными учётками - 15: a8 = a8 + getText(findTestObject("Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/План Потери за отчётный период ПАО Россети"))
+2025-06-06 12:39:02.103 DEBUG ля сверка дашбордов под разными учётками - 16: click(findTestObject("Выполнение бизнес-плана/Кнопка Факт"))
+2025-06-06 12:39:02.408 DEBUG ля сверка дашбордов под разными учётками - 17: Script1686231490255.WriteToExcel(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
+2025-06-06 12:39:03.021 DEBUG ля сверка дашбордов под разными учётками - 39: if (run == 2)
+2025-06-06 12:39:03.025 DEBUG ля сверка дашбордов под разными учётками - 40: if (run == 3)
+2025-06-06 12:39:03.027 DEBUG ля сверка дашбордов под разными учётками - 41: closeBrowser()
+2025-06-06 12:39:03.393 DEBUG ля сверка дашбордов под разными учётками - 1: VipolnenieBiznesPlana(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9, urlData)
+2025-06-06 12:39:03.395 DEBUG ля сверка дашбордов под разными учётками - 1: a10 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2025-06-06 12:39:03.396 DEBUG ля сверка дашбордов под разными учётками - 2: a11 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2025-06-06 12:39:03.397 DEBUG ля сверка дашбордов под разными учётками - 3: a12 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2025-06-06 12:39:03.398 DEBUG ля сверка дашбордов под разными учётками - 4: n = data.getRowNumbers() + 1
+2025-06-06 12:39:03.399 DEBUG ля сверка дашбордов под разными учётками - 5: println(n)
+85
+2025-06-06 12:39:03.399 DEBUG ля сверка дашбордов под разными учётками - 6: dashboardName = "Выполнение бизнес-плана"
+2025-06-06 12:39:03.400 DEBUG ля сверка дашбордов под разными учётками - 7: openBrowser("")
+2025-06-06 12:39:03.404 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-06-06 12:39:03.405 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Use managed Chrome browser & driver
+2025-06-06 12:39:03.405 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking and download if needed Chrome browser and driver for Chrome for Testing version latest (This may take a while in case of downloading needed)
+2025-06-06 12:39:03.642 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking Chrome browser and driver completed in 237 ms
+2025-06-06 12:39:03.642 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome driver path: C:\Users\Daria\.cache\selenium\chromedriver\win64\137.0.7151.68\chromedriver.exe
+2025-06-06 12:39:03.642 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome browser path: C:\Users\Daria\.cache\selenium\chrome\win64\137.0.7151.68\chrome.exe
+2025-06-06 12:39:03.642 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+июн. 06, 2025 12:39:04 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+июн. 06, 2025 12:39:04 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 137.0.7151.68. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-06-06 12:39:04.656 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 0bb6ef26590856dbffac2c7d94bdbf54
+2025-06-06 12:39:04.657 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 137.0.7151.68
+2025-06-06 12:39:04.657 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2025-06-06 12:39:04.658 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-06-06 12:39:04.660 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-06-06 12:39:04.716 DEBUG ля сверка дашбордов под разными учётками - 8: urlData = 1
+2025-06-06 12:39:04.728 DEBUG ля сверка дашбордов под разными учётками - 9: Script1686231490255.CheckPageDownload(urlData, run)
+2025-06-06 12:41:39.897 DEBUG ля сверка дашбордов под разными учётками - 10: Script1686231490255.ZakrytOpoveshenie()
+Просьба обратить внимание
+2025-06-06 12:41:40.626 DEBUG ля сверка дашбордов под разными учётками - 11: click(findTestObject("Object Repository/Выполнение бизнес-плана/Фильтр Дата"))
+2025-06-06 12:41:41.033 DEBUG ля сверка дашбордов под разными учётками - 12: click(findTestObject("Выполнение бизнес-плана/Снять выделение в фильтре Дата"))
+2025-06-06 12:41:41.622 DEBUG ля сверка дашбордов под разными учётками - 13: click(findTestObject("Object Repository/Выполнение бизнес-плана/Применить в фильтре Дата"))
+2025-06-06 12:41:42.620 DEBUG ля сверка дашбордов под разными учётками - 14: delay(40)
+2025-06-06 12:42:22.639 DEBUG ля сверка дашбордов под разными учётками - 15: Script1686231490255.ZakrytOpoveshenie()
+Просьба обратить внимание
+2025-06-06 12:42:38.116 DEBUG ля сверка дашбордов под разными учётками - 16: click(findTestObject("Object Repository/Выполнение бизнес-плана/Фильтр Дата"))
+2025-06-06 12:42:38.474 DEBUG ля сверка дашбордов под разными учётками - 17: scrollToElement(findTestObject("Выполнение бизнес-плана/2025 список"), 30)
+2025-06-06 12:42:39.002 DEBUG ля сверка дашбордов под разными учётками - 18: click(findTestObject("Выполнение бизнес-плана/2025 список"), CONTINUE_ON_FAILURE)
+2025-06-06 12:42:39.600 DEBUG ля сверка дашбордов под разными учётками - 19: scrollToElement(findTestObject("Выполнение бизнес-плана/1 квартал 2025 список"), 30)
+2025-06-06 12:42:40.101 DEBUG ля сверка дашбордов под разными учётками - 20: click(findTestObject("Выполнение бизнес-плана/1 квартал 2025"), CONTINUE_ON_FAILURE)
+2025-06-06 12:42:40.423 DEBUG ля сверка дашбордов под разными учётками - 21: scrollToElement(findTestObject("Выполнение бизнес-плана/2 квартал 2025 список"), 30)
+2025-06-06 12:42:40.958 DEBUG ля сверка дашбордов под разными учётками - 22: click(findTestObject("Выполнение бизнес-плана/2 квартал 2025 список"), CONTINUE_ON_FAILURE)
+2025-06-06 12:42:41.315 DEBUG ля сверка дашбордов под разными учётками - 23: scrollToElement(findTestObject("Выполнение бизнес-плана/Апрель 2025"), 30)
+2025-06-06 12:42:41.582 DEBUG ля сверка дашбордов под разными учётками - 24: click(findTestObject("Выполнение бизнес-плана/Апрель 2025"), CONTINUE_ON_FAILURE)
+2025-06-06 12:42:41.942 DEBUG ля сверка дашбордов под разными учётками - 25: scrollToElement(findTestObject("Выполнение бизнес-плана/Заголовок дашборда"), 30)
+2025-06-06 12:42:42.494 DEBUG ля сверка дашбордов под разными учётками - 26: click(findTestObject("Object Repository/Выполнение бизнес-плана/Применить в фильтре Дата"))
+2025-06-06 12:42:43.498 DEBUG ля сверка дашбордов под разными учётками - 27: delay(40)
+2025-06-06 12:43:23.504 DEBUG ля сверка дашбордов под разными учётками - 28: Script1686231490255.ZakrytOpoveshenie()
+Просьба обратить внимание
+2025-06-06 12:43:31.465 DEBUG ля сверка дашбордов под разными учётками - 29: click(findTestObject("Object Repository/Выполнение бизнес-плана/Фильтр ДЗО"))
+2025-06-06 12:43:31.894 DEBUG ля сверка дашбордов под разными учётками - 30: click(findTestObject("Выполнение бизнес-плана/Снять выделение в фильтре ДЗО"))
+2025-06-06 12:43:32.471 DEBUG ля сверка дашбордов под разными учётками - 31: click(findTestObject("Выполнение бизнес-плана/ПАО Россети"))
+2025-06-06 12:43:32.798 DEBUG ля сверка дашбордов под разными учётками - 32: click(findTestObject("Object Repository/Выполнение бизнес-плана/Применить в фильтре ДЗО"))
+2025-06-06 12:43:34.065 DEBUG ля сверка дашбордов под разными учётками - 33: delay(40)
+2025-06-06 12:44:14.077 DEBUG ля сверка дашбордов под разными учётками - 34: click(findTestObject("Object Repository/Выполнение бизнес-плана/Фильтр Дата"))
+2025-06-06 12:44:14.461 DEBUG ля сверка дашбордов под разными учётками - 35: click(findTestObject("Object Repository/Выполнение бизнес-плана/Применить в фильтре Дата"))
+2025-06-06 12:44:15.234 DEBUG ля сверка дашбордов под разными учётками - 36: delay(40)
+2025-06-06 12:44:55.246 DEBUG ля сверка дашбордов под разными учётками - 37: Script1686231490255.ZakrytOpoveshenie()
+2025-06-06 12:44:55.576 DEBUG ля сверка дашбордов под разными учётками - 38: if (run == 1)
+2025-06-06 12:44:55.577 DEBUG ля сверка дашбордов под разными учётками - 39: if (run == 2)
+2025-06-06 12:44:55.577 DEBUG ля сверка дашбордов под разными учётками - 1: user = "Андреева"
+2025-06-06 12:44:55.578 DEBUG ля сверка дашбордов под разными учётками - 2: a1 = getText(findTestObject("Выполнение бизнес-плана/Проценты"))
+2025-06-06 12:44:55.927 DEBUG ля сверка дашбордов под разными учётками - 3: a2 = getText(findTestObject("Выполнение бизнес-плана/Виджет Итого"))
+2025-06-06 12:44:56.267 DEBUG ля сверка дашбордов под разными учётками - 4: a3 = getText(findTestObject("Выполнение бизнес-плана/Список ДЗО"))
+2025-06-06 12:44:56.614 DEBUG ля сверка дашбордов под разными учётками - 5: a4 = getText(findTestObject("Выполнение бизнес-плана/Отклонения за 1 месяц"))
+2025-06-06 12:44:56.984 DEBUG ля сверка дашбордов под разными учётками - 6: a5 = getText(findTestObject("Выполнение бизнес-плана/table"))
+2025-06-06 12:44:57.323 DEBUG ля сверка дашбордов под разными учётками - 7: a6 = getText(findTestObject("Выполнение бизнес-плана/Отклонения за 3 месяца"))
+2025-06-06 12:44:57.692 DEBUG ля сверка дашбордов под разными учётками - 8: a7 = getText(findTestObject("Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Факт Отпуск в сеть за отчётный период ПАО Россети"))
+2025-06-06 12:44:58.103 DEBUG ля сверка дашбордов под разными учётками - 9: a7 = a7 + getText(findTestObject("Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Факт Отпуск из сети за отчётный период ПАО Россети"))
+2025-06-06 12:44:58.435 DEBUG ля сверка дашбордов под разными учётками - 10: a7 = a7 + getText(findTestObject("Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Факт Потери за отчётный период ПАО Россети"))
+2025-06-06 12:44:58.754 DEBUG ля сверка дашбордов под разными учётками - 11: click(findTestObject("Выполнение бизнес-плана/Кнопка План"))
+2025-06-06 12:44:59.110 DEBUG ля сверка дашбордов под разными учётками - 12: delay(5)
+2025-06-06 12:45:04.128 DEBUG ля сверка дашбордов под разными учётками - 13: a8 = getText(findTestObject("Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/План Отпуск в сеть за отчётный период ПАО Россети"))
+2025-06-06 12:45:04.463 DEBUG ля сверка дашбордов под разными учётками - 14: a8 = a8 + getText(findTestObject("Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/План Отпуск из сети за отчётный период ПАО Россети"))
+2025-06-06 12:45:04.771 DEBUG ля сверка дашбордов под разными учётками - 15: a8 = a8 + getText(findTestObject("Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/План Потери за отчётный период ПАО Россети"))
+2025-06-06 12:45:05.097 DEBUG ля сверка дашбордов под разными учётками - 16: click(findTestObject("Выполнение бизнес-плана/Кнопка Факт"))
+2025-06-06 12:45:05.470 DEBUG ля сверка дашбордов под разными учётками - 17: n = n + 1
+2025-06-06 12:45:05.471 DEBUG ля сверка дашбордов под разными учётками - 18: b = data.getRowNumbers() + 1
+2025-06-06 12:45:05.473 DEBUG ля сверка дашбордов под разными учётками - 19: verifyEqual(findTestData("PlanFact").getValue(2, b), a1)
+2025-06-06 12:45:05.554 DEBUG ля сверка дашбордов под разными учётками - 20: verifyEqual(findTestData("PlanFact").getValue(3, b), a2)
+2025-06-06 12:45:05.626 DEBUG ля сверка дашбордов под разными учётками - 21: verifyEqual(findTestData("PlanFact").getValue(4, b), a3)
+2025-06-06 12:45:05.708 DEBUG ля сверка дашбордов под разными учётками - 22: verifyEqual(findTestData("PlanFact").getValue(5, b), a4)
+2025-06-06 12:45:05.766 DEBUG ля сверка дашбордов под разными учётками - 23: verifyEqual(findTestData("PlanFact").getValue(6, b), a5)
+2025-06-06 12:45:05.828 DEBUG ля сверка дашбордов под разными учётками - 24: verifyEqual(findTestData("PlanFact").getValue(7, b), a6)
+2025-06-06 12:45:05.904 DEBUG ля сверка дашбордов под разными учётками - 25: verifyEqual(findTestData("PlanFact").getValue(8, b), a7)
+2025-06-06 12:45:05.986 DEBUG ля сверка дашбордов под разными учётками - 26: verifyEqual(findTestData("PlanFact").getValue(9, b), a8)
+2025-06-06 12:45:06.072 DEBUG ля сверка дашбордов под разными учётками - 27: Script1686231490255.WriteToExcel(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
+2025-06-06 12:45:06.425 DEBUG ля сверка дашбордов под разными учётками - 40: if (run == 3)
+2025-06-06 12:45:06.426 DEBUG ля сверка дашбордов под разными учётками - 41: closeBrowser()
+2025-06-06 12:45:06.762 DEBUG ля сверка дашбордов под разными учётками - 1: VipolnenieBiznesPlana(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9, urlData)
+2025-06-06 12:45:06.763 DEBUG ля сверка дашбордов под разными учётками - 1: a10 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2025-06-06 12:45:06.763 DEBUG ля сверка дашбордов под разными учётками - 2: a11 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2025-06-06 12:45:06.764 DEBUG ля сверка дашбордов под разными учётками - 3: a12 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2025-06-06 12:45:06.764 DEBUG ля сверка дашбордов под разными учётками - 4: n = data.getRowNumbers() + 1
+2025-06-06 12:45:06.764 DEBUG ля сверка дашбордов под разными учётками - 5: println(n)
+85
+2025-06-06 12:45:06.765 DEBUG ля сверка дашбордов под разными учётками - 6: dashboardName = "Выполнение бизнес-плана"
+2025-06-06 12:45:06.765 DEBUG ля сверка дашбордов под разными учётками - 7: openBrowser("")
+2025-06-06 12:45:06.768 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-06-06 12:45:06.769 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Use managed Chrome browser & driver
+2025-06-06 12:45:06.769 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking and download if needed Chrome browser and driver for Chrome for Testing version latest (This may take a while in case of downloading needed)
+2025-06-06 12:45:07.011 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking Chrome browser and driver completed in 242 ms
+2025-06-06 12:45:07.011 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome driver path: C:\Users\Daria\.cache\selenium\chromedriver\win64\137.0.7151.68\chromedriver.exe
+2025-06-06 12:45:07.011 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome browser path: C:\Users\Daria\.cache\selenium\chrome\win64\137.0.7151.68\chrome.exe
+2025-06-06 12:45:07.011 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+июн. 06, 2025 12:45:08 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+июн. 06, 2025 12:45:08 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 137.0.7151.68. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-06-06 12:45:08.117 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 37eb7d1510ec728ae1f5633902ef18f4
+2025-06-06 12:45:08.123 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 137.0.7151.68
+2025-06-06 12:45:08.127 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2025-06-06 12:45:08.136 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-06-06 12:45:08.141 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-06-06 12:45:08.170 DEBUG ля сверка дашбордов под разными учётками - 8: urlData = 1
+2025-06-06 12:45:08.171 DEBUG ля сверка дашбордов под разными учётками - 9: Script1686231490255.CheckPageDownload(urlData, run)
+2025-06-06 12:47:43.022 DEBUG ля сверка дашбордов под разными учётками - 10: Script1686231490255.ZakrytOpoveshenie()
+Просьба обратить внимание
+2025-06-06 12:47:43.763 DEBUG ля сверка дашбордов под разными учётками - 11: click(findTestObject("Object Repository/Выполнение бизнес-плана/Фильтр Дата"))
+2025-06-06 12:47:44.157 DEBUG ля сверка дашбордов под разными учётками - 12: click(findTestObject("Выполнение бизнес-плана/Снять выделение в фильтре Дата"))
+2025-06-06 12:47:44.723 DEBUG ля сверка дашбордов под разными учётками - 13: click(findTestObject("Object Repository/Выполнение бизнес-плана/Применить в фильтре Дата"))
+2025-06-06 12:47:45.609 DEBUG ля сверка дашбордов под разными учётками - 14: delay(40)
+2025-06-06 12:48:25.624 DEBUG ля сверка дашбордов под разными учётками - 15: Script1686231490255.ZakrytOpoveshenie()
+Просьба обратить внимание
+2025-06-06 12:48:40.508 DEBUG ля сверка дашбордов под разными учётками - 16: click(findTestObject("Object Repository/Выполнение бизнес-плана/Фильтр Дата"))
+2025-06-06 12:48:40.867 DEBUG ля сверка дашбордов под разными учётками - 17: scrollToElement(findTestObject("Выполнение бизнес-плана/2025 список"), 30)
+2025-06-06 12:48:41.388 DEBUG ля сверка дашбордов под разными учётками - 18: click(findTestObject("Выполнение бизнес-плана/2025 список"), CONTINUE_ON_FAILURE)
+2025-06-06 12:48:41.939 DEBUG ля сверка дашбордов под разными учётками - 19: scrollToElement(findTestObject("Выполнение бизнес-плана/1 квартал 2025 список"), 30)
+2025-06-06 12:48:42.423 DEBUG ля сверка дашбордов под разными учётками - 20: click(findTestObject("Выполнение бизнес-плана/1 квартал 2025"), CONTINUE_ON_FAILURE)
+2025-06-06 12:48:42.770 DEBUG ля сверка дашбордов под разными учётками - 21: scrollToElement(findTestObject("Выполнение бизнес-плана/2 квартал 2025 список"), 30)
+2025-06-06 12:48:43.283 DEBUG ля сверка дашбордов под разными учётками - 22: click(findTestObject("Выполнение бизнес-плана/2 квартал 2025 список"), CONTINUE_ON_FAILURE)
+2025-06-06 12:48:43.632 DEBUG ля сверка дашбордов под разными учётками - 23: scrollToElement(findTestObject("Выполнение бизнес-плана/Апрель 2025"), 30)
+2025-06-06 12:48:43.901 DEBUG ля сверка дашбордов под разными учётками - 24: click(findTestObject("Выполнение бизнес-плана/Апрель 2025"), CONTINUE_ON_FAILURE)
+2025-06-06 12:48:44.232 DEBUG ля сверка дашбордов под разными учётками - 25: scrollToElement(findTestObject("Выполнение бизнес-плана/Заголовок дашборда"), 30)
+2025-06-06 12:48:44.761 DEBUG ля сверка дашбордов под разными учётками - 26: click(findTestObject("Object Repository/Выполнение бизнес-плана/Применить в фильтре Дата"))
+2025-06-06 12:48:45.737 DEBUG ля сверка дашбордов под разными учётками - 27: delay(40)
+2025-06-06 12:49:25.746 DEBUG ля сверка дашбордов под разными учётками - 28: Script1686231490255.ZakrytOpoveshenie()
+Просьба обратить внимание
+2025-06-06 12:49:30.985 DEBUG ля сверка дашбордов под разными учётками - 29: click(findTestObject("Object Repository/Выполнение бизнес-плана/Фильтр ДЗО"))
+2025-06-06 12:49:31.775 DEBUG ля сверка дашбордов под разными учётками - 30: click(findTestObject("Выполнение бизнес-плана/Снять выделение в фильтре ДЗО"))
+2025-06-06 12:49:32.326 DEBUG ля сверка дашбордов под разными учётками - 31: click(findTestObject("Выполнение бизнес-плана/ПАО Россети"))
+2025-06-06 12:49:32.679 DEBUG ля сверка дашбордов под разными учётками - 32: click(findTestObject("Object Repository/Выполнение бизнес-плана/Применить в фильтре ДЗО"))
+2025-06-06 12:49:33.873 DEBUG ля сверка дашбордов под разными учётками - 33: delay(40)
+2025-06-06 12:50:13.889 DEBUG ля сверка дашбордов под разными учётками - 34: click(findTestObject("Object Repository/Выполнение бизнес-плана/Фильтр Дата"))
+2025-06-06 12:50:14.277 DEBUG ля сверка дашбордов под разными учётками - 35: click(findTestObject("Object Repository/Выполнение бизнес-плана/Применить в фильтре Дата"))
+2025-06-06 12:50:15.048 DEBUG ля сверка дашбордов под разными учётками - 36: delay(40)
+2025-06-06 12:50:55.054 DEBUG ля сверка дашбордов под разными учётками - 37: Script1686231490255.ZakrytOpoveshenie()
+2025-06-06 12:50:55.386 DEBUG ля сверка дашбордов под разными учётками - 38: if (run == 1)
+2025-06-06 12:50:55.387 DEBUG ля сверка дашбордов под разными учётками - 39: if (run == 2)
+2025-06-06 12:50:55.387 DEBUG ля сверка дашбордов под разными учётками - 40: if (run == 3)
+2025-06-06 12:50:55.388 DEBUG ля сверка дашбордов под разными учётками - 1: user = "Попова"
+2025-06-06 12:50:55.388 DEBUG ля сверка дашбордов под разными учётками - 2: a1 = getText(findTestObject("Выполнение бизнес-плана/Проценты"))
+2025-06-06 12:50:55.732 DEBUG ля сверка дашбордов под разными учётками - 3: a2 = getText(findTestObject("Выполнение бизнес-плана/Виджет Итого"))
+2025-06-06 12:50:56.082 DEBUG ля сверка дашбордов под разными учётками - 4: a3 = getText(findTestObject("Выполнение бизнес-плана/Список ДЗО"))
+2025-06-06 12:50:56.433 DEBUG ля сверка дашбордов под разными учётками - 5: a4 = getText(findTestObject("Выполнение бизнес-плана/Отклонения за 1 месяц"))
+2025-06-06 12:50:56.780 DEBUG ля сверка дашбордов под разными учётками - 6: a5 = getText(findTestObject("Выполнение бизнес-плана/table"))
+2025-06-06 12:50:57.107 DEBUG ля сверка дашбордов под разными учётками - 7: a6 = getText(findTestObject("Выполнение бизнес-плана/Отклонения за 3 месяца"))
+2025-06-06 12:50:57.473 DEBUG ля сверка дашбордов под разными учётками - 8: a7 = getText(findTestObject("Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Факт Отпуск в сеть за отчётный период ПАО Россети"))
+2025-06-06 12:50:57.850 DEBUG ля сверка дашбордов под разными учётками - 9: a7 = a7 + getText(findTestObject("Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Факт Отпуск из сети за отчётный период ПАО Россети"))
+2025-06-06 12:50:58.157 DEBUG ля сверка дашбордов под разными учётками - 10: a7 = a7 + getText(findTestObject("Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Факт Потери за отчётный период ПАО Россети"))
+2025-06-06 12:50:58.476 DEBUG ля сверка дашбордов под разными учётками - 11: click(findTestObject("Выполнение бизнес-плана/Кнопка План"))
+2025-06-06 12:50:58.922 DEBUG ля сверка дашбордов под разными учётками - 12: delay(5)
+2025-06-06 12:51:03.934 DEBUG ля сверка дашбордов под разными учётками - 13: a8 = getText(findTestObject("Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/План Отпуск в сеть за отчётный период ПАО Россети"))
+2025-06-06 12:51:04.288 DEBUG ля сверка дашбордов под разными учётками - 14: a8 = a8 + getText(findTestObject("Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/План Отпуск из сети за отчётный период ПАО Россети"))
+2025-06-06 12:51:04.614 DEBUG ля сверка дашбордов под разными учётками - 15: a8 = a8 + getText(findTestObject("Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/План Потери за отчётный период ПАО Россети"))
+2025-06-06 12:51:04.956 DEBUG ля сверка дашбордов под разными учётками - 16: click(findTestObject("Выполнение бизнес-плана/Кнопка Факт"))
+2025-06-06 12:51:05.324 DEBUG ля сверка дашбордов под разными учётками - 17: n = n + 2
+2025-06-06 12:51:05.325 DEBUG ля сверка дашбордов под разными учётками - 18: b = data.getRowNumbers() + 1
+2025-06-06 12:51:05.326 DEBUG ля сверка дашбордов под разными учётками - 19: verifyEqual(findTestData("PlanFact").getValue(2, b), a1)
+2025-06-06 12:51:05.401 DEBUG ля сверка дашбордов под разными учётками - 20: verifyEqual(findTestData("PlanFact").getValue(3, b), a2)
+2025-06-06 12:51:05.466 DEBUG ля сверка дашбордов под разными учётками - 21: verifyEqual(findTestData("PlanFact").getValue(4, b), a3)
+2025-06-06 12:51:05.528 DEBUG ля сверка дашбордов под разными учётками - 22: verifyEqual(findTestData("PlanFact").getValue(5, b), a4)
+2025-06-06 12:51:05.612 DEBUG ля сверка дашбордов под разными учётками - 23: verifyEqual(findTestData("PlanFact").getValue(6, b), a5)
+2025-06-06 12:51:05.685 DEBUG ля сверка дашбордов под разными учётками - 24: verifyEqual(findTestData("PlanFact").getValue(7, b), a6)
+2025-06-06 12:51:05.762 DEBUG ля сверка дашбордов под разными учётками - 25: verifyEqual(findTestData("PlanFact").getValue(8, b), a7)
+2025-06-06 12:51:05.835 DEBUG ля сверка дашбордов под разными учётками - 26: verifyEqual(findTestData("PlanFact").getValue(9, b), a8)
+2025-06-06 12:51:05.895 DEBUG ля сверка дашбордов под разными учётками - 27: Script1686231490255.WriteToExcel(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
+2025-06-06 12:51:06.233 DEBUG ля сверка дашбордов под разными учётками - 41: closeBrowser()
+2025-06-06 12:51:06.601 DEBUG ля сверка дашбордов под разными учётками - 17: delay(40)
+2025-06-06 12:51:46.621 DEBUG ля сверка дашбордов под разными учётками - 18: for ([run = 1, run < 4, (run++)])
+2025-06-06 12:51:46.625 DEBUG ля сверка дашбордов под разными учётками - 1: ViruchkaVRublyah(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9, urlData)
+2025-06-06 12:51:46.628 DEBUG ля сверка дашбордов под разными учётками - 1: n = data.getRowNumbers() + 1
+2025-06-06 12:51:46.656 DEBUG ля сверка дашбордов под разными учётками - 2: println(n)
+85
+2025-06-06 12:51:46.658 DEBUG ля сверка дашбордов под разными учётками - 3: dashboardName = "Вырука в рублях"
+2025-06-06 12:51:46.660 DEBUG ля сверка дашбордов под разными учётками - 4: openBrowser("")
+2025-06-06 12:51:46.666 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-06-06 12:51:46.667 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Use managed Chrome browser & driver
+2025-06-06 12:51:46.667 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking and download if needed Chrome browser and driver for Chrome for Testing version latest (This may take a while in case of downloading needed)
+2025-06-06 12:51:46.953 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking Chrome browser and driver completed in 284 ms
+2025-06-06 12:51:46.953 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome driver path: C:\Users\Daria\.cache\selenium\chromedriver\win64\137.0.7151.68\chromedriver.exe
+2025-06-06 12:51:46.953 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome browser path: C:\Users\Daria\.cache\selenium\chrome\win64\137.0.7151.68\chrome.exe
+2025-06-06 12:51:46.953 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+июн. 06, 2025 12:51:47 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+июн. 06, 2025 12:51:47 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 137.0.7151.68. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-06-06 12:51:47.929 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = a0df9545f2b491457312aefcf70acf5b
+2025-06-06 12:51:47.935 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 137.0.7151.68
+2025-06-06 12:51:47.940 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2025-06-06 12:51:47.947 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-06-06 12:51:47.960 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-06-06 12:51:47.985 DEBUG ля сверка дашбордов под разными учётками - 5: urlData = 2
+2025-06-06 12:51:47.990 DEBUG ля сверка дашбордов под разными учётками - 6: Script1686231490255.CheckPageDownload(urlData, run)
+2025-06-06 12:53:54.986 DEBUG ля сверка дашбордов под разными учётками - 7: click(findTestObject("Выручка в рублях/Фильтр Период"))
+2025-06-06 12:53:55.362 DEBUG ля сверка дашбордов под разными учётками - 8: click(findTestObject("Выручка в рублях/Снять выделение в фильтре Дата"))
+2025-06-06 12:53:55.904 DEBUG ля сверка дашбордов под разными учётками - 9: click(findTestObject("Выручка в рублях/Применить в фильтре Дата"))
+2025-06-06 12:53:56.467 DEBUG ля сверка дашбордов под разными учётками - 10: click(findTestObject("Выручка в рублях/Фильтр Период"))
+2025-06-06 12:53:58.024 DEBUG ля сверка дашбордов под разными учётками - 11: click(findTestObject("Выручка в рублях/Снять выделение в фильтре Дата"))
+2025-06-06 12:53:58.611 DEBUG ля сверка дашбордов под разными учётками - 12: scrollToElement(findTestObject("Выручка в рублях/2025 список"), 30)
+2025-06-06 12:53:58.968 DEBUG ля сверка дашбордов под разными учётками - 13: click(findTestObject("Выручка в рублях/2025 список"))
+2025-06-06 12:53:59.326 DEBUG ля сверка дашбордов под разными учётками - 14: scrollToElement(findTestObject("Выручка в рублях/1 квартал 2025 список"), 30)
+2025-06-06 12:53:59.830 DEBUG ля сверка дашбордов под разными учётками - 15: click(findTestObject("Выручка в рублях/1 квартал 2025 выбрать"), CONTINUE_ON_FAILURE)
+2025-06-06 12:54:00.154 DEBUG ля сверка дашбордов под разными учётками - 16: click(findTestObject("Выручка в рублях/Применить в фильтре Дата"))
+2025-06-06 12:54:00.899 DEBUG ля сверка дашбордов под разными учётками - 17: scrollToElement(findTestObject("Выручка в рублях/Заголовок дашборда"), 30)
+2025-06-06 12:54:02.388 DEBUG ля сверка дашбордов под разными учётками - 18: delay(40)
+2025-06-06 12:54:42.422 DEBUG ля сверка дашбордов под разными учётками - 19: a5 = ""
+2025-06-06 12:54:42.425 DEBUG ля сверка дашбордов под разными учётками - 20: a6 = ""
+2025-06-06 12:54:42.427 DEBUG ля сверка дашбордов под разными учётками - 21: a7 = ""
+2025-06-06 12:54:42.429 DEBUG ля сверка дашбордов под разными учётками - 22: a8 = ""
+2025-06-06 12:54:42.431 DEBUG ля сверка дашбордов под разными учётками - 23: a9 = ""
+2025-06-06 12:54:42.434 DEBUG ля сверка дашбордов под разными учётками - 24: if (run == 1)
+2025-06-06 12:54:42.436 DEBUG ля сверка дашбордов под разными учётками - 1: user = "админ"
+2025-06-06 12:54:42.438 DEBUG ля сверка дашбордов под разными учётками - 2: a1 = getText(findTestObject("Выручка в рублях/График План"))
+2025-06-06 12:54:42.762 DEBUG ля сверка дашбордов под разными учётками - 3: a2 = getText(findTestObject("Выручка в рублях/График Факт"))
+2025-06-06 12:54:43.064 DEBUG ля сверка дашбордов под разными учётками - 4: a3 = getText(findTestObject("Выручка в рублях/График Отклонение выручки"))
+2025-06-06 12:54:43.799 DEBUG ля сверка дашбордов под разными учётками - 5: a3 = a3.substring(a3.lastIndexOf("Отклонение"))
+2025-06-06 12:54:43.801 DEBUG ля сверка дашбордов под разными учётками - 6: click(findTestObject("Выручка в рублях/Переключить отображение с млн на проценты Выручка в рублях"))
+2025-06-06 12:54:44.147 DEBUG ля сверка дашбордов под разными учётками - 7: a4 = getText(findTestObject("Выручка в рублях/График Отклонение выручки"))
+2025-06-06 12:54:44.842 DEBUG ля сверка дашбордов под разными учётками - 8: a4 = a4.substring(a4.lastIndexOf("Отклонение"))
+2025-06-06 12:54:44.843 DEBUG ля сверка дашбордов под разными учётками - 9: click(findTestObject("Выручка в рублях/Переключить отображение с процентов на млн Выручка в рублях"))
+2025-06-06 12:54:45.165 DEBUG ля сверка дашбордов под разными учётками - 10: n = n + 3
+2025-06-06 12:54:45.167 DEBUG ля сверка дашбордов под разными учётками - 11: Script1686231490255.WriteToExcel(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
+2025-06-06 12:54:45.470 DEBUG ля сверка дашбордов под разными учётками - 25: if (run == 2)
+2025-06-06 12:54:45.471 DEBUG ля сверка дашбордов под разными учётками - 26: if (run == 3)
+2025-06-06 12:54:45.472 DEBUG ля сверка дашбордов под разными учётками - 27: closeBrowser()
+2025-06-06 12:54:45.833 DEBUG ля сверка дашбордов под разными учётками - 1: ViruchkaVRublyah(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9, urlData)
+2025-06-06 12:54:45.834 DEBUG ля сверка дашбордов под разными учётками - 1: n = data.getRowNumbers() + 1
+2025-06-06 12:54:45.834 DEBUG ля сверка дашбордов под разными учётками - 2: println(n)
+85
+2025-06-06 12:54:45.835 DEBUG ля сверка дашбордов под разными учётками - 3: dashboardName = "Вырука в рублях"
+2025-06-06 12:54:45.835 DEBUG ля сверка дашбордов под разными учётками - 4: openBrowser("")
+2025-06-06 12:54:45.838 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-06-06 12:54:45.839 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Use managed Chrome browser & driver
+2025-06-06 12:54:45.839 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking and download if needed Chrome browser and driver for Chrome for Testing version latest (This may take a while in case of downloading needed)
+2025-06-06 12:54:46.075 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking Chrome browser and driver completed in 236 ms
+2025-06-06 12:54:46.075 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome driver path: C:\Users\Daria\.cache\selenium\chromedriver\win64\137.0.7151.68\chromedriver.exe
+2025-06-06 12:54:46.075 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome browser path: C:\Users\Daria\.cache\selenium\chrome\win64\137.0.7151.68\chrome.exe
+2025-06-06 12:54:46.075 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+июн. 06, 2025 12:54:47 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+июн. 06, 2025 12:54:47 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 137.0.7151.68. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-06-06 12:54:47.056 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = d59c1b08bc629a014777972864262007
+2025-06-06 12:54:47.056 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 137.0.7151.68
+2025-06-06 12:54:47.056 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2025-06-06 12:54:47.057 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-06-06 12:54:47.057 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-06-06 12:54:47.074 DEBUG ля сверка дашбордов под разными учётками - 5: urlData = 2
+2025-06-06 12:54:47.075 DEBUG ля сверка дашбордов под разными учётками - 6: Script1686231490255.CheckPageDownload(urlData, run)
+2025-06-06 12:56:53.976 DEBUG ля сверка дашбордов под разными учётками - 7: click(findTestObject("Выручка в рублях/Фильтр Период"))
+2025-06-06 12:56:54.351 DEBUG ля сверка дашбордов под разными учётками - 8: click(findTestObject("Выручка в рублях/Снять выделение в фильтре Дата"))
+2025-06-06 12:56:54.949 DEBUG ля сверка дашбордов под разными учётками - 9: click(findTestObject("Выручка в рублях/Применить в фильтре Дата"))
+2025-06-06 12:56:55.486 DEBUG ля сверка дашбордов под разными учётками - 10: click(findTestObject("Выручка в рублях/Фильтр Период"))
+2025-06-06 12:56:57.405 DEBUG ля сверка дашбордов под разными учётками - 11: click(findTestObject("Выручка в рублях/Снять выделение в фильтре Дата"))
+2025-06-06 12:56:57.947 DEBUG ля сверка дашбордов под разными учётками - 12: scrollToElement(findTestObject("Выручка в рублях/2025 список"), 30)
+2025-06-06 12:56:58.260 DEBUG ля сверка дашбордов под разными учётками - 13: click(findTestObject("Выручка в рублях/2025 список"))
+2025-06-06 12:56:58.612 DEBUG ля сверка дашбордов под разными учётками - 14: scrollToElement(findTestObject("Выручка в рублях/1 квартал 2025 список"), 30)
+2025-06-06 12:56:59.123 DEBUG ля сверка дашбордов под разными учётками - 15: click(findTestObject("Выручка в рублях/1 квартал 2025 выбрать"), CONTINUE_ON_FAILURE)
+2025-06-06 12:56:59.504 DEBUG ля сверка дашбордов под разными учётками - 16: click(findTestObject("Выручка в рублях/Применить в фильтре Дата"))
+2025-06-06 12:57:00.243 DEBUG ля сверка дашбордов под разными учётками - 17: scrollToElement(findTestObject("Выручка в рублях/Заголовок дашборда"), 30)
+2025-06-06 12:57:01.363 DEBUG ля сверка дашбордов под разными учётками - 18: delay(40)
+2025-06-06 12:57:41.388 DEBUG ля сверка дашбордов под разными учётками - 19: a5 = ""
+2025-06-06 12:57:41.389 DEBUG ля сверка дашбордов под разными учётками - 20: a6 = ""
+2025-06-06 12:57:41.390 DEBUG ля сверка дашбордов под разными учётками - 21: a7 = ""
+2025-06-06 12:57:41.391 DEBUG ля сверка дашбордов под разными учётками - 22: a8 = ""
+2025-06-06 12:57:41.392 DEBUG ля сверка дашбордов под разными учётками - 23: a9 = ""
+2025-06-06 12:57:41.393 DEBUG ля сверка дашбордов под разными учётками - 24: if (run == 1)
+2025-06-06 12:57:41.394 DEBUG ля сверка дашбордов под разными учётками - 25: if (run == 2)
+2025-06-06 12:57:41.396 DEBUG ля сверка дашбордов под разными учётками - 1: user = "Андреева"
+2025-06-06 12:57:41.397 DEBUG ля сверка дашбордов под разными учётками - 2: a1 = getText(findTestObject("Выручка в рублях/График План"))
+2025-06-06 12:57:41.708 DEBUG ля сверка дашбордов под разными учётками - 3: a2 = getText(findTestObject("Выручка в рублях/График Факт"))
+2025-06-06 12:57:42.020 DEBUG ля сверка дашбордов под разными учётками - 4: a3 = getText(findTestObject("Выручка в рублях/График Отклонение выручки"))
+2025-06-06 12:57:42.727 DEBUG ля сверка дашбордов под разными учётками - 5: a3 = a3.substring(a3.lastIndexOf("Отклонение"))
+2025-06-06 12:57:42.728 DEBUG ля сверка дашбордов под разными учётками - 6: click(findTestObject("Выручка в рублях/Переключить отображение с млн на проценты Выручка в рублях"))
+2025-06-06 12:57:43.067 DEBUG ля сверка дашбордов под разными учётками - 7: a4 = getText(findTestObject("Выручка в рублях/График Отклонение выручки"))
+2025-06-06 12:57:43.749 DEBUG ля сверка дашбордов под разными учётками - 8: a4 = a4.substring(a4.lastIndexOf("Отклонение"))
+2025-06-06 12:57:43.750 DEBUG ля сверка дашбордов под разными учётками - 9: click(findTestObject("Выручка в рублях/Переключить отображение с процентов на млн Выручка в рублях"))
+2025-06-06 12:57:44.072 DEBUG ля сверка дашбордов под разными учётками - 10: n = n + 4
+2025-06-06 12:57:44.074 DEBUG ля сверка дашбордов под разными учётками - 11: b = n - run + 1
+2025-06-06 12:57:44.076 DEBUG ля сверка дашбордов под разными учётками - 12: verifyEqual(findTestData("PlanFact").getValue(2, b), a1)
+2025-06-06 12:57:44.130 DEBUG ля сверка дашбордов под разными учётками - 13: verifyEqual(findTestData("PlanFact").getValue(3, b), a2)
+2025-06-06 12:57:44.217 DEBUG ля сверка дашбордов под разными учётками - 14: verifyEqual(findTestData("PlanFact").getValue(4, b), a3)
+2025-06-06 12:57:44.273 DEBUG ля сверка дашбордов под разными учётками - 15: verifyEqual(findTestData("PlanFact").getValue(5, b), a4)
+2025-06-06 12:57:44.329 DEBUG ля сверка дашбордов под разными учётками - 16: Script1686231490255.WriteToExcel(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
+2025-06-06 12:57:44.623 DEBUG ля сверка дашбордов под разными учётками - 26: if (run == 3)
+2025-06-06 12:57:44.623 DEBUG ля сверка дашбордов под разными учётками - 27: closeBrowser()
+2025-06-06 12:57:44.946 DEBUG ля сверка дашбордов под разными учётками - 1: ViruchkaVRublyah(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9, urlData)
+2025-06-06 12:57:44.947 DEBUG ля сверка дашбордов под разными учётками - 1: n = data.getRowNumbers() + 1
+2025-06-06 12:57:44.947 DEBUG ля сверка дашбордов под разными учётками - 2: println(n)
+85
+2025-06-06 12:57:44.947 DEBUG ля сверка дашбордов под разными учётками - 3: dashboardName = "Вырука в рублях"
+2025-06-06 12:57:44.948 DEBUG ля сверка дашбордов под разными учётками - 4: openBrowser("")
+2025-06-06 12:57:44.951 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-06-06 12:57:44.951 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Use managed Chrome browser & driver
+2025-06-06 12:57:44.951 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking and download if needed Chrome browser and driver for Chrome for Testing version latest (This may take a while in case of downloading needed)
+2025-06-06 12:57:45.182 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking Chrome browser and driver completed in 230 ms
+2025-06-06 12:57:45.182 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome driver path: C:\Users\Daria\.cache\selenium\chromedriver\win64\137.0.7151.68\chromedriver.exe
+2025-06-06 12:57:45.182 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome browser path: C:\Users\Daria\.cache\selenium\chrome\win64\137.0.7151.68\chrome.exe
+2025-06-06 12:57:45.182 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+июн. 06, 2025 12:57:46 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+июн. 06, 2025 12:57:46 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 137.0.7151.68. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-06-06 12:57:46.131 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 3a6ebc77fb4b9f3a6abae53d44388c15
+2025-06-06 12:57:46.137 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 137.0.7151.68
+2025-06-06 12:57:46.143 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2025-06-06 12:57:46.149 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-06-06 12:57:46.151 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-06-06 12:57:46.208 DEBUG ля сверка дашбордов под разными учётками - 5: urlData = 2
+2025-06-06 12:57:46.208 DEBUG ля сверка дашбордов под разными учётками - 6: Script1686231490255.CheckPageDownload(urlData, run)
+2025-06-06 12:59:52.528 DEBUG ля сверка дашбордов под разными учётками - 7: click(findTestObject("Выручка в рублях/Фильтр Период"))
+2025-06-06 13:00:23.602 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - Unable to find the element located by 'By.xpath: //div[3]/div[2]/div/div/div/div'. Please recheck the objects properties to make sure the desired element is located. 
+2025-06-06 13:00:23.795 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to click on object 'Object Repository/Выручка в рублях/Фильтр Период' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Выручка в рублях/Фильтр Период'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Блок руководителя сверка дашбордов под разными учётками.ViruchkaVRublyah(Блок руководителя сверка дашбордов под разными учётками:456)
+	at Блок руководителя сверка дашбордов под разными учётками.run(Блок руководителя сверка дашбордов под разными учётками:58)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1749187979623.run(TempTestSuite1749187979623.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Выручка в рублях/Фильтр Период' located by '//div[3]/div[2]/div/div/div/div' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1457)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Script1686231490255.ViruchkaVRublyah(Script1686231490255.groovy:456)
+	at Script1686231490255.run(Script1686231490255.groovy:58)
+	... 15 more
+)
+2025-06-06 13:00:23.796 DEBUG ля сверка дашбордов под разными учётками - 8: click(findTestObject("Выручка в рублях/Снять выделение в фильтре Дата"))
+2025-06-06 13:00:54.802 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - Unable to find the element located by 'By.xpath: //div[@id='a3c898a815454a4bbec76dd1a79d008c']/div/div[2]/div[2]/div[2]'. Please recheck the objects properties to make sure the desired element is located. 
+2025-06-06 13:00:54.892 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to click on object 'Object Repository/Выручка в рублях/Снять выделение в фильтре Дата' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Выручка в рублях/Снять выделение в фильтре Дата'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Блок руководителя сверка дашбордов под разными учётками.ViruchkaVRublyah(Блок руководителя сверка дашбордов под разными учётками:459)
+	at Блок руководителя сверка дашбордов под разными учётками.run(Блок руководителя сверка дашбордов под разными учётками:58)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1749187979623.run(TempTestSuite1749187979623.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Выручка в рублях/Снять выделение в фильтре Дата' located by '//div[@id='a3c898a815454a4bbec76dd1a79d008c']/div/div[2]/div[2]/div[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1457)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Script1686231490255.ViruchkaVRublyah(Script1686231490255.groovy:459)
+	at Script1686231490255.run(Script1686231490255.groovy:58)
+	... 15 more
+)
+2025-06-06 13:00:54.893 DEBUG ля сверка дашбордов под разными учётками - 9: click(findTestObject("Выручка в рублях/Применить в фильтре Дата"))
+2025-06-06 13:01:26.056 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - Unable to find the element located by 'By.xpath: //*/text()[normalize-space(.)='Применить']/parent::*'. Please recheck the objects properties to make sure the desired element is located. 
+2025-06-06 13:01:26.156 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to click on object 'Object Repository/Выручка в рублях/Применить в фильтре Дата' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Выручка в рублях/Применить в фильтре Дата'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Блок руководителя сверка дашбордов под разными учётками.ViruchkaVRublyah(Блок руководителя сверка дашбордов под разными учётками:462)
+	at Блок руководителя сверка дашбордов под разными учётками.run(Блок руководителя сверка дашбордов под разными учётками:58)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1749187979623.run(TempTestSuite1749187979623.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Выручка в рублях/Применить в фильтре Дата' located by '//*/text()[normalize-space(.)='Применить']/parent::*' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1457)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Script1686231490255.ViruchkaVRublyah(Script1686231490255.groovy:462)
+	at Script1686231490255.run(Script1686231490255.groovy:58)
+	... 15 more
+)
+2025-06-06 13:01:26.157 DEBUG ля сверка дашбордов под разными учётками - 10: click(findTestObject("Выручка в рублях/Фильтр Период"))
+2025-06-06 13:01:57.275 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - Unable to find the element located by 'By.xpath: //div[3]/div[2]/div/div/div/div'. Please recheck the objects properties to make sure the desired element is located. 
+2025-06-06 13:01:57.367 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to click on object 'Object Repository/Выручка в рублях/Фильтр Период' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Выручка в рублях/Фильтр Период'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Блок руководителя сверка дашбордов под разными учётками.ViruchkaVRublyah(Блок руководителя сверка дашбордов под разными учётками:465)
+	at Блок руководителя сверка дашбордов под разными учётками.run(Блок руководителя сверка дашбордов под разными учётками:58)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1749187979623.run(TempTestSuite1749187979623.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Выручка в рублях/Фильтр Период' located by '//div[3]/div[2]/div/div/div/div' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1457)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Script1686231490255.ViruchkaVRublyah(Script1686231490255.groovy:465)
+	at Script1686231490255.run(Script1686231490255.groovy:58)
+	... 15 more
+)
+2025-06-06 13:01:57.369 DEBUG ля сверка дашбордов под разными учётками - 11: click(findTestObject("Выручка в рублях/Снять выделение в фильтре Дата"))
+2025-06-06 13:02:28.614 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - Unable to find the element located by 'By.xpath: //div[@id='a3c898a815454a4bbec76dd1a79d008c']/div/div[2]/div[2]/div[2]'. Please recheck the objects properties to make sure the desired element is located. 
+2025-06-06 13:02:28.720 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to click on object 'Object Repository/Выручка в рублях/Снять выделение в фильтре Дата' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Выручка в рублях/Снять выделение в фильтре Дата'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Блок руководителя сверка дашбордов под разными учётками.ViruchkaVRublyah(Блок руководителя сверка дашбордов под разными учётками:468)
+	at Блок руководителя сверка дашбордов под разными учётками.run(Блок руководителя сверка дашбордов под разными учётками:58)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1749187979623.run(TempTestSuite1749187979623.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Выручка в рублях/Снять выделение в фильтре Дата' located by '//div[@id='a3c898a815454a4bbec76dd1a79d008c']/div/div[2]/div[2]/div[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1457)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Script1686231490255.ViruchkaVRublyah(Script1686231490255.groovy:468)
+	at Script1686231490255.run(Script1686231490255.groovy:58)
+	... 15 more
+)
+2025-06-06 13:02:28.721 DEBUG ля сверка дашбордов под разными учётками - 12: scrollToElement(findTestObject("Выручка в рублях/2025 список"), 30)
+2025-06-06 13:02:59.969 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - Unable to find the element located by 'By.xpath: //*/text()[normalize-space(.)='2025']/parent::*'. Please recheck the objects properties to make sure the desired element is located. 
+2025-06-06 13:03:00.081 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to scroll to object 'Object Repository/Выручка в рублях/2025 список' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to scroll to object 'Object Repository/Выручка в рублях/2025 список'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.scrollToElement(ScrollToElementKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.execute(ScrollToElementKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.scrollToElement(WebUiBuiltInKeywords.groovy:4184)
+	at Блок руководителя сверка дашбордов под разными учётками.ViruchkaVRublyah(Блок руководителя сверка дашбордов под разными учётками:470)
+	at Блок руководителя сверка дашбордов под разными учётками.run(Блок руководителя сверка дашбордов под разными учётками:58)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1749187979623.run(TempTestSuite1749187979623.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Выручка в рублях/2025 список' located by '//*/text()[normalize-space(.)='2025']/parent::*' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1457)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.doCall(ScrollToElementKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.call(ScrollToElementKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.scrollToElement(ScrollToElementKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.execute(ScrollToElementKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.scrollToElement(WebUiBuiltInKeywords.groovy:4184)
+	at Script1686231490255.ViruchkaVRublyah(Script1686231490255.groovy:470)
+	at Script1686231490255.run(Script1686231490255.groovy:58)
+	... 15 more
+)
+2025-06-06 13:03:00.083 DEBUG ля сверка дашбордов под разными учётками - 13: click(findTestObject("Выручка в рублях/2025 список"))
+2025-06-06 13:03:31.267 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - Unable to find the element located by 'By.xpath: //*/text()[normalize-space(.)='2025']/parent::*'. Please recheck the objects properties to make sure the desired element is located. 
+2025-06-06 13:03:31.346 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to click on object 'Object Repository/Выручка в рублях/2025 список' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Выручка в рублях/2025 список'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Блок руководителя сверка дашбордов под разными учётками.ViruchkaVRublyah(Блок руководителя сверка дашбордов под разными учётками:472)
+	at Блок руководителя сверка дашбордов под разными учётками.run(Блок руководителя сверка дашбордов под разными учётками:58)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1749187979623.run(TempTestSuite1749187979623.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Выручка в рублях/2025 список' located by '//*/text()[normalize-space(.)='2025']/parent::*' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1457)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Script1686231490255.ViruchkaVRublyah(Script1686231490255.groovy:472)
+	at Script1686231490255.run(Script1686231490255.groovy:58)
+	... 15 more
+)
+2025-06-06 13:03:31.347 DEBUG ля сверка дашбордов под разными учётками - 14: scrollToElement(findTestObject("Выручка в рублях/1 квартал 2025 список"), 30)
+2025-06-06 13:04:02.558 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - Unable to find the element located by 'By.xpath: //li[11]/ul/li/div/div'. Please recheck the objects properties to make sure the desired element is located. 
+2025-06-06 13:04:02.666 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to scroll to object 'Object Repository/Выручка в рублях/1 квартал 2025 список' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to scroll to object 'Object Repository/Выручка в рублях/1 квартал 2025 список'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.scrollToElement(ScrollToElementKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.execute(ScrollToElementKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.scrollToElement(WebUiBuiltInKeywords.groovy:4184)
+	at Блок руководителя сверка дашбордов под разными учётками.ViruchkaVRublyah(Блок руководителя сверка дашбордов под разными учётками:474)
+	at Блок руководителя сверка дашбордов под разными учётками.run(Блок руководителя сверка дашбордов под разными учётками:58)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1749187979623.run(TempTestSuite1749187979623.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Выручка в рублях/1 квартал 2025 список' located by '//li[11]/ul/li/div/div' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1457)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.doCall(ScrollToElementKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.call(ScrollToElementKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.scrollToElement(ScrollToElementKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.execute(ScrollToElementKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.scrollToElement(WebUiBuiltInKeywords.groovy:4184)
+	at Script1686231490255.ViruchkaVRublyah(Script1686231490255.groovy:474)
+	at Script1686231490255.run(Script1686231490255.groovy:58)
+	... 15 more
+)
+2025-06-06 13:04:02.668 DEBUG ля сверка дашбордов под разными учётками - 15: click(findTestObject("Выручка в рублях/1 квартал 2025 выбрать"), CONTINUE_ON_FAILURE)
+2025-06-06 13:04:33.786 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - Unable to find the element located by 'By.xpath: //li[11]/ul/li/div/i'. Please recheck the objects properties to make sure the desired element is located. 
+2025-06-06 13:04:33.865 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to click on object 'Object Repository/Выручка в рублях/1 квартал 2025 выбрать' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Выручка в рублях/1 квартал 2025 выбрать'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:684)
+	at Блок руководителя сверка дашбордов под разными учётками.ViruchkaVRublyah(Блок руководителя сверка дашбордов под разными учётками:476)
+	at Блок руководителя сверка дашбордов под разными учётками.run(Блок руководителя сверка дашбордов под разными учётками:58)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1749187979623.run(TempTestSuite1749187979623.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Выручка в рублях/1 квартал 2025 выбрать' located by '//li[11]/ul/li/div/i' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1457)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:684)
+	at Script1686231490255.ViruchkaVRublyah(Script1686231490255.groovy:476)
+	at Script1686231490255.run(Script1686231490255.groovy:58)
+	... 15 more
+)
+2025-06-06 13:04:33.866 DEBUG ля сверка дашбордов под разными учётками - 16: click(findTestObject("Выручка в рублях/Применить в фильтре Дата"))
+2025-06-06 13:05:05.079 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - Unable to find the element located by 'By.xpath: //*/text()[normalize-space(.)='Применить']/parent::*'. Please recheck the objects properties to make sure the desired element is located. 
+2025-06-06 13:05:05.159 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to click on object 'Object Repository/Выручка в рублях/Применить в фильтре Дата' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Выручка в рублях/Применить в фильтре Дата'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Блок руководителя сверка дашбордов под разными учётками.ViruchkaVRublyah(Блок руководителя сверка дашбордов под разными учётками:479)
+	at Блок руководителя сверка дашбордов под разными учётками.run(Блок руководителя сверка дашбордов под разными учётками:58)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1749187979623.run(TempTestSuite1749187979623.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Выручка в рублях/Применить в фильтре Дата' located by '//*/text()[normalize-space(.)='Применить']/parent::*' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1457)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Script1686231490255.ViruchkaVRublyah(Script1686231490255.groovy:479)
+	at Script1686231490255.run(Script1686231490255.groovy:58)
+	... 15 more
+)
+2025-06-06 13:05:05.161 DEBUG ля сверка дашбордов под разными учётками - 17: scrollToElement(findTestObject("Выручка в рублях/Заголовок дашборда"), 30)
+2025-06-06 13:05:36.412 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - Unable to find the element located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Текст 1 - копия'])[1]/following::div[3]'. Please recheck the objects properties to make sure the desired element is located. 
+2025-06-06 13:05:36.507 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to scroll to object 'Object Repository/Выручка в рублях/Заголовок дашборда' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to scroll to object 'Object Repository/Выручка в рублях/Заголовок дашборда'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.scrollToElement(ScrollToElementKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.execute(ScrollToElementKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.scrollToElement(WebUiBuiltInKeywords.groovy:4184)
+	at Блок руководителя сверка дашбордов под разными учётками.ViruchkaVRublyah(Блок руководителя сверка дашбордов под разными учётками:482)
+	at Блок руководителя сверка дашбордов под разными учётками.run(Блок руководителя сверка дашбордов под разными учётками:58)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1749187979623.run(TempTestSuite1749187979623.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Выручка в рублях/Заголовок дашборда' located by '(.//*[normalize-space(text()) and normalize-space(.)='Текст 1 - копия'])[1]/following::div[3]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1457)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.doCall(ScrollToElementKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.call(ScrollToElementKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.scrollToElement(ScrollToElementKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.execute(ScrollToElementKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.scrollToElement(WebUiBuiltInKeywords.groovy:4184)
+	at Script1686231490255.ViruchkaVRublyah(Script1686231490255.groovy:482)
+	at Script1686231490255.run(Script1686231490255.groovy:58)
+	... 15 more
+)
+2025-06-06 13:05:36.508 DEBUG ля сверка дашбордов под разными учётками - 18: delay(40)
+2025-06-06 13:06:16.520 DEBUG ля сверка дашбордов под разными учётками - 19: a5 = ""
+2025-06-06 13:06:16.522 DEBUG ля сверка дашбордов под разными учётками - 20: a6 = ""
+2025-06-06 13:06:16.523 DEBUG ля сверка дашбордов под разными учётками - 21: a7 = ""
+2025-06-06 13:06:16.524 DEBUG ля сверка дашбордов под разными учётками - 22: a8 = ""
+2025-06-06 13:06:16.525 DEBUG ля сверка дашбордов под разными учётками - 23: a9 = ""
+2025-06-06 13:06:16.525 DEBUG ля сверка дашбордов под разными учётками - 24: if (run == 1)
+2025-06-06 13:06:16.526 DEBUG ля сверка дашбордов под разными учётками - 25: if (run == 2)
+2025-06-06 13:06:16.527 DEBUG ля сверка дашбордов под разными учётками - 26: if (run == 3)
+2025-06-06 13:06:16.529 DEBUG ля сверка дашбордов под разными учётками - 1: user = "Попова"
+2025-06-06 13:06:16.531 DEBUG ля сверка дашбордов под разными учётками - 2: a1 = getText(findTestObject("Выручка в рублях/График План"))
+2025-06-06 13:06:47.683 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - Unable to find the element located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Динамика'])[1]/following::span[1]'. Please recheck the objects properties to make sure the desired element is located. 
+2025-06-06 13:06:47.768 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to get text of object 'Object Repository/Выручка в рублях/График План' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/Выручка в рублях/График План'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:994)
+	at Блок руководителя сверка дашбордов под разными учётками.ViruchkaVRublyah(Блок руководителя сверка дашбордов под разными учётками:557)
+	at Блок руководителя сверка дашбордов под разными учётками.run(Блок руководителя сверка дашбордов под разными учётками:58)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1749187979623.run(TempTestSuite1749187979623.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Выручка в рублях/График План' located by '(.//*[normalize-space(text()) and normalize-space(.)='Динамика'])[1]/following::span[1]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1457)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:994)
+	at Script1686231490255.ViruchkaVRublyah(Script1686231490255.groovy:557)
+	at Script1686231490255.run(Script1686231490255.groovy:58)
+	... 15 more
+)
+2025-06-06 13:06:47.769 DEBUG ля сверка дашбордов под разными учётками - 3: a2 = getText(findTestObject("Выручка в рублях/График Факт"))
+2025-06-06 13:07:18.942 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - Unable to find the element located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Факт'])[1]/following::span[2]'. Please recheck the objects properties to make sure the desired element is located. 
+2025-06-06 13:07:19.024 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to get text of object 'Object Repository/Выручка в рублях/График Факт' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/Выручка в рублях/График Факт'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:994)
+	at Блок руководителя сверка дашбордов под разными учётками.ViruchkaVRublyah(Блок руководителя сверка дашбордов под разными учётками:559)
+	at Блок руководителя сверка дашбордов под разными учётками.run(Блок руководителя сверка дашбордов под разными учётками:58)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1749187979623.run(TempTestSuite1749187979623.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Выручка в рублях/График Факт' located by '(.//*[normalize-space(text()) and normalize-space(.)='Факт'])[1]/following::span[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1457)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:994)
+	at Script1686231490255.ViruchkaVRublyah(Script1686231490255.groovy:559)
+	at Script1686231490255.run(Script1686231490255.groovy:58)
+	... 15 more
+)
+2025-06-06 13:07:19.026 DEBUG ля сверка дашбордов под разными учётками - 4: a3 = getText(findTestObject("Выручка в рублях/График Отклонение выручки"))
+2025-06-06 13:07:50.110 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - Unable to find the element located by 'By.xpath: //div[@id='va-widgets-container']'. Please recheck the objects properties to make sure the desired element is located. 
+2025-06-06 13:07:50.195 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to get text of object 'Object Repository/Выручка в рублях/График Отклонение выручки' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/Выручка в рублях/График Отклонение выручки'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:994)
+	at Блок руководителя сверка дашбордов под разными учётками.ViruchkaVRublyah(Блок руководителя сверка дашбордов под разными учётками:561)
+	at Блок руководителя сверка дашбордов под разными учётками.run(Блок руководителя сверка дашбордов под разными учётками:58)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1749187979623.run(TempTestSuite1749187979623.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Выручка в рублях/График Отклонение выручки' located by '//div[@id='va-widgets-container']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1457)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:994)
+	at Script1686231490255.ViruchkaVRublyah(Script1686231490255.groovy:561)
+	at Script1686231490255.run(Script1686231490255.groovy:58)
+	... 15 more
+)
+2025-06-06 13:07:50.207 DEBUG ля сверка дашбордов под разными учётками - 5: a3 = a3.substring(a3.lastIndexOf("Отклонение"))
+2025-06-06 13:07:50.220 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Сверки дашбордов/Блок руководителя сверка дашбордов под разными учётками FAILED.
+Reason:
+java.lang.NullPointerException: Cannot invoke method lastIndexOf() on null object
+	at Блок руководителя сверка дашбордов под разными учётками.ViruchkaVRublyah(Блок руководителя сверка дашбордов под разными учётками:563)
+	at Блок руководителя сверка дашбордов под разными учётками.run(Блок руководителя сверка дашбордов под разными учётками:58)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1749187979623.run(TempTestSuite1749187979623.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+2025-06-06 13:07:50.222 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Сверки дашбордов/Блок руководителя сверка дашбордов под разными учётками FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Выручка в рублях/Фильтр Период' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Выручка в рублях/Фильтр Период'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Блок руководителя сверка дашбордов под разными учётками.ViruchkaVRublyah(Блок руководителя сверка дашбордов под разными учётками:456)
+	at Блок руководителя сверка дашбордов под разными учётками.run(Блок руководителя сверка дашбордов под разными учётками:58)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1749187979623.run(TempTestSuite1749187979623.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Выручка в рублях/Фильтр Период' located by '//div[3]/div[2]/div/div/div/div' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1457)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Script1686231490255.ViruchkaVRublyah(Script1686231490255.groovy:456)
+	at Script1686231490255.run(Script1686231490255.groovy:58)
+	... 15 more
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Блок руководителя сверка дашбордов под разными учётками.ViruchkaVRublyah(Блок руководителя сверка дашбордов под разными учётками:456)
+	at Блок руководителя сверка дашбордов под разными учётками.run(Блок руководителя сверка дашбордов под разными учётками:58)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1749187979623.run(TempTestSuite1749187979623.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Выручка в рублях/Фильтр Период'
+	... 23 more
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Выручка в рублях/Фильтр Период' located by '//div[3]/div[2]/div/div/div/div' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1457)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 21 more
+
+2025-06-06 13:07:50.232 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Сверки дашбордов/Блок руководителя сверка дашбордов под разными учётками
+2025-06-06 13:07:50.682 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2025-06-06 13:07:50.682 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/Пн-Ср-Пт/Блок руководителя под разными учётками
+2025-06-06 13:07:50.682 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================
