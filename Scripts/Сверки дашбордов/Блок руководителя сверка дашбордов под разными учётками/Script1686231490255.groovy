@@ -135,7 +135,6 @@ static def CheckPageDownload(def urlData, def run) {
         WebUI.refresh()
 
         WebUI.delay(40)
-
     }
     
     urlText = WebUI.getText(findTestObject('Страница авторизации/Text'))
@@ -145,19 +144,20 @@ static def CheckPageDownload(def urlData, def run) {
     searchWord = 'Вход'
 
     if (urlText.contains(searchWord) == false) {
-		while (i < 0) {
-			
-			if(ii==4) break
-
+        while (i < 0) {
+            if (ii == 4) {
+                break
+            }
+            
             WebUI.refresh()
 
             WebUI.delay(40)
 
             urlText = WebUI.getText(findTestObject('Страница авторизации/Text'))
-			
-			i = urlText.indexOf('ошибка')
-			
-			println(i)
+
+            i = urlText.indexOf('ошибка')
+
+            println(i)
         }
     }
     
@@ -177,25 +177,25 @@ static def CheckPageDownload(def urlData, def run) {
         WebUI.refresh()
 
         WebUI.delay(40)
-
     }
     
     urlText = WebUI.getText(findTestObject('Страница авторизации/Text'))
 
     if (urlText.contains('ошибка') || (urlText.contains(searchWord) == false)) {
-		while (i < 0) {
+        while (i < 0) {
+            if (ii == 4) {
+                break
+            }
+            
+            WebUI.refresh()
 
-			if(ii==4) break
-			
-			WebUI.refresh()
-
-			WebUI.delay(40)
+            WebUI.delay(40)
 
             urlText = WebUI.getText(findTestObject('Страница авторизации/Text'))
-			
-			i = urlText.indexOf('ошибка')
-			
-			println(i)
+
+            i = urlText.indexOf('ошибка')
+
+            println(i)
         }
     }
 }
@@ -1812,6 +1812,8 @@ def PrognozPoOtraslyam(def user, def dashboardName, def n, def data, def run, de
 }
 
 static void ZakrytOpoveshenie() {
+    WebUI.delay(20)
+
     String opoveshenie = WebUI.getText(findTestObject('Выполнение бизнес-плана/Просьба обратить внимание'))
 
     println(opoveshenie)

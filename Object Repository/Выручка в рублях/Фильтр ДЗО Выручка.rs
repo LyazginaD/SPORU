@@ -15,6 +15,7 @@
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>d500d804-fc1e-40bf-b1e7-6a47b1f4a46a</webElementGuid>
+      <webElementGuid>d67e79b9-6f55-43bc-a838-ddcab81dd535</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>rb-filter-header-text</value>
-      <webElementGuid>e0f982e1-2121-4c02-b69c-3c433bfd5a93</webElementGuid>
+      <webElementGuid>fc54a3a7-d0e7-4178-8be5-ef0f3729b9e6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +39,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Все</value>
-      <webElementGuid>9a0f5494-a0a8-433a-96e1-dbd8ce3da5e1</webElementGuid>
+      <webElementGuid>396602d6-8cc2-4e0f-a5a9-fc60911da36b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +47,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;14856e9fa16f4f66869821dd2f635e33&quot;)/div[@class=&quot;rb-filter-container not-selectable rb-filter-multi-selection&quot;]/div[@class=&quot;rb-filter-header-container&quot;]/div[@class=&quot;rb-filter-header-text&quot;]</value>
-      <webElementGuid>fd5eaf8c-2dfa-4407-8eca-4c1d2befc541</webElementGuid>
+      <webElementGuid>b8eb2c69-45d7-4be5-b51a-2097b04b69f8</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +55,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='14856e9fa16f4f66869821dd2f635e33']/div/div/div</value>
-      <webElementGuid>775f63cc-83be-447b-9529-ec1ae99bfaed</webElementGuid>
+      <webElementGuid>92191e78-094a-43eb-9aed-849151254677</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +63,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ДЗО'])[1]/following::div[5]</value>
-      <webElementGuid>44477995-48a3-4400-a4a1-ac4a4628a645</webElementGuid>
+      <webElementGuid>2bffb267-d304-4b89-83f3-cf96840d3b67</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='В начало'])[6]/following::div[11]</value>
-      <webElementGuid>d8387435-5d6b-4299-bc16-d4c549dcc312</webElementGuid>
+      <webElementGuid>551a3d79-4e7f-467a-b059-bff9bf7ba323</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Выбранные значения'])[3]/preceding::div[1]</value>
-      <webElementGuid>08993516-b660-449d-addf-6fb1c731c061</webElementGuid>
+      <webElementGuid>d6761db3-f0f6-45f7-af6d-0f58342d6f15</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +87,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Выбрать отображаемые'])[3]/preceding::div[2]</value>
-      <webElementGuid>d22d64c8-2096-47fd-ac34-89f61abad0f6</webElementGuid>
+      <webElementGuid>76bcb08e-5441-4cee-884c-f7c712539b19</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +95,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[13]/div[2]/div/div/div/div</value>
-      <webElementGuid>4a4e009e-007d-4171-8e6a-32ca8b9a718e</webElementGuid>
+      <webElementGuid>df670837-7122-44ba-bf5b-7eedf7ec6534</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +103,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Все' or . = 'Все')]</value>
-      <webElementGuid>5a5dc1b5-6ec2-4745-9277-0bd02509ca10</webElementGuid>
+      <webElementGuid>f1bb1931-d835-45c8-87f0-3a89e4d4b554</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -18,9 +18,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.w
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.testng.keyword.internal.TestNGDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('C:\\Users\\Daria\\AppData\\Local\\Temp\\Katalon\\Test Cases\\\u0412\u044B\u043F\u043E\u043B\u043D\u0435\u043D\u0438\u0435 \u0431\u0438\u0437\u043D\u0435\u0441-\u043F\u043B\u0430\u043D\u0430\\\u0412\u044B\u043F\u043E\u043B\u043D\u0435\u043D\u0438\u0435 \u0431\u0438\u0437\u043D\u0435\u0441-\u043F\u043B\u0430\u043D\u0430 \u0421\u0432\u0435\u0440\u043A\u0430 \u041F\u0410\u041E \u0420\u043E\u0441\u0441\u0435\u0442\u0438 \u0432\u0441\u0435 \u0444\u0438\u043B\u0438\u0430\u043B\u044B\\20250609_223427\\execution.properties')
+RunConfiguration.setExecutionSettingFile('C:\\Users\\Daria\\AppData\\Local\\Temp\\Katalon\\20250610_111502\\execution.properties')
 
 TestCaseMain.beforeStart()
 
-        TestCaseMain.runTestCase('Test Cases/Выполнение бизнес-плана/Выполнение бизнес-плана Сверка ПАО Россети все филиалы', new TestCaseBinding('Test Cases/Выполнение бизнес-плана/Выполнение бизнес-плана Сверка ПАО Россети все филиалы',[:]), FailureHandling.STOP_ON_FAILURE , false)
+        TestCaseMain.runTestCase('', new TestCaseBinding('',[:]), FailureHandling.STOP_ON_FAILURE , false)
     

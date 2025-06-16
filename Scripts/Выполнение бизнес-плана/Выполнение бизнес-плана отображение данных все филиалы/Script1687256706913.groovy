@@ -30,7 +30,7 @@ String urlText
 
 String searchWord
 
-int i=0
+int i = 0
 
 int ii
 
@@ -44,11 +44,12 @@ searchWord = 'Вход'
 
 if (urlText.contains(searchWord) == false) {
     while (i < 0) {
+        if (ii == 4) {
+            break
+        }
+        
+        ii = (ii + 1)
 
-		if(ii==4) break
-		
-		ii = ii +1
-		
         WebUI.refresh()
 
         WebUI.delay(20)
@@ -75,11 +76,12 @@ urlText = WebUI.getText(findTestObject('Страница авторизации/
 
 if (urlText.contains('ошибка') || (urlText.contains(searchWord) == false)) {
     while (i < 0) {
-		
-		if(ii==4) break
-		
-		ii = ii +1
-		
+        if (ii == 4) {
+            break
+        }
+        
+        ii = (ii + 1)
+
         WebUI.refresh()
 
         WebUI.delay(50)
@@ -833,6 +835,12 @@ def DzoTest(def todaysDate, def typeOfData) {
 
     'Нажать "Применить"'
     WebUI.click(findTestObject('Object Repository/Выполнение бизнес-плана/Применить в фильтре ДЗО'))
+
+    'Раскрыть фильтр "Дата"'
+    WebUI.click(findTestObject('Object Repository/Выполнение бизнес-плана/Фильтр Дата'))
+
+    'Нажать "Применить"'
+    WebUI.click(findTestObject('Object Repository/Выполнение бизнес-плана/Применить в фильтре Дата'))
 
     typeOfData = 'Факт'
 
