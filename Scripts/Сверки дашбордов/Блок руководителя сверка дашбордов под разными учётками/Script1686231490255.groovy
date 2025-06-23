@@ -311,7 +311,7 @@ def VipolnenieBiznesPlana(def user, def dashboardName, def n, def data, def run,
 
         WebUI.click(findTestObject('Выполнение бизнес-плана/Кнопка План'))
 
-        WebUI.delay(5)
+        WebUI.delay(10)
 
         a8 = WebUI.getText(findTestObject('Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/План Отпуск в сеть за отчётный период ПАО Россети'))
 
@@ -347,7 +347,7 @@ def VipolnenieBiznesPlana(def user, def dashboardName, def n, def data, def run,
 
         WebUI.click(findTestObject('Выполнение бизнес-плана/Кнопка План'))
 
-        WebUI.delay(5)
+        WebUI.delay(10)
 
         a8 = WebUI.getText(findTestObject('Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/План Отпуск в сеть за отчётный период ПАО Россети'))
 
@@ -403,7 +403,7 @@ def VipolnenieBiznesPlana(def user, def dashboardName, def n, def data, def run,
 
         WebUI.click(findTestObject('Выполнение бизнес-плана/Кнопка План'))
 
-        WebUI.delay(5)
+        WebUI.delay(10)
 
         a8 = WebUI.getText(findTestObject('Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/План Отпуск в сеть за отчётный период ПАО Россети'))
 
@@ -1812,7 +1812,7 @@ def PrognozPoOtraslyam(def user, def dashboardName, def n, def data, def run, de
 }
 
 static void ZakrytOpoveshenie() {
-    WebUI.delay(20)
+    WebUI.delay(30)
 
     String opoveshenie = WebUI.getText(findTestObject('Выполнение бизнес-плана/Просьба обратить внимание'))
 

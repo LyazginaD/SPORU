@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>9928c53d-8520-458c-b826-be98ec142495</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Сверки дашбордов/Блок руководителя сверка дашбордов под разными учётками</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
