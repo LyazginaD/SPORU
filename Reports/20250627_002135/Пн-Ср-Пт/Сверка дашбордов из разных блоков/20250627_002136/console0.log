@@ -1,0 +1,52 @@
+2025-06-27 00:21:43.332 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Пн-Ср-Пт/Сверка дашбордов из разных блоков
+2025-06-27 00:21:43.476 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Дарья Игоревна Лязгина
+2025-06-27 00:21:43.477 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = SPORU
+2025-06-27 00:21:43.478 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = Daria - DariaPC.IGD_Rostelecom
+2025-06-27 00:21:43.479 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 10 64bit
+2025-06-27 00:21:43.480 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.0.17
+2025-06-27 00:21:43.481 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.2.1.0
+2025-06-27 00:21:44.097 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-06-27 00:21:44.098 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Сверки дашбордов/Блок руководителя сверка дашбордов под разными учётками
+2025-06-27 00:21:45.670 DEBUG ля сверка дашбордов под разными учётками - 1: run = 1
+2025-06-27 00:21:45.678 DEBUG ля сверка дашбордов под разными учётками - 2: data = findTestData("PlanFact")
+2025-06-27 00:21:46.119 DEBUG ля сверка дашбордов под разными учётками - 3: n = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2025-06-27 00:21:46.122 DEBUG ля сверка дашбордов под разными учётками - 4: urlData = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2025-06-27 00:21:46.125 DEBUG ля сверка дашбордов под разными учётками - 5: dashboardName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2025-06-27 00:21:46.128 DEBUG ля сверка дашбордов под разными учётками - 6: a1 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2025-06-27 00:21:46.130 DEBUG ля сверка дашбордов под разными учётками - 7: a2 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2025-06-27 00:21:46.135 DEBUG ля сверка дашбордов под разными учётками - 8: a3 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2025-06-27 00:21:46.138 DEBUG ля сверка дашбордов под разными учётками - 9: a4 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2025-06-27 00:21:46.145 DEBUG ля сверка дашбордов под разными учётками - 10: a5 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2025-06-27 00:21:46.161 DEBUG ля сверка дашбордов под разными учётками - 11: a6 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2025-06-27 00:21:46.170 DEBUG ля сверка дашбордов под разными учётками - 12: a7 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2025-06-27 00:21:46.172 DEBUG ля сверка дашбордов под разными учётками - 13: a8 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2025-06-27 00:21:46.174 DEBUG ля сверка дашбордов под разными учётками - 14: a9 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2025-06-27 00:21:46.177 DEBUG ля сверка дашбордов под разными учётками - 15: user = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2025-06-27 00:21:46.180 DEBUG ля сверка дашбордов под разными учётками - 16: for ([run = 1, run < 4, (run++)])
+2025-06-27 00:21:46.182 DEBUG ля сверка дашбордов под разными учётками - 1: VipolnenieBiznesPlana(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9, urlData)
+2025-06-27 00:21:46.201 DEBUG ля сверка дашбордов под разными учётками - 1: a10 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2025-06-27 00:21:46.204 DEBUG ля сверка дашбордов под разными учётками - 2: a11 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2025-06-27 00:21:46.208 DEBUG ля сверка дашбордов под разными учётками - 3: a12 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2025-06-27 00:21:46.210 DEBUG ля сверка дашбордов под разными учётками - 4: n = data.getRowNumbers() + 1
+2025-06-27 00:21:46.237 DEBUG ля сверка дашбордов под разными учётками - 5: println(n)
+85
+2025-06-27 00:21:46.242 DEBUG ля сверка дашбордов под разными учётками - 6: dashboardName = "Выполнение бизнес-плана"
+2025-06-27 00:21:46.248 DEBUG ля сверка дашбордов под разными учётками - 7: openBrowser("")
+2025-06-27 00:21:46.594 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-06-27 00:21:46.628 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Use managed Chrome browser & driver
+2025-06-27 00:21:46.629 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking and download if needed Chrome browser and driver for Chrome for Testing version latest (This may take a while in case of downloading needed)
+2025-06-27 00:21:48.116 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking Chrome browser and driver completed in 1486 ms
+2025-06-27 00:21:48.116 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome driver path: C:\Users\Daria\.cache\selenium\chromedriver\win64\138.0.7204.49\chromedriver.exe
+2025-06-27 00:21:48.117 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome browser path: C:\Users\Daria\.cache\selenium\chrome\win64\138.0.7204.49\chrome.exe
+2025-06-27 00:21:48.135 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+июн. 27, 2025 12:21:49 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 138
+июн. 27, 2025 12:21:49 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 138.0.7204.49. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-06-27 00:21:50.123 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = f9fed145437f28b8e0617bf347e4164c
+2025-06-27 00:21:50.125 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 138.0.7204.49
+2025-06-27 00:21:50.128 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2025-06-27 00:21:50.131 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-06-27 00:21:50.139 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-06-27 00:21:50.183 DEBUG ля сверка дашбордов под разными учётками - 8: urlData = 1
+2025-06-27 00:21:50.186 DEBUG ля сверка дашбордов под разными учётками - 9: Script1686231490255.CheckPageDownload(urlData, run)
