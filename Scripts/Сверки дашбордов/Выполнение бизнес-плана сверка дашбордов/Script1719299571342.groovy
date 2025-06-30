@@ -1630,24 +1630,26 @@ def WriteToExcel(def typeOfData, def todaysDate, def PercPlanR, def PercPlanB, d
 
     String m = WebUI.getText(findTestObject('Выполнение бизнес-плана/Выполнение бизнес-плана Балансы/Фильтр Дата'))
 
-	if (y!=null) {
-		
-		String ii11 = y.toString()+' год -'
-		println(ii11)
-		m = m.replaceAll(ii11,'')
-		
-		println(m)
-	
-		m = m.replaceAll('  ',' ').replaceAll('  ',' ')
-	}
-	
-	m = m.trim()
-	
-	if (m == '') {
-		m = 'весь год'
-	}
-	println(m)
+    if (y != null) {
+        String ii11 = y.toString() + ' год -'
+
+        println(ii11)
+
+        m = m.replaceAll(ii11, '')
+
+        println(m)
+
+        m = m.replaceAll('  ', ' ').replaceAll('  ', ' ')
+    }
     
+    m = m.trim()
+
+    if (m == '') {
+        m = 'весь год'
+    }
+    
+    println(m)
+
     String dashboardName = 'Выполнение бизнес-плана'
 
     def workbook01 = ExcelKeywords.getWorkbook(GlobalVariable.excelFilePath)
@@ -1839,51 +1841,7 @@ static def Presettings(def blockNum, def path) {
         }
     }
     
-    ZakrytOpoveshenie()
-
-    'Раскрыть фильтр "Дата"'
-    WebUI.click(findTestObject(path + 'Фильтр Дата'))
-
-    'Нажать "Снять выделение"'
-    WebUI.click(findTestObject(path + 'Снять выделение в фильтре Дата'))
-
-    'Нажать "Применить"'
-    WebUI.click(findTestObject(path + 'Применить в фильтре Дата'))
-
     WebUI.delay(50)
-
-    ZakrytOpoveshenie()
-
-    'Раскрыть фильтр "Дата"'
-    WebUI.click(findTestObject(path + 'Фильтр Дата'))
-
-    WebUI.scrollToElement(findTestObject(path + '2025 список'), 30)
-
-    'Выбрать нужную дату'
-    WebUI.click(findTestObject(path + '2025 список'))
-
-    WebUI.scrollToElement(findTestObject(path + '1 квартал 2025 список'), 30)
-
-    'Выбрать нужную дату'
-    WebUI.click(findTestObject(path + '1 квартал 2025'))
-
-    WebUI.scrollToElement(findTestObject(path + '2 квартал 2025 список'), 30)
-
-    'Выбрать нужную дату'
-    WebUI.click(findTestObject(path + '2 квартал 2025 список'))
-
-    WebUI.scrollToElement(findTestObject(path + 'Апрель 2025'), 30)
-
-    'Выбрать нужную дату'
-    WebUI.click(findTestObject(path + 'Апрель 2025'))
-
-    'Проскроллить до заголовка дашборда'
-    WebUI.scrollToElement(findTestObject(path + 'Заголовок дашборда'), 30)
-
-    'Нажать "Применить"'
-    WebUI.click(findTestObject(path + 'Применить в фильтре Дата'))
-
-    WebUI.delay(30)
 
     ZakrytOpoveshenie()
 

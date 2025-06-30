@@ -67,6 +67,10 @@ WebUI.scrollToElement(findTestObject('Выручка по ДЗО/Апрель 20
 
 WebUI.click(findTestObject('Выручка по ДЗО/Апрель 2025'), FailureHandling.CONTINUE_ON_FAILURE)
 
+WebUI.scrollToElement(findTestObject('Выручка по ДЗО/Май 2025'), 30)
+
+WebUI.click(findTestObject('Выручка по ДЗО/Май 2025'), FailureHandling.CONTINUE_ON_FAILURE)
+
 'Проскроллить до заголовка фильтра "Дата"'
 WebUI.scrollToElement(findTestObject('Выручка по ДЗО/Заголовок дашборда'), 30)
 
@@ -127,6 +131,10 @@ WebUI.click(findTestObject('Выручка по ДЗО/2 квартал 2025 с�
 WebUI.scrollToElement(findTestObject('Выручка по ДЗО/Апрель 2025 Выручка'), 30)
 
 WebUI.click(findTestObject('Выручка по ДЗО/Апрель 2025 Выручка'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.scrollToElement(findTestObject('Выручка по ДЗО/Май 2025 Выручка'), 30)
+
+WebUI.click(findTestObject('Выручка по ДЗО/Май 2025 Выручка'), FailureHandling.CONTINUE_ON_FAILURE)
 
 'Проскроллить до заголовка фильтра "Дата"'
 WebUI.scrollToElement(findTestObject('Выручка по ДЗО/Заголовок дашборда Выручка'), 30)

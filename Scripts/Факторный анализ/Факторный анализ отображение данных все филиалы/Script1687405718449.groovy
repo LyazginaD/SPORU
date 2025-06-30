@@ -119,6 +119,10 @@ WebUI.scrollToElement(findTestObject('Факторный анализ/Апрел
 
 WebUI.click(findTestObject('Факторный анализ/Апрель 2025'), FailureHandling.CONTINUE_ON_FAILURE)
 
+WebUI.scrollToElement(findTestObject('Факторный анализ/Май 2025'), 30)
+
+WebUI.click(findTestObject('Факторный анализ/Май 2025'), FailureHandling.CONTINUE_ON_FAILURE)
+
 'Проскроллить до заголовка фильтра "Дата"'
 WebUI.scrollToElement(findTestObject('Факторный анализ/Заголовок фильтра Период'), 30)
 

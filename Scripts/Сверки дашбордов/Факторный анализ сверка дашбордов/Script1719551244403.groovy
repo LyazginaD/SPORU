@@ -95,6 +95,10 @@ static def Test(def run, def todaysDate, def typeOfData, def otobrajeniyeDannyh,
 
     WebUI.click(findTestObject('Факторный анализ/Апрель 2025'), FailureHandling.CONTINUE_ON_FAILURE)
 
+    WebUI.scrollToElement(findTestObject('Факторный анализ/Май 2025'), 30)
+
+    WebUI.click(findTestObject('Факторный анализ/Май 2025'), FailureHandling.CONTINUE_ON_FAILURE)
+
     'Проскроллить до заголовка фильтра "Дата"'
     WebUI.scrollToElement(findTestObject('Факторный анализ/Заголовок дашборда'), 30)
 
@@ -374,6 +378,10 @@ static def Test(def run, def todaysDate, def typeOfData, def otobrajeniyeDannyh,
     WebUI.scrollToElement(findTestObject('Факторный анализ/Апрель 2025 Выручка'), 30)
 
     WebUI.click(findTestObject('Факторный анализ/Апрель 2025 Выручка'), FailureHandling.CONTINUE_ON_FAILURE)
+
+    WebUI.scrollToElement(findTestObject('Факторный анализ/Май 2025 Выручка'), 30)
+
+    WebUI.click(findTestObject('Факторный анализ/Май 2025 Выручка'), FailureHandling.CONTINUE_ON_FAILURE)
 
     'Проскроллить до заголовка фильтра "Дата"'
     WebUI.scrollToElement(findTestObject('Факторный анализ/Заголовок дашборда Выручка'), 30)
@@ -705,11 +713,10 @@ static def Test(def run, def todaysDate, def typeOfData, def otobrajeniyeDannyh,
 }
 
 static def Compare(def x, def y, def run, def typeOfData, def otobrajeniyeDannyh, def todaysDate, def vidget, def DZO) {
-	
-	x = x.replaceAll('\\s+', '').trim()
-	
-	y = y.replaceAll('\\s+', '').trim()
-	
+    x = x.replaceAll('\\s+', '').trim()
+
+    y = y.replaceAll('\\s+', '').trim()
+
     if (WebUI.verifyEqual(x, y) == true) {
     } else {
         if (run == 1) {
@@ -728,7 +735,6 @@ static def CompareDZO(def x, def y, def run, def typeOfData, def otobrajeniyeDan
     x = x.replaceAll('\\s+', '').trim()
 
     y = y.replaceAll('\\s+', '').trim()
-
 
     if (WebUI.verifyEqual(x, y) == true) {
     } else {

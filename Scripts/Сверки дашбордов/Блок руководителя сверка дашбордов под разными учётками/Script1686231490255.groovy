@@ -219,46 +219,6 @@ def VipolnenieBiznesPlana(def user, def dashboardName, def n, def data, def run,
 
     CheckPageDownload(urlData, run)
 
-    ZakrytOpoveshenie()
-
-    'Раскрыть фильтр "Дата"'
-    WebUI.click(findTestObject('Object Repository/Выполнение бизнес-плана/Фильтр Дата'))
-
-    'Нажать "Снять выделение"'
-    WebUI.click(findTestObject('Выполнение бизнес-плана/Снять выделение в фильтре Дата'))
-
-    'Нажать "Применить"'
-    WebUI.click(findTestObject('Object Repository/Выполнение бизнес-плана/Применить в фильтре Дата'))
-
-    WebUI.delay(40)
-
-    ZakrytOpoveshenie()
-
-    'Раскрыть фильтр "Дата"'
-    WebUI.click(findTestObject('Object Repository/Выполнение бизнес-плана/Фильтр Дата'))
-
-    WebUI.scrollToElement(findTestObject('Выполнение бизнес-плана/2025 список'), 30)
-
-    WebUI.click(findTestObject('Выполнение бизнес-плана/2025 список'), FailureHandling.CONTINUE_ON_FAILURE)
-
-    WebUI.scrollToElement(findTestObject('Выполнение бизнес-плана/1 квартал 2025 список'), 30)
-
-    WebUI.click(findTestObject('Выполнение бизнес-плана/1 квартал 2025'), FailureHandling.CONTINUE_ON_FAILURE)
-
-    WebUI.scrollToElement(findTestObject('Выполнение бизнес-плана/2 квартал 2025 список'), 30)
-
-    WebUI.click(findTestObject('Выполнение бизнес-плана/2 квартал 2025 список'), FailureHandling.CONTINUE_ON_FAILURE)
-
-    WebUI.scrollToElement(findTestObject('Выполнение бизнес-плана/Апрель 2025'), 30)
-
-    WebUI.click(findTestObject('Выполнение бизнес-плана/Апрель 2025'), FailureHandling.CONTINUE_ON_FAILURE)
-
-    'Проскроллить до заголовка фильтра "Дата"'
-    WebUI.scrollToElement(findTestObject('Выполнение бизнес-плана/Заголовок дашборда'), 30)
-
-    'Нажать "Применить"'
-    WebUI.click(findTestObject('Object Repository/Выполнение бизнес-плана/Применить в фильтре Дата'))
-
     WebUI.delay(40)
 
     ZakrytOpoveshenie()
@@ -474,6 +434,14 @@ def ViruchkaVRublyah(def user, def dashboardName, def n, def data, def run, def 
     WebUI.scrollToElement(findTestObject('Выручка в рублях/1 квартал 2025 список'), 30)
 
     WebUI.click(findTestObject('Выручка в рублях/1 квартал 2025 выбрать'), FailureHandling.CONTINUE_ON_FAILURE)
+
+    WebUI.scrollToElement(findTestObject('Выручка в рублях/Апрель 2025'), 30)
+
+    WebUI.click(findTestObject('Выручка в рублях/Апрель 2025'), FailureHandling.CONTINUE_ON_FAILURE)
+
+    WebUI.scrollToElement(findTestObject('Выручка в рублях/Май 2025'), 30)
+
+    WebUI.click(findTestObject('Выручка в рублях/Май 2025'), FailureHandling.CONTINUE_ON_FAILURE)
 
     'Нажать "Применить"'
     WebUI.click(findTestObject('Выручка в рублях/Применить в фильтре Дата'))
@@ -1213,6 +1181,10 @@ def FaktorniyAnaliz(def user, def dashboardName, def n, def data, def run, def a
 
     WebUI.click(findTestObject('Факторный анализ/Апрель 2025'), FailureHandling.CONTINUE_ON_FAILURE)
 
+    WebUI.scrollToElement(findTestObject('Факторный анализ/Май 2025'), 30)
+
+    WebUI.click(findTestObject('Факторный анализ/Май 2025'), FailureHandling.CONTINUE_ON_FAILURE)
+
     'Проскроллить до заголовка фильтра "Дата"'
     WebUI.scrollToElement(findTestObject('Факторный анализ/Заголовок дашборда'), 30)
 
@@ -1349,6 +1321,10 @@ def ViruchkaPoDZO(def user, def dashboardName, def n, def data, def run, def a1,
     WebUI.scrollToElement(findTestObject('Выручка по ДЗО/Апрель 2025'), 30)
 
     WebUI.click(findTestObject('Выручка по ДЗО/Апрель 2025'), FailureHandling.CONTINUE_ON_FAILURE)
+
+    WebUI.scrollToElement(findTestObject('Выручка по ДЗО/Май 2025'), 30)
+
+    WebUI.click(findTestObject('Выручка по ДЗО/Май 2025'), FailureHandling.CONTINUE_ON_FAILURE)
 
     'Проскроллить до заголовка фильтра "Дата"'
     WebUI.scrollToElement(findTestObject('Выручка по ДЗО/Заголовок дашборда'), 30)
