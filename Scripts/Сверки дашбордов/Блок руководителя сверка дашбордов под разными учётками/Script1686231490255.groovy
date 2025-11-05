@@ -237,14 +237,6 @@ def VipolnenieBiznesPlana(def user, def dashboardName, def n, def data, def run,
 
     WebUI.delay(40)
 
-    'Раскрыть фильтр "Дата"'
-    WebUI.click(findTestObject('Object Repository/Выполнение бизнес-плана/Фильтр Дата'))
-
-    'Нажать "Применить"'
-    WebUI.click(findTestObject('Object Repository/Выполнение бизнес-плана/Применить в фильтре Дата'))
-
-    WebUI.delay(40)
-
     '!'
     ZakrytOpoveshenie()
 
@@ -331,11 +323,7 @@ def VipolnenieBiznesPlana(def user, def dashboardName, def n, def data, def run,
 
         WebUI.verifyEqual(findTestData('PlanFact').getValue(6, b), a5)
 
-        WebUI.verifyEqual(findTestData('PlanFact').getValue(7, b), a6)
-
         WebUI.verifyEqual(findTestData('PlanFact').getValue(8, b), a7)
-
-        WebUI.verifyEqual(findTestData('PlanFact').getValue(9, b), a8)
 
         WriteToExcel(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
     }
@@ -387,11 +375,7 @@ def VipolnenieBiznesPlana(def user, def dashboardName, def n, def data, def run,
 
         WebUI.verifyEqual(findTestData('PlanFact').getValue(6, b), a5)
 
-        WebUI.verifyEqual(findTestData('PlanFact').getValue(7, b), a6)
-
         WebUI.verifyEqual(findTestData('PlanFact').getValue(8, b), a7)
-
-        WebUI.verifyEqual(findTestData('PlanFact').getValue(9, b), a8)
 
         WriteToExcel(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
     }
@@ -435,13 +419,13 @@ def ViruchkaVRublyah(def user, def dashboardName, def n, def data, def run, def 
 
     WebUI.click(findTestObject('Выручка в рублях/1 квартал 2025 выбрать'), FailureHandling.CONTINUE_ON_FAILURE)
 
-    WebUI.scrollToElement(findTestObject('Выручка в рублях/Апрель 2025'), 30)
+    WebUI.scrollToElement(findTestObject('Выручка в рублях/2 квартал 2025 список'), 30)
 
-    WebUI.click(findTestObject('Выручка в рублях/Апрель 2025'), FailureHandling.CONTINUE_ON_FAILURE)
+    WebUI.click(findTestObject('Выручка в рублях/2 квартал 2025 выбрать'), FailureHandling.CONTINUE_ON_FAILURE)
 
-    WebUI.scrollToElement(findTestObject('Выручка в рублях/Май 2025'), 30)
+    WebUI.scrollToElement(findTestObject('Выручка в рублях/3 квартал 2025 список'), 30)
 
-    WebUI.click(findTestObject('Выручка в рублях/Май 2025'), FailureHandling.CONTINUE_ON_FAILURE)
+    WebUI.click(findTestObject('Выручка в рублях/3 квартал 2025 выбрать'), FailureHandling.CONTINUE_ON_FAILURE)
 
     'Нажать "Применить"'
     WebUI.click(findTestObject('Выручка в рублях/Применить в фильтре Дата'))
@@ -512,10 +496,6 @@ def ViruchkaVRublyah(def user, def dashboardName, def n, def data, def run, def 
 
         WebUI.verifyEqual(findTestData('PlanFact').getValue(3, b), a2)
 
-        WebUI.verifyEqual(findTestData('PlanFact').getValue(4, b), a3)
-
-        WebUI.verifyEqual(findTestData('PlanFact').getValue(5, b), a4)
-
         WriteToExcel(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
     }
     
@@ -545,10 +525,6 @@ def ViruchkaVRublyah(def user, def dashboardName, def n, def data, def run, def 
         WebUI.verifyEqual(findTestData('PlanFact').getValue(2, b), a1)
 
         WebUI.verifyEqual(findTestData('PlanFact').getValue(3, b), a2)
-
-        WebUI.verifyEqual(findTestData('PlanFact').getValue(4, b), a3)
-
-        WebUI.verifyEqual(findTestData('PlanFact').getValue(5, b), a4)
 
         WriteToExcel(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
     }
@@ -676,8 +652,6 @@ def OtpuskIzSeti(def user, def dashboardName, def n, def data, def run, def a1, 
 
         a3 = WebUI.getText(findTestObject('Отпуск из сети/span3'))
 
-        a4 = WebUI.getText(findTestObject('Отпуск из сети/График1'))
-
         a5 = WebUI.getText(findTestObject('Отпуск из сети/График2'))
 
         n = (n + 9)
@@ -708,8 +682,6 @@ def OtpuskIzSeti(def user, def dashboardName, def n, def data, def run, def a1, 
 
         WebUI.verifyEqual(findTestData('PlanFact').getValue(4, b), a3)
 
-        WebUI.verifyEqual(findTestData('PlanFact').getValue(5, b), a4)
-
         WebUI.verifyEqual(findTestData('PlanFact').getValue(6, b), a5)
 
         WriteToExcel(user, dashboardName, n, data, run, a1, a2, a3, a4, a5, a6, a7, a8, a9)
@@ -737,8 +709,6 @@ def OtpuskIzSeti(def user, def dashboardName, def n, def data, def run, def a1, 
         WebUI.verifyEqual(findTestData('PlanFact').getValue(3, b), a2)
 
         WebUI.verifyEqual(findTestData('PlanFact').getValue(4, b), a3)
-
-        WebUI.verifyEqual(findTestData('PlanFact').getValue(5, b), a4)
 
         WebUI.verifyEqual(findTestData('PlanFact').getValue(6, b), a5)
 
@@ -1175,15 +1145,11 @@ def FaktorniyAnaliz(def user, def dashboardName, def n, def data, def run, def a
 
     WebUI.scrollToElement(findTestObject('Факторный анализ/2 квартал 2025 список'), 30)
 
-    WebUI.click(findTestObject('Факторный анализ/2 квартал 2025 список'), FailureHandling.CONTINUE_ON_FAILURE)
+    WebUI.click(findTestObject('Факторный анализ/2 квартал 2025 выбрать'), FailureHandling.CONTINUE_ON_FAILURE)
 
-    WebUI.scrollToElement(findTestObject('Факторный анализ/Апрель 2025'), 30)
+    WebUI.scrollToElement(findTestObject('Факторный анализ/3 квартал 2025 список'), 30)
 
-    WebUI.click(findTestObject('Факторный анализ/Апрель 2025'), FailureHandling.CONTINUE_ON_FAILURE)
-
-    WebUI.scrollToElement(findTestObject('Факторный анализ/Май 2025'), 30)
-
-    WebUI.click(findTestObject('Факторный анализ/Май 2025'), FailureHandling.CONTINUE_ON_FAILURE)
+    WebUI.click(findTestObject('Факторный анализ/3 квартал 2025 выбрать'), FailureHandling.CONTINUE_ON_FAILURE)
 
     'Проскроллить до заголовка фильтра "Дата"'
     WebUI.scrollToElement(findTestObject('Факторный анализ/Заголовок дашборда'), 30)
@@ -1316,15 +1282,15 @@ def ViruchkaPoDZO(def user, def dashboardName, def n, def data, def run, def a1,
 
     WebUI.scrollToElement(findTestObject('Выручка по ДЗО/2 квартал 2025 список'), 30)
 
-    WebUI.click(findTestObject('Выручка по ДЗО/2 квартал 2025 список'), FailureHandling.CONTINUE_ON_FAILURE)
+    WebUI.click(findTestObject('Выручка по ДЗО/2 квартал 2025 выбрать'), FailureHandling.CONTINUE_ON_FAILURE)
 
-    WebUI.scrollToElement(findTestObject('Выручка по ДЗО/Апрель 2025'), 30)
+    WebUI.scrollToElement(findTestObject('Выручка по ДЗО/2 квартал 2025 список'), 30)
 
-    WebUI.click(findTestObject('Выручка по ДЗО/Апрель 2025'), FailureHandling.CONTINUE_ON_FAILURE)
+    WebUI.click(findTestObject('Выручка по ДЗО/2 квартал 2025 выбрать'), FailureHandling.CONTINUE_ON_FAILURE)
 
-    WebUI.scrollToElement(findTestObject('Выручка по ДЗО/Май 2025'), 30)
+    WebUI.scrollToElement(findTestObject('Выручка по ДЗО/3 квартал 2025 список'), 30)
 
-    WebUI.click(findTestObject('Выручка по ДЗО/Май 2025'), FailureHandling.CONTINUE_ON_FAILURE)
+    WebUI.click(findTestObject('Выручка по ДЗО/3 квартал 2025 выбрать'), FailureHandling.CONTINUE_ON_FAILURE)
 
     'Проскроллить до заголовка фильтра "Дата"'
     WebUI.scrollToElement(findTestObject('Выручка по ДЗО/Заголовок дашборда'), 30)

@@ -1,0 +1,85 @@
+2025-07-28 12:31:39.974 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Пн-Ср-Пт/Сверка дашбордов из разных блоков
+2025-07-28 12:31:40.117 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Дарья Игоревна Лязгина
+2025-07-28 12:31:40.121 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = SPORU
+2025-07-28 12:31:40.122 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = Daria - DariaPC.IGD_Rostelecom
+2025-07-28 12:31:40.123 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 10 64bit
+2025-07-28 12:31:40.125 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.0.17
+2025-07-28 12:31:40.126 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.2.1.0
+2025-07-28 12:31:40.700 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-07-28 12:31:40.701 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Сверки дашбордов/Выполнение бизнес-плана сверка дашбордов
+2025-07-28 12:31:42.376 DEBUG Выполнение бизнес-плана сверка дашбордов - 1: date = new java.util.Date()
+2025-07-28 12:31:42.390 DEBUG Выполнение бизнес-плана сверка дашбордов - 2: todaysDate = date.format("dd.MM.yyyy")
+2025-07-28 12:31:42.426 DEBUG Выполнение бизнес-плана сверка дашбордов - 3: blockNum = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2025-07-28 12:31:42.436 DEBUG Выполнение бизнес-плана сверка дашбордов - 4: path = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2025-07-28 12:31:42.447 DEBUG Выполнение бизнес-плана сверка дашбордов - 5: typeOfData = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2025-07-28 12:31:42.461 DEBUG Выполнение бизнес-плана сверка дашбордов - 6: i = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2025-07-28 12:31:42.468 DEBUG Выполнение бизнес-плана сверка дашбордов - 7: dZO = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2025-07-28 12:31:42.474 DEBUG Выполнение бизнес-плана сверка дашбордов - 8: vidget = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2025-07-28 12:31:42.482 DEBUG Выполнение бизнес-плана сверка дашбордов - 9: tabR = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2025-07-28 12:31:42.488 DEBUG Выполнение бизнес-плана сверка дашбордов - 10: tabB = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2025-07-28 12:31:42.494 DEBUG Выполнение бизнес-плана сверка дашбордов - 11: o1R = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2025-07-28 12:31:42.497 DEBUG Выполнение бизнес-плана сверка дашбордов - 12: o1B = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2025-07-28 12:31:42.506 DEBUG Выполнение бизнес-плана сверка дашбордов - 13: PercPlanR = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2025-07-28 12:31:42.511 DEBUG Выполнение бизнес-плана сверка дашбордов - 14: PercPlanB = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2025-07-28 12:31:42.516 DEBUG Выполнение бизнес-плана сверка дашбордов - 15: PercFactR = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2025-07-28 12:31:42.520 DEBUG Выполнение бизнес-плана сверка дашбордов - 16: PercFactB = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2025-07-28 12:31:42.525 DEBUG Выполнение бизнес-плана сверка дашбордов - 17: pRR = "ПАО Россети/"
+2025-07-28 12:31:42.533 DEBUG Выполнение бизнес-плана сверка дашбордов - 18: fR = "Россети ФСК ЕЭС/"
+2025-07-28 12:31:42.539 DEBUG Выполнение бизнес-плана сверка дашбордов - 19: tyR = "АО "Тываэнерго"/"
+2025-07-28 12:31:42.544 DEBUG Выполнение бизнес-плана сверка дашбордов - 20: chR = "Чеченэнерго"
+2025-07-28 12:31:42.548 DEBUG Выполнение бизнес-плана сверка дашбордов - 21: vR = "Россети Волга/"
+2025-07-28 12:31:42.555 DEBUG Выполнение бизнес-плана сверка дашбордов - 22: kR = "Россети Кубань/"
+2025-07-28 12:31:42.558 DEBUG Выполнение бизнес-плана сверка дашбордов - 23: lR = "Россети Ленэнерго (ГК)/"
+2025-07-28 12:31:42.564 DEBUG Выполнение бизнес-плана сверка дашбордов - 24: mR = "Россети Московский регион/"
+2025-07-28 12:31:42.572 DEBUG Выполнение бизнес-плана сверка дашбордов - 25: sKR = "Россети Северный Кавказ (ГК)/"
+2025-07-28 12:31:42.580 DEBUG Выполнение бизнес-плана сверка дашбордов - 26: sZR = "Россети Северо-Запад/"
+2025-07-28 12:31:42.582 DEBUG Выполнение бизнес-плана сверка дашбордов - 27: siR = "Россети Сибирь (ГК)/"
+2025-07-28 12:31:42.587 DEBUG Выполнение бизнес-плана сверка дашбордов - 28: tomR = "Россети Томск/"
+2025-07-28 12:31:42.593 DEBUG Выполнение бизнес-плана сверка дашбордов - 29: tyumR = "Россети Тюмень/"
+2025-07-28 12:31:42.602 DEBUG Выполнение бизнес-плана сверка дашбордов - 30: urR = "Россети Урал (ГК)/"
+2025-07-28 12:31:42.608 DEBUG Выполнение бизнес-плана сверка дашбордов - 31: cenR = "Россети Центр (ГК)/"
+2025-07-28 12:31:42.615 DEBUG Выполнение бизнес-плана сверка дашбордов - 32: cIPR = "Россети Центр и Приволжье (ГК)/"
+2025-07-28 12:31:42.624 DEBUG Выполнение бизнес-плана сверка дашбордов - 33: ugR = "Россети Юг (ГК)/"
+2025-07-28 12:31:42.634 DEBUG Выполнение бизнес-плана сверка дашбордов - 34: yR = "Россети Янтарь/"
+2025-07-28 12:31:42.641 DEBUG Выполнение бизнес-плана сверка дашбордов - 35: pRB = "ПАО Россети/"
+2025-07-28 12:31:42.646 DEBUG Выполнение бизнес-плана сверка дашбордов - 36: fB = "Россети ФСК ЕЭС/"
+2025-07-28 12:31:42.649 DEBUG Выполнение бизнес-плана сверка дашбордов - 37: tyB = "АО "Тываэнерго"/"
+2025-07-28 12:31:42.654 DEBUG Выполнение бизнес-плана сверка дашбордов - 38: chB = "Чеченэнерго"
+2025-07-28 12:31:42.657 DEBUG Выполнение бизнес-плана сверка дашбордов - 39: vB = "Россети Волга/"
+2025-07-28 12:31:42.663 DEBUG Выполнение бизнес-плана сверка дашбордов - 40: kB = "Россети Кубань/"
+2025-07-28 12:31:42.665 DEBUG Выполнение бизнес-плана сверка дашбордов - 41: lB = "Россети Ленэнерго (ГК)/"
+2025-07-28 12:31:42.669 DEBUG Выполнение бизнес-плана сверка дашбордов - 42: mB = "Россети Московский регион/"
+2025-07-28 12:31:42.674 DEBUG Выполнение бизнес-плана сверка дашбордов - 43: sKB = "Россети Северный Кавказ (ГК)/"
+2025-07-28 12:31:42.681 DEBUG Выполнение бизнес-плана сверка дашбордов - 44: sZB = "Россети Северо-Запад/"
+2025-07-28 12:31:42.686 DEBUG Выполнение бизнес-плана сверка дашбордов - 45: siB = "Россети Сибирь (ГК)/"
+2025-07-28 12:31:42.689 DEBUG Выполнение бизнес-плана сверка дашбордов - 46: tomB = "Россети Томск/"
+2025-07-28 12:31:42.695 DEBUG Выполнение бизнес-плана сверка дашбордов - 47: tyumB = "Россети Тюмень/"
+2025-07-28 12:31:42.701 DEBUG Выполнение бизнес-плана сверка дашбордов - 48: urB = "Россети Урал (ГК)/"
+2025-07-28 12:31:42.707 DEBUG Выполнение бизнес-плана сверка дашбордов - 49: cenB = "Россети Центр (ГК)/"
+2025-07-28 12:31:42.713 DEBUG Выполнение бизнес-плана сверка дашбордов - 50: cIPB = "Россети Центр и Приволжье (ГК)/"
+2025-07-28 12:31:42.716 DEBUG Выполнение бизнес-плана сверка дашбордов - 51: ugB = "Россети Юг (ГК)/"
+2025-07-28 12:31:42.723 DEBUG Выполнение бизнес-плана сверка дашбордов - 52: yB = "Россети Янтарь/"
+2025-07-28 12:31:42.727 DEBUG Выполнение бизнес-плана сверка дашбордов - 53: VseDZO = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2025-07-28 12:31:42.729 DEBUG Выполнение бизнес-плана сверка дашбордов - 54: a = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2025-07-28 12:31:42.739 DEBUG Выполнение бизнес-плана сверка дашбордов - 55: b = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2025-07-28 12:31:42.748 DEBUG Выполнение бизнес-плана сверка дашбордов - 56: dZONum = 0
+2025-07-28 12:31:42.749 DEBUG Выполнение бизнес-плана сверка дашбордов - 57: x = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2025-07-28 12:31:42.758 DEBUG Выполнение бизнес-плана сверка дашбордов - 58: blockNum = 1
+2025-07-28 12:31:42.766 DEBUG Выполнение бизнес-плана сверка дашбордов - 59: path = "Object Repository/Выполнение бизнес-плана/"
+2025-07-28 12:31:42.770 DEBUG Выполнение бизнес-плана сверка дашбордов - 60: Script1719299571342.Presettings(blockNum, path)
+2025-07-28 12:31:43.215 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-07-28 12:31:43.261 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Use managed Chrome browser & driver
+2025-07-28 12:31:43.265 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking and download if needed Chrome browser and driver for Chrome for Testing version latest (This may take a while in case of downloading needed)
+2025-07-28 12:31:43.743 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking Chrome browser and driver completed in 478 ms
+2025-07-28 12:31:43.744 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome driver path: E:\Prog\chromedriver-win64\chromedriver.exe
+2025-07-28 12:31:43.744 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome browser path: C:\Users\Daria\.cache\selenium\chrome\win64\138.0.7204.168\chrome.exe
+2025-07-28 12:31:43.762 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+июл. 28, 2025 12:31:45 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 138
+июл. 28, 2025 12:31:45 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 138.0.7204.168. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-07-28 12:31:45.779 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = ea625685ba37d811bce07b70fb38f34e
+2025-07-28 12:31:45.780 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 138.0.7204.168
+2025-07-28 12:31:45.782 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2025-07-28 12:31:45.782 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-07-28 12:31:45.823 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }

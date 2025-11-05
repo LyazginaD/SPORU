@@ -1,0 +1,264 @@
+2025-10-13 13:32:22.604 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Пн-Ср-Пт/Сверка дашбордов из разных блоков
+2025-10-13 13:32:23.552 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Дарья Игоревна Лязгина
+2025-10-13 13:32:23.556 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = SPORU
+2025-10-13 13:32:23.558 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = Daria - host.docker.internal
+2025-10-13 13:32:23.560 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 10 64bit
+2025-10-13 13:32:23.561 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.0.17
+2025-10-13 13:32:23.563 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.3.2.0
+2025-10-13 13:32:25.332 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-10-13 13:32:25.332 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Сверки дашбордов/Выполнение бизнес-плана сверка дашбордов
+2025-10-13 13:32:26.817 DEBUG Выполнение бизнес-плана сверка дашбордов - 1: date = new java.util.Date()
+2025-10-13 13:32:26.839 DEBUG Выполнение бизнес-плана сверка дашбордов - 2: todaysDate = date.format("dd.MM.yyyy")
+2025-10-13 13:32:26.870 DEBUG Выполнение бизнес-плана сверка дашбордов - 3: blockNum = 
+2025-10-13 13:32:26.889 DEBUG Выполнение бизнес-плана сверка дашбордов - 4: path = 
+2025-10-13 13:32:26.900 DEBUG Выполнение бизнес-плана сверка дашбордов - 5: typeOfData = 
+2025-10-13 13:32:26.905 DEBUG Выполнение бизнес-плана сверка дашбордов - 6: i = 
+2025-10-13 13:32:26.909 DEBUG Выполнение бизнес-плана сверка дашбордов - 7: dZO = 
+2025-10-13 13:32:26.918 DEBUG Выполнение бизнес-плана сверка дашбордов - 8: vidget = 
+2025-10-13 13:32:26.933 DEBUG Выполнение бизнес-плана сверка дашбордов - 9: tabR = 
+2025-10-13 13:32:26.937 DEBUG Выполнение бизнес-плана сверка дашбордов - 10: tabB = 
+2025-10-13 13:32:26.968 DEBUG Выполнение бизнес-плана сверка дашбордов - 11: o1R = 
+2025-10-13 13:32:27.029 DEBUG Выполнение бизнес-плана сверка дашбордов - 12: o1B = 
+2025-10-13 13:32:27.036 DEBUG Выполнение бизнес-плана сверка дашбордов - 13: PercPlanR = 
+2025-10-13 13:32:27.040 DEBUG Выполнение бизнес-плана сверка дашбордов - 14: PercPlanB = 
+2025-10-13 13:32:27.049 DEBUG Выполнение бизнес-плана сверка дашбордов - 15: PercFactR = 
+2025-10-13 13:32:27.057 DEBUG Выполнение бизнес-плана сверка дашбордов - 16: PercFactB = 
+2025-10-13 13:32:27.068 DEBUG Выполнение бизнес-плана сверка дашбордов - 17: pRR = "ПАО Россети/"
+2025-10-13 13:32:27.075 DEBUG Выполнение бизнес-плана сверка дашбордов - 18: fR = "Россети ФСК ЕЭС/"
+2025-10-13 13:32:27.078 DEBUG Выполнение бизнес-плана сверка дашбордов - 19: tyR = "АО "Тываэнерго"/"
+2025-10-13 13:32:27.082 DEBUG Выполнение бизнес-плана сверка дашбордов - 20: chR = "Чеченэнерго"
+2025-10-13 13:32:27.089 DEBUG Выполнение бизнес-плана сверка дашбордов - 21: vR = "Россети Волга/"
+2025-10-13 13:32:27.098 DEBUG Выполнение бизнес-плана сверка дашбордов - 22: kR = "Россети Кубань/"
+2025-10-13 13:32:27.105 DEBUG Выполнение бизнес-плана сверка дашбордов - 23: lR = "Россети Ленэнерго (ГК)/"
+2025-10-13 13:32:27.114 DEBUG Выполнение бизнес-плана сверка дашбордов - 24: mR = "Россети Московский регион/"
+2025-10-13 13:32:27.132 DEBUG Выполнение бизнес-плана сверка дашбордов - 25: sKR = "Россети Северный Кавказ (ГК)/"
+2025-10-13 13:32:27.142 DEBUG Выполнение бизнес-плана сверка дашбордов - 26: sZR = "Россети Северо-Запад/"
+2025-10-13 13:32:27.150 DEBUG Выполнение бизнес-плана сверка дашбордов - 27: siR = "Россети Сибирь (ГК)/"
+2025-10-13 13:32:27.158 DEBUG Выполнение бизнес-плана сверка дашбордов - 28: tomR = "Россети Томск/"
+2025-10-13 13:32:27.162 DEBUG Выполнение бизнес-плана сверка дашбордов - 29: tyumR = "Россети Тюмень/"
+2025-10-13 13:32:27.167 DEBUG Выполнение бизнес-плана сверка дашбордов - 30: urR = "Россети Урал (ГК)/"
+2025-10-13 13:32:27.170 DEBUG Выполнение бизнес-плана сверка дашбордов - 31: cenR = "Россети Центр (ГК)/"
+2025-10-13 13:32:27.174 DEBUG Выполнение бизнес-плана сверка дашбордов - 32: cIPR = "Россети Центр и Приволжье (ГК)/"
+2025-10-13 13:32:27.181 DEBUG Выполнение бизнес-плана сверка дашбордов - 33: ugR = "Россети Юг (ГК)/"
+2025-10-13 13:32:27.184 DEBUG Выполнение бизнес-плана сверка дашбордов - 34: yR = "Россети Янтарь/"
+2025-10-13 13:32:27.197 DEBUG Выполнение бизнес-плана сверка дашбордов - 35: pRB = "ПАО Россети/"
+2025-10-13 13:32:27.204 DEBUG Выполнение бизнес-плана сверка дашбордов - 36: fB = "Россети ФСК ЕЭС/"
+2025-10-13 13:32:27.210 DEBUG Выполнение бизнес-плана сверка дашбордов - 37: tyB = "АО "Тываэнерго"/"
+2025-10-13 13:32:27.216 DEBUG Выполнение бизнес-плана сверка дашбордов - 38: chB = "Чеченэнерго"
+2025-10-13 13:32:27.221 DEBUG Выполнение бизнес-плана сверка дашбордов - 39: vB = "Россети Волга/"
+2025-10-13 13:32:27.226 DEBUG Выполнение бизнес-плана сверка дашбордов - 40: kB = "Россети Кубань/"
+2025-10-13 13:32:27.230 DEBUG Выполнение бизнес-плана сверка дашбордов - 41: lB = "Россети Ленэнерго (ГК)/"
+2025-10-13 13:32:27.234 DEBUG Выполнение бизнес-плана сверка дашбордов - 42: mB = "Россети Московский регион/"
+2025-10-13 13:32:27.237 DEBUG Выполнение бизнес-плана сверка дашбордов - 43: sKB = "Россети Северный Кавказ (ГК)/"
+2025-10-13 13:32:27.240 DEBUG Выполнение бизнес-плана сверка дашбордов - 44: sZB = "Россети Северо-Запад/"
+2025-10-13 13:32:27.251 DEBUG Выполнение бизнес-плана сверка дашбордов - 45: siB = "Россети Сибирь (ГК)/"
+2025-10-13 13:32:27.256 DEBUG Выполнение бизнес-плана сверка дашбордов - 46: tomB = "Россети Томск/"
+2025-10-13 13:32:27.262 DEBUG Выполнение бизнес-плана сверка дашбордов - 47: tyumB = "Россети Тюмень/"
+2025-10-13 13:32:27.269 DEBUG Выполнение бизнес-плана сверка дашбордов - 48: urB = "Россети Урал (ГК)/"
+2025-10-13 13:32:27.304 DEBUG Выполнение бизнес-плана сверка дашбордов - 49: cenB = "Россети Центр (ГК)/"
+2025-10-13 13:32:27.322 DEBUG Выполнение бизнес-плана сверка дашбордов - 50: cIPB = "Россети Центр и Приволжье (ГК)/"
+2025-10-13 13:32:27.331 DEBUG Выполнение бизнес-плана сверка дашбордов - 51: ugB = "Россети Юг (ГК)/"
+2025-10-13 13:32:27.339 DEBUG Выполнение бизнес-плана сверка дашбордов - 52: yB = "Россети Янтарь/"
+2025-10-13 13:32:27.361 DEBUG Выполнение бизнес-плана сверка дашбордов - 53: VseDZO = 
+2025-10-13 13:32:27.366 DEBUG Выполнение бизнес-плана сверка дашбордов - 54: a = 
+2025-10-13 13:32:27.373 DEBUG Выполнение бизнес-плана сверка дашбордов - 55: b = 
+2025-10-13 13:32:27.377 DEBUG Выполнение бизнес-плана сверка дашбордов - 56: dZONum = 0
+2025-10-13 13:32:27.389 DEBUG Выполнение бизнес-плана сверка дашбордов - 57: x = 
+2025-10-13 13:32:27.411 DEBUG Выполнение бизнес-плана сверка дашбордов - 58: blockNum = 1
+2025-10-13 13:32:27.414 DEBUG Выполнение бизнес-плана сверка дашбордов - 59: path = "Object Repository/Выполнение бизнес-плана/"
+2025-10-13 13:32:27.419 DEBUG Выполнение бизнес-плана сверка дашбордов - 60: Script1719299571342.Presettings(blockNum, path)
+2025-10-13 13:32:27.830 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-10-13 13:32:27.904 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+окт. 13, 2025 1:32:30 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 141, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 141
+2025-10-13 13:32:31.137 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = ae8bbe650df1fdde3b30cb92320631eb
+2025-10-13 13:32:31.140 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 141.0.7390.76
+2025-10-13 13:32:31.148 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2025-10-13 13:32:31.149 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-10-13 13:32:31.172 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-10-13 13:33:14.457 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to navigate to 'https://bi.rosseti.digital/viewer?dashboardGuid=d154a8eaf6824e2b9de1bb04dd061c18&sheetGuid=1305e8ce744049e1abdacea1ea397a26&fit=true' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to navigate to 'https://bi.rosseti.digital/viewer?dashboardGuid=d154a8eaf6824e2b9de1bb04dd061c18&sheetGuid=1305e8ce744049e1abdacea1ea397a26&fit=true'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:90)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:185)
+	at Выполнение бизнес-плана сверка дашбордов.Presettings(Выполнение бизнес-плана сверка дашбордов:1799)
+	at Выполнение бизнес-плана сверка дашбордов.run(Выполнение бизнес-плана сверка дашбордов:142)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1760337135703.run(TempTestSuite1760337135703.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.WebDriverException: unknown error: net::ERR_CONNECTION_TIMED_OUT
+  (Session info: chrome=141.0.7390.76)
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [ae8bbe650df1fdde3b30cb92320631eb, get {url=https://bi.rosseti.digital/viewer?dashboardGuid=d154a8eaf6824e2b9de1bb04dd061c18&sheetGuid=1305e8ce744049e1abdacea1ea397a26&fit=true}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.76, chrome: {chromedriverVersion: 140.0.7339.82 (bc93617e21c3..., userDataDir: C:\Users\Daria\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63465}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63465/devtoo..., se:cdpVersion: 141.0.7390.76, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: {alert: ignore, beforeUnload: ignore, confirm: ignore, default: ignore, file: ignore, prompt: ignore}, webSocketUrl: ws://localhost:28233/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ae8bbe650df1fdde3b30cb92320631eb
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:313)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:1090)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:315)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:405)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$JXhJIWpP.to(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.doCall(NavigateToUrlKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.call(NavigateToUrlKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:90)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:185)
+	at Script1719299571342.Presettings(Script1719299571342.groovy:1799)
+	at Script1719299571342.run(Script1719299571342.groovy:142)
+	... 15 more
+)
+2025-10-13 13:34:48.743 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to navigate to 'https://bi.rosseti.digital/viewer?dashboardGuid=d154a8eaf6824e2b9de1bb04dd061c18&sheetGuid=1305e8ce744049e1abdacea1ea397a26&fit=true' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to navigate to 'https://bi.rosseti.digital/viewer?dashboardGuid=d154a8eaf6824e2b9de1bb04dd061c18&sheetGuid=1305e8ce744049e1abdacea1ea397a26&fit=true'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:90)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:185)
+	at Выполнение бизнес-плана сверка дашбордов.Presettings(Выполнение бизнес-плана сверка дашбордов:1815)
+	at Выполнение бизнес-плана сверка дашбордов.run(Выполнение бизнес-плана сверка дашбордов:142)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1760337135703.run(TempTestSuite1760337135703.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.WebDriverException: unknown error: net::ERR_CONNECTION_TIMED_OUT
+  (Session info: chrome=141.0.7390.76)
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [ae8bbe650df1fdde3b30cb92320631eb, get {url=https://bi.rosseti.digital/viewer?dashboardGuid=d154a8eaf6824e2b9de1bb04dd061c18&sheetGuid=1305e8ce744049e1abdacea1ea397a26&fit=true}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.76, chrome: {chromedriverVersion: 140.0.7339.82 (bc93617e21c3..., userDataDir: C:\Users\Daria\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63465}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63465/devtoo..., se:cdpVersion: 141.0.7390.76, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: {alert: ignore, beforeUnload: ignore, confirm: ignore, default: ignore, file: ignore, prompt: ignore}, webSocketUrl: ws://localhost:28233/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ae8bbe650df1fdde3b30cb92320631eb
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:313)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:1090)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:315)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:405)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$JXhJIWpP.to(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.doCall(NavigateToUrlKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.call(NavigateToUrlKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:90)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:185)
+	at Script1719299571342.Presettings(Script1719299571342.groovy:1815)
+	at Script1719299571342.run(Script1719299571342.groovy:142)
+	... 15 more
+)
+2025-10-13 13:36:22.599 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to navigate to 'https://bi.rosseti.digital/viewer?dashboardGuid=d154a8eaf6824e2b9de1bb04dd061c18&sheetGuid=1305e8ce744049e1abdacea1ea397a26&fit=true' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to navigate to 'https://bi.rosseti.digital/viewer?dashboardGuid=d154a8eaf6824e2b9de1bb04dd061c18&sheetGuid=1305e8ce744049e1abdacea1ea397a26&fit=true'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:90)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:185)
+	at Выполнение бизнес-плана сверка дашбордов.Presettings(Выполнение бизнес-плана сверка дашбордов:1815)
+	at Выполнение бизнес-плана сверка дашбордов.run(Выполнение бизнес-плана сверка дашбордов:142)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1760337135703.run(TempTestSuite1760337135703.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.WebDriverException: unknown error: net::ERR_CONNECTION_TIMED_OUT
+  (Session info: chrome=141.0.7390.76)
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [ae8bbe650df1fdde3b30cb92320631eb, get {url=https://bi.rosseti.digital/viewer?dashboardGuid=d154a8eaf6824e2b9de1bb04dd061c18&sheetGuid=1305e8ce744049e1abdacea1ea397a26&fit=true}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.76, chrome: {chromedriverVersion: 140.0.7339.82 (bc93617e21c3..., userDataDir: C:\Users\Daria\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63465}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63465/devtoo..., se:cdpVersion: 141.0.7390.76, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: {alert: ignore, beforeUnload: ignore, confirm: ignore, default: ignore, file: ignore, prompt: ignore}, webSocketUrl: ws://localhost:28233/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ae8bbe650df1fdde3b30cb92320631eb
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:313)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:1090)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:315)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:405)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$JXhJIWpP.to(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.doCall(NavigateToUrlKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.call(NavigateToUrlKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:90)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:185)
+	at Script1719299571342.Presettings(Script1719299571342.groovy:1815)
+	at Script1719299571342.run(Script1719299571342.groovy:142)
+	... 15 more
+)

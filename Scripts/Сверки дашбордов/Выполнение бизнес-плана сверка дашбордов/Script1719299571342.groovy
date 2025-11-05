@@ -809,13 +809,13 @@ def GetAllPAOData(def path, def dZONum, def VseDZO, def x) {
 
     z = WebUI.getText(findTestObject(path + 'Итого')).replaceAll('[\\r?\n|\r]', '/')
 
-    ii = (z.indexOf('%') + 2)
+    ii = z.indexOf('%')
 
-    if (ii > -1) {
-        z = z.substring(ii, z.length())
+	if (ii > -1) {
+		z = z.substring(ii+2, z.length())
 
-        println(z)
-    }
+		println(z)
+	}
     
     ii = (z.indexOf('/1/100') - 1)
 
@@ -854,32 +854,40 @@ def GetAllPAOData(def path, def dZONum, def VseDZO, def x) {
     z = z.substring(0, ii).replace('/', '').trim()
 
     println(z)
+	
+	ii = z.indexOf(' ')
+	
+	if(ii>-1) {
+		z = z.substring(ii, z.length()).trim()
+
+		println(z)
+	}
 
     x = (((x + z1) + '/') + z)
 
     println(x)
 
-    if (WebUI.verifyElementPresent(findTestObject(path + 'Таблица Итого-Факт'), 30)) {
-        z = WebUI.getText(findTestObject(path + 'Таблица Итого-Факт')).replaceAll('[\\r?\n|\r]', '/').replaceAll('\\s+', 
-            '').replaceAll('[а-яА-Я]', '')
+    //if (WebUI.verifyElementPresent(findTestObject(path + 'Таблица Итого-Факт'), 30)) {
+    //    z = WebUI.getText(findTestObject(path + 'Таблица Итого-Факт')).replaceAll('[\\r?\n|\r]', '/').replaceAll('\\s+', 
+    //        '').replaceAll('[а-яА-Я]', '')
 
-        println(z)
+    //    println(z)
 
-        x = ((x + '/') + z)
+    //    x = ((x + '/') + z)
 
-        println(x)
+    //    println(x)
 
-        WebUI.click(findTestObject(path + 'Кнопка План'))
+    //    WebUI.click(findTestObject(path + 'Кнопка План'))
 
-        z = WebUI.getText(findTestObject(path + 'Таблица Итого-План')).replaceAll('[\\r?\n|\r]', '/').replaceAll('\\s+', 
-            '').replaceAll('[а-яА-Я]', '')
+    //    z = WebUI.getText(findTestObject(path + 'Таблица Итого-План')).replaceAll('[\\r?\n|\r]', '/').replaceAll('\\s+', 
+    //        '').replaceAll('[а-яА-Я]', '')
 
-        x = ((x + '/') + z)
+    //    x = ((x + '/') + z)
 
-        println(x)
+    //    println(x)
 
-        WebUI.click(findTestObject(path + 'Кнопка Факт'))
-    } else {
+    //    WebUI.click(findTestObject(path + 'Кнопка Факт'))
+    //} else {
         z = WebUI.getText(findTestObject(path + 'Факт Отпуск в сеть за отчётный период ПАО Россети')).replaceAll('\\s+', 
             '')
 
@@ -907,7 +915,7 @@ def GetAllPAOData(def path, def dZONum, def VseDZO, def x) {
         z = WebUI.getText(findTestObject(path + 'План Потери за отчётный период ПАО Россети')).replaceAll('\\s+', '')
 
         x = ((x + '/') + z)
-    }
+    //}
     
     return x
 }
@@ -1099,8 +1107,10 @@ def GetAllData(def path, def dZONum, def VseDZO, def x, def dZO) {
 
                 println('z: ' + z)
             }
-            
-            z = z.substring(0, z.indexOf('/'))
+            if (z.indexOf('/')>-1) {
+				z = z.substring(0, z.indexOf('/'))
+			}
+
         } else {
             z = 'нет данных'
         }

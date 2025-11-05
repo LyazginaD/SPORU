@@ -113,15 +113,11 @@ WebUI.click(findTestObject('Факторный анализ/1 квартал 202
 
 WebUI.scrollToElement(findTestObject('Факторный анализ/2 квартал 2025 список'), 30)
 
-WebUI.click(findTestObject('Факторный анализ/2 квартал 2025 список'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('Факторный анализ/2 квартал 2025 выбрать'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.scrollToElement(findTestObject('Факторный анализ/Апрель 2025'), 30)
+WebUI.scrollToElement(findTestObject('Факторный анализ/3 квартал 2025 список'), 30)
 
-WebUI.click(findTestObject('Факторный анализ/Апрель 2025'), FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.scrollToElement(findTestObject('Факторный анализ/Май 2025'), 30)
-
-WebUI.click(findTestObject('Факторный анализ/Май 2025'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('Факторный анализ/3 квартал 2025 выбрать'), FailureHandling.CONTINUE_ON_FAILURE)
 
 'Проскроллить до заголовка фильтра "Дата"'
 WebUI.scrollToElement(findTestObject('Факторный анализ/Заголовок фильтра Период'), 30)

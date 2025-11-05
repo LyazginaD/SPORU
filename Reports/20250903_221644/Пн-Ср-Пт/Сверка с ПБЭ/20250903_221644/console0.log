@@ -1,0 +1,2865 @@
+2025-09-03 22:16:49.863 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Пн-Ср-Пт/Сверка с ПБЭ
+2025-09-03 22:16:49.993 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Дарья Игоревна Лязгина
+2025-09-03 22:16:49.997 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = SPORU
+2025-09-03 22:16:49.999 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = Daria - host.docker.internal
+2025-09-03 22:16:50.000 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 10 64bit
+2025-09-03 22:16:50.001 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.0.17
+2025-09-03 22:16:50.003 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.2.1.0
+2025-09-03 22:16:50.629 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-09-03 22:16:50.630 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Выполнение бизнес-плана/Выполнение бизнес-плана Сверка ПАО Россети все филиалы
+2025-09-03 22:16:52.182 DEBUG нес-плана Сверка ПАО Россети все филиалы - 1: openBrowser("")
+2025-09-03 22:16:52.523 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-09-03 22:16:52.587 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Use managed Chrome browser & driver
+2025-09-03 22:16:52.590 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking and download if needed Chrome browser and driver for Chrome for Testing version latest (This may take a while in case of downloading needed)
+сент. 03, 2025 10:16:54 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+WARNING: The chromedriver version (139.0.7258.68) detected in PATH at E:\Prog\chromedriver-win64\chromedriver.exe might not be compatible with the detected chrome version (140.0.7339.80); currently, chromedriver 140.0.7339.80 is recommended for chrome 140.*, so it is advised to delete the driver in PATH and retry
+2025-09-03 22:16:54.507 INFO  c.k.k.c.w.d.chrome.ChromeDriverUtil      - Checking Chrome browser and driver completed in 1917 ms
+2025-09-03 22:16:54.510 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome driver path: E:\Prog\chromedriver-win64\chromedriver.exe
+2025-09-03 22:16:54.510 INFO  c.k.k.c.w.d.chrome.ChromeDriverBuilder   - Chrome browser path: C:\Users\Daria\.cache\selenium\chrome\win64\140.0.7339.80\chrome.exe
+2025-09-03 22:16:54.533 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+сент. 03, 2025 10:16:56 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 140
+сент. 03, 2025 10:16:56 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 140.0.7339.80. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-09-03 22:16:56.879 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = fe857de444b902f8fb95deb80eab1a98
+2025-09-03 22:16:56.881 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 140.0.7339.80
+2025-09-03 22:16:56.882 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2025-09-03 22:16:56.884 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-09-03 22:16:56.900 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-09-03 22:16:56.981 DEBUG нес-плана Сверка ПАО Россети все филиалы - 2: date = new java.util.Date()
+2025-09-03 22:16:57.007 DEBUG нес-плана Сверка ПАО Россети все филиалы - 3: todaysDate = date.format("dd.MM.yyyy")
+2025-09-03 22:16:57.020 DEBUG нес-плана Сверка ПАО Россети все филиалы - 4: dZO = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2025-09-03 22:16:57.022 DEBUG нес-плана Сверка ПАО Россети все филиалы - 5: a = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2025-09-03 22:16:57.026 DEBUG нес-плана Сверка ПАО Россети все филиалы - 6: fileperc = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2025-09-03 22:16:57.030 DEBUG нес-плана Сверка ПАО Россети все филиалы - 7: pageperc = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2025-09-03 22:16:57.032 DEBUG нес-плана Сверка ПАО Россети все филиалы - 8: pageInt = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2025-09-03 22:16:57.035 DEBUG нес-плана Сверка ПАО Россети все филиалы - 9: fileInt = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2025-09-03 22:16:57.042 DEBUG нес-плана Сверка ПАО Россети все филиалы - 10: pageDouble = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2025-09-03 22:16:57.048 DEBUG нес-плана Сверка ПАО Россети все филиалы - 11: fileDouble = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2025-09-03 22:16:57.050 DEBUG нес-плана Сверка ПАО Россети все филиалы - 12: typeOfData = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2025-09-03 22:16:57.053 DEBUG нес-плана Сверка ПАО Россети все филиалы - 13: dzoNum = 0
+2025-09-03 22:16:57.056 DEBUG нес-плана Сверка ПАО Россети все филиалы - 14: filialNum = 0
+2025-09-03 22:16:57.058 DEBUG нес-плана Сверка ПАО Россети все филиалы - 15: urlText = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2025-09-03 22:16:57.064 DEBUG нес-плана Сверка ПАО Россети все филиалы - 16: searchWord = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2025-09-03 22:16:57.072 DEBUG нес-плана Сверка ПАО Россети все филиалы - 17: i = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2025-09-03 22:16:57.077 DEBUG нес-плана Сверка ПАО Россети все филиалы - 18: ii = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>
+2025-09-03 22:16:57.081 DEBUG нес-плана Сверка ПАО Россети все филиалы - 19: navigateToUrl(findTestData("PlanFact").getValue(10, 1))
+2025-09-03 22:17:04.497 DEBUG нес-плана Сверка ПАО Россети все филиалы - 20: urlText = getText(findTestObject("Страница авторизации/Text"))
+2025-09-03 22:17:05.175 DEBUG нес-плана Сверка ПАО Россети все филиалы - 21: delay(20)
+2025-09-03 22:17:25.339 DEBUG нес-плана Сверка ПАО Россети все филиалы - 22: searchWord = "Вход"
+2025-09-03 22:17:25.347 DEBUG нес-плана Сверка ПАО Россети все филиалы - 23: if (urlText.contains(searchWord) == false)
+2025-09-03 22:17:25.365 DEBUG нес-плана Сверка ПАО Россети все филиалы - 24: setText(findTestObject("Страница авторизации/input__username"), findTestData("PlanFact").getValue(8, 1))
+2025-09-03 22:17:26.197 DEBUG нес-плана Сверка ПАО Россети все филиалы - 25: setText(findTestObject("Страница авторизации/input__password"), findTestData("PlanFact").getValue(9, 1))
+2025-09-03 22:17:26.881 DEBUG нес-плана Сверка ПАО Россети все филиалы - 26: click(findTestObject("Страница авторизации/button_"))
+2025-09-03 22:17:27.212 DEBUG нес-плана Сверка ПАО Россети все филиалы - 27: delay(50)
+2025-09-03 22:18:17.237 DEBUG нес-плана Сверка ПАО Россети все филиалы - 28: searchWord = "ДЗО"
+2025-09-03 22:18:17.247 DEBUG нес-плана Сверка ПАО Россети все филиалы - 29: urlText = getText(findTestObject("Страница авторизации/Text"))
+2025-09-03 22:18:27.415 DEBUG нес-плана Сверка ПАО Россети все филиалы - 30: if (urlText.contains("ошибка") || urlText.contains(searchWord) == false)
+2025-09-03 22:18:27.420 DEBUG нес-плана Сверка ПАО Россети все филиалы - 1: for ([urlText.contains(searchWord) == false, i < 4, (ii++)])
+2025-09-03 22:18:27.422 DEBUG нес-плана Сверка ПАО Россети все филиалы - 1: i = i + 1
+2025-09-03 22:18:27.430 DEBUG нес-плана Сверка ПАО Россети все филиалы - 2: refresh()
+2025-09-03 22:18:27.873 DEBUG нес-плана Сверка ПАО Россети все филиалы - 3: delay(20)
+2025-09-03 22:18:47.892 DEBUG нес-плана Сверка ПАО Россети все филиалы - 4: navigateToUrl(findTestData("PlanFact").getValue(10, 1))
+2025-09-03 22:18:49.295 DEBUG нес-плана Сверка ПАО Россети все филиалы - 5: delay(20)
+2025-09-03 22:19:09.319 DEBUG нес-плана Сверка ПАО Россети все филиалы - 6: urlText = getText(findTestObject("Страница авторизации/Text"))
+2025-09-03 22:19:14.450 DEBUG нес-плана Сверка ПАО Россети все филиалы - 1: i = i + 1
+2025-09-03 22:19:14.452 DEBUG нес-плана Сверка ПАО Россети все филиалы - 2: refresh()
+2025-09-03 22:19:14.781 DEBUG нес-плана Сверка ПАО Россети все филиалы - 3: delay(20)
+2025-09-03 22:19:34.790 DEBUG нес-плана Сверка ПАО Россети все филиалы - 4: navigateToUrl(findTestData("PlanFact").getValue(10, 1))
+2025-09-03 22:19:35.221 DEBUG нес-плана Сверка ПАО Россети все филиалы - 5: delay(20)
+2025-09-03 22:19:55.240 DEBUG нес-плана Сверка ПАО Россети все филиалы - 6: urlText = getText(findTestObject("Страница авторизации/Text"))
+2025-09-03 22:19:55.555 DEBUG нес-плана Сверка ПАО Россети все филиалы - 1: i = i + 1
+2025-09-03 22:19:55.557 DEBUG нес-плана Сверка ПАО Россети все филиалы - 2: refresh()
+2025-09-03 22:19:55.885 DEBUG нес-плана Сверка ПАО Россети все филиалы - 3: delay(20)
+2025-09-03 22:20:15.894 DEBUG нес-плана Сверка ПАО Россети все филиалы - 4: navigateToUrl(findTestData("PlanFact").getValue(10, 1))
+2025-09-03 22:20:18.861 DEBUG нес-плана Сверка ПАО Россети все филиалы - 5: delay(20)
+2025-09-03 22:20:38.872 DEBUG нес-плана Сверка ПАО Россети все филиалы - 6: urlText = getText(findTestObject("Страница авторизации/Text"))
+2025-09-03 22:20:42.272 DEBUG нес-плана Сверка ПАО Россети все филиалы - 1: i = i + 1
+2025-09-03 22:20:42.273 DEBUG нес-плана Сверка ПАО Россети все филиалы - 2: refresh()
+2025-09-03 22:20:42.696 DEBUG нес-плана Сверка ПАО Россети все филиалы - 3: delay(20)
+2025-09-03 22:21:02.709 DEBUG нес-плана Сверка ПАО Россети все филиалы - 4: navigateToUrl(findTestData("PlanFact").getValue(10, 1))
+2025-09-03 22:21:04.859 DEBUG нес-плана Сверка ПАО Россети все филиалы - 5: delay(20)
+2025-09-03 22:21:24.869 DEBUG нес-плана Сверка ПАО Россети все филиалы - 6: urlText = getText(findTestObject("Страница авторизации/Text"))
+2025-09-03 22:21:26.785 DEBUG нес-плана Сверка ПАО Россети все филиалы - 31: Script1718980020443.ZakrytOpoveshenie()
+Просьба обратить внимание
+2025-09-03 22:21:37.491 DEBUG нес-плана Сверка ПАО Россети все филиалы - 32: delay(30)
+2025-09-03 22:22:07.510 DEBUG нес-плана Сверка ПАО Россети все филиалы - 33: Script1718980020443.OpenFilter()
+2025-09-03 22:22:38.511 DEBUG нес-плана Сверка ПАО Россети все филиалы - 34: click(findTestObject("Выполнение бизнес-плана/Раскрыть список ПАО Россети в фильтре ДЗО"))
+2025-09-03 22:22:38.897 DEBUG нес-плана Сверка ПАО Россети все филиалы - 35: click(findTestObject("Выполнение бизнес-плана/ПАО Россети"))
+2025-09-03 22:22:39.356 DEBUG нес-плана Сверка ПАО Россети все филиалы - 36: click(findTestObject("Object Repository/Выполнение бизнес-плана/Применить в фильтре ДЗО"))
+2025-09-03 22:22:40.733 DEBUG нес-плана Сверка ПАО Россети все филиалы - 37: delay(30)
+2025-09-03 22:23:10.750 DEBUG нес-плана Сверка ПАО Россети все филиалы - 38: click(findTestObject("Object Repository/Выполнение бизнес-плана/Фильтр Дата"))
+2025-09-03 22:23:11.140 DEBUG нес-плана Сверка ПАО Россети все филиалы - 39: click(findTestObject("Object Repository/Выполнение бизнес-плана/Применить в фильтре Дата"))
+2025-09-03 22:23:12.513 DEBUG нес-плана Сверка ПАО Россети все филиалы - 40: Script1718980020443.ZakrytOpoveshenie()
+Просьба обратить внимание
+2025-09-03 22:23:41.513 DEBUG нес-плана Сверка ПАО Россети все филиалы - 41: delay(30)
+2025-09-03 22:24:11.536 DEBUG нес-плана Сверка ПАО Россети все филиалы - 42: x1 = getText(findTestObject("Выполнение бизнес-плана/Уровень потерь электроэнергии"))
+2025-09-03 22:24:11.868 DEBUG нес-плана Сверка ПАО Россети все филиалы - 43: dZO = "ПАО Россети"
+2025-09-03 22:24:11.870 DEBUG нес-плана Сверка ПАО Россети все филиалы - 44: a = 84
+2025-09-03 22:24:11.875 DEBUG нес-плана Сверка ПАО Россети все филиалы - 45: Script1718980020443.Numbers(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO, dzoNum, filialNum)
+0
+ПАО Россети
+Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Факт Отпуск в сеть за отчётный период ПАО Россети
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/План Отпуск в сеть за отчётный период ПАО Россети
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+a=84
+page1: 4.98
+page2: 7.59
+file Plan: 8.19
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+file Fact: 8.03
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+2025-09-03 22:24:21.074 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to verify equal between actual object '6' and expected object '0' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object '6' and expected object '0' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:146)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.Numbers(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:727)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.run(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:147)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1756912604447.run(TempTestSuite1756912604447.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+6
+a=84
+2025-09-03 22:24:21.081 DEBUG нес-плана Сверка ПАО Россети все филиалы - 46: dZO = "Россети ФСК ЕЭС"
+2025-09-03 22:24:21.081 DEBUG нес-плана Сверка ПАО Россети все филиалы - 47: a = 83
+2025-09-03 22:24:21.082 DEBUG нес-плана Сверка ПАО Россети все филиалы - 48: if (x1.contains("ЕЭС"))
+2025-09-03 22:24:21.087 DEBUG нес-плана Сверка ПАО Россети все филиалы - 1: dzoNum = dzoNum + 1
+2025-09-03 22:24:21.090 DEBUG нес-плана Сверка ПАО Россети все филиалы - 2: println(dzoNum)
+1
+2025-09-03 22:24:21.095 DEBUG нес-плана Сверка ПАО Россети все филиалы - 3: Script1718980020443.Numbers(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO, dzoNum, filialNum)
+1
+Россети ФСК ЕЭС
+Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Table Data/Факт Отпуск в сеть за отчётный период 1
+Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Table Data/План Отпуск в сеть за отчётный период 1
+a=83
+page1: 3.70
+
+page2: 3.62
+file Plan: 3.7
+file Fact: 3.62
+2025-09-03 22:24:25.315 DEBUG нес-плана Сверка ПАО Россети все филиалы - 50: println(dzoNum)
+1
+2025-09-03 22:24:25.318 DEBUG нес-плана Сверка ПАО Россети все филиалы - 51: dZO = "РаспредКомплекс"
+2025-09-03 22:24:25.319 DEBUG нес-плана Сверка ПАО Россети все филиалы - 52: a = 82
+2025-09-03 22:24:25.320 DEBUG нес-плана Сверка ПАО Россети все филиалы - 53: Script1718980020443.Numbers(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO, dzoNum, filialNum)
+1
+РаспредКомплекс
+Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Факт Отпуск в сеть за отчётный период РаспредКомплекс
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/План Отпуск в сеть за отчётный период РаспредКомплекс
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+a=82
+page1: 7.42
+page2: 7.09
+file Plan: 8
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+file Fact: 7.93
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+2025-09-03 22:25:41.408 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to verify equal between actual object '6' and expected object '0' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object '6' and expected object '0' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:146)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.Numbers(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:727)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.run(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:169)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1756912604447.run(TempTestSuite1756912604447.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+6
+a=82
+2025-09-03 22:27:03.754 DEBUG нес-плана Сверка ПАО Россети все филиалы - 54: dZO = "АО «Тываэнерго»"
+2025-09-03 22:27:03.756 DEBUG нес-плана Сверка ПАО Россети все филиалы - 55: a = 52
+2025-09-03 22:27:03.757 DEBUG нес-плана Сверка ПАО Россети все филиалы - 56: if (x1.contains("Тываэнерго"))
+2025-09-03 22:27:03.758 DEBUG нес-плана Сверка ПАО Россети все филиалы - 57: else
+2025-09-03 22:27:03.759 DEBUG нес-плана Сверка ПАО Россети все филиалы - 1: Script1718980020443.NoData(a, typeOfData, todaysDate, fileInt, fileDouble, dZO)
+52
+03.09.2025
+0
+0.0
+АО «Тываэнерго»
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+2025-09-03 22:27:08.998 DEBUG нес-плана Сверка ПАО Россети все филиалы - 58: println(dzoNum)
+1
+2025-09-03 22:27:08.999 DEBUG нес-плана Сверка ПАО Россети все филиалы - 59: dZO = "АО «Чеченэнерго»"
+2025-09-03 22:27:09.000 DEBUG нес-плана Сверка ПАО Россети все филиалы - 60: a = 72
+2025-09-03 22:27:09.001 DEBUG нес-плана Сверка ПАО Россети все филиалы - 61: if (x1.contains("Чеченэнерго"))
+2025-09-03 22:27:09.002 DEBUG нес-плана Сверка ПАО Россети все филиалы - 62: else
+2025-09-03 22:27:09.002 DEBUG нес-плана Сверка ПАО Россети все филиалы - 1: Script1718980020443.NoData(a, typeOfData, todaysDate, fileInt, fileDouble, dZO)
+72
+03.09.2025
+0
+0.0
+АО «Чеченэнерго»
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+2025-09-03 22:27:13.943 DEBUG нес-плана Сверка ПАО Россети все филиалы - 63: println(dzoNum)
+1
+2025-09-03 22:27:13.945 DEBUG нес-плана Сверка ПАО Россети все филиалы - 64: a = 28
+2025-09-03 22:27:13.946 DEBUG нес-плана Сверка ПАО Россети все филиалы - 65: dZO = "Россети Волга"
+2025-09-03 22:27:13.946 DEBUG нес-плана Сверка ПАО Россети все филиалы - 66: if (x1.contains("Волга"))
+2025-09-03 22:27:13.952 DEBUG нес-плана Сверка ПАО Россети все филиалы - 1: dzoNum = dzoNum + 1
+2025-09-03 22:27:13.953 DEBUG нес-плана Сверка ПАО Россети все филиалы - 2: Script1718980020443.Numbers(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO, dzoNum, filialNum)
+2
+Россети Волга
+Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Table Data/Факт Отпуск в сеть за отчётный период 2
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Table Data/План Отпуск в сеть за отчётный период 2
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+a=28
+page1: 5.49
+
+page2: 5.13
+file Plan: 5.42
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+file Fact: 5.09
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+2025-09-03 22:27:21.417 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to verify equal between actual object '6' and expected object '0' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object '6' and expected object '0' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:146)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.Numbers(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:727)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.run(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:206)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1756912604447.run(TempTestSuite1756912604447.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+6
+a=28
+Россети Волга
+Волга
+Россети Волга
+0
+10
+20
+30
+40
+50
+60
+70
+Мордовэнерго
+Оренбургэнерго
+Пензаэнерго
+Самарские РС
+Саратовские РС
+Ульяновские РС
+Чувашэнерго
+0
+10
+20
+30
+40
+50
+60
+70
+2
+Мордовэнерго
+Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Факт Отпуск в сеть за отчётный период Мордовэнерго
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/План Отпуск в сеть за отчётный период Мордовэнерго
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+a=29
+page1: 7.19
+
+page2: 6.78
+
+file Plan: 6.83
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+file Fact: 6.69
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+2025-09-03 22:30:05.498 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to verify equal between actual object '6' and expected object '0' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object '6' and expected object '0' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:146)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.Numbers(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:727)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.Filials(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:914)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.Numbers(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:734)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.run(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:206)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1756912604447.run(TempTestSuite1756912604447.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+6
+a=29
+2
+Оренбургэнерго
+Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Факт Отпуск в сеть за отчётный период Оренбургэнерго
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/План Отпуск в сеть за отчётный период Оренбургэнерго
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+a=30
+page1: 8.35
+
+page2: 7.63
+
+file Plan: 8.37
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+file Fact: 7.74
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+2025-09-03 22:30:13.368 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to verify equal between actual object '6' and expected object '0' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object '6' and expected object '0' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:146)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.Numbers(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:727)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.Filials(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:926)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.Numbers(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:734)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.run(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:206)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1756912604447.run(TempTestSuite1756912604447.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+6
+a=30
+2
+Пензаэнерго
+Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Факт Отпуск в сеть за отчётный период Пензаэнерго
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/План Отпуск в сеть за отчётный период Пензаэнерго
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+a=31
+page1: 7.15
+
+page2: 6.87
+
+file Plan: 7.1
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+file Fact: 6.67
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+2025-09-03 22:30:21.255 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to verify equal between actual object '6' and expected object '0' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object '6' and expected object '0' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:146)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.Numbers(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:727)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.Filials(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:938)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.Numbers(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:734)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.run(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:206)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1756912604447.run(TempTestSuite1756912604447.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+6
+a=31
+2
+Самарские РС
+Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Факт Отпуск в сеть за отчётный период Самарские РС
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/План Отпуск в сеть за отчётный период Самарские РС
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+a=32
+page1: 3.24
+
+page2: 3.14
+
+file Plan: 3.05
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+file Fact: 2.94
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+2025-09-03 22:30:29.140 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to verify equal between actual object '6' and expected object '0' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object '6' and expected object '0' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:146)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.Numbers(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:727)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.Filials(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:952)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.Numbers(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:734)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.run(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:206)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1756912604447.run(TempTestSuite1756912604447.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+6
+a=32
+2
+Саратовские РС
+Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Факт Отпуск в сеть за отчётный период Саратовские РС
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/План Отпуск в сеть за отчётный период Саратовские РС
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+a=33
+page1: 5.51
+
+page2: 5.21
+
+file Plan: 5.6
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+file Fact: 5.31
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+2025-09-03 22:30:36.896 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to verify equal between actual object '6' and expected object '0' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object '6' and expected object '0' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:146)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.Numbers(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:727)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.Filials(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:966)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.Numbers(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:734)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.run(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:206)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1756912604447.run(TempTestSuite1756912604447.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+6
+a=33
+2
+Ульяновские РС
+Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Факт Отпуск в сеть за отчётный период Ульяновские РС
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/План Отпуск в сеть за отчётный период Ульяновские РС
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+a=34
+page1: 5.99
+
+page2: 5.41
+
+file Plan: 5.72
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+file Fact: 5.24
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+2025-09-03 22:30:44.868 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to verify equal between actual object '6' and expected object '0' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object '6' and expected object '0' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:146)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.Numbers(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:727)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.Filials(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:980)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.Numbers(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:734)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.run(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:206)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1756912604447.run(TempTestSuite1756912604447.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+6
+a=34
+2
+Чувашэнерго
+Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Факт Отпуск в сеть за отчётный период Чувашэнерго
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/План Отпуск в сеть за отчётный период Чувашэнерго
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+a=35
+page1: 6.19
+
+page2: 5.21
+
+file Plan: 5.95
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+file Fact: 5.22
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+2025-09-03 22:30:52.743 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to verify equal between actual object '6' and expected object '0' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object '6' and expected object '0' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:146)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.Numbers(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:727)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.Filials(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:992)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.Numbers(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:734)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.run(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:206)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1756912604447.run(TempTestSuite1756912604447.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+6
+a=35
+2025-09-03 22:32:15.390 DEBUG нес-плана Сверка ПАО Россети все филиалы - 68: println(dzoNum)
+2
+2025-09-03 22:32:15.391 DEBUG нес-плана Сверка ПАО Россети все филиалы - 69: dZO = "Россети Кубань"
+2025-09-03 22:32:15.391 DEBUG нес-плана Сверка ПАО Россети все филиалы - 70: a = 73
+2025-09-03 22:32:15.392 DEBUG нес-плана Сверка ПАО Россети все филиалы - 71: if (x1.contains("Кубань"))
+2025-09-03 22:32:15.392 DEBUG нес-плана Сверка ПАО Россети все филиалы - 72: else
+2025-09-03 22:32:15.393 DEBUG нес-плана Сверка ПАО Россети все филиалы - 1: Script1718980020443.NoData(a, typeOfData, todaysDate, fileInt, fileDouble, dZO)
+73
+03.09.2025
+0
+0.0
+Россети Кубань
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+2025-09-03 22:32:19.929 DEBUG нес-плана Сверка ПАО Россети все филиалы - 73: println(dzoNum)
+2
+2025-09-03 22:32:19.930 DEBUG нес-плана Сверка ПАО Россети все филиалы - 74: dZO = "Россети Ленэнерго"
+2025-09-03 22:32:19.930 DEBUG нес-плана Сверка ПАО Россети все филиалы - 75: a = 77
+2025-09-03 22:32:19.931 DEBUG нес-плана Сверка ПАО Россети все филиалы - 76: if (x1.contains("Ленэнерго"))
+2025-09-03 22:32:19.931 DEBUG нес-плана Сверка ПАО Россети все филиалы - 77: else
+2025-09-03 22:32:19.932 DEBUG нес-плана Сверка ПАО Россети все филиалы - 1: Script1718980020443.NoData(a, typeOfData, todaysDate, fileInt, fileDouble, dZO)
+77
+03.09.2025
+0
+0.0
+Россети Ленэнерго
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+2025-09-03 22:32:24.896 DEBUG нес-плана Сверка ПАО Россети все филиалы - 78: println(dzoNum)
+2
+2025-09-03 22:32:24.897 DEBUG нес-плана Сверка ПАО Россети все филиалы - 79: dZO = "Россети Московский регион"
+2025-09-03 22:32:24.897 DEBUG нес-плана Сверка ПАО Россети все филиалы - 80: a = 74
+2025-09-03 22:32:24.898 DEBUG нес-плана Сверка ПАО Россети все филиалы - 81: if (x1.contains("Московский"))
+2025-09-03 22:32:24.898 DEBUG нес-плана Сверка ПАО Россети все филиалы - 1: dzoNum = dzoNum + 1
+2025-09-03 22:32:24.901 DEBUG нес-плана Сверка ПАО Россети все филиалы - 2: Script1718980020443.Numbers(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO, dzoNum, filialNum)
+3
+Россети Московский регион
+Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Table Data/Факт Отпуск в сеть за отчётный период 3
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Table Data/План Отпуск в сеть за отчётный период 3
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+a=74
+page1: 8.65
+
+page2: 8.35
+file Plan: 7.51
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+file Fact: 7.37
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+2025-09-03 22:32:32.061 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to verify equal between actual object '6' and expected object '0' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object '6' and expected object '0' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:146)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.Numbers(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:727)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.run(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:248)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1756912604447.run(TempTestSuite1756912604447.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+6
+a=74
+Россети Московский регион
+регион
+Россети Московский регион
+0
+10
+20
+30
+40
+50
+60
+70
+Московская область
+г. Москва
+0
+10
+20
+30
+40
+50
+60
+70
+3
+Москва
+Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Факт Отпуск в сеть за отчётный период Москва
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/План Отпуск в сеть за отчётный период Москва
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+a=75
+page1: 10.63
+
+page2: 10.47
+
+file Plan: 4.92
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+file Fact: 4.73
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+2025-09-03 22:35:15.754 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to verify equal between actual object '6' and expected object '0' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object '6' and expected object '0' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:146)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.Numbers(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:727)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.Filials(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:1042)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.Numbers(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:734)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.run(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:248)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1756912604447.run(TempTestSuite1756912604447.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+6
+a=75
+3
+Московская область
+Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Факт Отпуск в сеть за отчётный период Московская область
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/План Отпуск в сеть за отчётный период Московская область
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+a=76
+page1: 5.35
+
+page2: 4.89
+
+file Plan: 9.81
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+file Fact: 9.8
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+2025-09-03 22:35:23.382 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to verify equal between actual object '6' and expected object '0' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object '6' and expected object '0' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:146)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.Numbers(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:727)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.Filials(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:1056)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.Numbers(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:734)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.run(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:248)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1756912604447.run(TempTestSuite1756912604447.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+6
+a=76
+2025-09-03 22:36:45.894 DEBUG нес-плана Сверка ПАО Россети все филиалы - 83: println(dzoNum)
+3
+2025-09-03 22:36:45.898 DEBUG нес-плана Сверка ПАО Россети все филиалы - 84: dZO = "Россети Северный Кавказ"
+2025-09-03 22:36:45.899 DEBUG нес-плана Сверка ПАО Россети все филиалы - 85: a = 65
+2025-09-03 22:36:45.900 DEBUG нес-плана Сверка ПАО Россети все филиалы - 86: if (x1.contains("Кавказ"))
+2025-09-03 22:36:45.901 DEBUG нес-плана Сверка ПАО Россети все филиалы - 87: else
+2025-09-03 22:36:45.902 DEBUG нес-плана Сверка ПАО Россети все филиалы - 1: Script1718980020443.NoData(a, typeOfData, todaysDate, fileInt, fileDouble, dZO)
+65
+03.09.2025
+0
+0.0
+Россети Северный Кавказ
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+2025-09-03 22:36:50.613 DEBUG нес-плана Сверка ПАО Россети все филиалы - 88: println(dzoNum)
+3
+2025-09-03 22:36:50.615 DEBUG нес-плана Сверка ПАО Россети все филиалы - 89: dZO = "Россети Северо-Запад"
+2025-09-03 22:36:50.616 DEBUG нес-плана Сверка ПАО Россети все филиалы - 90: a = 36
+2025-09-03 22:36:50.617 DEBUG нес-плана Сверка ПАО Россети все филиалы - 91: if (x1.contains("Северо-Запад"))
+2025-09-03 22:36:50.617 DEBUG нес-плана Сверка ПАО Россети все филиалы - 1: dzoNum = dzoNum + 1
+2025-09-03 22:36:50.618 DEBUG нес-плана Сверка ПАО Россети все филиалы - 2: Script1718980020443.Numbers(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO, dzoNum, filialNum)
+4
+Россети Северо-Запад
+Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Table Data/Факт Отпуск в сеть за отчётный период 4
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Table Data/План Отпуск в сеть за отчётный период 4
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+a=36
+page1: 6.73
+
+page2: 5.22
+file Plan: 5.42
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+file Fact: 5.05
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+2025-09-03 22:36:57.989 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to verify equal between actual object '6' and expected object '0' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object '6' and expected object '0' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:146)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.Numbers(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:727)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.run(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:276)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1756912604447.run(TempTestSuite1756912604447.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+6
+a=36
+Россети Северо-Запад
+Северо-Запад
+Россети Северо-Запад
+0
+10
+20
+30
+40
+50
+60
+70
+Архангельский филиал
+Вологодский филиал
+Карельский филиал
+Мурманский филиал
+Новгородский филиал
+Псковский филиал
+филиал в Республике Коми
+0
+10
+20
+30
+40
+50
+60
+70
+4
+Архангельский филиал
+Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Факт Отпуск в сеть за отчётный период Архангельский филиал
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/План Отпуск в сеть за отчётный период Архангельский филиал
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+a=37
+page1: 8.65
+
+page2: 5.69
+
+file Plan: 7.52
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+file Fact: 6.32
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+2025-09-03 22:39:41.650 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to verify equal between actual object '6' and expected object '0' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object '6' and expected object '0' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:146)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.Numbers(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:727)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.Filials(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:1460)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.Numbers(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:734)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.run(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:276)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1756912604447.run(TempTestSuite1756912604447.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+6
+a=37
+4
+Вологодский филиал
+Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Факт Отпуск в сеть за отчётный период Вологодский филиал
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/План Отпуск в сеть за отчётный период Вологодский филиал
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+a=38
+page1: 8.01
+
+page2: 5.14
+
+file Plan: 5.89
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+file Fact: 5.25
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+2025-09-03 22:39:49.404 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to verify equal between actual object '6' and expected object '0' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object '6' and expected object '0' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:146)
+	at jdk.internal.reflect.GeneratedMethodAccessor28.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.Numbers(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:727)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.Filials(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:1474)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.Numbers(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:734)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.run(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:276)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1756912604447.run(TempTestSuite1756912604447.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+6
+a=38
+4
+Карельский филиал
+Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Факт Отпуск в сеть за отчётный период Карельский филиал
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/План Отпуск в сеть за отчётный период Карельский филиал
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+a=39
+page1: 5.24
+
+page2: 4.45
+
+file Plan: 4.64
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+file Fact: 4.17
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+2025-09-03 22:39:57.236 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to verify equal between actual object '6' and expected object '0' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object '6' and expected object '0' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:146)
+	at jdk.internal.reflect.GeneratedMethodAccessor28.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.Numbers(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:727)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.Filials(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:1488)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.Numbers(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:734)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.run(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:276)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1756912604447.run(TempTestSuite1756912604447.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+6
+a=39
+4
+Мурманский филиал
+Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Факт Отпуск в сеть за отчётный период Мурманский филиал
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/План Отпуск в сеть за отчётный период Мурманский филиал
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+a=40
+page1: 3.20
+
+page2: 2.57
+
+file Plan: 3.17
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+file Fact: 3.12
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+2025-09-03 22:40:05.135 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to verify equal between actual object '6' and expected object '0' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object '6' and expected object '0' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:146)
+	at jdk.internal.reflect.GeneratedMethodAccessor28.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.Numbers(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:727)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.Filials(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:1502)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.Numbers(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:734)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.run(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:276)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1756912604447.run(TempTestSuite1756912604447.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+6
+a=40
+4
+Новгородский филиал
+Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Факт Отпуск в сеть за отчётный период Новгородский филиал
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/План Отпуск в сеть за отчётный период Новгородский филиал
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+a=42
+page1: 10.78
+
+page2: 9.17
+
+file Plan: 7.73
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+file Fact: 7.29
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+2025-09-03 22:40:12.880 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to verify equal between actual object '6' and expected object '0' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object '6' and expected object '0' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:146)
+	at jdk.internal.reflect.GeneratedMethodAccessor28.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.Numbers(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:727)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.Filials(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:1516)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.Numbers(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:734)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.run(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:276)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1756912604447.run(TempTestSuite1756912604447.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+6
+a=42
+4
+Псковский филиал
+Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Факт Отпуск в сеть за отчётный период Псковский филиал
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/План Отпуск в сеть за отчётный период Псковский филиал
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+a=43
+page1: 12.21
+
+page2: 10.72
+
+file Plan: 9.1
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+file Fact: 9.94
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+2025-09-03 22:40:20.495 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to verify equal between actual object '6' and expected object '0' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object '6' and expected object '0' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:146)
+	at jdk.internal.reflect.GeneratedMethodAccessor28.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.Numbers(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:727)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.Filials(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:1530)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.Numbers(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:734)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.run(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:276)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1756912604447.run(TempTestSuite1756912604447.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+6
+a=43
+4
+филиал в Республике Коми
+Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Факт Отпуск в сеть за отчётный период филиал в Республике Коми
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/План Отпуск в сеть за отчётный период филиал в Республике Коми
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+a=41
+page1: 6.56
+
+page2: 5.41
+
+file Plan: 5.3
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+file Fact: 4.74
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+2025-09-03 22:40:28.579 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to verify equal between actual object '6' and expected object '0' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object '6' and expected object '0' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:146)
+	at jdk.internal.reflect.GeneratedMethodAccessor28.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.Numbers(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:727)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.Filials(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:1542)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.Numbers(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:734)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.run(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:276)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1756912604447.run(TempTestSuite1756912604447.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+6
+a=41
+2025-09-03 22:41:51.077 DEBUG нес-плана Сверка ПАО Россети все филиалы - 93: println(dzoNum)
+4
+2025-09-03 22:41:51.079 DEBUG нес-плана Сверка ПАО Россети все филиалы - 94: dZO = "Россети Сибирь"
+2025-09-03 22:41:51.079 DEBUG нес-плана Сверка ПАО Россети все филиалы - 95: a = 44
+2025-09-03 22:41:51.080 DEBUG нес-плана Сверка ПАО Россети все филиалы - 96: if (x1.contains("Сибирь"))
+2025-09-03 22:41:51.080 DEBUG нес-плана Сверка ПАО Россети все филиалы - 97: else
+2025-09-03 22:41:51.081 DEBUG нес-плана Сверка ПАО Россети все филиалы - 1: Script1718980020443.NoData(a, typeOfData, todaysDate, fileInt, fileDouble, dZO)
+44
+03.09.2025
+0
+0.0
+Россети Сибирь
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+2025-09-03 22:41:55.786 DEBUG нес-плана Сверка ПАО Россети все филиалы - 98: println(dzoNum)
+4
+2025-09-03 22:41:55.787 DEBUG нес-плана Сверка ПАО Россети все филиалы - 99: dZO = "Россети Томск"
+2025-09-03 22:41:55.787 DEBUG нес-плана Сверка ПАО Россети все филиалы - 100: a = 53
+2025-09-03 22:41:55.788 DEBUG нес-плана Сверка ПАО Россети все филиалы - 101: if (x1.contains("Томск"))
+2025-09-03 22:41:55.789 DEBUG нес-плана Сверка ПАО Россети все филиалы - 1: dzoNum = dzoNum + 1
+2025-09-03 22:41:55.790 DEBUG нес-плана Сверка ПАО Россети все филиалы - 2: Script1718980020443.Numbers(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO, dzoNum, filialNum)
+5
+Россети Томск
+Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Table Data/Факт Отпуск в сеть за отчётный период 5
+Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Table Data/План Отпуск в сеть за отчётный период 5
+a=53
+page1: 8.30
+
+page2: 8.23
+file Plan: 8.3
+file Fact: 8.23
+2025-09-03 22:41:58.501 DEBUG нес-плана Сверка ПАО Россети все филиалы - 103: println(dzoNum)
+5
+2025-09-03 22:41:58.502 DEBUG нес-плана Сверка ПАО Россети все филиалы - 104: dZO = "Россети Тюмень"
+2025-09-03 22:41:58.502 DEBUG нес-плана Сверка ПАО Россети все филиалы - 105: a = 80
+2025-09-03 22:41:58.503 DEBUG нес-плана Сверка ПАО Россети все филиалы - 106: if (x1.contains("Тюмень"))
+2025-09-03 22:41:58.503 DEBUG нес-плана Сверка ПАО Россети все филиалы - 107: else
+2025-09-03 22:41:58.505 DEBUG нес-плана Сверка ПАО Россети все филиалы - 1: Script1718980020443.NoData(a, typeOfData, todaysDate, fileInt, fileDouble, dZO)
+80
+03.09.2025
+0
+0.0
+Россети Тюмень
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+2025-09-03 22:42:03.523 DEBUG нес-плана Сверка ПАО Россети все филиалы - 108: println(dzoNum)
+5
+2025-09-03 22:42:03.524 DEBUG нес-плана Сверка ПАО Россети все филиалы - 109: dZO = "Россети Урал (ГК)"
+2025-09-03 22:42:03.524 DEBUG нес-плана Сверка ПАО Россети все филиалы - 110: a = 54
+2025-09-03 22:42:03.525 DEBUG нес-плана Сверка ПАО Россети все филиалы - 111: if (x1.contains("Урал"))
+2025-09-03 22:42:03.526 DEBUG нес-плана Сверка ПАО Россети все филиалы - 1: dzoNum = dzoNum + 1
+2025-09-03 22:42:03.536 DEBUG нес-плана Сверка ПАО Россети все филиалы - 2: Script1718980020443.Numbers(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO, dzoNum, filialNum)
+6
+Россети Урал
+Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Table Data/Факт Отпуск в сеть за отчётный период 6
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Table Data/План Отпуск в сеть за отчётный период 6
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+a=54
+page1: 5.52
+
+page2: 5.43
+file Plan: 5.38
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+file Fact: 5.35
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+2025-09-03 22:42:10.905 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to verify equal between actual object '6' and expected object '0' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object '6' and expected object '0' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:146)
+	at jdk.internal.reflect.GeneratedMethodAccessor28.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.Numbers(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:727)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.run(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:332)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1756912604447.run(TempTestSuite1756912604447.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+6
+a=54
+Россети Урал (ГК)
+(ГК)
+Россети Урал (ГК)
+0
+10
+20
+30
+40
+50
+60
+70
+АО ЕЭСК
+Пермэнерго
+Свердловэнерго
+Челябэнерго
+0
+10
+20
+30
+40
+50
+60
+70
+6
+АО ЕЭСК
+Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Факт Отпуск в сеть за отчётный период АО ЕЭСК
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/План Отпуск в сеть за отчётный период АО ЕЭСК
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+a=58
+page1: 6.09
+
+page2: 5.57
+
+file Plan: 6.03
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+file Fact: 5.7
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+2025-09-03 22:44:55.015 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to verify equal between actual object '6' and expected object '0' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object '6' and expected object '0' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:146)
+	at jdk.internal.reflect.GeneratedMethodAccessor28.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.Numbers(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:727)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.Filials(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:1648)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.Numbers(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:734)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.run(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:332)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1756912604447.run(TempTestSuite1756912604447.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+6
+a=58
+6
+Пермэнерго
+Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Факт Отпуск в сеть за отчётный период Пермэнерго
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/План Отпуск в сеть за отчётный период Пермэнерго
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+a=55
+page1: 7.13
+
+page2: 7.08
+
+file Plan: 6.84
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+file Fact: 6.91
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+2025-09-03 22:45:02.877 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to verify equal between actual object '6' and expected object '0' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object '6' and expected object '0' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:146)
+	at jdk.internal.reflect.GeneratedMethodAccessor28.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.Numbers(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:727)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.Filials(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:1660)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.Numbers(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:734)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.run(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:332)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1756912604447.run(TempTestSuite1756912604447.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+6
+a=55
+6
+Свердловэнерго
+Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Факт Отпуск в сеть за отчётный период Свердловэнерго
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/План Отпуск в сеть за отчётный период Свердловэнерго
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+a=56
+page1: 3.82
+
+page2: 3.82
+
+file Plan: 3.73
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+file Fact: 3.69
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+6
+a=56
+2025-09-03 22:45:10.843 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to verify equal between actual object '6' and expected object '0' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object '6' and expected object '0' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:146)
+	at jdk.internal.reflect.GeneratedMethodAccessor28.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.Numbers(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:727)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.Filials(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:1672)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.Numbers(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:734)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.run(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:332)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1756912604447.run(TempTestSuite1756912604447.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+6
+Челябэнерго
+Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Факт Отпуск в сеть за отчётный период Челябэнерго
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/План Отпуск в сеть за отчётный период Челябэнерго
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+a=57
+page1: 6.54
+
+page2: 6.51
+
+file Plan: 6.43
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+file Fact: 6.51
+2025-09-03 22:45:17.806 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to verify equal between actual object '5' and expected object '0' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object '5' and expected object '0' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:146)
+	at jdk.internal.reflect.GeneratedMethodAccessor28.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.Numbers(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:727)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.Filials(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:1684)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.Numbers(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:734)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.run(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:332)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1756912604447.run(TempTestSuite1756912604447.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+5
+a=57
+2025-09-03 22:46:40.503 DEBUG нес-плана Сверка ПАО Россети все филиалы - 113: println(dzoNum)
+6
+2025-09-03 22:46:40.503 DEBUG нес-плана Сверка ПАО Россети все филиалы - 114: dZO = "Россети Центр (ГК)"
+2025-09-03 22:46:40.503 DEBUG нес-плана Сверка ПАО Россети все филиалы - 115: a = 1
+2025-09-03 22:46:40.504 DEBUG нес-плана Сверка ПАО Россети все филиалы - 116: if (x1.contains("Центр (ГК)") || x1.contains("Центр(ГК)"))
+2025-09-03 22:46:40.505 DEBUG нес-плана Сверка ПАО Россети все филиалы - 117: else
+2025-09-03 22:46:40.506 DEBUG нес-плана Сверка ПАО Россети все филиалы - 1: Script1718980020443.NoData(a, typeOfData, todaysDate, fileInt, fileDouble, dZO)
+1
+03.09.2025
+0
+0.0
+Россети Центр (ГК)
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+2025-09-03 22:46:44.735 DEBUG нес-плана Сверка ПАО Россети все филиалы - 118: println(dzoNum)
+6
+2025-09-03 22:46:44.736 DEBUG нес-плана Сверка ПАО Россети все филиалы - 119: dZO = "Россети Центр и Приволжье (ГК)"
+2025-09-03 22:46:44.737 DEBUG нес-плана Сверка ПАО Россети все филиалы - 120: a = 18
+2025-09-03 22:46:44.737 DEBUG нес-плана Сверка ПАО Россети все филиалы - 121: if (x1.contains("Приволжье"))
+2025-09-03 22:46:44.738 DEBUG нес-плана Сверка ПАО Россети все филиалы - 122: else
+2025-09-03 22:46:44.738 DEBUG нес-плана Сверка ПАО Россети все филиалы - 1: Script1718980020443.NoData(a, typeOfData, todaysDate, fileInt, fileDouble, dZO)
+18
+03.09.2025
+0
+0.0
+Россети Центр и Приволжье (ГК)
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+2025-09-03 22:46:48.980 DEBUG нес-плана Сверка ПАО Россети все филиалы - 123: println(dzoNum)
+6
+2025-09-03 22:46:48.981 DEBUG нес-плана Сверка ПАО Россети все филиалы - 124: dZO = "Россети Юг"
+2025-09-03 22:46:48.981 DEBUG нес-плана Сверка ПАО Россети все филиалы - 125: a = 59
+2025-09-03 22:46:48.982 DEBUG нес-плана Сверка ПАО Россети все филиалы - 126: if (x1.contains("Юг"))
+2025-09-03 22:46:48.982 DEBUG нес-плана Сверка ПАО Россети все филиалы - 1: dzoNum = dzoNum + 1
+2025-09-03 22:46:48.983 DEBUG нес-плана Сверка ПАО Россети все филиалы - 2: Script1718980020443.Numbers(a, typeOfData, todaysDate, pageInt, fileInt, pageDouble, fileDouble, dZO, dzoNum, filialNum)
+7
+Россети Юг
+Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Table Data/Факт Отпуск в сеть за отчётный период 7
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+Выполнение бизнес-плана/Значения со страницы Выполнение бизнес-плана/Table Data/План Отпуск в сеть за отчётный период 7
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+3
+9
+2025
+2025 год -
+ 1 квартал,  2 квартал,  3 квартал - Июль
+1 квартал, 2 квартал, 3 квартал - Июль
+a=59
+page1: 
+page2: 
+file Plan: 9.39
+2025-09-03 22:46:54.046 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Выполнение бизнес-плана/Выполнение бизнес-плана Сверка ПАО Россети все филиалы FAILED.
+Reason:
+java.lang.NumberFormatException: empty String
+	at java.base/jdk.internal.math.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:1842)
+	at java.base/jdk.internal.math.FloatingDecimal.parseDouble(FloatingDecimal.java:110)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.Numbers(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:699)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.run(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:374)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1756912604447.run(TempTestSuite1756912604447.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+2025-09-03 22:46:54.048 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Выполнение бизнес-плана/Выполнение бизнес-плана Сверка ПАО Россети все филиалы FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify equal between actual object '6' and expected object '0' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object '6' and expected object '0' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:146)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.Numbers(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:727)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.run(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:147)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1756912604447.run(TempTestSuite1756912604447.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:77)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:146)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.Numbers(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:727)
+	at Выполнение бизнес-плана Сверка ПАО Россети все филиалы.run(Выполнение бизнес-плана Сверка ПАО Россети все филиалы:147)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1756912604447.run(TempTestSuite1756912604447.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual object '6' and expected object '0' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	... 24 more
+
+2025-09-03 22:46:54.050 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Выполнение бизнес-плана/Выполнение бизнес-плана Сверка ПАО Россети все филиалы
+2025-09-03 22:46:54.462 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2025-09-03 22:46:54.462 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/Пн-Ср-Пт/Сверка с ПБЭ
+2025-09-03 22:46:54.462 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================
